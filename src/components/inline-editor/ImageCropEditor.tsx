@@ -59,13 +59,13 @@ export function ImageCropEditor({
 
     // Validate file type
     if (!file.type.startsWith('image/')) {
-      alert('Prosím vyberte obrázok (JPG, PNG, WebP)');
+      alert('Prosím vyberte obrázek (JPG, PNG, WebP)');
       return;
     }
 
     // Validate file size (max 5MB)
     if (file.size > 5 * 1024 * 1024) {
-      alert('Obrázok je príliš veľký. Maximum je 5MB.');
+      alert('Obrázek je příliš velký. Maximum je 5MB.');
       return;
     }
 
@@ -93,11 +93,11 @@ export function ImageCropEditor({
           setPosX(50);
           setPosY(50);
         } else {
-          setUploadError(result.error || 'Chyba pri nahrávaní');
+          setUploadError(result.error || 'Chyba při nahrávání');
         }
       } catch (error) {
         console.error('[ImageCropEditor] Upload error:', error);
-        setUploadError('Chyba pri nahrávaní obrázka');
+        setUploadError('Chyba při nahrávání obrázku');
       } finally {
         setIsUploading(false);
       }
@@ -219,14 +219,14 @@ export function ImageCropEditor({
                   <div className="absolute inset-0 flex items-center justify-center bg-black/0 hover:bg-black/20 transition-colors">
                     <div className="opacity-0 hover:opacity-100 transition-opacity bg-black/50 text-white px-3 py-1.5 rounded-full text-sm flex items-center gap-2">
                       <Move className="w-4 h-4" />
-                      Ťahaj pre posun
+                      Táhni pro posun
                     </div>
                   </div>
                 </>
               ) : (
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-400">
                   <Upload className="w-12 h-12 mb-2" />
-                  <span>Žiadny obrázok</span>
+                  <span>Žádný obrázek</span>
                 </div>
               )}
             </div>
@@ -278,12 +278,12 @@ export function ImageCropEditor({
                 {isUploading ? (
                   <>
                     <Loader2 className="w-5 h-5 animate-spin" />
-                    Nahrávam...
+                    Nahrávám...
                   </>
                 ) : (
                   <>
                     <Upload className="w-5 h-5" />
-                    {image ? 'Nahrať nový' : 'Nahrať obrázok'}
+                    {image ? 'Nahrát nový' : 'Nahrát obrázek'}
                   </>
                 )}
               </button>
@@ -307,7 +307,7 @@ export function ImageCropEditor({
 
             {/* Help text */}
             <p className="text-sm text-gray-500 text-center mb-4">
-              Tip: Po nahratí môžete obrázok posúvať ťahaním a zoomovať posuvníkom.
+              Tip: Po nahrání můžete obrázek posouvat tažením a zoomovat posuvníkem.
             </p>
           </div>
 
@@ -318,7 +318,7 @@ export function ImageCropEditor({
               className="w-full flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-3 px-4 rounded-xl transition-colors"
             >
               <Check className="w-5 h-5" />
-              Uložiť zmeny
+              Uložit změny
             </button>
           </div>
         </Drawer.Content>

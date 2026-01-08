@@ -264,13 +264,13 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
       setUploadProgress(null);
       setMessage({
         type: 'success',
-        text: `Obrázok bol nahraný (${Math.round(result.size / 1024)} KB)`,
+        text: `Obrázek byl nahrán (${Math.round(result.size / 1024)} KB)`,
       });
     } catch (error) {
       setUploadProgress(null);
       setMessage({
         type: 'error',
-        text: error instanceof Error ? error.message : 'Chyba pri nahrávaní',
+        text: error instanceof Error ? error.message : 'Chyba při nahrávání',
       });
     } finally {
       setUploading(false);
@@ -321,9 +321,9 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
     }
 
     if (result.error) {
-      setMessage({ type: 'error', text: 'Chyba pri ukladaní: ' + result.error.message });
+      setMessage({ type: 'error', text: 'Chyba při ukládání: ' + result.error.message });
     } else {
-      setMessage({ type: 'success', text: 'Zmeny boli uložené ako rozpracované.' });
+      setMessage({ type: 'success', text: 'Změny byly uloženy jako rozpracované.' });
     }
 
     setSaving(false);
@@ -367,7 +367,7 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
     }
 
     if (result.error) {
-      setMessage({ type: 'error', text: 'Chyba pri publikovaní: ' + result.error.message });
+      setMessage({ type: 'error', text: 'Chyba při publikování: ' + result.error.message });
     } else {
       // Revalidate the partner page to show changes immediately
       fetch(`/api/revalidate?path=/taxi/${partner.city_slug}/${partner.slug}`, {
@@ -376,7 +376,7 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
 
       setMessage({
         type: 'success',
-        text: 'Zmeny boli publikované! Stránka sa aktualizuje do niekoľkých sekúnd.',
+        text: 'Změny byly publikovány! Stránka se aktualizuje během několika sekund.',
       });
     }
 
@@ -410,7 +410,7 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
-                Späť
+                Zpět
               </Link>
               <div className="h-6 w-px bg-gray-300" />
               <h1 className="text-lg font-semibold text-gray-900">{partner.name}</h1>
@@ -421,14 +421,14 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
                 disabled={saving}
                 className="px-4 py-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 disabled:opacity-50 transition-colors"
               >
-                {saving ? 'Ukladám...' : 'Uložiť rozpracované'}
+                {saving ? 'Ukládám...' : 'Uložit rozpracované'}
               </button>
               <button
                 onClick={publishChanges}
                 disabled={submitting}
                 className="px-4 py-2 text-white bg-purple-600 rounded-lg hover:bg-purple-700 disabled:opacity-50 transition-colors"
               >
-                {submitting ? 'Publikujem...' : 'Publikovať zmeny'}
+                {submitting ? 'Publikuji...' : 'Publikovat změny'}
               </button>
             </div>
           </div>
@@ -446,12 +446,12 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
                 </svg>
               </div>
               <div className="flex-1">
-                <h3 className="text-sm font-medium text-amber-800">Vaša posledná žiadosť bola zamietnutá</h3>
+                <h3 className="text-sm font-medium text-amber-800">Vaše poslední žádost byla zamítnuta</h3>
                 <p className="mt-1 text-sm text-amber-700">
-                  {rejectionMessage || 'Bez uvedenia dôvodu.'}
+                  {rejectionMessage || 'Bez uvedení důvodu.'}
                 </p>
                 <p className="mt-2 text-sm text-amber-600">
-                  Údaje boli obnovené na pôvodnú verziu. Môžete vykonať úpravy a odoslať novú žiadosť.
+                  Údaje byly obnoveny na původní verzi. Můžete provést úpravy a odeslat novou žádost.
                 </p>
               </div>
               <button
@@ -491,11 +491,11 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
             <div className="border-b border-gray-200">
               <nav className="flex">
                 {[
-                  { id: 'general', label: 'Základné info' },
-                  { id: 'hero', label: 'Hero sekcia' },
-                  { id: 'appearance', label: 'Vzhľad' },
-                  { id: 'gallery', label: 'Galéria' },
-                  { id: 'social', label: 'Sociálne siete' },
+                  { id: 'general', label: 'Základní info' },
+                  { id: 'hero', label: 'Hero sekce' },
+                  { id: 'appearance', label: 'Vzhled' },
+                  { id: 'gallery', label: 'Galerie' },
+                  { id: 'social', label: 'Sociální sítě' },
                 ].map((tab) => (
                   <button
                     key={tab.id}
@@ -518,7 +518,7 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
                 <div className="space-y-6">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Názov taxislužby
+                      Název taxislužby
                     </label>
                     <input
                       type="text"
@@ -531,7 +531,7 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
                   <div>
                     <div className="flex items-center justify-between mb-2">
                       <label className="block text-sm font-medium text-gray-700">
-                        Popis (sekcia "O nás")
+                        Popis (sekce "O nás")
                       </label>
                       <button
                         type="button"
@@ -562,7 +562,7 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">
-                        Telefón
+                        Telefon
                       </label>
                       <input
                         type="tel"
@@ -604,7 +604,7 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
                         Služby
                       </label>
                       <label className="flex items-center gap-2 cursor-pointer">
-                        <span className="text-xs text-gray-500">Zobraziť na stránke</span>
+                        <span className="text-xs text-gray-500">Zobrazit na stránce</span>
                         <button
                           type="button"
                           onClick={() => handleChange('show_services', !formData.show_services)}
@@ -622,7 +622,7 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
                     </div>
                     {!formData.show_services && (
                       <p className="text-xs text-amber-600 mb-3">
-                        Služby sa nezobrazia na vašej stránke. Zapnite prepínač ak ich chcete zobraziť.
+                        Služby se nezobrazí na vaší stránce. Zapněte přepínač pokud je chcete zobrazit.
                       </p>
                     )}
                     <div className="flex flex-wrap gap-2">
@@ -649,7 +649,7 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
                 <div className="space-y-6">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Hero obrázok
+                      Hero obrázek
                     </label>
 
                     {/* Current image preview with zoom/position */}
@@ -757,7 +757,7 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
                             <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                             </svg>
-                            <span className="text-sm text-gray-600">Nahrať obrázok z počítača</span>
+                            <span className="text-sm text-gray-600">Nahrát obrázek z počítače</span>
                           </>
                         )}
                       </button>
@@ -874,7 +874,7 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
                                 type="button"
                                 onClick={() => handleGalleryRemove(index)}
                                 className="p-2 bg-red-600 text-white rounded-full hover:bg-red-700 transition-colors"
-                                title="Odstrániť obrázok"
+                                title="Odstranit obrázek"
                               >
                                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
@@ -918,21 +918,21 @@ export function PartnerEditor({ partner, initialDraft, userEmail, rejectionMessa
                               <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
                               <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
                             </svg>
-                            <span className="text-sm text-gray-600">Nahrávam obrázky...</span>
+                            <span className="text-sm text-gray-600">Nahrávám obrázky...</span>
                           </>
                         ) : (
                           <>
                             <svg className="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                             </svg>
-                            <span className="text-sm text-gray-600">Pridať obrázky do galérie</span>
+                            <span className="text-sm text-gray-600">Přidat obrázky do galerie</span>
                           </>
                         )}
                       </button>
                     )}
 
                     <p className="text-xs text-gray-500 mt-2">
-                      Podporované formáty: JPG, PNG, WebP, GIF (max 5MB na obrázok). Môžete vybrať viacero naraz.
+                      Podporované formáty: JPG, PNG, WebP, GIF (max 5MB na obrázek). Můžete vybrat více najednou.
                     </p>
                   </div>
                 </div>

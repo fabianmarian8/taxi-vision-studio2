@@ -1,7 +1,7 @@
 /**
- * NearbyMunicipalities - Zobrazuje najbližšie obce v okolí
+ * NearbyMunicipalities - Zobrazuje nejbližší obce v okolí
  *
- * Zlepšuje interné prelinkovanie pre SEO - používa geografickú blízkosť
+ * Zlepšuje interní prolinkování pro SEO - používá geografickou blízkost
  */
 
 import Link from 'next/link';
@@ -65,7 +65,7 @@ export function NearbyMunicipalities({
       <div className="container mx-auto max-w-6xl">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-xl md:text-2xl font-bold text-foreground">
-            Okolie obce {currentMunicipality.name}
+            Okolí obce {currentMunicipality.name}
           </h2>
           <Link
             href={`/taxi/${regionSlug}/${district.slug}`}
@@ -116,7 +116,7 @@ export function NearbyMunicipalities({
         {/* Other district municipalities */}
         {otherDistrictMunicipalities.length > 0 && (
           <div>
-            <p className="text-sm text-foreground/60 mb-2">V blízkych okresoch:</p>
+            <p className="text-sm text-foreground/60 mb-2">V blízkých okresech:</p>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
               {otherDistrictMunicipalities.map((mun) => {
                 const hasTaxi = hasTaxiServices(mun);
@@ -151,7 +151,7 @@ export function NearbyMunicipalities({
         )}
 
         <p className="mt-4 text-sm text-foreground/60 text-center">
-          Zobrazené obce sú najbližšie k obci {currentMunicipality.name} podľa vzdialenosti
+          Zobrazené obce jsou nejbližší k obci {currentMunicipality.name} podle vzdálenosti
         </p>
       </div>
     </section>

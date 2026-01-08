@@ -66,9 +66,6 @@ export interface CityData {
 // Načtení dat z JSON souboru
 export const czechCities: CityData[] = citiesDataJson.cities as CityData[];
 
-// Backward compatibility alias (deprecated - use czechCities)
-export const slovakCities = czechCities;
-
 export const getCityBySlug = (slug: string): CityData | undefined => {
   return czechCities.find(city => city.slug === slug);
 };

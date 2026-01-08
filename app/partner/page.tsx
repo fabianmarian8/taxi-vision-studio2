@@ -31,10 +31,10 @@ export default async function PartnerDashboard() {
     .eq('user_id', user.id);
 
   const statusLabels: Record<string, { label: string; color: string }> = {
-    draft: { label: 'Rozpracované', color: 'bg-gray-100 text-gray-700' },
-    pending: { label: 'Čaká na schválenie', color: 'bg-yellow-100 text-yellow-700' },
-    approved: { label: 'Schválené', color: 'bg-green-100 text-green-700' },
-    rejected: { label: 'Zamietnuté', color: 'bg-red-100 text-red-700' },
+    draft: { label: 'Rozpracováno', color: 'bg-gray-100 text-gray-700' },
+    pending: { label: 'Čeká na schválení', color: 'bg-yellow-100 text-yellow-700' },
+    approved: { label: 'Schváleno', color: 'bg-green-100 text-green-700' },
+    rejected: { label: 'Zamítnuto', color: 'bg-red-100 text-red-700' },
   };
 
   return (
@@ -71,7 +71,7 @@ export default async function PartnerDashboard() {
                   type="submit"
                   className="text-gray-600 hover:text-gray-900 text-sm font-medium"
                 >
-                  Odhlásiť sa
+                  Odhlásit se
                 </button>
               </form>
             </div>
@@ -84,13 +84,13 @@ export default async function PartnerDashboard() {
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-gray-900">Vaše taxislužby</h2>
           <p className="text-gray-600 mt-1">
-            Spravujte informácie o vašich taxislužbách
+            Spravujte informace o vašich taxislužbách
           </p>
         </div>
 
         {error && (
           <div className="bg-red-50 border border-red-200 text-red-700 p-4 rounded-lg mb-6">
-            Chyba pri načítaní dát: {error.message}
+            Chyba při načítání dat: {error.message}
           </div>
         )}
 
@@ -112,12 +112,12 @@ export default async function PartnerDashboard() {
               </svg>
             </div>
             <h3 className="text-lg font-medium text-gray-900 mb-2">
-              Žiadne taxislužby
+              Žádné taxislužby
             </h3>
             <p className="text-gray-500">
-              Zatiaľ nemáte priradenú žiadnu taxislužbu.
+              Zatím nemáte přiřazenou žádnou taxislužbu.
               <br />
-              Kontaktujte administrátora pre pridanie vašej taxislužby.
+              Kontaktujte administrátora pro přidání vaší taxislužby.
             </p>
           </div>
         )}
@@ -155,8 +155,8 @@ export default async function PartnerDashboard() {
 
                     {latestDraft?.submitted_at && (
                       <p className="text-sm text-gray-500 mb-4">
-                        Odoslané:{' '}
-                        {new Date(latestDraft.submitted_at).toLocaleDateString('sk-SK')}
+                        Odesláno:{' '}
+                        {new Date(latestDraft.submitted_at).toLocaleDateString('cs-CZ')}
                       </p>
                     )}
 
@@ -165,7 +165,7 @@ export default async function PartnerDashboard() {
                         href={`/partner/edit/${partner.slug}`}
                         className="flex-1 bg-purple-600 text-white text-center py-2 px-4 rounded-lg font-medium hover:bg-purple-700 transition-colors"
                       >
-                        Upraviť
+                        Upravit
                       </Link>
                       <Link
                         href={`/taxi/${partner.city_slug}/${partner.slug}`}

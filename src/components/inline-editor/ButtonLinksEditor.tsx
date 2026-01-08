@@ -32,10 +32,10 @@ interface LinkField {
 }
 
 const LINK_FIELDS: LinkField[] = [
-  { key: 'whatsapp', label: 'WhatsApp', icon: <MessageCircle className="w-4 h-4" />, placeholder: '+421...', color: 'bg-green-500' },
+  { key: 'whatsapp', label: 'WhatsApp', icon: <MessageCircle className="w-4 h-4" />, placeholder: '+420...', color: 'bg-green-500' },
   { key: 'booking_url', label: 'Časová objednávka', icon: <Clock className="w-4 h-4" />, placeholder: 'https://...', color: 'bg-purple-600' },
-  { key: 'pricelist_url', label: 'Cenník', icon: <FileText className="w-4 h-4" />, placeholder: 'https://...', color: 'bg-amber-500' },
-  { key: 'transport_rules_url', label: 'Prepravný poriadok', icon: <ScrollText className="w-4 h-4" />, placeholder: 'https://...', color: 'bg-blue-500' },
+  { key: 'pricelist_url', label: 'Ceník', icon: <FileText className="w-4 h-4" />, placeholder: 'https://...', color: 'bg-amber-500' },
+  { key: 'transport_rules_url', label: 'Přepravní řád', icon: <ScrollText className="w-4 h-4" />, placeholder: 'https://...', color: 'bg-blue-500' },
   { key: 'email', label: 'Email', icon: <Mail className="w-4 h-4" />, placeholder: 'email@example.com', color: 'bg-gray-500' },
   { key: 'facebook', label: 'Facebook', icon: <Facebook className="w-4 h-4" />, placeholder: 'https://facebook.com/...', color: 'bg-blue-600' },
   { key: 'instagram', label: 'Instagram', icon: <Instagram className="w-4 h-4" />, placeholder: 'https://instagram.com/...', color: 'bg-pink-500' },
@@ -91,10 +91,10 @@ export function ButtonLinksEditor({
           <div className="flex items-center justify-between px-4 py-2 border-b">
             <div>
               <Drawer.Title className="text-lg font-semibold text-gray-900">
-                Tlačidlá a odkazy
+                Tlačítka a odkazy
               </Drawer.Title>
               <p className="text-sm text-gray-500">
-                {activeCount} aktívnych tlačidiel
+                {activeCount} aktivních tlačítek
               </p>
             </div>
             <button
@@ -135,7 +135,7 @@ export function ButtonLinksEditor({
                     <button
                       onClick={() => handleClearLink(field.key)}
                       className="p-1.5 text-gray-400 hover:text-red-500 transition-colors"
-                      title="Odstrániť"
+                      title="Odstranit"
                     >
                       <X className="w-4 h-4" />
                     </button>
@@ -149,7 +149,7 @@ export function ButtonLinksEditor({
             </div>
 
             <p className="text-xs text-gray-500 text-center mt-3">
-              Prázdne polia nebudú zobrazené na stránke.
+              Prázdná pole nebudou zobrazena na stránce.
             </p>
           </div>
 
@@ -160,7 +160,7 @@ export function ButtonLinksEditor({
               className="w-full flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-2.5 px-4 rounded-lg transition-colors"
             >
               <Check className="w-4 h-4" />
-              Uložiť
+              Uložit
             </button>
           </div>
         </Drawer.Content>

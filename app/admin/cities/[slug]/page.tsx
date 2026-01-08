@@ -73,13 +73,13 @@ export default function AdminCityDetailPage() {
       });
 
       if (response.ok) {
-        alert('Mesto bolo uložené!');
+        alert('Město bylo uloženo!');
       } else {
-        alert('Chyba pri ukladaní');
+        alert('Chyba při ukládání');
       }
     } catch (err) {
       console.error(err);
-      alert('Chyba pri ukladaní');
+      alert('Chyba při ukládání');
     } finally {
       setSaving(false);
     }
@@ -142,7 +142,7 @@ export default function AdminCityDetailPage() {
   if (loading) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
-        <p>Načítavam...</p>
+        <p>Načítám...</p>
       </div>
     );
   }
@@ -152,11 +152,11 @@ export default function AdminCityDetailPage() {
       <div className="min-h-screen bg-background flex items-center justify-center">
         <Card>
           <CardHeader>
-            <CardTitle>Mesto nenájdené</CardTitle>
+            <CardTitle>Město nenalezeno</CardTitle>
           </CardHeader>
           <CardContent>
             <Link href="/admin/cities">
-              <Button>← Späť na zoznam</Button>
+              <Button>← Zpět na seznam</Button>
             </Link>
           </CardContent>
         </Card>
@@ -171,12 +171,12 @@ export default function AdminCityDetailPage() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <Link href="/admin/cities">
-              <Button variant="outline">← Späť</Button>
+              <Button variant="outline">← Zpět</Button>
             </Link>
             <h1 className="text-2xl font-bold">{city.name}</h1>
           </div>
           <Button onClick={handleSave} disabled={saving}>
-            {saving ? 'Ukladám...' : 'Uložiť zmeny'}
+            {saving ? 'Ukládám...' : 'Uložit změny'}
           </Button>
         </div>
       </header>
@@ -186,11 +186,11 @@ export default function AdminCityDetailPage() {
         {/* Základné info */}
         <Card className="mb-6">
           <CardHeader>
-            <CardTitle>Základné informácie</CardTitle>
+            <CardTitle>Základní informace</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
             <div>
-              <Label htmlFor="name">Názov mesta</Label>
+              <Label htmlFor="name">Název města</Label>
               <Input
                 id="name"
                 value={city.name}
@@ -245,17 +245,17 @@ export default function AdminCityDetailPage() {
               <div>
                 <CardTitle>Taxislužby</CardTitle>
                 <CardDescription>
-                  Spravuj taxislužby v tomto meste
+                  Spravovat taxislužby v tomto městě
                 </CardDescription>
               </div>
               <Button onClick={addTaxiService} variant="outline">
-                + Pridať taxislužbu
+                + Přidat taxislužbu
               </Button>
             </div>
           </CardHeader>
           <CardContent>
             {city.taxiServices.length === 0 ? (
-              <p className="text-sm text-muted-foreground">Žiadne taxislužby</p>
+              <p className="text-sm text-muted-foreground">Žádné taxislužby</p>
             ) : (
               <div className="space-y-4">
                 {city.taxiServices.map((service, index) => (
@@ -269,25 +269,25 @@ export default function AdminCityDetailPage() {
                             size="sm"
                             onClick={() => removeTaxiService(index)}
                           >
-                            Odstrániť
+                            Odstranit
                           </Button>
                         </div>
 
                         <div>
-                          <Label>Názov</Label>
+                          <Label>Název</Label>
                           <Input
                             value={service.name}
                             onChange={(e) => updateTaxiService(index, 'name', e.target.value)}
-                            placeholder="Napr. Taxi Plus"
+                            placeholder="Např. Taxi Plus"
                           />
                         </div>
 
                         <div>
-                          <Label>Telefón</Label>
+                          <Label>Telefon</Label>
                           <Input
                             value={service.phone || ''}
                             onChange={(e) => updateTaxiService(index, 'phone', e.target.value)}
-                            placeholder="+421901234567"
+                            placeholder="+420123456789"
                           />
                         </div>
 
@@ -313,7 +313,7 @@ export default function AdminCityDetailPage() {
                           >
                             <span className="inline-flex items-center gap-2">
                               <span className="px-2 py-0.5 bg-yellow-400 text-black rounded text-xs font-bold">PREMIUM</span>
-                              Zlaté zvýraznenie s TOP pozíciou (3,99€/mes)
+                              Zlaté zvýraznění s TOP pozicí (3,99€/měs)
                             </span>
                           </Label>
                         </div>
@@ -331,7 +331,7 @@ export default function AdminCityDetailPage() {
                           >
                             <span className="inline-flex items-center gap-2">
                               <span className="px-2 py-0.5 bg-purple-600 text-white rounded text-xs font-bold">PARTNER</span>
-                              Fialové zvýraznenie s overením (8,99€/mes)
+                              Fialové zvýraznění s ověřením (8,99€/měs)
                             </span>
                           </Label>
                         </div>
@@ -347,7 +347,7 @@ export default function AdminCityDetailPage() {
         {/* Save button at bottom */}
         <div className="mt-6 flex justify-end">
           <Button onClick={handleSave} disabled={saving} size="lg">
-            {saving ? 'Ukladám...' : 'Uložiť všetky zmeny'}
+            {saving ? 'Ukládám...' : 'Uložit všechny změny'}
           </Button>
         </div>
       </main>

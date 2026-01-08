@@ -65,12 +65,12 @@ function CityRouteMapInner({
     // Add start marker
     L.marker(fromPosition, { icon: startIcon })
       .addTo(map)
-      .bindPopup(`<div class="font-bold">${fromName}</div><div class="text-sm">Štart</div>`);
+      .bindPopup(`<div class="font-bold">${fromName}</div><div class="text-sm">Start</div>`);
 
     // Add end marker
     L.marker(toPosition, { icon: endIcon })
       .addTo(map)
-      .bindPopup(`<div class="font-bold">${toName}</div><div class="text-sm">Cieľ</div>`);
+      .bindPopup(`<div class="font-bold">${toName}</div><div class="text-sm">Cíl</div>`);
 
     // Add straight line between points (dashed for visual representation)
     L.polyline([fromPosition, toPosition], {
@@ -133,7 +133,7 @@ export function CityRouteMap(props: CityRouteMapProps) {
   if (!shouldRender) {
     return (
       <div className="w-full h-[350px] md:h-[400px] rounded-xl overflow-hidden border-2 border-foreground/10 bg-foreground/5 flex items-center justify-center">
-        <span className="text-foreground/50">Načítavam mapu...</span>
+        <span className="text-foreground/50">Načítám mapu...</span>
       </div>
     );
   }

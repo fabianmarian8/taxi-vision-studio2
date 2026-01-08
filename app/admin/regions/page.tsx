@@ -17,9 +17,9 @@ export default async function AdminRegionsPage() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <Link href="/admin">
-              <Button variant="outline">← Späť</Button>
+              <Button variant="outline">← Zpět</Button>
             </Link>
-            <h1 className="text-2xl font-bold">Správa regiónov</h1>
+            <h1 className="text-2xl font-bold">Správa krajů</h1>
           </div>
         </div>
       </header>
@@ -27,9 +27,9 @@ export default async function AdminRegionsPage() {
       <main className="container mx-auto px-4 py-8">
         <Card className="mb-6">
           <CardHeader>
-            <CardTitle>Celkový počet regiónov: {regions.length}</CardTitle>
+            <CardTitle>Celkový počet krajů: {regions.length}</CardTitle>
             <CardDescription>
-              Regióny Slovenska
+              Kraje České republiky
             </CardDescription>
           </CardHeader>
         </Card>
@@ -42,13 +42,13 @@ export default async function AdminRegionsPage() {
                 <CardHeader>
                   <CardTitle className="text-lg">{region}</CardTitle>
                   <CardDescription>
-                    {cities.length} {cities.length === 1 ? 'mesto' : cities.length < 5 ? 'mestá' : 'miest'}
+                    {cities.length} {cities.length === 1 ? 'město' : cities.length < 5 ? 'města' : 'měst'}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <Link href="/admin/cities">
                     <Button variant="outline" className="w-full">
-                      Zobraziť mestá
+                      Zobrazit města
                     </Button>
                   </Link>
                 </CardContent>

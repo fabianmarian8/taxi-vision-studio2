@@ -94,13 +94,13 @@ export function CityEditorProvider({
         originalDataRef.current = { ...originalDataRef.current, ...changes } as CityDraftData;
         return true;
       } else {
-        setSaveError(result.error || 'Chyba pri ukladaní');
+        setSaveError(result.error || 'Chyba při ukládání');
         setHasPendingChanges(true);
         return false;
       }
     } catch (error) {
       console.error('[CityEditor] Save error:', error);
-      setSaveError('Chyba siete');
+      setSaveError('Chyba sítě');
       setHasPendingChanges(true);
       return false;
     } finally {
@@ -188,7 +188,7 @@ export function CityEditorProvider({
             }`}
           >
             <Pencil className="h-4 w-4" />
-            {isEditMode ? 'Upravujem mesto' : 'Upraviť mesto'}
+            {isEditMode ? 'Upravuji město' : 'Upravit město'}
           </button>
 
           {/* Save status */}
@@ -197,14 +197,14 @@ export function CityEditorProvider({
               {isSaving && (
                 <div className="flex items-center gap-2 text-gray-500">
                   <Loader2 className="h-4 w-4 animate-spin" />
-                  <span className="text-sm">Ukladám...</span>
+                  <span className="text-sm">Ukládám...</span>
                 </div>
               )}
 
               {!isSaving && lastSaved && !hasPendingChanges && (
                 <div className="flex items-center gap-2 text-green-600">
                   <Check className="h-4 w-4" />
-                  <span className="text-sm">Uložené</span>
+                  <span className="text-sm">Uloženo</span>
                 </div>
               )}
 
@@ -221,7 +221,7 @@ export function CityEditorProvider({
                 className="flex items-center gap-1 px-3 py-1.5 rounded-full text-gray-600 hover:bg-gray-100 text-sm"
               >
                 <X className="h-4 w-4" />
-                Zrušiť
+                Zrušit
               </button>
             </>
           )}
@@ -280,7 +280,7 @@ export function EditableCityDescription({
           value={localValue}
           onChange={(e) => setLocalValue(e.target.value)}
           className={`w-full p-3 border-2 border-blue-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300 min-h-[100px] ${className}`}
-          placeholder="Popis mesta..."
+          placeholder="Popis města..."
         />
         <div className="flex gap-2 mt-2">
           <button
@@ -288,13 +288,13 @@ export function EditableCityDescription({
             className="px-3 py-1.5 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700"
           >
             <Save className="h-4 w-4 inline mr-1" />
-            Uložiť
+            Uložit
           </button>
           <button
             onClick={handleCancel}
             className="px-3 py-1.5 bg-gray-200 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-300"
           >
-            Zrušiť
+            Zrušit
           </button>
         </div>
       </div>

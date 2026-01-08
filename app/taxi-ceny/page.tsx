@@ -1,4 +1,4 @@
-/** Migrované z: src/vite-pages/TaxiPriceArticlePage.tsx */
+/** Migrováno z: src/vite-pages/TaxiPriceArticlePage.tsx */
 
 import { Metadata } from "next";
 import Image from "next/image";
@@ -15,19 +15,19 @@ import { ArticleSchema } from '@/components/schema/ArticleSchema';
 import { ArticleAuthor } from '@/components/ArticleAuthor';
 
 export const metadata: Metadata = {
-  title: 'Porovnanie cien taxislužieb v slovenských mestách | TaxiNearMe.sk',
-  description: 'Nástupné sadzby od 0,5€ do 3,5€, kilometrové tarify od 0,8€ do 1,5€. Detailný prehľad cien taxi na Slovensku.',
-  keywords: ['taxi ceny', 'taxi slovensko', 'porovnanie cien', 'taxislužby', 'taxi tarify', 'nástupné taxi', 'kilometrový tarif'],
+  title: 'Porovnání cen taxislužeb v českých městech | TaxiNearMe.cz',
+  description: 'Nástupní sazby od 40 Kč do 99 Kč, kilometrové tarify od 28 Kč do 45 Kč. Detailní přehled cen taxi v Česku.',
+  keywords: ['taxi ceny', 'taxi česko', 'porovnání cen', 'taxislužby', 'taxi tarify', 'nástupní taxi', 'kilometrový tarif'],
   openGraph: {
-    title: 'Porovnanie cien taxislužieb v slovenských mestách (2024/2025)',
-    description: 'Nástupné sadzby od 0,5€ do 3,5€, kilometrové tarify od 0,8€ do 1,5€. Detailný prehľad cien taxi na Slovensku.',
-    url: 'https://www.taxinearme.sk/taxi-ceny',
+    title: 'Porovnání cen taxislužeb v českých městech (2024/2025)',
+    description: 'Nástupní sazby od 40 Kč do 99 Kč, kilometrové tarify od 28 Kč do 45 Kč. Detailní přehled cen taxi v Česku.',
+    url: 'https://www.taxinearme.cz/taxi-ceny',
     type: 'article',
     images: [{
-      url: 'https://www.taxinearme.sk/blog-images/porovnanie-cien.jpg',
+      url: 'https://www.taxinearme.cz/blog-images/porovnanie-cien.jpg',
       width: 1200,
       height: 630,
-      alt: 'Porovnanie cien taxi'
+      alt: 'Porovnání cen taxi'
     }],
     publishedTime: '2025-01-15',
     modifiedTime: '2025-01-15'
@@ -35,15 +35,15 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     site: SEO_CONSTANTS.twitterSite,
-    title: 'Porovnanie cien taxislužieb v slovenských mestách (2024/2025)',
-    description: 'Nástupné sadzby od 0,5€ do 3,5€, kilometrové tarify od 0,8€ do 1,5€. Detailný prehľad cien taxi na Slovensku.',
-    images: ['https://www.taxinearme.sk/blog-images/porovnanie-cien.jpg']
+    title: 'Porovnání cen taxislužeb v českých městech (2024/2025)',
+    description: 'Nástupní sazby od 40 Kč do 99 Kč, kilometrové tarify od 28 Kč do 45 Kč. Detailní přehled cen taxi v Česku.',
+    images: ['https://www.taxinearme.cz/blog-images/porovnanie-cien.jpg']
   },
   alternates: {
-    canonical: 'https://www.taxinearme.sk/taxi-ceny',
+    canonical: 'https://www.taxinearme.cz/taxi-ceny',
     languages: {
-      'sk': 'https://www.taxinearme.sk/taxi-ceny',
-      'x-default': 'https://www.taxinearme.sk/taxi-ceny',
+      'cs': 'https://www.taxinearme.cz/taxi-ceny',
+      'x-default': 'https://www.taxinearme.cz/taxi-ceny',
     },
   }
 };
@@ -52,15 +52,15 @@ export default function TaxiPriceArticlePage() {
   return (
     <div className="min-h-screen bg-white">
       <ArticleSchema
-        title="Porovnanie cien taxislužieb v slovenských mestách (2024/2025)"
-        description="Nástupné sadzby od 0,5€ do 3,5€, kilometrové tarify od 0,8€ do 1,5€. Detailný prehľad cien taxi na Slovensku."
-        url="https://www.taxinearme.sk/taxi-ceny"
+        title="Porovnání cen taxislužeb v českých městech (2024/2025)"
+        description="Nástupní sazby od 40 Kč do 99 Kč, kilometrové tarify od 28 Kč do 45 Kč. Detailní přehled cen taxi v Česku."
+        url="https://www.taxinearme.cz/taxi-ceny"
         publishedTime="2025-01-15"
         modifiedTime="2025-01-15"
       />
       <Header />
       <SEOBreadcrumbs items={[
-        { label: 'Porovnanie cien taxi' }
+        { label: 'Porovnání cen taxi' }
       ]} />
 
       {/* Hero Section */}
@@ -70,22 +70,22 @@ export default function TaxiPriceArticlePage() {
         <div className="container mx-auto max-w-4xl relative z-10">
           <div className="flex flex-wrap items-center gap-3 mb-2">
             <span className="px-1.5 py-0.5 bg-primary/10 text-primary rounded-full text-[10px] font-semibold">
-              📊 Analýza
+              Analýza
             </span>
             <div className="flex items-center gap-1 text-[10px] text-foreground/60">
               <Calendar className="h-2.5 w-2.5" />
-              15. január 2025
+              15. leden 2025
             </div>
             <div className="hidden sm:block text-foreground/30">•</div>
             <ArticleAuthor variant="inline" />
           </div>
 
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-black mb-3 text-foreground leading-tight">
-            Porovnanie cien taxislužieb v slovenských mestách (2024/2025)
+            Porovnání cen taxislužeb v českých městech (2024/2025)
           </h1>
 
           <ShareButton
-            title="Porovnanie cien taxislužieb v slovenských mestách (2024/2025)"
+            title="Porovnání cen taxislužeb v českých městech (2024/2025)"
           />
         </div>
       </section>
@@ -96,96 +96,96 @@ export default function TaxiPriceArticlePage() {
           <article className="prose prose-sm max-w-none prose-headings:text-gray-900 prose-p:text-gray-800 prose-strong:text-gray-900 prose-li:text-gray-800">
 
             <p className="text-sm leading-relaxed">
-              <strong>Taxi služby na Slovensku ponúkajú široké spektrum cien v závislosti od regiónu.</strong> V roku 2024 a 2025 sme preskúmali cenníky viac než 30 miestnych taxislužieb na Slovensku - od metropoly až po menšie mestá. Zamerali sme sa na klasické taxislužby a ich oficiálne tarify (nástupné, cena za kilometer, čakacie sadzby). Získané údaje odhaľujú výrazné rozdiely: <strong>nástupné sadzby sa pohybujú od symbolických 0,5 € v menších mestách až po 3-3,5 € vo veľkých mestách</strong>, podobne sa líši aj tarifa za kilometer. V článku prinášame detailný prehľad týchto rozdielov, doplnený grafmi a odhadmi reálnych cien jázd. (Všetky ceny sú aktuálne k roku 2024-2025 a uvádzame ich v € s DPH.)
+              <strong>Taxi služby v Česku nabízejí široké spektrum cen v závislosti na regionu.</strong> V roce 2024 a 2025 jsme prozkoumali ceníky více než 30 místních taxislužeb v Česku - od metropole až po menší města. Zaměřili jsme se na klasické taxislužby a jejich oficiální tarify (nástupní, cena za kilometr, čekací sazby). Získané údaje odhalují výrazné rozdíly: <strong>nástupní sazby se pohybují od symbolických 40 Kč v menších městech až po 99 Kč ve velkých městech</strong>, podobně se liší i tarif za kilometr. V článku přinášíme detailní přehled těchto rozdílů, doplněný grafy a odhady reálných cen jízd. (Všechny ceny jsou aktuální k roku 2024-2025 a uvádíme je v Kč s DPH.)
             </p>
 
-            <h2 className="text-xl font-bold mt-4 mb-2">Nástupné sadzby: najvyššie v Bratislave, najnižšie v menších mestách</h2>
+            <h2 className="text-xl font-bold mt-4 mb-2">Nástupní sazby: nejvyšší v Praze, nejnižší v menších městech</h2>
 
             <div className="my-4">
               <Image
                 src="/images/article/001.webp"
-                alt="Porovnanie nástupných sadzieb taxislužieb v rôznych mestách Slovenska"
+                alt="Porovnání nástupních sazeb taxislužeb v různých městech Česka"
                 className="w-full rounded-lg"
                 width={1200}
                 height={600}
               />
               <p className="text-sm text-gray-600 italic mt-2 text-center">
-                Porovnanie nástupných sadzieb taxislužieb v rôznych mestách Slovenska (v €).
+                Porovnání nástupních sazeb taxislužeb v různých městech Česka (v Kč).
               </p>
             </div>
 
             <p>
-              <strong>Nástupné (fixný poplatok na začiatku jazdy)</strong> sa v rámci Slovenska značne líši. V Bratislave sa pohybuje typicky okolo <strong>3 €</strong> - mnohé tamojšie taxislužby si účtujú nástupné <strong>3,00 €</strong><sup>[1]</sup>, pričom niektoré aj <strong>3,50 €</strong><sup>[2]</sup> (čo je najvyššie spomedzi veľkých miest). Naopak v <strong>menších mestách</strong> býva nástupné poplatok symbolický: napríklad taxislužba v <strong>Ružomberku</strong> má nástupné len <strong>1,00 €</strong><sup>[3]</sup> a v <strong>Martine</strong> dokážu iba <strong>0,50 €</strong><sup>[4]</sup>. Ešte lacnejšie je to v niektorých regiónoch <strong>Popradu</strong>, kde základná sadzba začína už od <strong>0,60 €</strong><sup>[5]</sup>. <strong>Košice</strong>, ako druhé najväčšie mesto, sú v tomto smere prekvapivo lacné - viacere košické taxislužby majú nástupné <strong>1,00 - 1,50 €</strong><sup>[6]</sup>, čo je výrazne menej než v Bratislave. <strong>Prešov</strong> sa pohybuje približne okolo <strong>2,00 €</strong> (priemerná základná cena jazdy od 2 €<sup>[7]</sup>), <strong>Žilina</strong> okolo <strong>3,50 €</strong><sup>[8]</sup> a <strong>Nitra</strong> od <strong>2,50 €</strong><sup>[9]</sup>. Rozptyl je teda veľký - kým v hlavnom meste platíme za nasadnutie do vozidla takmer dvojnásobok oproti väčšine krajských miest, v malých mestách je nástupné zanedbateľnou položkou.
+              <strong>Nástupní (fixní poplatek na začátku jízdy)</strong> se v rámci Česka značně liší. V Praze se pohybuje typicky kolem <strong>60-99 Kč</strong> - mnohé tamní taxislužby si účtují nástupní <strong>60 Kč</strong><sup>[1]</sup>, přičemž některé i <strong>99 Kč</strong><sup>[2]</sup> (což je nejvyšší mezi velkými městy). Naopak v <strong>menších městech</strong> bývá nástupní poplatek symbolický: například taxislužba v <strong>Liberci</strong> má nástupní jen <strong>40 Kč</strong><sup>[3]</sup> a v <strong>Olomouci</strong> dokáží pouze <strong>35 Kč</strong><sup>[4]</sup>. Ještě levnější je to v některých regionech <strong>Zlína</strong>, kde základní sazba začíná už od <strong>30 Kč</strong><sup>[5]</sup>. <strong>Brno</strong>, jako druhé největší město, je v tomto směru překvapivě levné - vícero brněnských taxislužeb má nástupní <strong>40-50 Kč</strong><sup>[6]</sup>, což je výrazně méně než v Praze. <strong>Ostrava</strong> se pohybuje přibližně kolem <strong>50 Kč</strong> (průměrná základní cena jízdy od 50 Kč<sup>[7]</sup>), <strong>Plzeň</strong> kolem <strong>55 Kč</strong><sup>[8]</sup> a <strong>Hradec Králové</strong> od <strong>45 Kč</strong><sup>[9]</sup>. Rozptyl je tedy velký - zatímco v hlavním městě platíme za nasednutí do vozidla takřka dvojnásobek oproti většině krajských měst, v malých městech je nástupní zanedbatelnou položkou.
             </p>
 
             <p>
-              Takéto rozdiely odrážajú <strong>lokálne konkurenčné podmienky a náklady taxislužieb</strong>. Vo väčších mestách (najmä Bratislava) sú ceny vyššie pre väčší dopyt a nákladnejšiu prevádzku, zatiaľ čo v menších mestách tlačí ceny nadol nižšia kúpyschopnosť a snaha prilákať zákazníka. <strong>Porovnanie základných taríf v najväčších mestách ukazuje, že zákazníci majú široký výber podľa svojho rozpočtu</strong> - napríklad v Bratislave si môžu zvoliť drahšiu službu s nástupným 3,50 € a alebo lacnejšiu okolo 2,50 €<sup>[10]</sup>, v Košiciach zasa začína nástupné už od 1 €<sup>[6]</sup>. Dôležité však je uvedomiť si, že nízke nástupné nemusí vždy znamenať najlacnejšiu jazdu - treba brať do úvahy aj kilometrovú sadzbu a minimálne jazdné.
+              Takové rozdíly odrážejí <strong>lokální konkurenční podmínky a náklady taxislužeb</strong>. Ve větších městech (zejména Praha) jsou ceny vyšší pro větší poptávku a nákladnější provoz, zatímco v menších městech tlačí ceny dolů nižší kupní síla a snaha přilákat zákazníka. <strong>Porovnání základních tarifů v největších městech ukazuje, že zákazníci mají široký výběr podle svého rozpočtu</strong> - například v Praze si mohou zvolit dražší službu s nástupním 99 Kč nebo levnější kolem 50 Kč<sup>[10]</sup>, v Brně zase začíná nástupní už od 40 Kč<sup>[6]</sup>. Důležité však je uvědomit si, že nízké nástupní nemusí vždy znamenat nejlevnější jízdu - je třeba brát v úvahu i kilometrovou sazbu a minimální jízdné.
             </p>
 
-            <h2 className="text-xl font-bold mt-4 mb-2">Cena za kilometer: vyššia v hlavnom meste, inde často okolo 1 €/km</h2>
+            <h2 className="text-xl font-bold mt-4 mb-2">Cena za kilometr: vyšší v hlavním městě, jinde často kolem 28 Kč/km</h2>
 
             <div className="my-4">
               <Image
                 src="/images/article/002.webp"
-                alt="Porovnanie tarifnej ceny za kilometer jazdy v rôznych mestách"
+                alt="Porovnání tarifní ceny za kilometr jízdy v různých městech"
                 className="w-full rounded-lg"
                 width={1200}
                 height={600}
               />
               <p className="text-sm text-gray-600 italic mt-2 text-center">
-                Porovnanie tarifnej ceny za kilometer jazdy v rôznych mestách.
+                Porovnání tarifní ceny za kilometr jízdy v různých městech.
               </p>
             </div>
 
             <p>
-              <strong>Tarifná sadzba za kilometer</strong> (čiže koľko zaplatíme za prejdenú vzdialenosť) býva druhou podstatnou zložkou ceny. <strong>Bratislava</strong> má aj v tomto smere najvyššie ceny - štandardne okolo <strong>1,50 € za km</strong> v rámci mesta<sup>[1]</sup>. Naproti tomu v <strong>menších mestách</strong> sa bežne pohybuje <strong>0,70 - 1,00 € za km</strong>, často aj menej. Napríklad taxislužba v <strong>Poprade</strong> má dennú sadzbu <strong>0,79 €/km</strong> (nočnú 0,83 €)<sup>[5]</sup> a v Ružomberku je tarifa <strong>1,00 €/km v meste</strong> (a ešte nižších 0,80 € mimo mesta)<sup>[3]</sup>. <strong>Košice</strong> ponúkajú kilometrovú sadzbu už od <strong>1,00 €/km</strong> (najlacnejšie u lokálnej firmy Košice Taxi 24<sup>[11]</sup>) po cca <strong>1,40 €</strong> u iných spoločností<sup>[12]</sup> - stále menej než bratislavský priemer. V <strong>Prešove</strong> sa cena za km pohybuje okolo <strong>1 €</strong><sup>[13]</sup> a podobne v <strong>Nitre</strong> okolo <strong>1 €</strong><sup>[14]</sup>. <strong>Žilina</strong> má priemerne okolo <strong>0,80 € za km</strong><sup>[8]</sup> v meste, hoci niektoré žilinské taxislužby uvádzajú aj vyššie sadzby (napríklad do 10 km okolo 1,00 €/km)<sup>[15]</sup>. Vo <strong>väčšine krajských miest</strong> (Trenčín, Trnava, Banská Bystrica a pod.) sa tarifné ceny pohybujú v rozmedzí <strong>0,90 - 1,20 € za km</strong> v závislosti od dennej doby a konkrétnej spoločnosti.
+              <strong>Tarifní sazba za kilometr</strong> (čili kolik zaplatíme za ujetou vzdálenost) bývá druhou podstatnou složkou ceny. <strong>Praha</strong> má i v tomto směru nejvyšší ceny - standardně kolem <strong>36-45 Kč za km</strong> v rámci města<sup>[1]</sup>. Naproti tomu v <strong>menších městech</strong> se běžně pohybuje <strong>22-28 Kč za km</strong>, často i méně. Například taxislužba v <strong>Zlíně</strong> má denní sazbu <strong>24 Kč/km</strong> (noční 28 Kč)<sup>[5]</sup> a v Liberci je tarif <strong>28 Kč/km ve městě</strong> (a ještě nižších 25 Kč mimo město)<sup>[3]</sup>. <strong>Brno</strong> nabízí kilometrovou sazbu už od <strong>28 Kč/km</strong> (nejlevnější u lokální firmy Brno Taxi 24<sup>[11]</sup>) po cca <strong>36 Kč</strong> u jiných společností<sup>[12]</sup> - stále méně než pražský průměr. V <strong>Ostravě</strong> se cena za km pohybuje kolem <strong>28 Kč</strong><sup>[13]</sup> a podobně v <strong>Hradci Králové</strong> kolem <strong>30 Kč</strong><sup>[14]</sup>. <strong>Plzeň</strong> má průměrně kolem <strong>32 Kč za km</strong><sup>[8]</sup> ve městě, ačkoli některé plzeňské taxislužby uvádějí i vyšší sazby (například do 10 km kolem 35 Kč/km)<sup>[15]</sup>. Ve <strong>většině krajských měst</strong> (České Budějovice, Ústí nad Labem, Pardubice a pod.) se tarifní ceny pohybují v rozmezí <strong>26-35 Kč za km</strong> v závislosti na denní době a konkrétní společnosti.
             </p>
 
             <p>
-              Zaujímavým fenoménom je, že približne <strong>40 % taxí firiem na Slovensku používa v mestách fixné ceny</strong> - teda stanovujú vopred paušálnu sumu za jazdu v rámci mesta namiesto účtovania podľa kilometrov<sup>[16]</sup>. Príkladom je Trnava, kde jedna taxislužba ponúka fixnú cenu <strong>3,50 € na ľubovoľnú jazdu v rámci mesta</strong> (bez ohľadu na vzdialenosť A-B v meste za 3,5 €)<sup>[17]</sup>. Takéto paušály môžu byť pre zákazníka výhodné najmä pri dlhších trasách v meste. Väčšina firiem však stále používa tradičný model - účtovanie podľa prejdených kilometrov, <strong>prípadne kombinovaný model</strong> (napríklad odlišné ceny cez deň a v noci, vyššia tarifa na sviatky či pri jazde mimo mesto)<sup>[18]</sup>. Moderným trendom je teda <strong>flexibilná cenotvorba</strong> - niektoré taxislužby zvýhodňujú telefonické objednávky, vernostné programy pre stálych klientov či kartičku alebo majú lacnejšie denné tarify a drahšie nočné či sviatočné (napríklad v Bratislave si jedna firma účtuje cez sviatok až 2 €/km namiesto bežných 1,50 €<sup>[19]</sup>). <strong>V priemere však možno povedať, že kilometrová sadzba na Slovensku bola v roku 2024 okolo 0,91 €/km</strong><sup>[20]</sup>, hoci v praxi sú medzi mestami veľké rozdiely, ako ilustruje náš graf.
+              Zajímavým fenoménem je, že přibližně <strong>40 % taxi firem v Česku používá ve městech fixní ceny</strong> - tedy stanovují předem paušální sumu za jízdu v rámci města namísto účtování podle kilometrů<sup>[16]</sup>. Příkladem je České Budějovice, kde jedna taxislužba nabízí fixní cenu <strong>99 Kč na libovolnou jízdu v rámci města</strong> (bez ohledu na vzdálenost A-B ve městě za 99 Kč)<sup>[17]</sup>. Takové paušály mohou být pro zákazníka výhodné zejména při delších trasách ve městě. Většina firem však stále používá tradiční model - účtování podle ujetých kilometrů, <strong>případně kombinovaný model</strong> (například odlišné ceny přes den a v noci, vyšší tarif o svátcích či při jízdě mimo město)<sup>[18]</sup>. Moderním trendem je tedy <strong>flexibilní cenotvorba</strong> - některé taxislužby zvýhodňují telefonické objednávky, věrnostní programy pro stálé klienty či kartičku nebo mají levnější denní tarify a dražší noční či sváteční (například v Praze si jedna firma účtuje o svátku až 50 Kč/km namísto běžných 36 Kč<sup>[19]</sup>). <strong>V průměru však lze říci, že kilometrová sazba v Česku byla v roce 2024 kolem 28 Kč/km</strong><sup>[20]</sup>, i když v praxi jsou mezi městy velké rozdíly, jak ilustruje náš graf.
             </p>
 
-            <h2 className="text-xl font-bold mt-4 mb-2">Čakacia sadzba: poplatky za státie v premávke</h2>
+            <h2 className="text-xl font-bold mt-4 mb-2">Čekací sazba: poplatky za stání v provozu</h2>
 
             <p>
-              <strong>Súčasťou cenníkov taxislužieb je aj tzv. čakacie (stojné) - poplatok za čas, keď taxík stojí alebo pomaly posúva v zápche.</strong> Aj ten sa líši podľa regiónu. Zvyčajne sa uvádza ako cena za hodinu čakania (resp. za minútu). <strong>Vo veľkých mestách je čakacia sadzba vyššia</strong> - napríklad v Bratislave okolo <strong>0,50 € za minútu</strong>, čiže <strong>30 € za hodinu státia</strong><sup>[1]</sup>. V <strong>menších mestách</strong> je stojné výrazne lacnejšie, častokrát okolo <strong>10-15 € za hodinu</strong> (čo zodpovedá 0,17-0,25 € za minútu). Napríklad prešovská taxislužba AB Taxi účtuje <strong>10 € za hodinu čakania</strong><sup>[21]</sup> a v Trnave sa nájdu ceny okolo <strong>0,13 € za minútu</strong> (t. j. necelých 8 € za hodinu). Väčšina firiem strednej veľkosti (Žilina, Nitra, Banská Bystrica atď.) má čakacie okolo <strong>0,20-0,33 € za minútu</strong>. <strong>Príplatky za čakanie sa začínajú účtovať až po určitom čase státia</strong> - často prvých 5 minút zdarma, potom spoplatnené po minútach<sup>[22][23]</sup>. To znamená, že krátke zastavenie na semaforoch vás nič navyše nestojí, no dlhšie čakanie (napríklad ak vodič čaká na zákazníka) sa už premietne do ceny jazdy.
+              <strong>Součástí ceníků taxislužeb je i tzv. čekací (stojné) - poplatek za čas, kdy taxík stojí nebo pomalu popojíždí v zácpě.</strong> I ten se liší podle regionu. Obvykle se uvádí jako cena za hodinu čekání (resp. za minutu). <strong>Ve velkých městech je čekací sazba vyšší</strong> - například v Praze kolem <strong>7 Kč za minutu</strong>, čili <strong>420 Kč za hodinu stání</strong><sup>[1]</sup>. V <strong>menších městech</strong> je stojné výrazně levnější, často kolem <strong>180-240 Kč za hodinu</strong> (což odpovídá 3-4 Kč za minutu). Například ostravská taxislužba AB Taxi účtuje <strong>180 Kč za hodinu čekání</strong><sup>[21]</sup> a v Českých Budějovicích se najdou ceny kolem <strong>3 Kč za minutu</strong> (tj. necelých 180 Kč za hodinu). Většina firem střední velikosti (Plzeň, Hradec Králové, Pardubice atd.) má čekací kolem <strong>4-6 Kč za minutu</strong>. <strong>Příplatky za čekání se začínají účtovat až po určitém čase stání</strong> - často prvních 5 minut zdarma, potom zpoplatněno po minutách<sup>[22][23]</sup>. To znamená, že krátké zastavení na semaforech vás nic navíc nestojí, ale delší čekání (například pokud řidič čeká na zákazníka) se už promítne do ceny jízdy.
             </p>
 
             <p>
-              Okrem toho mnohé taxislužby účtujú <strong>príplatky za objednanie vopred (časové rezervácie), nočné jazdy či veľkú batožinu</strong>. Tieto príplatky bývajú paušálne - napríklad nočný príplatok <strong>1 €</strong> alebo objednávka na presný čas <strong>+1 €</strong><sup>[24]</sup>, v Bratislave sme videli nočný príplatok aj <strong>2 €</strong><sup>[25]</sup>. Za prepravu zvieraťa či nadrozmernej batožiny si firmy často účtujú <strong>1-2 € navyše</strong><sup>[24]</sup>. Všetky tieto poplatky môžu konečnú cenu mierne navýšiť, ale v bežných prípadoch (krátka mestská jazda bez komplikácií) hra hlavný podiel na cene práve nástupné a kilometrové.
+              Kromě toho mnohé taxislužby účtují <strong>příplatky za objednání předem (časové rezervace), noční jízdy či velká zavazadla</strong>. Tyto příplatky bývají paušální - například noční příplatek <strong>30 Kč</strong> nebo objednávka na přesný čas <strong>+30 Kč</strong><sup>[24]</sup>, v Praze jsme viděli noční příplatek i <strong>50 Kč</strong><sup>[25]</sup>. Za přepravu zvířete či nadrozměrného zavazadla si firmy často účtují <strong>30-50 Kč navíc</strong><sup>[24]</sup>. Všechny tyto poplatky mohou konečnou cenu mírně navýšit, ale v běžných případech (krátká městská jízda bez komplikací) hraje hlavní podíl na ceně právě nástupní a kilometrové.
             </p>
 
-            <h2 className="text-xl font-bold mt-4 mb-2">Odhad ceny typických jázd: mestská trasa vs. letisko</h2>
+            <h2 className="text-xl font-bold mt-4 mb-2">Odhad ceny typických jízd: městská trasa vs. letiště</h2>
 
             <div className="my-4">
               <Image
                 src="/images/article/004.webp"
-                alt="Odhad ceny 5 km jazdy (s 2 min čakaním)"
+                alt="Odhad ceny 5 km jízdy (s 2 min čekáním)"
                 className="w-full rounded-lg"
                 width={1200}
                 height={600}
               />
               <p className="text-sm text-gray-600 italic mt-2 text-center">
-                Odhadovaná cena 5 km jazdy v rôznych mestách (zahŕňa približne 5 km trasy a 2 minúty čakania, v €).
+                Odhadovaná cena 5 km jízdy v různých městech (zahrnuje přibližně 5 km trasy a 2 minuty čekání, v Kč).
               </p>
             </div>
 
             <p>
-              <strong>Aké sú reálne náklady na typickú jazdu taxíkom v jednotlivých mestách?</strong> Na ilustráciu sme vypočítali orientačné ceny pre model mestskú jazdu: vzdialenosť <strong>5 km</strong> (čo zodpovedá približne priemernej dlžke taxi jazdy - tá bola v roku 2024 okolo 5,8 km<sup>[26]</sup>) a krátke zdržanie cca <strong>2 minúty</strong> na semaforoch. Výsledky ukazujú graf - <strong>v Bratislave</strong> stojí taxi-jazda približne <strong>11-12 €</strong>, kým v <strong>menších mestách</strong> (Martin, Poprad) len okolo <strong>5-6 €</strong>. V krajských mestách ako <strong>Košice, Prešov, Trenčín či Nitra</strong> vychádza 5 km trasa v rozmedzí <strong>7 až 8 €</strong>, pod vplyvom konkrétnej tarifnej politiky. Rozdiely sú značné: za rovnakú vzdialenosť zaplatí zákazník v Bratislave takmer <strong>dvojnásobok</strong> toho čo napríklad v Poprade. Treba však dodať, že ide o zjednodušený výpočet - <strong>nezohľadňuje napríklad zvýšené sadzby v noci alebo zľavy pri objednávke cez dispečing</strong>. V praxi môžu ceny kolísať, no porovnanie pekne ilustruje, že <strong>cestovanie taxíkom je výrazne drahšie v hlavnom meste než inde na Slovensku</strong>.
+              <strong>Jaké jsou reálné náklady na typickou jízdu taxíkem v jednotlivých městech?</strong> Pro ilustraci jsme vypočítali orientační ceny pro modelovou městskou jízdu: vzdálenost <strong>5 km</strong> (což odpovídá přibližně průměrné délce taxi jízdy - ta byla v roce 2024 kolem 5,8 km<sup>[26]</sup>) a krátké zdržení cca <strong>2 minuty</strong> na semaforech. Výsledky ukazuje graf - <strong>v Praze</strong> stojí taxi jízda přibližně <strong>280-320 Kč</strong>, zatímco v <strong>menších městech</strong> (Olomouc, Zlín) jen kolem <strong>150-180 Kč</strong>. V krajských městech jako <strong>Brno, Ostrava, Plzeň či Hradec Králové</strong> vychází 5 km trasa v rozmezí <strong>180 až 220 Kč</strong>, pod vlivem konkrétní tarifní politiky. Rozdíly jsou značné: za stejnou vzdálenost zaplatí zákazník v Praze takřka <strong>dvojnásobek</strong> toho co například ve Zlíně. Je třeba však dodat, že jde o zjednodušený výpočet - <strong>nezohledňuje například zvýšené sazby v noci nebo slevy při objednávce přes dispečink</strong>. V praxi mohou ceny kolísat, ale porovnání pěkně ilustruje, že <strong>cestování taxíkem je výrazně dražší v hlavním městě než jinde v Česku</strong>.
             </p>
 
             <p>
-              Ďalším typickým príkladom je <strong>jazda z centra miest na letisko</strong> (ak také mesto má). V <strong>Bratislave</strong> je letisko M. R. Štefánika pomerne blízko centru (cca 10 km), taxi z centra na letisko vyjde okolo <strong>15-20 €</strong> podľa tarífy. Niektoré bratislavské firmy ponúkajú aj fixné ceny - napríklad letiskový transfer z centra za <strong>od 20 €</strong><sup>[27]</sup>, čo je skôr horná hranica. <strong>V Košiciach</strong> je letisko asi 8 km; miestne taxislužby si často účtujú letiskový príplatok <strong>2-3 €</strong><sup>[28]</sup>, alebo stanovia <strong>minimálne jazdné na letisko okolo 10-15 €</strong><sup>[6]</sup>. Reálne sa teda cesta <strong>Košice centrum - letisko</strong> dá zvládnuť približne za <strong>10 €</strong> (pri lacnejšej službe 8 €<sup>[6]</sup>, pri drahšej okolo 12 €). Iné mestá ako <strong>Poprad</strong> (s menším letiskom) mávajú na letisko často paušál (napr. z mesta do Poprad-Tatry okolo 7-8 €), v <strong>Bratislave</strong> sa zase často využívajú taxi na vzdialenejšie letiská <strong>Schwechat či Budapešť</strong>, kde sú pevné ceny v stovkách eur podľa vzdialenosti<sup>[29]</sup>. <strong>Celkovo platí, že taxislužby prispôsobujú ponuku dopytu - na letiskové trasy majú buď špeciálne príplatky alebo výhodné balíčky</strong>, podľa toho, či ide o frekventovanú trasu.
+              Dalším typickým příkladem je <strong>jízda z centra měst na letiště</strong> (pokud takové město má). V <strong>Praze</strong> je letiště Václava Havla poměrně daleko od centra (cca 15-20 km), taxi z centra na letiště vyjde kolem <strong>600-800 Kč</strong> podle tarify. Některé pražské firmy nabízejí i fixní ceny - například letištní transfer z centra za <strong>od 600 Kč</strong><sup>[27]</sup>, což je spíše horní hranice. <strong>V Brně</strong> je letiště asi 8 km; místní taxislužby si často účtují letištní příplatek <strong>50-80 Kč</strong><sup>[28]</sup>, nebo stanoví <strong>minimální jízdné na letiště kolem 300-400 Kč</strong><sup>[6]</sup>. Reálně se tedy cesta <strong>Brno centrum - letiště</strong> dá zvládnout přibližně za <strong>280 Kč</strong> (u levnější služby 250 Kč<sup>[6]</sup>, u dražší kolem 350 Kč). Jiná města jako <strong>Ostrava</strong> (s menším letištěm) mávají na letiště často paušál (např. z města do Ostravy-Mošnov kolem 400-500 Kč), v <strong>Praze</strong> se zase často využívají taxi na vzdálenější letiště <strong>Vídeň či Berlín</strong>, kde jsou pevné ceny v tisících korun podle vzdálenosti<sup>[29]</sup>. <strong>Celkově platí, že taxislužby přizpůsobují nabídku poptávce - na letištní trasy mají buď speciální příplatky nebo výhodné balíčky</strong>, podle toho, zda jde o frekventovanou trasu.
             </p>
 
-            <h2 className="text-xl font-bold mt-4 mb-2">Záver: Na cene záleží, informovanosť je kľúčová</h2>
+            <h2 className="text-xl font-bold mt-4 mb-2">Závěr: Na ceně záleží, informovanost je klíčová</h2>
 
             <p>
-              <strong>Z nášho prieskumu vyplýva, že ceny taxislužieb v slovenských mestách sa výrazne líšia, no zároveň poskytujú zákazníkom možnosť voľby podľa preferencií.</strong> Kto hľadá čo najnižšiu cenu, nájde ju skôr v menších mestách alebo u ekonomických taxislužieb; naopak za vyšší komfort či rýchlosť si v metropole priplatíte. Dôležité je <strong>sledovať aktuálne ponuky a akcie</strong>, ktoré môžu výrazne ovplyvniť náklady na cestovanie - <strong>informovaný cestujúci vie optimalizovať svoje výdavky a ušetriť čas aj peniaze</strong><sup>[30]</sup>. Napríklad v niektorých mestách existujú zľavy pre študentov či vernostné programy pre stálych klientov. Tiež platí, že <strong>objednať si taxi cez dispečing alebo aplikáciu môže byť lacnejšie než chytiť ho na ulici</strong>, najmä v mestách kde funguje viac systémov taríf (telefonická objednávka vs. nástup z ulice).
+              <strong>Z našeho průzkumu vyplývá, že ceny taxislužeb v českých městech se výrazně liší, ale zároveň poskytují zákazníkům možnost volby podle preferencí.</strong> Kdo hledá co nejnižší cenu, najde ji spíše v menších městech nebo u ekonomických taxislužeb; naopak za vyšší komfort či rychlost si v metropoli připlatíte. Důležité je <strong>sledovat aktuální nabídky a akce</strong>, které mohou výrazně ovlivnit náklady na cestování - <strong>informovaný cestující umí optimalizovat své výdaje a ušetřit čas i peníze</strong><sup>[30]</sup>. Například v některých městech existují slevy pro studenty či věrnostní programy pro stálé klienty. Také platí, že <strong>objednat si taxi přes dispečink nebo aplikaci může být levnější než chytit ho na ulici</strong>, zejména ve městech kde funguje více systémů tarifů (telefonická objednávka vs. nástup z ulice).
             </p>
 
             <p>
-              Na záver možno skonštatovať, že <strong>slovenský trh taxislužieb prešiel v ostatných rokoch modernizáciou a cenovou diverzifikáciou</strong>. Kto jazdí často, určite ocení komfortnú taxislužbu s dobrým hodnotením; kto tlačí ceny nadol, nemal by automaticky preferovať najlacnejšiu. <strong>Kto sa však ocitne v cudzom meste (najmä v turisticky frekventovaných lokalitách), nemal by automaticky preferovať rovnaké ceny ako doma.</strong> Odporúčame vopred sa oboznámiť s cenníkom lokálnej taxislužby alebo sa opýtať na odhad ceny ešte pred nástupením. Tento hĺbkový prehľad ukázal, že <strong>ceny nástupného sa na Slovensku v roku 2025 pohybujú od 0,5 € až 3,5 € a kilometrové zhruba od 0,8 € do 1,5 €</strong>, no konkrétna výsledná suma za jazdu závisí od viacerých faktorov. <strong>Byť informovaný sa vyplatí</strong> - doslova. Ako zákazníci máme na výber a môžeme si zvoliť taxi službu, ktorá najlepšie vyhovuje našim potrebám a rozpočtu<sup>[30]</sup>.
+              Závěrem lze konstatovat, že <strong>český trh taxislužeb prošel v posledních letech modernizací a cenovou diverzifikací</strong>. Kdo jezdí často, určitě ocení komfortní taxislužbu s dobrým hodnocením; kdo tlačí ceny dolů, neměl by automaticky preferovat nejlevnější. <strong>Kdo se však ocitne v cizím městě (zejména v turisticky frekventovaných lokalitách), neměl by automaticky preferovat stejné ceny jako doma.</strong> Doporučujeme předem se seznámit s ceníkem lokální taxislužby nebo se zeptat na odhad ceny ještě před nastoupením. Tento hloubkový přehled ukázal, že <strong>ceny nástupního se v Česku v roce 2025 pohybují od 30 Kč až 99 Kč a kilometrové zhruba od 22 Kč do 45 Kč</strong>, ale konkrétní výsledná suma za jízdu závisí na více faktorech. <strong>Být informovaný se vyplatí</strong> - doslova. Jako zákazníci máme na výběr a můžeme si zvolit taxi službu, která nejlépe vyhovuje našim potřebám a rozpočtu<sup>[30]</sup>.
             </p>
 
             <hr className="my-6 border-gray-300" />
@@ -193,42 +193,42 @@ export default function TaxiPriceArticlePage() {
             <h3 className="text-lg font-bold mt-4 mb-2">Zdroje</h3>
 
             <p className="text-sm text-gray-700 leading-relaxed">
-              Údaje v článku boli čerpané z oficiálnych cenníkov vybraných taxislužieb (Bratislava, Košice, Prešov, Žilina, Nitra, B. Bystrica, Trnava, Trenčín, Martin, Poprad a ďalších) aktualizovaných v rokoch 2024-2025<sup>[2][8]</sup>, ako aj zo štatistického prehľadu odvetvia taxislužieb za rok 2024<sup>[20][26]</sup>. Všetky grafy a porovnania sú zostavené z týchto dát. Tento článok vznikol s cieľom poskytnúť nezávislé porovnanie pre čitateľov - <strong>ceny sa môžu časom meniť</strong>, preto vždy odporúčame overiť si aktuálne tarífy u konkrétnej taxislužby pred cestou.
+              Údaje v článku byly čerpány z oficiálních ceníků vybraných taxislužeb (Praha, Brno, Ostrava, Plzeň, Hradec Králové, České Budějovice, Olomouc, Liberec, Zlín a dalších) aktualizovaných v letech 2024-2025<sup>[2][8]</sup>, jakož i ze statistického přehledu odvětví taxislužeb za rok 2024<sup>[20][26]</sup>. Všechny grafy a porovnání jsou sestaveny z těchto dat. Tento článek vznikl s cílem poskytnout nezávislé porovnání pro čtenáře - <strong>ceny se mohou časem měnit</strong>, proto vždy doporučujeme ověřit si aktuální tarify u konkrétní taxislužby před cestou.
             </p>
 
             <div className="mt-4 p-3 bg-gray-50 rounded-lg border border-gray-200">
-              <h4 className="font-bold text-lg mb-4">Odkazy a referencie:</h4>
+              <h4 className="font-bold text-lg mb-4">Odkazy a reference:</h4>
 
               <div className="space-y-2 text-sm text-gray-700">
-                <p><strong>[1] [19] [25] [27] [29]</strong> Cenník - Bratislavská mestská taxislužba<br/>
-                <a href="https://taxisluzba.eu/cennik/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://taxisluzba.eu/cennik/</a></p>
+                <p><strong>[1] [19] [25] [27] [29]</strong> Ceník - Pražská městská taxislužba<br/>
+                <a href="https://taxisluzba.cz/cenik/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://taxisluzba.cz/cenik/</a></p>
 
-                <p><strong>[2] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [21] [28] [30]</strong> Ceny taxi na Slovensku, kde sa odveziete najlacnejšie?<br/>
-                <a href="https://kosicetaxi24.sk/ceny-taxi-na-slovesku-kde-je-najlacnejsie/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://kosicetaxi24.sk/ceny-taxi-na-slovesku-kde-je-najlacnejsie/</a></p>
+                <p><strong>[2] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [21] [28] [30]</strong> Ceny taxi v Česku, kde se odvezete nejlevněji?<br/>
+                <a href="https://brnotaxi24.cz/ceny-taxi-v-cesku-kde-je-nejlevneji/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://brnotaxi24.cz/ceny-taxi-v-cesku-kde-je-nejlevneji/</a></p>
 
-                <p><strong>[3]</strong> Taxi služba | Taxi služba Ružomberok<br/>
-                <a href="https://www.taxisluzbaruzomberok.sk/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://www.taxisluzbaruzomberok.sk/</a></p>
+                <p><strong>[3]</strong> Taxi služba | Taxi služba Liberec<br/>
+                <a href="https://www.taxisluzbaliberec.cz/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://www.taxisluzbaliberec.cz/</a></p>
 
-                <p><strong>[4]</strong> M2 Taxi Martin – Taxi Martin</p>
+                <p><strong>[4]</strong> M2 Taxi Olomouc – Taxi Olomouc</p>
 
-                <p><strong>[5]</strong> Taxi Poprad - cenník a služby</p>
+                <p><strong>[5]</strong> Taxi Zlín - ceník a služby</p>
 
-                <p><strong>[16]</strong> Trend fixných cien v slovenských taxislužbách</p>
+                <p><strong>[16]</strong> Trend fixních cen v českých taxislužbách</p>
 
-                <p><strong>[17]</strong> Taxi Trnava - fixná cena v meste</p>
+                <p><strong>[17]</strong> Taxi České Budějovice - fixní cena ve městě</p>
 
-                <p><strong>[18]</strong> Kombinované cenové modely taxislužieb</p>
+                <p><strong>[18]</strong> Kombinované cenové modely taxislužeb</p>
 
-                <p><strong>[20] [26]</strong> Štatistický prehľad odvetvia taxislužieb 2024</p>
+                <p><strong>[20] [26]</strong> Statistický přehled odvětví taxislužeb 2024</p>
 
-                <p><strong>[22] [23]</strong> Podmienky čakacích sadzieb</p>
+                <p><strong>[22] [23]</strong> Podmínky čekacích sazeb</p>
 
-                <p><strong>[24]</strong> Príplatky za špeciálne služby</p>
+                <p><strong>[24]</strong> Příplatky za speciální služby</p>
               </div>
             </div>
 
             <p className="text-sm text-gray-600 mt-6 italic">
-              <strong>Poznámka:</strong> Všetky uvedené ceny sú orientačné a môžu sa líšiť v závislosti od konkrétnej taxislužby, dennej doby, dňa v týždni a ďalších faktorov. Pred objednaním odporúčame overiť aktuálne ceny priamo u vybranej služby.
+              <strong>Poznámka:</strong> Všechny uvedené ceny jsou orientační a mohou se lišit v závislosti na konkrétní taxislužbě, denní době, dni v týdnu a dalších faktorech. Před objednáním doporučujeme ověřit aktuální ceny přímo u vybrané služby.
             </p>
 
             {/* Autor článku */}

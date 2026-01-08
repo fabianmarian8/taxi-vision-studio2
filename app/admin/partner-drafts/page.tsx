@@ -52,7 +52,7 @@ export default function PartnerDraftsPage() {
         setDrafts(data.drafts || []);
       }
     } catch (err) {
-      setError('Chyba pri načítaní dát');
+      setError('Chyba při načítání dat');
     }
     setLoading(false);
   };
@@ -81,15 +81,15 @@ export default function PartnerDraftsPage() {
         setError(data.error);
       }
     } catch (err) {
-      setError('Chyba pri spracovaní');
+      setError('Chyba při zpracování');
     }
     setProcessing(false);
   };
 
   const statusLabels: Record<string, { label: string; color: string }> = {
-    pending: { label: 'Čaká na schválenie', color: 'bg-yellow-100 text-yellow-700' },
-    approved: { label: 'Schválené', color: 'bg-green-100 text-green-700' },
-    rejected: { label: 'Zamietnuté', color: 'bg-red-100 text-red-700' },
+    pending: { label: 'Čeká na schválení', color: 'bg-yellow-100 text-yellow-700' },
+    approved: { label: 'Schváleno', color: 'bg-green-100 text-green-700' },
+    rejected: { label: 'Zamítnuto', color: 'bg-red-100 text-red-700' },
   };
 
   return (
@@ -99,7 +99,7 @@ export default function PartnerDraftsPage() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <Link href="/admin" className="text-muted-foreground hover:text-foreground">
-              ← Späť
+              ← Zpět
             </Link>
             <h1 className="text-2xl font-bold">Partner úpravy</h1>
           </div>
@@ -134,10 +134,10 @@ export default function PartnerDraftsPage() {
         )}
 
         {loading ? (
-          <div className="text-center py-8 text-gray-500">Načítavam...</div>
+          <div className="text-center py-8 text-gray-500">Načítám...</div>
         ) : drafts.length === 0 ? (
           <div className="text-center py-8 text-gray-500">
-            Žiadne {activeTab === 'pending' ? 'čakajúce' : activeTab === 'approved' ? 'schválené' : 'zamietnuté'} úpravy
+            Žádné {activeTab === 'pending' ? 'čekající' : activeTab === 'approved' ? 'schválené' : 'zamítnuté'} úpravy
           </div>
         ) : (
           <div className="grid gap-4">
@@ -152,7 +152,7 @@ export default function PartnerDraftsPage() {
                 <CardHeader className="pb-2">
                   <div className="flex items-start justify-between">
                     <div>
-                      <CardTitle className="text-lg">{draft.partners?.name || 'Neznámy partner'}</CardTitle>
+                      <CardTitle className="text-lg">{draft.partners?.name || 'Neznámý partner'}</CardTitle>
                       <p className="text-sm text-muted-foreground">
                         {draft.partners?.city_slug} • {draft.partners?.email}
                       </p>
@@ -165,18 +165,18 @@ export default function PartnerDraftsPage() {
                 <CardContent>
                   <div className="grid grid-cols-2 gap-4 text-sm">
                     <div>
-                      <p className="text-muted-foreground">Názov:</p>
+                      <p className="text-muted-foreground">Název:</p>
                       <p className="font-medium">{draft.company_name || '-'}</p>
                     </div>
                     <div>
-                      <p className="text-muted-foreground">Telefón:</p>
+                      <p className="text-muted-foreground">Telefon:</p>
                       <p className="font-medium">{draft.phone || '-'}</p>
                     </div>
                     {draft.submitted_at && (
                       <div>
-                        <p className="text-muted-foreground">Odoslané:</p>
+                        <p className="text-muted-foreground">Odesláno:</p>
                         <p className="font-medium">
-                          {new Date(draft.submitted_at).toLocaleDateString('sk-SK')}
+                          {new Date(draft.submitted_at).toLocaleDateString('cs-CZ')}
                         </p>
                       </div>
                     )}
@@ -231,11 +231,11 @@ export default function PartnerDraftsPage() {
 
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <p className="text-sm text-muted-foreground">Názov</p>
+                    <p className="text-sm text-muted-foreground">Název</p>
                     <p className="font-medium">{selectedDraft.company_name || '-'}</p>
                   </div>
                   <div>
-                    <p className="text-sm text-muted-foreground">Telefón</p>
+                    <p className="text-sm text-muted-foreground">Telefon</p>
                     <p className="font-medium">{selectedDraft.phone || '-'}</p>
                   </div>
                   <div>
@@ -259,7 +259,7 @@ export default function PartnerDraftsPage() {
                 {selectedDraft.gallery && selectedDraft.gallery.length > 0 && (
                   <div>
                     <p className="text-sm text-muted-foreground mb-2">
-                      Galéria ({selectedDraft.gallery.length} obrázkov)
+                      Galerie ({selectedDraft.gallery.length} obrázků)
                     </p>
                     <div className="grid grid-cols-3 gap-2">
                       {selectedDraft.gallery.map((url, idx) => (
@@ -300,14 +300,14 @@ export default function PartnerDraftsPage() {
                 {/* Admin notes */}
                 <div>
                   <label className="block text-sm font-medium mb-2">
-                    Poznámka pre partnera (voliteľné)
+                    Poznámka pro partnera (volitelné)
                   </label>
                   <textarea
                     value={adminNotes}
                     onChange={(e) => setAdminNotes(e.target.value)}
                     className="w-full px-3 py-2 border rounded-lg resize-none"
                     rows={3}
-                    placeholder="Dôvod zamietnutia alebo poznámky..."
+                    placeholder="Důvod zamítnutí nebo poznámky..."
                   />
                 </div>
 
@@ -318,7 +318,7 @@ export default function PartnerDraftsPage() {
                     disabled={processing}
                     className="flex-1 bg-green-600 hover:bg-green-700"
                   >
-                    {processing ? 'Spracúvam...' : 'Schváliť'}
+                    {processing ? 'Zpracovávám...' : 'Schválit'}
                   </Button>
                   <Button
                     onClick={() => handleAction('reject')}
@@ -326,7 +326,7 @@ export default function PartnerDraftsPage() {
                     variant="destructive"
                     className="flex-1"
                   >
-                    {processing ? 'Spracúvam...' : 'Zamietnuť'}
+                    {processing ? 'Zpracovávám...' : 'Zamítnout'}
                   </Button>
                 </div>
               </CardContent>

@@ -149,9 +149,9 @@ function PartnerPageContent() {
         {/* Breadcrumbs */}
         <div className="container mx-auto max-w-4xl px-4">
           <nav className="flex items-center gap-2 text-sm py-3 text-foreground/60">
-            <a href="#" className="hover:text-foreground transition-colors">Banskobystrický kraj</a>
+            <a href="#" className="hover:text-foreground transition-colors">Jihomoravský kraj</a>
             <span>/</span>
-            <a href="#" className="hover:text-foreground transition-colors">Brezno</a>
+            <a href="#" className="hover:text-foreground transition-colors">Brno</a>
             <span>/</span>
             <span className="text-foreground font-medium">{draftData.hero_title || 'R.S.T. Taxi'}</span>
           </nav>

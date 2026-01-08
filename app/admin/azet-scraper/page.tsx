@@ -57,7 +57,7 @@ export default function AzetScraperPage() {
   // Handle scrape
   const handleScrape = async () => {
     if (!selectedCity) {
-      setError('Vyberte mesto');
+      setError('Vyberte město');
       return;
     }
 
@@ -96,11 +96,11 @@ export default function AzetScraperPage() {
       setResults(servicesWithSelection);
 
       if (servicesWithSelection.length === 0) {
-        setSuccess('Nenašli sa žiadne nové taxislužby na Azet.sk');
+        setSuccess('Nenašly se žádné nové taxislužby na Azet.sk');
       }
 
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Chyba pri scrapovaní');
+      setError(err instanceof Error ? err.message : 'Chyba při scrapování');
     } finally {
       setIsLoading(false);
     }
@@ -122,7 +122,7 @@ export default function AzetScraperPage() {
   const handleImport = async () => {
     const selectedServices = results.filter(s => s.selected);
     if (selectedServices.length === 0) {
-      setError('Vyberte aspoň jednu taxislužbu na import');
+      setError('Vyberte alespoň jednu taxislužbu na import');
       return;
     }
 
@@ -166,7 +166,7 @@ export default function AzetScraperPage() {
         throw new Error('Failed to save city data');
       }
 
-      setSuccess(`Úspešne importovaných ${selectedServices.length} taxislužieb do mesta ${city.name}`);
+      setSuccess(`Úspěšně importováno ${selectedServices.length} taxislužeb do města ${city.name}`);
       setResults([]);
 
       // Refresh cities
@@ -177,7 +177,7 @@ export default function AzetScraperPage() {
       }
 
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Chyba pri ukladaní');
+      setError(err instanceof Error ? err.message : 'Chyba při ukládání');
     } finally {
       setIsSaving(false);
     }
@@ -193,7 +193,7 @@ export default function AzetScraperPage() {
           <div className="flex items-center gap-4">
             <Link href="/admin">
               <Button variant="ghost" size="sm">
-                &larr; Späť
+                &larr; Zpět
               </Button>
             </Link>
             <h1 className="text-xl font-bold">Azet.sk Scraper</h1>
@@ -207,32 +207,32 @@ export default function AzetScraperPage() {
           {/* Search Card */}
           <Card>
             <CardHeader>
-              <CardTitle>Vyhľadať taxislužby na Azet.sk</CardTitle>
+              <CardTitle>Vyhledat taxislužby na Azet.sk</CardTitle>
               <CardDescription>
-                Vyberte mesto a spustite vyhľadávanie nových taxislužieb v katalógu Azet.sk
+                Vyberte město a spusťte vyhledávání nových taxislužeb v katalogu Azet.sk
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="grid gap-4 md:grid-cols-2">
                 <div className="space-y-2">
-                  <Label>Vyhľadať mesto</Label>
+                  <Label>Vyhledat město</Label>
                   <Input
-                    placeholder="Zadajte názov mesta..."
+                    placeholder="Zadejte název města..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label>Vybrané mesto</Label>
+                  <Label>Vybrané město</Label>
                   <select
                     className="w-full h-10 px-3 rounded-md border border-input bg-background"
                     value={selectedCity}
                     onChange={(e) => setSelectedCity(e.target.value)}
                   >
-                    <option value="">-- Vyberte mesto --</option>
+                    <option value="">-- Vyberte město --</option>
                     {filteredCities.map(city => (
                       <option key={city.slug} value={city.slug}>
-                        {city.name} ({city.taxiServices.length} taxislužieb)
+                        {city.name} ({city.taxiServices.length} taxislužeb)
                       </option>
                     ))}
                   </select>
@@ -244,7 +244,7 @@ export default function AzetScraperPage() {
                 disabled={isLoading || !selectedCity}
                 className="w-full md:w-auto"
               >
-                {isLoading ? 'Vyhľadávam...' : 'Spustiť vyhľadávanie'}
+                {isLoading ? 'Vyhledávám...' : 'Spustit vyhledávání'}
               </Button>
 
               {error && (
@@ -267,17 +267,17 @@ export default function AzetScraperPage() {
               <CardHeader>
                 <div className="flex justify-between items-center">
                   <div>
-                    <CardTitle>Nájdené taxislužby ({results.length})</CardTitle>
+                    <CardTitle>Nalezené taxislužby ({results.length})</CardTitle>
                     <CardDescription>
-                      Vyberte taxislužby, ktoré chcete importovať. Vybraných: {selectedCount}
+                      Vyberte taxislužby, které chcete importovat. Vybráno: {selectedCount}
                     </CardDescription>
                   </div>
                   <div className="flex gap-2">
                     <Button variant="outline" size="sm" onClick={() => toggleAll(true)}>
-                      Vybrať všetky
+                      Vybrat všechny
                     </Button>
                     <Button variant="outline" size="sm" onClick={() => toggleAll(false)}>
-                      Zrušiť výber
+                      Zrušit výběr
                     </Button>
                   </div>
                 </div>
@@ -318,7 +318,7 @@ export default function AzetScraperPage() {
                             rel="noopener noreferrer"
                             className="text-xs text-blue-600 hover:underline mt-1 inline-block"
                           >
-                            Zobraziť na Azet.sk &rarr;
+                            Zobrazit na Azet.sk &rarr;
                           </a>
                         </div>
                       </div>
@@ -331,10 +331,10 @@ export default function AzetScraperPage() {
                     onClick={handleImport}
                     disabled={isSaving || selectedCount === 0}
                   >
-                    {isSaving ? 'Ukladám...' : `Importovať vybrané (${selectedCount})`}
+                    {isSaving ? 'Ukládám...' : `Importovat vybrané (${selectedCount})`}
                   </Button>
                   <Button variant="outline" onClick={() => setResults([])}>
-                    Zrušiť
+                    Zrušit
                   </Button>
                 </div>
               </CardContent>
@@ -344,16 +344,16 @@ export default function AzetScraperPage() {
           {/* Instructions */}
           <Card>
             <CardHeader>
-              <CardTitle>Ako to funguje</CardTitle>
+              <CardTitle>Jak to funguje</CardTitle>
             </CardHeader>
             <CardContent className="text-sm text-muted-foreground space-y-2">
-              <p>1. Vyberte mesto zo zoznamu alebo ho vyhľadajte podľa názvu</p>
-              <p>2. Kliknite na "Spustiť vyhľadávanie" - systém vyhľadá taxislužby na Azet.sk</p>
-              <p>3. Automaticky sa odfiltrujú taxislužby, ktoré už máte v databáze (podľa telefónneho čísla)</p>
-              <p>4. Vyberte taxislužby, ktoré chcete pridať a kliknite na "Importovať"</p>
+              <p>1. Vyberte město ze seznamu nebo ho vyhledejte podle názvu</p>
+              <p>2. Klikněte na "Spustit vyhledávání" - systém vyhledá taxislužby na Azet.sk</p>
+              <p>3. Automaticky se odfiltrují taxislužby, které už máte v databázi (podle telefonního čísla)</p>
+              <p>4. Vyberte taxislužby, které chcete přidat a klikněte na "Importovat"</p>
               <p className="text-yellow-600">
-                Poznámka: Niektoré záznamy na Azet.sk môžu obsahovať nesprávne telefónne čísla.
-                Skontrolujte údaje pred importom.
+                Poznámka: Některé záznamy na Azet.sk mohou obsahovat nesprávná telefonní čísla.
+                Zkontrolujte údaje před importem.
               </p>
             </CardContent>
           </Card>

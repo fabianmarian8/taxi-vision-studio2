@@ -41,13 +41,13 @@ export function EditorDrawer({
   const getInputPlaceholder = () => {
     switch (fieldType) {
       case 'phone':
-        return '+421 XXX XXX XXX';
+        return '+420 XXX XXX XXX';
       case 'email':
         return 'email@example.com';
       case 'url':
         return 'https://...';
       default:
-        return `Zadajte ${label.toLowerCase()}`;
+        return `Zadejte ${label.toLowerCase()}`;
     }
   };
 
@@ -99,14 +99,14 @@ export function EditorDrawer({
               <div className="space-y-4">
                 <div className="border-2 border-dashed border-gray-300 rounded-xl p-8 text-center">
                   <p className="text-gray-500">
-                    Nahrávanie obrázkov bude dostupné po pripojení Supabase
+                    Nahrávání obrázků bude dostupné po připojení Supabase
                   </p>
                 </div>
                 <input
                   type="url"
                   value={value}
                   onChange={(e) => setValue(e.target.value)}
-                  placeholder="Alebo zadajte URL obrázka"
+                  placeholder="Nebo zadejte URL obrázku"
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 outline-none text-gray-900"
                 />
               </div>
@@ -123,7 +123,7 @@ export function EditorDrawer({
             {/* Validation hints */}
             {fieldType === 'phone' && (
               <p className="mt-2 text-sm text-gray-500">
-                Formát: +421 XXX XXX XXX alebo 09XX XXX XXX
+                Formát: +420 XXX XXX XXX nebo 6XX XXX XXX
               </p>
             )}
 
@@ -133,7 +133,7 @@ export function EditorDrawer({
               className="mt-4 w-full flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-3 px-4 rounded-xl transition-colors"
             >
               <Check className="w-5 h-5" />
-              Uložiť zmeny
+              Uložit změny
             </button>
           </div>
         </Drawer.Content>

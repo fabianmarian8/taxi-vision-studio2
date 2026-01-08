@@ -14,9 +14,9 @@ export default async function AdminServicesPage() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <Link href="/admin">
-              <Button variant="outline">← Späť</Button>
+              <Button variant="outline">← Zpět</Button>
             </Link>
-            <h1 className="text-2xl font-bold">Správa taxislužieb</h1>
+            <h1 className="text-2xl font-bold">Správa taxislužeb</h1>
           </div>
         </div>
       </header>
@@ -26,12 +26,12 @@ export default async function AdminServicesPage() {
           <CardHeader>
             <CardTitle>Taxislužby</CardTitle>
             <CardDescription>
-              Taxislužby sú súčasťou miest. Pre správu taxislužieb choď do sekcie "Mestá" a vyber konkrétne mesto.
+              Taxislužby jsou součástí měst. Pro správu taxislužeb jděte do sekce "Města" a vyberte konkrétní město.
             </CardDescription>
           </CardHeader>
           <CardContent>
             <Link href="/admin/cities">
-              <Button>Prejsť na mestá</Button>
+              <Button>Přejít na města</Button>
             </Link>
           </CardContent>
         </Card>

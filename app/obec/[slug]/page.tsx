@@ -30,7 +30,7 @@ function toSlug(text: string): string {
 }
 
 function getRegionSlug(region: string): string {
-  // "Banskobystrický kraj kraj" -> "banskobystricky-kraj"
+  // "Jihomoravský kraj kraj" -> "jihomoravsky-kraj"
   let slug = toSlug(region.replace(/ kraj kraj$/i, ' kraj').replace(/ kraj$/i, ''));
   if (!slug.endsWith('-kraj')) {
     slug = slug + '-kraj';

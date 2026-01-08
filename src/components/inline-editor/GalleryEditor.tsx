@@ -50,7 +50,7 @@ export function GalleryEditor({
 
     const remainingSlots = maxImages - images.length;
     if (remainingSlots <= 0) {
-      alert(`Maximum je ${maxImages} obrázkov.`);
+      alert(`Maximum je ${maxImages} obrázků.`);
       return;
     }
 
@@ -73,7 +73,7 @@ export function GalleryEditor({
 
         // Validate file size (max 5MB each)
         if (file.size > 5 * 1024 * 1024) {
-          setUploadError(`Súbor ${file.name} je príliš veľký. Maximum je 5MB.`);
+          setUploadError(`Soubor ${file.name} je příliš velký. Maximum je 5MB.`);
           continue;
         }
 
@@ -119,7 +119,7 @@ export function GalleryEditor({
 
         // Validate file size (max 5MB each)
         if (file.size > 5 * 1024 * 1024) {
-          alert(`Súbor ${file.name} je príliš veľký. Maximum je 5MB.`);
+          alert(`Soubor ${file.name} je příliš velký. Maximum je 5MB.`);
           continue;
         }
 
@@ -200,8 +200,8 @@ export function GalleryEditor({
                 {label}
               </Drawer.Title>
               <p className="text-sm text-gray-500">
-                {images.length} / {maxImages} obrázkov
-                {isUploading && ` • Nahrávam ${uploadProgress}%`}
+                {images.length} / {maxImages} obrázků
+                {isUploading && ` • Nahrávám ${uploadProgress}%`}
               </p>
             </div>
             <button
@@ -287,7 +287,7 @@ export function GalleryEditor({
               /* Empty state - compact */
               <div className="flex flex-col items-center justify-center py-6 text-gray-400">
                 <ImageIcon className="w-10 h-10 mb-2" />
-                <p className="text-sm font-medium mb-2">Žiadne obrázky</p>
+                <p className="text-sm font-medium mb-2">Žádné obrázky</p>
                 <button
                   onClick={() => fileInputRef.current?.click()}
                   disabled={isUploading}
@@ -296,12 +296,12 @@ export function GalleryEditor({
                   {isUploading ? (
                     <>
                       <Loader2 className="w-4 h-4 animate-spin" />
-                      Nahrávam...
+                      Nahrávám...
                     </>
                   ) : (
                     <>
                       <Upload className="w-4 h-4" />
-                      Nahrať
+                      Nahrát
                     </>
                   )}
                 </button>
@@ -335,7 +335,7 @@ export function GalleryEditor({
               className="flex-1 flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-500 disabled:bg-yellow-300 text-gray-900 font-semibold py-2.5 px-4 rounded-lg transition-colors"
             >
               <Check className="w-4 h-4" />
-              Uložiť
+              Uložit
             </button>
           </div>
         </Drawer.Content>

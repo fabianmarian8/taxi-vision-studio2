@@ -25,12 +25,12 @@ export default async function AdminCitiesPage() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <Link href="/admin">
-              <Button variant="outline">← Späť</Button>
+              <Button variant="outline">← Zpět</Button>
             </Link>
-            <h1 className="text-2xl font-bold">Správa miest</h1>
+            <h1 className="text-2xl font-bold">Správa měst</h1>
           </div>
           <Link href="/admin/cities/new">
-            <Button>+ Pridať mesto</Button>
+            <Button>+ Přidat město</Button>
           </Link>
         </div>
       </header>
@@ -39,28 +39,28 @@ export default async function AdminCitiesPage() {
       <main className="container mx-auto px-4 py-8">
         <Card className="mb-6">
           <CardHeader>
-            <CardTitle>Celkový počet miest: {czechCities.length}</CardTitle>
+            <CardTitle>Celkový počet měst: {czechCities.length}</CardTitle>
             <CardDescription>
-              Mestá sú zoskupené podľa regiónov
+              Města jsou seskupena podle krajů
             </CardDescription>
           </CardHeader>
         </Card>
 
         <div className="space-y-8">
           {Object.entries(citiesByRegion)
-            .sort(([a], [b]) => a.localeCompare(b, 'sk'))
+            .sort(([a], [b]) => a.localeCompare(b, 'cs'))
             .map(([region, cities]) => (
               <Card key={region}>
                 <CardHeader>
                   <CardTitle className="text-xl">{region}</CardTitle>
                   <CardDescription>
-                    {cities.length} {cities.length === 1 ? 'mesto' : cities.length < 5 ? 'mestá' : 'miest'}
+                    {cities.length} {cities.length === 1 ? 'město' : cities.length < 5 ? 'města' : 'měst'}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {cities
-                      .sort((a, b) => a.name.localeCompare(b.name, 'sk'))
+                      .sort((a, b) => a.name.localeCompare(b.name, 'cs'))
                       .map((city) => (
                         <Link
                           key={city.slug}
@@ -71,7 +71,7 @@ export default async function AdminCitiesPage() {
                             <CardHeader>
                               <CardTitle className="text-base">{city.name}</CardTitle>
                               <CardDescription className="text-xs">
-                                {city.taxiServices.length} {city.taxiServices.length === 1 ? 'taxislužba' : 'taxislužieb'}
+                                {city.taxiServices.length} {city.taxiServices.length === 1 ? 'taxislužba' : 'taxislužeb'}
                               </CardDescription>
                             </CardHeader>
                           </Card>

@@ -126,11 +126,11 @@ export function AlphabeticalCityList() {
       <div className="text-center mb-4 md:mb-6">
         <p className="text-sm md:text-base text-foreground/70 font-semibold">
           {isLoading ? (
-            'Načítavam obce...'
+            'Načítám obce...'
           ) : (
             <>
-              Zobrazených <strong>{filteredLocations.length}</strong> miest/obcí
-              začínajúcich na písmeno <strong>{selectedLetter}</strong>
+              Zobrazeno <strong>{filteredLocations.length}</strong> měst/obcí
+              začínajících na písmeno <strong>{selectedLetter}</strong>
             </>
           )}
         </p>
@@ -177,7 +177,7 @@ export function AlphabeticalCityList() {
                     </p>
                     {location.type === 'city' && location.taxiCount! > 0 && (
                       <p className="text-xs text-success font-semibold mt-1">
-                        {location.taxiCount} {location.taxiCount === 1 ? 'taxi' : 'taxíkov'}
+                        {location.taxiCount} {location.taxiCount === 1 ? 'taxi' : 'taxíků'}
                       </p>
                     )}
                   </div>
@@ -195,7 +195,7 @@ export function AlphabeticalCityList() {
 
       {!isLoading && filteredLocations.length === 0 && (
         <div className="text-center py-12 text-foreground/60">
-          <p>Žiadne mestá alebo obce na písmeno {selectedLetter}</p>
+          <p>Žádná města nebo obce na písmeno {selectedLetter}</p>
         </div>
       )}
     </div>
