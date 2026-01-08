@@ -23,7 +23,7 @@ import { SEOBreadcrumbs } from '@/components/SEOBreadcrumbs';
 import { LocalBusinessSchema } from '@/components/schema/LocalBusinessSchema';
 import { TaxiServiceSchema } from '@/components/schema/TaxiServiceSchema';
 import { MapPin, Phone, Globe, Crown, ArrowLeft, Star, BadgeCheck, CheckCircle2, ArrowRight, Clock, Award, Car, MessageCircle, Eye, FileText, ScrollText, Users, Facebook, Instagram, Mail } from 'lucide-react';
-import { getCityBySlug, createRegionSlug, slovakCities, getRegionBySlug, type CityData, type TaxiService, findNearbyCitiesWithTaxis } from '@/data/cities';
+import { getCityBySlug, createRegionSlug, czechCities, getRegionBySlug, type CityData, type TaxiService, findNearbyCitiesWithTaxis } from '@/data/cities';
 import { NearbyCitiesSection } from '@/components/NearbyCitiesSection';
 import { getMunicipalityBySlug, findNearestCitiesWithTaxis, allMunicipalities, type Municipality } from '@/data/municipalities';
 import {
@@ -229,7 +229,7 @@ export function generateStaticParams() {
   const params: { slug: string[] }[] = [];
 
   // 1. Main cities: /taxi/[citySlug]
-  slovakCities.forEach(city => {
+  czechCities.forEach(city => {
     params.push({ slug: [city.slug] });
 
     // 2. Taxi services: /taxi/[citySlug]/[serviceSlug]
@@ -265,7 +265,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const routeType = detectRouteType(slug);
-  const baseUrl = 'https://www.taxinearme.sk';
+  const baseUrl = 'https://www.taxinearme.cz';
   const siteName = 'TaxiNearMe';
   const currentYear = new Date().getFullYear();
 
@@ -275,29 +275,29 @@ export async function generateMetadata({
       const currentUrl = `${baseUrl}/taxi/${city.slug}`;
       const taxiCount = city.taxiServices?.length || 0;
       const taxiServicesList = city.taxiServices.slice(0, 3).map(s => s.name).join(', ');
-      const locationText = city.isVillage ? 'v obci' : 'v meste';
+      const locationText = city.isVillage ? 'v obci' : 've městě';
       const countText = taxiCount > 5 ? `${taxiCount}+` : taxiCount > 0 ? `${taxiCount}` : '';
 
       // Pre obce (isVillage) iný formát - bez "Taxi" v nadpise
       const titlePrefix = city.isVillage ? '' : 'Taxi ';
       const description = countText
-        ? `${city.isVillage ? 'Taxislužba' : 'Taxi'} ${locationText} ${city.name} - ${countText} taxislužieb s telefónnymi číslami. ${taxiServicesList ? `${taxiServicesList}.` : ''} Objednajte taxi jednoducho.`
-        : `${city.isVillage ? 'Taxislužba' : 'Taxi'} ${locationText} ${city.name} - Kontakty na taxislužby. Objednajte taxi jednoducho.`;
+        ? `${city.isVillage ? 'Taxislužba' : 'Taxi'} ${locationText} ${city.name} - ${countText} taxislužeb s telefonními čísly. ${taxiServicesList ? `${taxiServicesList}.` : ''} Objednejte taxi jednoduše.`
+        : `${city.isVillage ? 'Taxislužba' : 'Taxi'} ${locationText} ${city.name} - Kontakty na taxislužby. Objednejte taxi jednoduše.`;
 
-      // Title format: "Streda nad Bodrogom - 1 taxislužba" pre obce, "Taxi Bratislava - 15+ taxislužieb" pre mestá
+      // Title format: "Streda nad Bodrogom - 1 taxislužba" pre obce, "Taxi Bratislava - 15+ taxislužeb" pre mestá
       const titleWithCount = countText
-        ? `${titlePrefix}${city.name} - ${countText} ${taxiCount === 1 ? 'taxislužba' : 'taxislužieb'} | ${siteName}`
+        ? `${titlePrefix}${city.name} - ${countText} ${taxiCount === 1 ? 'taxislužba' : 'taxislužeb'} | ${siteName}`
         : `${titlePrefix}${city.name} - Taxislužby | ${siteName}`;
 
       return {
         title: titleWithCount,
         description,
-        keywords: city.keywords || [`taxi ${city.name}`, `taxislužby ${city.name}`, `taxi ${city.region}`, 'objednať taxi'],
+        keywords: city.keywords || [`taxi ${city.name}`, `taxislužby ${city.name}`, `taxi ${city.region}`, 'objednat taxi'],
         openGraph: {
-          title: `${titlePrefix}${city.name} - ${countText ? countText + (taxiCount === 1 ? ' taxislužba' : ' taxislužieb') : 'Taxislužby'}`,
+          title: `${titlePrefix}${city.name} - ${countText ? countText + (taxiCount === 1 ? ' taxislužba' : ' taxislužeb') : 'Taxislužby'}`,
           description,
           type: 'website',
-          locale: 'sk_SK',
+          locale: 'cs_CZ',
           url: currentUrl,
           siteName,
           images: [{ url: SEO_CONSTANTS.defaultImage, width: SEO_CONSTANTS.defaultImageWidth, height: SEO_CONSTANTS.defaultImageHeight }],
@@ -318,7 +318,7 @@ export async function generateMetadata({
           title: `Taxi ${location.name} - Taxislužby`,
           description: location.metaDescription,
           type: 'website',
-          locale: 'sk_SK',
+          locale: 'cs_CZ',
           url: currentUrl,
           siteName,
           images: [{ url: SEO_CONSTANTS.defaultImage, width: SEO_CONSTANTS.defaultImageWidth, height: SEO_CONSTANTS.defaultImageHeight }],
@@ -332,7 +332,7 @@ export async function generateMetadata({
       const nearestCities = findNearestCitiesWithTaxis(municipality, 1);
       const nearestCity = nearestCities[0];
       const currentUrl = `${baseUrl}/taxi/${municipality.slug}`;
-      const description = `Taxi v obci ${municipality.name} - Najbližšie taxislužby v meste ${nearestCity?.city.name} (${nearestCity?.distance} km). Objednajte taxi jednoducho.`;
+      const description = `Taxi v obci ${municipality.name} - Nejbližší taxislužby ve městě ${nearestCity?.city.name} (${nearestCity?.distance} km). Objednejte taxi jednoduše.`;
 
       return {
         title: `Taxi ${municipality.name} - Taxislužby v okolí | ${siteName}`,
@@ -342,7 +342,7 @@ export async function generateMetadata({
           title: `Taxi ${municipality.name} - Taxislužby v okolí`,
           description,
           type: 'website',
-          locale: 'sk_SK',
+          locale: 'cs_CZ',
           url: currentUrl,
           siteName,
           images: [{ url: SEO_CONSTANTS.defaultImage, width: SEO_CONSTANTS.defaultImageWidth, height: SEO_CONSTANTS.defaultImageHeight }],
@@ -364,7 +364,7 @@ export async function generateMetadata({
           title: `${service.name} - Taxi ${city.name}`,
           description,
           type: 'website',
-          locale: 'sk_SK',
+          locale: 'cs_CZ',
           url: currentUrl,
           siteName,
           images: [{ url: SEO_CONSTANTS.defaultImage, width: SEO_CONSTANTS.defaultImageWidth, height: SEO_CONSTANTS.defaultImageHeight }],
@@ -376,7 +376,7 @@ export async function generateMetadata({
     case 'district': {
       const { district, regionSlug } = routeType;
       const currentUrl = `${baseUrl}/taxi/${regionSlug}/${district.slug}`;
-      const description = `Taxi v okrese ${district.name} - Zoznam ${district.municipalitiesCount} obcí a miest s taxislužbami. Objednajte taxi jednoducho.`;
+      const description = `Taxi v okrese ${district.name} - Seznam ${district.municipalitiesCount} obcí a měst s taxislužbami. Objednejte taxi jednoduše.`;
 
       return {
         title: `Taxi okres ${district.name} - ${district.municipalitiesCount} obcí | ${siteName}`,
@@ -386,7 +386,7 @@ export async function generateMetadata({
           title: `Taxi okres ${district.name} - ${district.municipalitiesCount} obcí`,
           description,
           type: 'website',
-          locale: 'sk_SK',
+          locale: 'cs_CZ',
           url: currentUrl,
           siteName,
           images: [{ url: SEO_CONSTANTS.defaultImage, width: SEO_CONSTANTS.defaultImageWidth, height: SEO_CONSTANTS.defaultImageHeight }],
@@ -400,7 +400,7 @@ export async function generateMetadata({
       const nearestCities = findNearestCitiesWithTaxis(municipality, 1);
       const nearestCity = nearestCities[0];
       const currentUrl = `${baseUrl}/taxi/${regionSlug}/${district.slug}/${municipality.slug}`;
-      let description = `Taxi v obci ${municipality.name}, okres ${district.name} - Najbližšie taxislužby v meste ${nearestCity?.city.name} (${nearestCity?.distance} km). Objednajte taxi.`;
+      let description = `Taxi v obci ${municipality.name}, okres ${district.name} - Nejbližší taxislužby ve městě ${nearestCity?.city.name} (${nearestCity?.distance} km). Objednejte taxi.`;
       let keywords = [`taxi ${municipality.name}`, `taxi okres ${district.name}`, `taxislužby ${municipality.name}`, `taxi ${district.region}`];
       let title = `Taxi ${municipality.name} - okres ${district.name} | ${siteName}`;
 
@@ -420,12 +420,12 @@ export async function generateMetadata({
         ];
       }
 
-      // SEO optimalizácia pre VŠETKY obce bez taxislužieb - korektné slovenské skloňovanie
+      // SEO optimalizácia pre VŠETKY obce bez taxislužeb - korektné slovenské skloňovanie
       if (nearestCity) {
         const nearestCitiesMultiple = findNearestCitiesWithTaxis(municipality, 2);
         const cityNames = nearestCitiesMultiple.map(c => c.city.name).join(', ');
 
-        title = `Taxi ${municipality.name} – najbližšie taxislužby (${cityNames}) | ${siteName}`;
+        title = `Taxi ${municipality.name} – nejbližší taxislužby (${cityNames}) | ${siteName}`;
         // Generované meta description s korektným skloňovaním
         description = generateDeclensionMetaDescription(
           { slug: municipality.slug, name: municipality.name },
@@ -443,7 +443,7 @@ export async function generateMetadata({
           `taxislužba ${municipality.name}`,
           `taxi ${nearestCity.city.name}`,
           `taxi okres ${district.name}`,
-          `najbližšie taxi ${municipality.name}`
+          `nejbližší taxi ${municipality.name}`
         ];
       }
 
@@ -455,7 +455,7 @@ export async function generateMetadata({
           title,
           description,
           type: 'website',
-          locale: 'sk_SK',
+          locale: 'cs_CZ',
           url: currentUrl,
           siteName,
           images: [{ url: SEO_CONSTANTS.defaultImage, width: SEO_CONSTANTS.defaultImageWidth, height: SEO_CONSTANTS.defaultImageHeight }],
@@ -466,8 +466,8 @@ export async function generateMetadata({
 
     default:
       return {
-        title: 'Stránka nenájdená',
-        description: 'Požadovaná stránka nebola nájdená',
+        title: 'Stránka nenalezena',
+        description: 'Požadovaná stránka nebyla nalezena',
       };
   }
 }
@@ -518,7 +518,7 @@ async function UniversalListView({
   });
 
   // Sort standard alphabetically
-  const sortedStandard = [...standard].sort((a, b) => a.name.localeCompare(b.name, 'sk'));
+  const sortedStandard = [...standard].sort((a, b) => a.name.localeCompare(b.name, 'cs'));
 
   // Combine: Partners first, then shuffled Premium, then alphabetical standard
   const allServices = [...partners, ...shuffledPremiums, ...sortedStandard];
@@ -570,7 +570,7 @@ async function UniversalListView({
             {city.isVillage ? city.name : `Taxi ${city.name}`}
           </h1>
           <p className="text-sm text-foreground/60 mt-1">
-            {city.taxiServices.length} {city.taxiServices.length === 1 ? 'taxislužba' : 'taxislužieb'} • {city.region}
+            {city.taxiServices.length} {city.taxiServices.length === 1 ? 'taxislužba' : 'taxislužeb'} • {city.region}
           </p>
           {/* City description - editable by admin */}
           {city.description && (
@@ -685,7 +685,7 @@ async function UniversalListView({
                       {/* Partner popis - pod názvom, nad odznakmi */}
                       {isPartner && (
                         <p className="text-xs text-foreground/60 mt-0.5">
-                          Profesionálna preprava s dôrazom na spoľahlivosť, bezpečnosť a komfort.
+                          Profesionální přeprava s důrazem na spolehlivost, bezpečnost a komfort.
                         </p>
                       )}
 
@@ -699,7 +699,7 @@ async function UniversalListView({
                             </span>
                             <span className="text-[10px] bg-green-600 text-white px-1.5 py-0.5 rounded font-bold flex items-center gap-0.5">
                               <BadgeCheck className="h-3 w-3" />
-                              OVERENÉ
+                              OVĚŘENO
                             </span>
                           </>
                         )}
@@ -710,14 +710,14 @@ async function UniversalListView({
                             </span>
                             <span className="text-[10px] bg-green-600 text-white px-1.5 py-0.5 rounded font-bold flex items-center gap-0.5">
                               <BadgeCheck className="h-3 w-3" />
-                              OVERENÉ
+                              OVĚŘENO
                             </span>
                           </>
                         )}
-                        {/* Neoverené badge pre štandardné služby */}
+                        {/* Neověřeno badge pre štandardné služby */}
                         {!isPartner && !isPremium && (
                           <span className="text-[10px] bg-gray-400 text-white px-1.5 py-0.5 rounded font-medium">
-                            Neoverené
+                            Neověřeno
                           </span>
                         )}
 
@@ -752,10 +752,10 @@ async function UniversalListView({
                             ? 'bg-purple-600 hover:bg-purple-700 text-white shadow-sm shadow-purple-200'
                             : 'bg-green-600 hover:bg-green-700 text-white shadow-sm shadow-green-200'
                         }`}
-                        title={`Zavolať ${service.name}`}
+                        title={`Zavolat ${service.name}`}
                       >
                         <Phone className="h-4 w-4" />
-                        <span>VOLAŤ</span>
+                        <span>VOLAT</span>
                       </TrackedPhoneButton>
                     ) : (
                       <a
@@ -808,7 +808,7 @@ async function UniversalListView({
                         </div>
                         {/* Hodnotenie a počet */}
                         <span className="font-bold text-gray-900">{ratingData.rating.toFixed(1)}</span>
-                        <span className="text-sm text-gray-500">({ratingData.count} hodnotení)</span>
+                        <span className="text-sm text-gray-500">({ratingData.count} hodnocení)</span>
                         {/* Verified badge */}
                         <BadgeCheck className="h-4 w-4 text-purple-600 ml-auto" />
                       </div>
@@ -838,7 +838,7 @@ async function UniversalListView({
             <div className="py-12 text-center">
               <MapPin className="h-12 w-12 text-foreground/30 mx-auto mb-4" />
               <p className="text-foreground/60 font-medium">
-                Žiadne taxislužby nenájdené
+                Žádné taxislužby nenalezeny
               </p>
             </div>
           )}
@@ -891,8 +891,8 @@ async function getPartnerRatings(services: TaxiService[]): Promise<Map<string, {
 
 async function CityPage({ city }: { city: CityData }) {
   const regionSlug = createRegionSlug(city.region);
-  // Pre obce s isVillage: true používame "v obci", inak "v meste"
-  const locationText = city.isVillage ? 'v obci' : 'v meste';
+  // Pre obce s isVillage: true používame "v obci", inak "ve městě"
+  const locationText = city.isVillage ? 'v obci' : 've městě';
 
   // Fetch ratings for partner services
   const partnerRatings = await getPartnerRatings(city.taxiServices);
@@ -919,7 +919,7 @@ function sortServicesByTier(services: TaxiService[]) {
     if (!a.isPremium && b.isPremium) return 1;
 
     // 3. Alphabetical
-    return a.name.localeCompare(b.name, 'sk');
+    return a.name.localeCompare(b.name, 'cs');
   });
 }
 
@@ -972,7 +972,7 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
 
       <SEOBreadcrumbs items={breadcrumbItems} />
 
-      {/* Above The Fold dizajn - pre VŠETKY obce bez taxislužieb */}
+      {/* Above The Fold dizajn - pre VŠETKY obce bez taxislužeb */}
       {!hasTaxiServices && nearestCities.length > 0 ? (
         <section className="relative bg-gradient-to-br from-primary-yellow/10 via-white to-primary-yellow/5">
           <div className="container mx-auto max-w-6xl px-4 py-6 md:py-8">
@@ -1029,11 +1029,11 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
                           {(isPartner || isPremium) ? (
                             <span className="text-[10px] bg-green-600 text-white px-2 py-0.5 rounded font-bold flex items-center gap-1">
                               <BadgeCheck className="h-3 w-3" />
-                              Overené: 01/2026
+                              Ověřeno: 01/2026
                             </span>
                           ) : (
                             <span className="text-[10px] bg-gray-400 text-white px-2 py-0.5 rounded font-medium">
-                              Neoverené
+                              Neověřeno
                             </span>
                           )}
                         </div>
@@ -1085,7 +1085,7 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
                         href={serviceDetailUrl}
                         className="block text-center text-xs text-foreground/50 hover:text-foreground/70 hover:underline mt-2 pt-2 border-t border-gray-100"
                       >
-                        Zobraziť profil →
+                        Zobrazit profil →
                       </Link>
                     </div>
                   );
@@ -1121,7 +1121,7 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
                 href={`/taxi/${nearestCities[0].city.slug}`}
                 className="inline-flex items-center gap-2 text-primary-yellow hover:underline font-semibold"
               >
-                Zobraziť všetky taxislužby v {nearestCities[0].city.name}
+                Zobrazit všechny taxislužby v {nearestCities[0].city.name}
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
@@ -1133,7 +1133,7 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
                 className="inline-flex items-center gap-2 text-sm text-foreground/60 hover:text-foreground transition-colors"
               >
                 <ArrowLeft className="h-4 w-4" />
-                {isHierarchical && actualDistrict ? `Späť na okres ${actualDistrict.name}` : `Späť na ${municipality.region}`}
+                {isHierarchical && actualDistrict ? `Zpět na okres ${actualDistrict.name}` : `Zpět na ${municipality.region}`}
               </Link>
             </div>
           </div>
@@ -1154,7 +1154,7 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
                     {municipality.name}
                   </h1>
                   <p className="text-sm sm:text-base text-foreground/70 mt-2">
-                    Objednajte si taxi v okolí
+                    Objednejte si taxi v okolí
                   </p>
                 </div>
 
@@ -1194,7 +1194,7 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
                           <span className="font-bold text-lg text-gray-900">{ctaOverride.text}</span>
                           <div className="flex items-center gap-2 text-sm text-purple-600 font-semibold">
                             <Phone className="h-4 w-4" />
-                            Zobraziť kontakt
+                            Zobrazit kontakt
                           </div>
                         </div>
                         <ArrowRight className="h-5 w-5 text-purple-400 relative z-10" />
@@ -1229,7 +1229,7 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
                   <>
                     <div className="bg-primary-yellow/10 rounded-xl p-4 mb-4">
                       <p className="text-sm font-semibold text-foreground/80">
-                        ✓ V obci {municipality.name} máme {cityWithTaxi.taxiServices.length} taxislužieb
+                        ✓ V obci {municipality.name} máme {cityWithTaxi.taxiServices.length} taxislužeb
                       </p>
                     </div>
                     <Link
@@ -1237,7 +1237,7 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
                       className="flex items-center justify-center gap-3 w-full px-6 py-4 bg-green-600 text-white font-bold rounded-xl hover:bg-green-700 transition-all shadow-lg hover:shadow-xl text-lg"
                     >
                       <Phone className="h-6 w-6" />
-                      Zobraziť taxislužby
+                      Zobrazit taxislužby
                     </Link>
                   </>
                 )}
@@ -1276,7 +1276,7 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
                 className="inline-flex items-center gap-2 text-sm text-foreground/60 hover:text-foreground transition-colors"
               >
                 <ArrowLeft className="h-4 w-4" />
-                {isHierarchical && actualDistrict ? `Späť na okres ${actualDistrict.name}` : `Späť na ${municipality.region}`}
+                {isHierarchical && actualDistrict ? `Zpět na okres ${actualDistrict.name}` : `Zpět na ${municipality.region}`}
               </Link>
             </div>
           </div>
@@ -1288,13 +1288,13 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
         <section className="py-12 px-4 md:px-8 bg-white">
           <div className="container mx-auto max-w-4xl">
             <div className="prose prose-lg max-w-none text-foreground/80">
-              <h2 className="text-2xl font-bold text-foreground mb-4">O lokalite {municipality.name}</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4">O lokalitě {municipality.name}</h2>
               <p className="mb-6">{customContent.intro}</p>
               
               <h3 className="text-xl font-bold text-foreground mb-3">Doprava a Taxi</h3>
               <p className="mb-6">{customContent.transport}</p>
               
-              <h3 className="text-xl font-bold text-foreground mb-3">Zaujímavosti</h3>
+              <h3 className="text-xl font-bold text-foreground mb-3">Zajímavosti</h3>
               <p>{customContent.attractions}</p>
             </div>
           </div>
@@ -1306,7 +1306,7 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
           <div className="container mx-auto max-w-6xl relative z-10">
             <div className="mb-8 text-center">
               <h2 className="text-2xl md:text-3xl font-black mb-4 text-foreground">
-                Taxislužby {cityWithTaxi.isVillage ? 'v obci' : 'v meste'} {municipality.name}
+                Taxislužby {cityWithTaxi.isVillage ? 'v obci' : 've městě'} {municipality.name}
               </h2>
             </div>
 
@@ -1355,7 +1355,7 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
         />
       )}
 
-      {/* Lokálne dátové FAQ pre obce bez taxislužieb */}
+      {/* Lokálne dátové FAQ pre obce bez taxislužeb */}
       {!hasTaxiServices && nearestCities.length > 0 ? (
         <CityFAQ
           cityName={municipality.name}
@@ -1363,16 +1363,16 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
           isVillage={true}
           customItems={[
             {
-              question: `Kde nájdem najbližšie taxi ${getAccusativePhrase(municipality.slug, municipality.name)}?`,
-              answer: `Najbližšie taxi ${getAccusativePhrase(municipality.slug, municipality.name)} je ${getGenitivePhrase(nearestCities[0].city.slug, nearestCities[0].city.name)} (${nearestCities[0].roadDistance} km, cca ${nearestCities[0].duration} min). V okolí evidujeme taxislužby aj v ${nearestCities.slice(1).map(c => c.city.name).join(' a ')}.`
+              question: `Kde najdu nejbližší taxi ${getAccusativePhrase(municipality.slug, municipality.name)}?`,
+              answer: `Nejbližší taxi ${getAccusativePhrase(municipality.slug, municipality.name)} je ${getGenitivePhrase(nearestCities[0].city.slug, nearestCities[0].city.name)} (${nearestCities[0].roadDistance} km, cca ${nearestCities[0].duration} min). V okolí evidujeme taxislužby i v ${nearestCities.slice(1).map(c => c.city.name).join(' a ')}.`
             },
             {
-              question: `Koľko stojí taxi ${getAccusativePhrase(municipality.slug, municipality.name)}?`,
-              answer: `Orientačná cena taxi ${getGenitivePhrase(nearestCities[0].city.slug, nearestCities[0].city.name)} ${getAccusativePhrase(municipality.slug, municipality.name)} je ${Math.ceil(2 + nearestCities[0].roadDistance * 0.85)}€ - ${Math.ceil(2 + nearestCities[0].roadDistance * 1.15)}€. Finálna cena závisí od konkrétnej taxislužby a času jazdy.`
+              question: `Kolik stojí taxi ${getAccusativePhrase(municipality.slug, municipality.name)}?`,
+              answer: `Orientační cena taxi ${getGenitivePhrase(nearestCities[0].city.slug, nearestCities[0].city.name)} ${getAccusativePhrase(municipality.slug, municipality.name)} je ${Math.ceil(2 + nearestCities[0].roadDistance * 0.85)}€ - ${Math.ceil(2 + nearestCities[0].roadDistance * 1.15)}€. Finální cena závisí na konkrétní taxislužbě a době jízdy.`
             },
             {
               question: `Je ${getLocativePhrase(municipality.slug, municipality.name).replace(/^V /i, 'v ')} taxislužba?`,
-              answer: `${getLocativePhrase(municipality.slug, municipality.name)} momentálne neevidujeme žiadnu taxislužbu. Odporúčame využiť taxi z okolitých miest - najbližšie sú ${nearestCities.map(c => `${c.city.name} (${c.roadDistance} km)`).join(', ')}.`
+              answer: `${getLocativePhrase(municipality.slug, municipality.name)} momentálně neevidujeme žádnou taxislužbu. Doporučujeme využít taxi z okolních měst - nejbližší jsou ${nearestCities.map(c => `${c.city.name} (${c.roadDistance} km)`).join(', ')}.`
             }
           ]}
         />
@@ -1383,15 +1383,15 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
         )
       )}
 
-      {/* Najčastejšie ciele - intent sekcia pre obce bez taxi */}
+      {/* Nejčastější cíle - intent sekcia pre obce bez taxi */}
       {!hasTaxiServices && nearestCities.length > 0 && (
         <section className="py-8 md:py-12 px-4 md:px-8 bg-gray-50">
           <div className="container mx-auto max-w-4xl">
             <h2 className="text-xl md:text-2xl font-black mb-4 text-foreground">
-              Najčastejšie ciele z {municipality.name}
+              Nejčastější cíle z {municipality.name}
             </h2>
             <p className="text-sm text-foreground/70 mb-6">
-              Kam najčastejšie cestujú ľudia z {municipality.name}? Tu sú obľúbené destinácie:
+              Kam nejčastěji cestují lidé z {municipality.name}? Toto jsou oblíbené destinace:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {nearestCities.map(({ city, roadDistance }) => (
@@ -1413,7 +1413,7 @@ function MunicipalityPage({ municipality, isHierarchical = false, district, over
                 >
                   <MapPin className="h-5 w-5 text-primary-yellow mb-2" />
                   <span className="font-bold text-foreground">Okres {actualDistrict.name}</span>
-                  <span className="text-xs text-foreground/60">Všetky taxi</span>
+                  <span className="text-xs text-foreground/60">Všechny taxi</span>
                 </Link>
               )}
             </div>
@@ -1481,7 +1481,7 @@ function DistrictPage({ district, regionSlug }: { district: District; regionSlug
                 Taxi okres {district.name}
               </h1>
               <p className="text-sm sm:text-base md:text-xl font-semibold px-2 sm:px-4 text-foreground/90">
-                {district.municipalitiesCount} obcí a miest v okrese {district.name}
+                {district.municipalitiesCount} obcí a měst v okrese {district.name}
               </p>
             </div>
           </div>
@@ -1491,10 +1491,10 @@ function DistrictPage({ district, regionSlug }: { district: District; regionSlug
       <section className="py-8 md:py-12 px-4 md:px-8">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-2xl md:text-3xl font-black mb-6 text-foreground text-center">
-            Všetky obce v okrese {district.name}
+            Všechny obce v okrese {district.name}
           </h2>
           <p className="text-center text-foreground/70 mb-8">
-            Kliknite na obec pre zobrazenie najbližších taxislužieb
+            Klikněte na obec pro zobrazení nejbližších taxislužeb
           </p>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 md:gap-3">
@@ -1527,17 +1527,17 @@ function DistrictPage({ district, regionSlug }: { district: District; regionSlug
       <section className="py-8 md:py-12 px-4 md:px-8 bg-foreground/5">
         <div className="container mx-auto max-w-6xl text-center">
           <h2 className="text-xl md:text-2xl font-black mb-4 text-foreground">
-            Hľadáte taxi v okrese {district.name}?
+            Hledáte taxi v okrese {district.name}?
           </h2>
           <p className="text-foreground/80 mb-6">
-            Vyberte si obec zo zoznamu vyššie a nájdite najbližšie taxislužby vo vašom okolí.
-            Všetky obce v okrese {district.name} sú prepojené s najbližšími mestami, kde nájdete dostupné taxislužby.
+            Vyberte si obec ze seznamu výše a najděte nejbližší taxislužby ve vašem okolí.
+            Všechny obce v okrese {district.name} jsou propojené s nejbližšími městy, kde najdete dostupné taxislužby.
           </p>
           <Link
             href={`/kraj/${regionSlug}`}
             className="inline-block bg-primary-yellow text-foreground font-bold px-6 py-3 rounded-lg hover:bg-primary-yellow/90 transition-colors"
           >
-            Zobraziť všetky okresy v kraji {district.region}
+            Zobrazit všechny okresy v kraji {district.region}
           </Link>
         </div>
       </section>
@@ -1550,8 +1550,8 @@ function DistrictPage({ district, regionSlug }: { district: District; regionSlug
 
 async function ServicePage({ city, service, serviceSlug }: { city: CityData; service: TaxiService; serviceSlug: string }) {
   const regionSlug = createRegionSlug(city.region);
-  // Pre obce s isVillage: true používame "v obci", inak "v meste"
-  const locationText = city.isVillage ? 'v obci' : 'v meste';
+  // Pre obce s isVillage: true používame "v obci", inak "ve městě"
+  const locationText = city.isVillage ? 'v obci' : 've městě';
   const content = generateUniqueServiceContent({
     serviceName: service.name,
     cityName: city.name,
@@ -1620,7 +1620,7 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
       email: draftData?.email ?? mergedEmail ?? '',
       website: draftData?.website ?? approvedData?.website ?? service.website ?? '',
       hero_title: draftData?.hero_title ?? approvedData?.hero_title ?? service.name,
-      hero_subtitle: draftData?.hero_subtitle ?? approvedData?.hero_subtitle ?? `Profesionálna taxislužba ${locationText} ${city.name}`,
+      hero_subtitle: draftData?.hero_subtitle ?? approvedData?.hero_subtitle ?? `Profesionální taxislužba ${locationText} ${city.name}`,
       hero_image_url: draftData?.hero_image_url ?? heroImage ?? undefined,
       hero_image_zoom: draftData?.hero_image_zoom ?? heroImageZoom,
       hero_image_pos_x: draftData?.hero_image_pos_x ?? heroImagePosX,
@@ -1676,7 +1676,7 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
               className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors font-bold mb-4"
             >
               <ArrowLeft className="h-4 w-4" />
-              Späť na zoznam taxislužieb
+              Zpět na seznam taxislužeb
             </Link>
 
             {/* Hero image container (uses Supabase approved positioning if available) */}
@@ -1707,7 +1707,7 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
                   <div className="flex gap-1.5 md:gap-2 mb-2 md:mb-4">
                     <div className="bg-green-500 text-white text-[10px] md:text-xs font-black px-2 md:px-3 py-0.5 md:py-1 rounded-full flex items-center gap-1">
                       <BadgeCheck className="h-2.5 w-2.5 md:h-3 md:w-3" />
-                      OVERENÉ
+                      OVĚŘENO
                     </div>
                     <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 text-purple-900 text-[10px] md:text-xs font-black px-2 md:px-3 py-0.5 md:py-1 rounded-full flex items-center gap-1">
                       <Star className="h-2.5 w-2.5 md:h-3 md:w-3" />
@@ -1760,7 +1760,7 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
                 <div className="flex gap-1.5 md:gap-2 mb-4 md:mb-6">
                   <div className="bg-green-500 text-white text-[10px] md:text-sm font-black px-2 md:px-4 py-0.5 md:py-1.5 rounded-full flex items-center gap-1">
                     <BadgeCheck className="h-2.5 w-2.5 md:h-4 md:w-4" />
-                    OVERENÉ
+                    OVĚŘENO
                   </div>
                   <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 text-purple-900 text-[10px] md:text-sm font-black px-2 md:px-4 py-0.5 md:py-1.5 rounded-full flex items-center gap-1">
                     <Star className="h-2.5 w-2.5 md:h-4 md:w-4" />
@@ -1839,7 +1839,7 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
             {initialEditorData.services && initialEditorData.services.length > 0 && (
               <EditableServices defaultServices={initialEditorData.services}>
                 <div className="mt-6 md:mt-8 partner-card rounded-xl p-4 md:p-6">
-                  <h2 className="text-lg md:text-xl font-bold text-foreground mb-3 md:mb-4">Ponúkané služby</h2>
+                  <h2 className="text-lg md:text-xl font-bold text-foreground mb-3 md:mb-4">Nabízené služby</h2>
                   <div className="flex flex-wrap gap-2">
                     {initialEditorData.services.map((svc: string, index: number) => (
                       <span
@@ -1871,7 +1871,7 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
         <section className="py-8 md:py-16 px-4 md:px-8">
           <div className="container mx-auto max-w-4xl">
             <h2 className="text-xl md:text-3xl font-black text-foreground mb-6 md:mb-8 text-center">
-              Prečo si vybrať {service.name}?
+              Proč si vybrat {service.name}?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6">
               <div className="flex md:flex-col items-center md:text-center p-4 md:p-6 partner-card rounded-xl gap-3 md:gap-0">
@@ -1879,8 +1879,8 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
                   <BadgeCheck className="h-5 w-5 md:h-7 md:w-7 text-white" />
                 </div>
                 <div className="flex-1 md:flex-none">
-                  <h3 className="font-bold text-sm md:text-lg text-foreground md:mb-2">Overená taxislužba</h3>
-                  <p className="text-foreground/70 text-xs md:text-base">Partner program zaručuje kvalitu a spoľahlivosť.</p>
+                  <h3 className="font-bold text-sm md:text-lg text-foreground md:mb-2">Ověřená taxislužba</h3>
+                  <p className="text-foreground/70 text-xs md:text-base">Partnerský program zaručuje kvalitu a spolehlivost.</p>
                 </div>
               </div>
               <div className="flex md:flex-col items-center md:text-center p-4 md:p-6 partner-card rounded-xl gap-3 md:gap-0">
@@ -1888,8 +1888,8 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
                   <Phone className="h-5 w-5 md:h-7 md:w-7 text-white" />
                 </div>
                 <div className="flex-1 md:flex-none">
-                  <h3 className="font-bold text-sm md:text-lg text-foreground md:mb-2">Rýchly kontakt</h3>
-                  <p className="text-foreground/70 text-xs md:text-base">Jednoduché objednanie taxi telefonicky.</p>
+                  <h3 className="font-bold text-sm md:text-lg text-foreground md:mb-2">Rychlý kontakt</h3>
+                  <p className="text-foreground/70 text-xs md:text-base">Jednoduché objednání taxi telefonicky.</p>
                 </div>
               </div>
               <div className="flex md:flex-col items-center md:text-center p-4 md:p-6 partner-card rounded-xl gap-3 md:gap-0">
@@ -1897,8 +1897,8 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
                   <Star className="h-5 w-5 md:h-7 md:w-7 text-white" />
                 </div>
                 <div className="flex-1 md:flex-none">
-                  <h3 className="font-bold text-sm md:text-lg text-foreground md:mb-2">Profesionálny prístup</h3>
-                  <p className="text-foreground/70 text-xs md:text-base">Skúsení vodiči a kvalitné vozidlá.</p>
+                  <h3 className="font-bold text-sm md:text-lg text-foreground md:mb-2">Profesionální přístup</h3>
+                  <p className="text-foreground/70 text-xs md:text-base">Zkušení řidiči a kvalitní vozidla.</p>
                 </div>
               </div>
             </div>
@@ -1932,10 +1932,10 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
         <section className="py-8 md:py-16 px-4 md:px-8 partner-cta">
           <div className="container mx-auto max-w-4xl text-center">
             <h2 className="text-xl md:text-3xl font-black mb-2 md:mb-4">
-              Potrebujete taxi {partnerData?.customCtaTitle ? partnerData.customCtaTitle : `${locationText} ${city.name}${partnerData?.secondaryCity ? ` alebo v obci ${partnerData.secondaryCity}` : ''}`}?
+              Potřebujete taxi {partnerData?.customCtaTitle ? partnerData.customCtaTitle : `${locationText} ${city.name}${partnerData?.secondaryCity ? ` nebo v obci ${partnerData.secondaryCity}` : ''}`}?
             </h2>
             <p className="partner-cta-muted mb-4 md:mb-6 text-sm md:text-lg">
-              Zavolajte nám a odvezieme vás kam potrebujete.
+              Zavolejte nám a odvezeme vás kam potřebujete.
             </p>
             <ServiceContactButtons
               phone={service.phone}
@@ -1953,7 +1953,7 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
           <section className="py-8 md:py-16 px-4 md:px-8 bg-foreground/5">
             <div className="container mx-auto max-w-4xl">
               <h2 className="text-lg md:text-2xl font-black mb-4 md:mb-6 text-foreground text-center">
-                Ďalšie taxislužby {locationText} {city.name}
+                Další taxislužby {locationText} {city.name}
               </h2>
               <div className="grid gap-2 md:gap-3">
                 {[...city.taxiServices]
@@ -2014,7 +2014,7 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
             >
               <ArrowLeft className="h-4 w-4" />
               <span>{city.name}</span>
-              <span className="text-gray-400">({city.taxiServices.length} taxislužieb)</span>
+              <span className="text-gray-400">({city.taxiServices.length} taxislužeb)</span>
             </Link>
           </div>
         </div>
@@ -2062,11 +2062,11 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
                   <MapPin className="h-4 w-4" />
                   <span>{service.address ? service.address : `${city.name}, ${city.region}`}</span>
                 </div>
-                {/* Overená taxislužba badge - len pre Premium/Partner */}
+                {/* Ověřená taxislužba badge - len pre Premium/Partner */}
                 {(isPremium || isPartner) && (
                   <div className="flex items-center gap-1 mt-2 text-sm text-green-600">
                     <CheckCircle2 className="h-4 w-4" />
-                    <span className="font-medium">Overená taxislužba</span>
+                    <span className="font-medium">Ověřená taxislužba</span>
                   </div>
                 )}
               </div>
@@ -2079,7 +2079,7 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
                 className="flex items-center justify-center gap-3 w-full px-6 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-xl transition-all shadow-lg text-lg"
               >
                 <Phone className="h-6 w-6" />
-                <span>Zavolať {service.phone}</span>
+                <span>Zavolat {service.phone}</span>
               </a>
             )}
 
@@ -2092,7 +2092,7 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
                 className="flex items-center justify-center gap-2 w-full mt-3 px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-xl transition-all"
               >
                 <Globe className="h-5 w-5" />
-                <span>Navštíviť web</span>
+                <span>Navštívit web</span>
               </a>
             )}
 
@@ -2103,12 +2103,12 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
           </div>
         </section>
 
-        {/* O taxislužbe - SEO content */}
+        {/* O taxislužbě - SEO content */}
         <section className="py-6 px-4">
           <div className="container mx-auto max-w-4xl">
             <div className="bg-white rounded-xl p-6 shadow-sm">
               <h2 className="text-lg font-bold text-gray-900 mb-4">
-                O taxislužbe
+                O taxislužbě
               </h2>
               {service.customDescription ? (
                 <div className="text-gray-600 text-sm leading-relaxed whitespace-pre-line">
@@ -2136,15 +2136,15 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
                       <Crown className="h-5 w-5 text-white" />
                     </div>
                     <div>
-                      <p className="font-bold text-gray-900 text-sm">Ste majiteľom?</p>
-                      <p className="text-gray-500 text-xs">Získajte lepšiu pozíciu</p>
+                      <p className="font-bold text-gray-900 text-sm">Jste majitelem?</p>
+                      <p className="text-gray-500 text-xs">Získejte lepší pozici</p>
                     </div>
                   </div>
                   <Link
                     href="/pre-taxiky"
                     className="inline-flex items-center gap-1 bg-purple-600 hover:bg-purple-700 text-white font-bold text-xs px-4 py-2 rounded-lg transition-all"
                   >
-                    Zistiť viac
+                    Zjistit více
                   </Link>
                 </div>
               </div>
@@ -2152,7 +2152,7 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
               {/* Owner claim - update info */}
               <div className="bg-gray-50 rounded-xl p-4 border border-gray-200">
                 <div className="flex items-center justify-between gap-3">
-                  <p className="text-gray-600 text-sm">Potrebujete aktualizovať údaje?</p>
+                  <p className="text-gray-600 text-sm">Potřebujete aktualizovat údaje?</p>
                   <OwnerClaimButton
                     serviceName={service.name}
                     servicePhone={service.phone}
@@ -2165,16 +2165,16 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
           </section>
         )}
 
-        {/* Ďalšie taxislužby */}
+        {/* Další taxislužby */}
         {city.taxiServices.length > 1 && (
           <section className="px-4 pb-6">
             <div className="container mx-auto max-w-4xl">
               <h2 className="text-lg font-bold text-gray-900 mb-4">
-                Ďalšie taxislužby {locationText} {city.name}
+                Další taxislužby {locationText} {city.name}
               </h2>
               <div className="bg-white rounded-xl shadow-sm divide-y divide-gray-100">
                 {[...city.taxiServices]
-                  .sort((a, b) => a.name.localeCompare(b.name, 'sk'))
+                  .sort((a, b) => a.name.localeCompare(b.name, 'cs'))
                   .filter((s) => s.name !== service.name)
                   .slice(0, 5)
                   .map((otherService, index) => {
@@ -2213,7 +2213,7 @@ async function ServicePage({ city, service, serviceSlug }: { city: CityData; ser
               className="flex items-center gap-2 px-5 py-3 bg-green-600 hover:bg-green-700 text-white font-bold rounded-xl transition-all"
             >
               <Phone className="h-5 w-5" />
-              <span>Zavolať</span>
+              <span>Zavolat</span>
             </a>
           </div>
         </div>
@@ -2229,14 +2229,14 @@ function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-6">
           <div className="text-xs md:text-sm text-foreground font-bold text-center md:text-left">
-            © 2025 Taxi NearMe. Všetky práva vyhradené.
+            © 2025 Taxi NearMe. Všechna práva vyhrazena.
           </div>
           <div className="flex flex-wrap justify-center gap-4 md:gap-8">
             <Link href="/ochrana-sukromia" className="text-xs md:text-sm text-foreground font-bold hover:text-foreground/70 transition-colors duration-200">
-              Ochrana súkromia
+              Ochrana soukromí
             </Link>
             <Link href="/podmienky-pouzivania" className="text-xs md:text-sm text-foreground font-bold hover:text-foreground/70 transition-colors duration-200">
-              Podmienky používania
+              Podmínky používání
             </Link>
             <Link href="/kontakt" className="text-xs md:text-sm text-foreground font-bold hover:text-foreground/70 transition-colors duration-200">
               Kontakt
@@ -2328,7 +2328,7 @@ export default async function TaxiCatchAllPage({
       return <DistrictPage district={routeType.district} regionSlug={routeType.regionSlug} />;
 
     case 'hierarchical': {
-      // Lešť vojenský obvod - mapa na Zvolen, skryť sekciu "Najbližšie taxislužby", vlastná cena
+      // Lešť vojenský obvod - mapa na Zvolen, skryť sekciu "Nejbližší taxislužby", vlastná cena
       let overrideNearestCities: Array<{ city: CityData; distance: number; roadDistance: number; duration: number }> | undefined;
       let hideNearbyTaxis = false;
       let priceOverride: { min: number; max: number } | undefined;

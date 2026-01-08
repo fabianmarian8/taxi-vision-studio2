@@ -11,41 +11,41 @@ export interface PartnerData {
   heroImage?: string;
   shortDescription?: string;
   description?: string;
-  servicesDescription?: string; // Popis služieb (pre inline editor)
+  servicesDescription?: string; // Popis služeb (pro inline editor)
   services?: string[];
   workingHours?: string;
   googlePlaceId?: string;
   googleMapsUrl?: string;
-  pricelist?: PricelistItem[]; // Cenník taxislužby
-  pricePerKm?: string; // Cena za km (napr. "0.80€/km")
-  paymentMethods?: string[]; // Spôsoby platby
+  pricelist?: PricelistItem[]; // Ceník taxislužby
+  pricePerKm?: string; // Cena za km (např. "0.80€/km")
+  paymentMethods?: string[]; // Způsoby platby
   whatsapp?: string; // WhatsApp číslo
-  bookingUrl?: string; // URL na časovú objednávku
-  secondaryCity?: string; // Druhé mesto pôsobenia (pre CTA sekciu)
-  customCtaTitle?: string; // Vlastný text pre CTA sekciu (napr. "do okolitých obcí")
-  pricelistUrl?: string; // Externý odkaz na cenník
-  transportRulesUrl?: string; // Externý odkaz na prepravný poriadok
-  contactUrl?: string; // Externý odkaz na kontaktné informácie
+  bookingUrl?: string; // URL na časovou objednávku
+  secondaryCity?: string; // Druhé město působení (pro CTA sekci)
+  customCtaTitle?: string; // Vlastní text pro CTA sekci (např. "do okolních obcí")
+  pricelistUrl?: string; // Externí odkaz na ceník
+  transportRulesUrl?: string; // Externí odkaz na přepravní řád
+  contactUrl?: string; // Externí odkaz na kontaktní informace
 }
 
 export interface TaxiService {
   name: string;
   website?: string;
   phone?: string;
-  phone2?: string; // Druhé telefónne číslo
-  phone3?: string; // Tretie telefónne číslo
+  phone2?: string; // Druhé telefonní číslo
+  phone3?: string; // Třetí telefonní číslo
   address?: string; // Adresa taxislužby z Google Places API
-  placeId?: string; // Google Places ID pre budúce využitie
+  placeId?: string; // Google Places ID pro budoucí využití
   description?: string;
-  customDescription?: string; // Vlastný text pre detail stránku (namiesto generovania)
-  logo?: string; // Cesta k logu taxislužby (napr. /logos/fast-taxi-zvolen.webp)
-  gallery?: string[]; // Pole ciest k fotkám taxislužby (zobrazí sa ako galéria)
+  customDescription?: string; // Vlastní text pro detail stránku (místo generování)
+  logo?: string; // Cesta k logu taxislužby (např. /logos/fast-taxi-zvolen.webp)
+  gallery?: string[]; // Pole cest k fotkám taxislužby (zobrazí se jako galerie)
   isPremium?: boolean;
   isPartner?: boolean;
-  isPromotional?: boolean; // Flag pre marketingové promo premium (neplatia)
-  premiumExpiresAt?: string; // ISO date string pre expiráciu
+  isPromotional?: boolean; // Flag pro marketingové promo premium (neplatí)
+  premiumExpiresAt?: string; // ISO date string pro expiraci
   partnerData?: PartnerData;
-  redirectTo?: string; // Presmerovanie na inú stránku (napr. partner stránku v inom meste)
+  redirectTo?: string; // Přesměrování na jinou stránku (např. partner stránku v jiném městě)
   nonstop?: boolean; // 24/7 služba
 }
 
@@ -60,55 +60,55 @@ export interface CityData {
   latitude?: number;
   longitude?: number;
   heroImage?: string;
-  isVillage?: boolean; // true pre obce, ktoré majú taxi ale nie sú mestá
+  isVillage?: boolean; // true pro obce, které mají taxi ale nejsou města
 }
 
-// Načítanie dát z JSON súboru
+// Načtení dat z JSON souboru
 export const czechCities: CityData[] = citiesDataJson.cities as CityData[];
 
-// Backward compatibility alias
+// Backward compatibility alias (deprecated - use czechCities)
 export const slovakCities = czechCities;
 
 export const getCityBySlug = (slug: string): CityData | undefined => {
   return czechCities.find(city => city.slug === slug);
 };
 
-// Získanie jedinečného zoznamu krajů
+// Získání jedinečného seznamu krajů
 export const getUniqueRegions = (): string[] => {
   const regions = czechCities.map(city => city.region);
   return Array.from(new Set(regions)).sort();
 };
 
-// Funkcia na vytvorenie slug z názvu kraja
+// Funkce na vytvoření slug z názvu kraje
 export const createRegionSlug = (regionName: string): string => {
   return regionName
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '') // Odstránenie diakritiky
-    .replace(/\s+/g, '-'); // Nahradenie medzier pomlčkami
+    .replace(/[\u0300-\u036f]/g, '') // Odstranění diakritiky
+    .replace(/\s+/g, '-'); // Nahrazení mezer pomlčkami
 };
 
-// Získanie miest v daném kraji (vylúči obce s isVillage: true)
+// Získání měst v daném kraji (vyloučí obce s isVillage: true)
 export const getCitiesByRegion = (regionName: string): CityData[] => {
   return czechCities
     .filter(city => city.region === regionName && !city.isVillage)
     .sort((a, b) => a.name.localeCompare(b.name, 'cs'));
 };
 
-// Získanie kraja podľa slug
+// Získání kraje podle slug
 export const getRegionBySlug = (slug: string): string | undefined => {
   const regions = getUniqueRegions();
   return regions.find(region => createRegionSlug(region) === slug);
 };
 
-// Export regiónu s dátami
+// Export regionu s daty
 export interface RegionData {
   name: string;
   slug: string;
   citiesCount: number;
 }
 
-// Získanie všetkých regiónov s dátami
+// Získání všech regionů s daty
 export const getRegionsData = (): RegionData[] => {
   const regions = getUniqueRegions();
   return regions.map(region => ({

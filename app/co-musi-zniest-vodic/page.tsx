@@ -14,19 +14,19 @@ import { ArticleSchema } from '@/components/schema/ArticleSchema';
 import { ArticleAuthor } from '@/components/ArticleAuthor';
 
 export const metadata: Metadata = {
-  title: 'Čo všetko musí zniesť vodič taxi | TaxiNearMe.sk',
-  description: 'Realita práce taxikára - výzvy, stres a každodenné situácie.',
-  keywords: ['práca taxikára', 'realita taxi', 'stres vodič', 'výzvy taxislužby', 'život taxikára'],
+  title: 'Co všechno musí snést řidič taxi | TaxiNearMe.cz',
+  description: 'Realita práce taxikáře - výzvy, stres a každodenní situace.',
+  keywords: ['práce taxikáře', 'realita taxi', 'stres řidič', 'výzvy taxislužby', 'život taxikáře'],
   openGraph: {
-    title: 'Čo všetko musí zniesť vodič taxi',
-    description: 'Realita práce taxikára - výzvy, stres a každodenné situácie.',
-    url: 'https://www.taxinearme.sk/co-musi-zniest-vodic',
+    title: 'Co všechno musí snést řidič taxi',
+    description: 'Realita práce taxikáře - výzvy, stres a každodenní situace.',
+    url: 'https://www.taxinearme.cz/co-musi-zniest-vodic',
     type: 'article',
     images: [{
-      url: 'https://www.taxinearme.sk/blog-images/vodic.jpg',
+      url: 'https://www.taxinearme.cz/blog-images/vodic.jpg',
       width: 1200,
       height: 630,
-      alt: 'Čo všetko musí zniesť vodič taxi'
+      alt: 'Co všechno musí snést řidič taxi'
     }],
     publishedTime: '2025-01-15',
     modifiedTime: '2025-01-15'
@@ -34,15 +34,15 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     site: SEO_CONSTANTS.twitterSite,
-    title: 'Čo všetko musí zniesť vodič taxi',
-    description: 'Realita práce taxikára - výzvy, stres a každodenné situácie.',
-    images: ['https://www.taxinearme.sk/blog-images/vodic.jpg']
+    title: 'Co všechno musí snést řidič taxi',
+    description: 'Realita práce taxikáře - výzvy, stres a každodenní situace.',
+    images: ['https://www.taxinearme.cz/blog-images/vodic.jpg']
   },
   alternates: {
-    canonical: 'https://www.taxinearme.sk/co-musi-zniest-vodic',
+    canonical: 'https://www.taxinearme.cz/co-musi-zniest-vodic',
     languages: {
-      'sk': 'https://www.taxinearme.sk/co-musi-zniest-vodic',
-      'x-default': 'https://www.taxinearme.sk/co-musi-zniest-vodic',
+      'cs': 'https://www.taxinearme.cz/co-musi-zniest-vodic',
+      'x-default': 'https://www.taxinearme.cz/co-musi-zniest-vodic',
     },
   }
 };
@@ -51,9 +51,9 @@ export default function CoMusiZniestVodicPage() {
   return (
     <div className="min-h-screen bg-white">
       <ArticleSchema
-        title="Čo všetko musí zniesť vodič taxi"
-        description="Realita práce taxikára - výzvy, stres a každodenné situácie."
-        url="https://www.taxinearme.sk/co-musi-zniest-vodic"
+        title="Co všechno musí snést řidič taxi"
+        description="Realita práce taxikáře - výzvy, stres a každodenní situace."
+        url="https://www.taxinearme.cz/co-musi-zniest-vodic"
         publishedTime="2025-01-15"
         modifiedTime="2025-01-15"
       />
@@ -61,7 +61,7 @@ export default function CoMusiZniestVodicPage() {
 
       <div className="hero-3d-bg">
         <SEOBreadcrumbs items={[
-          { label: 'Čo musí zniesť vodič' }
+          { label: 'Co musí snést řidič' }
         ]} />
 
         <section className="pt-3 md:pt-4 pb-6 md:pb-8 px-3 md:px-6 relative overflow-hidden">
@@ -76,22 +76,22 @@ export default function CoMusiZniestVodicPage() {
             </span>
             <div className="flex items-center gap-1 text-[10px] text-foreground/60">
               <Calendar className="h-2.5 w-2.5" />
-              15. január 2025
+              15. leden 2025
             </div>
             <div className="hidden sm:block text-foreground/30">•</div>
             <ArticleAuthor variant="inline" />
           </div>
 
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-black mb-3 text-foreground leading-tight">
-            Čo všetko musí zniesť vodič taxi
+            Co všechno musí snést řidič taxi
           </h1>
 
           <p className="text-xl text-foreground/80 mb-3">
-            Dlhé hodiny, toxickí zákazníci, neférové hodnotenia a neustály stres. Realita, o ktorej sa veľa nehovorí.
+            Dlouhé hodiny, toxičtí zákazníci, neférová hodnocení a neustálý stres. Realita, o které se moc nemluví.
           </p>
 
           <ShareButton
-            title="Čo všetko musí zniesť vodič taxi - peklo analýza"
+            title="Co všechno musí snést řidič taxi - peklo analýza"
           />
         </div>
       </section>
@@ -103,51 +103,51 @@ export default function CoMusiZniestVodicPage() {
 
             <div className="bg-red-50 border-l-4 border-red-400 p-6 mb-8">
               <p className="text-lg font-semibold text-gray-900">
-                Taxi nie je glamour. Nie je to len "sadneš do auta, vozíš ľudí, zarábať peniaze". Je to fyzicky, psychicky a emocionálne vyčerpávajúca práca. A väčšina ľudí nemá ani len predstavu, čo všetko vodiči denne znášajú.
+                Taxi není glamour. Není to jen "sedneš do auta, vozíš lidi, vyděláváš peníze". Je to fyzicky, psychicky a emocionálně vyčerpávající práce. A většina lidí nemá ani ponětí, co všechno řidiči denně snášejí.
               </p>
             </div>
 
             <p className="text-sm leading-relaxed">
-              Tento článok nie je na sťažovanie. Je to realita. Bez príkras. Bez filtra. Pre tých, ktorí uvažujú o práci vodiča, aj pre tých, ktorí chcú pochopiť, prečo ich vodič niekedy vyzerá unavene, prečo reaguje defenzívne, alebo prečo nemá energiu na rozhovory.
+              Tento článek není na stěžování. Je to realita. Bez příkras. Bez filtru. Pro ty, kteří uvažují o práci řidiče, i pro ty, kteří chtějí pochopit, proč jejich řidič někdy vypadá unaveně, proč reaguje defenzivně, nebo proč nemá energii na rozhovory.
             </p>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <Clock className="h-8 w-8 inline mr-2 text-primary" />
-              1. Fyzická vyčerpanosť: 10-14 hodín denne za volantom
+              1. Fyzická vyčerpanost: 10-14 hodin denně za volantem
             </h2>
 
             <div className="bg-gray-900 text-white p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Typický deň vodiča:</h3>
+              <h3 className="text-2xl font-bold mb-3">Typický den řidiče:</h3>
 
               <div className="space-y-4">
                 <div>
-                  <p className="font-bold mb-2">06:00 – Začiatok</p>
+                  <p className="font-bold mb-2">06:00 – Začátek</p>
                   <p>Vstaneš, káva, vyrazíš</p>
                 </div>
                 <div>
-                  <p className="font-bold mb-2">06:30 – 10:00 – Ranná špička</p>
-                  <p>Letisko, obchodné štvrte, zápchy, nervózni zákazníci</p>
+                  <p className="font-bold mb-2">06:30 – 10:00 – Ranní špička</p>
+                  <p>Letiště, obchodní čtvrti, zácpy, nervózní zákazníci</p>
                 </div>
                 <div>
-                  <p className="font-bold mb-2">10:00 – 14:00 – Mŕtva zóna</p>
-                  <p>Málo jázd, čakáš, čakáš, platíš benzín, čakáš</p>
+                  <p className="font-bold mb-2">10:00 – 14:00 – Mrtvá zóna</p>
+                  <p>Málo jízd, čekáš, čekáš, platíš benzín, čekáš</p>
                 </div>
                 <div>
-                  <p className="font-bold mb-2">14:00 – 18:00 – Popoludňajšia špička</p>
-                  <p>Znova zápchy, stres, vyčerpanosť</p>
+                  <p className="font-bold mb-2">14:00 – 18:00 – Odpolední špička</p>
+                  <p>Znovu zácpy, stres, vyčerpanost</p>
                 </div>
                 <div>
-                  <p className="font-bold mb-2">18:00 – 22:00 – Večerné hodiny</p>
-                  <p>Reštaurácie, bary, prvé opité skupiny</p>
+                  <p className="font-bold mb-2">18:00 – 22:00 – Večerní hodiny</p>
+                  <p>Restaurace, bary, první opilé skupiny</p>
                 </div>
                 <div>
-                  <p className="font-bold mb-2">22:00 – 03:00 – Najrizikovejšie hodiny</p>
-                  <p>Opitý zákazníci, agresívne správanie, riziko zvracania/konfliktu</p>
+                  <p className="font-bold mb-2">22:00 – 03:00 – Nejrizikovější hodiny</p>
+                  <p>Opilí zákazníci, agresivní chování, riziko zvracení/konfliktu</p>
                 </div>
               </div>
 
               <p className="mt-6 text-xl font-bold">
-                = 12-16 hodín v sedačke. Denne.
+                = 12-16 hodin v sedačce. Denně.
               </p>
             </div>
 
@@ -155,249 +155,249 @@ export default function CoMusiZniestVodicPage() {
 
             <div className="grid md:grid-cols-2 gap-4 my-4">
               <div className="bg-red-50 p-4 rounded-lg">
-                <p className="font-bold mb-2">Bolesť chrbta</p>
-                <p className="text-sm text-gray-700">Chronické problémy s chrbtom a bedrovým kĺbom</p>
+                <p className="font-bold mb-2">Bolest zad</p>
+                <p className="text-sm text-gray-700">Chronické problémy se zády a bederním kloubem</p>
               </div>
               <div className="bg-red-50 p-4 rounded-lg">
-                <p className="font-bold mb-2">Zlý krvný obeh</p>
-                <p className="text-sm text-gray-700">Žilová nedostatočnosť, opuchy nôh</p>
+                <p className="font-bold mb-2">Špatný krevní oběh</p>
+                <p className="text-sm text-gray-700">Žilní nedostatečnost, otoky nohou</p>
               </div>
               <div className="bg-red-50 p-4 rounded-lg">
                 <p className="font-bold mb-2">Nezdravá strava</p>
-                <p className="text-sm text-gray-700">Fast food na pumpe, žiadny čas na poriadne jedlo</p>
+                <p className="text-sm text-gray-700">Fast food na pumpě, žádný čas na pořádné jídlo</p>
               </div>
               <div className="bg-red-50 p-4 rounded-lg">
                 <p className="font-bold mb-2">Únava očí</p>
-                <p className="text-sm text-gray-700">Hodiny sledovania cesty, nočné svetlá, displeje</p>
+                <p className="text-sm text-gray-700">Hodiny sledování cesty, noční světla, displeje</p>
               </div>
             </div>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <Heart className="h-8 w-8 inline mr-2 text-primary" />
-              2. Psychická záťaž: Život pod gilotínou hviezdičiek
+              2. Psychická zátěž: Život pod gilotinou hvězdiček
             </h2>
 
             <p className="text-lg">
-              Tvoj príjem nezávisí len od toho, koľko jazdíš. Závisí od toho, ako ťa hodnotia. A hodnotenie je často subjektívne, neférové a môže ťa zničiť.
+              Tvůj příjem nezávisí jen na tom, kolik jezdíš. Závisí na tom, jak tě hodnotí. A hodnocení je často subjektivní, neférové a může tě zničit.
             </p>
 
             <div className="bg-yellow-50 p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Realita hviezdičiek:</h3>
+              <h3 className="text-2xl font-bold mb-3">Realita hvězdiček:</h3>
 
               <div className="space-y-4">
                 <div className="bg-white p-4 rounded">
-                  <p className="font-semibold mb-2">Scenár 1: Zápcha</p>
-                  <p className="text-sm text-gray-700 mb-2">Stojíš v kolóne 20 minút. Zákazník nervózny. Dáš mu 3★: "Meškal."</p>
-                  <p className="text-red-600 font-bold">→ Tvoj priemer klesá.</p>
+                  <p className="font-semibold mb-2">Scénář 1: Zácpa</p>
+                  <p className="text-sm text-gray-700 mb-2">Stojíš v koloně 20 minut. Zákazník nervózní. Dá ti 3★: "Meškal."</p>
+                  <p className="text-red-600 font-bold">→ Tvůj průměr klesá.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded">
-                  <p className="font-semibold mb-2">Scenár 2: Cena</p>
+                  <p className="font-semibold mb-2">Scénář 2: Cena</p>
                   <p className="text-sm text-gray-700 mb-2">Systém nastaví surge pricing. Zákazník: "Drahé! 2★"</p>
-                  <p className="text-red-600 font-bold">→ Nie je to tvoja vina, ale ty ideš dole.</p>
+                  <p className="text-red-600 font-bold">→ Není to tvoje vina, ale ty jdeš dolů.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded">
-                  <p className="font-semibold mb-2">Scenár 3: Odmietnutie</p>
-                  <p className="text-sm text-gray-700 mb-2">Odmietneš opitého agresívneho pasažiera. On ťa nahlási za "nevhodné správanie".</p>
-                  <p className="text-red-600 font-bold">→ Systém ťa zablokuje. Žiadny príjem.</p>
+                  <p className="font-semibold mb-2">Scénář 3: Odmítnutí</p>
+                  <p className="text-sm text-gray-700 mb-2">Odmítneš opilého agresivního pasažéra. On tě nahlásí za "nevhodné chování".</p>
+                  <p className="text-red-600 font-bold">→ Systém tě zablokuje. Žádný příjem.</p>
                 </div>
               </div>
             </div>
 
             <p className="text-xl font-bold text-center my-4 p-6 bg-red-100 rounded-lg">
-              Žiješ v neustálom strachu: Každá jazda môže byť tá, ktorá ti zničí rating.
+              Žiješ v neustálém strachu: Každá jízda může být ta, která ti zničí rating.
             </p>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <Shield className="h-8 w-8 inline mr-2 text-primary" />
-              3. Bezpečnostné riziká: Najnebezpečnejšie povolanie v USA
+              3. Bezpečnostní rizika: Nejnebezpečnější povolání v USA
             </h2>
 
             <div className="bg-gray-900 text-white p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Štatistiky z USA:</h3>
+              <h3 className="text-2xl font-bold mb-3">Statistiky z USA:</h3>
 
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="bg-red-900/50 p-4 rounded-lg">
                   <p className="text-3xl font-bold mb-2">30-60×</p>
-                  <p className="text-sm">vyššie riziko vraždy než priemer pracujúcich</p>
+                  <p className="text-sm">vyšší riziko vraždy než průměr pracujících</p>
                 </div>
                 <div className="bg-red-900/50 p-4 rounded-lg">
                   <p className="text-3xl font-bold mb-2">82%</p>
-                  <p className="text-sm">útokov sa stáva v noci</p>
+                  <p className="text-sm">útoků se stává v noci</p>
                 </div>
                 <div className="bg-red-900/50 p-4 rounded-lg">
                   <p className="text-3xl font-bold mb-2">94%</p>
-                  <p className="text-sm">útokov pochádza zvnútra vozidla</p>
+                  <p className="text-sm">útoků pochází zevnitř vozidla</p>
                 </div>
                 <div className="bg-red-900/50 p-4 rounded-lg">
                   <p className="text-3xl font-bold mb-2">80%</p>
-                  <p className="text-sm">útokov prichádza zo sedadla za vodičom</p>
+                  <p className="text-sm">útoků přichází ze sedadla za řidičem</p>
                 </div>
               </div>
             </div>
 
-            <h3 className="text-lg font-bold mt-4 mb-2">Riziká, ktoré vodiči denne čelia:</h3>
+            <h3 className="text-lg font-bold mt-4 mb-2">Rizika, kterým řidiči denně čelí:</h3>
 
             <ul className="space-y-3 my-4">
               <li className="bg-red-50 p-4 rounded-lg">
-                <strong>Lúpeže</strong> – Pasažier ťa môže ohroziť, ukradnúť príjem, zmizieť
+                <strong>Loupeže</strong> – Pasažér tě může ohrozit, ukrást příjem, zmizet
               </li>
               <li className="bg-red-50 p-4 rounded-lg">
-                <strong>Fyzické útoky</strong> – Opitý/agresívny zákazník ťa udrie, kopne, pľuje
+                <strong>Fyzické útoky</strong> – Opilý/agresivní zákazník tě udeří, kopne, plivne
               </li>
               <li className="bg-red-50 p-4 rounded-lg">
-                <strong>Sexuálne obťažovanie</strong> – Nevhodné návrhy, dotýkanie, slovné obťažovanie
+                <strong>Sexuální obtěžování</strong> – Nevhodné návrhy, dotýkání, slovní obtěžování
               </li>
               <li className="bg-red-50 p-4 rounded-lg">
-                <strong>Falošné obvinenia</strong> – Zákazník tvrdí, že si sa správal nevhodne → okamžitá blokovanie
+                <strong>Falešná obvinění</strong> – Zákazník tvrdí, že ses choval nevhodně → okamžité zablokování
               </li>
             </ul>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <TrendingDown className="h-8 w-8 inline mr-2 text-primary" />
-              4. Finančný tlak: Zarábať = žiť pod tlakom
+              4. Finanční tlak: Vydělávat = žít pod tlakem
             </h2>
 
             <div className="bg-blue-50 p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Rozklad výdavkov (mesačne):</h3>
+              <h3 className="text-2xl font-bold mb-3">Rozklad výdajů (měsíčně):</h3>
 
               <div className="space-y-3">
                 <div className="flex justify-between items-center bg-white p-3 rounded">
-                  <span>Provízia platformy (Bolt/Uber)</span>
+                  <span>Provize platformy (Bolt/Uber)</span>
                   <span className="font-bold text-red-600">-20% až -30%</span>
                 </div>
                 <div className="flex justify-between items-center bg-white p-3 rounded">
                   <span>Benzín</span>
-                  <span className="font-bold text-red-600">-400€ až -600€</span>
+                  <span className="font-bold text-red-600">-10 000 Kč až -15 000 Kč</span>
                 </div>
                 <div className="flex justify-between items-center bg-white p-3 rounded">
                   <span>Údržba, pneumatiky, opravy</span>
-                  <span className="font-bold text-red-600">-150€ až -300€</span>
+                  <span className="font-bold text-red-600">-3 750 Kč až -7 500 Kč</span>
                 </div>
                 <div className="flex justify-between items-center bg-white p-3 rounded">
-                  <span>Poistenie, licencie</span>
-                  <span className="font-bold text-red-600">-100€ až -200€</span>
+                  <span>Pojištění, licence</span>
+                  <span className="font-bold text-red-600">-2 500 Kč až -5 000 Kč</span>
                 </div>
                 <div className="flex justify-between items-center bg-white p-3 rounded">
                   <span>Daňový odpočet auta</span>
-                  <span className="font-bold text-red-600">-200€ až -400€</span>
+                  <span className="font-bold text-red-600">-5 000 Kč až -10 000 Kč</span>
                 </div>
               </div>
 
               <div className="mt-4 p-3 bg-gray-900 text-white rounded-lg">
-                <p className="text-xl font-bold">= Z €3000 hrubého príjmu ti zostane €1200-1500 čistého.</p>
+                <p className="text-xl font-bold">= Ze 75 000 Kč hrubého příjmu ti zůstane 30 000-37 500 Kč čistého.</p>
               </div>
             </div>
 
             <p className="text-lg">
-              A to je pri 60-70 hodinách týždenne. Nie je to "ľahký výdělok".
+              A to je při 60-70 hodinách týdně. Není to "lehký výdělek".
             </p>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">5. Emocionálna izolácia: Nikto to nechápe</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">5. Emocionální izolace: Nikdo to nechápe</h2>
 
             <div className="bg-purple-50 p-6 rounded-lg my-4">
               <p className="text-lg mb-3">
-                Povieš kamarátom, rodine: "Som vyčerpaný." Odpoveď: "No veď len sedíš v aute..."
+                Povíš kamarádům, rodině: "Jsem vyčerpaný." Odpověď: "No vždyť jen sedíš v autě..."
               </p>
 
               <p className="font-semibold mb-3">Realita:</p>
               <ul className="space-y-2">
-                <li>• Neustála koncentrácia (nehody, chodci, cyklistů, GPS)</li>
-                <li>• Psychická záťaž (toxickí zákazníci, hodnotenia, stres)</li>
-                <li>• Žiadny sociálny život (pracuješ večery, víkendy, sviatky)</li>
-                <li>• Žiadna rodina (prídeš domov o 3:00, rodina spí)</li>
+                <li>• Neustálá koncentrace (nehody, chodci, cyklisti, GPS)</li>
+                <li>• Psychická zátěž (toxičtí zákazníci, hodnocení, stres)</li>
+                <li>• Žádný sociální život (pracuješ večery, víkendy, svátky)</li>
+                <li>• Žádná rodina (přijdeš domů ve 3:00, rodina spí)</li>
               </ul>
             </div>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">6. Poníženie a neúcta</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">6. Ponížení a neúcta</h2>
 
-            <p>Veľa ľudí na teba pozerá zhora. "Len taxikár." "Nemáš lepšiu prácu?" "Čo si nevyštudoval?"</p>
+            <p>Hodně lidí se na tebe dívá svrchu. "Jen taxikář." "Nemáš lepší práci?" "Co sis nevystudoval?"</p>
 
             <div className="bg-red-50 p-6 rounded-lg my-4">
-              <h3 className="text-xl font-bold mb-3">Typické situácie:</h3>
+              <h3 className="text-xl font-bold mb-3">Typické situace:</h3>
 
               <div className="space-y-3">
                 <div>
                   <p className="font-semibold">Zákazník:</p>
-                  <p className="italic text-gray-700">"Ty taxikári ste všetci rovnakí – okrádači."</p>
+                  <p className="italic text-gray-700">"Vy taxikáři jste všichni stejní – zloději."</p>
                 </div>
 
                 <div>
                   <p className="font-semibold">Zákazník:</p>
-                  <p className="italic text-gray-700">"Nemáš lepšiu prácu?"</p>
+                  <p className="italic text-gray-700">"Nemáš lepší práci?"</p>
                 </div>
 
                 <div>
                   <p className="font-semibold">Zákazník:</p>
-                  <p className="italic text-gray-700">"Daj mi 5★, alebo ti dám 1★."</p>
+                  <p className="italic text-gray-700">"Dej mi 5★, nebo ti dám 1★."</p>
                 </div>
               </div>
 
               <p className="mt-4 text-gray-900">
-                <strong>A ty musíš mlčať. Lebo ak odpovieš → zlé hodnotenie → menej príjmu.</strong>
+                <strong>A ty musíš mlčet. Protože když odpovíš → špatné hodnocení → méně příjmu.</strong>
               </p>
             </div>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">7. Najhoršie: Systém ťa neochráni</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">7. Nejhorší: Systém tě neochrání</h2>
 
             <p className="text-lg">
-              Platformy (Bolt, Uber) fungujú na princípe: <strong>"Zákazník má vždy pravdu."</strong>
+              Platformy (Bolt, Uber) fungují na principu: <strong>"Zákazník má vždy pravdu."</strong>
             </p>
 
             <div className="bg-gray-900 text-white p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Príklady:</h3>
+              <h3 className="text-2xl font-bold mb-3">Příklady:</h3>
 
               <div className="space-y-4">
                 <div>
-                  <p className="font-bold mb-2">1. Falošné obvinenie</p>
-                  <p>Zákazník napíše: "Vodič sa správal nevhodne." Systém: Okamžitá blokovanie, žiadne preverenie.</p>
+                  <p className="font-bold mb-2">1. Falešné obvinění</p>
+                  <p>Zákazník napíše: "Řidič se choval nevhodně." Systém: Okamžité zablokování, žádné prověření.</p>
                 </div>
 
                 <div>
-                  <p className="font-bold mb-2">2. Neférové hodnotenie</p>
-                  <p>Zákazník dá 1★ za zápchu. Systém: Tvoj priemer klesá, menej jázd.</p>
+                  <p className="font-bold mb-2">2. Neférové hodnocení</p>
+                  <p>Zákazník dá 1★ za zácpu. Systém: Tvůj průměr klesá, méně jízd.</p>
                 </div>
 
                 <div>
-                  <p className="font-bold mb-2">3. Žiadna podpora</p>
-                  <p>Nahlášaš incident. Odpoveď platformy: Automatický email, žiadna reálna pomoc.</p>
+                  <p className="font-bold mb-2">3. Žádná podpora</p>
+                  <p>Nahlásíš incident. Odpověď platformy: Automatický email, žádná reálná pomoc.</p>
                 </div>
               </div>
             </div>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">Záver: Prečo vodiči odchádzajú</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">Závěr: Proč řidiči odcházejí</h2>
 
             <p className="text-lg">
-              Mnohí vodiči začnú s nadšením. "Flexibilný čas, slušný príjem, prečo nie?"
+              Mnozí řidiči začnou s nadšením. "Flexibilní čas, slušný příjem, proč ne?"
             </p>
 
             <p className="text-lg mt-4">
-              Po 6 mesiacoch: Vyčerpaní, frustrovaní, vyhorení. Odídu.
+              Po 6 měsících: Vyčerpaní, frustrovaní, vyhořelí. Odejdou.
             </p>
 
             <div className="bg-yellow-50 p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Dôvody odchodu:</h3>
+              <h3 className="text-2xl font-bold mb-3">Důvody odchodu:</h3>
 
               <ul className="space-y-2">
-                <li>✓ Nízky reálny príjem (po odpočte nákladov)</li>
-                <li>✓ Fyzická vyčerpanosť</li>
-                <li>✓ Neustálý stres z hodnotení</li>
-                <li>✓ Žiadna ochrana pred toxickými zákazníkmi</li>
-                <li>✓ Žiadny sociálny život</li>
-                <li>✓ Žiadna perspektíva rastu</li>
+                <li>✓ Nízký reálný příjem (po odečtení nákladů)</li>
+                <li>✓ Fyzická vyčerpanost</li>
+                <li>✓ Neustálý stres z hodnocení</li>
+                <li>✓ Žádná ochrana před toxickými zákazníky</li>
+                <li>✓ Žádný sociální život</li>
+                <li>✓ Žádná perspektiva růstu</li>
               </ul>
             </div>
 
             <div className="bg-blue-50 p-6 rounded-lg my-4">
-              <p className="text-xl font-bold mb-3">Pre zákazníkov:</p>
+              <p className="text-xl font-bold mb-3">Pro zákazníky:</p>
               <p className="text-lg">
-                Ak váš vodič vyzerá unavene, ak nechce rozprávať, ak reaguje defenzívne – teraz viete prečo. Nie je to osobné. Je to výsledok stovák hodín pod tlakom.
+                Pokud váš řidič vypadá unaveně, pokud nechce mluvit, pokud reaguje defenzivně – teď víte proč. Není to osobní. Je to výsledek stovek hodin pod tlakem.
               </p>
             </div>
 
             <p className="text-xl font-bold text-center my-4">
-              Rešpektujte vodičov. Oni robia prácu, ktorú väčšina ľudí nevydrží ani mesiac.
+              Respektujte řidiče. Oni dělají práci, kterou většina lidí nevydrží ani měsíc.
             </p>
 
             {/* Autor článku */}
@@ -411,18 +411,18 @@ export default function CoMusiZniestVodicPage() {
           {/* FAQ Section */}
           <ArticleFAQ
             articleSlug="co-musi-zniest-vodic"
-            articleTitle="Často kladené otázky o práci taxikára"
+            articleTitle="Často kladené otázky o práci taxikáře"
           />
 
           <div className="mt-16 p-8 bg-gradient-to-br from-primary/10 to-primary/5 rounded-xl">
-            <h3 className="text-2xl font-bold mb-3 text-center">Chcete vidieť komplexný sprievodca taxislužbami?</h3>
+            <h3 className="text-2xl font-bold mb-3 text-center">Chcete vidět komplexní průvodce taxislužbami?</h3>
             <p className="text-center text-gray-700 mb-3">
-              Prečítajte si všetko, čo potrebujete vedieť o taxi na Slovensku v roku 2025.
+              Přečtěte si vše, co potřebujete vědět o taxi v Česku.
             </p>
             <div className="flex justify-center">
               <Link href="/komplexny-sprievodca-taxi">
                 <Button size="lg" className="gap-2">
-                  Zobraziť sprievodcu
+                  Zobrazit průvodce
                   <ArrowLeft className="h-2.5 w-2.5 rotate-180" />
                 </Button>
               </Link>

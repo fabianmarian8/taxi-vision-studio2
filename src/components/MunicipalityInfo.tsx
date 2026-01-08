@@ -1,8 +1,8 @@
 /**
  * MunicipalityInfo - Zobrazuje jedinečné údaje o obci
  *
- * Umiestnený na spodku stránky obce pre SEO účely
- * Dáta zo sčítania 2021 + PSČ z gunsoft/obce-okresy-kraje-slovenska
+ * Umístěno ve spodní části stránky obce pro SEO účely
+ * Data ze sčítání 2021 + PSČ z ČSÚ
  */
 
 import { MapPin, Users, Ruler, Mail, Building2 } from 'lucide-react';
@@ -161,7 +161,7 @@ export function MunicipalityInfo({
             </div>
           )}
 
-          {/* GPS súradnice */}
+          {/* GPS souřadnice */}
           {latitude && longitude && (
             <div className="bg-white rounded-lg p-4 shadow-sm">
               <div className="flex items-center gap-2 text-foreground/60 mb-1">

@@ -20,7 +20,7 @@ export const CityFAQ = ({ cityName, citySlug, isVillage = false, customItems }: 
   // If customItems are provided, use them instead
   const faqItems: FAQItem[] = customItems || citySpecificFAQs[citySlug] || getDefaultFAQItems(cityName, isVillage);
 
-  // FAQ Schema.org Structured Data - renderované priamo v HTML pre SSR
+  // FAQ Schema.org Structured Data - renderováno přímo v HTML pro SSR
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -51,7 +51,7 @@ export const CityFAQ = ({ cityName, citySlug, isVillage = false, customItems }: 
             Často Kladené Otázky
           </h2>
           <p className="text-base md:text-xl text-foreground/90 font-bold px-4">
-            Všetko, čo potrebujete vedieť o taxi {isVillage ? 'v obci' : 'v meste'} {cityName}
+            Vše, co potřebujete vědět o taxi {isVillage ? 'v obci' : 've městě'} {cityName}
           </p>
         </div>
 

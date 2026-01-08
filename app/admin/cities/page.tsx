@@ -3,20 +3,20 @@ import { redirect } from 'next/navigation';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { slovakCities } from '@/data/cities';
+import { czechCities } from '@/data/cities';
 
 export default async function AdminCitiesPage() {
   const session = await getSession();
   if (!session) redirect('/admin/login');
 
   // Group cities by region
-  const citiesByRegion = slovakCities.reduce((acc, city) => {
+  const citiesByRegion = czechCities.reduce((acc, city) => {
     if (!acc[city.region]) {
       acc[city.region] = [];
     }
     acc[city.region].push(city);
     return acc;
-  }, {} as Record<string, typeof slovakCities>);
+  }, {} as Record<string, typeof czechCities>);
 
   return (
     <div className="min-h-screen bg-background">
@@ -39,7 +39,7 @@ export default async function AdminCitiesPage() {
       <main className="container mx-auto px-4 py-8">
         <Card className="mb-6">
           <CardHeader>
-            <CardTitle>Celkový počet miest: {slovakCities.length}</CardTitle>
+            <CardTitle>Celkový počet miest: {czechCities.length}</CardTitle>
             <CardDescription>
               Mestá sú zoskupené podľa regiónov
             </CardDescription>

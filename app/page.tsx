@@ -19,8 +19,8 @@ import { GeometricLines } from '@/components/GeometricLines';
 import { getRegionsData } from '@/data/cities';
 import routePagesData from '../src/data/route-pages.json';
 
-// Dynamic imports pre komponenty pod foldom - znižuje initial JS bundle
-// Tieto komponenty nie sú viditeľné pri prvom renderovaní (below the fold)
+// Dynamic imports pro komponenty pod foldem - snižuje initial JS bundle
+// Tyto komponenty nejsou viditelné při prvním renderování (below the fold)
 const AlphabeticalCityList = dynamic(
   () => import('@/components/AlphabeticalCityList').then((mod) => ({ default: mod.AlphabeticalCityList })),
   {
@@ -45,7 +45,7 @@ const HowItWorks = dynamic(
   }
 );
 
-// Skeleton komponenty pre loading states (below-the-fold komponenty)
+// Skeleton komponenty pro loading states (below-the-fold komponenty)
 function HowItWorksSkeleton() {
   return (
     <section className="py-12 md:py-16 px-4 md:px-8">
@@ -78,8 +78,8 @@ function AlphabeticalCityListSkeleton() {
   );
 }
 
-// Note: Globálna metadata je definovaná v app/layout.tsx
-// HomePage je Server Component, ktorý obsahuje vnorené Client Components (Header, SearchPanel, ArticleBanner)
+// Note: Globální metadata je definována v app/layout.tsx
+// HomePage je Server Component, který obsahuje vnořené Client Components (Header, SearchPanel, ArticleBanner)
 
 export default function HomePage() {
   const regions = getRegionsData();
@@ -94,7 +94,7 @@ export default function HomePage() {
         <GeometricLines variant="hero" count={10} />
         <div className="container mx-auto max-w-6xl relative">
           <div className="text-center space-y-2 md:space-y-3">
-            {/* Taxi Logo - preloaded v layout.tsx pre lepšie LCP */}
+            {/* Taxi Logo - preloaded v layout.tsx pro lepší LCP */}
             <div className="mb-0">
               <Image
                 src="/taxi-nearme-logo.webp"
@@ -121,9 +121,9 @@ export default function HomePage() {
       {/* Black line separator - z-10 */}
       <div className="border-b border-foreground/30 relative z-10"></div>
 
-      {/* ZMENA: Odstránený spoločný <div className="bg-white"> wrapper.
-         Teraz sú sekcie priamymi súrodencami Headeru a Hero sekcie.
-         Aplikujeme bg-white na každú sekciu zvlášť.
+      {/* ZMĚNA: Odstraněn společný <div className="bg-white"> wrapper.
+         Nyní jsou sekce přímými sourozenci Headeru a Hero sekce.
+         Aplikujeme bg-white na každou sekci zvlášť.
       */}
 
       {/* SEARCH SECTION */}
@@ -189,47 +189,49 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Popular Routes Section */}
-      <section className="py-12 md:py-16 px-4 md:px-8 bg-gradient-to-b from-foreground/5 to-white relative">
-        <GeometricLines variant="subtle" count={4} />
-        <div className="container mx-auto max-w-6xl relative">
-          <div className="text-center mb-8 md:mb-12">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4 text-foreground">
-              Populární trasy
-            </h2>
-            <p className="text-sm md:text-base text-foreground/90 font-bold px-4">
-              Nejvyhledávanější taxi transfery v Česku a do Německa
-            </p>
-          </div>
+      {/* Popular Routes Section - only show if routes exist */}
+      {routePagesData.routes.length > 0 && (
+        <section className="py-12 md:py-16 px-4 md:px-8 bg-gradient-to-b from-foreground/5 to-white relative">
+          <GeometricLines variant="subtle" count={4} />
+          <div className="container mx-auto max-w-6xl relative">
+            <div className="text-center mb-8 md:mb-12">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4 text-foreground">
+                Populární trasy
+              </h2>
+              <p className="text-sm md:text-base text-foreground/90 font-bold px-4">
+                Nejvyhledávanější taxi transfery v Česku a do Německa
+              </p>
+            </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
-            {routePagesData.routes.map((route) => (
-              <Link key={route.slug} href={`/trasa/${route.slug}`}>
-                <div className="bg-white rounded-xl p-5 md:p-6 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 border border-foreground/10">
-                  <div className="flex items-start justify-between gap-4">
-                    <div className="flex-1">
-                      <h3 className="font-bold text-foreground mb-2 text-base md:text-lg">
-                        {route.origin} → {route.destination.split(' ')[0]}
-                      </h3>
-                      <div className="flex flex-wrap gap-3 text-sm text-foreground/70">
-                        <span className="flex items-center gap-1">
-                          <MapPin className="h-4 w-4 text-primary-yellow" />
-                          {route.distance_km} km
-                        </span>
-                        <span className="flex items-center gap-1">
-                          <Clock className="h-4 w-4 text-primary-yellow" />
-                          {route.duration_min} min
-                        </span>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
+              {(routePagesData.routes as Array<{slug: string; origin: string; destination: string; distance_km: number; duration_min: number}>).map((route) => (
+                <Link key={route.slug} href={`/trasa/${route.slug}`}>
+                  <div className="bg-white rounded-xl p-5 md:p-6 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 border border-foreground/10">
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="flex-1">
+                        <h3 className="font-bold text-foreground mb-2 text-base md:text-lg">
+                          {route.origin} → {route.destination.split(' ')[0]}
+                        </h3>
+                        <div className="flex flex-wrap gap-3 text-sm text-foreground/70">
+                          <span className="flex items-center gap-1">
+                            <MapPin className="h-4 w-4 text-primary-yellow" />
+                            {route.distance_km} km
+                          </span>
+                          <span className="flex items-center gap-1">
+                            <Clock className="h-4 w-4 text-primary-yellow" />
+                            {route.duration_min} min
+                          </span>
+                        </div>
                       </div>
+                      <ArrowRight className="h-5 w-5 text-foreground/30 flex-shrink-0 mt-1" />
                     </div>
-                    <ArrowRight className="h-5 w-5 text-foreground/30 flex-shrink-0 mt-1" />
                   </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* How It Works */}
       <div className="bg-white">

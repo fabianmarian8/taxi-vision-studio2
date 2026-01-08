@@ -48,10 +48,10 @@ export const CityContent = ({ citySlug, cityName }: CityContentProps) => {
             <FileText className="h-12 w-12 md:h-16 md:w-16 text-foreground" />
           </div>
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-black mb-3 md:mb-6 text-foreground">
-            Informácie o Taxi v Meste {cityName}
+            Informace o Taxi ve městě {cityName}
           </h2>
           <p className="text-base md:text-xl text-foreground/90 font-bold px-4">
-            Všetko, čo potrebujete vedieť o taxislužbách
+            Vše, co potřebujete vědět o taxislužbách
           </p>
         </div>
 

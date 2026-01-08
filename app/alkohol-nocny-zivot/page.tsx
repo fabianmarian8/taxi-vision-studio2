@@ -14,19 +14,19 @@ import { ArticleSchema } from '@/components/schema/ArticleSchema';
 import { ArticleAuthor } from '@/components/ArticleAuthor';
 
 export const metadata: Metadata = {
-  title: 'Alkohol, nočný život a taxík | TaxiNearMe.sk',
-  description: 'Hranica medzi službou a záchrannou misiou. Kedy môže vodič odmietnuť jazdu a ako sa správať v noci.',
-  keywords: ['taxi bezpečnosť', 'alkohol taxi', 'nočný život', 'opitý zákazník', 'taxislužby', 'správanie v taxi'],
+  title: 'Alkohol, noční život a taxík | TaxiNearMe.cz',
+  description: 'Hranice mezi službou a záchrannou misí. Kdy může řidič odmítnout jízdu a jak se chovat v noci.',
+  keywords: ['taxi bezpečnost', 'alkohol taxi', 'noční život', 'opilý zákazník', 'taxislužby', 'chování v taxi'],
   openGraph: {
-    title: 'Alkohol, nočný život a taxík',
-    description: 'Hranica medzi službou a záchrannou misiou. Kedy môže vodič odmietnuť jazdu a ako sa správať v noci.',
-    url: 'https://www.taxinearme.sk/alkohol-nocny-zivot',
+    title: 'Alkohol, noční život a taxík',
+    description: 'Hranice mezi službou a záchrannou misí. Kdy může řidič odmítnout jízdu a jak se chovat v noci.',
+    url: 'https://www.taxinearme.cz/alkohol-nocny-zivot',
     type: 'article',
     images: [{
-      url: 'https://www.taxinearme.sk/blog-images/alkohol.jpg',
+      url: 'https://www.taxinearme.cz/blog-images/alkohol.jpg',
       width: 1200,
       height: 630,
-      alt: 'Alkohol, nočný život a taxík'
+      alt: 'Alkohol, noční život a taxík'
     }],
     publishedTime: '2025-01-15',
     modifiedTime: '2025-01-15'
@@ -34,15 +34,15 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     site: SEO_CONSTANTS.twitterSite,
-    title: 'Alkohol, nočný život a taxík',
-    description: 'Hranica medzi službou a záchrannou misiou. Kedy môže vodič odmietnuť jazdu a ako sa správať v noci.',
-    images: ['https://www.taxinearme.sk/blog-images/alkohol.jpg']
+    title: 'Alkohol, noční život a taxík',
+    description: 'Hranice mezi službou a záchrannou misí. Kdy může řidič odmítnout jízdu a jak se chovat v noci.',
+    images: ['https://www.taxinearme.cz/blog-images/alkohol.jpg']
   },
   alternates: {
-    canonical: 'https://www.taxinearme.sk/alkohol-nocny-zivot',
+    canonical: 'https://www.taxinearme.cz/alkohol-nocny-zivot',
     languages: {
-      'sk': 'https://www.taxinearme.sk/alkohol-nocny-zivot',
-      'x-default': 'https://www.taxinearme.sk/alkohol-nocny-zivot',
+      'cs': 'https://www.taxinearme.cz/alkohol-nocny-zivot',
+      'x-default': 'https://www.taxinearme.cz/alkohol-nocny-zivot',
     },
   }
 };
@@ -51,9 +51,9 @@ export default function AlkoholNocnyZivotPage() {
   return (
     <div className="min-h-screen bg-white">
       <ArticleSchema
-        title="Alkohol, nočný život a taxík"
-        description="Hranica medzi službou a záchrannou misiou. Kedy môže vodič odmietnuť jazdu a ako sa správať v noci."
-        url="https://www.taxinearme.sk/alkohol-nocny-zivot"
+        title="Alkohol, noční život a taxík"
+        description="Hranice mezi službou a záchrannou misí. Kdy může řidič odmítnout jízdu a jak se chovat v noci."
+        url="https://www.taxinearme.cz/alkohol-nocny-zivot"
         publishedTime="2025-01-15"
         modifiedTime="2025-01-15"
       />
@@ -61,7 +61,7 @@ export default function AlkoholNocnyZivotPage() {
 
       <div className="hero-3d-bg">
         <SEOBreadcrumbs items={[
-          { label: 'Alkohol a nočný život' }
+          { label: 'Alkohol a noční život' }
         ]} />
 
         <section className="pt-3 md:pt-4 pb-6 md:pb-8 px-3 md:px-6 relative overflow-hidden">
@@ -72,26 +72,26 @@ export default function AlkoholNocnyZivotPage() {
           <div className="flex flex-wrap items-center gap-3 mb-2">
             <span className="px-1.5 py-0.5 bg-primary/10 text-primary rounded-full text-[10px] font-semibold">
               <AlertCircle className="h-2.5 w-2.5 inline mr-1" />
-              Bezpečnosť
+              Bezpečnost
             </span>
             <div className="flex items-center gap-1 text-[10px] text-foreground/60">
               <Calendar className="h-2.5 w-2.5" />
-              15. január 2025
+              15. leden 2025
             </div>
             <div className="hidden sm:block text-foreground/30">•</div>
             <ArticleAuthor variant="inline" />
           </div>
 
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-black mb-3 text-foreground leading-tight">
-            Alkohol, nočný život a taxík
+            Alkohol, noční život a taxík
           </h1>
 
           <p className="text-xl text-foreground/80 mb-3">
-            Hranica medzi službou a záchrannou misiou. Kedy môže vodič odmietnuť jazdu a ako sa správať v noci.
+            Hranice mezi službou a záchrannou misí. Kdy může řidič odmítnout jízdu a jak se chovat v noci.
           </p>
 
           <ShareButton
-            title="Alkohol, nočný život a taxík"
+            title="Alkohol, noční život a taxík"
           />
         </div>
       </section>
@@ -103,145 +103,145 @@ export default function AlkoholNocnyZivotPage() {
 
             <div className="bg-red-50 border-l-4 border-red-400 p-6 mb-8">
               <p className="text-lg font-semibold text-gray-900">
-                Keď hodiny ukážu polnoc a z klubov a barov sa valí unavený a často podnapitý dav, taxikári vstupujú do svojej najrizikovejšej pracovnej zmeny.
+                Když hodiny ukážou půlnoc a z klubů a barů se valí unavený a často podnapilý dav, taxikáři vstupují do své nejrizikovější pracovní směny.
               </p>
             </div>
 
             <p className="text-sm leading-relaxed">
-              Odvoz opitých zákazníkov je súčasť práce, ale kde končí služba a začína osobné riziko? Vodič taxi nie je sanitka ani psychológ. Predsa sa často nachádza v situáciách, ktoré vyžadujú rozhodnutie: Vziať problémového zákazníka, alebo radšej odmietnuť?
+              Odvoz opilých zákazníků je součást práce, ale kde končí služba a začíná osobní riziko? Řidič taxi není sanitka ani psycholog. Přesto se často nachází v situacích, které vyžadují rozhodnutí: Vzít problémového zákazníka, nebo raději odmítnout?
             </p>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <Shield className="h-8 w-8 inline mr-2 text-primary" />
-              Čísla, ktoré hovoria jasnou rečou
+              Čísla, která mluví jasnou řečí
             </h2>
 
             <div className="bg-gray-900 text-white p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Globálne štatistiky</h3>
+              <h3 className="text-2xl font-bold mb-3">Globální statistiky</h3>
 
               <p className="mb-3">
-                Práca taxikára patrí medzi najnebezpečnejšie povolania. V USA sú vodiči taxi 30-60× viac ohrození násilím a vraždou než priemer pracujúcich.
+                Práce taxikáře patří mezi nejnebezpečnější povolání. V USA jsou řidiči taxi 30-60× více ohroženi násilím a vraždou než průměr pracujících.
               </p>
 
               <div className="grid md:grid-cols-2 gap-4 my-4">
                 <div className="bg-red-900/50 p-4 rounded-lg">
                   <p className="text-3xl font-bold mb-2">82%</p>
-                  <p className="text-sm">fatálnych útokov sa stáva v noci</p>
+                  <p className="text-sm">fatálních útoků se stává v noci</p>
                 </div>
                 <div className="bg-red-900/50 p-4 rounded-lg">
                   <p className="text-3xl font-bold mb-2">94%</p>
-                  <p className="text-sm">útokov pochádza zvnútra vozidla</p>
+                  <p className="text-sm">útoků pochází zevnitř vozidla</p>
                 </div>
                 <div className="bg-red-900/50 p-4 rounded-lg">
                   <p className="text-3xl font-bold mb-2">80%</p>
-                  <p className="text-sm">útokov prichádza zo sedadla priamo za vodičom</p>
+                  <p className="text-sm">útoků přichází ze sedadla přímo za řidičem</p>
                 </div>
                 <div className="bg-red-900/50 p-4 rounded-lg">
                   <p className="text-3xl font-bold mb-2">66%</p>
-                  <p className="text-sm">útočníkov je mladších ako 20 rokov</p>
+                  <p className="text-sm">útočníků je mladších než 20 let</p>
                 </div>
               </div>
             </div>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">Právny rámec: Kedy môže vodič odmietnuť jazdu?</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">Právní rámec: Kdy může řidič odmítnout jízdu?</h2>
 
             <div className="bg-blue-50 p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Slovenský kontext</h3>
+              <h3 className="text-2xl font-bold mb-3">Český kontext</h3>
               <p>
-                Na Slovensku platí pre vodičov úplná nulová tolerancia alkoholu (0,0% BAC), pričom profesionálni vodiči vrátane taxikárov musia dodržiavať tento limit.
+                V Česku platí pro řidiče úplná nulová tolerance alkoholu (0,0% BAC), přičemž profesionální řidiči včetně taxikářů musí dodržovat tento limit.
               </p>
             </div>
 
-            <h3 className="text-lg font-bold mt-4 mb-2">Kedy je odmietnutie jazdy LEGITÍMNE</h3>
+            <h3 className="text-lg font-bold mt-4 mb-2">Kdy je odmítnutí jízdy LEGITIMNÍ</h3>
 
             <div className="space-y-6 my-4">
               <div className="bg-green-50 p-6 rounded-lg">
-                <h4 className="font-bold text-lg mb-3">1. Bezpečnostné dôvody</h4>
+                <h4 className="font-bold text-lg mb-3">1. Bezpečnostní důvody</h4>
                 <ul className="space-y-1">
-                  <li>• Násilné správanie</li>
-                  <li>• Obscénne gestá</li>
+                  <li>• Násilné chování</li>
+                  <li>• Obscénní gesta</li>
                   <li>• Hlasné nadávky</li>
-                  <li>• Vyhrážky</li>
-                  <li>• Viditeľné opitie s agresívnym správaním</li>
+                  <li>• Vyhrožování</li>
+                  <li>• Viditelná opilost s agresivním chováním</li>
                 </ul>
               </div>
 
               <div className="bg-green-50 p-6 rounded-lg">
-                <h4 className="font-bold text-lg mb-3">2. Neznáma destinácia</h4>
-                <p>Vodič má právo poznať presnú adresu cieľa. Neurčité odpovede ako "Niekde v centre" alebo "Poviem cestou" sú dôvodom na odmietnutie.</p>
+                <h4 className="font-bold text-lg mb-3">2. Neznámá destinace</h4>
+                <p>Řidič má právo znát přesnou adresu cíle. Neurčité odpovědi jako "Někde v centru" nebo "Řeknu cestou" jsou důvodem k odmítnutí.</p>
               </div>
 
               <div className="bg-green-50 p-6 rounded-lg">
-                <h4 className="font-bold text-lg mb-3">3. Platobná schopnosť</h4>
-                <p>Vodič môže požadovať zálohu alebo časť sumy vopred, ak existuje podozrenie, že pasažier nebude schopný zaplatiť.</p>
+                <h4 className="font-bold text-lg mb-3">3. Platební schopnost</h4>
+                <p>Řidič může požadovat zálohu nebo část sumy předem, pokud existuje podezření, že pasažér nebude schopen zaplatit.</p>
               </div>
             </div>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">Praktické scenáre: Kedy povedať NIE</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">Praktické scénáře: Kdy říct NE</h2>
 
             <div className="space-y-8 my-4">
               <div className="border-l-4 border-yellow-400 pl-6">
-                <h3 className="text-xl font-bold mb-3">Scenár 1: Viditeľne opitý pasažier</h3>
+                <h3 className="text-xl font-bold mb-3">Scénář 1: Viditelně opilý pasažér</h3>
 
                 <p className="font-semibold mb-2">Signály:</p>
                 <ul className="space-y-1 mb-3">
-                  <li>• Nezrozumiteľná reč</li>
-                  <li>• Neistá chôdza</li>
-                  <li>• Hlasnosť</li>
-                  <li>• Agresívne správanie</li>
+                  <li>• Nesrozumitelná řeč</li>
+                  <li>• Nejistá chůze</li>
+                  <li>• Hlasitost</li>
+                  <li>• Agresivní chování</li>
                 </ul>
 
-                <p className="font-semibold mb-2">Správny postup:</p>
+                <p className="font-semibold mb-2">Správný postup:</p>
                 <ol className="space-y-1">
-                  <li>1. Komunikuj jasne a pokojne</li>
-                  <li>2. Upozorni, že nie je v stave bezpečnej prepravy</li>
-                  <li>3. Ponúkni alternatívu (počkať, zavolať niekoho)</li>
-                  <li>4. Ak odmietne – odmietni jazdu</li>
+                  <li>1. Komunikuj jasně a klidně</li>
+                  <li>2. Upozorni, že není ve stavu bezpečné přepravy</li>
+                  <li>3. Nabídni alternativu (počkat, zavolat někoho)</li>
+                  <li>4. Pokud odmítne – odmítni jízdu</li>
                 </ol>
               </div>
 
               <div className="border-l-4 border-orange-400 pl-6">
-                <h3 className="text-xl font-bold mb-3">Scenár 2: Skupina mladých opitých pasažierov</h3>
+                <h3 className="text-xl font-bold mb-3">Scénář 2: Skupina mladých opilých pasažérů</h3>
 
                 <p className="bg-red-100 p-3 rounded mb-3">
-                  <strong>Riziko:</strong> 80% útokov prichádza zo sedadla priamo za vodičom.
+                  <strong>Riziko:</strong> 80% útoků přichází ze sedadla přímo za řidičem.
                 </p>
 
-                <p className="font-semibold mb-2">Správny postup:</p>
+                <p className="font-semibold mb-2">Správný postup:</p>
                 <ol className="space-y-1">
-                  <li>1. Požiadaj pasažierov, aby nesedeli priamo za tebou</li>
-                  <li>2. Ideálne ich posadi naproti, kde ich vidíš</li>
-                  <li>3. Maj nachystané hygienické vrecká</li>
-                  <li>4. Informuj dispečing o cieli a zmene trasy</li>
-                  <li>5. Pri agresívnom správaní zastav a vypusť pasažierov</li>
+                  <li>1. Požádej pasažéry, aby neseděli přímo za tebou</li>
+                  <li>2. Ideálně je posaď naproti, kde je vidíš</li>
+                  <li>3. Měj připravené hygienické sáčky</li>
+                  <li>4. Informuj dispečink o cíli a změně trasy</li>
+                  <li>5. Při agresivním chování zastav a vypusť pasažéry</li>
                 </ol>
               </div>
             </div>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">Bezpečnostné tipy pre vodičov</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">Bezpečnostní tipy pro řidiče</h2>
 
             <div className="bg-blue-50 p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Pred jazdou</h3>
+              <h3 className="text-2xl font-bold mb-3">Před jízdou</h3>
 
               <p className="mb-3">
-                <strong>Nadviazanie očného kontaktu je kľúčové.</strong> Ukáž pasažierovi: "Vidím ťa, ty vidíš mňa, dokážem ťa identifikovať."
+                <strong>Navázání očního kontaktu je klíčové.</strong> Ukaž pasažérovi: "Vidím tě, ty vidíš mě, dokážu tě identifikovat."
               </p>
 
-              <p className="font-semibold mb-3">Kontrolný zoznam:</p>
+              <p className="font-semibold mb-3">Kontrolní seznam:</p>
               <ul className="space-y-2">
-                <li>✓ Nadviazanie očného kontaktu</li>
-                <li>✓ Posúdenie stavu pasažiera (opitosť, agresivita)</li>
-                <li>✓ Potvrdenie presnej adresy</li>
-                <li>✓ Informovanie dispečingu</li>
+                <li>✓ Navázání očního kontaktu</li>
+                <li>✓ Posouzení stavu pasažéra (opilost, agresivita)</li>
+                <li>✓ Potvrzení přesné adresy</li>
+                <li>✓ Informování dispečinku</li>
               </ul>
             </div>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">Záver: Tvoja bezpečnosť má prednosť</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">Závěr: Tvá bezpečnost má přednost</h2>
 
             <div className="bg-gray-900 text-white p-8 rounded-lg my-4">
-              <p className="text-xl font-bold mb-3">Červená čiara</p>
+              <p className="text-xl font-bold mb-3">Červená čára</p>
               <p className="text-lg">
-                Tvoja bezpečnosť má VŽDY prednosť pred povinnosťou starostlivosti.
+                Tvá bezpečnost má VŽDY přednost před povinností péče.
               </p>
             </div>
 
@@ -256,18 +256,18 @@ export default function AlkoholNocnyZivotPage() {
           {/* FAQ Section */}
           <ArticleFAQ
             articleSlug="alkohol-nocny-zivot"
-            articleTitle="Často kladené otázky o nočnom živote a taxi"
+            articleTitle="Často kladené otázky o nočním životě a taxi"
           />
 
           <div className="mt-16 p-8 bg-gradient-to-br from-primary/10 to-primary/5 rounded-xl">
-            <h3 className="text-2xl font-bold mb-3 text-center">Chcete vidieť komplexný sprievodca taxislužbami?</h3>
+            <h3 className="text-2xl font-bold mb-3 text-center">Chcete vidět komplexní průvodce taxislužbami?</h3>
             <p className="text-center text-gray-700 mb-3">
-              Prečítajte si všetko, čo potrebujete vedieť o taxi na Slovensku.
+              Přečtěte si vše, co potřebujete vědět o taxi v Česku.
             </p>
             <div className="flex justify-center">
               <Link href="/komplexny-sprievodca-taxi">
                 <Button size="lg" className="gap-2">
-                  Zobraziť sprievodcu
+                  Zobrazit průvodce
                   <ArrowLeft className="h-2.5 w-2.5 rotate-180" />
                 </Button>
               </Link>

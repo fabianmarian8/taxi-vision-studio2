@@ -1,11 +1,11 @@
 /**
  * Root Layout - Next.js App Router
  *
- * Tento layout je Server COMPONENT (default) a aplikuje sa na všetky stránky.
+ * Tento layout je Server COMPONENT (default) a aplikuje se na všechny stránky.
  * Obsahuje:
- * - Metadata (SEO, Open Graph, favicons) - migrované z index.html
- * - Google Analytics + Consent Mode v2 - migrované z index.html <head>
- * - Google Fonts (Inter only) - optimalizované cez next/font (1 font = 200ms úspora)
+ * - Metadata (SEO, Open Graph, favicons) - migrováno z index.html
+ * - Google Analytics + Consent Mode v2 - migrováno z index.html <head>
+ * - Google Fonts (Inter only) - optimalizováno přes next/font (1 font = 200ms úspora)
  * - Global Providers (QueryClient, Tooltip) - Client Component wrapper
  * - Cookie Banner - GDPR compliance
  */
@@ -21,8 +21,8 @@ import { CookieBanner } from '@/components/cookie-banner';
 import { GlobalChatWidget } from '@/components/GlobalChatWidget';
 import { GoogleAnalytics } from '@/components/GoogleAnalytics';
 
-// Optimalizovaný Inter font cez next/font/google
-// LCP Optimalizácia: Redukovaný z 3 fontov na 1 (úspora ~200ms render-blocking)
+// Optimalizovaný Inter font přes next/font/google
+// LCP Optimalizace: Redukovaný z 3 fontů na 1 (úspora ~200ms render-blocking)
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
@@ -88,7 +88,7 @@ export const metadata: Metadata = {
     images: ['https://www.taxinearme.cz/og-image.png'],
   },
 
-  // Ostatní meta tagy
+  // Další meta tagy
   other: {
     'google-site-verification': '', // TODO: Přidat nové Google verification
   },
@@ -103,7 +103,7 @@ export const metadata: Metadata = {
   },
 };
 
-// Viewport konfigurácia
+// Viewport konfigurace
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
@@ -118,14 +118,14 @@ export default function RootLayout({
   return (
     <html lang="cs" suppressHydrationWarning className={inter.variable}>
       <head>
-        {/* Preconnect pre externe domény - zrýchľuje načítanie */}
+        {/* Preconnect pro externí domény - zrychluje načítání */}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="preconnect" href="https://www.clarity.ms" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://nominatim.openstreetmap.org" />
 
-        {/* LCP Optimalizácia: Preload hero image - znižuje LCP o ~200-400ms */}
+        {/* LCP Optimalizace: Preload hero image - snižuje LCP o ~200-400ms */}
         <link
           rel="preload"
           as="image"
@@ -179,9 +179,9 @@ export default function RootLayout({
 
         {/*
           Google Analytics (gtag.js) s Consent Mode v2
-          - Načíta sa po hydratácii (afterInteractive)
-          - Consent nastavený na granted pre analytics
-          - Všetka inicializácia v jednom skripte
+          - Načítá se po hydrataci (afterInteractive)
+          - Consent nastaven na granted pro analytics
+          - Veškerá inicializace v jednom skriptu
         */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-XM0ES676GB"
@@ -192,7 +192,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
 
-            // Consent Mode v2 - analytics povolené vždy
+            // Consent Mode v2 - analytics povoleno vždy
             gtag('consent', 'default', {
               'ad_storage': 'denied',
               'ad_user_data': 'denied',
@@ -203,7 +203,7 @@ export default function RootLayout({
               'security_storage': 'granted'
             });
 
-            // Inicializácia GA4
+            // Inicializace GA4
             gtag('js', new Date());
             gtag('config', 'G-XM0ES676GB', {
               page_path: window.location.pathname,
@@ -214,7 +214,7 @@ export default function RootLayout({
 
         {/*
           Microsoft Clarity
-          Tracking script - načíta sa až keď je stránka hotová (lazyOnload pre lepší performance na mobile)
+          Tracking script - načítá se až když je stránka hotová (lazyOnload pro lepší performance na mobile)
         */}
         <Script id="microsoft-clarity" strategy="lazyOnload">
           {`
@@ -249,13 +249,13 @@ export default function RootLayout({
 
         {/*
           Cookie Banner - GDPR Compliance
-          Globálny komponent, zobrazuje sa na všetkých stránkach
+          Globální komponent, zobrazuje se na všech stránkách
         */}
         <CookieBanner />
 
         {/*
-          Global Chat Widget - Podpora pre prihlásených partnerov
-          Zobrazuje sa na všetkých stránkach ak je používateľ prihlásený
+          Global Chat Widget - Podpora pro přihlášené partnery
+          Zobrazuje se na všech stránkách pokud je uživatel přihlášen
         */}
         <GlobalChatWidget />
       </body>

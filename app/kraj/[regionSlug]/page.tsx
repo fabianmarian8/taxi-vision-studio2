@@ -1,14 +1,14 @@
 /**
  * Region Page - Next.js App Router Dynamic Route
  *
- * Migrované z: src/vite-pages/RegionPage.tsx
+ * Migrováno z: src/vite-pages/RegionPage.tsx
  *
- * Zmeny oproti Vite verzii:
+ * Změny oproti Vite verzi:
  * - useParams → params prop
  * - Navigate → notFound()
  * - SEOHead → generateMetadata
  * - Link z react-router → next/link
- * - useEffect na scroll odstránený (template.tsx)
+ * - useEffect na scroll odstraněn (template.tsx)
  */
 
 import type { Metadata } from 'next';
@@ -17,7 +17,7 @@ import { notFound } from 'next/navigation';
 import { Header } from '@/components/Header';
 import { HowItWorks } from '@/components/HowItWorks';
 import { GeometricLines } from '@/components/GeometricLines';
-import { SlovakCityCard } from '@/components/SlovakCityCard';
+import { CzechCityCard } from '@/components/CzechCityCard';
 import { SEOBreadcrumbs } from '@/components/SEOBreadcrumbs';
 import { Card, CardContent } from '@/components/ui/card';
 import { MapPin } from 'lucide-react';
@@ -44,17 +44,17 @@ export async function generateMetadata({
 
   if (!regionName) {
     return {
-      title: 'Kraj nenájdený',
-      description: 'Stránka kraja nebola nájdená',
+      title: 'Kraj nenalezen',
+      description: 'Stránka kraje nebyla nalezena',
     };
   }
 
   const cities = getCitiesByRegion(regionName);
   const siteName = 'Taxi NearMe';
-  const baseUrl = 'https://www.taxinearme.sk';
+  const baseUrl = 'https://www.taxinearme.cz';
   const currentUrl = `${baseUrl}/kraj/${regionSlug}`;
-  // Skrátený popis pre SEO (max 160 znakov)
-  const description = `Taxislužby v ${regionName}. Prehľad ${cities.length} miest s taxi službami. Nájdite spoľahlivé taxi rýchlo a jednoducho.`;
+  // Zkrácený popis pro SEO (max 160 znaků)
+  const description = `Taxislužby v ${regionName}. Přehled ${cities.length} měst s taxi službami. Najděte spolehlivé taxi rychle a jednoduše.`;
 
   return {
     title: `Taxislužby v Kraji ${regionName} | ${siteName}`,
@@ -63,13 +63,13 @@ export async function generateMetadata({
       `taxi ${regionName}`,
       `taxislužby ${regionName}`,
       `taxi služby ${regionName}`,
-      `objednať taxi ${regionName}`,
+      `objednat taxi ${regionName}`,
     ],
     openGraph: {
       title: `Taxislužby v Kraji ${regionName}`,
       description,
       type: 'website',
-      locale: 'sk_SK',
+      locale: 'cs_CZ',
       url: currentUrl,
       siteName,
       images: [
@@ -91,7 +91,7 @@ export async function generateMetadata({
     alternates: {
       canonical: currentUrl,
       languages: {
-        'sk': currentUrl,
+        'cs': currentUrl,
         'x-default': currentUrl,
       },
     },
@@ -126,7 +126,7 @@ export default async function RegionPage({ params }: { params: Promise<{ regionS
               Taxislužby v kraji {regionName}
             </h1>
             <p className="text-sm sm:text-base md:text-xl text-foreground/90 font-bold px-2 sm:px-4">
-              {districts.length} okresov • {cities.length} miest s taxi službami
+              {districts.length} okresů • {cities.length} měst s taxi službami
             </p>
           </div>
         </div>
@@ -140,7 +140,7 @@ export default async function RegionPage({ params }: { params: Promise<{ regionS
               Okresy v kraji {regionName}
             </h2>
             <p className="text-center text-foreground/70 mb-8">
-              Kliknite na okres pre zobrazenie všetkých obcí
+              Klikněte na okres pro zobrazení všech obcí
             </p>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 md:gap-4">
               {districts.map((district) => (
@@ -175,12 +175,12 @@ export default async function RegionPage({ params }: { params: Promise<{ regionS
 
         <div className="container mx-auto max-w-7xl relative z-10">
           <h2 className="text-2xl md:text-3xl font-black mb-6 text-foreground text-center">
-            Mestá s taxislužbami
+            Města s taxislužbami
           </h2>
           {cities.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
               {cities.map((city) => (
-                <SlovakCityCard
+                <CzechCityCard
                   key={city.slug}
                   name={city.name}
                   region={city.region}
@@ -191,7 +191,7 @@ export default async function RegionPage({ params }: { params: Promise<{ regionS
           ) : (
             <div className="text-center py-8 md:py-12">
               <p className="text-base md:text-xl text-foreground/70 font-bold px-4">
-                V tomto kraji zatiaľ nemáme žiadne mestá.
+                V tomto kraji zatím nemáme žádná města.
               </p>
             </div>
           )}
@@ -208,7 +208,7 @@ export default async function RegionPage({ params }: { params: Promise<{ regionS
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-6">
             <div className="text-xs md:text-sm text-foreground font-bold text-center md:text-left">
-              © 2025 Taxi NearMe. Všetky práva vyhradené.
+              © 2025 Taxi NearMe. Všechna práva vyhrazena.
             </div>
 
             <div className="flex flex-wrap justify-center gap-4 md:gap-8">
@@ -216,13 +216,13 @@ export default async function RegionPage({ params }: { params: Promise<{ regionS
                 href="/ochrana-sukromia"
                 className="text-xs md:text-sm text-foreground font-bold hover:text-foreground/70 transition-colors duration-200"
               >
-                Ochrana súkromia
+                Ochrana soukromí
               </Link>
               <Link
                 href="/podmienky-pouzivania"
                 className="text-xs md:text-sm text-foreground font-bold hover:text-foreground/70 transition-colors duration-200"
               >
-                Podmienky používania
+                Podmínky používání
               </Link>
               <Link
                 href="/"

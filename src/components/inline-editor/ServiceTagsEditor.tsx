@@ -40,11 +40,11 @@ export function ServiceTagsEditor({
   const handleAddTag = () => {
     if (!newTag.trim()) return;
     if (tags.length >= maxTags) {
-      alert(`Maximum je ${maxTags} služieb.`);
+      alert(`Maximum je ${maxTags} služeb.`);
       return;
     }
     if (tags.includes(newTag.trim())) {
-      alert('Táto služba už existuje.');
+      alert('Tato služba již existuje.');
       return;
     }
     setTags([...tags, newTag.trim()]);
@@ -121,7 +121,7 @@ export function ServiceTagsEditor({
                 {label}
               </Drawer.Title>
               <p className="text-sm text-gray-500">
-                {tags.length} / {maxTags} služieb
+                {tags.length} / {maxTags} služeb
               </p>
             </div>
             <button
@@ -141,7 +141,7 @@ export function ServiceTagsEditor({
                 value={newTag}
                 onChange={(e) => setNewTag(e.target.value)}
                 onKeyPress={handleKeyPress}
-                placeholder="Pridať novú službu..."
+                placeholder="Přidat novou službu..."
                 className="flex-1 px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
               />
               <button
@@ -196,15 +196,15 @@ export function ServiceTagsEditor({
               /* Empty state */
               <div className="flex flex-col items-center justify-center py-12 text-gray-400">
                 <Plus className="w-12 h-12 mb-4" />
-                <p className="text-lg font-medium mb-2">Žiadne služby</p>
-                <p className="text-sm">Pridajte služby ktoré ponúkate</p>
+                <p className="text-lg font-medium mb-2">Žádné služby</p>
+                <p className="text-sm">Přidejte služby které nabízíte</p>
               </div>
             )}
 
             {/* Help text */}
             {tags.length > 0 && (
               <p className="text-sm text-gray-500 text-center mt-4">
-                Tip: Ťahaním môžete zmeniť poradie služieb.
+                Tip: Tažením můžete změnit pořadí služeb.
               </p>
             )}
           </div>
@@ -216,7 +216,7 @@ export function ServiceTagsEditor({
               className="w-full flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-3 px-4 rounded-xl transition-colors"
             >
               <Check className="w-5 h-5" />
-              Uložiť zmeny
+              Uložit změny
             </button>
           </div>
         </Drawer.Content>

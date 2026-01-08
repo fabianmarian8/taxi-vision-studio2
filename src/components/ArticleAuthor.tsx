@@ -1,8 +1,8 @@
 /**
- * ArticleAuthor - E-E-A-T komponenta pre zobrazenie autora článku
+ * ArticleAuthor - E-E-A-T komponenta pro zobrazení autora článku
  *
- * Podľa Google Indexing 2025 dokumentov:
- * "Jasné author signály sú dôležité na preukázanie skúsenosti a dôvery"
+ * Podle Google Indexing 2025 dokumentů:
+ * "Jasné author signály jsou důležité pro prokázání zkušenosti a důvěry"
  */
 
 import Image from 'next/image';
@@ -13,7 +13,7 @@ interface ArticleAuthorProps {
   showBio?: boolean;
 }
 
-// Údaje o autorovi - Peter
+// Údaje o autorovi - Petr
 const author = {
   name: 'Peter',
   role: 'Redaktor TaxiNearMe',
@@ -52,7 +52,7 @@ export function ArticleAuthor({ variant = 'inline', showBio = false }: ArticleAu
     );
   }
 
-  // Inline variant - kompaktný pre header článku
+  // Inline varianta - kompaktní pro záhlaví článku
   return (
     <div className="flex items-center gap-3">
       <Link href="/o-nas" className="flex-shrink-0">
@@ -74,5 +74,5 @@ export function ArticleAuthor({ variant = 'inline', showBio = false }: ArticleAu
   );
 }
 
-// Export údajov pre použitie v schema
+// Export údajů pro použití ve schematu
 export const authorData = author;

@@ -1,4 +1,4 @@
-/** Migrované z: src/vite-pages/KomplexnySprievodcaPage.tsx */
+/** Migrováno z: src/vite-pages/KomplexnyPrůvodcePage.tsx */
 
 import { Metadata } from "next";
 import { Header } from "@/components/Header";
@@ -14,19 +14,19 @@ import { ArticleSchema } from '@/components/schema/ArticleSchema';
 import { ArticleAuthor } from '@/components/ArticleAuthor';
 
 export const metadata: Metadata = {
-  title: 'Komplexný sprievodca taxislužbami na Slovensku | TaxiNearMe.sk',
-  description: 'Všetko, čo potrebujete vedieť o taxi na Slovensku. Od výberu služby až po vaše práva ako zákazníka.',
-  keywords: ['taxi sprievodca', 'taxislužby slovensko', 'ako si vybrať taxi', 'práva zákazníkov', 'taxi aplikácie', 'objednať taxi'],
+  title: 'Komplexní průvodce taxislužbami v Česku | TaxiNearMe.cz',
+  description: 'Vše, co potřebujete vědět o taxi v Česku. Od výběru služby až po vaše práva jako zákazníka.',
+  keywords: ['taxi průvodce', 'taxislužby česko', 'jak si vybrat taxi', 'práva zákazníků', 'taxi aplikace', 'objednat taxi'],
   openGraph: {
-    title: 'Komplexný sprievodca taxislužbami na Slovensku',
-    description: 'Všetko, čo potrebujete vedieť o taxi na Slovensku. Od výberu služby až po vaše práva ako zákazníka.',
-    url: 'https://www.taxinearme.sk/komplexny-sprievodca-taxi',
+    title: 'Komplexní průvodce taxislužbami v Česku',
+    description: 'Vše, co potřebujete vědět o taxi v Česku. Od výběru služby až po vaše práva jako zákazníka.',
+    url: 'https://www.taxinearme.cz/komplexny-průvodce-taxi',
     type: 'article',
     images: [{
-      url: 'https://www.taxinearme.sk/blog-images/sprievodca.jpg',
+      url: 'https://www.taxinearme.cz/blog-images/průvodce.jpg',
       width: 1200,
       height: 630,
-      alt: 'Komplexný sprievodca taxislužbami'
+      alt: 'Komplexní průvodce taxislužbami'
     }],
     publishedTime: '2025-01-15',
     modifiedTime: '2025-01-15'
@@ -34,26 +34,26 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     site: SEO_CONSTANTS.twitterSite,
-    title: 'Komplexný sprievodca taxislužbami na Slovensku',
-    description: 'Všetko, čo potrebujete vedieť o taxi na Slovensku. Od výberu služby až po vaše práva ako zákazníka.',
-    images: ['https://www.taxinearme.sk/blog-images/sprievodca.jpg']
+    title: 'Komplexní průvodce taxislužbami v Česku',
+    description: 'Vše, co potřebujete vědět o taxi v Česku. Od výběru služby až po vaše práva jako zákazníka.',
+    images: ['https://www.taxinearme.cz/blog-images/průvodce.jpg']
   },
   alternates: {
-    canonical: 'https://www.taxinearme.sk/komplexny-sprievodca-taxi',
+    canonical: 'https://www.taxinearme.cz/komplexny-průvodce-taxi',
     languages: {
-      'sk': 'https://www.taxinearme.sk/komplexny-sprievodca-taxi',
-      'x-default': 'https://www.taxinearme.sk/komplexny-sprievodca-taxi',
+      'cs': 'https://www.taxinearme.cz/komplexny-průvodce-taxi',
+      'x-default': 'https://www.taxinearme.cz/komplexny-průvodce-taxi',
     },
   }
 };
 
-export default function KomplexnySprievodcaPage() {
+export default function KomplexnyPrůvodcePage() {
   return (
     <div className="min-h-screen bg-white">
       <ArticleSchema
-        title="Komplexný sprievodca taxislužbami na Slovensku"
-        description="Všetko, čo potrebujete vedieť o taxi na Slovensku. Od výberu služby až po vaše práva ako zákazníka."
-        url="https://www.taxinearme.sk/komplexny-sprievodca-taxi"
+        title="Komplexní průvodce taxislužbami v Česku"
+        description="Vše, co potřebujete vědět o taxi v Česku. Od výběru služby až po vaše práva jako zákazníka."
+        url="https://www.taxinearme.cz/komplexny-průvodce-taxi"
         publishedTime="2025-01-15"
         modifiedTime="2025-01-15"
       />
@@ -61,7 +61,7 @@ export default function KomplexnySprievodcaPage() {
 
       <div className="hero-3d-bg">
         <SEOBreadcrumbs items={[
-          { label: 'Komplexný sprievodca taxi' }
+          { label: 'Komplexní průvodce taxi' }
         ]} />
 
         {/* Hero Section */}
@@ -73,26 +73,26 @@ export default function KomplexnySprievodcaPage() {
           <div className="flex flex-wrap items-center gap-3 mb-2">
             <span className="px-1.5 py-0.5 bg-primary/10 text-primary rounded-full text-[10px] font-semibold">
               <BookOpen className="h-2.5 w-2.5 inline mr-1" />
-              Sprievodca
+              Průvodce
             </span>
             <div className="flex items-center gap-1 text-[10px] text-foreground/60">
               <Calendar className="h-2.5 w-2.5" />
-              15. január 2025
+              15. ledna 2025
             </div>
             <div className="hidden sm:block text-foreground/30">•</div>
             <ArticleAuthor variant="inline" />
           </div>
 
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-black mb-3 text-foreground leading-tight">
-            Komplexný sprievodca taxislužbami na Slovensku
+            Komplexní průvodce taxislužbami v Česku
           </h1>
 
           <p className="text-xl text-foreground/80 mb-3">
-            Všetko, čo potrebujete vedieť o taxi na Slovensku
+            Vše, co potřebujete vědět o taxi v Česku
           </p>
 
           <ShareButton
-            title="Komplexný sprievodca taxislužbami na Slovensku"
+            title="Komplexní průvodce taxislužbami v Česku"
           />
         </div>
       </section>
@@ -105,353 +105,353 @@ export default function KomplexnySprievodcaPage() {
 
             <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
               <p className="text-lg font-semibold text-gray-900">
-                Tento sprievodca vám poskytne komplexný prehľad o taxislužbách na Slovensku – od výberu správnej služby, cez ceny, až po vaše práva ako zákazníka.
+                Tento průvodce vám poskytne komplexní přehled o taxislužbách v Česku – od výběru správné služby, přes ceny, až po vaše práva jako zákazníka.
               </p>
             </div>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <MapPin className="h-8 w-8 inline mr-2 text-primary" />
-              1. Ako vybrať správnu taxislužbu
+              1. Jak vybrat správnou taxislužbu
             </h2>
 
             <p className="text-sm leading-relaxed">
-              Na Slovensku pôsobí viac ako <strong>1 200 taxislužieb</strong> vo <strong>viac ako 150 mestách</strong>. Výber správnej služby môže byť náročný, preto sme pripravili praktický návod.
+              V Česku působí více než <strong>1 200 taxislužeb</strong> ve <strong>více než 150 městech</strong>. Výběr správné služby může být náročný, proto jsme připravili praktického průvodce.
             </p>
 
             <div className="bg-green-50 p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Kľúčové kritériá pri výbere</h3>
+              <h3 className="text-2xl font-bold mb-3">Klíčová kritéria při výběru</h3>
 
               <div className="space-y-6">
                 <div>
-                  <h4 className="font-bold text-lg mb-2">1. Overené hodnotenia</h4>
-                  <p>Vyhľadajte taxislužby s pozitívnymi recenziami od skutočných zákazníkov. Pozor na falošné hodnotenia!</p>
+                  <h4 className="font-bold text-lg mb-2">1. Ověřená hodnocení</h4>
+                  <p>Vyhledejte taxislužby s pozitivními recenzemi od skutečných zákazníků. Pozor na falešná hodnocení!</p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-lg mb-2">2. Transparentné ceny</h4>
-                  <p>Seriózna taxislužba má jasne uvedené cenníky. Nástupná sadzba, cena za kilometer a čakacia sadzba by mali byť viditeľné.</p>
+                  <h4 className="font-bold text-lg mb-2">2. Transparentní ceny</h4>
+                  <p>Seriózní taxislužba má jasně uvedené ceníky. Nástupní sazba, cena za kilometr a čekací sazba by měly být viditelné.</p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-lg mb-2">3. Dostupnosť</h4>
-                  <p>Overené telefónne čísla, rýchla odozva, možnosť objednania cez aplikáciu.</p>
+                  <h4 className="font-bold text-lg mb-2">3. Dostupnost</h4>
+                  <p>Ověřená telefonní čísla, rychlá odezva, možnost objednání přes aplikaci.</p>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg mb-2">4. Vozový park</h4>
-                  <p>Moderné, čisté vozidlá s klimatizáciou. Niektoré služby ponúkajú aj prémiové vozidlá alebo elektromobily.</p>
+                  <p>Moderní, čistá vozidla s klimatizací. Některé služby nabízejí i prémiová vozidla nebo elektromobily.</p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-lg mb-2">5. Platobné možnosti</h4>
-                  <p>Okrem hotovosti aj platba kartou, faktúra pre firmy.</p>
+                  <h4 className="font-bold text-lg mb-2">5. Platební možnosti</h4>
+                  <p>Kromě hotovosti i platba kartou, faktura pro firmy.</p>
                 </div>
               </div>
             </div>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <CreditCard className="h-8 w-8 inline mr-2 text-primary" />
-              2. Ceny taxislužieb na Slovensku
+              2. Ceny taxislužeb v Česku
             </h2>
 
             <p>
-              Ceny taxi sa na Slovensku líšia podľa mesta a konkrétnej služby. Pripravili sme pre vás <strong>komplexný cenový prieskum</strong>, ktorý porovnáva ceny v 30 slovenských mestách.
+              Ceny taxi se v Česku liší podle města a konkrétní služby. Připravili jsme pro vás <strong>komplexní cenový průzkum</strong>, který porovnává ceny ve 30 českých městech.
             </p>
 
             <div className="bg-yellow-50 p-6 rounded-lg my-4">
-              <h3 className="text-xl font-bold mb-3">Priemerné ceny taxi</h3>
+              <h3 className="text-xl font-bold mb-3">Průměrné ceny taxi</h3>
               <ul className="space-y-2">
-                <li><strong>Nástupná sadzba:</strong> 2,00 € - 3,50 €</li>
+                <li><strong>Nástupní sazba:</strong> 2,00 € - 3,50 €</li>
                 <li><strong>Cena za kilometer:</strong> 0,80 € - 1,20 €</li>
-                <li><strong>Čakacia sadzba:</strong> 0,20 € - 0,40 € / minúta</li>
-                <li><strong>5km jazda:</strong> 6,00 € - 9,50 €</li>
+                <li><strong>Čekací sazba:</strong> 0,20 € - 0,40 € / minuta</li>
+                <li><strong>5km jízda:</strong> 6,00 € - 9,50 €</li>
               </ul>
             </div>
 
             <p>
               <Link href="/prieskum-cien-taxisluzieb-slovensko-2025" className="text-primary hover:underline font-semibold">
-                → Pozrite si detailný cenový prieskum s interaktívnou mapou a kalkulačkou
+                → Podívejte se na detailní cenový průzkum s interaktivní mapou a kalkulačkou
               </Link>
             </p>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <Smartphone className="h-8 w-8 inline mr-2 text-primary" />
-              3. Ako objednať taxi
+              3. Jak objednat taxi
             </h2>
 
             <div className="space-y-6 my-4">
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-3">Telefonicky</h3>
-                <p>Najrýchlejší spôsob. Zavolajte na dispečing, uveďte adresu vyzdvihnutia a cieľ. Dispečer vám potvrdí čas príchodu.</p>
-                <p className="mt-2 font-semibold">Tip: Uložte si čísla overených taxislužieb vo vašom meste.</p>
+                <p>Nejrychlejší způsob. Zavolejte na dispečink, uveďte adresu vyzvednutí a cíl. Dispečer vám potvrdí čas příjezdu.</p>
+                <p className="mt-2 font-semibold">Tip: Uložte si čísla ověřených taxislužeb ve vašem městě.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Cez aplikáciu</h3>
-                <p>Moderné taxislužby ponúkajú vlastné aplikácie. Výhody: vidíte cenu vopred, sledujete príchod vozidla, platíte kartou.</p>
+                <h3 className="text-xl font-bold mb-3">Přes aplikaci</h3>
+                <p>Moderní taxislužby nabízejí vlastní aplikace. Výhody: vidíte cenu předem, sledujete příjezd vozidla, platíte kartou.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-3">Na stanovišti</h3>
-                <p>V centrách miest nájdete taxi stanovištia. Výhodné, ak ste na mieste a potrebujete odvoz okamžite.</p>
+                <p>V centrech měst najdete taxi stanoviště. Výhodné, pokud jste na místě a potřebujete odvoz okamžitě.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Cez našu stránku</h3>
-                <p>Na TaxiNearMe.sk nájdete overené taxislužby vo vašom meste s telefónnymi číslami a cenníkmi.</p>
+                <h3 className="text-xl font-bold mb-3">Přes naši stránku</h3>
+                <p>Na TaxiNearMe.cz najdete ověřené taxislužby ve vašem městě s telefonními čísly a ceníky.</p>
               </div>
             </div>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <Shield className="h-8 w-8 inline mr-2 text-primary" />
-              4. Vaše práva ako zákazníka
+              4. Vaše práva jako zákazníka
             </h2>
 
             <div className="bg-blue-50 p-8 rounded-lg my-4">
               <h3 className="text-2xl font-bold mb-3">Máte právo na:</h3>
 
               <ul className="space-y-3">
-                <li><strong>✓ Bezpečnú prepravu</strong> - Vodič musí dodržiavať dopravné predpisy</li>
-                <li><strong>✓ Čisté vozidlo</strong> - Auto by malo byť v dobrom technickom stave</li>
-                <li><strong>✓ Transparentnú cenu</strong> - Taxameter musí byť viditeľný a funkčný</li>
-                <li><strong>✓ Faktúru</strong> - Na požiadanie musí vodič vystaviť faktúru</li>
-                <li><strong>✓ Slušné správanie</strong> - Vodič by mal byť profesionálny a zdvorilý</li>
+                <li><strong>✓ Bezpečnou přepravu</strong> - Řidič musí dodržovat dopravní předpisy</li>
+                <li><strong>✓ Čisté vozidlo</strong> - Auto by mělo být v dobrém technickém stavu</li>
+                <li><strong>✓ Transparentní cenu</strong> - Taxametr musí být viditelný a funkční</li>
+                <li><strong>✓ Fakturu</strong> - Na požádání musí řidič vystavit fakturu</li>
+                <li><strong>✓ Slušné chování</strong> - Řidič by měl být profesionální a zdvořilý</li>
               </ul>
             </div>
 
             <div className="bg-red-50 p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Vodič môže odmietnuť jazdu, ak:</h3>
+              <h3 className="text-2xl font-bold mb-3">Řidič může odmítnout jízdu, pokud:</h3>
 
               <ul className="space-y-3">
-                <li>• Ste agresívny alebo pod vplyvom alkoholu/drog</li>
-                <li>• Neviete presný cieľ cesty</li>
-                <li>• Máte nebezpečné predmety</li>
-                <li>• Odmietate zaplatiť zálohu (pri dlhých trasách)</li>
+                <li>• Jste agresivní nebo pod vlivem alkoholu/drog</li>
+                <li>• Nevíte přesný cíl cesty</li>
+                <li>• Máte nebezpečné předměty</li>
+                <li>• Odmítáte zaplatit zálohu (při dlouhých trasách)</li>
               </ul>
 
               <p className="mt-4 font-semibold">
                 <Link href="/alkohol-nocny-zivot" className="text-primary hover:underline">
-                  → Prečítajte si viac o pravidlách prepravy opitých pasažierov
+                  → Přečtěte si více o pravidlech přepravy opilých pasažérů
                 </Link>
               </p>
             </div>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <Star className="h-8 w-8 inline mr-2 text-primary" />
-              5. Ako hodnotiť taxislužbu
+              5. Jak hodnotit taxislužbu
             </h2>
 
             <p>
-              Hodnotenia sú dôležité pre ostatných zákazníkov, ale aj pre vodičov. <strong>Férové hodnotenie</strong> pomáha zlepšovať kvalitu služieb.
+              Hodnocení jsou důležitá pro ostatní zákazníky, ale i pro řidiče. <strong>Férové hodnocení</strong> pomáhá zlepšovat kvalitu služeb.
             </p>
 
             <div className="bg-yellow-50 p-6 rounded-lg my-4">
-              <h3 className="text-xl font-bold mb-3">Kedy dať nízke hodnotenie?</h3>
+              <h3 className="text-xl font-bold mb-3">Kdy dát nízké hodnocení?</h3>
               <ul className="space-y-2">
-                <li>• Agresívna jazda, porušovanie predpisov</li>
-                <li>• Hrubé správanie, neúcta</li>
-                <li>• Špinavé vozidlo, nepríjemný zápach</li>
-                <li>• Úmyselné predlžovanie trasy</li>
-                <li>• Odmietnutie vystaviť faktúru</li>
+                <li>• Agresivní jízda, porušování předpisů</li>
+                <li>• Hrubé chování, neúcta</li>
+                <li>• Špinavé vozidlo, nepříjemný zápach</li>
+                <li>• Úmyslné prodlužování trasy</li>
+                <li>• Odmítnutí vystavit fakturu</li>
               </ul>
             </div>
 
             <div className="bg-green-50 p-6 rounded-lg my-4">
-              <h3 className="text-xl font-bold mb-3">Kedy dať vysoké hodnotenie?</h3>
+              <h3 className="text-xl font-bold mb-3">Kdy dát vysoké hodnocení?</h3>
               <ul className="space-y-2">
-                <li>• Bezpečná, plynulá jazda</li>
-                <li>• Profesionálne správanie</li>
+                <li>• Bezpečná, plynulá jízda</li>
+                <li>• Profesionální chování</li>
                 <li>• Čisté vozidlo</li>
-                <li>• Príchod na čas</li>
-                <li>• Pomoc so zavazadlami</li>
+                <li>• Příjezd včas</li>
+                <li>• Pomoc se zavazadly</li>
               </ul>
             </div>
 
             <p className="font-semibold text-lg">
               <Link href="/hodnotenie-vodicov" className="text-primary hover:underline">
-                → Prečítajte si, prečo 4★ nie je dobré hodnotenie a ako hodnotiť férovo
+                → Přečtěte si, proč 4★ není dobré hodnocení a jak hodnotit férově
               </Link>
             </p>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">6. Špecializované služby</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">6. Specializované služby</h2>
 
             <div className="grid md:grid-cols-2 gap-6 my-4">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Letiskové transfery</h3>
-                <p>Mnohé taxislužby ponúkajú špeciálne ceny na letisko. Výhodné pri rezervácii vopred.</p>
+                <h3 className="text-xl font-bold mb-3">Letištní transfery</h3>
+                <p>Mnohé taxislužby nabízejí speciální ceny na letiště. Výhodné při rezervaci předem.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Firemné prepravy</h3>
-                <p>Faktúry pre firmy, mesačné zúčtovanie, prémiové vozidlá.</p>
+                <h3 className="text-xl font-bold mb-3">Firemní přepravy</h3>
+                <p>Faktury pro firmy, měsíční zúčtování, prémiová vozidla.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Detské autosedačky</h3>
-                <p>Niektoré služby poskytujú autosedačky na požiadanie. Vždy si overte dostupnosť vopred.</p>
+                <h3 className="text-xl font-bold mb-3">Dětské autosedačky</h3>
+                <p>Některé služby poskytují autosedačky na požádání. Vždy si ověřte dostupnost předem.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Bezbariérové vozidlá</h3>
-                <p>Pre osoby s obmedzenou mobilitou. Dostupnosť závisí od mesta.</p>
+                <h3 className="text-xl font-bold mb-3">Bezbariérová vozidla</h3>
+                <p>Pro osoby s omezenou mobilitou. Dostupnost závisí na městě.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-3">Elektromobily</h3>
-                <p>Ekologická alternatíva. Dostupné v Bratislave, Košiciach a ďalších väčších mestách.</p>
+                <p>Ekologická alternativa. Dostupné v Praze, Brně a dalších větších městech.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Zahraničné prepravy</h3>
-                <p>Niektoré taxislužby ponúkajú medzinárodné prepravy (napr. do Viedne, Budapešti).</p>
+                <h3 className="text-xl font-bold mb-3">Zahraniční přepravy</h3>
+                <p>Některé taxislužby nabízejí mezinárodní přepravy (např. do Vídně, Drážďan).</p>
               </div>
             </div>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">7. Bezpečnostné tipy</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">7. Bezpečnostní tipy</h2>
 
             <div className="bg-red-50 p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Pre zákazníkov</h3>
+              <h3 className="text-2xl font-bold mb-3">Pro zákazníky</h3>
 
               <ul className="space-y-3">
-                <li><strong>✓ Overujte identitu vodiča</strong> - Skontrolujte poznávaciu značku a meno vodiča</li>
-                <li><strong>✓ Sledujte trasu</strong> - Používajte GPS na telefóne</li>
-                <li><strong>✓ Zdieľajte polohu</strong> - Pošlite live location priateľom/rodine</li>
-                <li><strong>✓ Sedite vzadu</strong> - Bezpečnejšia pozícia</li>
-                <li><strong>✓ Dôverujte inštinktu</strong> - Ak sa cítite nepríjemne, požiadajte o zastavenie</li>
+                <li><strong>✓ Ověřujte identitu řidiče</strong> - Zkontrolujte poznávací značku a jméno řidiče</li>
+                <li><strong>✓ Sledujte trasu</strong> - Používejte GPS na telefonu</li>
+                <li><strong>✓ Sdílejte polohu</strong> - Pošlete live location přátelům/rodině</li>
+                <li><strong>✓ Seďte vzadu</strong> - Bezpečnější pozice</li>
+                <li><strong>✓ Důvěřujte instinktu</strong> - Pokud se cítíte nepříjemně, požádejte o zastavení</li>
               </ul>
             </div>
 
             <div className="bg-blue-50 p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Pre vodičov</h3>
+              <h3 className="text-2xl font-bold mb-3">Pro řidiče</h3>
 
               <ul className="space-y-3">
-                <li><strong>✓ Nadviažte očný kontakt</strong> - Identifikujte pasažiera</li>
-                <li><strong>✓ Informujte dispečing</strong> - O cieli a zmene trasy</li>
-                <li><strong>✓ Používajte kamery</strong> - Dashcam a interiérová kamera</li>
-                <li><strong>✓ Dôverujte inštinktu</strong> - Máte právo odmietnuť rizikového pasažiera</li>
+                <li><strong>✓ Navažte oční kontakt</strong> - Identifikujte pasažéra</li>
+                <li><strong>✓ Informujte dispečink</strong> - O cíli a změně trasy</li>
+                <li><strong>✓ Používejte kamery</strong> - Dashcam a interiérová kamera</li>
+                <li><strong>✓ Důvěřujte instinktu</strong> - Máte právo odmítnout rizikového pasažéra</li>
               </ul>
 
               <p className="mt-4 font-semibold">
                 <Link href="/alkohol-nocny-zivot" className="text-primary hover:underline">
-                  → Prečítajte si komplexný bezpečnostný návod pre vodičov
+                  → Přečtěte si komplexní bezpečnostní návod pro řidiče
                 </Link>
               </p>
             </div>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">8. Taxislužby podľa miest</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">8. Taxislužby podle měst</h2>
 
             <p>
-              Na Slovensku pôsobí viac ako 1 200 taxislužieb. Pripravili sme pre vás detailné prehľady pre každé mesto s overenými kontaktmi a cenníkmi.
+              V Česku působí více než 1 200 taxislužeb. Připravili jsme pro vás detailní přehledy pro každé město s ověřenými kontakty a ceníky.
             </p>
 
             <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-xl p-8 my-4">
-              <h3 className="text-2xl font-bold mb-3 text-center">Najväčšie mestá</h3>
+              <h3 className="text-2xl font-bold mb-3 text-center">Největší města</h3>
 
               <div className="grid md:grid-cols-3 gap-4">
-                <Link href="/taxi/bratislava" className="bg-white p-4 rounded-lg border border-foreground/10">
-                  <h4 className="font-bold text-lg mb-2">Bratislava</h4>
-                  <p className="text-sm text-gray-600">14 taxislužieb</p>
-                  <p className="text-sm text-primary mt-2">Zobraziť →</p>
+                <Link href="/taxi/praha" className="bg-white p-4 rounded-lg border border-foreground/10">
+                  <h4 className="font-bold text-lg mb-2">Praha</h4>
+                  <p className="text-sm text-gray-600">14 taxislužeb</p>
+                  <p className="text-sm text-primary mt-2">Zobrazit →</p>
                 </Link>
 
-                <Link href="/taxi/kosice" className="bg-white p-4 rounded-lg border border-foreground/10">
-                  <h4 className="font-bold text-lg mb-2">Košice</h4>
-                  <p className="text-sm text-gray-600">14 taxislužieb</p>
-                  <p className="text-sm text-primary mt-2">Zobraziť →</p>
+                <Link href="/taxi/brno" className="bg-white p-4 rounded-lg border border-foreground/10">
+                  <h4 className="font-bold text-lg mb-2">Brno</h4>
+                  <p className="text-sm text-gray-600">14 taxislužeb</p>
+                  <p className="text-sm text-primary mt-2">Zobrazit →</p>
                 </Link>
 
-                <Link href="/taxi/presov" className="bg-white p-4 rounded-lg border border-foreground/10">
-                  <h4 className="font-bold text-lg mb-2">Prešov</h4>
-                  <p className="text-sm text-gray-600">15 taxislužieb</p>
-                  <p className="text-sm text-primary mt-2">Zobraziť →</p>
+                <Link href="/taxi/ostrava" className="bg-white p-4 rounded-lg border border-foreground/10">
+                  <h4 className="font-bold text-lg mb-2">Ostrava</h4>
+                  <p className="text-sm text-gray-600">15 taxislužeb</p>
+                  <p className="text-sm text-primary mt-2">Zobrazit →</p>
                 </Link>
 
-                <Link href="/taxi/zilina" className="bg-white p-4 rounded-lg border border-foreground/10">
-                  <h4 className="font-bold text-lg mb-2">Žilina</h4>
-                  <p className="text-sm text-gray-600">15 taxislužieb</p>
-                  <p className="text-sm text-primary mt-2">Zobraziť →</p>
+                <Link href="/taxi/plzen" className="bg-white p-4 rounded-lg border border-foreground/10">
+                  <h4 className="font-bold text-lg mb-2">Plzeň</h4>
+                  <p className="text-sm text-gray-600">12 taxislužeb</p>
+                  <p className="text-sm text-primary mt-2">Zobrazit →</p>
                 </Link>
 
-                <Link href="/taxi/nitra" className="bg-white p-4 rounded-lg border border-foreground/10">
-                  <h4 className="font-bold text-lg mb-2">Nitra</h4>
-                  <p className="text-sm text-gray-600">13 taxislužieb</p>
-                  <p className="text-sm text-primary mt-2">Zobraziť →</p>
+                <Link href="/taxi/liberec" className="bg-white p-4 rounded-lg border border-foreground/10">
+                  <h4 className="font-bold text-lg mb-2">Liberec</h4>
+                  <p className="text-sm text-gray-600">10 taxislužeb</p>
+                  <p className="text-sm text-primary mt-2">Zobrazit →</p>
                 </Link>
 
-                <Link href="/taxi/banska-bystrica" className="bg-white p-4 rounded-lg border border-foreground/10">
-                  <h4 className="font-bold text-lg mb-2">Banská Bystrica</h4>
-                  <p className="text-sm text-gray-600">15 taxislužieb</p>
-                  <p className="text-sm text-primary mt-2">Zobraziť →</p>
+                <Link href="/taxi/olomouc" className="bg-white p-4 rounded-lg border border-foreground/10">
+                  <h4 className="font-bold text-lg mb-2">Olomouc</h4>
+                  <p className="text-sm text-gray-600">11 taxislužeb</p>
+                  <p className="text-sm text-primary mt-2">Zobrazit →</p>
                 </Link>
               </div>
 
               <div className="text-center mt-6">
                 <Link href="/">
                   <Button variant="outline">
-                    Zobraziť všetky mestá (150+)
+                    Zobrazit všechna města (150+)
                   </Button>
                 </Link>
               </div>
             </div>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">9. Často kladené otázky</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">9. Často kladené dotazy</h2>
 
             <div className="space-y-6 my-4">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-lg mb-2">Koľko stojí taxi na Slovensku?</h3>
-                <p>Priemerná 5km jazda stojí 6-9,50 €. Ceny sa líšia podľa mesta a konkrétnej služby. <Link href="/prieskum-cien-taxisluzieb-slovensko-2025" className="text-primary hover:underline">Pozrite si detailný cenový prieskum</Link>.</p>
+                <h3 className="font-bold text-lg mb-2">Kolik stojí taxi v Česku?</h3>
+                <p>Průměrná 5km jízda stojí 6-9,50 €. Ceny se liší podle města a konkrétní služby. <Link href="/prieskum-cien-taxisluzieb-slovensko-2025" className="text-primary hover:underline">Podívejte se na detailní cenový průzkum</Link>.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-lg mb-2">Ako objednám taxi?</h3>
-                <p>Telefonicky, cez aplikáciu, na stanovišti, alebo cez našu stránku TaxiNearMe.sk.</p>
+                <h3 className="font-bold text-lg mb-2">Jak objednám taxi?</h3>
+                <p>Telefonicky, přes aplikaci, na stanovišti, nebo přes naši stránku TaxiNearMe.cz.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-lg mb-2">Môžem platiť kartou?</h3>
-                <p>Väčšina moderných taxislužieb akceptuje platby kartou. Vždy si overte vopred.</p>
+                <h3 className="font-bold text-lg mb-2">Můžu platit kartou?</h3>
+                <p>Většina moderních taxislužeb akceptuje platby kartou. Vždy si ověřte předem.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-lg mb-2">Môže vodič odmietnuť jazdu?</h3>
-                <p>Áno, ak ste agresívny, pod vplyvom, neviete cieľ, alebo máte nebezpečné predmety. <Link href="/alkohol-nocny-zivot" className="text-primary hover:underline">Viac info tu</Link>.</p>
+                <h3 className="font-bold text-lg mb-2">Může řidič odmítnout jízdu?</h3>
+                <p>Ano, pokud jste agresivní, pod vlivem, nevíte cíl, nebo máte nebezpečné předměty. <Link href="/alkohol-nocny-zivot" className="text-primary hover:underline">Více info zde</Link>.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-lg mb-2">Ako hodnotiť taxislužbu?</h3>
-                <p>Férovo - hodnoťte len to, čo vodič ovplyvnil. <Link href="/hodnotenie-vodicov" className="text-primary hover:underline">Prečítajte si návod</Link>.</p>
+                <h3 className="font-bold text-lg mb-2">Jak hodnotit taxislužbu?</h3>
+                <p>Férově - hodnoťte jen to, co řidič ovlivnil. <Link href="/hodnotenie-vodicov" className="text-primary hover:underline">Přečtěte si návod</Link>.</p>
               </div>
 
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-lg mb-2">Sú na Slovensku elektromobily taxi?</h3>
-                <p>Áno, v Bratislave, Košiciach a ďalších väčších mestách. Dostupnosť rastie.</p>
+                <h3 className="font-bold text-lg mb-2">Jsou v Česku elektromobily taxi?</h3>
+                <p>Ano, v Praze, Brně a dalších větších městech. Dostupnost roste.</p>
               </div>
             </div>
 
             <hr className="my-6 border-gray-300" />
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">Záver</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">Závěr</h2>
 
             <p className="text-lg">
-              Taxislužby na Slovensku prechádzajú modernizáciou. Stále viac služieb ponúka aplikácie, bezhotovostné platby a ekologické vozidlá. <strong>Informovaný zákazník</strong> je spokojný zákazník - preto sme vytvorili tento komplexný sprievodca.
+              Taxislužby v Česku procházejí modernizací. Stále více služeb nabízí aplikace, bezhotovostní platby a ekologická vozidla. <strong>Informovaný zákazník</strong> je spokojný zákazník - proto jsme vytvořili tohoto komplexního průvodce.
             </p>
 
             <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-xl  p-8 my-6 text-center">
-              <h3 className="text-2xl font-bold mb-3 text-gray-900">Súvisiace články</h3>
+              <h3 className="text-2xl font-bold mb-3 text-gray-900">Související články</h3>
               <div className="grid md:grid-cols-3 gap-4 mt-6">
                 <Link href="/prieskum-cien-taxisluzieb-slovensko-2025">
                   <Button variant="outline" className="w-full">
-                    Cenový prieskum
+                    Cenový průzkum
                   </Button>
                 </Link>
                 <Link href="/hodnotenie-vodicov">
                   <Button variant="outline" className="w-full">
-                    Ako hodnotiť vodičov
+                    Jak hodnotit řidiče
                   </Button>
                 </Link>
                 <Link href="/alkohol-nocny-zivot">
                   <Button variant="outline" className="w-full">
-                    Bezpečnosť v noci
+                    Bezpečnost v noci
                   </Button>
                 </Link>
               </div>
@@ -466,22 +466,22 @@ export default function KomplexnySprievodcaPage() {
 
           {/* FAQ Section */}
           <ArticleFAQ
-            articleSlug="komplexny-sprievodca-taxi"
-            articleTitle="Často kladené otázky o taxislužbách"
+            articleSlug="komplexny-průvodce-taxi"
+            articleTitle="Často kladené dotazy o taxislužbách"
           />
 
           {/* CTA Section */}
           <div className="mt-12 p-8 bg-gradient-to-br from-primary/10 to-primary/5 rounded-xl  text-center">
             <h3 className="text-2xl font-bold mb-3 text-gray-900">
               <MapPin className="h-6 w-6 inline mr-2" />
-              Nájdite taxi vo vašom meste
+              Najděte taxi ve vašem městě
             </h3>
             <p className="text-gray-700 mb-3">
-              Viac ako 1 200 overených taxislužieb vo viac ako 150 slovenských mestách.
+              Více než 1 200 ověřených taxislužeb ve více než 150 českých městech.
             </p>
             <Link href="/">
               <Button size="lg" className="gap-2">
-                Vyhľadať taxi
+                Vyhledat taxi
                 <ArrowLeft className="h-2.5 w-2.5 rotate-180" />
               </Button>
             </Link>

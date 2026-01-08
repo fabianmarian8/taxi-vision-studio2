@@ -32,7 +32,7 @@ export const LocalBusinessSchema = ({ city }: LocalBusinessSchemaProps) => {
     '@type': 'LocalBusiness',
     '@id': `${baseUrl}/taxi/${city.slug}#localbusiness`,
     name: `Taxislužby ${city.name}`,
-    description: city.metaDescription || `Kompletný zoznam taxislužieb v meste ${city.name}. Nájdite spoľahlivé taxi s kontaktmi a cenami.`,
+    description: city.metaDescription || `Kompletní seznam taxislužeb ve městě ${city.name}. Najděte spolehlivé taxi s kontakty a cenami.`,
     url: `${baseUrl}/taxi/${city.slug}`,
 
     // Address information

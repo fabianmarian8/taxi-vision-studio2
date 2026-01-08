@@ -42,7 +42,7 @@ export const PriceCalculator = ({ cities }: PriceCalculatorProps) => {
     const distanceNum = parseFloat(distance);
     const waitTimeNum = parseFloat(waitTime) || 0;
 
-    // Validácia - záporné hodnoty nie sú povolené
+    // Validace - záporné hodnoty nejsou povoleny
     if (distanceNum < 0 || waitTimeNum < 0) {
       return;
     }
@@ -52,7 +52,7 @@ export const PriceCalculator = ({ cities }: PriceCalculatorProps) => {
       (city.prices.cenaZaKm * distanceNum) +
       (city.prices.cakanie * waitTimeNum);
 
-    // Zaistíme, že cena nie je záporná
+    // Zajistíme, že cena není záporná
     setCalculatedPrice(Math.max(0, price));
   };
 
@@ -65,32 +65,32 @@ export const PriceCalculator = ({ cities }: PriceCalculatorProps) => {
 
   const selectedCityData = cities.find(c => c.id === selectedCity);
 
-  // Handler pre vzdialenosť - sanitizuje vstup
+  // Handler pro vzdálenost - sanitizuje vstup
   const handleDistanceChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
-    // Povolíme iba kladné čísla a prázdny string
+    // Povolíme pouze kladná čísla a prázdný string
     if (value === '' || (parseFloat(value) >= 0)) {
       setDistance(value);
     }
   };
 
-  // Handler pre čakanie - sanitizuje vstup
+  // Handler pro čekání - sanitizuje vstup
   const handleWaitTimeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
-    // Povolíme iba kladné čísla a prázdny string
+    // Povolíme pouze kladná čísla a prázdný string
     if (value === '' || (parseFloat(value) >= 0)) {
       setWaitTime(value);
     }
   };
 
-  // Kontrola pre prázdne mestá
+  // Kontrola pro prázdná města
   if (!cities || cities.length === 0) {
     return (
       <div className="bg-card rounded-2xl p-6 md:p-8">
         <div className="text-center text-foreground/60">
           <MapPin className="h-12 w-12 mx-auto mb-4 opacity-50" />
-          <p>Kalkulačka nie je momentálne dostupná.</p>
-          <p className="text-sm mt-2">Nenašli sa žiadne mestá s cenovými údajmi.</p>
+          <p>Kalkulačka není momentálně dostupná.</p>
+          <p className="text-sm mt-2">Nenašla se žádná města s cenovými údaji.</p>
         </div>
       </div>
     );
@@ -103,11 +103,11 @@ export const PriceCalculator = ({ cities }: PriceCalculatorProps) => {
         <div className="space-y-2">
           <Label htmlFor="city" className="text-foreground font-semibold flex items-center gap-2">
             <MapPin className="h-4 w-4" />
-            Vyberte mesto
+            Vyberte město
           </Label>
           <Select value={selectedCity} onValueChange={setSelectedCity}>
             <SelectTrigger id="city" className="w-full">
-              <SelectValue placeholder="Vyberte mesto..." />
+              <SelectValue placeholder="Vyberte město..." />
             </SelectTrigger>
             <SelectContent>
               {cities.map((city) => (
@@ -123,7 +123,7 @@ export const PriceCalculator = ({ cities }: PriceCalculatorProps) => {
         <div className="space-y-2">
           <Label htmlFor="distance" className="text-foreground font-semibold flex items-center gap-2">
             <Navigation className="h-4 w-4" />
-            Vzdialenosť (km)
+            Vzdálenost (km)
           </Label>
           <Input
             id="distance"
@@ -140,7 +140,7 @@ export const PriceCalculator = ({ cities }: PriceCalculatorProps) => {
         {/* Wait Time Input */}
         <div className="space-y-2">
           <Label htmlFor="waitTime" className="text-foreground font-semibold">
-            Čakanie (minúty) - voliteľné
+            Čekání (minuty) - volitelné
           </Label>
           <Input
             id="waitTime"
@@ -157,9 +157,9 @@ export const PriceCalculator = ({ cities }: PriceCalculatorProps) => {
         {/* Price Breakdown */}
         {selectedCityData && (
           <div className="bg-foreground/5 rounded-xl p-4 space-y-2">
-            <h3 className="font-bold text-foreground mb-3">Cenník pre {selectedCityData.name}:</h3>
+            <h3 className="font-bold text-foreground mb-3">Ceník pro {selectedCityData.name}:</h3>
             <div className="grid grid-cols-2 gap-2 text-sm">
-              <div className="text-foreground/70">Nástupné:</div>
+              <div className="text-foreground/70">Nástupní:</div>
               <div className="font-semibold text-foreground text-right">
                 {selectedCityData.prices.nastupne.toFixed(2)} €
               </div>
@@ -167,7 +167,7 @@ export const PriceCalculator = ({ cities }: PriceCalculatorProps) => {
               <div className="font-semibold text-foreground text-right">
                 {selectedCityData.prices.cenaZaKm.toFixed(2)} €/km
               </div>
-              <div className="text-foreground/70">Čakanie:</div>
+              <div className="text-foreground/70">Čekání:</div>
               <div className="font-semibold text-foreground text-right">
                 {selectedCityData.prices.cakanie.toFixed(2)} €/min
               </div>
@@ -184,7 +184,7 @@ export const PriceCalculator = ({ cities }: PriceCalculatorProps) => {
             size="lg"
           >
             <Calculator className="h-5 w-5" />
-            Vypočítať cenu
+            Vypočítat cenu
           </Button>
           <Button
             onClick={resetCalculator}
@@ -203,15 +203,15 @@ export const PriceCalculator = ({ cities }: PriceCalculatorProps) => {
               {calculatedPrice.toFixed(2)} €
             </p>
             <p className="text-xs text-foreground/60">
-              {distance} km {waitTime !== "0" && `+ ${waitTime} min čakania`}
+              {distance} km {waitTime !== "0" && `+ ${waitTime} min čekání`}
             </p>
           </div>
         )}
 
         {/* Disclaimer */}
         <div className="text-xs text-foreground/60 text-center pt-2 border-t border-foreground/10">
-          * Uvedená cena je orientačná. Skutočná cena sa môže líšiť v závislosti od konkrétnej taxislužby,
-          dennej doby, dňa v týždni a ďalších faktorov. Odporúčame overiť cenu priamo u vybranej služby.
+          * Uvedená cena je orientační. Skutečná cena se může lišit v závislosti na konkrétní taxislužbě,
+          denní době, dni v týdnu a dalších faktorech. Doporučujeme ověřit cenu přímo u vybrané služby.
         </div>
       </div>
     </div>

@@ -48,7 +48,7 @@ export function EditableHeroTitle({ defaultValue }: { defaultValue: string }) {
     <EditableField
       fieldKey="hero_title"
       fieldType="text"
-      label="Názov taxislužby"
+      label="Název taxislužby"
       isEditMode={isEditMode}
       onClick={openEditor}
     >
@@ -70,7 +70,7 @@ export function EditableHeroSubtitle({ defaultValue }: { defaultValue: string })
     <EditableField
       fieldKey="hero_subtitle"
       fieldType="text"
-      label="Popis v hero sekcii"
+      label="Popis v hero sekci"
       isEditMode={isEditMode}
       onClick={openEditor}
     >
@@ -101,7 +101,7 @@ export function EditableDescription({ defaultValue }: { defaultValue: string }) 
         onClick={openEditor}
       >
         <p className="text-muted-foreground text-sm md:text-base leading-relaxed whitespace-pre-line">
-          {value || 'Kliknite pre pridanie popisu...'}
+          {value || 'Klikněte pro přidání popisu...'}
         </p>
       </EditableField>
     </div>
@@ -119,7 +119,7 @@ export function EditablePhone({ defaultValue }: { defaultValue: string }) {
     <EditableField
       fieldKey="phone"
       fieldType="phone"
-      label="Telefónne číslo"
+      label="Telefonní číslo"
       isEditMode={isEditMode}
       onClick={openEditor}
     >
@@ -139,7 +139,7 @@ export function EditableCompanyName({ defaultValue }: { defaultValue: string }) 
     <EditableField
       fieldKey="company_name"
       fieldType="text"
-      label="Názov spoločnosti"
+      label="Název společnosti"
       isEditMode={isEditMode}
       onClick={openEditor}
     >
@@ -218,7 +218,7 @@ export function EditableHeroImage({
         <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity z-20">
           <div className="bg-yellow-400 text-gray-900 rounded-full p-2 shadow-lg flex items-center gap-2">
             <ImageIcon className="w-4 h-4" />
-            <span className="text-sm font-medium pr-1">Upraviť obrázok</span>
+            <span className="text-sm font-medium pr-1">Upravit obrázek</span>
           </div>
         </div>
 
@@ -236,7 +236,7 @@ export function EditableHeroImage({
         currentPosX={currentPosX}
         currentPosY={currentPosY}
         onSave={handleSave}
-        label="Hero obrázok"
+        label="Hero obrázek"
         enableUpload={!!partnerId}
       />
     </>
@@ -333,7 +333,7 @@ export function EditableGallery({ defaultImages, serviceName, partnerId }: Edita
     <div className="border-2 border-dashed border-gray-300 rounded-xl p-8 text-center">
       <Images className="w-10 h-10 text-gray-300 mx-auto mb-2" />
       <p className="text-gray-500 text-sm">
-        {isEditMode ? 'Kliknite pre pridanie obrázkov' : 'Žiadne obrázky v galérii'}
+        {isEditMode ? 'Klikněte pro přidání obrázků' : 'Žádné obrázky v galerii'}
       </p>
     </div>
   );
@@ -412,7 +412,7 @@ export function EditableGallery({ defaultImages, serviceName, partnerId }: Edita
           <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity z-20">
             <div className="bg-yellow-400 text-gray-900 rounded-full p-2 shadow-lg flex items-center gap-2">
               <Images className="w-4 h-4" />
-              <span className="text-sm font-medium pr-1">Upraviť galériu ({currentImages.length})</span>
+              <span className="text-sm font-medium pr-1">Upravit galerii ({currentImages.length})</span>
             </div>
           </div>
 
@@ -473,7 +473,7 @@ export function EditableServices({ defaultServices, children }: EditableServices
         <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity z-20">
           <div className="bg-yellow-400 text-gray-900 rounded-full p-2 shadow-lg flex items-center gap-2">
             <Tags className="w-4 h-4" />
-            <span className="text-sm font-medium pr-1">Upraviť služby</span>
+            <span className="text-sm font-medium pr-1">Upravit služby</span>
           </div>
         </div>
 
@@ -635,7 +635,7 @@ export function EditableContactButtons({ defaultLinks, citySlug, serviceName }: 
           onClick={(e) => isEditMode && e.preventDefault()}
         >
           <ScrollText className="h-4 w-4 md:h-5 md:w-5" />
-          <span>Prepravný poriadok</span>
+          <span>Přepravní řád</span>
         </a>
       )}
       {email && (
@@ -710,7 +710,7 @@ export function EditableContactButtons({ defaultLinks, citySlug, serviceName }: 
   const emptyPlaceholder = (
     <div className="border-2 border-dashed border-gray-300 rounded-xl p-4 text-center">
       <Settings className="w-8 h-8 text-gray-300 mx-auto mb-2" />
-      <p className="text-gray-500 text-sm">Kliknite pre pridanie tlačidiel</p>
+      <p className="text-gray-500 text-sm">Klikněte pro přidání tlačítek</p>
     </div>
   );
 
@@ -724,7 +724,7 @@ export function EditableContactButtons({ defaultLinks, citySlug, serviceName }: 
         <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity z-20">
           <div className="bg-yellow-400 text-gray-900 rounded-full p-2 shadow-lg flex items-center gap-2">
             <Settings className="w-4 h-4" />
-            <span className="text-sm font-medium pr-1">Upraviť tlačidlá</span>
+            <span className="text-sm font-medium pr-1">Upravit tlačítka</span>
           </div>
         </div>
 
@@ -806,7 +806,7 @@ export function EditablePhoneButton({ defaultPhone, citySlug, serviceName }: Edi
   return (
     <div
       className="relative group cursor-pointer"
-      onClick={() => openEditor?.('phone', 'phone', 'Telefónne číslo')}
+      onClick={() => openEditor?.('phone', 'phone', 'Telefonní číslo')}
     >
       {/* Highlight border */}
       <div className="absolute inset-0 border-2 border-dashed border-transparent group-hover:border-yellow-400 rounded-xl transition-colors pointer-events-none z-10" />

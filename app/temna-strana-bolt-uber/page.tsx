@@ -14,16 +14,16 @@ import { ArticleSchema } from '@/components/schema/ArticleSchema';
 import { ArticleAuthor } from '@/components/ArticleAuthor';
 
 export const metadata: Metadata = {
-  title: 'Temná stránka Boltu a Uberu | TaxiNearMe.sk',
-  description: 'Nižšia kvalita služieb a sklamanie vodičov - realita rideshare platforiem.',
-  keywords: ['bolt uber problémy', 'rideshare platformy', 'taxi aplikácie', 'bolt slovensko', 'uber slovensko', 'kritika bolt uber'],
+  title: 'Temná stránka Boltu a Uberu | TaxiNearMe.cz',
+  description: 'Nižší kvalita služeb a zklamání řidičů - realita rideshare platforem.',
+  keywords: ['bolt uber problémy', 'rideshare platformy', 'taxi aplikace', 'bolt česko', 'uber česko', 'kritika bolt uber'],
   openGraph: {
-    title: 'Temná stránka Boltu a Uberu - problémy rideshare platforiem',
-    description: 'Nízke provízie, neférové hodnotenie, surge pricing a problémy, o ktorých sa nehovorí. Realita rideshare platforiem.',
-    url: 'https://www.taxinearme.sk/temna-strana-bolt-uber',
+    title: 'Temná stránka Boltu a Uberu - problémy rideshare platforem',
+    description: 'Nízké provize, neférové hodnocení, surge pricing a problémy, o kterých se nemluví. Realita rideshare platforem.',
+    url: 'https://www.taxinearme.cz/temna-strana-bolt-uber',
     type: 'article',
     images: [{
-      url: 'https://www.taxinearme.sk/blog-images/temna-strana.jpg',
+      url: 'https://www.taxinearme.cz/blog-images/temna-strana.jpg',
       width: 1200,
       height: 630,
       alt: 'Temná stránka Bolt/Uber'
@@ -34,15 +34,15 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     site: SEO_CONSTANTS.twitterSite,
-    title: 'Temná stránka Boltu a Uberu - problémy rideshare platforiem',
-    description: 'Nízke provízie, neférové hodnotenie, surge pricing a problémy, o ktorých sa nehovorí. Realita rideshare platforiem.',
-    images: ['https://www.taxinearme.sk/blog-images/temna-strana.jpg']
+    title: 'Temná stránka Boltu a Uberu - problémy rideshare platforem',
+    description: 'Nízké provize, neférové hodnocení, surge pricing a problémy, o kterých se nemluví. Realita rideshare platforem.',
+    images: ['https://www.taxinearme.cz/blog-images/temna-strana.jpg']
   },
   alternates: {
-    canonical: 'https://www.taxinearme.sk/temna-strana-bolt-uber',
+    canonical: 'https://www.taxinearme.cz/temna-strana-bolt-uber',
     languages: {
-      'sk': 'https://www.taxinearme.sk/temna-strana-bolt-uber',
-      'x-default': 'https://www.taxinearme.sk/temna-strana-bolt-uber',
+      'cs': 'https://www.taxinearme.cz/temna-strana-bolt-uber',
+      'x-default': 'https://www.taxinearme.cz/temna-strana-bolt-uber',
     },
   }
 };
@@ -51,9 +51,9 @@ export default function TemnaBoltUberPage() {
   return (
     <div className="min-h-screen bg-white">
       <ArticleSchema
-        title="Temná stránka Boltu a Uberu - problémy rideshare platforiem"
-        description="Nízke provízie, neférové hodnotenie, surge pricing a problémy, o ktorých sa nehovorí. Realita rideshare platforiem."
-        url="https://www.taxinearme.sk/temna-strana-bolt-uber"
+        title="Temná stránka Boltu a Uberu - problémy rideshare platforem"
+        description="Nízké provize, neférové hodnocení, surge pricing a problémy, o kterých se nemluví. Realita rideshare platforem."
+        url="https://www.taxinearme.cz/temna-strana-bolt-uber"
         publishedTime="2025-01-15"
         modifiedTime="2025-01-15"
       />
@@ -76,7 +76,7 @@ export default function TemnaBoltUberPage() {
             </span>
             <div className="flex items-center gap-1 text-[10px] text-foreground/60">
               <Calendar className="h-2.5 w-2.5" />
-              15. január 2025
+              15. leden 2025
             </div>
             <div className="hidden sm:block text-foreground/30">•</div>
             <ArticleAuthor variant="inline" />
@@ -87,11 +87,11 @@ export default function TemnaBoltUberPage() {
           </h1>
 
           <p className="text-xl text-foreground/80 mb-3">
-            Nízke provízie, neférové hodnotenie, surge pricing a problémy, o ktorých sa nehovorí. Realita rideshare platforiem.
+            Nízké provize, neférové hodnocení, surge pricing a problémy, o kterých se nemluví. Realita rideshare platforem.
           </p>
 
           <ShareButton
-            title="Temná stránka Boltu a Uberu - problémy rideshare platforiem"
+            title="Temná stránka Boltu a Uberu - problémy rideshare platforem"
           />
         </div>
       </section>
@@ -103,307 +103,307 @@ export default function TemnaBoltUberPage() {
 
             <div className="bg-red-50 border-l-4 border-red-400 p-6 mb-8">
               <p className="text-lg font-semibold text-gray-900">
-                Bolt a Uber revolúciou zmenili taxislužby. Sľubovali flexibilitu, férové ceny a jednoduchosť. Realita? Vykorisťovanie vodičov, nespravodlivé algoritmy a systém postavený na maximalizácii zisku na úkor ľudí.
+                Bolt a Uber revolucí změnily taxislužby. Slibovaly flexibilitu, férové ceny a jednoduchost. Realita? Vykořisťování řidičů, nespravedlivé algoritmy a systém postavený na maximalizaci zisku na úkor lidí.
               </p>
             </div>
 
             <p className="text-sm leading-relaxed">
-              Tento článok nie je útok na technológiu. Je to analýza toho, čo sa stáva, keď neregulovaná platforma získa monopol a prenesie všetky riziká na vodičov a zákazníkov.
+              Tento článek není útok na technologii. Je to analýza toho, co se stává, když neregulovaná platforma získá monopol a přenese všechna rizika na řidiče a zákazníky.
             </p>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <DollarSign className="h-8 w-8 inline mr-2 text-primary" />
-              1. Provízie: Kto reálne zarába?
+              1. Provize: Kdo reálně vydělává?
             </h2>
 
             <div className="bg-gray-900 text-white p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Rozdelenie príjmu z jednej jazdy:</h3>
+              <h3 className="text-2xl font-bold mb-3">Rozdělení příjmu z jedné jízdy:</h3>
 
               <div className="space-y-4">
                 <div className="bg-red-900/50 p-4 rounded-lg">
                   <div className="flex justify-between items-center">
                     <span>Zákazník zaplatí</span>
-                    <span className="text-2xl font-bold">€15,00</span>
+                    <span className="text-2xl font-bold">350 Kč</span>
                   </div>
                 </div>
 
                 <div className="bg-gray-700 p-4 rounded-lg">
                   <div className="flex justify-between items-center">
-                    <span>Provízia Bolt/Uber (20-30%)</span>
-                    <span className="text-xl font-bold text-red-400">-€3,00 až -€4,50</span>
+                    <span>Provize Bolt/Uber (20-30%)</span>
+                    <span className="text-xl font-bold text-red-400">-70 Kč až -105 Kč</span>
                   </div>
                 </div>
 
                 <div className="bg-gray-700 p-4 rounded-lg">
                   <div className="flex justify-between items-center">
                     <span>Benzín (cca 15-20%)</span>
-                    <span className="text-xl font-bold text-red-400">-€2,25 až -€3,00</span>
+                    <span className="text-xl font-bold text-red-400">-52 Kč až -70 Kč</span>
                   </div>
                 </div>
 
                 <div className="bg-gray-700 p-4 rounded-lg">
                   <div className="flex justify-between items-center">
-                    <span>Opotrebenie auta, údržba</span>
-                    <span className="text-xl font-bold text-red-400">-€1,50</span>
+                    <span>Opotřebení auta, údržba</span>
+                    <span className="text-xl font-bold text-red-400">-35 Kč</span>
                   </div>
                 </div>
 
                 <div className="bg-green-900/50 p-4 rounded-lg border-2 border-green-500">
                   <div className="flex justify-between items-center">
-                    <span className="font-bold">Vodičovi zostane</span>
-                    <span className="text-2xl font-bold text-green-400">€6,75 až €8,25</span>
+                    <span className="font-bold">Řidiči zůstane</span>
+                    <span className="text-2xl font-bold text-green-400">157 Kč až 193 Kč</span>
                   </div>
                 </div>
               </div>
 
               <p className="mt-6 text-xl font-bold text-center">
-                = Vodič dostane 45-55% z toho, čo zákazník zaplatil.
+                = Řidič dostane 45-55% z toho, co zákazník zaplatil.
               </p>
             </div>
 
-            <h3 className="text-lg font-bold mt-4 mb-2">Problém: Provízie rastú, platy vodičov klesajú</h3>
+            <h3 className="text-lg font-bold mt-4 mb-2">Problém: Provize rostou, platy řidičů klesají</h3>
 
             <div className="bg-yellow-50 p-6 rounded-lg my-4">
-              <p className="font-semibold mb-3">História provízií Bolt/Uber:</p>
+              <p className="font-semibold mb-3">Historie provizí Bolt/Uber:</p>
               <ul className="space-y-2">
-                <li><strong>2015-2017:</strong> Provízie 10-15% – Vodiči zarábali slušne</li>
-                <li><strong>2018-2020:</strong> Provízie 15-20% – Začína tlak</li>
-                <li><strong>2021-2025:</strong> Provízie 20-30% – Vodiči pod hranicou minimálnej mzdy</li>
+                <li><strong>2015-2017:</strong> Provize 10-15% – Řidiči vydělávali slušně</li>
+                <li><strong>2018-2020:</strong> Provize 15-20% – Začíná tlak</li>
+                <li><strong>2021-2025:</strong> Provize 20-30% – Řidiči pod hranicí minimální mzdy</li>
               </ul>
 
               <p className="mt-4 bg-red-50 p-3 rounded">
-                <strong>Výsledok:</strong> Platformy zarábajú miliardy. Vodiči stále viac pracujú za menej peňazí.
+                <strong>Výsledek:</strong> Platformy vydělávají miliardy. Řidiči stále více pracují za méně peněz.
               </p>
             </div>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <TrendingDown className="h-8 w-8 inline mr-2 text-primary" />
-              2. Surge pricing: Kto profituje?
+              2. Surge pricing: Kdo profituje?
             </h2>
 
             <p className="text-lg">
-              Surge pricing = dynamické ceny. Keď je veľký dopyt, cena rastie. Logika: Motivovať vodičov, aby išli pracovať.
+              Surge pricing = dynamické ceny. Když je velká poptávka, cena roste. Logika: Motivovat řidiče, aby šli pracovat.
             </p>
 
             <div className="bg-blue-50 p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Ako to funguje v praxi:</h3>
+              <h3 className="text-2xl font-bold mb-3">Jak to funguje v praxi:</h3>
 
               <div className="space-y-4">
                 <div className="bg-white p-4 rounded-lg">
-                  <p className="font-semibold mb-2">Normálna cena:</p>
-                  <p className="text-sm text-gray-700">Jazda z centra na letisko = €12</p>
+                  <p className="font-semibold mb-2">Normální cena:</p>
+                  <p className="text-sm text-gray-700">Jízda z centra na letiště = 280 Kč</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
                   <p className="font-semibold mb-2">Surge pricing (2,5×):</p>
-                  <p className="text-sm text-gray-700 mb-2">Rovnaká jazda = €30</p>
-                  <p className="text-red-600 font-bold">Rozdiel: +€18</p>
+                  <p className="text-sm text-gray-700 mb-2">Stejná jízda = 700 Kč</p>
+                  <p className="text-red-600 font-bold">Rozdíl: +420 Kč</p>
                 </div>
 
                 <div className="bg-red-50 p-4 rounded-lg">
-                  <p className="font-semibold mb-2">Kto dostane ten rozdiel?</p>
-                  <p className="text-sm text-gray-700">Vodič: +€9 (50%)</p>
-                  <p className="text-sm text-gray-700">Platforma: +€9 (50%)</p>
+                  <p className="font-semibold mb-2">Kdo dostane ten rozdíl?</p>
+                  <p className="text-sm text-gray-700">Řidič: +210 Kč (50%)</p>
+                  <p className="text-sm text-gray-700">Platforma: +210 Kč (50%)</p>
                 </div>
               </div>
 
               <p className="mt-4 font-bold text-gray-900">
-                Platforma zarába aj keď nerobí nič navyše. Vodič robí rovnakú prácu, ale má vyššie riziko (stres, nespokojný zákazník).
+                Platforma vydělává i když nedělá nic navíc. Řidič dělá stejnou práci, ale má vyšší riziko (stres, nespokojený zákazník).
               </p>
             </div>
 
-            <h3 className="text-lg font-bold mt-4 mb-2">Problém: Zákazníci obviňujú vodičov</h3>
+            <h3 className="text-lg font-bold mt-4 mb-2">Problém: Zákazníci obviňují řidiče</h3>
 
             <div className="bg-red-50 p-6 rounded-lg my-4">
-              <p className="mb-3">Typický scenár:</p>
+              <p className="mb-3">Typický scénář:</p>
 
               <div className="space-y-2">
-                <p className="italic text-gray-700">"Prečo je to také drahé?!"</p>
-                <p className="italic text-gray-700">"Vy taxikári ste zlodeji!"</p>
-                <p className="italic text-gray-700">→ Dá vodičovi 1★</p>
+                <p className="italic text-gray-700">"Proč je to tak drahé?!"</p>
+                <p className="italic text-gray-700">"Vy taxikáři jste zloději!"</p>
+                <p className="italic text-gray-700">→ Dá řidiči 1★</p>
               </div>
 
               <p className="mt-4 bg-white p-3 rounded">
-                <strong>Realita:</strong> Vodič neovláda cenu. Systém ju nastavuje. Ale vodič dostane zlé hodnotenie.
+                <strong>Realita:</strong> Řidič neovládá cenu. Systém ji nastavuje. Ale řidič dostane špatné hodnocení.
               </p>
             </div>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <Shield className="h-8 w-8 inline mr-2 text-primary" />
-              3. Hodnotenia: Systém postavený na strachu
+              3. Hodnocení: Systém postavený na strachu
             </h2>
 
             <p className="text-lg">
-              Bolt a Uber fungujú na princípe: <strong>"Zákazník má vždy pravdu."</strong> Vodič je vždy pod tlakom.
+              Bolt a Uber fungují na principu: <strong>"Zákazník má vždy pravdu."</strong> Řidič je vždy pod tlakem.
             </p>
 
             <div className="bg-gray-900 text-white p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Ako systém hodnotení ničí vodičov:</h3>
+              <h3 className="text-2xl font-bold mb-3">Jak systém hodnocení ničí řidiče:</h3>
 
               <div className="space-y-4">
                 <div>
-                  <p className="font-bold mb-2">1. Priemer pod 4,8★ = Penalizácia</p>
-                  <p>Systém ťa púšťa až na posledné miesto. Dostaneš menej jázd.</p>
+                  <p className="font-bold mb-2">1. Průměr pod 4,8★ = Penalizace</p>
+                  <p>Systém tě pouští až na poslední místo. Dostaneš méně jízd.</p>
                 </div>
 
                 <div>
-                  <p className="font-bold mb-2">2. Priemer pod 4,6★ = Riziko vyhodenia</p>
-                  <p>Bolt/Uber ťa môže zablokovať. Žiadny príjem. Žiadna obrana.</p>
+                  <p className="font-bold mb-2">2. Průměr pod 4,6★ = Riziko vyhození</p>
+                  <p>Bolt/Uber tě může zablokovat. Žádný příjem. Žádná obrana.</p>
                 </div>
 
                 <div>
-                  <p className="font-bold mb-2">3. Falošné obvinenia = Okamžitá blokovanie</p>
-                  <p>Zákazník napíše: "Vodič sa správal nevhodne." Systém: Automatická blokovanie. Žiadne preverenie.</p>
+                  <p className="font-bold mb-2">3. Falešná obvinění = Okamžité zablokování</p>
+                  <p>Zákazník napíše: "Řidič se choval nevhodně." Systém: Automatické zablokování. Žádné prověření.</p>
                 </div>
               </div>
             </div>
 
-            <h3 className="text-lg font-bold mt-4 mb-2">Najhoršie: Žiadna ochrana pre vodičov</h3>
+            <h3 className="text-lg font-bold mt-4 mb-2">Nejhorší: Žádná ochrana pro řidiče</h3>
 
             <div className="bg-red-50 p-6 rounded-lg my-4">
-              <p className="font-semibold mb-3">Príklad z reálneho života:</p>
+              <p className="font-semibold mb-3">Příklad z reálného života:</p>
 
               <div className="bg-white p-4 rounded mb-3">
-                <p className="italic text-gray-700 mb-2">"Vodička Bolt odviezla opitého pasažiera. Ten po jazde napísal: 'Vodička sa správala nevhodne.' Bolt ju okamžite zablokoval. Žiadne preverenie. Žiadna možnosť sa brániť. Príjem: 0€."</p>
+                <p className="italic text-gray-700 mb-2">"Řidička Bolt odvezla opilého pasažéra. Ten po jízdě napsal: 'Řidička se chovala nevhodně.' Bolt ji okamžitě zablokoval. Žádné prověření. Žádná možnost se bránit. Příjem: 0 Kč."</p>
               </div>
 
               <p className="bg-gray-900 text-white p-3 rounded">
-                <strong>Výsledok:</strong> Vodiči žijú v strachu. Každý zákazník je potenciálna hrozba.
+                <strong>Výsledek:</strong> Řidiči žijí ve strachu. Každý zákazník je potenciální hrozba.
               </p>
             </div>
 
             <h2 className="text-3xl font-bold mt-12 mb-3">
               <Users className="h-8 w-8 inline mr-2 text-primary" />
-              4. Problémy pre zákazníkov
+              4. Problémy pro zákazníky
             </h2>
 
             <p className="text-lg">
-              Nie sú to len vodiči, ktorí trpia. Zákazníci tiež čelia problémom.
+              Nejsou to jen řidiči, kteří trpí. Zákazníci také čelí problémům.
             </p>
 
             <div className="grid md:grid-cols-2 gap-4 my-4">
               <div className="bg-orange-50 p-6 rounded-lg">
-                <p className="font-bold mb-3">1. Nestabilná kvalita</p>
-                <p className="text-sm text-gray-700">Jeden deň skvelý vodič, druhý deň neškolený amatér. Žiadna konzistencia.</p>
+                <p className="font-bold mb-3">1. Nestabilní kvalita</p>
+                <p className="text-sm text-gray-700">Jeden den skvělý řidič, druhý den neškolený amatér. Žádná konzistence.</p>
               </div>
 
               <div className="bg-orange-50 p-6 rounded-lg">
                 <p className="font-bold mb-3">2. Surge pricing šok</p>
-                <p className="text-sm text-gray-700">Cena môže byť 3× vyššia bez upozornenia. Zákazník sa cíti oklamaný.</p>
+                <p className="text-sm text-gray-700">Cena může být 3× vyšší bez upozornění. Zákazník se cítí oklamaný.</p>
               </div>
 
               <div className="bg-orange-50 p-6 rounded-lg">
-                <p className="font-bold mb-3">3. Zrušené jazdy</p>
-                <p className="text-sm text-gray-700">Vodič zruší jazdu po 5 minútach čakania. Zákazník musí čakať znova.</p>
+                <p className="font-bold mb-3">3. Zrušené jízdy</p>
+                <p className="text-sm text-gray-700">Řidič zruší jízdu po 5 minutách čekání. Zákazník musí čekat znovu.</p>
               </div>
 
               <div className="bg-orange-50 p-6 rounded-lg">
-                <p className="font-bold mb-3">4. Žiadna ochrana</p>
-                <p className="text-sm text-gray-700">Pri konflikte: Systém sa skryje za automatické odpovede. Žiadna reálna podpora.</p>
+                <p className="font-bold mb-3">4. Žádná ochrana</p>
+                <p className="text-sm text-gray-700">Při konfliktu: Systém se skryje za automatické odpovědi. Žádná reálná podpora.</p>
               </div>
             </div>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">5. Alternatívy: Čo funguje lepšie?</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">5. Alternativy: Co funguje lépe?</h2>
 
             <div className="bg-green-50 p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Tradičné taxi vs. Bolt/Uber</h3>
+              <h3 className="text-2xl font-bold mb-3">Tradiční taxi vs. Bolt/Uber</h3>
 
               <div className="space-y-4">
                 <div className="bg-white p-4 rounded-lg">
-                  <p className="font-bold mb-2">Tradičné taxi</p>
+                  <p className="font-bold mb-2">Tradiční taxi</p>
                   <ul className="space-y-1 text-sm text-gray-700">
-                    <li>✓ Licencovaní vodiči (preverení, školení)</li>
-                    <li>✓ Regulované ceny (žiadne surge pricing)</li>
-                    <li>✓ Zodpovednosť za službu (firma garantuje kvalitu)</li>
-                    <li>✓ Ochrana vodičov aj zákazníkov</li>
+                    <li>✓ Licencovaní řidiči (prověření, školení)</li>
+                    <li>✓ Regulované ceny (žádné surge pricing)</li>
+                    <li>✓ Zodpovědnost za službu (firma garantuje kvalitu)</li>
+                    <li>✓ Ochrana řidičů i zákazníků</li>
                   </ul>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
                   <p className="font-bold mb-2">Bolt/Uber</p>
                   <ul className="space-y-1 text-sm text-gray-700">
-                    <li>✗ Minimálne školenie vodičov</li>
-                    <li>✗ Nepredvídateľné ceny (surge pricing)</li>
-                    <li>✗ Žiadna garancia kvality</li>
-                    <li>✗ Žiadna ochrana pre vodičov</li>
+                    <li>✗ Minimální školení řidičů</li>
+                    <li>✗ Nepředvídatelné ceny (surge pricing)</li>
+                    <li>✗ Žádná garance kvality</li>
+                    <li>✗ Žádná ochrana pro řidiče</li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            <h3 className="text-lg font-bold mt-4 mb-2">Prečo ľudia stále používajú Bolt/Uber?</h3>
+            <h3 className="text-lg font-bold mt-4 mb-2">Proč lidé stále používají Bolt/Uber?</h3>
 
             <ul className="space-y-2 my-4">
               <li className="bg-blue-50 p-3 rounded">
-                <strong>1. Pohodlie aplikácie</strong> – Jedno kliknutie, auto príde
+                <strong>1. Pohodlí aplikace</strong> – Jedno kliknutí, auto přijede
               </li>
               <li className="bg-blue-50 p-3 rounded">
-                <strong>2. Nižšie ceny (mimo surge)</strong> – Keď nie je špička, býva to lacnejšie
+                <strong>2. Nižší ceny (mimo surge)</strong> – Když není špička, bývá to levnější
               </li>
               <li className="bg-blue-50 p-3 rounded">
-                <strong>3. Dostupnosť</strong> – Viac áut než tradičné taxi
+                <strong>3. Dostupnost</strong> – Více aut než tradiční taxi
               </li>
             </ul>
 
             <p className="bg-yellow-50 p-4 rounded-lg my-4">
-              <strong>Ale:</strong> Tieto výhody sú postavené na nízkych platoch vodičov a absencii regulácie.
+              <strong>Ale:</strong> Tyto výhody jsou postaveny na nízkých platech řidičů a absenci regulace.
             </p>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">6. Riešenie: Regulácia a férové podmienky</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">6. Řešení: Regulace a férové podmínky</h2>
 
             <div className="bg-blue-50 p-8 rounded-lg my-4">
-              <h3 className="text-2xl font-bold mb-3">Čo by mali urobiť vlády a platformy:</h3>
+              <h3 className="text-2xl font-bold mb-3">Co by měly udělat vlády a platformy:</h3>
 
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-bold text-lg mb-2">1. Minimálna mzda pre vodičov</h4>
-                  <p>Garantovať, že vodiči zarábajú aspoň minimálnu mzdu (po odpočte nákladov).</p>
+                  <h4 className="font-bold text-lg mb-2">1. Minimální mzda pro řidiče</h4>
+                  <p>Garantovat, že řidiči vydělávají alespoň minimální mzdu (po odečtení nákladů).</p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-lg mb-2">2. Transparentnosť provízií</h4>
-                  <p>Zákazník aj vodič musia vedieť, koľko ide platforme.</p>
+                  <h4 className="font-bold text-lg mb-2">2. Transparentnost provizí</h4>
+                  <p>Zákazník i řidič musí vědět, kolik jde platformě.</p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-lg mb-2">3. Férový systém hodnotení</h4>
-                  <p>Hodnotenia musia byť preverované. Vodič musí mať možnosť sa brániť.</p>
+                  <h4 className="font-bold text-lg mb-2">3. Férový systém hodnocení</h4>
+                  <p>Hodnocení musí být prověřována. Řidič musí mít možnost se bránit.</p>
                 </div>
 
                 <div>
-                  <h4 className="font-bold text-lg mb-2">4. Regulácia surge pricingu</h4>
-                  <p>Maximálne limity na násobky cien (napr. max 2× bežnej ceny).</p>
+                  <h4 className="font-bold text-lg mb-2">4. Regulace surge pricingu</h4>
+                  <p>Maximální limity na násobky cen (např. max 2× běžné ceny).</p>
                 </div>
               </div>
             </div>
 
-            <h2 className="text-3xl font-bold mt-12 mb-3">Záver: Kto platí cenu za "revolúciu"?</h2>
+            <h2 className="text-3xl font-bold mt-12 mb-3">Závěr: Kdo platí cenu za "revoluci"?</h2>
 
             <div className="bg-gray-900 text-white p-8 rounded-lg my-4">
               <p className="text-xl mb-3">
-                Bolt a Uber zmenili taxislužby. Ale za akú cenu?
+                Bolt a Uber změnily taxislužby. Ale za jakou cenu?
               </p>
 
               <ul className="space-y-3 text-lg">
-                <li>• Vodiči zarábajú menej než kedykoľvek predtým</li>
-                <li>• Zákazníci čelia nepredvídateľným cenám</li>
-                <li>• Platformy zarábajú miliardy bez zodpovednosti</li>
+                <li>• Řidiči vydělávají méně než kdykoliv předtím</li>
+                <li>• Zákazníci čelí nepředvídatelným cenám</li>
+                <li>• Platformy vydělávají miliardy bez zodpovědnosti</li>
               </ul>
 
               <p className="text-xl font-bold mt-6">
-                Toto nie je udržateľný model. Niečo sa musí zmeniť.
+                Toto není udržitelný model. Něco se musí změnit.
               </p>
             </div>
 
             <div className="bg-yellow-50 p-6 rounded-lg my-4">
-              <p className="text-xl font-bold mb-3">Pre zákazníkov:</p>
+              <p className="text-xl font-bold mb-3">Pro zákazníky:</p>
               <p className="text-lg">
-                Keď používate Bolt/Uber, pamätajte: Za tou lacnou cenou je vodič, ktorý pracuje 12 hodín denne za minimálny plat. Rešpektujte ho. Hodnote férovo.
+                Když používáte Bolt/Uber, pamatujte: Za tou levnou cenou je řidič, který pracuje 12 hodin denně za minimální plat. Respektujte ho. Hodnoťte férově.
               </p>
             </div>
 
             <p className="text-xl font-bold text-center my-4">
-              Revolúcia bez regulácie = chaos. Požadujme férové podmienky pre všetkých.
+              Revoluce bez regulace = chaos. Požadujme férové podmínky pro všechny.
             </p>
 
             {/* Autor článku */}
@@ -421,14 +421,14 @@ export default function TemnaBoltUberPage() {
           />
 
           <div className="mt-16 p-8 bg-gradient-to-br from-primary/10 to-primary/5 rounded-xl">
-            <h3 className="text-2xl font-bold mb-3 text-center">Chcete vidieť komplexný sprievodca taxislužbami?</h3>
+            <h3 className="text-2xl font-bold mb-3 text-center">Chcete vidět komplexní průvodce taxislužbami?</h3>
             <p className="text-center text-gray-700 mb-3">
-              Prečítajte si všetko, čo potrebujete vedieť o taxi na Slovensku.
+              Přečtěte si vše, co potřebujete vědět o taxi v Česku.
             </p>
             <div className="flex justify-center">
               <Link href="/komplexny-sprievodca-taxi">
                 <Button size="lg" className="gap-2">
-                  Zobraziť sprievodcu
+                  Zobrazit průvodce
                   <ArrowLeft className="h-2.5 w-2.5 rotate-180" />
                 </Button>
               </Link>

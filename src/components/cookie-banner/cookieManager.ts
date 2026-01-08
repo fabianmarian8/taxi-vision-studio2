@@ -33,14 +33,14 @@ export interface CookiePreferences {
 export interface CookieConsent {
   preferences: CookiePreferences;
   timestamp: string;
-  version: string; // pre tracking zmien v cookie policy
+  version: string; // pro tracking změn v cookie policy
 }
 
 const CONSENT_KEY = 'cookieConsent';
 const CONSENT_VERSION = '1.0';
 
 /**
- * Získa uložený cookie consent z localStorage
+ * Získá uložený cookie consent z localStorage
  */
 export const getCookieConsent = (): CookieConsent | null => {
   try {
@@ -66,7 +66,7 @@ export const saveCookieConsent = (preferences: CookiePreferences): void => {
   try {
     localStorage.setItem(CONSENT_KEY, JSON.stringify(consent));
     
-    // Spusti callback funkcie pre aktiváciu/deaktiváciu služieb
+    // Spusť callback funkce pro aktivaci/deaktivaci služeb
     applyConsent(preferences);
   } catch (error) {
     console.error('Error saving cookie consent:', error);
@@ -74,20 +74,20 @@ export const saveCookieConsent = (preferences: CookiePreferences): void => {
 };
 
 /**
- * Kontrola či existuje platný consent
+ * Kontrola zda existuje platný consent
  */
 export const hasValidConsent = (): boolean => {
   const consent = getCookieConsent();
   if (!consent) return false;
-  
-  // Kontrola či je consent v platnej verzii
+
+  // Kontrola zda je consent v platné verzi
   if (consent.version !== CONSENT_VERSION) {
-    // Vymaž starý consent
+    // Smaž starý consent
     clearCookieConsent();
     return false;
   }
-  
-  // Optional: Kontrola expirárcie (napríklad po 6 mesiacoch)
+
+  // Volitelné: Kontrola expirace (například po 6 měsících)
   const consentDate = new Date(consent.timestamp);
   const monthsOld = (Date.now() - consentDate.getTime()) / (1000 * 60 * 60 * 24 * 30);
   
@@ -100,14 +100,14 @@ export const hasValidConsent = (): boolean => {
 };
 
 /**
- * Vymaže cookie consent
+ * Smaže cookie consent
  */
 export const clearCookieConsent = (): void => {
   localStorage.removeItem(CONSENT_KEY);
 };
 
 /**
- * Aplikuje consent nastavenia na externe služby
+ * Aplikuje consent nastavení na externí služby
  */
 const applyConsent = (preferences: CookiePreferences): void => {
   // Google Analytics
@@ -124,17 +124,17 @@ const applyConsent = (preferences: CookiePreferences): void => {
     disableFacebookPixel();
   }
 
-  // Microsoft Clarity beží vždy (ignoruje consent)
+  // Microsoft Clarity běží vždy (ignoruje consent)
   enableMicrosoftClarity();
 
-  // Ďalšie služby...
+  // Další služby...
 };
 
 /**
- * Google Analytics aktivácia
+ * Google Analytics aktivace
  */
 const enableGoogleAnalytics = (): void => {
-  // Príklad integrácie s Google Analytics 4
+  // Příklad integrace s Google Analytics 4
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('consent', 'update', {
       analytics_storage: 'granted'
@@ -144,7 +144,7 @@ const enableGoogleAnalytics = (): void => {
 };
 
 /**
- * Google Analytics deaktivácia
+ * Google Analytics deaktivace
  */
 const disableGoogleAnalytics = (): void => {
   if (typeof window !== 'undefined' && window.gtag) {
@@ -156,7 +156,7 @@ const disableGoogleAnalytics = (): void => {
 };
 
 /**
- * Facebook Pixel aktivácia
+ * Facebook Pixel aktivace
  */
 const enableFacebookPixel = (): void => {
   if (typeof window !== 'undefined' && window.fbq) {
@@ -166,7 +166,7 @@ const enableFacebookPixel = (): void => {
 };
 
 /**
- * Facebook Pixel deaktivácia
+ * Facebook Pixel deaktivace
  */
 const disableFacebookPixel = (): void => {
   if (typeof window !== 'undefined' && window.fbq) {
@@ -176,45 +176,45 @@ const disableFacebookPixel = (): void => {
 };
 
 /**
- * Microsoft Clarity aktivácia
- * POZNÁMKA: Clarity je načítaný v layout.tsx a beží vždy (ignoruje cookie consent)
+ * Microsoft Clarity aktivace
+ * POZNÁMKA: Clarity je načtený v layout.tsx a běží vždy (ignoruje cookie consent)
  */
 const enableMicrosoftClarity = (): void => {
-  // Clarity beží vždy z layout.tsx - táto funkcia nerobí nič
+  // Clarity běží vždy z layout.tsx - tato funkce nic nedělá
   if (typeof window !== 'undefined' && window.clarity) {
     console.log('✅ Microsoft Clarity is running (always-on tracking)');
   }
 };
 
 /**
- * Microsoft Clarity deaktivácia
- * POZNÁMKA: Clarity beží vždy - táto funkcia je deaktivovaná
+ * Microsoft Clarity deaktivace
+ * POZNÁMKA: Clarity běží vždy - tato funkce je deaktivována
  */
 const disableMicrosoftClarity = (): void => {
-  // Clarity má bežať vždy - nedeaktivujeme ho
+  // Clarity má běžet vždy - nedeaktivujeme ho
   console.log('⚠️ Microsoft Clarity deactivation skipped (always-on tracking)');
 };
 
 /**
- * Helper funkcia - kontrola či je konkrétny typ cookie povolený
+ * Helper funkce - kontrola zda je konkrétní typ cookie povolen
  */
 export const isCookieTypeEnabled = (type: keyof CookiePreferences): boolean => {
   const consent = getCookieConsent();
-  if (!consent) return type === 'necessary'; // Necessary sú vždy povolené
+  if (!consent) return type === 'necessary'; // Necessary jsou vždy povoleny
   return consent.preferences[type];
 };
 
 /**
- * Otvor cookie nastavenia znova (pre tlačidlo v pätičke)
+ * Otevři cookie nastavení znovu (pro tlačítko v patičce)
  */
 export const reopenCookieSettings = (): void => {
   clearCookieConsent();
-  // Trigger reload alebo event pre zobrazenie banneru
+  // Trigger reload nebo event pro zobrazení banneru
   window.dispatchEvent(new Event('cookieSettingsRequested'));
 };
 
 /**
- * Export cookie preferencií ako JSON (pre audit)
+ * Export cookie preferencí jako JSON (pro audit)
  */
 export const exportCookiePreferences = (): string => {
   const consent = getCookieConsent();

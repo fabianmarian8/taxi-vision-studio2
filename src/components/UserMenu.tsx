@@ -8,7 +8,7 @@ import type { User as SupabaseUser } from '@supabase/supabase-js';
 import { EditorContext } from './inline-editor/InlineEditorProvider';
 
 interface UserMenuProps {
-  // Ak sme na stránke partnera, tieto props sú vyplnené
+  // Pokud jsme na stránce partnera, tyto props jsou vyplněné
   partnerSlug?: string;
   isOwner?: boolean;
 }
@@ -26,7 +26,7 @@ export function UserMenu({
   const [password, setPassword] = useState('');
   const menuRef = useRef<HTMLDivElement>(null);
 
-  // Získaj editor context (môže byť null ak nie sme v InlineEditorProvider)
+  // Získej editor context (může být null pokud nejsme v InlineEditorProvider)
   const editorContext = useContext(EditorContext);
   const isEditMode = editorContext?.isEditMode ?? false;
   const toggleEditMode = editorContext?.toggleEditMode;
@@ -38,7 +38,7 @@ export function UserMenu({
     // Get initial user
     supabase.auth.getUser()
       .then(({ data: { user } }) => setUser(user))
-      .catch(() => {}) // Silent fail - user ostane null
+      .catch(() => {}) // Silent fail - user zůstane null
       .finally(() => setIsLoading(false));
 
     // Listen for auth changes
@@ -87,20 +87,20 @@ export function UserMenu({
       });
 
       if (error) {
-        // Rozlíšiť typy chýb
+        // Rozlišit typy chyb
         if (error.message.includes('Invalid login') || error.message.includes('invalid_credentials')) {
-          setLoginError('Nesprávny email alebo heslo');
+          setLoginError('Nesprávný email nebo heslo');
         } else {
-          setLoginError('Chyba pripojenia. Skúste znova.');
+          setLoginError('Chyba připojení. Zkuste znovu.');
         }
       } else {
-        // Úspešné prihlásenie - vyčistiť formulár
+        // Úspěšné přihlášení - vyčistit formulář
         setEmail('');
         setPassword('');
-        // User state sa aktualizuje automaticky cez onAuthStateChange
+        // User state se aktualizuje automaticky přes onAuthStateChange
       }
     } catch {
-      setLoginError('Chyba siete. Skontrolujte pripojenie.');
+      setLoginError('Chyba sítě. Zkontrolujte připojení.');
     } finally {
       setIsLoggingIn(false);
     }
@@ -112,7 +112,7 @@ export function UserMenu({
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="home-button flex items-center justify-center relative"
-        title={user ? 'Môj účet' : 'Prihlásiť sa'}
+        title={user ? 'Můj účet' : 'Přihlásit se'}
         aria-expanded={isOpen}
         aria-haspopup="true"
       >
@@ -127,7 +127,7 @@ export function UserMenu({
       {isOpen && (
         <div className={`absolute right-0 mt-2 bg-white rounded-xl shadow-xl border border-gray-200 py-2 z-[100] ${user ? 'w-56' : 'w-64'}`}>
           {isLoading ? (
-            <div className="px-4 py-3 text-sm text-gray-500">Načítavam...</div>
+            <div className="px-4 py-3 text-sm text-gray-500">Načítám...</div>
           ) : user ? (
             <>
               {/* User info */}
@@ -135,7 +135,7 @@ export function UserMenu({
                 <p className="text-sm font-medium text-gray-900 truncate">
                   {user.email}
                 </p>
-                <p className="text-xs text-gray-500">Prihlásený</p>
+                <p className="text-xs text-gray-500">Přihlášen</p>
               </div>
 
               {/* Owner on their page - show live edit toggle */}
@@ -149,7 +149,7 @@ export function UserMenu({
                     {isEditMode ? (
                       <>
                         <EyeOff className="w-4 h-4 text-yellow-600" />
-                        <span>Ukončiť live úpravy</span>
+                        <span>Ukončit live úpravy</span>
                       </>
                     ) : (
                       <>
@@ -192,7 +192,7 @@ export function UserMenu({
                     <LayoutDashboard className="w-4 h-4 text-gray-500" />
                     <div>
                       <span>Moje taxislužby</span>
-                      <p className="text-xs text-gray-400">Spravovať profily</p>
+                      <p className="text-xs text-gray-400">Spravovat profily</p>
                     </div>
                   </Link>
                 </>
@@ -206,7 +206,7 @@ export function UserMenu({
                 className="w-full flex items-center gap-3 px-4 py-2.5 text-sm text-red-600 hover:bg-red-50 transition-colors"
               >
                 <LogOut className="w-4 h-4" />
-                Odhlásiť sa
+                Odhlásit se
               </button>
             </>
           ) : (
@@ -252,10 +252,10 @@ export function UserMenu({
                   {isLoggingIn ? (
                     <>
                       <Loader2 className="w-4 h-4 animate-spin" />
-                      Prihlasujem...
+                      Přihlašuji...
                     </>
                   ) : (
-                    'Prihlásiť sa'
+                    'Přihlásit se'
                   )}
                 </button>
 
@@ -264,7 +264,7 @@ export function UserMenu({
                   onClick={() => setIsOpen(false)}
                   className="block text-center text-xs text-gray-500 hover:text-yellow-600 mt-2"
                 >
-                  Zabudol som heslo
+                  Zapomněl jsem heslo
                 </Link>
               </form>
 

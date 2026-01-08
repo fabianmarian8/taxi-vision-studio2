@@ -1,4 +1,4 @@
-import { slovakCities } from "@/data/cities";
+import { czechCities } from "@/data/cities";
 
 // Haversine formula to calculate distance between two GPS coordinates
 export const calculateDistance = (
@@ -54,7 +54,7 @@ export const findNearestCity = async (
   excludeCityName?: string
 ): Promise<string | null> => {
   // Filter cities that have GPS coordinates and exclude detected city if specified
-  let citiesToCheck = slovakCities.filter(
+  let citiesToCheck = czechCities.filter(
     (city) => {
       const hasCoordinates = city.latitude !== undefined && city.longitude !== undefined;
       const notExcluded = !excludeCityName || city.name.toLowerCase() !== excludeCityName.toLowerCase();

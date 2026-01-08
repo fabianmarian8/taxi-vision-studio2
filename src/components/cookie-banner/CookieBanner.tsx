@@ -9,36 +9,36 @@ import {
 } from './cookieManager';
 
 export const CookieBanner = () => {
-  // Mounted state pre prevenciu hydration mismatch
+  // Mounted state pro prevenci hydration mismatch
   const [mounted, setMounted] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
   const [preferences, setPreferences] = useState<CookiePreferences>({
-    necessary: true, // vždy povolené
+    necessary: true, // vždy povoleno
     functional: false,
     analytics: false,
     marketing: false,
   });
 
-  // Najprv nastavíme mounted state
+  // Nejprve nastavíme mounted state
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  // Potom kontrolujeme consent - len po mountnutí (client-side)
+  // Poté kontrolujeme consent - jen po mountnutí (client-side)
   useEffect(() => {
     if (!mounted) return;
 
-    // Delay zobrazenia bannera o 100ms po DOMContentLoaded
-    // Toto zabezpečí, že hlavný obsah sa stane LCP elementom, nie cookie banner
+    // Delay zobrazení banneru o 100ms po DOMContentLoaded
+    // Toto zajistí, že hlavní obsah se stane LCP elementem, ne cookie banner
     const showBannerAfterLCP = () => {
       if (!hasValidConsent()) {
-        // Počkaj 100ms aby hlavný obsah stihol byť LCP
+        // Počkej 100ms aby hlavní obsah stihl být LCP
         setTimeout(() => setIsVisible(true), 100);
       }
     };
 
-    // Ak je DOM už načítaný, spusti hneď
+    // Pokud je DOM už načtený, spusť hned
     if (document.readyState === 'complete') {
       showBannerAfterLCP();
     } else {
@@ -47,7 +47,7 @@ export const CookieBanner = () => {
     }
   }, [mounted]);
 
-  // Listener pre znovu otvorenie nastavení
+  // Listener pro znovuotevření nastavení
   useEffect(() => {
     if (!mounted) return;
 
@@ -87,20 +87,20 @@ export const CookieBanner = () => {
   };
 
   const savePreferences = (prefs: CookiePreferences) => {
-    saveCookieConsent(prefs); // Používame cookieManager funkciu
+    saveCookieConsent(prefs); // Používáme cookieManager funkci
     setIsVisible(false);
   };
 
   const togglePreference = (key: keyof CookiePreferences) => {
-    if (key === 'necessary') return; // necessary nemôžu byť vypnuté
+    if (key === 'necessary') return; // necessary nemohou být vypnuty
     setPreferences(prev => ({
       ...prev,
       [key]: !prev[key],
     }));
   };
 
-  // Nerenderuj nič kým nie je mounted (prevencia hydration mismatch)
-  // alebo kým nie je banner viditeľný
+  // Nerenderuj nic dokud není mounted (prevence hydration mismatch)
+  // nebo dokud není banner viditelný
   if (!mounted || !isVisible) return null;
 
   return (
@@ -114,7 +114,7 @@ export const CookieBanner = () => {
       {/* Cookie Banner */}
       <div className="relative w-full max-w-2xl bg-gradient-to-br from-yellow-400 via-amber-400 to-orange-400 rounded-xl md:rounded-2xl overflow-hidden pointer-events-auto border md:border-2 border-black/20">
         
-        {/* Čierne kockované pozadie (taxameter style) */}
+        {/* Černé kostkované pozadí (taxameter style) */}
         <div className="absolute inset-0 opacity-5">
           <div className="w-full h-full" style={{
             backgroundImage: `repeating-linear-gradient(
@@ -131,7 +131,7 @@ export const CookieBanner = () => {
         <button
           onClick={handleRejectAll}
           className="absolute top-1.5 right-1.5 md:top-2.5 md:right-2.5 p-1 md:p-1.5 hover:bg-black/10 rounded-full transition-colors z-10"
-          aria-label="Zavrieť"
+          aria-label="Zavřít"
         >
           <X className="w-3 h-3 md:w-4 md:h-4 text-black" />
         </button>
@@ -143,26 +143,26 @@ export const CookieBanner = () => {
               <div className="flex items-center justify-center md:justify-start gap-1.5 md:gap-2 mb-1.5 md:mb-2">
                 <Cookie className="w-3 h-3 md:w-5 md:h-5 text-black" />
                 <h2 className="text-sm md:text-xl font-bold text-black">
-                  Ahoj! 🍪 Potrebujeme Tvoj Súhlas
+                  Ahoj! 🍪 Potřebujeme Tvůj Souhlas
                 </h2>
               </div>
 
               <p className="text-black/80 text-xs md:text-sm leading-relaxed">
-                Používame cookies aby sme ti mohli poskytnúť najlepšiu možnú skúsenosť na našom webe.
-                Pomáhajú nám pochopiť ako používaš náš web a zlepšovať naše služby.
+                Používáme cookies, abychom ti mohli poskytnout nejlepší možnou zkušenost na našem webu.
+                Pomáhají nám pochopit, jak používáš náš web, a zlepšovat naše služby.
               </p>
             </div>
           </div>
 
-          {/* Detailné nastavenia */}
+          {/* Detailní nastavení */}
           {showDetails && (
             <div className="space-y-2 md:space-y-2.5 mb-3 md:mb-4 bg-black/10 rounded-lg md:rounded-xl p-2.5 md:p-4 backdrop-blur-sm">
               <h3 className="font-bold text-black text-sm md:text-base mb-2 md:mb-2.5 flex items-center gap-1.5">
                 <Shield className="w-3 h-3 md:w-4 md:h-4" />
-                Nastavenia Cookies
+                Nastavení Cookies
               </h3>
 
-              {/* Nevyhnutné cookies */}
+              {/* Nezbytné cookies */}
               <div className="flex items-start gap-2 md:gap-2.5 p-2 md:p-2.5 bg-white/30 rounded-md md:rounded-lg">
                 <input
                   type="checkbox"
@@ -171,15 +171,15 @@ export const CookieBanner = () => {
                   className="mt-0.5 w-3 h-3 md:w-3.5 md:h-3.5 accent-black"
                 />
                 <div className="flex-1">
-                  <h4 className="font-bold text-black text-xs md:text-sm mb-0.5">Nevyhnutné Cookies (Vždy aktívne)</h4>
+                  <h4 className="font-bold text-black text-xs md:text-sm mb-0.5">Nezbytné Cookies (Vždy aktivní)</h4>
                   <p className="text-black/70 text-[10px] md:text-xs">
-                    Tieto cookies sú nevyhnutné pre základné funkcie webu.
-                    Bez nich by web nefungoval správne.
+                    Tyto cookies jsou nezbytné pro základní funkce webu.
+                    Bez nich by web nefungoval správně.
                   </p>
                 </div>
               </div>
 
-              {/* Funkčné cookies */}
+              {/* Funkční cookies */}
               <div className="flex items-start gap-2 md:gap-2.5 p-2 md:p-2.5 bg-white/20 rounded-md md:rounded-lg hover:bg-white/30 transition-colors">
                 <input
                   type="checkbox"
@@ -188,9 +188,9 @@ export const CookieBanner = () => {
                   className="mt-0.5 w-3 h-3 md:w-3.5 md:h-3.5 accent-black cursor-pointer"
                 />
                 <div className="flex-1">
-                  <h4 className="font-bold text-black text-xs md:text-sm mb-0.5">Funkčné Cookies</h4>
+                  <h4 className="font-bold text-black text-xs md:text-sm mb-0.5">Funkční Cookies</h4>
                   <p className="text-black/70 text-[10px] md:text-xs">
-                    Umožňujú pokročilé funkcie ako je zapamätanie si tvojich preferencií
+                    Umožňují pokročilé funkce jako je zapamatování si tvých preferencí
                     a nastavení.
                   </p>
                 </div>
@@ -211,8 +211,8 @@ export const CookieBanner = () => {
                       <BarChart3 className="w-2.5 h-2.5 md:w-3 md:h-3" />
                     </h4>
                     <p className="text-black/70 text-[10px] md:text-xs">
-                      Pomáhajú nám pochopiť ako návštevníci používajú web.
-                      Zbierame anonymné štatistiky.
+                      Pomáhají nám pochopit, jak návštěvníci používají web.
+                      Sbíráme anonymní statistiky.
                     </p>
                   </div>
                 </div>
@@ -229,8 +229,8 @@ export const CookieBanner = () => {
                 <div className="flex-1">
                   <h4 className="font-bold text-black text-xs md:text-sm mb-0.5">Marketingové Cookies</h4>
                   <p className="text-black/70 text-[10px] md:text-xs">
-                    Používajú sa na zobrazovanie relevantných reklám a meranie
-                    efektivity reklamných kampaní.
+                    Používají se na zobrazování relevantních reklam a měření
+                    efektivity reklamních kampaní.
                   </p>
                 </div>
               </div>
@@ -244,7 +244,7 @@ export const CookieBanner = () => {
               className="flex-1 min-w-[90px] md:min-w-[130px] px-2.5 md:px-4 py-2 md:py-2.5 bg-black text-yellow-400 font-bold rounded-md md:rounded-lg
                        hover:bg-black/90 transition-colors text-xs md:text-sm"
             >
-              ✅ Prijať Všetko
+              ✅ Přijmout Vše
             </button>
 
             {showDetails ? (
@@ -253,7 +253,7 @@ export const CookieBanner = () => {
                 className="flex-1 min-w-[90px] md:min-w-[130px] px-2.5 md:px-4 py-2 md:py-2.5 bg-white/90 text-black font-bold rounded-md md:rounded-lg
                          hover:bg-white transition-colors text-xs md:text-sm"
               >
-                💾 Uložiť Výber
+                💾 Uložit Výběr
               </button>
             ) : (
               <button
@@ -261,7 +261,7 @@ export const CookieBanner = () => {
                 className="flex-1 min-w-[90px] md:min-w-[130px] px-2.5 md:px-4 py-2 md:py-2.5 bg-white/90 text-black font-bold rounded-md md:rounded-lg
                          hover:bg-white transition-colors text-xs md:text-sm"
               >
-                ⚙️ Prispôsobiť
+                ⚙️ Přizpůsobit
               </button>
             )}
 
@@ -270,15 +270,15 @@ export const CookieBanner = () => {
               className="w-full md:w-auto px-2.5 md:px-4 py-1.5 md:py-2.5 text-black font-semibold hover:text-black/70
                        transition-colors underline text-xs md:text-sm"
             >
-              Odmietnuť Všetko
+              Odmítnout Vše
             </button>
           </div>
 
           {/* Footer info */}
           <p className="mt-2.5 md:mt-4 text-black/60 text-[10px] md:text-xs text-center">
-            Viac informácií o cookies nájdeš v našich{' '}
-            <a href="/ochrana-sukromia" className="underline hover:text-black">
-              zásadách ochrany osobných údajov
+            Více informací o cookies najdeš v našich{' '}
+            <a href="/ochrana-soukromi" className="underline hover:text-black">
+              zásadách ochrany osobních údajů
             </a>
           </p>
         </div>

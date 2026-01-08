@@ -26,7 +26,7 @@ export function ExpandableTaxiList({ taxis, cityName, citySlug }: ExpandableTaxi
 
   return (
     <div className="mb-6">
-      {/* Prvá taxi služba - vždy viditeľná */}
+      {/* První taxi služba - vždy viditelná */}
       <Card className="p-4 hover:shadow-md transition-shadow border-2 border-primary-yellow/30">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div className="flex-1">
@@ -42,7 +42,7 @@ export function ExpandableTaxiList({ taxis, cityName, citySlug }: ExpandableTaxi
                 className="inline-flex items-center gap-2 px-4 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-colors text-sm"
               >
                 <Phone className="h-4 w-4" />
-                Zavolať
+                Zavolat
               </a>
             )}
             <Link
@@ -55,7 +55,7 @@ export function ExpandableTaxiList({ taxis, cityName, citySlug }: ExpandableTaxi
         </div>
       </Card>
 
-      {/* Rozbaľovacie tlačidlo a ostatné taxi služby */}
+      {/* Rozbalovací tlačítko a ostatní taxi služby */}
       {remainingTaxis.length > 0 && (
         <>
           <button
@@ -66,12 +66,12 @@ export function ExpandableTaxiList({ taxis, cityName, citySlug }: ExpandableTaxi
               className={`h-4 w-4 transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}
             />
             {isExpanded
-              ? 'Skryť ďalšie taxi služby'
-              : `Zobraziť ďalších ${remainingTaxis.length} taxi služieb`
+              ? 'Skrýt další taxi služby'
+              : `Zobrazit dalších ${remainingTaxis.length} taxi služeb`
             }
           </button>
 
-          {/* Rozbalený zoznam */}
+          {/* Rozbalený seznam */}
           <div
             className={`grid gap-2 overflow-hidden transition-all duration-300 ${
               isExpanded ? 'mt-3 max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'
@@ -93,7 +93,7 @@ export function ExpandableTaxiList({ taxis, cityName, citySlug }: ExpandableTaxi
                         className="inline-flex items-center gap-1 px-3 py-1.5 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors text-xs"
                       >
                         <Phone className="h-3 w-3" />
-                        Zavolať
+                        Zavolat
                       </a>
                     )}
                   </div>
@@ -104,12 +104,12 @@ export function ExpandableTaxiList({ taxis, cityName, citySlug }: ExpandableTaxi
         </>
       )}
 
-      {/* Link na všetky taxi služby */}
+      {/* Link na všechny taxi služby */}
       <Link
         href={`/taxi/${citySlug}`}
         className="inline-block mt-3 text-sm text-primary-yellow font-semibold hover:underline"
       >
-        Zobraziť všetky taxi služby v {cityName} →
+        Zobrazit všechny taxi služby v {cityName} →
       </Link>
     </div>
   );

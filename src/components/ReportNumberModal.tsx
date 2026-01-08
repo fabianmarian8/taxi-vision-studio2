@@ -12,9 +12,9 @@ interface ReportNumberModalProps {
 type ReportReason = 'not_answering' | 'wrong_number' | 'not_exists' | null;
 
 const reportReasons = [
-  { id: 'not_answering' as const, label: 'Neberie telefón', icon: PhoneOff, description: 'Volal som, ale nikto nezdvíha' },
-  { id: 'wrong_number' as const, label: 'Zlé číslo', icon: Phone, description: 'Číslo neexistuje alebo patrí niekomu inému' },
-  { id: 'not_exists' as const, label: 'Taxislužba neexistuje', icon: HelpCircle, description: 'Firma už nepôsobí' },
+  { id: 'not_answering' as const, label: 'Nezvedá telefon', icon: PhoneOff, description: 'Volal jsem, ale nikdo nezvedá' },
+  { id: 'wrong_number' as const, label: 'Špatné číslo', icon: Phone, description: 'Číslo neexistuje nebo patří někomu jinému' },
+  { id: 'not_exists' as const, label: 'Taxislužba neexistuje', icon: HelpCircle, description: 'Firma už nepůsobí' },
 ];
 
 export function ReportNumberButton({ serviceName, servicePhone, cityName }: ReportNumberModalProps) {
@@ -58,7 +58,7 @@ export function ReportNumberButton({ serviceName, servicePhone, cityName }: Repo
       }, 2000);
     } catch (err) {
       console.error('Report submit error:', err);
-      setError('Nepodarilo sa odoslať. Skúste znova.');
+      setError('Nepodařilo se odeslat. Zkuste znovu.');
     } finally {
       setIsSubmitting(false);
     }
@@ -70,7 +70,7 @@ export function ReportNumberButton({ serviceName, servicePhone, cityName }: Repo
         onClick={() => setIsOpen(true)}
         className="text-[10px] text-red-500 hover:text-red-700 hover:underline"
       >
-        Nahlásiť nefunkčné
+        Nahlásit nefunkční
       </button>
 
       {isOpen && (
@@ -99,14 +99,14 @@ export function ReportNumberButton({ serviceName, servicePhone, cityName }: Repo
                     <AlertTriangle className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg text-foreground">Nahlásiť problém</h3>
+                    <h3 className="font-bold text-lg text-foreground">Nahlásit problém</h3>
                     <p className="text-sm text-foreground/60">{serviceName}</p>
                   </div>
                 </div>
 
                 {/* Reason selection */}
                 <div className="space-y-2 mb-4">
-                  <p className="text-sm font-medium text-foreground/80">Čo sa stalo?</p>
+                  <p className="text-sm font-medium text-foreground/80">Co se stalo?</p>
                   {reportReasons.map((reason) => (
                     <button
                       key={reason.id}
@@ -131,12 +131,12 @@ export function ReportNumberButton({ serviceName, servicePhone, cityName }: Repo
                 {/* Optional comment */}
                 <div className="mb-4">
                   <label className="text-sm font-medium text-foreground/80 block mb-1">
-                    Komentár (voliteľné)
+                    Komentář (volitelné)
                   </label>
                   <textarea
                     value={comment}
                     onChange={(e) => setComment(e.target.value)}
-                    placeholder="Ďalšie detaily..."
+                    placeholder="Další podrobnosti..."
                     className="w-full p-3 border border-gray-200 rounded-lg text-sm resize-none focus:outline-none focus:ring-2 focus:ring-red-500/20 focus:border-red-500"
                     rows={2}
                   />
@@ -157,11 +157,11 @@ export function ReportNumberButton({ serviceName, servicePhone, cityName }: Repo
                       : 'bg-gray-200 text-gray-400 cursor-not-allowed'
                   }`}
                 >
-                  {isSubmitting ? 'Odosielam...' : 'Odoslať nahlásenie'}
+                  {isSubmitting ? 'Odesílám...' : 'Odeslat nahlášení'}
                 </button>
 
                 <p className="text-[10px] text-center text-foreground/40 mt-3">
-                  Ďakujeme za pomoc pri udržiavaní aktuálnych údajov
+                  Děkujeme za pomoc při udržování aktuálních údajů
                 </p>
               </>
             ) : (
@@ -172,8 +172,8 @@ export function ReportNumberButton({ serviceName, servicePhone, cityName }: Repo
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h3 className="font-bold text-lg text-foreground mb-1">Ďakujeme!</h3>
-                <p className="text-sm text-foreground/60">Nahlásenie bolo odoslané</p>
+                <h3 className="font-bold text-lg text-foreground mb-1">Děkujeme!</h3>
+                <p className="text-sm text-foreground/60">Nahlášení bylo odesláno</p>
               </div>
             )}
           </div>

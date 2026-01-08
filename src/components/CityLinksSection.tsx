@@ -1,16 +1,16 @@
 import Link from "next/link";
 import { MapPin, ExternalLink } from "lucide-react";
-import { slovakCities } from "@/data/cities";
+import { czechCities } from "@/data/cities";
 
 export const CityLinksSection = () => {
   // Group cities by region
-  const citiesByRegion = slovakCities.reduce((acc, city) => {
+  const citiesByRegion = czechCities.reduce((acc, city) => {
     if (!acc[city.region]) {
       acc[city.region] = [];
     }
     acc[city.region].push(city);
     return acc;
-  }, {} as Record<string, typeof slovakCities>);
+  }, {} as Record<string, typeof czechCities>);
 
   // Sort cities alphabetically within each region
   Object.keys(citiesByRegion).forEach(region => {
@@ -56,7 +56,7 @@ export const CityLinksSection = () => {
 
         <div className="mt-12 text-center">
           <p className="text-sm text-foreground/60">
-            Celkem {slovakCities.length} měst v České republice s informacemi o taxislužbách
+            Celkem {czechCities.length} měst v České republice s informacemi o taxislužbách
           </p>
         </div>
       </div>

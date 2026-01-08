@@ -1,16 +1,16 @@
 /**
  * Content Variations Generator
  *
- * Tento modul generuje unikátny obsah pre každú taxislužbu,
- * aby sa predišlo duplikátom v Google indexácii.
+ * Tento modul generuje unikátní obsah pro každou taxislužbu,
+ * aby se předešlo duplikátům v Google indexaci.
  *
- * Používa deterministický hash na výber variácie textu,
- * takže rovnaká služba vždy dostane rovnaký text.
+ * Používá deterministický hash pro výběr varianty textu,
+ * takže stejná služba vždy dostane stejný text.
  */
 
 /**
- * Jednoduchý hash funkcia pre string
- * Používa sa na deterministický výber variantu textu
+ * Jednoduchá hash funkce pro string
+ * Používá se pro deterministický výběr varianty textu
  */
 export function simpleHash(str: string): number {
   let hash = 0;
@@ -23,7 +23,7 @@ export function simpleHash(str: string): number {
 }
 
 /**
- * Vyberie variant z poľa na základe hash hodnoty
+ * Vybere variantu z pole na základě hash hodnoty
  */
 export function selectVariant<T>(variants: T[], seed: string): T {
   const hash = simpleHash(seed);
@@ -32,197 +32,197 @@ export function selectVariant<T>(variants: T[], seed: string): T {
 }
 
 /**
- * Úvodný odstavec o taxislužbe - 15 variácií
+ * Úvodní odstavec o taxislužbě - 15 variací
  */
 export const introVariants = [
   (serviceName: string, cityName: string, regionName: string) =>
-    `${serviceName} je taxislužba poskytujúca prepravu osôb v ${cityName} a v celom ${regionName}. Služba zabezpečuje dopravu obyvateľov, návštevníkov i turistov do rôznych lokalít v meste aj mimo neho. Môžete sa spoľahnúť na prepravu na letisko, vlakové stanice či k lekárovi.`,
+    `${serviceName} je taxislužba poskytující přepravu osob v ${cityName} a v celém ${regionName}. Služba zajišťuje dopravu obyvatel, návštěvníků i turistů do různých lokalit ve městě i mimo něj. Můžete se spolehnout na přepravu na letiště, vlakové stanice či k lékaři.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `Taxislužba ${serviceName} pôsobí priamo v ${cityName} a poskytuje služby prepravy pre miestnych obyvateľov aj návštevníkov regiónu ${regionName}. Spoločnosť zabezpečuje dopravu v rámci mestských častí, do priľahlých obcí a k dopravným uzlom.`,
+    `Taxislužba ${serviceName} působí přímo v ${cityName} a poskytuje služby přepravy pro místní obyvatele i návštěvníky regionu ${regionName}. Společnost zajišťuje dopravu v rámci městských částí, do přilehlých obcí a k dopravním uzlům.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `${serviceName} patrí medzi lokálne taxislužby v ${cityName}, ktoré sa zameriavajú na kvalitné a rýchle zabezpečenie prepravy v rámci ${regionName}. Služba je vhodná pre denné aj nočné hodiny, pracovné cesty i súkromné výlety.`,
+    `${serviceName} patří mezi lokální taxislužby v ${cityName}, které se zaměřují na kvalitní a rychlé zajištění přepravy v rámci ${regionName}. Služba je vhodná pro denní i noční hodiny, pracovní cesty i soukromé výlety.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `V ${cityName} môžete využiť služby ${serviceName}, ktorá poskytuje taxi dopravu po meste aj do vzdialenejších lokalít regiónu ${regionName}. Taxislužba sa orientuje na potreby rôznych skupín cestujúcich – od študentov až po seniorov.`,
+    `V ${cityName} můžete využít služby ${serviceName}, která poskytuje taxi dopravu po městě i do vzdálenějších lokalit regionu ${regionName}. Taxislužba se orientuje na potřeby různých skupin cestujících – od studentů až po seniory.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `${serviceName} je jednou z možností taxi dopravy v ${cityName}. Poskytovateľ deklaruje pokrytie mesta ${cityName} a jeho okolia v rámci ${regionName}, vrátane prepravy na kľúčové dopravné body ako letisko či železničná stanica.`,
+    `${serviceName} je jednou z možností taxi dopravy v ${cityName}. Poskytovatel deklaruje pokrytí města ${cityName} a jeho okolí v rámci ${regionName}, včetně přepravy na klíčové dopravní body jako letiště či železniční stanice.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `Taxi služba ${serviceName} funguje v ${cityName} a ponúka prepravu osôb v mestských aj prímestských oblastiach regiónu ${regionName}. Služby sú dostupné pre bežné jazdy po meste, transfery na letisko i dlhšie trasy.`,
+    `Taxi služba ${serviceName} funguje v ${cityName} a nabízí přepravu osob v městských i příměstských oblastech regionu ${regionName}. Služby jsou dostupné pro běžné jízdy po městě, transfery na letiště i delší trasy.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `${serviceName} poskytuje taxislužby obyvateľom a návštevníkom ${cityName} v ${regionName}. Zameranie spoločnosti zahŕňa prepravu v rámci mesta, dochádzanie za prácou, nákupmi či zdravotnou starostlivosťou.`,
+    `${serviceName} poskytuje taxislužby obyvatelům a návštěvníkům ${cityName} v ${regionName}. Zaměření společnosti zahrnuje přepravu v rámci města, dojíždění za prací, nákupy či zdravotní péči.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `Ak hľadáte taxi v ${cityName}, ${serviceName} je jednou z dostupných možností. Služba pokrýva lokalitu ${regionName} a zabezpečuje prepravu na rôzne destinácie – od bežných jázd po meste až po transfery na väčšie vzdialenosti.`,
+    `Pokud hledáte taxi v ${cityName}, ${serviceName} je jednou z dostupných možností. Služba pokrývá lokalitu ${regionName} a zajišťuje přepravu na různé destinace – od běžných jízd po městě až po transfery na větší vzdálenosti.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `${serviceName} je taxislužba sídliaca v ${cityName}, ktorá ponúka dopravu v rámci celého ${regionName}. Služba môže byť vhodná pre tých, ktorí potrebujú rýchlu a spoľahlivú prepravu v meste aj na okolí.`,
+    `${serviceName} je taxislužba sídlící v ${cityName}, která nabízí dopravu v rámci celého ${regionName}. Služba může být vhodná pro ty, kteří potřebují rychlou a spolehlivou přepravu ve městě i v okolí.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `V ponuke taxislužieb v ${cityName} nájdete aj ${serviceName}. Táto služba sa zameriava na dopravu osôb po meste, do okolitých obcí a k dopravným uzlom v rámci ${regionName}.`,
+    `V nabídce taxislužeb v ${cityName} najdete i ${serviceName}. Tato služba se zaměřuje na dopravu osob po městě, do okolních obcí a k dopravním uzlům v rámci ${regionName}.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `${serviceName} patrí k poskytovateľom taxi dopravy v ${cityName}. Služba deklaruje dostupnosť v rámci mesta aj v širšom okolí regiónu ${regionName}, vrátane prepravy na dôležité ciele ako nemocnice, úrady či nákupné centrá.`,
+    `${serviceName} patří k poskytovatelům taxi dopravy v ${cityName}. Služba deklaruje dostupnost v rámci města i v širším okolí regionu ${regionName}, včetně přepravy na důležité cíle jako nemocnice, úřady či obchodní centra.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `Taxislužba ${serviceName} v ${cityName} ponúka prepravu pre rôzne príležitosti – od bežných ciest po meste cez nákupy až po návštevy u lekára. Služba pokrýva celý ${regionName} a priľahlé oblasti.`,
+    `Taxislužba ${serviceName} v ${cityName} nabízí přepravu pro různé příležitosti – od běžných cest po městě přes nákupy až po návštěvy u lékaře. Služba pokrývá celý ${regionName} a přilehlé oblasti.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `${serviceName} funguje ako lokálna taxislužba v ${cityName} s pôsobnosťou v celom ${regionName}. Poskytuje prepravu jednotlivcov i skupín na kratšie aj dlhšie vzdialenosti.`,
+    `${serviceName} funguje jako lokální taxislužba v ${cityName} s působností v celém ${regionName}. Poskytuje přepravu jednotlivců i skupin na kratší i delší vzdálenosti.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `Pre obyvateľov a návštevníkov ${cityName} je k dispozícii taxislužba ${serviceName}, ktorá poskytuje dopravu v rámci mesta a regiónu ${regionName}. Služba môže byť využitá na pracovné cesty, nákupy alebo voľnočasové aktivity.`,
+    `Pro obyvatele a návštěvníky ${cityName} je k dispozici taxislužba ${serviceName}, která poskytuje dopravu v rámci města a regionu ${regionName}. Služba může být využita na pracovní cesty, nákupy nebo volnočasové aktivity.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `${serviceName} je taxi služba pôsobiaca v ${cityName} a v celom ${regionName}. Spoločnosť deklaruje flexibilitu pri preprave – či už ide o krátke mestské trasy alebo jazdy na väčšie vzdialenosti.`,
+    `${serviceName} je taxi služba působící v ${cityName} a v celém ${regionName}. Společnost deklaruje flexibilitu při přepravě – ať už jde o krátké městské trasy nebo jízdy na větší vzdálenosti.`,
 ];
 
 /**
- * Disclaimer odstavec - 10 variácií
+ * Disclaimer odstavec - 10 variací
  */
 export const disclaimerVariants = [
   (serviceName: string, cityName: string) =>
-    `Informácie o ${serviceName} pochádzajú z verejne dostupných zdrojov a od samotného poskytovateľa. Táto stránka je nezávislá databáza taxislužieb a nie je prevádzkovateľom taxi dopravy. Nemôžeme garantovať dostupnosť, kvalitu služieb ani presnosť všetkých údajov. Odporúčame dôležité informácie overiť priamo u poskytovateľa.`,
+    `Informace o ${serviceName} pocházejí z veřejně dostupných zdrojů a od samotného poskytovatele. Tato stránka je nezávislá databáze taxislužeb a není provozovatelem taxi dopravy. Nemůžeme garantovat dostupnost, kvalitu služeb ani přesnost všech údajů. Doporučujeme důležité informace ověřit přímo u poskytovatele.`,
 
   (serviceName: string, cityName: string) =>
-    `Údaje o taxislužbe ${serviceName} v ${cityName} sú získané z verejných zdrojov. Stránka slúži len ako informačný zdroj a nie je súčasťou prevádzky taxi služieb. Presnosť údajov, ceny a dostupnosť odporúčame vždy preveriť telefonicky alebo cez web poskytovateľa.`,
+    `Údaje o taxislužbě ${serviceName} v ${cityName} jsou získané z veřejných zdrojů. Stránka slouží pouze jako informační zdroj a není součástí provozu taxi služeb. Přesnost údajů, ceny a dostupnost doporučujeme vždy prověřit telefonicky nebo přes web poskytovatele.`,
 
   (serviceName: string, cityName: string) =>
-    `Tieto informácie o ${serviceName} majú len informatívny charakter. Nejde o oficiálnu prezentáciu poskytovateľa. Aktuálne ceny, dostupnosť a podmienky služieb je potrebné overiť priamo u taxislužby ${serviceName}.`,
+    `Tyto informace o ${serviceName} mají pouze informativní charakter. Nejde o oficiální prezentaci poskytovatele. Aktuální ceny, dostupnost a podmínky služeb je třeba ověřit přímo u taxislužby ${serviceName}.`,
 
   (serviceName: string, cityName: string) =>
-    `Stránka funguje ako katalóg taxislužieb v ${cityName} a nie je zodpovedná za kvalitu služieb ${serviceName}. Všetky uvedené údaje sú orientačné a môžu sa meniť. Pred objednaním taxi odporúčame kontaktovať poskytovateľa priamo.`,
+    `Stránka funguje jako katalog taxislužeb v ${cityName} a není zodpovědná za kvalitu služeb ${serviceName}. Všechny uvedené údaje jsou orientační a mohou se měnit. Před objednáním taxi doporučujeme kontaktovat poskytovatele přímo.`,
 
   (serviceName: string, cityName: string) =>
-    `Prezentované údaje o ${serviceName} vychádzajú z verejných informácií. Táto databáza taxislužieb nie je prevádzkovateľom dopravy a neprevádzkuje rezervačný systém. Záruku za aktuálnosť a správnosť informácií môže poskytnúť len samotná taxislužba.`,
+    `Prezentované údaje o ${serviceName} vycházejí z veřejných informací. Tato databáze taxislužeb není provozovatelem dopravy a neprovozuje rezervační systém. Záruku za aktuálnost a správnost informací může poskytnout pouze samotná taxislužba.`,
 
   (serviceName: string, cityName: string) =>
-    `${serviceName} je uvedená na základe verejne dostupných informácií. Stránka slúži ako prehľad taxislužieb a nenesie zodpovednosť za kvalitu poskytovaných služieb. Ceny, hodiny prevádzky a dostupnosť je potrebné vždy overiť u poskytovateľa.`,
+    `${serviceName} je uvedena na základě veřejně dostupných informací. Stránka slouží jako přehled taxislužeb a nenese zodpovědnost za kvalitu poskytovaných služeb. Ceny, hodiny provozu a dostupnost je třeba vždy ověřit u poskytovatele.`,
 
   (serviceName: string, cityName: string) =>
-    `Informácie o taxislužbe ${serviceName} v ${cityName} sú zverejnené na informatívne účely. Nejde o partnerskú spoluprácu. Stránka nezaručuje presnosť všetkých údajov – pred objednaním kontaktujte poskytovateľa priamo.`,
+    `Informace o taxislužbě ${serviceName} v ${cityName} jsou zveřejněny pro informativní účely. Nejde o partnerskou spolupráci. Stránka nezaručuje přesnost všech údajů – před objednáním kontaktujte poskytovatele přímo.`,
 
   (serviceName: string, cityName: string) =>
-    `Táto databáza taxislužieb zahŕňa ${serviceName} na základe verejne dostupných údajov. Stránka nie je oficiálnym zdrojom informácií poskytovateľa. Aktuálne podmienky, ceny a dostupnosť si vždy overte priamo u taxislužby.`,
+    `Tato databáze taxislužeb zahrnuje ${serviceName} na základě veřejně dostupných údajů. Stránka není oficiálním zdrojem informací poskytovatele. Aktuální podmínky, ceny a dostupnost si vždy ověřte přímo u taxislužby.`,
 
   (serviceName: string, cityName: string) =>
-    `${serviceName} je zaradená do databázy ako jedna z možností taxi dopravy v ${cityName}. Stránka nie je prevádzkovateľom služby a nemôže garantovať kvalitu ani dostupnosť. Všetky údaje odporúčame overiť u poskytovateľa.`,
+    `${serviceName} je zařazena do databáze jako jedna z možností taxi dopravy v ${cityName}. Stránka není provozovatelem služby a nemůže garantovat kvalitu ani dostupnost. Všechny údaje doporučujeme ověřit u poskytovatele.`,
 
   (serviceName: string, cityName: string) =>
-    `Uvedené informácie o ${serviceName} majú informatívny charakter a vychádzajú z verejných zdrojov. Stránka nefunguje ako sprostredkovateľ taxi služieb. Pre aktuálne údaje kontaktujte poskytovateľa priamo.`,
+    `Uvedené informace o ${serviceName} mají informativní charakter a vycházejí z veřejných zdrojů. Stránka nefunguje jako zprostředkovatel taxi služeb. Pro aktuální údaje kontaktujte poskytovatele přímo.`,
 ];
 
 /**
- * Výhody taxislužby - 12 variácií
+ * Výhody taxislužby - 12 variací
  */
 export const benefitsVariants = [
   (serviceName: string, cityName: string, regionName: string) =>
-    `Pri výbere ${serviceName} môžete zvážiť nasledujúce aspekty: lokálna znalosť ${cityName}, pokrytie celého ${regionName}, možnosť prepravy na letisko či vlakové stanice. Odporúčame overiť si aktuálne ceny a dostupnosť priamo u poskytovateľa.`,
+    `Při výběru ${serviceName} můžete zvážit následující aspekty: lokální znalost ${cityName}, pokrytí celého ${regionName}, možnost přepravy na letiště či vlakové stanice. Doporučujeme ověřit si aktuální ceny a dostupnost přímo u poskytovatele.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `${serviceName} môže byť vhodnou voľbou v ${cityName} z týchto dôvodov: dlhoročná prax v regióne ${regionName}, znalosti miestnych komunikácií, dostupnosť počas dňa i v noci. Detaily o cenách a službách si overte pri objednávke.`,
+    `${serviceName} může být vhodnou volbou v ${cityName} z těchto důvodů: dlouholetá praxe v regionu ${regionName}, znalosti místních komunikací, dostupnost během dne i v noci. Detaily o cenách a službách si ověřte při objednávce.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `Výhody, ktoré môže ${serviceName} ponúkať v ${cityName}: široké pokrytie ${regionName}, rýchle pristavenie vozidla, dôraz na bezpečnosť cestujúcich. Konkrétne podmienky a sadzby si vyžiadajte telefonicky.`,
+    `Výhody, které může ${serviceName} nabízet v ${cityName}: široké pokrytí ${regionName}, rychlé přistavení vozidla, důraz na bezpečnost cestujících. Konkrétní podmínky a sazby si vyžádejte telefonicky.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `Taxislužba ${serviceName} v ${cityName} môže mať tieto prednosti: flexibilné hodiny prevádzky, pokrytie miest v ${regionName}, možnosť objednania vopred. Odporúčame si overiť aktuálne informácie priamo u dispečingu.`,
+    `Taxislužba ${serviceName} v ${cityName} může mít tyto přednosti: flexibilní hodiny provozu, pokrytí míst v ${regionName}, možnost objednání předem. Doporučujeme si ověřit aktuální informace přímo u dispečinku.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `Pri zvažovaní ${serviceName} v ${cityName} môžu byť dôležité tieto body: lokálna dostupnosť v ${regionName}, skúsenosti vodičov s navigáciou v meste, možnosť úhrady kartou. Detaily si vždy potvrďte pri rezervácii.`,
+    `Při zvažování ${serviceName} v ${cityName} mohou být důležité tyto body: lokální dostupnost v ${regionName}, zkušenosti řidičů s navigací ve městě, možnost úhrady kartou. Detaily si vždy potvrďte při rezervaci.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `${serviceName} môže ponúkať výhody ako: rýchla reakcia na objednávky v ${cityName}, znalosti dopravnej situácie v ${regionName}, možnosť objednania cez telefón alebo aplikáciu. Konkrétne podmienky overte u poskytovateľa.`,
+    `${serviceName} může nabízet výhody jako: rychlá reakce na objednávky v ${cityName}, znalosti dopravní situace v ${regionName}, možnost objednání přes telefon nebo aplikaci. Konkrétní podmínky ověřte u poskytovatele.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `Dôvody na výber ${serviceName} v ${cityName}: pokrytie mesta aj okolia v ${regionName}, možnosť prepravy batožiny, dostupnosť počas sviatkov. Ceny a dostupnosť si vždy overte pri objednávaní.`,
+    `Důvody pro výběr ${serviceName} v ${cityName}: pokrytí města i okolí v ${regionName}, možnost přepravy zavazadel, dostupnost během svátků. Ceny a dostupnost si vždy ověřte při objednávání.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `${serviceName} môže byť vhodná voľba vďaka: skúsenostiam s jazdou v ${cityName}, pokrytiu celého ${regionName}, možnosti objednania pre väčšiu skupinu. Aktuálne informácie o službách získate priamo u poskytovateľa.`,
+    `${serviceName} může být vhodná volba díky: zkušenostem s jízdou v ${cityName}, pokrytí celého ${regionName}, možnosti objednání pro větší skupinu. Aktuální informace o službách získáte přímo u poskytovatele.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `Pri výbere taxislužby v ${cityName} môže ${serviceName} ponúkať: lokálnu znalosť dopravných uzlov, pokrytie ${regionName}, možnosť platby v hotovosti i kartou. Podmienky si overte telefonicky.`,
+    `Při výběru taxislužby v ${cityName} může ${serviceName} nabízet: lokální znalost dopravních uzlů, pokrytí ${regionName}, možnost platby v hotovosti i kartou. Podmínky si ověřte telefonicky.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `Taxislužba ${serviceName} v ${cityName} môže mať tieto výhody: rýchle pristavenie v rámci ${regionName}, skúsenosti s prepravou na letisko, dostupnosť v nočných hodinách. Detaily overte pri objednávke.`,
+    `Taxislužba ${serviceName} v ${cityName} může mít tyto výhody: rychlé přistavení v rámci ${regionName}, zkušenosti s přepravou na letiště, dostupnost v nočních hodinách. Detaily ověřte při objednávce.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `${serviceName} môže byť zaujímavou voľbou v ${cityName} vďaka: pokrytiu mesta aj okolitých obcí v ${regionName}, možnosti telefonickej objednávky, skúsenostiam s lokálnou dopravou. Aktuálne ceny si vždy overte u dispečingu.`,
+    `${serviceName} může být zajímavou volbou v ${cityName} díky: pokrytí města i okolních obcí v ${regionName}, možnosti telefonické objednávky, zkušenostem s lokální dopravou. Aktuální ceny si vždy ověřte u dispečinku.`,
 
   (serviceName: string, cityName: string, regionName: string) =>
-    `Pri zvažovaní ${serviceName} v ${cityName} môžete očakávať: znalosti miestnych trás v ${regionName}, dostupnosť pre rôzne typy jázd, možnosť konzultácie ceny vopred. Všetky údaje overte priamo u poskytovateľa.`,
+    `Při zvažování ${serviceName} v ${cityName} můžete očekávat: znalosti místních tras v ${regionName}, dostupnost pro různé typy jízd, možnost konzultace ceny předem. Všechny údaje ověřte přímo u poskytovatele.`,
 ];
 
 /**
- * Objednávací odstavec - 10 variácií
+ * Objednávací odstavec - 10 variací
  */
 export const orderingVariants = [
   (serviceName: string, phone: string, cityName: string) =>
-    `Taxislužbu ${serviceName} v ${cityName} môžete kontaktovať na telefónnom čísle ${phone}. Pri objednávke si overte dostupnosť, cenu jazdy, prípadné príplatky a odhadovaný čas príchodu vozidla.`,
+    `Taxislužbu ${serviceName} v ${cityName} můžete kontaktovat na telefonním čísle ${phone}. Při objednávce si ověřte dostupnost, cenu jízdy, případné příplatky a odhadovaný čas příjezdu vozidla.`,
 
   (serviceName: string, phone: string, cityName: string) =>
-    `Pre objednanie taxi od ${serviceName} v ${cityName} zavolajte na ${phone}. Odporúčame si pri hovore overiť aktuálne ceny, dostupnosť vozidiel a prípadné príplatky za batožinu alebo nočnú prevádzku.`,
+    `Pro objednání taxi od ${serviceName} v ${cityName} zavolejte na ${phone}. Doporučujeme si při hovoru ověřit aktuální ceny, dostupnost vozidel a případné příplatky za zavazadla nebo noční provoz.`,
 
   (serviceName: string, phone: string, cityName: string) =>
-    `Službu ${serviceName} môžete objednať telefonicky na čísle ${phone}. Pred jazdou sa informujte o cene, dostupnosti a odhadovanom čase pristavenia vozidla v ${cityName}.`,
+    `Službu ${serviceName} můžete objednat telefonicky na čísle ${phone}. Před jízdou se informujte o ceně, dostupnosti a odhadovaném čase přistavení vozidla v ${cityName}.`,
 
   (serviceName: string, phone: string, cityName: string) =>
-    `V ${cityName} môžete ${serviceName} zavolať na ${phone}. Pri objednávke si vypýtajte orientačnú cenu, dostupnosť v danom čase a informácie o prípadných priplatkoch.`,
+    `V ${cityName} můžete ${serviceName} zavolat na ${phone}. Při objednávce si vyžádejte orientační cenu, dostupnost v daném čase a informace o případných příplatcích.`,
 
   (serviceName: string, phone: string, cityName: string) =>
-    `Kontaktné číslo na ${serviceName} v ${cityName} je ${phone}. Pri telefonáte odporúčame overiť si aktuálnu dostupnosť, cenovú ponuku a čas, za ktorý vozidlo dorazí.`,
+    `Kontaktní číslo na ${serviceName} v ${cityName} je ${phone}. Při telefonátu doporučujeme ověřit si aktuální dostupnost, cenovou nabídku a čas, za který vozidlo dorazí.`,
 
   (serviceName: string, phone: string, cityName: string) =>
-    `Pre objednanie jazdy od ${serviceName} v ${cityName} zavolajte na ${phone}. Uistite sa, že si overíte cenu, dostupnosť a možné príplatky pred potvrdením objednávky.`,
+    `Pro objednání jízdy od ${serviceName} v ${cityName} zavolejte na ${phone}. Ujistěte se, že si ověříte cenu, dostupnost a možné příplatky před potvrzením objednávky.`,
 
   (serviceName: string, phone: string, cityName: string) =>
-    `Taxi ${serviceName} v ${cityName} si môžete objednať na telefónnom čísle ${phone}. Pri hovore sa opýtajte na aktuálne ceny, dostupnosť a orientačný čas príchodu.`,
+    `Taxi ${serviceName} v ${cityName} si můžete objednat na telefonním čísle ${phone}. Při hovoru se zeptejte na aktuální ceny, dostupnost a orientační čas příjezdu.`,
 
   (serviceName: string, phone: string, cityName: string) =>
-    `Službu ${serviceName} v ${cityName} objednáte na ${phone}. Odporúčame si pri rezervácii preveriť cenu jazdy, dostupnosť vozidiel a prípadné príplatky.`,
+    `Službu ${serviceName} v ${cityName} objednáte na ${phone}. Doporučujeme si při rezervaci prověřit cenu jízdy, dostupnost vozidel a případné příplatky.`,
 
   (serviceName: string, phone: string, cityName: string) =>
-    `V ${cityName} môžete kontaktovať ${serviceName} na čísle ${phone}. Pri objednávke sa informujte o cenách, dostupnosti a odhadovanom čase pristavenia vozidla.`,
+    `V ${cityName} můžete kontaktovat ${serviceName} na čísle ${phone}. Při objednávce se informujte o cenách, dostupnosti a odhadovaném čase přistavení vozidla.`,
 
   (serviceName: string, phone: string, cityName: string) =>
-    `Pre taxi ${serviceName} v ${cityName} zavolajte na ${phone}. Pred jazdou si overte aktuálnu cenu, dostupnosť a všetky relevantné podmienky prepravy.`,
+    `Pro taxi ${serviceName} v ${cityName} zavolejte na ${phone}. Před jízdou si ověřte aktuální cenu, dostupnost a všechny relevantní podmínky přepravy.`,
 ];
 
 /**
- * Záverečný odstavec - 8 variácií
+ * Závěrečný odstavec - 8 variací
  */
 export const conclusionVariants = [
   (cityName: string) =>
-    `Cieľom tejto stránky je poskytnúť prehľad taxislužieb v ${cityName} na jednom mieste. Konečný výber závisí na vás – odporúčame porovnať viac možností a overiť podmienky priamo u poskytovateľa.`,
+    `Cílem této stránky je poskytnout přehled taxislužeb v ${cityName} na jednom místě. Konečný výběr závisí na vás – doporučujeme porovnat více možností a ověřit podmínky přímo u poskytovatele.`,
 
   (cityName: string) =>
-    `Táto databáza vám má uľahčiť hľadanie taxi v ${cityName}. Výber správnej služby závisí od vašich potrieb – vždy si overte aktuálne podmienky a ceny pred objednaním.`,
+    `Tato databáze vám má usnadnit hledání taxi v ${cityName}. Výběr správné služby závisí na vašich potřebách – vždy si ověřte aktuální podmínky a ceny před objednáním.`,
 
   (cityName: string) =>
-    `Stránka zhromažďuje základné informácie o taxislužbách v ${cityName}. Rozhodnutie o výbere služby je na vás – pred objednaním porovnajte možnosti a preverte podmienky.`,
+    `Stránka shromažďuje základní informace o taxislužbách v ${cityName}. Rozhodnutí o výběru služby je na vás – před objednáním porovnejte možnosti a prověřte podmínky.`,
 
   (cityName: string) =>
-    `Tento prehľad má za cieľ uľahčiť orientáciu v ponuke taxi v ${cityName}. Pred konečným rozhodnutím odporúčame overiť si podmienky a ceny u jednotlivých poskytovateľov.`,
+    `Tento přehled má za cíl usnadnit orientaci v nabídce taxi v ${cityName}. Před konečným rozhodnutím doporučujeme ověřit si podmínky a ceny u jednotlivých poskytovatelů.`,
 
   (cityName: string) =>
-    `Databáza poskytuje kontaktné informácie na taxislužby v ${cityName}. Výber služby je na vašom uvážení – odporúčame si pred objednávkou overiť všetky dôležité údaje.`,
+    `Databáze poskytuje kontaktní informace na taxislužby v ${cityName}. Výběr služby je na vašem uvážení – doporučujeme si před objednávkou ověřit všechny důležité údaje.`,
 
   (cityName: string) =>
-    `Stránka slúži ako pomocník pri hľadaní taxi v ${cityName}. Konečné rozhodnutie závisí od vašich potrieb a preferencií – vždy si overte aktuálne podmienky.`,
+    `Stránka slouží jako pomocník při hledání taxi v ${cityName}. Konečné rozhodnutí závisí na vašich potřebách a preferencích – vždy si ověřte aktuální podmínky.`,
 
   (cityName: string) =>
-    `Tento zoznam taxislužieb v ${cityName} má informatívny charakter. Pred objednaním odporúčame porovnať možnosti a overiť si podmienky priamo u poskytovateľov.`,
+    `Tento seznam taxislužeb v ${cityName} má informativní charakter. Před objednáním doporučujeme porovnat možnosti a ověřit si podmínky přímo u poskytovatelů.`,
 
   (cityName: string) =>
-    `Prehľad taxislužieb v ${cityName} vám môže pomôcť pri výbere. Odporúčame sa pred objednávkou informovať o aktuálnych cenách a podmienkach u konkrétneho poskytovateľa.`,
+    `Přehled taxislužeb v ${cityName} vám může pomoci při výběru. Doporučujeme se před objednávkou informovat o aktuálních cenách a podmínkách u konkrétního poskytovatele.`,
 ];
 
 /**
- * Generuje unikátny SEO text pre taxislužbu
+ * Generuje unikátní SEO text pro taxislužbu
  */
 export interface ServiceContentOptions {
   serviceName: string;
@@ -235,7 +235,7 @@ export function generateUniqueServiceContent(options: ServiceContentOptions) {
   const { serviceName, cityName, regionName, phone } = options;
   const seed = `${serviceName}-${cityName}`;
 
-  // Vyber varianty na základe hashu názvu služby a mesta
+  // Vyber varianty na základě hashe názvu služby a města
   const intro = selectVariant(introVariants, seed);
   const disclaimer = selectVariant(disclaimerVariants, seed);
   const benefits = selectVariant(benefitsVariants, seed);
@@ -252,34 +252,34 @@ export function generateUniqueServiceContent(options: ServiceContentOptions) {
 }
 
 /**
- * Generuje unikátnu meta description pre taxislužbu
+ * Generuje unikátní meta description pro taxislužbu
  */
 const currentYear = new Date().getFullYear();
 
 export const metaDescriptionVariants = [
   (serviceName: string, cityName: string, phone: string) =>
-    `${serviceName} v ${cityName} (${currentYear}). ${phone ? `Telefón: ${phone}.` : ''} Rýchla preprava po meste aj okolí.`,
+    `${serviceName} v ${cityName} (${currentYear}). ${phone ? `Telefon: ${phone}.` : ''} Rychlá přeprava po městě i okolí.`,
 
   (serviceName: string, cityName: string, phone: string) =>
-    `Taxi ${serviceName} v ${cityName} (${currentYear}). ${phone ? `Kontakt: ${phone}.` : ''} Lokálna taxislužba s pokrytím celého mesta.`,
+    `Taxi ${serviceName} v ${cityName} (${currentYear}). ${phone ? `Kontakt: ${phone}.` : ''} Lokální taxislužba s pokrytím celého města.`,
 
   (serviceName: string, cityName: string, phone: string) =>
-    `${serviceName} - taxislužba v ${cityName} (${currentYear}). ${phone ? `Tel.: ${phone}.` : ''} Preprava osôb po meste a regióne.`,
+    `${serviceName} - taxislužba v ${cityName} (${currentYear}). ${phone ? `Tel.: ${phone}.` : ''} Přeprava osob po městě a regionu.`,
 
   (serviceName: string, cityName: string, phone: string) =>
-    `Objednajte taxi ${serviceName} v ${cityName} (${currentYear}). ${phone ? `Zavolajte ${phone}.` : ''} Rýchla a spoľahlivá doprava.`,
+    `Objednejte taxi ${serviceName} v ${cityName} (${currentYear}). ${phone ? `Zavolejte ${phone}.` : ''} Rychlá a spolehlivá doprava.`,
 
   (serviceName: string, cityName: string, phone: string) =>
-    `${serviceName} v ${cityName} (${currentYear}) - taxi služby. ${phone ? `Telefónne číslo: ${phone}.` : ''} Preprava v meste aj okolí.`,
+    `${serviceName} v ${cityName} (${currentYear}) - taxi služby. ${phone ? `Telefonní číslo: ${phone}.` : ''} Přeprava ve městě i okolí.`,
 
   (serviceName: string, cityName: string, phone: string) =>
-    `Taxi ${serviceName} v ${cityName} (${currentYear}). ${phone ? `Volajte ${phone}.` : ''} Preprava pre obyvateľov a návštevníkov.`,
+    `Taxi ${serviceName} v ${cityName} (${currentYear}). ${phone ? `Volejte ${phone}.` : ''} Přeprava pro obyvatele a návštěvníky.`,
 
   (serviceName: string, cityName: string, phone: string) =>
-    `${serviceName} - taxi v ${cityName} (${currentYear}). ${phone ? `Kontaktné číslo: ${phone}.` : ''} Služby prepravy osôb.`,
+    `${serviceName} - taxi v ${cityName} (${currentYear}). ${phone ? `Kontaktní číslo: ${phone}.` : ''} Služby přepravy osob.`,
 
   (serviceName: string, cityName: string, phone: string) =>
-    `Kontaktujte ${serviceName} v ${cityName} (${currentYear}). ${phone ? `Tel: ${phone}.` : ''} Taxi služby s lokálnou znalosťou.`,
+    `Kontaktujte ${serviceName} v ${cityName} (${currentYear}). ${phone ? `Tel: ${phone}.` : ''} Taxi služby s lokální znalostí.`,
 ];
 
 export function generateUniqueMetaDescription(serviceName: string, cityName: string, phone: string = ''): string {

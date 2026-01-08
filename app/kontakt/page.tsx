@@ -14,10 +14,10 @@ import { SEO_CONSTANTS } from '@/lib/seo-constants';
 
 export const metadata: Metadata = {
   title: 'Kontakt | Taxi NearMe',
-  description: 'Kontaktujte nás cez email info@taxinearme.cz',
+  description: 'Kontaktujte nás přes email info@taxinearme.cz',
   openGraph: {
     title: 'Kontakt | Taxi NearMe',
-    description: 'Kontaktujte nás cez email info@taxinearme.cz',
+    description: 'Kontaktujte nás přes email info@taxinearme.cz',
     type: 'website',
     locale: SEO_CONSTANTS.locale,
     url: `${SEO_CONSTANTS.siteUrl}/kontakt`,
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: SEO_CONSTANTS.twitterSite,
     title: 'Kontakt | Taxi NearMe',
-    description: 'Kontaktujte nás cez email info@taxinearme.cz',
+    description: 'Kontaktujte nás přes email info@taxinearme.cz',
     images: [SEO_CONSTANTS.defaultImage],
   },
   alternates: {
@@ -56,7 +56,7 @@ export default function ContactPage() {
         <Link href="/">
           <Button variant="ghost" className="mb-8">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Späť na hlavnú stránku
+            Zpět na hlavní stránku
           </Button>
         </Link>
 
@@ -72,8 +72,8 @@ export default function ContactPage() {
               <div className="flex-1 space-y-6">
                 <h2 className="text-2xl md:text-3xl font-bold text-foreground">Kontaktujte nás</h2>
                 <p className="text-lg md:text-xl text-foreground/90 leading-relaxed">
-                  Ak máte otázky, podnety, sťažnosti, požiadavky na zmenu alebo návrhy na
-                  spoluprácu, napíšte nám na
+                  Pokud máte dotazy, podněty, stížnosti, požadavky na změnu nebo návrhy na
+                  spolupráci, napište nám na
                 </p>
 
                 <a
@@ -84,7 +84,7 @@ export default function ContactPage() {
                 </a>
 
                 <p className="text-lg text-foreground/80 leading-relaxed pt-4 border-t border-foreground/10">
-                  Odpovieme vám čo najskôr.
+                  Odpovíme vám co nejdříve.
                 </p>
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function ContactPage() {
         <Link href="/">
           <Button className="mt-12" size="lg">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Späť na hlavnú stránku
+            Zpět na hlavní stránku
           </Button>
         </Link>
       </div>

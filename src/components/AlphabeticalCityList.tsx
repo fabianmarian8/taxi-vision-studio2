@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import { MapPin } from 'lucide-react';
-import { slovakCities } from '@/data/cities';
+import { czechCities } from '@/data/cities';
 
 interface LocationItem {
   name: string;
@@ -44,7 +44,7 @@ export function AlphabeticalCityList() {
 
   // Cities sú vždy dostupné (importované staticky, malá veľkosť)
   const cities: LocationItem[] = useMemo(() => {
-    return slovakCities.map((city) => ({
+    return czechCities.map((city) => ({
       name: city.name,
       slug: city.slug,
       region: city.region,

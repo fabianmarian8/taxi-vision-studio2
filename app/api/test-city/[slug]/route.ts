@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getCityBySlug, slovakCities } from '@/data/cities';
+import { getCityBySlug, czechCities } from '@/data/cities';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
@@ -22,7 +22,7 @@ export async function GET(
       found: !!city,
       slug,
       cityName: city?.name,
-      totalCities: slovakCities.length,
+      totalCities: czechCities.length,
       message: city ? 'City found!' : 'City not found',
     });
   } catch (error) {

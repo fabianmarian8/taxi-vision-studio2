@@ -30,7 +30,7 @@ export const ContactFormModal = ({ isOpen, onClose }: ContactFormModalProps) => 
     const formData = new FormData(form);
 
     try {
-      // Použitie našej vlastnej API route s Resend službou
+      // Použití naší vlastní API route s Resend službou
       console.log("Submitting form to /api/contact...");
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -149,13 +149,13 @@ export const ContactFormModal = ({ isOpen, onClose }: ContactFormModalProps) => 
 
           {submitStatus === "success" && (
             <div className="bg-green-50 border border-green-200 text-green-800 px-3 py-2 sm:px-4 sm:py-3 rounded-lg font-medium text-sm sm:text-base">
-              ✓ Ďakujeme! Váš príspevok bol úspešne odoslaný.
+              ✓ Děkujeme! Váš příspěvek byl úspěšně odeslán.
             </div>
           )}
 
           {submitStatus === "error" && (
             <div className="bg-red-50 border border-red-200 text-red-800 px-3 py-2 sm:px-4 sm:py-3 rounded-lg font-medium text-sm sm:text-base">
-              ✗ Nastala chyba pri odosielaní. Skúste to prosím znova.
+              ✗ Nastala chyba při odesílání. Zkuste to prosím znovu.
             </div>
           )}
 
@@ -167,7 +167,7 @@ export const ContactFormModal = ({ isOpen, onClose }: ContactFormModalProps) => 
               disabled={isSubmitting}
               className="w-full sm:flex-1 font-bold h-11 sm:h-10"
             >
-              Zrušiť
+              Zrušit
             </Button>
             <Button
               type="submit"
@@ -177,10 +177,10 @@ export const ContactFormModal = ({ isOpen, onClose }: ContactFormModalProps) => 
               {isSubmitting ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                  Odosielam...
+                  Odesílám...
                 </>
               ) : (
-                "Odoslať"
+                "Odeslat"
               )}
             </Button>
           </div>

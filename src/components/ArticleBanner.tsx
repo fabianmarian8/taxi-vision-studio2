@@ -7,14 +7,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { articles } from "@/data/articles";
 
-// Helper funkcia na formátovanie dátumu - použije sa iba na klientovi
-// Pre SSR vrátime formátovaný string priamo z dátumu
+// Helper funkce na formátování data - použije se pouze na klientovi
+// Pro SSR vracíme formátovaný string přímo z data
 const formatDate = (dateString: string): string => {
-  // Parsovanie YYYY-MM-DD formátu manuálne pre konzistentnosť SSR/CSR
+  // Parsování YYYY-MM-DD formátu manuálně pro konzistentnost SSR/CSR
   const [year, month, day] = dateString.split('-').map(Number);
   const months = [
-    'januára', 'februára', 'marca', 'apríla', 'mája', 'júna',
-    'júla', 'augusta', 'septembra', 'októbra', 'novembra', 'decembra'
+    'ledna', 'února', 'března', 'dubna', 'května', 'června',
+    'července', 'srpna', 'září', 'října', 'listopadu', 'prosince'
   ];
   return `${day}. ${months[month - 1]} ${year}`;
 };
@@ -81,7 +81,7 @@ export const ArticleBanner = () => {
         <div className="flex items-center gap-1 md:gap-2">
           <Newspaper className="h-3 w-3 md:h-4 md:w-4 text-yellow-500" />
           <h2 className="text-sm md:text-base font-bold text-foreground">
-            Aktuálne z blogu
+            Aktuálně z blogu
           </h2>
         </div>
 
@@ -92,7 +92,7 @@ export const ArticleBanner = () => {
             size="icon"
             onClick={scrollToPrev}
             className="h-6 w-6 rounded-full"
-            aria-label="Predchádzajúci článok"
+            aria-label="Předchozí článek"
           >
             <ChevronLeft className="h-3 w-3" />
           </Button>
@@ -101,7 +101,7 @@ export const ArticleBanner = () => {
             size="icon"
             onClick={scrollToNext}
             className="h-6 w-6 rounded-full"
-            aria-label="Ďalší článok"
+            aria-label="Další článek"
           >
             <ChevronRight className="h-3 w-3" />
           </Button>
@@ -164,7 +164,7 @@ export const ArticleBanner = () => {
 
                   {/* CTA */}
                   <div className="flex items-center gap-1 text-[11px] md:text-xs font-semibold text-amber-800 group-hover:gap-2 transition-all">
-                    Čítať viac
+                    Číst více
                     <ArrowRight className="h-2.5 w-2.5 md:h-3 md:w-3" />
                   </div>
 
@@ -186,7 +186,7 @@ export const ArticleBanner = () => {
         {articles.map((article, index) => (
           <button
             key={index}
-            aria-label={`Prejsť na článok ${index + 1}: ${article.title}`}
+            aria-label={`Přejít na článek ${index + 1}: ${article.title}`}
             onClick={() => {
               if (scrollContainerRef.current) {
                 const container = scrollContainerRef.current;

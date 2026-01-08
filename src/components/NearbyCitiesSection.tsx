@@ -17,10 +17,10 @@ export function NearbyCitiesSection({ nearbyCities, currentCityName }: NearbyCit
     <section className="py-12 md:py-16 px-4 md:px-8 bg-foreground/5">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-2xl md:text-3xl font-black text-foreground mb-2 text-center">
-          Taxi v okolitých mestách
+          Taxi v okolních městech
         </h2>
         <p className="text-foreground/70 text-center mb-8">
-          Hľadáte taxi v okolí mesta {currentCityName}? Pozrite si taxislužby v blízkych mestách.
+          Hledáte taxi v okolí města {currentCityName}? Podívejte se na taxislužby v blízkých městech.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

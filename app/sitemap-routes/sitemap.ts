@@ -28,28 +28,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   });
 
-  // Špeciálne trasy (letisko, atď.) - vyššia priorita
-  routePagesData.routes.forEach((route) => {
-    sitemap.push({
-      url: `${baseUrl}/trasa/${route.slug}`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
+  // Specialni trasy (letiste, atd.) - vyssi priorita
+  if (routePagesData.routes.length > 0) {
+    (routePagesData.routes as Array<{slug: string}>).forEach((route) => {
+      sitemap.push({
+        url: `${baseUrl}/trasa/${route.slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.7,
+      });
     });
-  });
+  }
 
   // City-to-city routes - oba smery
-  cityRoutesData.routes.forEach((route: { slug: string; from: { slug: string }; to: { slug: string } }) => {
-    // Originálny smer
+  cityRoutesData.routes.forEach((route: { from: string; to: string; distanceKm: number; durationMin: number; durationText: string }) => {
+    // Originalni smer
+    const slug = `${route.from}-${route.to}`;
     sitemap.push({
-      url: `${baseUrl}/taxi-trasa/${route.slug}`,
+      url: `${baseUrl}/taxi-trasa/${slug}`,
       lastModified: routesDate,
       changeFrequency: 'monthly',
       priority: 0.55,
     });
 
-    // Opačný smer
-    const reversedSlug = `${route.to.slug}-${route.from.slug}`;
+    // Opacny smer
+    const reversedSlug = `${route.to}-${route.from}`;
     sitemap.push({
       url: `${baseUrl}/taxi-trasa/${reversedSlug}`,
       lastModified: routesDate,

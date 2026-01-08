@@ -1,23 +1,33 @@
 /**
- * Sitemap - Mestá s taxi službami (NAJVYŠŠIA PRIORITA)
+ * Sitemap - Mesta s taxi sluzbami (NEJVYSSI PRIORITA)
  *
- * Obsahuje ~155 miest + ich taxislužby (~884)
- * Tieto stránky majú reálny obsah a mali by byť indexované prednostne
- *
- * Pre obce (isVillage: true) sa používa hierarchická URL štruktúra:
- * /taxi/{regionSlug}/{districtSlug}/{slug}
+ * Obsahuje mesta + jejich taxisluzby
+ * Tyto stranky maji realni obsah a meli by byt indexovane prednostne
  */
 
 import { MetadataRoute } from 'next';
 import citiesData from '@/data/cities.json';
-import { getMunicipalityBySlug } from '@/data/municipalities';
-import { getDistrictForMunicipality } from '@/data/districts';
 import { SEO_CONSTANTS } from '@/lib/seo-constants';
 
 export const revalidate = 86400; // 24 hours
 export const runtime = 'nodejs';
 
-// Helper funkcia pre vytvorenie slug
+// Typ pro city data
+interface CityDataItem {
+  name: string;
+  slug: string;
+  region: string;
+  district?: string;
+  description: string;
+  metaDescription: string;
+  keywords: string[];
+  taxiServices: Array<{ name: string; phone?: string; website?: string }>;
+  latitude: number;
+  longitude: number;
+  isVillage?: boolean;
+}
+
+// Helper funkce pro vytvoreni slug
 const createServiceSlug = (serviceName: string): string => {
   return serviceName
     .toLowerCase()
@@ -33,30 +43,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const sitemap: MetadataRoute.Sitemap = [];
 
-  // Stránky miest s taxi službami - NAJVYŠŠIA PRIORITA
-  citiesData.cities.forEach((city) => {
+  // Stranky mest s taxi sluzbami - NEJVYSSI PRIORITA
+  (citiesData.cities as CityDataItem[]).forEach((city) => {
     const hasTaxi = city.taxiServices && city.taxiServices.length > 0;
 
     if (hasTaxi) {
-      let cityUrl: string;
+      // Jednoducha URL pro vsechna mesta
+      const cityUrl = `${baseUrl}/taxi/${city.slug}`;
 
-      // Pre obce (isVillage: true) použiť hierarchickú URL
-      if (city.isVillage) {
-        const municipality = getMunicipalityBySlug(city.slug);
-        const district = municipality ? getDistrictForMunicipality(municipality) : null;
-
-        if (district) {
-          cityUrl = `${baseUrl}/taxi/${district.regionSlug}/${district.slug}/${city.slug}`;
-        } else {
-          // Fallback na jednoduchú URL ak sa nenájde okres
-          cityUrl = `${baseUrl}/taxi/${city.slug}`;
-        }
-      } else {
-        // Štandardné mestá - jednoduchá URL
-        cityUrl = `${baseUrl}/taxi/${city.slug}`;
-      }
-
-      // Mesto/obec s taxi
+      // Mesto s taxi
       sitemap.push({
         url: cityUrl,
         lastModified: currentDate,
@@ -64,7 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.9,
       });
 
-      // Jednotlivé taxislužby - používame rovnakú base URL ako mesto
+      // Jednotlive taxisluzby
       city.taxiServices.forEach((service) => {
         const serviceSlug = createServiceSlug(service.name);
         sitemap.push({

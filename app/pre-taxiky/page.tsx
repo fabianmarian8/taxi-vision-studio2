@@ -31,19 +31,19 @@ import { SEO_CONSTANTS } from '@/lib/seo-constants';
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Pre taxislužby - PREMIUM a PARTNER program | Taxi NearMe',
+  title: 'Pro taxislužby - PREMIUM a PARTNER program | Taxi NearMe',
   description:
-    'Zvýšte viditeľnosť vašej taxislužby na najväčšom českom portáli. PREMIUM zvýraznenie a PARTNER program pre profesionálne taxislužby.',
+    'Zvyšte viditelnost vaší taxislužby na největším českém portálu. PREMIUM zvýraznění a PARTNER program pro profesionální taxislužby.',
   keywords: [
     'taxi reklama',
-    'propagácia taxislužby',
+    'propagace taxislužby',
     'taxi marketing',
     'taxislužba online',
     'taxi portál česko',
   ],
   openGraph: {
-    title: 'Pre taxislužby - PREMIUM a PARTNER program | Taxi NearMe',
-    description: 'Zvýšte viditeľnosť vašej taxislužby na najväčšom českom portáli.',
+    title: 'Pro taxislužby - PREMIUM a PARTNER program | Taxi NearMe',
+    description: 'Zvyšte viditelnost vaší taxislužby na největším českém portálu.',
     type: 'website',
     locale: SEO_CONSTANTS.locale,
     url: `${SEO_CONSTANTS.siteUrl}/pre-taxiky`,
@@ -59,8 +59,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     site: SEO_CONSTANTS.twitterSite,
-    title: 'Pre taxislužby - PREMIUM a PARTNER program | Taxi NearMe',
-    description: 'Zvýšte viditeľnosť vašej taxislužby na najväčšom českom portáli.',
+    title: 'Pro taxislužby - PREMIUM a PARTNER program | Taxi NearMe',
+    description: 'Zvyšte viditelnost vaší taxislužby na největším českém portálu.',
     images: [SEO_CONSTANTS.defaultImage],
   },
   alternates: {
@@ -75,26 +75,26 @@ function Footer() {
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-sm text-slate-400 font-medium text-center md:text-left">
-            © 2025 Taxi NearMe. Všetky práva vyhradené.
+            © 2025 Taxi NearMe. Všechna práva vyhrazena.
           </div>
           <div className="flex flex-wrap justify-center gap-6 md:gap-8">
             <Link
               href="/ochrana-sukromia"
               className="text-sm text-slate-400 hover:text-yellow-400 transition-colors"
             >
-              Ochrana súkromia
+              Ochrana soukromí
             </Link>
             <Link
               href="/podmienky-pouzivania"
               className="text-sm text-slate-400 hover:text-yellow-400 transition-colors"
             >
-              Podmienky používania
+              Podmínky používání
             </Link>
             <Link
               href="/obchodne-podmienky"
               className="text-sm text-slate-400 hover:text-yellow-400 transition-colors"
             >
-              Obchodné podmienky
+              Obchodní podmínky
             </Link>
             <Link
               href="/"
@@ -124,7 +124,7 @@ export default function PreTaxikyPage() {
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="text-center max-w-4xl mx-auto mb-10 md:mb-16">
             <h1 className="text-3xl md:text-6xl lg:text-7xl font-black text-white mb-6 md:mb-8 leading-tight tracking-tight">
-              Získajte viac jázd s
+              Získejte více jízd s
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-500 drop-shadow-sm">
                 TaxiNearMe
@@ -132,15 +132,15 @@ export default function PreTaxikyPage() {
             </h1>
 
             <p className="text-base md:text-xl text-slate-400 max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed">
-              Najväčší český portál taxislužieb. Prestaňte čakať na dispečingu a buďte tam, kde
-              vás zákazníci aktívne hľadajú – <strong>priamo v ich mobile</strong>.
+              Největší český portál taxislužeb. Přestaňte čekat na dispečinku a buďte tam, kde
+              vás zákazníci aktivně hledají – <strong>přímo v jejich mobilu</strong>.
             </p>
 
             {/* Hero Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 max-w-4xl mx-auto">
               {[
-                { label: 'Miest a obcí', value: '2 897+', icon: MapPin, color: 'text-purple-400' },
-                { label: 'Taxislužieb', value: '1 000+', icon: Rocket, color: 'text-yellow-400' },
+                { label: 'Měst a obcí', value: '2 897+', icon: MapPin, color: 'text-purple-400' },
+                { label: 'Taxislužeb', value: '1 000+', icon: Rocket, color: 'text-yellow-400' },
                 {
                   label: 'Zobrazení/mes',
                   value: '100k+',
@@ -148,7 +148,7 @@ export default function PreTaxikyPage() {
                   color: 'text-blue-400',
                 },
                 {
-                  label: 'Spokojných partnerov',
+                  label: 'Spokojených partnerů',
                   value: '100%',
                   icon: ShieldCheck,
                   color: 'text-green-400',
@@ -172,9 +172,9 @@ export default function PreTaxikyPage() {
       <section className="py-12 md:py-20 px-4 md:px-8 bg-slate-950 relative">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-10 md:mb-16">
-            <h2 className="text-2xl md:text-5xl font-black text-white mb-4 md:mb-6">Prečo TaxiNearMe?</h2>
+            <h2 className="text-2xl md:text-5xl font-black text-white mb-4 md:mb-6">Proč TaxiNearMe?</h2>
             <p className="text-sm md:text-lg text-slate-400 max-w-2xl mx-auto">
-              Nie sme len ďalší zoznam. Sme technologická platforma, ktorá rozumie potrebám modernej
+              Nejsme jen další seznam. Jsme technologická platforma, která rozumí potřebám moderní
               taxislužby.
             </p>
           </div>
@@ -186,10 +186,10 @@ export default function PreTaxikyPage() {
               <CardContent className="p-6 md:p-8 h-full flex flex-col justify-end relative z-10">
                 <div className="absolute top-6 right-6 md:top-8 md:right-8 w-16 h-16 md:w-24 md:h-24 bg-purple-500/30 rounded-full blur-2xl md:blur-3xl group-hover:bg-purple-500/40 transition-all" />
                 <Search className="h-8 w-8 md:h-12 md:w-12 text-purple-400 mb-4 md:mb-6" />
-                <h3 className="text-xl md:text-2xl font-bold text-white mb-2 md:mb-3">Dominantné SEO</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-white mb-2 md:mb-3">Dominantní SEO</h3>
                 <p className="text-slate-300 text-sm md:text-lg leading-relaxed">
-                  Keď niekto hľadá "taxi [vaše mesto]", nájde nás. A cez nás nájde vás. Investujeme
-                  tisíce hodín do optimalizácie, aby ste vy nemuseli.
+                  Když někdo hledá "taxi [vaše město]", najde nás. A přes nás najde vás. Investujeme
+                  tisíce hodin do optimalizace, abyste vy nemuseli.
                 </p>
               </CardContent>
             </Card>
@@ -198,10 +198,10 @@ export default function PreTaxikyPage() {
             <Card className="bg-slate-900/50 border-white/10 hover:border-yellow-400/30 transition-colors">
               <CardContent className="p-5 md:p-6">
                 <Users className="h-6 w-6 md:h-8 md:w-8 text-yellow-400 mb-3 md:mb-4" />
-                <h3 className="text-lg md:text-xl font-bold text-white mb-1.5 md:mb-2">Cielená klientela</h3>
+                <h3 className="text-lg md:text-xl font-bold text-white mb-1.5 md:mb-2">Cílená klientela</h3>
                 <p className="text-slate-400 text-xs md:text-sm">
-                  Ľudia u nás nehľadajú pizzu ani počasie. Hľadajú odvoz. Konverzný pomer je
-                  maximálny.
+                  Lidé u nás nehledají pizzu ani počasí. Hledají odvoz. Konverzní poměr je
+                  maximální.
                 </p>
               </CardContent>
             </Card>
@@ -212,8 +212,8 @@ export default function PreTaxikyPage() {
                 <Smartphone className="h-6 w-6 md:h-8 md:w-8 text-blue-400 mb-3 md:mb-4" />
                 <h3 className="text-lg md:text-xl font-bold text-white mb-1.5 md:mb-2">Mobile First</h3>
                 <p className="text-slate-400 text-xs md:text-sm">
-                  92% našich návštevníkov prichádza z mobilu. Váš profil je optimalizovaný pre
-                  rýchle vytočenie čísla.
+                  92% našich návštěvníků přichází z mobilu. Váš profil je optimalizovaný pro
+                  rychlé vytočení čísla.
                 </p>
               </CardContent>
             </Card>
@@ -222,10 +222,10 @@ export default function PreTaxikyPage() {
             <Card className="bg-slate-900/50 border-white/10 hover:border-green-400/30 transition-colors">
               <CardContent className="p-5 md:p-6">
                 <Zap className="h-6 w-6 md:h-8 md:w-8 text-green-400 mb-3 md:mb-4" />
-                <h3 className="text-lg md:text-xl font-bold text-white mb-1.5 md:mb-2">Okamžitá aktivácia</h3>
+                <h3 className="text-lg md:text-xl font-bold text-white mb-1.5 md:mb-2">Okamžitá aktivace</h3>
                 <p className="text-slate-400 text-xs md:text-sm">
-                  Žiadne zmluvy poštou. Aktivácia profilu prebieha online a zmeny vidíte do 24
-                  hodín.
+                  Žádné smlouvy poštou. Aktivace profilu probíhá online a změny vidíte do 24
+                  hodin.
                 </p>
               </CardContent>
             </Card>
@@ -234,10 +234,10 @@ export default function PreTaxikyPage() {
             <Card className="md:col-span-2 bg-gradient-to-r from-slate-900 to-slate-800 border-white/10 flex flex-col md:flex-row items-center overflow-hidden">
               <CardContent className="p-6 md:p-8 flex-1">
                 <Award className="h-8 w-8 md:h-10 md:w-10 text-yellow-400 mb-3 md:mb-4" />
-                <h3 className="text-lg md:text-xl font-bold text-white mb-2">Budovanie dôvery</h3>
+                <h3 className="text-lg md:text-xl font-bold text-white mb-2">Budování důvěry</h3>
                 <p className="text-slate-400 text-sm md:text-base">
-                  Profil na TaxiNearMe s odznakom "Overená taxislužba" zvyšuje vašu kredibilitu v
-                  očiach zákazníkov.
+                  Profil na TaxiNearMe s odznakem "Ověřená taxislužba" zvyšuje vaši kredibilitu v
+                  očích zákazníků.
                 </p>
               </CardContent>
               <div className="h-full w-full md:w-1/3 bg-white/5 flex items-center justify-center p-6 md:p-8">
@@ -259,8 +259,8 @@ export default function PreTaxikyPage() {
       <section className="py-12 md:py-20 px-4 md:px-8 border-y border-white/5 bg-slate-900/20">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-10 md:mb-16">
-            <h2 className="text-2xl md:text-3xl font-black text-white mb-4">Ako to funguje?</h2>
-            <p className="text-sm md:text-base text-slate-400">Tri jednoduché kroky k novým zákazníkom</p>
+            <h2 className="text-2xl md:text-3xl font-black text-white mb-4">Jak to funguje?</h2>
+            <p className="text-sm md:text-base text-slate-400">Tři jednoduché kroky k novým zákazníkům</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 relative">
             {/* Connector Line */}
@@ -270,17 +270,17 @@ export default function PreTaxikyPage() {
               {
                 step: '01',
                 title: 'Vyberte si balíček',
-                desc: 'Zvoľte si úroveň viditeľnosti, ktorá vám vyhovuje.',
+                desc: 'Zvolte si úroveň viditelnosti, která vám vyhovuje.',
               },
               {
                 step: '02',
                 title: 'Vyplňte údaje',
-                desc: 'Pošleme vám krátky formulár pre vaše údaje a fotky.',
+                desc: 'Pošleme vám krátký formulář pro vaše údaje a fotky.',
               },
               {
                 step: '03',
-                title: 'Zarábajte',
-                desc: 'Váš profil spustíme do 24h a zákazníci vás začnú volať.',
+                title: 'Vydělávejte',
+                desc: 'Váš profil spustíme do 24h a zákazníci vás začnou volat.',
               },
             ].map((item, i) => (
               <div key={i} className="relative z-10 text-center group">
@@ -304,10 +304,10 @@ export default function PreTaxikyPage() {
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="text-center mb-10 md:mb-16">
             <h2 className="text-2xl md:text-5xl font-black text-white mb-3 md:mb-4">
-              Investícia, ktorá sa vráti
+              Investice, která se vrátí
             </h2>
             <p className="text-sm md:text-lg text-slate-400">
-              Stačí <strong>jediná jazda mesačne</strong> navyše a máte to zaplatené.
+              Stačí <strong>jediná jízda měsíčně</strong> navíc a máte to zaplacené.
             </p>
           </div>
 
@@ -318,24 +318,24 @@ export default function PreTaxikyPage() {
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <CardTitle className="text-xl md:text-2xl font-bold text-white mb-1 md:mb-2">PREMIUM</CardTitle>
-                    <p className="text-slate-400 text-xs md:text-sm">Pre začínajúce taxislužby</p>
+                    <p className="text-slate-400 text-xs md:text-sm">Pro začínající taxislužby</p>
                   </div>
                   <Crown className="h-6 w-6 md:h-8 md:w-8 text-slate-600" />
                 </div>
                 <div className="flex items-baseline gap-2">
                   <span className="text-3xl md:text-4xl font-black text-white">3,99€</span>
-                  <span className="text-slate-500 text-sm md:text-base font-medium">/ mesiac</span>
+                  <span className="text-slate-500 text-sm md:text-base font-medium">/ měsíc</span>
                 </div>
-                <div className="text-xs md:text-sm text-slate-500 line-through mt-1">Bežne 5,99€</div>
+                <div className="text-xs md:text-sm text-slate-500 line-through mt-1">Běžně 5,99€</div>
               </CardHeader>
               <CardContent className="pt-6 md:pt-8 p-6 md:p-8">
                 <ul className="space-y-3 md:space-y-4 mb-6 md:mb-8">
                   {[
-                    'Prednostné zobrazenie v zozname',
-                    'Zlaté zvýraznenie profilu',
-                    'Badge "Overená taxislužba"',
-                    'Väčšie tlačidlo na volanie',
-                    'Zobrazenie loga',
+                    'Přednostní zobrazení v seznamu',
+                    'Zlaté zvýraznění profilu',
+                    'Badge "Ověřená taxislužba"',
+                    'Větší tlačítko na volání',
+                    'Zobrazení loga',
                   ].map((feat, i) => (
                     <li key={i} className="flex items-start gap-3 text-slate-300 text-sm md:text-base">
                       <CheckCircle2 className="h-5 w-5 text-slate-500 flex-shrink-0 mt-0.5" />
@@ -349,7 +349,7 @@ export default function PreTaxikyPage() {
                   rel="noopener noreferrer"
                   className="w-full inline-flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold px-6 py-3 md:py-4 rounded-xl transition-all text-sm md:text-base"
                 >
-                  Vybrať PREMIUM
+                  Vybrat PREMIUM
                 </a>
               </CardContent>
             </Card>
@@ -357,13 +357,13 @@ export default function PreTaxikyPage() {
             {/* PARTNER Package */}
             <Card className="relative bg-gradient-to-b from-slate-900 to-slate-950 border-2 border-yellow-400/50 shadow-2xl shadow-yellow-400/10 transform md:-translate-y-4 order-1 md:order-2">
               <div className="absolute top-0 left-1/2 -translate-x-1/2 bg-yellow-400 text-slate-950 text-[10px] md:text-xs font-black px-4 py-1 rounded-b-lg tracking-widest uppercase whitespace-nowrap">
-                Najpredávanejšie
+                Nejprodávanější
               </div>
               <CardHeader className="pb-6 md:pb-8 border-b border-white/10 p-6 md:p-8">
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <CardTitle className="text-xl md:text-2xl font-bold text-yellow-400 mb-1 md:mb-2">PARTNER</CardTitle>
-                    <p className="text-slate-300 text-xs md:text-sm">Kompletná digitálna prezentácia</p>
+                    <p className="text-slate-300 text-xs md:text-sm">Kompletní digitální prezentace</p>
                   </div>
                   <div className="w-10 h-10 md:w-12 md:h-12 bg-yellow-400/20 rounded-lg flex items-center justify-center">
                     <Star className="h-5 w-5 md:h-6 md:w-6 text-yellow-400 fill-yellow-400" />
@@ -371,20 +371,20 @@ export default function PreTaxikyPage() {
                 </div>
                 <div className="flex items-baseline gap-2">
                   <span className="text-4xl md:text-5xl font-black text-white">8,99€</span>
-                  <span className="text-slate-500 text-sm md:text-base font-medium">/ mesiac</span>
+                  <span className="text-slate-500 text-sm md:text-base font-medium">/ měsíc</span>
                 </div>
-                <div className="text-xs md:text-sm text-slate-500 line-through mt-1">Bežne 12,99€</div>
+                <div className="text-xs md:text-sm text-slate-500 line-through mt-1">Běžně 12,99€</div>
               </CardHeader>
               <CardContent className="pt-6 md:pt-8 p-6 md:p-8">
                 <ul className="space-y-3 md:space-y-4 mb-6 md:mb-8">
                   {[
-                    'Všetky výhody PREMIUM',
-                    'Vlastná personalizovaná stránka',
-                    'Fotogaléria vozidiel',
-                    'Rozšírený popis služieb a cenník',
-                    'Partner portál - obsah si môžete upravovať okamžite aj sami',
-                    'Import Google recenzií',
-                    'Prioritná podpora 24/7',
+                    'Všechny výhody PREMIUM',
+                    'Vlastní personalizovaná stránka',
+                    'Fotogalerie vozidel',
+                    'Rozšířený popis služeb a ceník',
+                    'Partner portál - obsah si můžete upravovat okamžitě i sami',
+                    'Import Google recenzí',
+                    'Prioritní podpora 24/7',
                   ].map((feat, i) => (
                     <li key={i} className="flex items-start gap-3 text-white text-sm md:text-base">
                       <CheckCircle2 className="h-5 w-5 text-yellow-400 flex-shrink-0 mt-0.5" />
@@ -399,7 +399,7 @@ export default function PreTaxikyPage() {
                     rel="noopener noreferrer"
                     className="w-full inline-flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-slate-900 font-black px-6 py-3 md:py-4 rounded-xl transition-all shadow-lg shadow-yellow-400/20 hover:shadow-yellow-400/30 hover:scale-[1.02] text-sm md:text-base"
                   >
-                    Stať sa PARTNEROM
+                    Stát se PARTNEREM
                     <ArrowRight className="h-5 w-5" />
                   </a>
                   <div className="text-center">
@@ -407,7 +407,7 @@ export default function PreTaxikyPage() {
                       href="/taxi/zvolen/fast-taxi-zvolen"
                       className="text-xs md:text-sm text-slate-400 hover:text-white underline underline-offset-4 decoration-slate-700 hover:decoration-white transition-all"
                     >
-                      Pozrieť ukážku partnera
+                      Prohlédnout ukázku partnera
                     </Link>
                   </div>
                 </div>
@@ -421,40 +421,40 @@ export default function PreTaxikyPage() {
       <section className="py-12 md:py-20 px-4 md:px-8 bg-slate-900/30">
         <div className="container mx-auto max-w-3xl">
           <div className="text-center mb-8 md:mb-12">
-            <h2 className="text-2xl md:text-3xl font-black text-white mb-4">Časté otázky</h2>
+            <h2 className="text-2xl md:text-3xl font-black text-white mb-4">Časté dotazy</h2>
           </div>
           
           <Accordion type="single" collapsible className="w-full space-y-3 md:space-y-4">
             <AccordionItem value="item-1" className="border border-white/10 rounded-lg px-4 md:px-6 bg-white/5">
               <AccordionTrigger className="text-white text-sm md:text-base hover:no-underline hover:text-yellow-400">
-                Ako prebieha platba?
+                Jak probíhá platba?
               </AccordionTrigger>
               <AccordionContent className="text-slate-400 text-sm md:text-base">
-                Platba prebieha bezpečne cez platobnú bránu Stripe. Predplatné sa automaticky obnovuje každý mesiac, no môžete ho kedykoľvek zrušiť jedným kliknutím.
+                Platba probíhá bezpečně přes platební bránu Stripe. Předplatné se automaticky obnovuje každý měsíc, ale můžete ho kdykoliv zrušit jedním kliknutím.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2" className="border border-white/10 rounded-lg px-4 md:px-6 bg-white/5">
               <AccordionTrigger className="text-white text-sm md:text-base hover:no-underline hover:text-yellow-400">
-                Mám viazanosť?
+                Mám závazek?
               </AccordionTrigger>
               <AccordionContent className="text-slate-400 text-sm md:text-base">
-                Nie, viazanosť nemáme, ale platby sú opakované (mesačné predplatné). Službu môžete kedykoľvek zrušiť, no zrušením platby strácate všetky výhody (zvýraznenie, vlastná stránka) a váš profil sa vráti do základného režimu.
+                Ne, závazek nemáme, ale platby jsou opakované (měsíční předplatné). Službu můžete kdykoliv zrušit, ale zrušením platby ztrácíte všechny výhody (zvýraznění, vlastní stránka) a váš profil se vrátí do základního režimu.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3" className="border border-white/10 rounded-lg px-4 md:px-6 bg-white/5">
               <AccordionTrigger className="text-white text-sm md:text-base hover:no-underline hover:text-yellow-400">
-                Čo potrebujem na vytvorenie profilu?
+                Co potřebuji k vytvoření profilu?
               </AccordionTrigger>
               <AccordionContent className="text-slate-400 text-sm md:text-base">
-                Po zaplatení vás budeme kontaktovať. Budeme potrebovať vaše logo, fotky áut (ak máte Partner balík), telefónne číslo a základné info o službách. Všetko nastavíme za vás.
+                Po zaplacení vás budeme kontaktovat. Budeme potřebovat vaše logo, fotky aut (pokud máte Partner balík), telefonní číslo a základní info o službách. Vše nastavíme za vás.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4" className="border border-white/10 rounded-lg px-4 md:px-6 bg-white/5">
               <AccordionTrigger className="text-white text-sm md:text-base hover:no-underline hover:text-yellow-400">
-                Garantujete mi zákazníkov?
+                Garantujete mi zákazníky?
               </AccordionTrigger>
               <AccordionContent className="text-slate-400 text-sm md:text-base">
-                Garantujeme vám zvýšenú viditeľnosť na najnavštevovanejšom taxi portáli. Počet reálnych jázd závisí od dopytu vo vašom meste a vašej dostupnosti, no naši partneri hlásia návratnosť investície už po prvých dňoch.
+                Garantujeme vám zvýšenou viditelnost na nejnavštěvovanějším taxi portálu. Počet reálných jízd závisí na poptávce ve vašem městě a vaší dostupnosti, ale naši partneři hlásí návratnost investice už po prvních dnech.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -467,10 +467,10 @@ export default function PreTaxikyPage() {
         <div className="container mx-auto max-w-4xl text-center relative z-10">
           <HelpCircle className="h-10 w-10 md:h-12 md:w-12 text-slate-500 mx-auto mb-4 md:mb-6" />
           <h2 className="text-2xl md:text-4xl font-black text-white mb-4 md:mb-6">
-            Máte ďalšie otázky?
+            Máte další dotazy?
           </h2>
           <p className="text-slate-400 text-sm md:text-base mb-6 md:mb-8 max-w-xl mx-auto">
-            Sme tu pre vás. Napíšte nám a radi vám vysvetlíme, ako môžeme pomôcť vašej taxislužbe rásť.
+            Jsme tu pro vás. Napište nám a rádi vám vysvětlíme, jak můžeme pomoci vaší taxislužbě růst.
           </p>
           <a
             href="mailto:info@taxinearme.cz"

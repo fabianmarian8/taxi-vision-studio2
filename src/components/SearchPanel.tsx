@@ -7,7 +7,7 @@ import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 import { findNearestCity } from "@/lib/locationUtils";
-import { slovakCities } from "@/data/cities";
+import { czechCities } from "@/data/cities";
 import { allMunicipalities } from "@/data/municipalities";
 import { locations } from "@/data/locations";
 import { looksLikePostalCode, findByPostalCode, normalizePostalCode } from "@/data/postal-codes";
@@ -89,7 +89,7 @@ export const SearchPanel = () => {
 
       // Search in cities (with taxi services) - supports search without diacritics
       // Obce s isVillage: true dostanú type 'municipality' pre správne zobrazenie odznaku
-      const filteredCities = slovakCities
+      const filteredCities = czechCities
         .filter((city) => normalizeText(city.name).includes(normalizedSearch))
         .map((city) => ({
           name: city.name,
@@ -112,7 +112,7 @@ export const SearchPanel = () => {
       // Search in municipalities (without taxi services in our DB)
       const filteredMunicipalities = allMunicipalities
         .filter((mun) => normalizeText(mun.name).includes(normalizedSearch))
-        .filter((mun) => !slovakCities.some(city => city.slug === mun.slug)) // Exclude duplicates
+        .filter((mun) => !czechCities.some(city => city.slug === mun.slug)) // Exclude duplicates
         .map((mun) => ({ name: mun.name, region: mun.region, district: mun.district, slug: mun.slug, type: 'municipality' as const }));
 
       // Combine: cities first, then locations, then municipalities
@@ -178,7 +178,7 @@ export const SearchPanel = () => {
     const normalizedSearch = normalizeText(trimmedSearch);
 
     // Try exact match first in cities (supports search without diacritics)
-    const exactCityMatch = slovakCities.find(
+    const exactCityMatch = czechCities.find(
       (city) => normalizeText(city.name) === normalizedSearch
     );
 
@@ -285,7 +285,7 @@ export const SearchPanel = () => {
           const detectedRegion = data.address?.state || "";
 
           // Check if the detected city exists in our database
-          const cityInDatabase = slovakCities.find(
+          const cityInDatabase = czechCities.find(
             (city) =>
               city.name.toLowerCase() === detectedCity.toLowerCase()
           );
@@ -313,7 +313,7 @@ export const SearchPanel = () => {
             );
 
             if (nearestCity) {
-              const nearestCityData = slovakCities.find(
+              const nearestCityData = czechCities.find(
                 (c) => c.name === nearestCity
               );
 

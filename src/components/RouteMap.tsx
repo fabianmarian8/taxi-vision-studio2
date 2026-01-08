@@ -90,7 +90,7 @@ export function RouteMap({
     isAccurate = false;
   }
 
-  // Cena - manuálny override má prioritu
+  // Cena - manuální override má prioritu
   const calculatedPrice = estimateRoadTaxiPrice(roadDistance);
   const price = {
     min: manualPriceMin ?? calculatedPrice.min,
@@ -114,7 +114,7 @@ export function RouteMap({
     // Add start marker
     L.marker(fromPosition, { icon: startIcon })
       .addTo(map)
-      .bindPopup(`<div class="font-bold">${fromName}</div><div class="text-sm">Začiatok trasy</div>`);
+      .bindPopup(`<div class="font-bold">${fromName}</div><div class="text-sm">Začátek trasy</div>`);
 
     // Add end marker
     L.marker(toPosition, { icon: endIcon })
@@ -159,7 +159,7 @@ export function RouteMap({
         <div className="grid grid-cols-3 gap-4 text-center">
           <div className="flex flex-col items-center">
             <Navigation className="h-5 w-5 text-primary-yellow mb-1" />
-            <span className="text-xs text-foreground/60 font-medium">Vzdialenosť</span>
+            <span className="text-xs text-foreground/60 font-medium">Vzdálenost</span>
             <span className="text-lg font-black text-foreground">
               {roadDistance} km
             </span>
@@ -169,7 +169,7 @@ export function RouteMap({
           </div>
           <div className="flex flex-col items-center">
             <Clock className="h-5 w-5 text-primary-yellow mb-1" />
-            <span className="text-xs text-foreground/60 font-medium">Čas jazdy</span>
+            <span className="text-xs text-foreground/60 font-medium">Doba jízdy</span>
             <span className="text-lg font-black text-foreground">
               {duration} min
             </span>
@@ -184,9 +184,9 @@ export function RouteMap({
         </div>
       </div>
 
-      {/* Disclaimer pre ceny - len mobile, nad mapou */}
+      {/* Disclaimer pro ceny - jen mobile, nad mapou */}
       <p className="text-xs text-center text-foreground/50 md:hidden">
-        * Uvedené ceny sú orientačné a môžu sa líšiť v závislosti od konkrétnej taxi služby.
+        * Uvedené ceny jsou orientační a mohou se lišit v závislosti na konkrétní taxi službě.
       </p>
 
       {/* Map */}
@@ -198,9 +198,9 @@ export function RouteMap({
         />
       </div>
 
-      {/* Disclaimer pre ceny - desktop, pod mapou */}
+      {/* Disclaimer pro ceny - desktop, pod mapou */}
       <p className="text-xs text-center text-foreground/50 mt-3 hidden md:block">
-        * Uvedené ceny sú orientačné a môžu sa líšiť v závislosti od konkrétnej taxi služby, typu vozidla, času jazdy a aktuálnej dopravnej situácie.
+        * Uvedené ceny jsou orientační a mohou se lišit v závislosti na konkrétní taxi službě, typu vozidla, době jízdy a aktuální dopravní situaci.
       </p>
     </div>
   );

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSession } from '@/lib/auth';
-import { slovakCities } from '@/data/cities';
+import { czechCities } from '@/data/cities';
 
 // GET - zoznam všetkých miest
 export async function GET(request: NextRequest) {
@@ -9,10 +9,10 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  console.log('[API] Cities list requested, total:', slovakCities.length);
+  console.log('[API] Cities list requested, total:', czechCities.length);
 
   return NextResponse.json({
-    cities: slovakCities,
-    total: slovakCities.length,
+    cities: czechCities,
+    total: czechCities.length,
   });
 }
