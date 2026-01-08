@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2025-12-12T18:33:59.197Z",
+  "checked": 149,
+  "errors": 0,
+  "thresholdPercent": 20,
+  "discrepancies": [
+    {
+      "municipalitySlug": "visnove",
+      "citySlug": "stara-tura",
+      "orsDistance": 10.9,
+      "osrmDistance": 116.7,
+      "orsDuration": 13,
+      "osrmDuration": 87,
+      "differenceKm": 105.8,
+      "differencePercent": 970.6422018348624
+    },
+    {
+      "municipalitySlug": "zavada",
+      "citySlug": "chynorany",
+      "orsDistance": 23,
+      "osrmDistance": 156.8,
+      "orsDuration": 25,
+      "osrmDuration": 133,
+      "differenceKm": 133.8,
+      "differencePercent": 581.7391304347826
+    },
+    {
+      "municipalitySlug": "petrovce",
+      "citySlug": "lucenec",
+      "orsDistance": 37.5,
+      "osrmDistance": 252.1,
+      "orsDuration": 43,
+      "osrmDuration": 241,
+      "differenceKm": 214.6,
+      "differencePercent": 572.2666666666667
+    },
+    {
+      "municipalitySlug": "zavada",
+      "citySlug": "banovce-nad-bebravou",
+      "orsDistance": 29.6,
+      "osrmDistance": 165,
+      "orsDuration": 35,
+      "osrmDuration": 143,
+      "differenceKm": 135.4,
+      "differencePercent": 457.43243243243245
+    },
+    {
+      "municipalitySlug": "milpos",
+      "citySlug": "bardejov",
+      "orsDistance": 37.2,
+      "osrmDistance": 62.3,
+      "orsDuration": 62,
+      "osrmDuration": 68,
+      "differenceKm": 25.099999999999994,
+      "differencePercent": 67.47311827956987
+    },
+    {
+      "municipalitySlug": "bystricka",
+      "citySlug": "martin",
+      "orsDistance": 5.5,
+      "osrmDistance": 8.9,
+      "orsDuration": 10,
+      "osrmDuration": 22,
+      "differenceKm": 3.4000000000000004,
+      "differencePercent": 61.81818181818183
+    },
+    {
+      "municipalitySlug": "stupne",
+      "citySlug": "puchov",
+      "orsDistance": 16.8,
+      "osrmDistance": 24.7,
+      "orsDuration": 23,
+      "osrmDuration": 28,
+      "differenceKm": 7.899999999999999,
+      "differencePercent": 47.02380952380951
+    },
+    {
+      "municipalitySlug": "vojka-nad-dunajom",
+      "citySlug": "dunajska-streda",
+      "orsDistance": 32.8,
+      "osrmDistance": 21,
+      "orsDuration": 30,
+      "osrmDuration": 28,
+      "differenceKm": 11.799999999999997,
+      "differencePercent": 35.975609756097555
+    },
+    {
+      "municipalitySlug": "ptruksa",
+      "citySlug": "biel",
+      "orsDistance": 27.2,
+      "osrmDistance": 36.3,
+      "orsDuration": 31,
+      "osrmDuration": 38,
+      "differenceKm": 9.099999999999998,
+      "differencePercent": 33.45588235294117
+    },
+    {
+      "municipalitySlug": "nevolne",
+      "citySlug": "handlova",
+      "orsDistance": 33.2,
+      "osrmDistance": 43.3,
+      "orsDuration": 47,
+      "osrmDuration": 48,
+      "differenceKm": 10.099999999999994,
+      "differencePercent": 30.42168674698793
+    },
+    {
+      "municipalitySlug": "ptruksa",
+      "citySlug": "cierna-nad-tisou",
+      "orsDistance": 30,
+      "osrmDistance": 39.1,
+      "orsDuration": 34,
+      "osrmDuration": 42,
+      "differenceKm": 9.100000000000001,
+      "differencePercent": 30.33333333333334
+    },
+    {
+      "municipalitySlug": "bansky-studenec",
+      "citySlug": "krupina",
+      "orsDistance": 20.2,
+      "osrmDistance": 25,
+      "orsDuration": 32,
+      "osrmDuration": 36,
+      "differenceKm": 4.800000000000001,
+      "differencePercent": 23.762376237623766
+    },
+    {
+      "municipalitySlug": "boliarov",
+      "citySlug": "kosice",
+      "orsDistance": 34.8,
+      "osrmDistance": 27.4,
+      "orsDuration": 31,
+      "osrmDuration": 29,
+      "differenceKm": 7.399999999999999,
+      "differencePercent": 21.26436781609195
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "fixes": [
+    {
+      "municipalitySlug": "jasenov-humenne",
+      "citySlug": "chlmec",
+      "oldRoad": 2.9,
+      "newRoad": 8.4,
+      "oldDuration": 3,
+      "newDuration": 10,
+      "airDistance": 2.2
+    },
+    {
+      "municipalitySlug": "dolne-oresany",
+      "citySlug": "horne-oresany",
+      "oldRoad": 3.9,
+      "newRoad": 21.4,
+      "oldDuration": 5,
+      "newDuration": 28,
+      "airDistance": 3.2
+    },
+    {
+      "municipalitySlug": "dobra-voda",
+      "citySlug": "brezova-pod-bradlom",
+      "oldRoad": 12.6,
+      "newRoad": 39.2,
+      "oldDuration": 26,
+      "newDuration": 39,
+      "airDistance": 7.2
+    },
+    {
+      "municipalitySlug": "velke-ulany",
+      "citySlug": "sladkovicovo",
+      "oldRoad": 8.5,
+      "newRoad": 22.7,
+      "oldDuration": 10,
+      "newDuration": 24,
+      "airDistance": 6.9
+    },
+    {
+      "municipalitySlug": "pavlany",
+      "citySlug": "spisske-podhradie",
+      "oldRoad": 8.9,
+      "newRoad": 24.7,
+      "oldDuration": 18,
+      "newDuration": 25,
+      "airDistance": 6.9
+    },
+    {
+      "municipalitySlug": "uhliska",
+      "citySlug": "nova-bana",
+      "oldRoad": 17.7,
+      "newRoad": 47.5,
+      "oldDuration": 21,
+      "newDuration": 46,
+      "airDistance": 8.5
+    },
+    {
+      "municipalitySlug": "pritulany",
+      "citySlug": "stropkov",
+      "oldRoad": 16.6,
+      "newRoad": 44.6,
+      "oldDuration": 33,
+      "newDuration": 42,
+      "airDistance": 12
+    },
+    {
+      "municipalitySlug": "pukanec",
+      "citySlug": "nova-bana",
+      "oldRoad": 15.2,
+      "newRoad": 39.3,
+      "oldDuration": 33,
+      "newDuration": 36,
+      "airDistance": 10.3
+    },
+    {
+      "municipalitySlug": "luborec",
+      "citySlug": "modry-kamen",
+      "oldRoad": 21.4,
+      "newRoad": 54.4,
+      "oldDuration": 22,
+      "newDuration": 54,
+      "airDistance": 15.6
+    },
+    {
+      "municipalitySlug": "luborec",
+      "citySlug": "velky-krtis",
+      "oldRoad": 20.7,
+      "newRoad": 52.1,
+      "oldDuration": 22,
+      "newDuration": 52,
+      "airDistance": 16.7
+    },
+    {
+      "municipalitySlug": "banska-bela",
+      "citySlug": "bansky-studenec",
+      "oldRoad": 5.1,
+      "newRoad": 11.6,
+      "oldDuration": 15,
+      "newDuration": 16,
+      "airDistance": 3.7
+    },
+    {
+      "municipalitySlug": "bohunice-levice",
+      "citySlug": "nova-bana",
+      "oldRoad": 18.3,
+      "newRoad": 41.7,
+      "oldDuration": 36,
+      "newDuration": 38,
+      "airDistance": 13
+    },
+    {
+      "municipalitySlug": "dolna-poruba",
+      "citySlug": "ilava",
+      "oldRoad": 13.1,
+      "newRoad": 28.6,
+      "oldDuration": 19,
+      "newDuration": 29,
+      "airDistance": 10.8
+    },
+    {
+      "municipalitySlug": "dolany-pezinok",
+      "citySlug": "horne-oresany",
+      "oldRoad": 8.7,
+      "newRoad": 25,
+      "oldDuration": 10,
+      "newDuration": 31,
+      "airDistance": 7.3
+    },
+    {
+      "municipalitySlug": "babina",
+      "citySlug": "bansky-studenec",
+      "oldRoad": 15.2,
+      "newRoad": 31.3,
+      "oldDuration": 32,
+      "newDuration": 37,
+      "airDistance": 9
+    },
+    {
+      "municipalitySlug": "ratkovske-bystre",
+      "citySlug": "tisovec",
+      "oldRoad": 19.3,
+      "newRoad": 39,
+      "oldDuration": 32,
+      "newDuration": 46,
+      "airDistance": 9.4
+    },
+    {
+      "municipalitySlug": "dubove-turcianske-teplice",
+      "citySlug": "handlova",
+      "oldRoad": 23.3,
+      "newRoad": 45.4,
+      "oldDuration": 43,
+      "newDuration": 46,
+      "airDistance": 14.4
+    },
+    {
+      "municipalitySlug": "pukanec",
+      "citySlug": "zarnovica",
+      "oldRoad": 25.2,
+      "newRoad": 49,
+      "oldDuration": 38,
+      "newDuration": 40,
+      "airDistance": 14.9
+    },
+    {
+      "municipalitySlug": "dlha-nad-kysucou",
+      "citySlug": "kysucke-nove-mesto",
+      "oldRoad": 20,
+      "newRoad": 37.9,
+      "oldDuration": 38,
+      "newDuration": 41,
+      "airDistance": 14.7
+    },
+    {
+      "municipalitySlug": "neslusa",
+      "citySlug": "turzovka",
+      "oldRoad": 19.9,
+      "newRoad": 39.7,
+      "oldDuration": 37,
+      "newDuration": 45,
+      "airDistance": 13.8
+    },
+    {
+      "municipalitySlug": "brehy",
+      "citySlug": "batovce",
+      "oldRoad": 20.9,
+      "newRoad": 38.9,
+      "oldDuration": 38,
+      "newDuration": 34,
+      "airDistance": 14.6
+    },
+    {
+      "municipalitySlug": "mala-lehota",
+      "citySlug": "zarnovica",
+      "oldRoad": 15.8,
+      "newRoad": 29.3,
+      "oldDuration": 27,
+      "newDuration": 30,
+      "airDistance": 11.1
+    },
+    {
+      "municipalitySlug": "dekys",
+      "citySlug": "zarnovica",
+      "oldRoad": 19.6,
+      "newRoad": 35.8,
+      "oldDuration": 26,
+      "newDuration": 49,
+      "airDistance": 12
+    },
+    {
+      "municipalitySlug": "dobra-niva",
+      "citySlug": "bansky-studenec",
+      "oldRoad": 19.7,
+      "newRoad": 35.7,
+      "oldDuration": 37,
+      "newDuration": 40,
+      "airDistance": 10.1
+    },
+    {
+      "municipalitySlug": "dolna-krupa",
+      "citySlug": "boleraz",
+      "oldRoad": 10.3,
+      "newRoad": 18.5,
+      "oldDuration": 17,
+      "newDuration": 18,
+      "airDistance": 4.8
+    },
+    {
+      "municipalitySlug": "lehotka",
+      "citySlug": "modry-kamen",
+      "oldRoad": 27.7,
+      "newRoad": 49.8,
+      "oldDuration": 27,
+      "newDuration": 51,
+      "airDistance": 19.2
+    },
+    {
+      "municipalitySlug": "bohunice-levice",
+      "citySlug": "zarnovica",
+      "oldRoad": 28.8,
+      "newRoad": 51.3,
+      "oldDuration": 36,
+      "newDuration": 42,
+      "airDistance": 16.8
+    },
+    {
+      "municipalitySlug": "raksa",
+      "citySlug": "handlova",
+      "oldRoad": 30.2,
+      "newRoad": 52,
+      "oldDuration": 38,
+      "newDuration": 53,
+      "airDistance": 18.8
+    },
+    {
+      "municipalitySlug": "bzovska-lehotka",
+      "citySlug": "bansky-studenec",
+      "oldRoad": 22.6,
+      "newRoad": 38.9,
+      "oldDuration": 40,
+      "newDuration": 44,
+      "airDistance": 12.4
+    },
+    {
+      "municipalitySlug": "predmier",
+      "citySlug": "rajec",
+      "oldRoad": 21.2,
+      "newRoad": 36.4,
+      "oldDuration": 39,
+      "newDuration": 37,
+      "airDistance": 14.3
+    },
+    {
+      "municipalitySlug": "pliesovce",
+      "citySlug": "bansky-studenec",
+      "oldRoad": 22.5,
+      "newRoad": 38.7,
+      "oldDuration": 41,
+      "newDuration": 45,
+      "airDistance": 13.6
+    },
+    {
+      "municipalitySlug": "dolna-tizina",
+      "citySlug": "vrutky",
+      "oldRoad": 21.4,
+      "newRoad": 35.6,
+      "oldDuration": 32,
+      "newDuration": 35,
+      "airDistance": 12.1
+    },
+    {
+      "municipalitySlug": "podhradie-topolcany",
+      "citySlug": "horna-streda",
+      "oldRoad": 29.6,
+      "newRoad": 49.1,
+      "oldDuration": 52,
+      "newDuration": 53,
+      "airDistance": 15.3
+    },
+    {
+      "municipalitySlug": "olsavka-stropkov",
+      "citySlug": "svidnik",
+      "oldRoad": 14.4,
+      "newRoad": 23.8,
+      "oldDuration": 23,
+      "newDuration": 23,
+      "airDistance": 8.6
+    },
+    {
+      "municipalitySlug": "remetske-hamre",
+      "citySlug": "snina",
+      "oldRoad": 37.6,
+      "newRoad": 64.2,
+      "oldDuration": 52,
+      "newDuration": 65,
+      "airDistance": 15.7
+    },
+    {
+      "municipalitySlug": "olejnikov",
+      "citySlug": "bardejov",
+      "oldRoad": 36.9,
+      "newRoad": 60.4,
+      "oldDuration": 55,
+      "newDuration": 61,
+      "airDistance": 19.4
+    },
+    {
+      "municipalitySlug": "maly-cepcin",
+      "citySlug": "handlova",
+      "oldRoad": 31.7,
+      "newRoad": 51.5,
+      "oldDuration": 39,
+      "newDuration": 52,
+      "airDistance": 19.9
+    },
+    {
+      "municipalitySlug": "horna-poruba",
+      "citySlug": "trencianske-teplice",
+      "oldRoad": 16.7,
+      "newRoad": 26.7,
+      "oldDuration": 29,
+      "newDuration": 26,
+      "airDistance": 10.4
+    },
+    {
+      "municipalitySlug": "drienovo",
+      "citySlug": "sahy",
+      "oldRoad": 34.1,
+      "newRoad": 53.8,
+      "oldDuration": 56,
+      "newDuration": 53,
+      "airDistance": 19.9
+    },
+    {
+      "municipalitySlug": "handlova",
+      "citySlug": "kremnica",
+      "oldRoad": 26.2,
+      "newRoad": 40.3,
+      "oldDuration": 37,
+      "newDuration": 36,
+      "airDistance": 11.6
+    },
+    {
+      "municipalitySlug": "haj-turcianske-teplice",
+      "citySlug": "handlova",
+      "oldRoad": 27.8,
+      "newRoad": 54,
+      "oldDuration": 36,
+      "newDuration": 55,
+      "airDistance": 17.1
+    },
+    {
+      "municipalitySlug": "hlboke-nad-vahom",
+      "citySlug": "rajec",
+      "oldRoad": 23.4,
+      "newRoad": 35.9,
+      "oldDuration": 39,
+      "newDuration": 38,
+      "airDistance": 14
+    },
+    {
+      "municipalitySlug": "hacava",
+      "citySlug": "gelnica",
+      "oldRoad": 54.2,
+      "newRoad": 81.4,
+      "oldDuration": 80,
+      "newDuration": 85,
+      "airDistance": 21.9
+    }
+  ],
+  "errors": []
+}

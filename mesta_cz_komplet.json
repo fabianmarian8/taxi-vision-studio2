@@ -1,0 +1,3498 @@
+[
+  {
+    "name": "Abertamy",
+    "kod": "554979",
+    "lat": 50.368855,
+    "lon": 12.818377,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Adamov",
+    "kod": "535826",
+    "lat": 49.000624,
+    "lon": 14.539603,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Aš",
+    "kod": "554499",
+    "lat": 50.223983,
+    "lon": 12.195113,
+    "okres": "Cheb",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Bavorov",
+    "kod": "550809",
+    "lat": 49.121951,
+    "lon": 14.079028,
+    "okres": "Strakonice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Benešov",
+    "kod": "581330",
+    "lat": 49.509531,
+    "lon": 16.770698,
+    "okres": "Blansko",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Benešov nad Ploučnicí",
+    "kod": "562351",
+    "lat": 50.741692,
+    "lon": 14.3125,
+    "okres": "Děčín",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Bernartice",
+    "kod": "549266",
+    "lat": 49.368999,
+    "lon": 14.381118,
+    "okres": "Písek",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Beroun",
+    "kod": "531057",
+    "lat": 49.967305,
+    "lon": 14.086384,
+    "okres": "Beroun",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Bezdružice",
+    "kod": "560740",
+    "lat": 49.906771,
+    "lon": 12.971351,
+    "okres": "Tachov",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Bečov nad Teplou",
+    "kod": "554995",
+    "lat": 50.083561,
+    "lon": 12.838429,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Blansko",
+    "kod": "581283",
+    "lat": 49.36495,
+    "lon": 16.647855,
+    "okres": "Blansko",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Blatná",
+    "kod": "550850",
+    "lat": 49.424993,
+    "lon": 13.881864,
+    "okres": "Strakonice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Blovice",
+    "kod": "557587",
+    "lat": 49.582303,
+    "lon": 13.540199,
+    "okres": "Plzeň-jih",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Bohumín",
+    "kod": "599051",
+    "lat": 49.904426,
+    "lon": 18.357074,
+    "okres": "Karviná",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Bojkovice",
+    "kod": "592048",
+    "lat": 49.038744,
+    "lon": 17.814983,
+    "okres": "Uherské Hradiště",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Bor",
+    "kod": "560758",
+    "lat": 49.711706,
+    "lon": 12.775276,
+    "okres": "Tachov",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Borovany",
+    "kod": "544281",
+    "lat": 48.898704,
+    "lon": 14.642367,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Boskovice",
+    "kod": "581372",
+    "lat": 49.487612,
+    "lon": 16.660076,
+    "okres": "Blansko",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Boží Dar",
+    "kod": "506486",
+    "lat": 50.409844,
+    "lon": 12.924571,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Brandýs nad Orlicí",
+    "kod": "579947",
+    "lat": 50.002042,
+    "lon": 16.285384,
+    "okres": "Ústí nad Orlicí",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Brno",
+    "kod": "582786",
+    "lat": 49.19516,
+    "lon": 16.606937,
+    "okres": "Brno-město",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Broumov",
+    "kod": "573922",
+    "lat": 50.585758,
+    "lon": 16.331915,
+    "okres": "Náchod",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Brumov-Bylnice",
+    "kod": "585114",
+    "lat": 49.092465,
+    "lon": 18.022809,
+    "okres": "Zlín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Bučovice",
+    "kod": "592943",
+    "lat": 49.149402,
+    "lon": 17.003981,
+    "okres": "Vyškov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Buštěhrad",
+    "kod": "532169",
+    "lat": 50.156043,
+    "lon": 14.189083,
+    "okres": "Kladno",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Bystřice nad Pernštejnem",
+    "kod": "595411",
+    "lat": 49.523046,
+    "lon": 16.261571,
+    "okres": "Žďár nad Sázavou",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Bystřice pod Hostýnem",
+    "kod": "588393",
+    "lat": 49.399337,
+    "lon": 17.674121,
+    "okres": "Kroměříž",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Bzenec",
+    "kod": "586081",
+    "lat": 48.973463,
+    "lon": 17.266959,
+    "okres": "Hodonín",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Bílina",
+    "kod": "567451",
+    "lat": 50.548647,
+    "lon": 13.775459,
+    "okres": "Teplice",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Bělá nad Radbuzou",
+    "kod": "553441",
+    "lat": 49.591261,
+    "lon": 12.717718,
+    "okres": "Domažlice",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Břeclav",
+    "kod": "584291",
+    "lat": 48.75324,
+    "lon": 16.882617,
+    "okres": "Břeclav",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Březová",
+    "kod": "537870",
+    "lat": 50.197494,
+    "lon": 12.870986,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Cheb",
+    "kod": "554481",
+    "lat": 50.079633,
+    "lon": 12.369964,
+    "okres": "Cheb",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Chlumec",
+    "kod": "536229",
+    "lat": 48.870362,
+    "lon": 14.395976,
+    "okres": "Český Krumlov",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Chlumec nad Cidlinou",
+    "kod": "570109",
+    "lat": 50.154506,
+    "lon": 15.460363,
+    "okres": "Hradec Králové",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Choceň",
+    "kod": "580350",
+    "lat": 50.001704,
+    "lon": 16.223131,
+    "okres": "Ústí nad Orlicí",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Chodov",
+    "kod": "578011",
+    "lat": 50.068626,
+    "lon": 12.863016,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Chomutov",
+    "kod": "562971",
+    "lat": 50.463598,
+    "lon": 13.410837,
+    "okres": "Chomutov",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Chotěboř",
+    "kod": "568759",
+    "lat": 49.720714,
+    "lon": 15.671142,
+    "okres": "Havlíčkův Brod",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Chrast",
+    "kod": "571539",
+    "lat": 49.902149,
+    "lon": 15.934067,
+    "okres": "Chrudim",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Chrastava",
+    "kod": "564117",
+    "lat": 50.817027,
+    "lon": 14.968947,
+    "okres": "Liberec",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Chropyně",
+    "kod": "588512",
+    "lat": 49.35654,
+    "lon": 17.364618,
+    "okres": "Kroměříž",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Chrudim",
+    "kod": "571164",
+    "lat": 49.949824,
+    "lon": 15.795158,
+    "okres": "Chrudim",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Chrást",
+    "kod": "558966",
+    "lat": 49.793305,
+    "lon": 13.49369,
+    "okres": "Plzeň-město",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Chýnov",
+    "kod": "552496",
+    "lat": 49.406872,
+    "lon": 14.811319,
+    "okres": "Tábor",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Chřibská",
+    "kod": "562530",
+    "lat": 50.863346,
+    "lon": 14.483083,
+    "okres": "Děčín",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Cvikov",
+    "kod": "561479",
+    "lat": 50.777293,
+    "lon": 14.633019,
+    "okres": "Česká Lípa",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Dalovice",
+    "kod": "537918",
+    "lat": 50.247898,
+    "lon": 12.895923,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Dačice",
+    "kod": "546127",
+    "lat": 49.07992,
+    "lon": 15.434304,
+    "okres": "Jindřichův Hradec",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Desná",
+    "kod": "563552",
+    "lat": 50.75481,
+    "lon": 15.313862,
+    "okres": "Jablonec nad Nisou",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Dobruška",
+    "kod": "576271",
+    "lat": 50.292111,
+    "lon": 16.160118,
+    "okres": "Rychnov nad Kněžnou",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Dobřany",
+    "kod": "576280",
+    "lat": 50.322221,
+    "lon": 16.285397,
+    "okres": "Rychnov nad Kněžnou",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Dobříš",
+    "kod": "540111",
+    "lat": 49.781238,
+    "lon": 14.167273,
+    "okres": "Příbram",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Doksy",
+    "kod": "561495",
+    "lat": 50.565945,
+    "lon": 14.654377,
+    "okres": "Česká Lípa",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Dolní Kounice",
+    "kod": "582956",
+    "lat": 49.070212,
+    "lon": 16.465024,
+    "okres": "Brno-venkov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Dolní Poustevna",
+    "kod": "562441",
+    "lat": 50.982619,
+    "lon": 14.286956,
+    "okres": "Děčín",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Domažlice",
+    "kod": "553425",
+    "lat": 49.439803,
+    "lon": 12.931243,
+    "okres": "Domažlice",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Dubňany",
+    "kod": "586161",
+    "lat": 48.917038,
+    "lon": 17.090148,
+    "okres": "Hodonín",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Duchcov",
+    "kod": "567515",
+    "lat": 50.603871,
+    "lon": 13.746322,
+    "okres": "Teplice",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Dvůr Králové nad Labem",
+    "kod": "579203",
+    "lat": 50.43182,
+    "lon": 15.814127,
+    "okres": "Trutnov",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Děčín",
+    "kod": "562335",
+    "lat": 50.772656,
+    "lon": 14.212861,
+    "okres": "Děčín",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Frenštát pod Radhoštěm",
+    "kod": "599344",
+    "lat": 49.548445,
+    "lon": 18.21089,
+    "okres": "Nový Jičín",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Frymburk",
+    "kod": "545481",
+    "lat": 48.661044,
+    "lon": 14.165732,
+    "okres": "Český Krumlov",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Fryšták",
+    "kod": "585211",
+    "lat": 49.285304,
+    "lon": 17.683572,
+    "okres": "Zlín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Frýdek-Místek",
+    "kod": "598003",
+    "lat": 49.682031,
+    "lon": 18.367422,
+    "okres": "Frýdek-Místek",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Frýdlant",
+    "kod": "564028",
+    "lat": 50.921496,
+    "lon": 15.079851,
+    "okres": "Liberec",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Frýdlant nad Ostravicí",
+    "kod": "598143",
+    "lat": 49.591902,
+    "lon": 18.358605,
+    "okres": "Frýdek-Místek",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Golčův Jeníkov",
+    "kod": "568635",
+    "lat": 49.816361,
+    "lon": 15.476967,
+    "okres": "Havlíčkův Brod",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Habartov",
+    "kod": "560359",
+    "lat": 50.183078,
+    "lon": 12.550653,
+    "okres": "Sokolov",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Harrachov",
+    "kod": "577081",
+    "lat": 50.772186,
+    "lon": 15.431521,
+    "okres": "Semily",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Havlíčkův Brod",
+    "kod": "568414",
+    "lat": 49.604436,
+    "lon": 15.579755,
+    "okres": "Havlíčkův Brod",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Havířov",
+    "kod": "555088",
+    "lat": 49.780492,
+    "lon": 18.430725,
+    "okres": "Karviná",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Hazlov",
+    "kod": "554545",
+    "lat": 50.156457,
+    "lon": 12.272617,
+    "okres": "Cheb",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Hejnice",
+    "kod": "564044",
+    "lat": 50.877301,
+    "lon": 15.181785,
+    "okres": "Liberec",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Heřmanův Městec",
+    "kod": "571385",
+    "lat": 49.94717,
+    "lon": 15.665028,
+    "okres": "Chrudim",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Hlinsko",
+    "kod": "569267",
+    "lat": 49.49464,
+    "lon": 17.579251,
+    "okres": "Přerov",
+    "kraj": "Olomoucký kraj"
+  },
+  {
+    "name": "Hluboká nad Vltavou",
+    "kod": "544485",
+    "lat": 49.052354,
+    "lon": 14.434371,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Hluk",
+    "kod": "592170",
+    "lat": 48.988219,
+    "lon": 17.526788,
+    "okres": "Uherské Hradiště",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Hlučín",
+    "kod": "507016",
+    "lat": 49.896627,
+    "lon": 18.190649,
+    "okres": "Opava",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Hodonín",
+    "kod": "581593",
+    "lat": 49.501284,
+    "lon": 16.410379,
+    "okres": "Blansko",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Holešov",
+    "kod": "588458",
+    "lat": 49.33341,
+    "lon": 17.57843,
+    "okres": "Kroměříž",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Holice",
+    "kod": "574988",
+    "lat": 50.06611,
+    "lon": 15.986005,
+    "okres": "Pardubice",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Holýšov",
+    "kod": "553654",
+    "lat": 49.593721,
+    "lon": 13.101403,
+    "okres": "Domažlice",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Horažďovice",
+    "kod": "556254",
+    "lat": 49.320794,
+    "lon": 13.701106,
+    "okres": "Klatovy",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Horní Blatná",
+    "kod": "555169",
+    "lat": 50.390493,
+    "lon": 12.771048,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Horní Bříza",
+    "kod": "558885",
+    "lat": 49.84023,
+    "lon": 13.355689,
+    "okres": "Plzeň-sever",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Horní Lideč",
+    "kod": "542725",
+    "lat": 49.181314,
+    "lon": 18.061103,
+    "okres": "Vsetín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Horní Planá",
+    "kod": "545511",
+    "lat": 48.767465,
+    "lon": 14.032672,
+    "okres": "Český Krumlov",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Horní Slavkov",
+    "kod": "560367",
+    "lat": 50.138742,
+    "lon": 12.807697,
+    "okres": "Sokolov",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Horšovský Týn",
+    "kod": "553671",
+    "lat": 49.530286,
+    "lon": 12.944527,
+    "okres": "Domažlice",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Hostinné",
+    "kod": "579297",
+    "lat": 50.540762,
+    "lon": 15.723442,
+    "okres": "Trutnov",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Hostivice",
+    "kod": "539244",
+    "lat": 50.081679,
+    "lon": 14.25867,
+    "okres": "Praha-západ",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Hostouň",
+    "kod": "553689",
+    "lat": 49.559821,
+    "lon": 12.771578,
+    "okres": "Domažlice",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Hořice",
+    "kod": "547956",
+    "lat": 49.599362,
+    "lon": 15.185502,
+    "okres": "Pelhřimov",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Hořovice",
+    "kod": "531189",
+    "lat": 49.836078,
+    "lon": 13.902789,
+    "okres": "Beroun",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Hradec Králové",
+    "kod": "569810",
+    "lat": 50.210461,
+    "lon": 15.825311,
+    "okres": "Hradec Králové",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Hranice",
+    "kod": "544540",
+    "lat": 48.83852,
+    "lon": 14.868392,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Hronov",
+    "kod": "574082",
+    "lat": 50.480164,
+    "lon": 16.181777,
+    "okres": "Náchod",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Hrotovice",
+    "kod": "590673",
+    "lat": 49.1078,
+    "lon": 16.060777,
+    "okres": "Třebíč",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Hroznětín",
+    "kod": "555185",
+    "lat": 50.309508,
+    "lon": 12.871918,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Hrušovany nad Jevišovkou",
+    "kod": "594156",
+    "lat": 48.830008,
+    "lon": 16.40281,
+    "okres": "Znojmo",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Hrádek",
+    "kod": "594148",
+    "lat": 48.772933,
+    "lon": 16.268293,
+    "okres": "Znojmo",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Hrádek nad Nisou",
+    "kod": "564095",
+    "lat": 50.852892,
+    "lon": 14.844658,
+    "okres": "Liberec",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Hulín",
+    "kod": "588491",
+    "lat": 49.316992,
+    "lon": 17.463848,
+    "okres": "Kroměříž",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Humpolec",
+    "kod": "547999",
+    "lat": 49.541624,
+    "lon": 15.359423,
+    "okres": "Pelhřimov",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Husinec",
+    "kod": "550230",
+    "lat": 49.055065,
+    "lon": 13.987074,
+    "okres": "Prachatice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Hustopeče",
+    "kod": "584495",
+    "lat": 48.940946,
+    "lon": 16.737726,
+    "okres": "Břeclav",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Ivančice",
+    "kod": "583120",
+    "lat": 49.101545,
+    "lon": 16.377622,
+    "okres": "Brno-venkov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Jablonec nad Nisou",
+    "kod": "563510",
+    "lat": 50.722153,
+    "lon": 15.170414,
+    "okres": "Jablonec nad Nisou",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Jablonné nad Orlicí",
+    "kod": "580376",
+    "lat": 50.029734,
+    "lon": 16.600698,
+    "okres": "Ústí nad Orlicí",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Jablonné v Podještědí",
+    "kod": "561631",
+    "lat": 50.765382,
+    "lon": 14.760633,
+    "okres": "Liberec",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Janovice nad Úhlavou",
+    "kod": "556394",
+    "lat": 49.345257,
+    "lon": 13.218239,
+    "okres": "Klatovy",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Jaroměř",
+    "kod": "574121",
+    "lat": 50.356904,
+    "lon": 15.924238,
+    "okres": "Náchod",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Jaroměřice nad Rokytnou",
+    "kod": "590754",
+    "lat": 49.094184,
+    "lon": 15.893408,
+    "okres": "Třebíč",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Jedovnice",
+    "kod": "581682",
+    "lat": 49.344631,
+    "lon": 16.756055,
+    "okres": "Blansko",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Jemnice",
+    "kod": "590789",
+    "lat": 49.019086,
+    "lon": 15.570038,
+    "okres": "Třebíč",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Jesenice",
+    "kod": "539325",
+    "lat": 49.968246,
+    "lon": 14.513602,
+    "okres": "Praha-západ",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Jevíčko",
+    "kod": "578193",
+    "lat": 49.632295,
+    "lon": 16.71136,
+    "okres": "Svitavy",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Jihlava",
+    "kod": "586846",
+    "lat": 49.41586,
+    "lon": 15.595469,
+    "okres": "Jihlava",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Jilemnice",
+    "kod": "577197",
+    "lat": 50.608996,
+    "lon": 15.506637,
+    "okres": "Semily",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Jindřichův Hradec",
+    "kod": "545881",
+    "lat": 49.144582,
+    "lon": 15.006239,
+    "okres": "Jindřichův Hradec",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Jirkov",
+    "kod": "563099",
+    "lat": 50.500627,
+    "lon": 13.448885,
+    "okres": "Chomutov",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Jičín",
+    "kod": "572659",
+    "lat": 50.435433,
+    "lon": 15.361144,
+    "okres": "Jičín",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Jiříkov",
+    "kod": "597457",
+    "lat": 49.854028,
+    "lon": 17.277651,
+    "okres": "Bruntál",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Jáchymov",
+    "kod": "555215",
+    "lat": 50.358573,
+    "lon": 12.934767,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Jílové u Prahy",
+    "kod": "539333",
+    "lat": 49.895549,
+    "lon": 14.493434,
+    "okres": "Praha-západ",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Kadaň",
+    "kod": "563102",
+    "lat": 50.376092,
+    "lon": 13.271422,
+    "okres": "Chomutov",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Kamenice nad Lipou",
+    "kod": "548111",
+    "lat": 49.303136,
+    "lon": 15.075292,
+    "okres": "Pelhřimov",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Kaplice",
+    "kod": "545562",
+    "lat": 48.738589,
+    "lon": 14.496373,
+    "okres": "Český Krumlov",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Kardašova Řečice",
+    "kod": "546542",
+    "lat": 49.184882,
+    "lon": 14.853256,
+    "okres": "Jindřichův Hradec",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Karlovy Vary",
+    "kod": "554961",
+    "lat": 50.231952,
+    "lon": 12.872062,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Karolinka",
+    "kod": "542911",
+    "lat": 49.351376,
+    "lon": 18.240174,
+    "okres": "Vsetín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Karviná",
+    "kod": "598917",
+    "lat": 49.856752,
+    "lon": 18.543319,
+    "okres": "Karviná",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Kasejovice",
+    "kod": "557862",
+    "lat": 49.462805,
+    "lon": 13.740706,
+    "okres": "Plzeň-jih",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Katovice",
+    "kod": "551201",
+    "lat": 49.273591,
+    "lon": 13.830458,
+    "okres": "Strakonice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Kaznějov",
+    "kod": "559008",
+    "lat": 49.893239,
+    "lon": 13.383058,
+    "okres": "Plzeň-sever",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Kašperské Hory",
+    "kod": "556432",
+    "lat": 49.143,
+    "lon": 13.556264,
+    "okres": "Klatovy",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Kdyně",
+    "kod": "553786",
+    "lat": 49.390348,
+    "lon": 13.040638,
+    "okres": "Domažlice",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Kelč",
+    "kod": "542989",
+    "lat": 49.478541,
+    "lon": 17.815441,
+    "okres": "Vsetín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Kladno",
+    "kod": "571580",
+    "lat": 49.772574,
+    "lon": 15.982386,
+    "okres": "Chrudim",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Kladruby",
+    "kod": "560405",
+    "lat": 49.268814,
+    "lon": 13.763561,
+    "okres": "Strakonice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Klatovy",
+    "kod": "555771",
+    "lat": 49.395655,
+    "lon": 13.295194,
+    "okres": "Klatovy",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Klenčí pod Čerchovem",
+    "kod": "553794",
+    "lat": 49.434948,
+    "lon": 12.814835,
+    "okres": "Domažlice",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Klobouky u Brna",
+    "kod": "584550",
+    "lat": 48.995112,
+    "lon": 16.859619,
+    "okres": "Břeclav",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Kojetín",
+    "kod": "568881",
+    "lat": 49.657213,
+    "lon": 15.658186,
+    "okres": "Havlíčkův Brod",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Kolín",
+    "kod": "533165",
+    "lat": 50.027429,
+    "lon": 15.202828,
+    "okres": "Kolín",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Konstantinovy Lázně",
+    "kod": "560952",
+    "lat": 49.881263,
+    "lon": 12.977983,
+    "okres": "Tachov",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Kopidlno",
+    "kod": "573060",
+    "lat": 50.330951,
+    "lon": 15.2704,
+    "okres": "Jičín",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Kopřivnice",
+    "kod": "599565",
+    "lat": 49.59957,
+    "lon": 18.14491,
+    "okres": "Nový Jičín",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Koryčany",
+    "kod": "588601",
+    "lat": 49.10649,
+    "lon": 17.164435,
+    "okres": "Kroměříž",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Kosova Hora",
+    "kod": "540498",
+    "lat": 49.654247,
+    "lon": 14.471834,
+    "okres": "Příbram",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Kostelec nad Orlicí",
+    "kod": "576361",
+    "lat": 50.122511,
+    "lon": 16.215084,
+    "okres": "Rychnov nad Kněžnou",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Kozolupy",
+    "kod": "559059",
+    "lat": 49.763902,
+    "lon": 13.252214,
+    "okres": "Plzeň-sever",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Kralovice",
+    "kod": "559075",
+    "lat": 49.982024,
+    "lon": 13.487584,
+    "okres": "Plzeň-sever",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Kralupy nad Vltavou",
+    "kod": "534951",
+    "lat": 50.241745,
+    "lon": 14.310745,
+    "okres": "Mělník",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Kraslice",
+    "kod": "560472",
+    "lat": 50.323835,
+    "lon": 12.517588,
+    "okres": "Sokolov",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Krnov",
+    "kod": "597520",
+    "lat": 50.090683,
+    "lon": 17.703168,
+    "okres": "Bruntál",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Kroměříž",
+    "kod": "588296",
+    "lat": 49.291758,
+    "lon": 17.39948,
+    "okres": "Kroměříž",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Krupka",
+    "kod": "567639",
+    "lat": 50.684596,
+    "lon": 13.858264,
+    "okres": "Teplice",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Králíky",
+    "kod": "570192",
+    "lat": 50.259542,
+    "lon": 15.53668,
+    "okres": "Hradec Králové",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Krásná Lípa",
+    "kod": "562611",
+    "lat": 50.913136,
+    "lon": 14.510101,
+    "okres": "Děčín",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Kunovice",
+    "kod": "550744",
+    "lat": 49.045088,
+    "lon": 17.470215,
+    "okres": "Uherské Hradiště",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Kunštát",
+    "kod": "581879",
+    "lat": 49.506551,
+    "lon": 16.517324,
+    "okres": "Blansko",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Kutná Hora",
+    "kod": "533955",
+    "lat": 49.952531,
+    "lon": 15.268754,
+    "okres": "Kutná Hora",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Kuřim",
+    "kod": "583251",
+    "lat": 49.298618,
+    "lon": 16.531546,
+    "okres": "Brno-venkov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Kyjov",
+    "kod": "586307",
+    "lat": 49.009967,
+    "lon": 17.12261,
+    "okres": "Hodonín",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Kynšperk nad Ohří",
+    "kod": "560499",
+    "lat": 50.119038,
+    "lon": 12.530388,
+    "okres": "Sokolov",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Lanškroun",
+    "kod": "580511",
+    "lat": 49.912141,
+    "lon": 16.612597,
+    "okres": "Ústí nad Orlicí",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Lanžhot",
+    "kod": "584622",
+    "lat": 48.724531,
+    "lon": 16.967053,
+    "okres": "Břeclav",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Ledenice",
+    "kod": "544736",
+    "lat": 48.932311,
+    "lon": 14.618133,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Ledeč nad Sázavou",
+    "kod": "568988",
+    "lat": 49.695269,
+    "lon": 15.277827,
+    "okres": "Havlíčkův Brod",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Letohrad",
+    "kod": "580538",
+    "lat": 50.036122,
+    "lon": 16.500231,
+    "okres": "Ústí nad Orlicí",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Letovice",
+    "kod": "581917",
+    "lat": 49.547189,
+    "lon": 16.573678,
+    "okres": "Blansko",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Liberec",
+    "kod": "563889",
+    "lat": 50.76638,
+    "lon": 15.054439,
+    "okres": "Liberec",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Libá",
+    "kod": "554618",
+    "lat": 50.128275,
+    "lon": 12.230943,
+    "okres": "Cheb",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Libáň",
+    "kod": "573108",
+    "lat": 50.375516,
+    "lon": 15.21695,
+    "okres": "Jičín",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Lipník nad Bečvou",
+    "kod": "514705",
+    "lat": 49.526832,
+    "lon": 17.586743,
+    "okres": "Přerov",
+    "kraj": "Olomoucký kraj"
+  },
+  {
+    "name": "Litomyšl",
+    "kod": "578347",
+    "lat": 49.870623,
+    "lon": 16.311162,
+    "okres": "Svitavy",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Litoměřice",
+    "kod": "564567",
+    "lat": 50.53852,
+    "lon": 14.130646,
+    "okres": "Litoměřice",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Litvínov",
+    "kod": "567256",
+    "lat": 50.598526,
+    "lon": 13.610342,
+    "okres": "Most",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Lišov",
+    "kod": "544779",
+    "lat": 49.016073,
+    "lon": 14.608479,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Loket",
+    "kod": "560537",
+    "lat": 50.186112,
+    "lon": 12.754163,
+    "okres": "Sokolov",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Lomnice nad Lužnicí",
+    "kod": "546674",
+    "lat": 49.084786,
+    "lon": 14.717374,
+    "okres": "Jindřichův Hradec",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Lomnice nad Popelkou",
+    "kod": "577308",
+    "lat": 50.530724,
+    "lon": 15.373517,
+    "okres": "Semily",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Louny",
+    "kod": "565971",
+    "lat": 50.354081,
+    "lon": 13.803455,
+    "okres": "Louny",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Luhačovice",
+    "kod": "585459",
+    "lat": 49.099922,
+    "lon": 17.757583,
+    "okres": "Zlín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Lysice",
+    "kod": "582018",
+    "lat": 49.451697,
+    "lon": 16.537263,
+    "okres": "Blansko",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Lázně Bohdaneč",
+    "kod": "574767",
+    "lat": 50.075702,
+    "lon": 15.67989,
+    "okres": "Pardubice",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Lázně Bělohrad",
+    "kod": "573094",
+    "lat": 50.428843,
+    "lon": 15.582797,
+    "okres": "Jičín",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Lázně Kynžvart",
+    "kod": "554600",
+    "lat": 50.010693,
+    "lon": 12.624853,
+    "okres": "Cheb",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Manětín",
+    "kod": "559202",
+    "lat": 49.991884,
+    "lon": 13.233304,
+    "okres": "Plzeň-sever",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Mariánské Lázně",
+    "kod": "554642",
+    "lat": 49.964699,
+    "lon": 12.701298,
+    "okres": "Cheb",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Meclov",
+    "kod": "553913",
+    "lat": 49.505676,
+    "lon": 12.880927,
+    "okres": "Domažlice",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Merklín",
+    "kod": "555363",
+    "lat": 50.32819,
+    "lon": 12.863613,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Meziměstí",
+    "kod": "574252",
+    "lat": 50.624705,
+    "lon": 16.242178,
+    "okres": "Náchod",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Mikulov",
+    "kod": "584649",
+    "lat": 48.805383,
+    "lon": 16.637788,
+    "okres": "Břeclav",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Mikulášovice",
+    "kod": "562751",
+    "lat": 50.965179,
+    "lon": 14.363794,
+    "okres": "Děčín",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Miletín",
+    "kod": "573175",
+    "lat": 50.403916,
+    "lon": 15.682367,
+    "okres": "Jičín",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Milevsko",
+    "kod": "549576",
+    "lat": 49.450998,
+    "lon": 14.360109,
+    "okres": "Písek",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Milovice",
+    "kod": "584657",
+    "lat": 48.852588,
+    "lon": 16.698247,
+    "okres": "Břeclav",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Mimoň",
+    "kod": "561835",
+    "lat": 50.655768,
+    "lon": 14.724956,
+    "okres": "Česká Lípa",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Miroslav",
+    "kod": "594458",
+    "lat": 48.94777,
+    "lon": 16.312624,
+    "okres": "Znojmo",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Mirotice",
+    "kod": "549584",
+    "lat": 49.429185,
+    "lon": 14.037078,
+    "okres": "Písek",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Mladá Boleslav",
+    "kod": "535419",
+    "lat": 50.413525,
+    "lon": 14.908538,
+    "okres": "Mladá Boleslav",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Mladá Vožice",
+    "kod": "552704",
+    "lat": 49.53323,
+    "lon": 14.808669,
+    "okres": "Tábor",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Mníšek pod Brdy",
+    "kod": "540765",
+    "lat": 49.866601,
+    "lon": 14.261865,
+    "okres": "Praha-západ",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Modřice",
+    "kod": "583391",
+    "lat": 49.12799,
+    "lon": 16.614517,
+    "okres": "Brno-venkov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Mohelnice",
+    "kod": "540471",
+    "lat": 49.777082,
+    "lon": 16.919567,
+    "okres": "Šumperk",
+    "kraj": "Olomoucký kraj"
+  },
+  {
+    "name": "Moravská Třebová",
+    "kod": "578444",
+    "lat": 49.757697,
+    "lon": 16.663631,
+    "okres": "Svitavy",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Moravské Budějovice",
+    "kod": "591181",
+    "lat": 49.05219,
+    "lon": 15.808746,
+    "okres": "Třebíč",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Moravský Krumlov",
+    "kod": "594482",
+    "lat": 49.049031,
+    "lon": 16.311798,
+    "okres": "Znojmo",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Morkovice-Slížany",
+    "kod": "588768",
+    "lat": 49.249941,
+    "lon": 17.209733,
+    "okres": "Kroměříž",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Most",
+    "kod": "567027",
+    "lat": 50.501655,
+    "lon": 13.633012,
+    "okres": "Most",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Mutěnice",
+    "kod": "560278",
+    "lat": 49.23981,
+    "lon": 13.89664,
+    "okres": "Strakonice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Mělník",
+    "kod": "534676",
+    "lat": 50.354002,
+    "lon": 14.481881,
+    "okres": "Mělník",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Město Touškov",
+    "kod": "559211",
+    "lat": 49.77598,
+    "lon": 13.251189,
+    "okres": "Plzeň-sever",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Nalžovské Hory",
+    "kod": "556751",
+    "lat": 49.331486,
+    "lon": 13.546557,
+    "okres": "Klatovy",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Napajedla",
+    "kod": "585513",
+    "lat": 49.171658,
+    "lon": 17.512053,
+    "okres": "Zlín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Nejdek",
+    "kod": "555380",
+    "lat": 50.322529,
+    "lon": 12.729474,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Nepomuk",
+    "kod": "558109",
+    "lat": 49.48627,
+    "lon": 13.582361,
+    "okres": "Plzeň-jih",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Neratovice",
+    "kod": "535087",
+    "lat": 50.259361,
+    "lon": 14.517703,
+    "okres": "Mělník",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Netolice",
+    "kod": "550442",
+    "lat": 49.049406,
+    "lon": 14.197098,
+    "okres": "Prachatice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Neveklov",
+    "kod": "530310",
+    "lat": 49.753835,
+    "lon": 14.533011,
+    "okres": "Benešov",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Nová Bystřice",
+    "kod": "546798",
+    "lat": 49.019361,
+    "lon": 15.103258,
+    "okres": "Jindřichův Hradec",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Nová Paka",
+    "kod": "573248",
+    "lat": 50.494593,
+    "lon": 15.515138,
+    "okres": "Jičín",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Nová Role",
+    "kod": "555398",
+    "lat": 50.271028,
+    "lon": 12.784334,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Nové Hrady",
+    "kod": "544868",
+    "lat": 48.789733,
+    "lon": 14.778483,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Nové Město na Moravě",
+    "kod": "596230",
+    "lat": 49.561543,
+    "lon": 16.074288,
+    "okres": "Žďár nad Sázavou",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Nové Město nad Metují",
+    "kod": "574279",
+    "lat": 50.344662,
+    "lon": 16.151571,
+    "okres": "Náchod",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Nové Město pod Smrkem",
+    "kod": "564265",
+    "lat": 50.925011,
+    "lon": 15.229539,
+    "okres": "Liberec",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Nový Bor",
+    "kod": "561860",
+    "lat": 50.757714,
+    "lon": 14.555664,
+    "okres": "Česká Lípa",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Nový Bydžov",
+    "kod": "570508",
+    "lat": 50.241602,
+    "lon": 15.490926,
+    "okres": "Hradec Králové",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Nový Jičín",
+    "kod": "599191",
+    "lat": 49.594425,
+    "lon": 18.013636,
+    "okres": "Nový Jičín",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Nymburk",
+    "kod": "537004",
+    "lat": 50.185682,
+    "lon": 15.04376,
+    "okres": "Nymburk",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Náchod",
+    "kod": "573868",
+    "lat": 50.414672,
+    "lon": 16.165735,
+    "okres": "Náchod",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Náměšť nad Oslavou",
+    "kod": "591211",
+    "lat": 49.205556,
+    "lon": 16.155845,
+    "okres": "Třebíč",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Nýrsko",
+    "kod": "556831",
+    "lat": 49.293979,
+    "lon": 13.143639,
+    "okres": "Klatovy",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Nýřany",
+    "kod": "559300",
+    "lat": 49.712816,
+    "lon": 13.204705,
+    "okres": "Plzeň-sever",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Odry",
+    "kod": "599701",
+    "lat": 49.662648,
+    "lon": 17.83095,
+    "okres": "Nový Jičín",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Olešnice",
+    "kod": "544884",
+    "lat": 48.84133,
+    "lon": 14.704931,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Olomouc",
+    "kod": "500496",
+    "lat": 49.593878,
+    "lon": 17.250979,
+    "okres": "Olomouc",
+    "kraj": "Olomoucký kraj"
+  },
+  {
+    "name": "Opava",
+    "kod": "505927",
+    "lat": 49.94076,
+    "lon": 17.894899,
+    "okres": "Opava",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Opočno",
+    "kod": "576590",
+    "lat": 50.267515,
+    "lon": 16.114902,
+    "okres": "Rychnov nad Kněžnou",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Orlová",
+    "kod": "599069",
+    "lat": 49.870238,
+    "lon": 18.425108,
+    "okres": "Karviná",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Oslavany",
+    "kod": "583588",
+    "lat": 49.123447,
+    "lon": 16.336633,
+    "okres": "Brno-venkov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Ostrava",
+    "kod": "554821",
+    "lat": 49.821023,
+    "lon": 18.262624,
+    "okres": "Ostrava-město",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Ostrov",
+    "kod": "555428",
+    "lat": 50.306035,
+    "lon": 12.939183,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Otrokovice",
+    "kod": "585599",
+    "lat": 49.210016,
+    "lon": 17.530876,
+    "okres": "Zlín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Pacov",
+    "kod": "548511",
+    "lat": 49.470865,
+    "lon": 15.001783,
+    "okres": "Pelhřimov",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Pardubice",
+    "kod": "555134",
+    "lat": 50.034409,
+    "lon": 15.781299,
+    "okres": "Pardubice",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Pecka",
+    "kod": "573299",
+    "lat": 50.480435,
+    "lon": 15.608329,
+    "okres": "Jičín",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Pelhřimov",
+    "kod": "547492",
+    "lat": 49.430721,
+    "lon": 15.223083,
+    "okres": "Pelhřimov",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Pernink",
+    "kod": "555452",
+    "lat": 50.365797,
+    "lon": 12.783825,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Planá",
+    "kod": "535176",
+    "lat": 48.943775,
+    "lon": 14.452868,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Planá nad Lužnicí",
+    "kod": "552828",
+    "lat": 49.354541,
+    "lon": 14.701577,
+    "okres": "Tábor",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Plasy",
+    "kod": "559351",
+    "lat": 49.934598,
+    "lon": 13.390465,
+    "okres": "Plzeň-sever",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Plesná",
+    "kod": "554740",
+    "lat": 50.220815,
+    "lon": 12.34681,
+    "okres": "Cheb",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Plzeň",
+    "kod": "554791",
+    "lat": 49.738531,
+    "lon": 13.373737,
+    "okres": "Plzeň-město",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Plánice",
+    "kod": "556955",
+    "lat": 49.390036,
+    "lon": 13.471166,
+    "okres": "Klatovy",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Poběžovice",
+    "kod": "554111",
+    "lat": 49.510406,
+    "lon": 12.802721,
+    "okres": "Domažlice",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Podivín",
+    "kod": "584797",
+    "lat": 48.82564,
+    "lon": 16.848324,
+    "okres": "Břeclav",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Poděbrady",
+    "kod": "537683",
+    "lat": 50.142525,
+    "lon": 15.118988,
+    "okres": "Nymburk",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Pohořelice",
+    "kod": "584801",
+    "lat": 48.981287,
+    "lon": 16.524557,
+    "okres": "Brno-venkov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Police nad Metují",
+    "kod": "574341",
+    "lat": 50.536968,
+    "lon": 16.23361,
+    "okres": "Náchod",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Polička",
+    "kod": "578576",
+    "lat": 49.715034,
+    "lon": 16.265977,
+    "okres": "Svitavy",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Polná",
+    "kod": "587711",
+    "lat": 49.487099,
+    "lon": 15.718914,
+    "okres": "Jihlava",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Potštát",
+    "kod": "517101",
+    "lat": 49.637025,
+    "lon": 17.651843,
+    "okres": "Přerov",
+    "kraj": "Olomoucký kraj"
+  },
+  {
+    "name": "Počátky",
+    "kod": "548561",
+    "lat": 49.260301,
+    "lon": 15.240324,
+    "okres": "Pelhřimov",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Prachatice",
+    "kod": "550094",
+    "lat": 49.01101,
+    "lon": 14.0001,
+    "okres": "Prachatice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Praha",
+    "kod": "554782",
+    "lat": 50.075638,
+    "lon": 14.4379,
+    "okres": "Praha",
+    "kraj": "Hlavní město Praha"
+  },
+  {
+    "name": "Proseč",
+    "kod": "537829",
+    "lat": 49.600804,
+    "lon": 15.329186,
+    "okres": "Pelhřimov",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Prostějov",
+    "kod": "589250",
+    "lat": 49.472549,
+    "lon": 17.106851,
+    "okres": "Prostějov",
+    "kraj": "Olomoucký kraj"
+  },
+  {
+    "name": "Protivín",
+    "kod": "549771",
+    "lat": 49.199591,
+    "lon": 14.217277,
+    "okres": "Písek",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Písek",
+    "kod": "549240",
+    "lat": 49.303554,
+    "lon": 14.158129,
+    "okres": "Písek",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Předklášteří",
+    "kod": "549746",
+    "lat": 49.35263,
+    "lon": 16.402512,
+    "okres": "Brno-venkov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Přerov",
+    "kod": "511382",
+    "lat": 49.456579,
+    "lon": 17.45033,
+    "okres": "Přerov",
+    "kraj": "Olomoucký kraj"
+  },
+  {
+    "name": "Přeštice",
+    "kod": "558249",
+    "lat": 49.573091,
+    "lon": 13.333607,
+    "okres": "Plzeň-jih",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Přibyslav",
+    "kod": "569321",
+    "lat": 49.576939,
+    "lon": 15.73865,
+    "okres": "Havlíčkův Brod",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Přimda",
+    "kod": "561151",
+    "lat": 49.674989,
+    "lon": 12.673772,
+    "okres": "Tachov",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Příbor",
+    "kod": "599808",
+    "lat": 49.641036,
+    "lon": 18.145096,
+    "okres": "Nový Jičín",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Příbram",
+    "kod": "539911",
+    "lat": 49.685532,
+    "lon": 13.999045,
+    "okres": "Příbram",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Radomyšl",
+    "kod": "551660",
+    "lat": 49.31645,
+    "lon": 13.930344,
+    "okres": "Strakonice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Rakovník",
+    "kod": "541656",
+    "lat": 50.106223,
+    "lon": 13.739762,
+    "okres": "Rakovník",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Ralsko",
+    "kod": "562017",
+    "lat": 50.58629,
+    "lon": 14.80363,
+    "okres": "Česká Lípa",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Raspenava",
+    "kod": "564371",
+    "lat": 50.904256,
+    "lon": 15.114757,
+    "okres": "Liberec",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Ratíškovice",
+    "kod": "586510",
+    "lat": 48.920114,
+    "lon": 17.165713,
+    "okres": "Hodonín",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Rokycany",
+    "kod": "559717",
+    "lat": 49.738197,
+    "lon": 13.592993,
+    "okres": "Rokycany",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Rokytnice nad Jizerou",
+    "kod": "577456",
+    "lat": 50.729228,
+    "lon": 15.448787,
+    "okres": "Semily",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Rokytnice v Orlických horách",
+    "kod": "576701",
+    "lat": 50.164831,
+    "lon": 16.46578,
+    "okres": "Rychnov nad Kněžnou",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Rosice",
+    "kod": "583782",
+    "lat": 49.18242,
+    "lon": 16.387975,
+    "okres": "Brno-venkov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Rotava",
+    "kod": "560600",
+    "lat": 50.29638,
+    "lon": 12.573526,
+    "okres": "Sokolov",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Roudnice nad Labem",
+    "kod": "565555",
+    "lat": 50.425305,
+    "lon": 14.260565,
+    "okres": "Litoměřice",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Rousínov",
+    "kod": "593559",
+    "lat": 49.201381,
+    "lon": 16.882252,
+    "okres": "Vyškov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Rovensko pod Troskami",
+    "kod": "577472",
+    "lat": 50.535418,
+    "lon": 15.259515,
+    "okres": "Semily",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Roztoky",
+    "kod": "539627",
+    "lat": 50.158516,
+    "lon": 14.397712,
+    "okres": "Praha-západ",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Rožmberk nad Vltavou",
+    "kod": "545767",
+    "lat": 48.654353,
+    "lon": 14.365259,
+    "okres": "Český Krumlov",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Rožnov pod Radhoštěm",
+    "kod": "544841",
+    "lat": 49.458626,
+    "lon": 18.143131,
+    "okres": "Vsetín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Rudolfov",
+    "kod": "544981",
+    "lat": 48.993496,
+    "lon": 14.541889,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Rumburk",
+    "kod": "562777",
+    "lat": 50.953525,
+    "lon": 14.555255,
+    "okres": "Děčín",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Rychnov nad Kněžnou",
+    "kod": "576069",
+    "lat": 50.166065,
+    "lon": 16.277784,
+    "okres": "Rychnov nad Kněžnou",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Rychnov u Jablonce nad Nisou",
+    "kod": "563790",
+    "lat": 50.683891,
+    "lon": 15.149898,
+    "okres": "Jablonec nad Nisou",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Rájec-Jestřebí",
+    "kod": "582239",
+    "lat": 49.410419,
+    "lon": 16.640964,
+    "okres": "Blansko",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Sadov",
+    "kod": "555533",
+    "lat": 50.267226,
+    "lon": 12.897194,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Sedlec-Prčice",
+    "kod": "530573",
+    "lat": 49.573311,
+    "lon": 14.533106,
+    "okres": "Příbram",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Sedlčany",
+    "kod": "541281",
+    "lat": 49.660677,
+    "lon": 14.426744,
+    "okres": "Příbram",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Semily",
+    "kod": "576964",
+    "lat": 50.605258,
+    "lon": 15.328241,
+    "okres": "Semily",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Sepekov",
+    "kod": "549843",
+    "lat": 49.428755,
+    "lon": 14.418256,
+    "okres": "Písek",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Sezemice",
+    "kod": "575640",
+    "lat": 50.066605,
+    "lon": 15.852803,
+    "okres": "Pardubice",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Sezimovo Ústí",
+    "kod": "553069",
+    "lat": 49.385291,
+    "lon": 14.684908,
+    "okres": "Tábor",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Skalná",
+    "kod": "554812",
+    "lat": 50.170411,
+    "lon": 12.361561,
+    "okres": "Cheb",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Skuteč",
+    "kod": "572241",
+    "lat": 49.843567,
+    "lon": 15.996654,
+    "okres": "Chrudim",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Slaný",
+    "kod": "532819",
+    "lat": 50.230562,
+    "lon": 14.087044,
+    "okres": "Kladno",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Slavičín",
+    "kod": "585751",
+    "lat": 49.088085,
+    "lon": 17.873599,
+    "okres": "Zlín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Slavkov u Brna",
+    "kod": "593583",
+    "lat": 49.153354,
+    "lon": 16.876598,
+    "okres": "Vyškov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Slavonice",
+    "kod": "547166",
+    "lat": 48.997636,
+    "lon": 15.351639,
+    "okres": "Jindřichův Hradec",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Smržovka",
+    "kod": "563811",
+    "lat": 50.738301,
+    "lon": 15.246502,
+    "okres": "Jablonec nad Nisou",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Sobotka",
+    "kod": "573493",
+    "lat": 50.467515,
+    "lon": 15.176299,
+    "okres": "Jičín",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Soběslav",
+    "kod": "553131",
+    "lat": 49.260039,
+    "lon": 14.718717,
+    "okres": "Tábor",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Sokolov",
+    "kod": "560286",
+    "lat": 50.174629,
+    "lon": 12.659992,
+    "okres": "Sokolov",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Spálené Poříčí",
+    "kod": "558362",
+    "lat": 49.613815,
+    "lon": 13.605669,
+    "okres": "Plzeň-jih",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Staré Město",
+    "kod": "551767",
+    "lat": 50.003657,
+    "lon": 17.432173,
+    "okres": "Bruntál",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Starý Plzenec",
+    "kod": "558371",
+    "lat": 49.697786,
+    "lon": 13.47361,
+    "okres": "Plzeň-město",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Staňkov",
+    "kod": "562378",
+    "lat": 48.979627,
+    "lon": 14.952798,
+    "okres": "Jindřichův Hradec",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Stod",
+    "kod": "558389",
+    "lat": 49.639199,
+    "lon": 13.164846,
+    "okres": "Plzeň-jih",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Strakonice",
+    "kod": "550787",
+    "lat": 49.260504,
+    "lon": 13.910408,
+    "okres": "Strakonice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Stráž",
+    "kod": "554316",
+    "lat": 49.414854,
+    "lon": 12.913028,
+    "okres": "Domažlice",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Stráž pod Ralskem",
+    "kod": "562092",
+    "lat": 50.702903,
+    "lon": 14.801127,
+    "okres": "Česká Lípa",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Strážnice",
+    "kod": "586587",
+    "lat": 48.901117,
+    "lon": 17.31691,
+    "okres": "Hodonín",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Strážov",
+    "kod": "557137",
+    "lat": 49.30337,
+    "lon": 13.246341,
+    "okres": "Klatovy",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Studená",
+    "kod": "547263",
+    "lat": 49.185258,
+    "lon": 15.286981,
+    "okres": "Jindřichův Hradec",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Studénka",
+    "kod": "599921",
+    "lat": 49.723516,
+    "lon": 18.078634,
+    "okres": "Nový Jičín",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Stříbro",
+    "kod": "561215",
+    "lat": 49.753048,
+    "lon": 13.004203,
+    "okres": "Tachov",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Suchdol nad Lužnicí",
+    "kod": "547280",
+    "lat": 48.893435,
+    "lon": 14.877056,
+    "okres": "Jindřichův Hradec",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Sušice",
+    "kod": "518026",
+    "lat": 49.486027,
+    "lon": 17.537486,
+    "okres": "Přerov",
+    "kraj": "Olomoucký kraj"
+  },
+  {
+    "name": "Svitavy",
+    "kod": "577731",
+    "lat": 49.755263,
+    "lon": 16.469286,
+    "okres": "Svitavy",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Světlá nad Sázavou",
+    "kod": "569569",
+    "lat": 49.66811,
+    "lon": 15.404038,
+    "okres": "Havlíčkův Brod",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Tachov",
+    "kod": "553638",
+    "lat": 50.543414,
+    "lon": 14.638554,
+    "okres": "Česká Lípa",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Tanvald",
+    "kod": "563820",
+    "lat": 50.737629,
+    "lon": 15.307982,
+    "okres": "Jablonec nad Nisou",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Telč",
+    "kod": "588024",
+    "lat": 49.183338,
+    "lon": 15.454373,
+    "okres": "Jihlava",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Teplice",
+    "kod": "567442",
+    "lat": 50.644558,
+    "lon": 13.835384,
+    "okres": "Teplice",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Teplice nad Metují",
+    "kod": "574538",
+    "lat": 50.59443,
+    "lon": 16.170483,
+    "okres": "Náchod",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Teplá",
+    "kod": "555631",
+    "lat": 49.981953,
+    "lon": 12.86316,
+    "okres": "Cheb",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Tišnov",
+    "kod": "584002",
+    "lat": 49.348818,
+    "lon": 16.424485,
+    "okres": "Brno-venkov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Toužim",
+    "kod": "555657",
+    "lat": 50.060604,
+    "lon": 12.985171,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Trhové Sviny",
+    "kod": "545171",
+    "lat": 48.842418,
+    "lon": 14.639338,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Trutnov",
+    "kod": "579025",
+    "lat": 50.565484,
+    "lon": 15.909192,
+    "okres": "Trutnov",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Turnov",
+    "kod": "577626",
+    "lat": 50.587385,
+    "lon": 15.156909,
+    "okres": "Semily",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Tábor",
+    "kod": "552046",
+    "lat": 49.413089,
+    "lon": 14.677566,
+    "okres": "Tábor",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Týn nad Vltavou",
+    "kod": "545201",
+    "lat": 49.223502,
+    "lon": 14.42067,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Týnec nad Sázavou",
+    "kod": "530841",
+    "lat": 49.833579,
+    "lon": 14.58994,
+    "okres": "Benešov",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Týniště nad Orlicí",
+    "kod": "576859",
+    "lat": 50.151203,
+    "lon": 16.078551,
+    "okres": "Rychnov nad Kněžnou",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Třebechovice pod Orebem",
+    "kod": "571041",
+    "lat": 50.201066,
+    "lon": 15.992336,
+    "okres": "Hradec Králové",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Třeboň",
+    "kod": "547336",
+    "lat": 49.003615,
+    "lon": 14.764232,
+    "okres": "Jindřichův Hradec",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Třebíč",
+    "kod": "590266",
+    "lat": 49.214887,
+    "lon": 15.879652,
+    "okres": "Třebíč",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Třemošná",
+    "kod": "559521",
+    "lat": 49.815946,
+    "lon": 13.395104,
+    "okres": "Plzeň-sever",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Třešť",
+    "kod": "588032",
+    "lat": 49.290971,
+    "lon": 15.483401,
+    "okres": "Jihlava",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Třinec",
+    "kod": "598810",
+    "lat": 49.677731,
+    "lon": 18.67089,
+    "okres": "Frýdek-Místek",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Uherské Hradiště",
+    "kod": "592005",
+    "lat": 49.059897,
+    "lon": 17.49595,
+    "okres": "Uherské Hradiště",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Uherský Brod",
+    "kod": "592731",
+    "lat": 49.030373,
+    "lon": 17.649938,
+    "okres": "Uherské Hradiště",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Uherský Ostroh",
+    "kod": "592749",
+    "lat": 48.985657,
+    "lon": 17.389953,
+    "okres": "Uherské Hradiště",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Uhlířské Janovice",
+    "kod": "534498",
+    "lat": 49.880291,
+    "lon": 15.06492,
+    "okres": "Kutná Hora",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Unhošť",
+    "kod": "533017",
+    "lat": 50.085455,
+    "lon": 14.130183,
+    "okres": "Kladno",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Valašské Klobouky",
+    "kod": "585891",
+    "lat": 49.139664,
+    "lon": 18.00857,
+    "okres": "Zlín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Valašské Meziříčí",
+    "kod": "545058",
+    "lat": 49.471904,
+    "lon": 17.971237,
+    "okres": "Vsetín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Valtice",
+    "kod": "584975",
+    "lat": 48.74079,
+    "lon": 16.755094,
+    "okres": "Břeclav",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Vamberk",
+    "kod": "576883",
+    "lat": 50.117657,
+    "lon": 16.290779,
+    "okres": "Rychnov nad Kněžnou",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Varnsdorf",
+    "kod": "562882",
+    "lat": 50.911648,
+    "lon": 14.618348,
+    "okres": "Děčín",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Vejprnice",
+    "kod": "559580",
+    "lat": 49.729991,
+    "lon": 13.276386,
+    "okres": "Plzeň-sever",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Velešín",
+    "kod": "545821",
+    "lat": 48.829589,
+    "lon": 14.462614,
+    "okres": "Český Krumlov",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Velká Bíteš",
+    "kod": "596973",
+    "lat": 49.288727,
+    "lon": 16.225957,
+    "okres": "Žďár nad Sázavou",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Velká Hleďsebe",
+    "kod": "539279",
+    "lat": 49.966767,
+    "lon": 12.666767,
+    "okres": "Cheb",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Velké Březno",
+    "kod": "568350",
+    "lat": 50.662808,
+    "lon": 14.141852,
+    "okres": "Ústí nad Labem",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Velké Hamry",
+    "kod": "563838",
+    "lat": 50.713834,
+    "lon": 15.315498,
+    "okres": "Jablonec nad Nisou",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Velké Karlovice",
+    "kod": "545163",
+    "lat": 49.360736,
+    "lon": 18.283665,
+    "okres": "Vsetín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Velké Meziříčí",
+    "kod": "597007",
+    "lat": 49.356189,
+    "lon": 16.013158,
+    "okres": "Žďár nad Sázavou",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Velké Opatovice",
+    "kod": "582646",
+    "lat": 49.612471,
+    "lon": 16.679574,
+    "okres": "Blansko",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Velké Pavlovice",
+    "kod": "585017",
+    "lat": 48.904792,
+    "lon": 16.816155,
+    "okres": "Břeclav",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Verneřice",
+    "kod": "562921",
+    "lat": 50.661245,
+    "lon": 14.301255,
+    "okres": "Děčín",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Veselí nad Lužnicí",
+    "kod": "553271",
+    "lat": 49.186616,
+    "lon": 14.699294,
+    "okres": "Tábor",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Veselí nad Moravou",
+    "kod": "586722",
+    "lat": 48.952477,
+    "lon": 17.381015,
+    "okres": "Hodonín",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Vimperk",
+    "kod": "550647",
+    "lat": 49.052562,
+    "lon": 13.774586,
+    "okres": "Prachatice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Vizovice",
+    "kod": "585939",
+    "lat": 49.223073,
+    "lon": 17.854921,
+    "okres": "Zlín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Vlašim",
+    "kod": "530883",
+    "lat": 49.706428,
+    "lon": 14.89891,
+    "okres": "Benešov",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Vodňany",
+    "kod": "551953",
+    "lat": 49.147997,
+    "lon": 14.175231,
+    "okres": "Strakonice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Volary",
+    "kod": "550671",
+    "lat": 48.908916,
+    "lon": 13.886674,
+    "okres": "Prachatice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Volyně",
+    "kod": "551970",
+    "lat": 49.165886,
+    "lon": 13.886339,
+    "okres": "Strakonice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Votice",
+    "kod": "530905",
+    "lat": 49.64023,
+    "lon": 14.63819,
+    "okres": "Benešov",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Vrchlabí",
+    "kod": "579858",
+    "lat": 50.617189,
+    "lon": 15.605106,
+    "okres": "Trutnov",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Vsetín",
+    "kod": "541630",
+    "lat": 49.339025,
+    "lon": 17.993952,
+    "okres": "Vsetín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Vysoké Mýto",
+    "kod": "581186",
+    "lat": 49.954364,
+    "lon": 16.164268,
+    "okres": "Ústí nad Orlicí",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Vyškov",
+    "kod": "592889",
+    "lat": 49.277552,
+    "lon": 16.996199,
+    "okres": "Vyškov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Vyšší Brod",
+    "kod": "545848",
+    "lat": 48.616082,
+    "lon": 14.311919,
+    "okres": "Český Krumlov",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Všeruby",
+    "kod": "554456",
+    "lat": 49.340829,
+    "lon": 12.983339,
+    "okres": "Domažlice",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Zdounky",
+    "kod": "589195",
+    "lat": 49.227808,
+    "lon": 17.319096,
+    "okres": "Kroměříž",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Zliv",
+    "kod": "545341",
+    "lat": 49.066188,
+    "lon": 14.366234,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Zlín",
+    "kod": "585068",
+    "lat": 49.224537,
+    "lon": 17.662863,
+    "okres": "Zlín",
+    "kraj": "Zlínský kraj"
+  },
+  {
+    "name": "Znojmo",
+    "kod": "593711",
+    "lat": 48.856011,
+    "lon": 16.054368,
+    "okres": "Znojmo",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Zruč nad Sázavou",
+    "kod": "534633",
+    "lat": 49.740205,
+    "lon": 15.106164,
+    "okres": "Kutná Hora",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Zábřeh",
+    "kod": "541354",
+    "lat": 49.8827,
+    "lon": 16.872332,
+    "okres": "Šumperk",
+    "kraj": "Olomoucký kraj"
+  },
+  {
+    "name": "Zákupy",
+    "kod": "562262",
+    "lat": 50.684854,
+    "lon": 14.645335,
+    "okres": "Česká Lípa",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Úpice",
+    "kod": "579777",
+    "lat": 50.512472,
+    "lon": 16.016173,
+    "okres": "Trutnov",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Ústí Nad Labem",
+    "kod": "554804",
+    "lat": 50.661216,
+    "lon": 14.053246,
+    "okres": "Ústí nad Labem",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Ústí nad Orlicí",
+    "kod": "579891",
+    "lat": 49.97228,
+    "lon": 16.399762,
+    "okres": "Ústí nad Orlicí",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Úštěk",
+    "kod": "565814",
+    "lat": 50.585804,
+    "lon": 14.34769,
+    "okres": "Litoměřice",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Čejkovice",
+    "kod": "544329",
+    "lat": 49.014436,
+    "lon": 14.383008,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Černošice",
+    "kod": "539139",
+    "lat": 49.960184,
+    "lon": 14.319902,
+    "okres": "Praha-západ",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Černošín",
+    "kod": "560812",
+    "lat": 49.816245,
+    "lon": 12.883925,
+    "okres": "Tachov",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Červený Kostelec",
+    "kod": "573965",
+    "lat": 50.476361,
+    "lon": 16.093,
+    "okres": "Náchod",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Česká Kamenice",
+    "kod": "562394",
+    "lat": 50.797908,
+    "lon": 14.417784,
+    "okres": "Děčín",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Česká Lípa",
+    "kod": "561380",
+    "lat": 50.67862,
+    "lon": 14.539799,
+    "okres": "Česká Lípa",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Česká Skalice",
+    "kod": "573990",
+    "lat": 50.394767,
+    "lon": 16.042868,
+    "okres": "Náchod",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Česká Třebová",
+    "kod": "580031",
+    "lat": 49.901982,
+    "lon": 16.447385,
+    "okres": "Ústí nad Orlicí",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "České Budějovice",
+    "kod": "544256",
+    "lat": 48.975758,
+    "lon": 14.480355,
+    "okres": "České Budějovice",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Český Krumlov",
+    "kod": "545392",
+    "lat": 48.812835,
+    "lon": 14.317566,
+    "okres": "Český Krumlov",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Český Těšín",
+    "kod": "598933",
+    "lat": 49.747144,
+    "lon": 18.623896,
+    "okres": "Karviná",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Čimelice",
+    "kod": "549339",
+    "lat": 49.465681,
+    "lon": 14.069328,
+    "okres": "Písek",
+    "kraj": "Jihočeský kraj"
+  },
+  {
+    "name": "Čáslav",
+    "kod": "534005",
+    "lat": 49.910995,
+    "lon": 15.390894,
+    "okres": "Kutná Hora",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Řevnice",
+    "kod": "539643",
+    "lat": 49.914064,
+    "lon": 14.235875,
+    "okres": "Praha-západ",
+    "kraj": "Středočeský kraj"
+  },
+  {
+    "name": "Říčany",
+    "kod": "583839",
+    "lat": 49.215075,
+    "lon": 16.393723,
+    "okres": "Brno-venkov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Šlapanice",
+    "kod": "583952",
+    "lat": 49.168729,
+    "lon": 16.727418,
+    "okres": "Brno-venkov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Šluknov",
+    "kod": "562858",
+    "lat": 51.003793,
+    "lon": 14.452699,
+    "okres": "Děčín",
+    "kraj": "Ústecký kraj"
+  },
+  {
+    "name": "Špindlerův Mlýn",
+    "kod": "579742",
+    "lat": 50.72625,
+    "lon": 15.609549,
+    "okres": "Trutnov",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Šternberk",
+    "kod": "505188",
+    "lat": 49.730542,
+    "lon": 17.298995,
+    "okres": "Olomouc",
+    "kraj": "Olomoucký kraj"
+  },
+  {
+    "name": "Štramberk",
+    "kod": "599948",
+    "lat": 49.591905,
+    "lon": 18.117521,
+    "okres": "Nový Jičín",
+    "kraj": "Moravskoslezský kraj"
+  },
+  {
+    "name": "Šumperk",
+    "kod": "523704",
+    "lat": 49.977941,
+    "lon": 16.971875,
+    "okres": "Šumperk",
+    "kraj": "Olomoucký kraj"
+  },
+  {
+    "name": "Švihov",
+    "kod": "557200",
+    "lat": 49.481466,
+    "lon": 13.284281,
+    "okres": "Klatovy",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Žamberk",
+    "kod": "581259",
+    "lat": 50.087401,
+    "lon": 16.465301,
+    "okres": "Ústí nad Orlicí",
+    "kraj": "Pardubický kraj"
+  },
+  {
+    "name": "Žatec",
+    "kod": "588270",
+    "lat": 49.206444,
+    "lon": 15.509005,
+    "okres": "Jihlava",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Ždánice",
+    "kod": "586803",
+    "lat": 49.067387,
+    "lon": 17.027619,
+    "okres": "Hodonín",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Ždírec nad Doubravou",
+    "kod": "569780",
+    "lat": 49.696057,
+    "lon": 15.813706,
+    "okres": "Havlíčkův Brod",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Železnice",
+    "kod": "573825",
+    "lat": 50.472837,
+    "lon": 15.384697,
+    "okres": "Jičín",
+    "kraj": "Královéhradecký kraj"
+  },
+  {
+    "name": "Železná Ruda",
+    "kod": "557528",
+    "lat": 49.137543,
+    "lon": 13.235305,
+    "okres": "Klatovy",
+    "kraj": "Plzeňský kraj"
+  },
+  {
+    "name": "Železný Brod",
+    "kod": "563871",
+    "lat": 50.64284,
+    "lon": 15.254186,
+    "okres": "Jablonec nad Nisou",
+    "kraj": "Liberecký kraj"
+  },
+  {
+    "name": "Židlochovice",
+    "kod": "584282",
+    "lat": 49.039624,
+    "lon": 16.618911,
+    "okres": "Brno-venkov",
+    "kraj": "Jihomoravský kraj"
+  },
+  {
+    "name": "Žirovnice",
+    "kod": "549231",
+    "lat": 49.253284,
+    "lon": 15.18834,
+    "okres": "Pelhřimov",
+    "kraj": "Kraj Vysočina"
+  },
+  {
+    "name": "Žlutice",
+    "kod": "555762",
+    "lat": 50.092028,
+    "lon": 13.163084,
+    "okres": "Karlovy Vary",
+    "kraj": "Karlovarský kraj"
+  },
+  {
+    "name": "Žďár nad Sázavou",
+    "kod": "595209",
+    "lat": 49.564288,
+    "lon": 15.939507,
+    "okres": "Žďár nad Sázavou",
+    "kraj": "Kraj Vysočina"
+  }
+]

@@ -1,0 +1,11 @@
+mesto,slug,region,nastupne_eur,cena_za_km_eur,cakanie_eur_min,odhad_5km_eur,poznamka
+Bratislava,bratislava,Bratislavský kraj,3.00,1.50,0.50,11.70,"Najdrahšie mesto, mnohé služby 3.50€ nástupné"
+Košice,kosice,Košický kraj,1.20,1.20,0.17,8.00,"Druhé najväčšie mesto, konkurenčné ceny"
+Prešov,presov,Prešovský kraj,2.00,1.00,0.15,7.30,"Priemerná základná cena 2€"
+Žilina,zilina,Žilinský kraj,3.50,0.80,0.25,8.00,"Vysoké nástupné, nízka cena/km"
+Nitra,nitra,Nitriansky kraj,2.50,1.00,0.20,8.00,"Stredné ceny v regióne"
+Banská Bystrica,banska-bystrica,Banskobystrický kraj,1.50,1.00,0.25,7.00,"Lacnejšie nástupné"
+Trnava,trnava,Trnavský kraj,1.00,0.90,0.13,5.80,"Fixná cena 3.50€ v meste (niektoré služby)"
+Trenčín,trencin,Trenčiansky kraj,1.00,1.20,0.20,7.60,"Nízke nástupné, vyššia cena/km"
+Martin,martin,Žilinský kraj,0.50,1.00,0.15,6.00,"Najlacnejšie nástupné"
+Poprad,poprad,Prešovský kraj,0.60,0.80,0.15,5.00,"Najlacnejšie mesto celkovo"

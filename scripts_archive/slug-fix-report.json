@@ -1,0 +1,1869 @@
+{
+  "generatedAt": "2025-12-12T19:46:20.800Z",
+  "fixedCount": 266,
+  "ambiguousCount": 13,
+  "fixes": [
+    {
+      "oldSlug": "abrahamovce",
+      "newSlug": "abrahamovce-bardejov",
+      "city": "giraltovce",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.04494376835661029
+    },
+    {
+      "oldSlug": "abrahamovce",
+      "newSlug": "abrahamovce-bardejov",
+      "city": "bardejov",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.03543582625300168
+    },
+    {
+      "oldSlug": "abrahamovce",
+      "newSlug": "abrahamovce-bardejov",
+      "city": "velky-saris",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.018990421533054302
+    },
+    {
+      "oldSlug": "baskovce",
+      "newSlug": "baskovce-humenne",
+      "city": "humenne",
+      "district": "Humenné",
+      "airDistanceDiff": 0.02227757660725338
+    },
+    {
+      "oldSlug": "baskovce",
+      "newSlug": "baskovce-humenne",
+      "city": "strazske",
+      "district": "Humenné",
+      "airDistanceDiff": 0.007560756705345284
+    },
+    {
+      "oldSlug": "baskovce",
+      "newSlug": "baskovce-humenne",
+      "city": "chlmec",
+      "district": "Humenné",
+      "airDistanceDiff": 0.0321129163392051
+    },
+    {
+      "oldSlug": "bela",
+      "newSlug": "bela-nove-zamky",
+      "city": "sturovo",
+      "district": "Nové Zámky",
+      "airDistanceDiff": 0.1106214668473271
+    },
+    {
+      "oldSlug": "bela",
+      "newSlug": "bela-nove-zamky",
+      "city": "bielovce",
+      "district": "Nové Zámky",
+      "airDistanceDiff": 0.15957350570632656
+    },
+    {
+      "oldSlug": "bela",
+      "newSlug": "bela-nove-zamky",
+      "city": "zeliezovce",
+      "district": "Nové Zámky",
+      "airDistanceDiff": 0.2050003097556896
+    },
+    {
+      "oldSlug": "besa",
+      "newSlug": "besa-levice",
+      "city": "vrable",
+      "district": "Levice",
+      "airDistanceDiff": 0.4590684589295062
+    },
+    {
+      "oldSlug": "besa",
+      "newSlug": "besa-levice",
+      "city": "levice",
+      "district": "Levice",
+      "airDistanceDiff": 0.24249622794858894
+    },
+    {
+      "oldSlug": "besa",
+      "newSlug": "besa-levice",
+      "city": "surany",
+      "district": "Levice",
+      "airDistanceDiff": 0.18904584898004373
+    },
+    {
+      "oldSlug": "bohunice",
+      "newSlug": "bohunice-levice",
+      "city": "batovce",
+      "district": "Levice",
+      "airDistanceDiff": 0.03705597945292727
+    },
+    {
+      "oldSlug": "bohunice",
+      "newSlug": "bohunice-levice",
+      "city": "nova-bana",
+      "district": "Levice",
+      "airDistanceDiff": 0.008276304558775038
+    },
+    {
+      "oldSlug": "bohunice",
+      "newSlug": "bohunice-levice",
+      "city": "zarnovica",
+      "district": "Levice",
+      "airDistanceDiff": 0.015321835910754089
+    },
+    {
+      "oldSlug": "brestov",
+      "newSlug": "brestov-humenne",
+      "city": "humenne",
+      "district": "Humenné",
+      "airDistanceDiff": 0.03337662324211221
+    },
+    {
+      "oldSlug": "brestov",
+      "newSlug": "brestov-humenne",
+      "city": "chlmec",
+      "district": "Humenné",
+      "airDistanceDiff": 0.008033403812040874
+    },
+    {
+      "oldSlug": "brestov",
+      "newSlug": "brestov-humenne",
+      "city": "strazske",
+      "district": "Humenné",
+      "airDistanceDiff": 0.03267753094729464
+    },
+    {
+      "oldSlug": "brestovec",
+      "newSlug": "brestovec-komarno",
+      "city": "velky-meder",
+      "district": "Komárno",
+      "airDistanceDiff": 0.022453905162742593
+    },
+    {
+      "oldSlug": "brestovec",
+      "newSlug": "brestovec-komarno",
+      "city": "kolarovo",
+      "district": "Komárno",
+      "airDistanceDiff": 0.040134300097085074
+    },
+    {
+      "oldSlug": "brestovec",
+      "newSlug": "brestovec-komarno",
+      "city": "gabcikovo",
+      "district": "Komárno",
+      "airDistanceDiff": 0.004195097204650722
+    },
+    {
+      "oldSlug": "breznicka",
+      "newSlug": "breznicka-poltar",
+      "city": "poltar",
+      "district": "Poltár",
+      "airDistanceDiff": 0.10985117772017317
+    },
+    {
+      "oldSlug": "breznicka",
+      "newSlug": "breznicka-poltar",
+      "city": "cinobana",
+      "district": "Poltár",
+      "airDistanceDiff": 0.005638855758610006
+    },
+    {
+      "oldSlug": "breznicka",
+      "newSlug": "breznicka-poltar",
+      "city": "lucenec",
+      "district": "Poltár",
+      "airDistanceDiff": 0.2517813968663525
+    },
+    {
+      "oldSlug": "brezovica",
+      "newSlug": "brezovica-tvrdosin",
+      "city": "trstena",
+      "district": "Tvrdošín",
+      "airDistanceDiff": 1.5615384360266225
+    },
+    {
+      "oldSlug": "brezovica",
+      "newSlug": "brezovica-tvrdosin",
+      "city": "tvrdosin",
+      "district": "Tvrdošín",
+      "airDistanceDiff": 0.9570824492873138
+    },
+    {
+      "oldSlug": "brezovica",
+      "newSlug": "brezovica-tvrdosin",
+      "city": "namestovo",
+      "district": "Tvrdošín",
+      "airDistanceDiff": 1.5947046470034358
+    },
+    {
+      "oldSlug": "bukovec",
+      "newSlug": "bukovec-myjava",
+      "city": "brezova-pod-bradlom",
+      "district": "Myjava",
+      "airDistanceDiff": 0.029298824493761977
+    },
+    {
+      "oldSlug": "bukovec",
+      "newSlug": "bukovec-myjava",
+      "city": "myjava",
+      "district": "Myjava",
+      "airDistanceDiff": 0.047699498687276964
+    },
+    {
+      "oldSlug": "bukovec",
+      "newSlug": "bukovec-myjava",
+      "city": "senica",
+      "district": "Myjava",
+      "airDistanceDiff": 0.002333871492597339
+    },
+    {
+      "oldSlug": "bystra",
+      "newSlug": "bystra-stropkov",
+      "city": "medzilaborce",
+      "district": "Stropkov",
+      "airDistanceDiff": 0.32092832911367886
+    },
+    {
+      "oldSlug": "bystra",
+      "newSlug": "bystra-stropkov",
+      "city": "stropkov",
+      "district": "Stropkov",
+      "airDistanceDiff": 0.3491892504390073
+    },
+    {
+      "oldSlug": "bystra",
+      "newSlug": "bystra-stropkov",
+      "city": "svidnik",
+      "district": "Stropkov",
+      "airDistanceDiff": 1.0519017638727668
+    },
+    {
+      "oldSlug": "cakanovce",
+      "newSlug": "cakanovce-lucenec",
+      "city": "filakovo",
+      "district": "Lučenec",
+      "airDistanceDiff": 0.15920203959627166
+    },
+    {
+      "oldSlug": "cakanovce",
+      "newSlug": "cakanovce-lucenec",
+      "city": "lucenec",
+      "district": "Lučenec",
+      "airDistanceDiff": 0.17586499713842585
+    },
+    {
+      "oldSlug": "cakanovce",
+      "newSlug": "cakanovce-lucenec",
+      "city": "poltar",
+      "district": "Lučenec",
+      "airDistanceDiff": 0.24715338177187718
+    },
+    {
+      "oldSlug": "cierna-lehota",
+      "newSlug": "cierna-lehota-roznava",
+      "city": "jelsava",
+      "district": "Rožňava",
+      "airDistanceDiff": 0.13205104377037458
+    },
+    {
+      "oldSlug": "cierna-lehota",
+      "newSlug": "cierna-lehota-roznava",
+      "city": "revuca",
+      "district": "Rožňava",
+      "airDistanceDiff": 0.17405128630030653
+    },
+    {
+      "oldSlug": "cierna-lehota",
+      "newSlug": "cierna-lehota-roznava",
+      "city": "dobsina",
+      "district": "Rožňava",
+      "airDistanceDiff": 0.13905009543150904
+    },
+    {
+      "oldSlug": "dolany",
+      "newSlug": "dolany-pezinok",
+      "city": "horne-oresany",
+      "district": "Pezinok",
+      "airDistanceDiff": 0.12740038387416597
+    },
+    {
+      "oldSlug": "dolany",
+      "newSlug": "dolany-pezinok",
+      "city": "boleraz",
+      "district": "Pezinok",
+      "airDistanceDiff": 0.09813307264218274
+    },
+    {
+      "oldSlug": "dolany",
+      "newSlug": "dolany-pezinok",
+      "city": "modra",
+      "district": "Pezinok",
+      "airDistanceDiff": 0.2006139868366965
+    },
+    {
+      "oldSlug": "dubova",
+      "newSlug": "dubova-pezinok",
+      "city": "modra",
+      "district": "Pezinok",
+      "airDistanceDiff": 0.022727480145441792
+    },
+    {
+      "oldSlug": "dubova",
+      "newSlug": "dubova-pezinok",
+      "city": "pezinok",
+      "district": "Pezinok",
+      "airDistanceDiff": 0.0343024241454728
+    },
+    {
+      "oldSlug": "dubova",
+      "newSlug": "dubova-pezinok",
+      "city": "horne-oresany",
+      "district": "Pezinok",
+      "airDistanceDiff": 0.04077875795832675
+    },
+    {
+      "oldSlug": "dubove",
+      "newSlug": "dubove-turcianske-teplice",
+      "city": "turcianske-teplice",
+      "district": "Turčianske Teplice",
+      "airDistanceDiff": 0.024205446897852312
+    },
+    {
+      "oldSlug": "dubove",
+      "newSlug": "dubove-turcianske-teplice",
+      "city": "blatnica",
+      "district": "Turčianske Teplice",
+      "airDistanceDiff": 0.03788094189498459
+    },
+    {
+      "oldSlug": "dubove",
+      "newSlug": "dubove-turcianske-teplice",
+      "city": "handlova",
+      "district": "Turčianske Teplice",
+      "airDistanceDiff": 0.09721295329944724
+    },
+    {
+      "oldSlug": "dubrava",
+      "newSlug": "dubrava-liptovsky-mikulas",
+      "city": "liptovsky-mikulas",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.04930224744460254
+    },
+    {
+      "oldSlug": "dubrava",
+      "newSlug": "dubrava-liptovsky-mikulas",
+      "city": "ruzomberok",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.04628985225413551
+    },
+    {
+      "oldSlug": "dubrava",
+      "newSlug": "dubrava-liptovsky-mikulas",
+      "city": "liptovsky-hradok",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.10166510566827824
+    },
+    {
+      "oldSlug": "gerlachov",
+      "newSlug": "gerlachov-bardejov",
+      "city": "bardejov",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.06740724196511394
+    },
+    {
+      "oldSlug": "gerlachov",
+      "newSlug": "gerlachov-bardejov",
+      "city": "sabinov",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.03456763648343042
+    },
+    {
+      "oldSlug": "gerlachov",
+      "newSlug": "gerlachov-bardejov",
+      "city": "stara-lubovna",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.08332269355464206
+    },
+    {
+      "oldSlug": "haj",
+      "newSlug": "haj-turcianske-teplice",
+      "city": "handlova",
+      "district": "Turčianske Teplice",
+      "airDistanceDiff": 0.35184855335202414
+    },
+    {
+      "oldSlug": "haniska",
+      "newSlug": "haniska-presov",
+      "city": "presov",
+      "district": "Prešov",
+      "airDistanceDiff": 0.5401549612617478
+    },
+    {
+      "oldSlug": "haniska",
+      "newSlug": "haniska-presov",
+      "city": "hostovce",
+      "district": "Prešov",
+      "airDistanceDiff": 0.6012135495628836
+    },
+    {
+      "oldSlug": "haniska",
+      "newSlug": "haniska-presov",
+      "city": "velky-saris",
+      "district": "Prešov",
+      "airDistanceDiff": 0.573562860963376
+    },
+    {
+      "oldSlug": "hankovce",
+      "newSlug": "hankovce-bardejov",
+      "city": "giraltovce",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.008539717640164923
+    },
+    {
+      "oldSlug": "hankovce",
+      "newSlug": "hankovce-bardejov",
+      "city": "bardejov",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.040017297946130626
+    },
+    {
+      "oldSlug": "horna-lehota",
+      "newSlug": "horna-lehota-brezno",
+      "city": "brezno",
+      "district": "Brezno",
+      "airDistanceDiff": 0.05756467660789877
+    },
+    {
+      "oldSlug": "horna-lehota",
+      "newSlug": "horna-lehota-brezno",
+      "city": "liptovsky-hradok",
+      "district": "Brezno",
+      "airDistanceDiff": 0.06183977416548103
+    },
+    {
+      "oldSlug": "horna-lehota",
+      "newSlug": "horna-lehota-brezno",
+      "city": "liptovsky-mikulas",
+      "district": "Brezno",
+      "airDistanceDiff": 0.11040963559840478
+    },
+    {
+      "oldSlug": "horna-ves",
+      "newSlug": "horna-ves-prievidza",
+      "city": "partizanske",
+      "district": "Prievidza",
+      "airDistanceDiff": 0.12843723775376326
+    },
+    {
+      "oldSlug": "horna-ves",
+      "newSlug": "horna-ves-prievidza",
+      "city": "novaky",
+      "district": "Prievidza",
+      "airDistanceDiff": 0.048022971098721
+    },
+    {
+      "oldSlug": "horna-ves",
+      "newSlug": "horna-ves-prievidza",
+      "city": "chynorany",
+      "district": "Prievidza",
+      "airDistanceDiff": 0.1522192993681184
+    },
+    {
+      "oldSlug": "mikusovce",
+      "newSlug": "mikusovce-ilava",
+      "city": "ilava",
+      "district": "Ilava",
+      "airDistanceDiff": 0.05620266285311715
+    },
+    {
+      "oldSlug": "mikusovce",
+      "newSlug": "mikusovce-ilava",
+      "city": "puchov",
+      "district": "Ilava",
+      "airDistanceDiff": 0.04836224467350547
+    },
+    {
+      "oldSlug": "mikusovce",
+      "newSlug": "mikusovce-ilava",
+      "city": "dubnica-nad-vahom",
+      "district": "Ilava",
+      "airDistanceDiff": 0.016132903944331645
+    },
+    {
+      "oldSlug": "nemcovce",
+      "newSlug": "nemcovce-bardejov",
+      "city": "giraltovce",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.022569718768165714
+    },
+    {
+      "oldSlug": "nemcovce",
+      "newSlug": "nemcovce-bardejov",
+      "city": "bardejov",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.04852643273614099
+    },
+    {
+      "oldSlug": "neporadza",
+      "newSlug": "neporadza-trencin",
+      "city": "trencianske-teplice",
+      "district": "Trenčín",
+      "airDistanceDiff": 0.14072242384019162
+    },
+    {
+      "oldSlug": "neporadza",
+      "newSlug": "neporadza-trencin",
+      "city": "trencin",
+      "district": "Trenčín",
+      "airDistanceDiff": 0.0004827497466308728
+    },
+    {
+      "oldSlug": "neporadza",
+      "newSlug": "neporadza-trencin",
+      "city": "nova-dubnica",
+      "district": "Trenčín",
+      "airDistanceDiff": 0.1797899848693021
+    },
+    {
+      "oldSlug": "nevidzany",
+      "newSlug": "nevidzany-zlate-moravce",
+      "city": "vrable",
+      "district": "Zlaté Moravce",
+      "airDistanceDiff": 0.03372059493704871
+    },
+    {
+      "oldSlug": "nevidzany",
+      "newSlug": "nevidzany-zlate-moravce",
+      "city": "zlate-moravce",
+      "district": "Zlaté Moravce",
+      "airDistanceDiff": 0.1914496172199449
+    },
+    {
+      "oldSlug": "nevidzany",
+      "newSlug": "nevidzany-zlate-moravce",
+      "city": "tlmace",
+      "district": "Zlaté Moravce",
+      "airDistanceDiff": 0.18498877297000327
+    },
+    {
+      "oldSlug": "nizna",
+      "newSlug": "nizna-piestany",
+      "city": "vrbove",
+      "district": "Piešťany",
+      "airDistanceDiff": 0.007386199657130277
+    },
+    {
+      "oldSlug": "nizna",
+      "newSlug": "nizna-piestany",
+      "city": "leopoldov",
+      "district": "Piešťany",
+      "airDistanceDiff": 0.016282693922574865
+    },
+    {
+      "oldSlug": "nizna",
+      "newSlug": "nizna-piestany",
+      "city": "piestany",
+      "district": "Piešťany",
+      "airDistanceDiff": 0.05017547332233718
+    },
+    {
+      "oldSlug": "olsavka",
+      "newSlug": "olsavka-stropkov",
+      "city": "svidnik",
+      "district": "Stropkov",
+      "airDistanceDiff": 0.3467437955691821
+    },
+    {
+      "oldSlug": "olsavka",
+      "newSlug": "olsavka-stropkov",
+      "city": "stropkov",
+      "district": "Stropkov",
+      "airDistanceDiff": 0.5442037339233661
+    },
+    {
+      "oldSlug": "olsavka",
+      "newSlug": "olsavka-stropkov",
+      "city": "medzilaborce",
+      "district": "Stropkov",
+      "airDistanceDiff": 0.31787804476701353
+    },
+    {
+      "oldSlug": "oreske",
+      "newSlug": "oreske-skalica",
+      "city": "senica",
+      "district": "Skalica",
+      "airDistanceDiff": 0.022999967118012776
+    },
+    {
+      "oldSlug": "oreske",
+      "newSlug": "oreske-skalica",
+      "city": "holic",
+      "district": "Skalica",
+      "airDistanceDiff": 0.019755207035585087
+    },
+    {
+      "oldSlug": "oreske",
+      "newSlug": "oreske-skalica",
+      "city": "skalica",
+      "district": "Skalica",
+      "airDistanceDiff": 0.061475448205358774
+    },
+    {
+      "oldSlug": "ostrov",
+      "newSlug": "ostrov-piestany",
+      "city": "vrbove",
+      "district": "Piešťany",
+      "airDistanceDiff": 0.04045404064669933
+    },
+    {
+      "oldSlug": "ostrov",
+      "newSlug": "ostrov-piestany",
+      "city": "piestany",
+      "district": "Piešťany",
+      "airDistanceDiff": 0.02957843481498834
+    },
+    {
+      "oldSlug": "ostrov",
+      "newSlug": "ostrov-piestany",
+      "city": "horna-streda",
+      "district": "Piešťany",
+      "airDistanceDiff": 0.0437907679867644
+    },
+    {
+      "oldSlug": "pavlovce",
+      "newSlug": "pavlovce-rimavska-sobota",
+      "city": "rimavska-sobota",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.10004518570263699
+    },
+    {
+      "oldSlug": "pavlovce",
+      "newSlug": "pavlovce-rimavska-sobota",
+      "city": "filakovo",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.02315609364825022
+    },
+    {
+      "oldSlug": "pavlovce",
+      "newSlug": "pavlovce-rimavska-sobota",
+      "city": "tornala",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.010031456733756272
+    },
+    {
+      "oldSlug": "petrovce",
+      "newSlug": "petrovce-rimavska-sobota",
+      "city": "filakovo",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.04009359038093763
+    },
+    {
+      "oldSlug": "petrovce",
+      "newSlug": "petrovce-rimavska-sobota",
+      "city": "rimavska-sobota",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.07758393431710076
+    },
+    {
+      "oldSlug": "petrovce",
+      "newSlug": "petrovce-rimavska-sobota",
+      "city": "lucenec",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.019933010278798236
+    },
+    {
+      "oldSlug": "pila",
+      "newSlug": "pila-pezinok",
+      "city": "modra",
+      "district": "Pezinok",
+      "airDistanceDiff": 0.015253217618993453
+    },
+    {
+      "oldSlug": "pila",
+      "newSlug": "pila-pezinok",
+      "city": "horne-oresany",
+      "district": "Pezinok",
+      "airDistanceDiff": 0.02685093436037178
+    },
+    {
+      "oldSlug": "pila",
+      "newSlug": "pila-pezinok",
+      "city": "pezinok",
+      "district": "Pezinok",
+      "airDistanceDiff": 0.007706166778669754
+    },
+    {
+      "oldSlug": "ploske",
+      "newSlug": "ploske-revuca",
+      "city": "revuca",
+      "district": "Revúca",
+      "airDistanceDiff": 0.04804240889646927
+    },
+    {
+      "oldSlug": "ploske",
+      "newSlug": "ploske-revuca",
+      "city": "hnusta",
+      "district": "Revúca",
+      "airDistanceDiff": 0.11089170983602337
+    },
+    {
+      "oldSlug": "ploske",
+      "newSlug": "ploske-revuca",
+      "city": "jelsava",
+      "district": "Revúca",
+      "airDistanceDiff": 0.09277569326114943
+    },
+    {
+      "oldSlug": "podhorany",
+      "newSlug": "podhorany-nitra",
+      "city": "nitra",
+      "district": "Nitra",
+      "airDistanceDiff": 1.2665077964708162
+    },
+    {
+      "oldSlug": "podhorany",
+      "newSlug": "podhorany-nitra",
+      "city": "topolcany",
+      "district": "Nitra",
+      "airDistanceDiff": 1.3176129909190486
+    },
+    {
+      "oldSlug": "podhorany",
+      "newSlug": "podhorany-nitra",
+      "city": "vrable",
+      "district": "Nitra",
+      "airDistanceDiff": 1.4329121518386998
+    },
+    {
+      "oldSlug": "podhorie",
+      "newSlug": "podhorie-banska-stiavnica",
+      "city": "banska-stiavnica",
+      "district": "Banská Štiavnica",
+      "airDistanceDiff": 0.029313407202828046
+    },
+    {
+      "oldSlug": "podhorie",
+      "newSlug": "podhorie-banska-stiavnica",
+      "city": "bansky-studenec",
+      "district": "Banská Štiavnica",
+      "airDistanceDiff": 0.03604901455364651
+    },
+    {
+      "oldSlug": "podhradie",
+      "newSlug": "podhradie-topolcany",
+      "city": "topolcany",
+      "district": "Topoľčany",
+      "airDistanceDiff": 0.029917982014763922
+    },
+    {
+      "oldSlug": "podhradie",
+      "newSlug": "podhradie-topolcany",
+      "city": "horna-streda",
+      "district": "Topoľčany",
+      "airDistanceDiff": 0.09906811137255289
+    },
+    {
+      "oldSlug": "podhradie",
+      "newSlug": "podhradie-topolcany",
+      "city": "banovce-nad-bebravou",
+      "district": "Topoľčany",
+      "airDistanceDiff": 0.08305755343858934
+    },
+    {
+      "oldSlug": "podluzany",
+      "newSlug": "podluzany-levice",
+      "city": "levice",
+      "district": "Levice",
+      "airDistanceDiff": 0.02865883279600645
+    },
+    {
+      "oldSlug": "podluzany",
+      "newSlug": "podluzany-levice",
+      "city": "tlmace",
+      "district": "Levice",
+      "airDistanceDiff": 0.03805504696531603
+    },
+    {
+      "oldSlug": "podluzany",
+      "newSlug": "podluzany-levice",
+      "city": "batovce",
+      "district": "Levice",
+      "airDistanceDiff": 0.0338350589731391
+    },
+    {
+      "oldSlug": "poproc",
+      "newSlug": "poproc-rimavska-sobota",
+      "city": "revuca",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.11637541093295667
+    },
+    {
+      "oldSlug": "poproc",
+      "newSlug": "poproc-rimavska-sobota",
+      "city": "tisovec",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.12635353684356865
+    },
+    {
+      "oldSlug": "porubka",
+      "newSlug": "porubka-bardejov",
+      "city": "giraltovce",
+      "district": "Bardejov",
+      "airDistanceDiff": 1.6485100090826066
+    },
+    {
+      "oldSlug": "porubka",
+      "newSlug": "porubka-bardejov",
+      "city": "bardejov",
+      "district": "Bardejov",
+      "airDistanceDiff": 1.3838197288687262
+    },
+    {
+      "oldSlug": "porubka",
+      "newSlug": "porubka-bardejov",
+      "city": "svidnik",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.8343246427227733
+    },
+    {
+      "oldSlug": "potok",
+      "newSlug": "potok-ruzomberok",
+      "city": "ruzomberok",
+      "district": "Ružomberok",
+      "airDistanceDiff": 0.02934037941592571
+    },
+    {
+      "oldSlug": "potok",
+      "newSlug": "potok-ruzomberok",
+      "city": "liptovsky-mikulas",
+      "district": "Ružomberok",
+      "airDistanceDiff": 0.042012976337064245
+    },
+    {
+      "oldSlug": "potok",
+      "newSlug": "potok-ruzomberok",
+      "city": "dolny-kubin",
+      "district": "Ružomberok",
+      "airDistanceDiff": 0.03215677518797122
+    },
+    {
+      "oldSlug": "radosovce",
+      "newSlug": "radosovce-skalica",
+      "city": "skalica",
+      "district": "Skalica",
+      "airDistanceDiff": 0.05627389681602146
+    },
+    {
+      "oldSlug": "radosovce",
+      "newSlug": "radosovce-skalica",
+      "city": "holic",
+      "district": "Skalica",
+      "airDistanceDiff": 0.021336706368179748
+    },
+    {
+      "oldSlug": "radosovce",
+      "newSlug": "radosovce-skalica",
+      "city": "senica",
+      "district": "Skalica",
+      "airDistanceDiff": 0.08314577351057117
+    },
+    {
+      "oldSlug": "rakos",
+      "newSlug": "rakos-kosice-okolie",
+      "city": "kosice",
+      "district": "Košice-okolie",
+      "airDistanceDiff": 0.04633721691273607
+    },
+    {
+      "oldSlug": "rakos",
+      "newSlug": "rakos-kosice-okolie",
+      "city": "trebisov",
+      "district": "Košice-okolie",
+      "airDistanceDiff": 0.029221882283984257
+    },
+    {
+      "oldSlug": "rakos",
+      "newSlug": "rakos-kosice-okolie",
+      "city": "hostovce",
+      "district": "Košice-okolie",
+      "airDistanceDiff": 0.046577999264911796
+    },
+    {
+      "oldSlug": "riecka",
+      "newSlug": "riecka-banska-bystrica",
+      "city": "banska-bystrica",
+      "district": "Banská Bystrica",
+      "airDistanceDiff": 1.3951162286451355
+    },
+    {
+      "oldSlug": "riecka",
+      "newSlug": "riecka-banska-bystrica",
+      "city": "kremnica",
+      "district": "Banská Bystrica",
+      "airDistanceDiff": 0.41994311837472154
+    },
+    {
+      "oldSlug": "riecka",
+      "newSlug": "riecka-banska-bystrica",
+      "city": "sliac",
+      "district": "Banská Bystrica",
+      "airDistanceDiff": 1.7328407415014926
+    },
+    {
+      "oldSlug": "rohoznik",
+      "newSlug": "rohoznik-malacky",
+      "city": "malacky",
+      "district": "Malacky",
+      "airDistanceDiff": 0.12027137901140961
+    },
+    {
+      "oldSlug": "rohoznik",
+      "newSlug": "rohoznik-malacky",
+      "city": "modra",
+      "district": "Malacky",
+      "airDistanceDiff": 0.09117201354094462
+    },
+    {
+      "oldSlug": "rohoznik",
+      "newSlug": "rohoznik-malacky",
+      "city": "sastin-straze",
+      "district": "Malacky",
+      "airDistanceDiff": 0.005865013789989604
+    },
+    {
+      "oldSlug": "rovne",
+      "newSlug": "rovne-rimavska-sobota",
+      "city": "hnusta",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.4317553785109638
+    },
+    {
+      "oldSlug": "stefanovce",
+      "newSlug": "stefanovce-presov",
+      "city": "sabinov",
+      "district": "Prešov",
+      "airDistanceDiff": 0.05212140224453243
+    },
+    {
+      "oldSlug": "stefanovce",
+      "newSlug": "stefanovce-presov",
+      "city": "spisske-vlachy",
+      "district": "Prešov",
+      "airDistanceDiff": 0.0673117983955116
+    },
+    {
+      "oldSlug": "stefanovce",
+      "newSlug": "stefanovce-presov",
+      "city": "velky-saris",
+      "district": "Prešov",
+      "airDistanceDiff": 0.1398249089782162
+    },
+    {
+      "oldSlug": "tomasovce",
+      "newSlug": "tomasovce-lucenec",
+      "city": "lucenec",
+      "district": "Lučenec",
+      "airDistanceDiff": 0.36594184472506974
+    },
+    {
+      "oldSlug": "tomasovce",
+      "newSlug": "tomasovce-lucenec",
+      "city": "cinobana",
+      "district": "Lučenec",
+      "airDistanceDiff": 0.03681694615206865
+    },
+    {
+      "oldSlug": "tomasovce",
+      "newSlug": "tomasovce-lucenec",
+      "city": "poltar",
+      "district": "Lučenec",
+      "airDistanceDiff": 0.394170166055968
+    },
+    {
+      "oldSlug": "trnavka",
+      "newSlug": "trnavka-dunajska-streda",
+      "city": "samorin",
+      "district": "Dunajská Streda",
+      "airDistanceDiff": 0.03750916055912601
+    },
+    {
+      "oldSlug": "trnavka",
+      "newSlug": "trnavka-dunajska-streda",
+      "city": "dunajska-streda",
+      "district": "Dunajská Streda",
+      "airDistanceDiff": 0.0027419364821703596
+    },
+    {
+      "oldSlug": "trnavka",
+      "newSlug": "trnavka-dunajska-streda",
+      "city": "gabcikovo",
+      "district": "Dunajská Streda",
+      "airDistanceDiff": 0.014907196482404572
+    },
+    {
+      "oldSlug": "vieska",
+      "newSlug": "vieska-velky-krtis",
+      "city": "modry-kamen",
+      "district": "Veľký Krtíš",
+      "airDistanceDiff": 0.00045892810605430157
+    },
+    {
+      "oldSlug": "vieska",
+      "newSlug": "vieska-velky-krtis",
+      "city": "velky-krtis",
+      "district": "Veľký Krtíš",
+      "airDistanceDiff": 0.012975604489531278
+    },
+    {
+      "oldSlug": "vieska",
+      "newSlug": "vieska-velky-krtis",
+      "city": "lucenec",
+      "district": "Veľký Krtíš",
+      "airDistanceDiff": 0.011276304197362919
+    },
+    {
+      "oldSlug": "visnove",
+      "newSlug": "visnove-nove-mesto-nad-vahom",
+      "city": "nove-mesto-nad-vahom",
+      "district": "Nové Mesto nad Váhom",
+      "airDistanceDiff": 0.04991125769158966
+    },
+    {
+      "oldSlug": "visnove",
+      "newSlug": "visnove-nove-mesto-nad-vahom",
+      "city": "stara-tura",
+      "district": "Nové Mesto nad Váhom",
+      "airDistanceDiff": 0.01712486748447528
+    },
+    {
+      "oldSlug": "visnove",
+      "newSlug": "visnove-nove-mesto-nad-vahom",
+      "city": "horna-streda",
+      "district": "Nové Mesto nad Váhom",
+      "airDistanceDiff": 0.005261751782519752
+    },
+    {
+      "oldSlug": "vozokany",
+      "newSlug": "vozokany-galanta",
+      "city": "galanta",
+      "district": "Galanta",
+      "airDistanceDiff": 0.007788376392051433
+    },
+    {
+      "oldSlug": "vozokany",
+      "newSlug": "vozokany-galanta",
+      "city": "sladkovicovo",
+      "district": "Galanta",
+      "airDistanceDiff": 0.026760534444195017
+    },
+    {
+      "oldSlug": "vozokany",
+      "newSlug": "vozokany-galanta",
+      "city": "dunajska-streda",
+      "district": "Galanta",
+      "airDistanceDiff": 0.0031968495442438183
+    },
+    {
+      "oldSlug": "vysoka",
+      "newSlug": "vysoka-banska-stiavnica",
+      "city": "zarnovica",
+      "district": "Banská Štiavnica",
+      "airDistanceDiff": 0.24271214745798275
+    },
+    {
+      "oldSlug": "vysoka",
+      "newSlug": "vysoka-banska-stiavnica",
+      "city": "banska-stiavnica",
+      "district": "Banská Štiavnica",
+      "airDistanceDiff": 0.2613887876608718
+    },
+    {
+      "oldSlug": "vysoka",
+      "newSlug": "vysoka-banska-stiavnica",
+      "city": "nova-bana",
+      "district": "Banská Štiavnica",
+      "airDistanceDiff": 0.3288697648679211
+    },
+    {
+      "oldSlug": "zalesie",
+      "newSlug": "zalesie-kezmarok",
+      "city": "spisska-stara-ves",
+      "district": "Kežmarok",
+      "airDistanceDiff": 0.18202709950765605
+    },
+    {
+      "oldSlug": "zalesie",
+      "newSlug": "zalesie-kezmarok",
+      "city": "spisska-bela",
+      "district": "Kežmarok",
+      "airDistanceDiff": 0.1161221484610735
+    },
+    {
+      "oldSlug": "zalesie",
+      "newSlug": "zalesie-kezmarok",
+      "city": "kezmarok",
+      "district": "Kežmarok",
+      "airDistanceDiff": 0.1600111518775016
+    },
+    {
+      "oldSlug": "zavada",
+      "newSlug": "zavada-topolcany",
+      "city": "topolcany",
+      "district": "Topoľčany",
+      "airDistanceDiff": 0.07259941953354776
+    },
+    {
+      "oldSlug": "zavada",
+      "newSlug": "zavada-topolcany",
+      "city": "chynorany",
+      "district": "Topoľčany",
+      "airDistanceDiff": 0.2698075141101697
+    },
+    {
+      "oldSlug": "zavada",
+      "newSlug": "zavada-topolcany",
+      "city": "banovce-nad-bebravou",
+      "district": "Topoľčany",
+      "airDistanceDiff": 0.3267684834838107
+    },
+    {
+      "oldSlug": "zavadka",
+      "newSlug": "zavadka-humenne",
+      "city": "humenne",
+      "district": "Humenné",
+      "airDistanceDiff": 0.025317319242609493
+    },
+    {
+      "oldSlug": "zavadka",
+      "newSlug": "zavadka-humenne",
+      "city": "strazske",
+      "district": "Humenné",
+      "airDistanceDiff": 0.03470719702988401
+    },
+    {
+      "oldSlug": "zavadka",
+      "newSlug": "zavadka-humenne",
+      "city": "chlmec",
+      "district": "Humenné",
+      "airDistanceDiff": 0.03165261973949107
+    },
+    {
+      "oldSlug": "zlatno",
+      "newSlug": "zlatno-zlate-moravce",
+      "city": "zlate-moravce",
+      "district": "Zlaté Moravce",
+      "airDistanceDiff": 0.094141972337912
+    },
+    {
+      "oldSlug": "zlatno",
+      "newSlug": "zlatno-zlate-moravce",
+      "city": "topolcany",
+      "district": "Zlaté Moravce",
+      "airDistanceDiff": 0.08564249509630173
+    },
+    {
+      "oldSlug": "zlatno",
+      "newSlug": "zlatno-zlate-moravce",
+      "city": "chynorany",
+      "district": "Zlaté Moravce",
+      "airDistanceDiff": 0.09776437282787498
+    },
+    {
+      "oldSlug": "ziar",
+      "newSlug": "ziar-liptovsky-mikulas",
+      "city": "liptovsky-mikulas",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 1.4746292664451088
+    },
+    {
+      "oldSlug": "ziar",
+      "newSlug": "ziar-liptovsky-mikulas",
+      "city": "liptovsky-hradok",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.07335503344020466
+    },
+    {
+      "oldSlug": "ziar",
+      "newSlug": "ziar-liptovsky-mikulas",
+      "city": "tvrdosin",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.08291794793915841
+    },
+    {
+      "oldSlug": "hankovce",
+      "newSlug": "hankovce-bardejov",
+      "city": "svidnik",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.039641510477650854
+    },
+    {
+      "oldSlug": "horovce",
+      "newSlug": "horovce-puchov",
+      "city": "ilava",
+      "district": "Púchov",
+      "airDistanceDiff": 0.04174709659038278
+    },
+    {
+      "oldSlug": "horovce",
+      "newSlug": "horovce-puchov",
+      "city": "puchov",
+      "district": "Púchov",
+      "airDistanceDiff": 0.011497435996659533
+    },
+    {
+      "oldSlug": "horovce",
+      "newSlug": "horovce-puchov",
+      "city": "dubnica-nad-vahom",
+      "district": "Púchov",
+      "airDistanceDiff": 0.024610840733465977
+    },
+    {
+      "oldSlug": "hradiste",
+      "newSlug": "hradiste-poltar",
+      "city": "cinobana",
+      "district": "Poltár",
+      "airDistanceDiff": 0.03618735829522013
+    },
+    {
+      "oldSlug": "hradiste",
+      "newSlug": "hradiste-poltar",
+      "city": "poltar",
+      "district": "Poltár",
+      "airDistanceDiff": 0.11512251980331278
+    },
+    {
+      "oldSlug": "hradiste",
+      "newSlug": "hradiste-poltar",
+      "city": "hrinova",
+      "district": "Poltár",
+      "airDistanceDiff": 0.1001407429637915
+    },
+    {
+      "oldSlug": "hrusov",
+      "newSlug": "hrusov-velky-krtis",
+      "city": "sahy",
+      "district": "Veľký Krtíš",
+      "airDistanceDiff": 0.18635325856744522
+    },
+    {
+      "oldSlug": "hrusov",
+      "newSlug": "hrusov-velky-krtis",
+      "city": "dudince",
+      "district": "Veľký Krtíš",
+      "airDistanceDiff": 0.03971537246761159
+    },
+    {
+      "oldSlug": "hrusov",
+      "newSlug": "hrusov-velky-krtis",
+      "city": "velky-krtis",
+      "district": "Veľký Krtíš",
+      "airDistanceDiff": 0.05374554033266321
+    },
+    {
+      "oldSlug": "chvojnica",
+      "newSlug": "chvojnica-myjava",
+      "city": "senica",
+      "district": "Myjava",
+      "airDistanceDiff": 0.8470839474878922
+    },
+    {
+      "oldSlug": "jablonove",
+      "newSlug": "jablonove-malacky",
+      "city": "stupava",
+      "district": "Malacky",
+      "airDistanceDiff": 0.03259663405457225
+    },
+    {
+      "oldSlug": "jablonove",
+      "newSlug": "jablonove-malacky",
+      "city": "malacky",
+      "district": "Malacky",
+      "airDistanceDiff": 0.013641068069459195
+    },
+    {
+      "oldSlug": "jablonove",
+      "newSlug": "jablonove-malacky",
+      "city": "svaty-jur",
+      "district": "Malacky",
+      "airDistanceDiff": 0.035597356167823335
+    },
+    {
+      "oldSlug": "jakubovany",
+      "newSlug": "jakubovany-liptovsky-mikulas",
+      "city": "liptovsky-hradok",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.1476296277864373
+    },
+    {
+      "oldSlug": "jakubovany",
+      "newSlug": "jakubovany-liptovsky-mikulas",
+      "city": "liptovsky-mikulas",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.3047439311035136
+    },
+    {
+      "oldSlug": "jakubovany",
+      "newSlug": "jakubovany-liptovsky-mikulas",
+      "city": "tvrdosin",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.3252881037551987
+    },
+    {
+      "oldSlug": "jalovec",
+      "newSlug": "jalovec-liptovsky-mikulas",
+      "city": "liptovsky-mikulas",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.31249835741420995
+    },
+    {
+      "oldSlug": "jalovec",
+      "newSlug": "jalovec-liptovsky-mikulas",
+      "city": "liptovsky-hradok",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.10480161131935972
+    },
+    {
+      "oldSlug": "jalovec",
+      "newSlug": "jalovec-liptovsky-mikulas",
+      "city": "tvrdosin",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.22380616787333807
+    },
+    {
+      "oldSlug": "jamnik",
+      "newSlug": "jamnik-liptovsky-mikulas",
+      "city": "liptovsky-hradok",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.016888548183495722
+    },
+    {
+      "oldSlug": "jamnik",
+      "newSlug": "jamnik-liptovsky-mikulas",
+      "city": "liptovsky-mikulas",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.015770801020789094
+    },
+    {
+      "oldSlug": "jamnik",
+      "newSlug": "jamnik-liptovsky-mikulas",
+      "city": "ruzomberok",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.01702432493598849
+    },
+    {
+      "oldSlug": "jasenov",
+      "newSlug": "jasenov-sobrance",
+      "city": "sobrance",
+      "district": "Sobrance",
+      "airDistanceDiff": 0.4704003175553888
+    },
+    {
+      "oldSlug": "jasenov",
+      "newSlug": "jasenov-sobrance",
+      "city": "michalovce",
+      "district": "Sobrance",
+      "airDistanceDiff": 0.682857708352298
+    },
+    {
+      "oldSlug": "jasenov",
+      "newSlug": "jasenov-humenne",
+      "city": "chlmec",
+      "district": "Humenné",
+      "airDistanceDiff": 0.04775953905607899
+    },
+    {
+      "oldSlug": "jesenske",
+      "newSlug": "jesenske-rimavska-sobota",
+      "city": "rimavska-sobota",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.1694300921757037
+    },
+    {
+      "oldSlug": "jesenske",
+      "newSlug": "jesenske-rimavska-sobota",
+      "city": "filakovo",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.9647751571023662
+    },
+    {
+      "oldSlug": "jesenske",
+      "newSlug": "jesenske-rimavska-sobota",
+      "city": "tornala",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.9309946448151116
+    },
+    {
+      "oldSlug": "kamenna-poruba",
+      "newSlug": "kamenna-poruba-zilina",
+      "city": "rajec",
+      "district": "Žilina",
+      "airDistanceDiff": 0.0011115570459714341
+    },
+    {
+      "oldSlug": "kamenna-poruba",
+      "newSlug": "kamenna-poruba-zilina",
+      "city": "zilina",
+      "district": "Žilina",
+      "airDistanceDiff": 0.030676268643144766
+    },
+    {
+      "oldSlug": "kamenna-poruba",
+      "newSlug": "kamenna-poruba-zilina",
+      "city": "vrutky",
+      "district": "Žilina",
+      "airDistanceDiff": 0.0461489316953525
+    },
+    {
+      "oldSlug": "kamienka",
+      "newSlug": "kamienka-humenne",
+      "city": "chlmec",
+      "district": "Humenné",
+      "airDistanceDiff": 0.007832297268556943
+    },
+    {
+      "oldSlug": "kamienka",
+      "newSlug": "kamienka-humenne",
+      "city": "humenne",
+      "district": "Humenné",
+      "airDistanceDiff": 0.023473001225190693
+    },
+    {
+      "oldSlug": "kamienka",
+      "newSlug": "kamienka-humenne",
+      "city": "strazske",
+      "district": "Humenné",
+      "airDistanceDiff": 0.002673407702216579
+    },
+    {
+      "oldSlug": "klokocov",
+      "newSlug": "klokocov-cadca",
+      "city": "turzovka",
+      "district": "Čadca",
+      "airDistanceDiff": 0.20712016258461396
+    },
+    {
+      "oldSlug": "klokocov",
+      "newSlug": "klokocov-cadca",
+      "city": "cadca",
+      "district": "Čadca",
+      "airDistanceDiff": 0.076226383927537
+    },
+    {
+      "oldSlug": "klokocov",
+      "newSlug": "klokocov-cadca",
+      "city": "kysucke-nove-mesto",
+      "district": "Čadca",
+      "airDistanceDiff": 0.1987143323778433
+    },
+    {
+      "oldSlug": "kochanovce",
+      "newSlug": "kochanovce-bardejov",
+      "city": "giraltovce",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.049344008148620944
+    },
+    {
+      "oldSlug": "kochanovce",
+      "newSlug": "kochanovce-bardejov",
+      "city": "bardejov",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.038548017976074433
+    },
+    {
+      "oldSlug": "kochanovce",
+      "newSlug": "kochanovce-bardejov",
+      "city": "svidnik",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.026321203249633385
+    },
+    {
+      "oldSlug": "konska",
+      "newSlug": "konska-zilina",
+      "city": "liptovsky-mikulas",
+      "district": "Žilina",
+      "airDistanceDiff": 0.015091883115944782
+    },
+    {
+      "oldSlug": "konska",
+      "newSlug": "konska-zilina",
+      "city": "liptovsky-hradok",
+      "district": "Žilina",
+      "airDistanceDiff": 0.04632895612179766
+    },
+    {
+      "oldSlug": "konska",
+      "newSlug": "konska-zilina",
+      "city": "tvrdosin",
+      "district": "Žilina",
+      "airDistanceDiff": 0.04966185815035118
+    },
+    {
+      "oldSlug": "kovacova",
+      "newSlug": "kovacova-zvolen",
+      "city": "zvolen",
+      "district": "Zvolen",
+      "airDistanceDiff": 0.46056588373806573
+    },
+    {
+      "oldSlug": "kovacova",
+      "newSlug": "kovacova-zvolen",
+      "city": "sliac",
+      "district": "Zvolen",
+      "airDistanceDiff": 0.07217588608668146
+    },
+    {
+      "oldSlug": "kovacova",
+      "newSlug": "kovacova-zvolen",
+      "city": "banska-bystrica",
+      "district": "Zvolen",
+      "airDistanceDiff": 0.3040484858157839
+    },
+    {
+      "oldSlug": "kravany",
+      "newSlug": "kravany-poprad",
+      "city": "svit",
+      "district": "Poprad",
+      "airDistanceDiff": 0.016957281488484632
+    },
+    {
+      "oldSlug": "kravany",
+      "newSlug": "kravany-poprad",
+      "city": "poprad",
+      "district": "Poprad",
+      "airDistanceDiff": 0.1430576595363604
+    },
+    {
+      "oldSlug": "kravany",
+      "newSlug": "kravany-poprad",
+      "city": "betlanovce",
+      "district": "Poprad",
+      "airDistanceDiff": 0.06105864703550168
+    },
+    {
+      "oldSlug": "kucin",
+      "newSlug": "kucin-bardejov",
+      "city": "giraltovce",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.012426976536183076
+    },
+    {
+      "oldSlug": "kucin",
+      "newSlug": "kucin-bardejov",
+      "city": "svidnik",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.03770250512912199
+    },
+    {
+      "oldSlug": "kucin",
+      "newSlug": "kucin-bardejov",
+      "city": "stropkov",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.03667274933657261
+    },
+    {
+      "oldSlug": "kuzmice",
+      "newSlug": "kuzmice-trebisov",
+      "city": "trebisov",
+      "district": "Trebišov",
+      "airDistanceDiff": 0.8119533388103974
+    },
+    {
+      "oldSlug": "kuzmice",
+      "newSlug": "kuzmice-trebisov",
+      "city": "kosice",
+      "district": "Trebišov",
+      "airDistanceDiff": 0.531845408135819
+    },
+    {
+      "oldSlug": "kuzmice",
+      "newSlug": "kuzmice-trebisov",
+      "city": "michalovce",
+      "district": "Trebišov",
+      "airDistanceDiff": 0.7976179141487378
+    },
+    {
+      "oldSlug": "kvacany",
+      "newSlug": "kvacany-liptovsky-mikulas",
+      "city": "liptovsky-mikulas",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.1001065229664242
+    },
+    {
+      "oldSlug": "kvacany",
+      "newSlug": "kvacany-liptovsky-mikulas",
+      "city": "dolny-kubin",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.021775249476004177
+    },
+    {
+      "oldSlug": "kvacany",
+      "newSlug": "kvacany-liptovsky-mikulas",
+      "city": "tvrdosin",
+      "district": "Liptovský Mikuláš",
+      "airDistanceDiff": 0.10221465527783025
+    },
+    {
+      "oldSlug": "lieskovec",
+      "newSlug": "lieskovec-humenne",
+      "city": "strazske",
+      "district": "Humenné",
+      "airDistanceDiff": 0.11128378504981029
+    },
+    {
+      "oldSlug": "lipova",
+      "newSlug": "lipova-nove-zamky",
+      "city": "surany",
+      "district": "Nové Zámky",
+      "airDistanceDiff": 0.02699336035140476
+    },
+    {
+      "oldSlug": "lipova",
+      "newSlug": "lipova-nove-zamky",
+      "city": "nove-zamky",
+      "district": "Nové Zámky",
+      "airDistanceDiff": 0.039585115840125695
+    },
+    {
+      "oldSlug": "lipova",
+      "newSlug": "lipova-nove-zamky",
+      "city": "dvory-nad-zitavou",
+      "district": "Nové Zámky",
+      "airDistanceDiff": 0.016135214999003722
+    },
+    {
+      "oldSlug": "lipovec",
+      "newSlug": "lipovec-martin",
+      "city": "vrutky",
+      "district": "Martin",
+      "airDistanceDiff": 0.023083479587445055
+    },
+    {
+      "oldSlug": "lipovec",
+      "newSlug": "lipovec-martin",
+      "city": "martin",
+      "district": "Martin",
+      "airDistanceDiff": 0.035456812979346886
+    },
+    {
+      "oldSlug": "lipovec",
+      "newSlug": "lipovec-martin",
+      "city": "turany",
+      "district": "Martin",
+      "airDistanceDiff": 0.02361064698755122
+    },
+    {
+      "oldSlug": "lipovnik",
+      "newSlug": "lipovnik-topolcany",
+      "city": "topolcany",
+      "district": "Topoľčany",
+      "airDistanceDiff": 0.03617872225524188
+    },
+    {
+      "oldSlug": "lipovnik",
+      "newSlug": "lipovnik-topolcany",
+      "city": "piestany",
+      "district": "Topoľčany",
+      "airDistanceDiff": 0.013344883854365719
+    },
+    {
+      "oldSlug": "lipovnik",
+      "newSlug": "lipovnik-topolcany",
+      "city": "horna-streda",
+      "district": "Topoľčany",
+      "airDistanceDiff": 0.022883233903012723
+    },
+    {
+      "oldSlug": "lucka",
+      "newSlug": "lucka-svidnik",
+      "city": "giraltovce",
+      "district": "Svidník",
+      "airDistanceDiff": 0.04842321537037808
+    },
+    {
+      "oldSlug": "lucka",
+      "newSlug": "lucka-svidnik",
+      "city": "hanusovce-nad-toplou",
+      "district": "Svidník",
+      "airDistanceDiff": 0.03492415866772092
+    },
+    {
+      "oldSlug": "lucka",
+      "newSlug": "lucka-svidnik",
+      "city": "stropkov",
+      "district": "Svidník",
+      "airDistanceDiff": 0.041190286250170516
+    },
+    {
+      "oldSlug": "lucky",
+      "newSlug": "lucky-ruzomberok",
+      "city": "ruzomberok",
+      "district": "Ružomberok",
+      "airDistanceDiff": 0.040816110298795394
+    },
+    {
+      "oldSlug": "lucky",
+      "newSlug": "lucky-ruzomberok",
+      "city": "dolny-kubin",
+      "district": "Ružomberok",
+      "airDistanceDiff": 0.02828679799652356
+    },
+    {
+      "oldSlug": "lucky",
+      "newSlug": "lucky-ruzomberok",
+      "city": "liptovsky-mikulas",
+      "district": "Ružomberok",
+      "airDistanceDiff": 0.023430847788009856
+    },
+    {
+      "oldSlug": "lukavica",
+      "newSlug": "lukavica-bardejov",
+      "city": "bardejov",
+      "district": "Bardejov",
+      "airDistanceDiff": 1.5283733015561376
+    },
+    {
+      "oldSlug": "lukavica",
+      "newSlug": "lukavica-bardejov",
+      "city": "svidnik",
+      "district": "Bardejov",
+      "airDistanceDiff": 1.2772006791739123
+    },
+    {
+      "oldSlug": "lukavica",
+      "newSlug": "lukavica-bardejov",
+      "city": "giraltovce",
+      "district": "Bardejov",
+      "airDistanceDiff": 1.4649973697688772
+    },
+    {
+      "oldSlug": "nemcovce",
+      "newSlug": "nemcovce-bardejov",
+      "city": "svidnik",
+      "district": "Bardejov",
+      "airDistanceDiff": 0.020189727762492282
+    },
+    {
+      "oldSlug": "podhorie",
+      "newSlug": "podhorie-banska-stiavnica",
+      "city": "ziar-nad-hronom",
+      "district": "Banská Štiavnica",
+      "airDistanceDiff": 0.0018394773987182589
+    },
+    {
+      "oldSlug": "poproc",
+      "newSlug": "poproc-rimavska-sobota",
+      "city": "hnusta",
+      "district": "Rimavská Sobota",
+      "airDistanceDiff": 0.0244657128954735
+    },
+    {
+      "oldSlug": "rudnik",
+      "newSlug": "rudnik-myjava",
+      "city": "myjava",
+      "district": "Myjava",
+      "airDistanceDiff": 0.04215772598901779
+    },
+    {
+      "oldSlug": "rudnik",
+      "newSlug": "rudnik-myjava",
+      "city": "stara-tura",
+      "district": "Myjava",
+      "airDistanceDiff": 0.03133146008502852
+    },
+    {
+      "oldSlug": "rudnik",
+      "newSlug": "rudnik-myjava",
+      "city": "brezova-pod-bradlom",
+      "district": "Myjava",
+      "airDistanceDiff": 0.10804605367546039
+    },
+    {
+      "oldSlug": "ruskovce",
+      "newSlug": "ruskovce-banovce-nad-bebravou",
+      "city": "banovce-nad-bebravou",
+      "district": "Bánovce nad Bebravou",
+      "airDistanceDiff": 0.3069372250364859
+    },
+    {
+      "oldSlug": "ruskovce",
+      "newSlug": "ruskovce-banovce-nad-bebravou",
+      "city": "chynorany",
+      "district": "Bánovce nad Bebravou",
+      "airDistanceDiff": 0.2287015926147049
+    },
+    {
+      "oldSlug": "ruskovce",
+      "newSlug": "ruskovce-banovce-nad-bebravou",
+      "city": "trencianske-teplice",
+      "district": "Bánovce nad Bebravou",
+      "airDistanceDiff": 0.42935471428899774
+    },
+    {
+      "oldSlug": "rybnik",
+      "newSlug": "rybnik-levice",
+      "city": "tlmace",
+      "district": "Levice",
+      "airDistanceDiff": 0.010062445660500519
+    },
+    {
+      "oldSlug": "rybnik",
+      "newSlug": "rybnik-levice",
+      "city": "levice",
+      "district": "Levice",
+      "airDistanceDiff": 0.033163748404820836
+    },
+    {
+      "oldSlug": "rybnik",
+      "newSlug": "rybnik-levice",
+      "city": "batovce",
+      "district": "Levice",
+      "airDistanceDiff": 0.045564267836043726
+    },
+    {
+      "oldSlug": "sasa",
+      "newSlug": "sasa-zvolen",
+      "city": "krupina",
+      "district": "Zvolen",
+      "airDistanceDiff": 0.07576603260049453
+    },
+    {
+      "oldSlug": "sasa",
+      "newSlug": "sasa-zvolen",
+      "city": "bansky-studenec",
+      "district": "Zvolen",
+      "airDistanceDiff": 0.038698020639939656
+    },
+    {
+      "oldSlug": "sasa",
+      "newSlug": "sasa-zvolen",
+      "city": "zvolen",
+      "district": "Zvolen",
+      "airDistanceDiff": 0.08470321002129211
+    },
+    {
+      "oldSlug": "selce",
+      "newSlug": "selce-banska-bystrica",
+      "city": "banska-bystrica",
+      "district": "Banská Bystrica",
+      "airDistanceDiff": 0.32981586336360547
+    },
+    {
+      "oldSlug": "selce",
+      "newSlug": "selce-banska-bystrica",
+      "city": "sliac",
+      "district": "Banská Bystrica",
+      "airDistanceDiff": 0.39944279927045656
+    },
+    {
+      "oldSlug": "selce",
+      "newSlug": "selce-banska-bystrica",
+      "city": "zvolen",
+      "district": "Banská Bystrica",
+      "airDistanceDiff": 0.41142793036151915
+    },
+    {
+      "oldSlug": "senne",
+      "newSlug": "senne-velky-krtis",
+      "city": "lucenec",
+      "district": "Veľký Krtíš",
+      "airDistanceDiff": 1.2330428072046296
+    }
+  ]
+}

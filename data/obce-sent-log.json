@@ -1,0 +1,1206 @@
+{
+  "sent": [
+    {
+      "email": "obec.abelova@gmail.com",
+      "nazovObce": "Abelova",
+      "sentAt": "2025-12-09T10:13:30.219Z",
+      "resendId": "9304912e-63ee-4423-b9c2-02299a1adf1a"
+    },
+    {
+      "email": "obec.abovce@centrum.sk",
+      "nazovObce": "Abovce",
+      "sentAt": "2025-12-09T10:13:40.463Z",
+      "resendId": "0f898129-2802-48c3-9802-5a6e31ac939f"
+    },
+    {
+      "email": "urad@abraham.sk",
+      "nazovObce": "Abraham",
+      "sentAt": "2025-12-09T10:13:50.721Z",
+      "resendId": "8b36c6fd-4659-4c9c-acd2-331e4ce274c5"
+    },
+    {
+      "email": "starosta@abrahamovce-bj.sk",
+      "nazovObce": "Abrahamovce",
+      "sentAt": "2025-12-09T10:14:00.967Z",
+      "resendId": "4c4f4e51-75e7-4a33-9f0d-1c0736be8dfc"
+    },
+    {
+      "email": "abrahamovce@abrahamovce.sk",
+      "nazovObce": "Abrahamovce kezmarok",
+      "sentAt": "2025-12-09T10:14:11.527Z",
+      "resendId": "dfd0b5fb-184f-4e41-89f3-db2ffa64bacf"
+    },
+    {
+      "email": "uobecny5@gaya.sk",
+      "nazovObce": "Abramova",
+      "sentAt": "2025-12-09T10:14:21.792Z",
+      "resendId": "755b9fcc-e773-410a-ad16-a26e63ab9b74"
+    },
+    {
+      "email": "obecabranovce@gmail.com",
+      "nazovObce": "Abranovce",
+      "sentAt": "2025-12-09T10:14:32.066Z",
+      "resendId": "2160b7a5-5060-4e79-9005-c9ae0ce3e899"
+    },
+    {
+      "email": "obec.adidovce@gmail.com",
+      "nazovObce": "Adidovce",
+      "sentAt": "2025-12-09T10:14:42.693Z",
+      "resendId": "86ee4847-df92-47c1-b605-7fd62b3bbb29"
+    },
+    {
+      "email": "obec@aleksince.sk",
+      "nazovObce": "Aleksince",
+      "sentAt": "2025-12-09T10:14:53.009Z",
+      "resendId": "7b3b8bc4-2809-4859-a3e1-8d51e8ec46b0"
+    },
+    {
+      "email": "starosta@andovce.sk",
+      "nazovObce": "Andovce",
+      "sentAt": "2025-12-09T10:15:03.264Z",
+      "resendId": "073c953e-8b59-4ffb-b40e-2f5ee701bc68"
+    },
+    {
+      "email": "obecandrejova@gmail.com",
+      "nazovObce": "Andrejova",
+      "sentAt": "2025-12-09T10:15:13.521Z",
+      "resendId": "1d551f36-b011-456c-9278-14922b500185"
+    },
+    {
+      "email": "ouardanovce@wircom.sk",
+      "nazovObce": "Ardanovce",
+      "sentAt": "2025-12-09T10:15:23.850Z",
+      "resendId": "dae8f2af-99b2-48e3-ab1a-1740b3f3d0d5"
+    },
+    {
+      "email": "info@obecardovo.sk",
+      "nazovObce": "Ardovo",
+      "sentAt": "2025-12-09T10:15:34.120Z",
+      "resendId": "6a9e7489-74ea-4512-8dee-faa627d132e4"
+    },
+    {
+      "email": "arnutovce@gmail.com",
+      "nazovObce": "Arnutovce",
+      "sentAt": "2025-12-09T10:15:44.364Z",
+      "resendId": "ec73a45c-3b51-41f1-a3bc-6662d56310d6"
+    },
+    {
+      "email": "obecbab@obecbab.sk",
+      "nazovObce": "Bab",
+      "sentAt": "2025-12-09T10:15:54.625Z",
+      "resendId": "45d06533-4f3e-4b81-9d54-fa85c010d3ee"
+    },
+    {
+      "email": "podatelna.obecbabie@gmail.com",
+      "nazovObce": "Babie",
+      "sentAt": "2025-12-09T10:16:04.873Z",
+      "resendId": "a9907fa6-1288-4702-8673-78a17ac1b3c4"
+    },
+    {
+      "email": "obecbabin@orava.sk",
+      "nazovObce": "Babin",
+      "sentAt": "2025-12-09T10:16:15.165Z",
+      "resendId": "0de95bbd-479f-49e2-abe8-5d8310166039"
+    },
+    {
+      "email": "obec@babina.sk",
+      "nazovObce": "Babina",
+      "sentAt": "2025-12-09T10:16:25.503Z",
+      "resendId": "65eef843-62cf-4ca4-8f07-c5791f5d95c5"
+    },
+    {
+      "email": "obec@babindol.sk",
+      "nazovObce": "Babindol",
+      "sentAt": "2025-12-09T10:16:35.825Z",
+      "resendId": "003e45d2-424b-4224-87b4-76aa467d26ff"
+    },
+    {
+      "email": "babinec2010@gmail.com",
+      "nazovObce": "Babinec",
+      "sentAt": "2025-12-09T10:16:46.074Z",
+      "resendId": "4eee4ad9-6ab3-4324-878b-6a06d4c54905"
+    },
+    {
+      "email": "info@bacuch.sk",
+      "nazovObce": "Bacuch",
+      "sentAt": "2025-12-09T10:16:56.327Z",
+      "resendId": "329b9212-0818-49a9-a19d-3c0555ded4bc"
+    },
+    {
+      "email": "bacurov@bacurov.sk",
+      "nazovObce": "Bacurov",
+      "sentAt": "2025-12-09T10:17:06.569Z",
+      "resendId": "c91251dc-11b2-49ee-b53a-0157e9464206"
+    },
+    {
+      "email": "obecbacka130@gmail.com",
+      "nazovObce": "Backa",
+      "sentAt": "2025-12-09T10:17:16.800Z",
+      "resendId": "bbe449d3-e9ca-4b2e-b886-c93696be1caa"
+    },
+    {
+      "email": "obecbackov@centrum.sk",
+      "nazovObce": "Backov",
+      "sentAt": "2025-12-09T10:17:27.041Z",
+      "resendId": "00fe5f4f-65ea-41a2-b678-cbedb178bd62"
+    },
+    {
+      "email": "obecny.urad@backovik.sk",
+      "nazovObce": "Backovik",
+      "sentAt": "2025-12-09T10:17:37.352Z",
+      "resendId": "37794bff-b30f-4d0a-bcd0-a33becf5656b"
+    },
+    {
+      "email": "info@badan.sk",
+      "nazovObce": "Badan",
+      "sentAt": "2025-12-09T10:17:47.642Z",
+      "resendId": "2be8eab5-9829-45a8-bbb9-2f790a4a35eb"
+    },
+    {
+      "email": "badin@obecbadin.sk",
+      "nazovObce": "Badin",
+      "sentAt": "2025-12-09T10:17:58.218Z",
+      "resendId": "c406a376-a8c1-4788-b039-d5d540a458d3"
+    },
+    {
+      "email": "starosta@bahon.sk",
+      "nazovObce": "Bahon",
+      "sentAt": "2025-12-09T10:18:08.486Z",
+      "resendId": "6bff92d0-aab2-467e-8e39-2bed9ab57420"
+    },
+    {
+      "email": "oubajany@zoznam.sk",
+      "nazovObce": "Bajany",
+      "sentAt": "2025-12-09T10:18:18.740Z",
+      "resendId": "88815aec-7bae-4706-b1ab-0cd46239a17c"
+    },
+    {
+      "email": "info@bajerov.sk",
+      "nazovObce": "Bajerov",
+      "sentAt": "2025-12-09T10:18:29.283Z",
+      "resendId": "66eda6e0-8439-4e90-88f8-600fc4dfa388"
+    },
+    {
+      "email": "obec@bajerovce.sk",
+      "nazovObce": "Bajerovce",
+      "sentAt": "2025-12-09T10:18:39.534Z",
+      "resendId": "510243d0-879e-496b-a5c0-f6733fb8fac4"
+    },
+    {
+      "email": "obecbajka@gmail.com",
+      "nazovObce": "Bajka",
+      "sentAt": "2025-12-09T10:18:49.790Z",
+      "resendId": "de95e670-768a-4c37-8337-d97ad2796833"
+    },
+    {
+      "email": "referent@bajtava.sk",
+      "nazovObce": "Bajtava",
+      "sentAt": "2025-12-09T10:19:00.104Z",
+      "resendId": "224a5fd1-069f-4cce-a8e4-c1db5d43fb53"
+    },
+    {
+      "email": "urad@obecbaka.sk",
+      "nazovObce": "Baka",
+      "sentAt": "2025-12-09T10:19:10.367Z",
+      "resendId": "5d105994-5b59-4cc6-8596-54b5d2bd1730"
+    },
+    {
+      "email": "obec.baldovce@gmail.com",
+      "nazovObce": "Baldovce",
+      "sentAt": "2025-12-09T10:19:20.629Z",
+      "resendId": "a33a8d56-f70e-44a6-a12c-07e20bfcbc34"
+    },
+    {
+      "email": "info@balognadiplom.sk",
+      "nazovObce": "Balognadiplom",
+      "sentAt": "2025-12-09T10:19:30.900Z",
+      "resendId": "044836b5-abfc-4e05-b6c2-e1ee8c4f9ea1"
+    },
+    {
+      "email": "ocubana@capur.net",
+      "nazovObce": "Bana",
+      "sentAt": "2025-12-09T10:19:41.235Z",
+      "resendId": "2ff60fe6-7beb-46a5-91ba-41845cea7777"
+    },
+    {
+      "email": "info@obecbanka.sk",
+      "nazovObce": "Banka",
+      "sentAt": "2025-12-09T10:19:51.838Z",
+      "resendId": "5a72dce0-2d86-4b97-9ffd-79e7df435b90"
+    },
+    {
+      "email": "podatelna@banovce.sk",
+      "nazovObce": "Banovcenadbebravou",
+      "sentAt": "2025-12-09T10:20:02.105Z",
+      "resendId": "33965e50-5c87-4c0f-9c7e-4ddd2b18d7ee"
+    },
+    {
+      "email": "banovcenadondavou@gmail.com",
+      "nazovObce": "Banovcenadondavou",
+      "sentAt": "2025-12-09T10:20:12.379Z",
+      "resendId": "8e9ef8ae-ec34-42b5-9820-16a0cb83b3d3"
+    },
+    {
+      "email": "starosta@banskabela.sk",
+      "nazovObce": "Banskabela",
+      "sentAt": "2025-12-09T10:20:23.045Z",
+      "resendId": "1c431833-2489-4aec-a7d5-93d7d1e51dc3"
+    },
+    {
+      "email": "kancelariaprimatora@banskabystrica.sk",
+      "nazovObce": "Banskabystrica",
+      "sentAt": "2025-12-09T10:20:33.608Z",
+      "resendId": "460f26b2-209c-4e27-ab72-3422f99a1511"
+    },
+    {
+      "email": "msu@banskastiavnica.sk",
+      "nazovObce": "Banskastiavnica",
+      "sentAt": "2025-12-09T10:20:43.870Z",
+      "resendId": "ed1f1ed7-ed37-4da8-9a19-9d919b143954"
+    },
+    {
+      "email": "obecbanske@wmx.sk",
+      "nazovObce": "Banske",
+      "sentAt": "2025-12-09T10:20:54.453Z",
+      "resendId": "aa1b78ab-4a22-408c-b61e-ba9e853913f9"
+    },
+    {
+      "email": "podatelna@banskystudenec.sk",
+      "nazovObce": "Banskystudenec",
+      "sentAt": "2025-12-09T10:21:04.704Z",
+      "resendId": "f1bdf611-bad6-4212-b323-51436211a170"
+    },
+    {
+      "email": "obecbara@gmail.com",
+      "nazovObce": "Bara",
+      "sentAt": "2025-12-09T10:21:15.255Z",
+      "resendId": "91db60ef-96b4-43f7-8e7a-4dcac5c33c9d"
+    },
+    {
+      "email": "oubarca@post.sk",
+      "nazovObce": "Barca",
+      "sentAt": "2025-12-09T10:21:25.842Z",
+      "resendId": "f1fbb913-f4c4-4e30-8dee-21933a64f185"
+    },
+    {
+      "email": "primator@bardejov.sk",
+      "nazovObce": "Bardejov",
+      "sentAt": "2025-12-09T10:21:36.184Z",
+      "resendId": "d587ce19-92a7-4390-85fb-7da68e5b02e4"
+    },
+    {
+      "email": "info@obecbardonovo.sk",
+      "nazovObce": "Bardonovo",
+      "sentAt": "2025-12-09T10:21:46.617Z",
+      "resendId": "aa799e9b-a9c2-4b05-93e0-76128bd6d9e2"
+    },
+    {
+      "email": "info@bartosovalehotka.sk",
+      "nazovObce": "Bartosovalehotka",
+      "sentAt": "2025-12-09T10:21:56.850Z",
+      "resendId": "7d46c081-192f-485b-9ec9-4b65c52167bd"
+    },
+    {
+      "email": "obec.bartosovce@wi-net.sk",
+      "nazovObce": "Bartosovce",
+      "sentAt": "2025-12-09T10:22:07.084Z",
+      "resendId": "41f135e5-8952-4729-8787-120117223d9a"
+    },
+    {
+      "email": "urad@baska-obec.sk",
+      "nazovObce": "Baska",
+      "sentAt": "2025-12-09T10:22:17.637Z",
+      "resendId": "88c04705-dd61-4934-a9bf-a03d0d9c7042"
+    },
+    {
+      "email": "podatelna@obecbaskovce.sk",
+      "nazovObce": "Baskovce",
+      "sentAt": "2025-12-09T10:22:28.177Z",
+      "resendId": "a09185b0-5329-4631-9795-62502978d8a5"
+    },
+    {
+      "email": "obecnyurad@basovce.sk",
+      "nazovObce": "Basovce",
+      "sentAt": "2025-12-09T10:22:38.466Z",
+      "resendId": "cea9b267-4787-419b-ba80-1962eecb9299"
+    },
+    {
+      "email": "obec@obecbatizovce.sk",
+      "nazovObce": "Batizovce",
+      "sentAt": "2025-12-09T10:22:48.729Z",
+      "resendId": "6bf0f0c0-9b41-4e7a-b4bb-b984aefe8ac9"
+    },
+    {
+      "email": "ocu.batka@rsnet.sk",
+      "nazovObce": "Batka",
+      "sentAt": "2025-12-09T10:22:58.966Z",
+      "resendId": "edd75622-d461-4295-987d-0fe8c688964c"
+    },
+    {
+      "email": "batorova@gmail.com",
+      "nazovObce": "Batorova",
+      "sentAt": "2025-12-09T10:23:09.326Z",
+      "resendId": "14a4737d-ade6-4f2c-90fd-1ef4dd28717b"
+    },
+    {
+      "email": "obec@batovce.sk",
+      "nazovObce": "Batovce",
+      "sentAt": "2025-12-09T10:23:19.589Z",
+      "resendId": "d7f29c29-53c5-477f-a46f-065fcf73275c"
+    },
+    {
+      "email": "beckov@obec-beckov.sk",
+      "nazovObce": "Beckov",
+      "sentAt": "2025-12-09T10:23:30.217Z",
+      "resendId": "2fcc20f9-4c49-491d-aabb-8b13729a2604"
+    },
+    {
+      "email": "obecbeharovce57@gmail.com",
+      "nazovObce": "Beharovce",
+      "sentAt": "2025-12-09T10:23:40.490Z",
+      "resendId": "614f9535-d7e2-4ea1-92b7-c3872f1c90ed"
+    },
+    {
+      "email": "becherov@pobox.sk",
+      "nazovObce": "Becherov",
+      "sentAt": "2025-12-09T10:23:50.754Z",
+      "resendId": "fe92a8aa-d14a-41ea-822d-10e5c32f057a"
+    },
+    {
+      "email": "oubela@mail.viapvt.sk",
+      "nazovObce": "Bela novezamky",
+      "sentAt": "2025-12-09T10:24:00.986Z",
+      "resendId": "b3a3ade8-18c8-49d4-b49e-36dd177040ff"
+    },
+    {
+      "email": "sekretariat@bela.sk",
+      "nazovObce": "Bela",
+      "sentAt": "2025-12-09T10:24:11.270Z",
+      "resendId": "9c17d8a9-b299-48e4-8d11-47a2292c0e97"
+    },
+    {
+      "email": "obec@beladulice.sk",
+      "nazovObce": "Beladulice",
+      "sentAt": "2025-12-09T10:24:21.835Z",
+      "resendId": "99404c44-d59e-47bc-bf62-6dd6d8762dee"
+    },
+    {
+      "email": "obecbelanadcirochou@gmail.com",
+      "nazovObce": "Belanadcirochou",
+      "sentAt": "2025-12-09T10:24:32.171Z",
+      "resendId": "b681d3a0-f307-47bc-a73f-a18f24c37019"
+    },
+    {
+      "email": "podatelna@obecbeladice.sk",
+      "nazovObce": "Beladice",
+      "sentAt": "2025-12-09T10:24:42.419Z",
+      "resendId": "994a0ddb-af7a-4925-ad2e-bd13f6eed718"
+    },
+    {
+      "email": "ocu.belin@post.sk",
+      "nazovObce": "Belin",
+      "sentAt": "2025-12-09T10:24:52.724Z",
+      "resendId": "a0db1091-cacd-419d-ab09-795d893b7bed"
+    },
+    {
+      "email": "obecbelina@centrum.sk",
+      "nazovObce": "Belina",
+      "sentAt": "2025-12-09T10:25:02.992Z",
+      "resendId": "cc0b9119-dbfc-4135-acfe-484832fa7aad"
+    },
+    {
+      "email": "obecbelince@obecbelince.sk",
+      "nazovObce": "Belince",
+      "sentAt": "2025-12-09T10:25:13.224Z",
+      "resendId": "ae83c712-00ba-43a5-a63f-eb8ebc19b1f0"
+    },
+    {
+      "email": "beloveza@gmail.com",
+      "nazovObce": "Beloveza",
+      "sentAt": "2025-12-09T10:25:23.456Z",
+      "resendId": "8948a8ce-8cf9-4329-9ceb-e6f33a4fe581"
+    },
+    {
+      "email": "starosta@obecbeluj.sk",
+      "nazovObce": "Beluj",
+      "sentAt": "2025-12-09T10:25:33.689Z",
+      "resendId": "492f2bc9-7a85-4d47-9e67-7821f3c46865"
+    },
+    {
+      "email": "obec@belusa.sk",
+      "nazovObce": "Belusa",
+      "sentAt": "2025-12-09T10:25:43.931Z",
+      "resendId": "3824d589-0130-475f-b849-c17a90ca2816"
+    },
+    {
+      "email": "info@belza.dcom.sk",
+      "nazovObce": "Belza",
+      "sentAt": "2025-12-09T10:25:54.334Z",
+      "resendId": "c4c45897-4f62-485f-a76b-f5ddaad3dbb3"
+    },
+    {
+      "email": "obecbenadikovce@gmail.com",
+      "nazovObce": "Benadikovce",
+      "sentAt": "2025-12-09T10:26:04.883Z",
+      "resendId": "f7c14332-c624-4e48-92fb-190712de0dae"
+    },
+    {
+      "email": "benadovo@gmail.com",
+      "nazovObce": "Benadovo",
+      "sentAt": "2025-12-09T10:26:15.554Z",
+      "resendId": "63b1a449-d8f3-4725-95be-a16ff5dd4499"
+    },
+    {
+      "email": "benatina@lekosonline.sk",
+      "nazovObce": "Benatina",
+      "sentAt": "2025-12-09T10:26:26.385Z",
+      "resendId": "5114addd-7769-43f0-9a82-8bcbaa483617"
+    },
+    {
+      "email": "obecbeniakovce@centrum.sk",
+      "nazovObce": "Beniakovce",
+      "sentAt": "2025-12-09T10:26:37.035Z",
+      "resendId": "406260f5-3eb6-43a9-84c3-2524ca7c7ca9"
+    },
+    {
+      "email": "oubenice@gaya.sk",
+      "nazovObce": "Benice",
+      "sentAt": "2025-12-09T10:26:47.608Z",
+      "resendId": "b06eb82b-bdcd-48c4-9030-1f280328e6a6"
+    },
+    {
+      "email": "info@obecbenkovce.sk",
+      "nazovObce": "Benkovce",
+      "sentAt": "2025-12-09T10:26:58.197Z",
+      "resendId": "9c811468-513e-463e-9f03-13cf18451015"
+    },
+    {
+      "email": "obecbenus@gmail.com",
+      "nazovObce": "Benus",
+      "sentAt": "2025-12-09T10:27:08.449Z",
+      "resendId": "086ec0a5-b1c0-4c08-8bb9-37f63e603c99"
+    },
+    {
+      "email": "obec@bernolakovo.sk",
+      "nazovObce": "Bernolakovo",
+      "sentAt": "2025-12-09T10:27:18.795Z",
+      "resendId": "5ecac297-3119-4690-bad2-ff5ecfff1e5b"
+    },
+    {
+      "email": "info@bertotovce.sk",
+      "nazovObce": "Bertotovce",
+      "sentAt": "2025-12-09T10:27:29.376Z",
+      "resendId": "5f527397-f72a-47ad-a730-249d43d774e7"
+    },
+    {
+      "email": "obec.besa@zoznam.sk",
+      "nazovObce": "Besa",
+      "sentAt": "2025-12-09T10:27:39.972Z",
+      "resendId": "bf9058ae-86ba-4fee-9ea1-0a598d2aa2f8"
+    },
+    {
+      "email": "obecbesa@besa.sk",
+      "nazovObce": "Besa levice",
+      "sentAt": "2025-12-09T10:27:50.228Z",
+      "resendId": "79f3e82c-a7dd-4805-af08-8eb1ddcf2fb2"
+    },
+    {
+      "email": "obec@besenov.sk",
+      "nazovObce": "Besenov",
+      "sentAt": "2025-12-09T10:28:00.696Z",
+      "resendId": "49ee998a-e653-44fc-bd12-4cca22b16fd1"
+    },
+    {
+      "email": "obecbetliar@hotmail.com",
+      "nazovObce": "Betliar",
+      "sentAt": "2025-12-09T10:28:10.947Z",
+      "resendId": "f498727c-08a6-47a8-b71b-88ddeedfe6ec"
+    },
+    {
+      "email": "oubezovce@lekosonline.sk",
+      "nazovObce": "Bezovce",
+      "sentAt": "2025-12-09T10:28:21.496Z",
+      "resendId": "5045d901-25b6-4f6d-8849-553d3c85382a"
+    },
+    {
+      "email": "obecbidovce@netkosice.sk",
+      "nazovObce": "Bidovce",
+      "sentAt": "2025-12-09T10:28:31.746Z",
+      "resendId": "a84ea9ed-c181-4f83-b4ee-308fac1f03a9"
+    },
+    {
+      "email": "ocubiel@gmail.com",
+      "nazovObce": "Biel",
+      "sentAt": "2025-12-09T10:28:42.365Z",
+      "resendId": "076398d8-f637-4af8-9289-ec790a7fb987"
+    },
+    {
+      "email": "bielovce@bielovce.sk",
+      "nazovObce": "Bielovce",
+      "sentAt": "2025-12-09T10:28:52.611Z",
+      "resendId": "5b91a1fa-0ae1-4916-8156-592df026513d"
+    },
+    {
+      "email": "obecnyurad@bijacovce.sk",
+      "nazovObce": "Bijacovce",
+      "sentAt": "2025-12-09T10:29:03.221Z",
+      "resendId": "29b26a91-6e84-430a-acd3-876e649d679a"
+    },
+    {
+      "email": "ou.b.humence@bmservis.sk",
+      "nazovObce": "Bilkovehumence",
+      "sentAt": "2025-12-09T10:29:13.760Z",
+      "resendId": "e835dc73-7e9b-40ed-9a98-54d8dc572469"
+    },
+    {
+      "email": "ocu@binovce.sk",
+      "nazovObce": "Binovce",
+      "sentAt": "2025-12-09T10:29:24.078Z",
+      "resendId": "cc312098-2050-454f-8562-b566f352f9a2"
+    },
+    {
+      "email": "obecbiskupice@gmail.com",
+      "nazovObce": "Biskupice",
+      "sentAt": "2025-12-09T10:29:34.637Z",
+      "resendId": "370dccc1-1291-4690-8822-eaa06b413307"
+    },
+    {
+      "email": "info@biskupova.sk",
+      "nazovObce": "Biskupova",
+      "sentAt": "2025-12-09T10:29:45.015Z",
+      "resendId": "aa37c7c2-ca2b-45f6-b92d-c31bf3139fa6"
+    },
+    {
+      "email": "starosta@obecbitarova.sk",
+      "nazovObce": "Bitarova",
+      "sentAt": "2025-12-09T10:29:55.617Z",
+      "resendId": "9b3e2040-66c0-4eca-9f5c-96ddf59ec484"
+    },
+    {
+      "email": "obecblahova@centrum.sk",
+      "nazovObce": "Blahova",
+      "sentAt": "2025-12-09T10:30:05.936Z",
+      "resendId": "cb47f1ca-3a6b-4d3c-8933-f6fc1919e53a"
+    },
+    {
+      "email": "blatnapolianka@lekosonline.sk",
+      "nazovObce": "Blatnapolianka",
+      "sentAt": "2025-12-09T10:30:16.230Z",
+      "resendId": "7618c80b-28e4-4587-8a5e-ccec9369af88"
+    },
+    {
+      "email": "blatneremety1@gmail.com",
+      "nazovObce": "Blatneremety",
+      "sentAt": "2025-12-09T10:30:26.484Z",
+      "resendId": "c8c430cd-af29-424f-bbfa-d1110454d7ce"
+    },
+    {
+      "email": "bl.revistia@minet.sk",
+      "nazovObce": "Blatnerevistia",
+      "sentAt": "2025-12-09T10:30:36.857Z",
+      "resendId": "0d845e49-ab49-49fd-93e3-00da035d01e9"
+    },
+    {
+      "email": "info@blatnica.sk",
+      "nazovObce": "Blatnica",
+      "sentAt": "2025-12-10T11:39:43.365Z",
+      "resendId": "a2892e08-9154-4e11-9db5-e8e48ec42c92"
+    },
+    {
+      "email": "obecblazovce@gmail.com",
+      "nazovObce": "Blazovce",
+      "sentAt": "2025-12-10T11:39:53.619Z",
+      "resendId": "0fb77144-e6a1-4b82-9388-0457cdca4ea2"
+    },
+    {
+      "email": "oublesovce@wircom.sk",
+      "nazovObce": "Blesovce",
+      "sentAt": "2025-12-10T11:40:04.173Z",
+      "resendId": "bca30be7-fc09-4ec3-82ec-3f2f8271f1d7"
+    },
+    {
+      "email": "obec@blhovce.sk",
+      "nazovObce": "Blhovce",
+      "sentAt": "2025-12-10T11:40:14.411Z",
+      "resendId": "dc6440b6-7358-49ea-adec-ea2d792036eb"
+    },
+    {
+      "email": "ou@bobot.sk",
+      "nazovObce": "Bobot",
+      "sentAt": "2025-12-10T11:40:24.731Z",
+      "resendId": "ec994f86-cf10-4a4f-b4bd-0577ba3e9958"
+    },
+    {
+      "email": "obec@bobrovcek.sk",
+      "nazovObce": "Bobrovcek",
+      "sentAt": "2025-12-10T11:40:34.975Z",
+      "resendId": "bed9c370-65a7-40fd-b652-863a952ef88a"
+    },
+    {
+      "email": "bobrovec@bobrovec.eu",
+      "nazovObce": "Bobrovec",
+      "sentAt": "2025-12-10T11:40:45.254Z",
+      "resendId": "0e8d4abd-69e5-4d1c-8c15-31043aa7eef7"
+    },
+    {
+      "email": "obec@obecbobrovnik.sk",
+      "nazovObce": "Bobrovnik",
+      "sentAt": "2025-12-10T11:40:55.484Z",
+      "resendId": "4fed6741-6e30-4684-bb5b-593fb85db316"
+    },
+    {
+      "email": "info@bociar.sk",
+      "nazovObce": "Bociar",
+      "sentAt": "2025-12-10T11:41:06.304Z",
+      "resendId": "5d55c3cb-0abd-4af1-9371-59d8c3465771"
+    },
+    {
+      "email": "obecbodiky@zoznam.sk",
+      "nazovObce": "Bodiky",
+      "sentAt": "2025-12-10T11:41:16.913Z",
+      "resendId": "a006230a-852f-461a-a0ba-9988ece3b9ae"
+    },
+    {
+      "email": "obecbodina@centrum.sk",
+      "nazovObce": "Bodina",
+      "sentAt": "2025-12-10T11:41:27.605Z",
+      "resendId": "5ff3f5f5-6fa2-4fcc-b794-e587feea8432"
+    },
+    {
+      "email": "bodorova@gaya.sk",
+      "nazovObce": "Bodorova",
+      "sentAt": "2025-12-10T11:41:37.859Z",
+      "resendId": "8199f6ec-8a63-4be2-aadc-d023e519ac9d"
+    },
+    {
+      "email": "obecbodruzal@gmail.com",
+      "nazovObce": "Bodruzal",
+      "sentAt": "2025-12-10T11:41:48.147Z",
+      "resendId": "b1882bdb-8d2a-4485-853b-df50d93e0d27"
+    },
+    {
+      "email": "bodza@real-net.sk",
+      "nazovObce": "Bodza",
+      "sentAt": "2025-12-10T11:41:58.837Z",
+      "resendId": "bc599632-10c6-4c0f-ba1c-d9617457648d"
+    },
+    {
+      "email": "bodzianskeluky@gutanet.sk",
+      "nazovObce": "Bodzianskeluky",
+      "sentAt": "2025-12-10T11:42:09.421Z",
+      "resendId": "2e695181-686a-4a8a-b659-bd5705dcc847"
+    },
+    {
+      "email": "bohelov@real-net.sk",
+      "nazovObce": "Bohelov",
+      "sentAt": "2025-12-10T11:42:19.653Z",
+      "resendId": "5fb02e8c-4ace-4078-870f-6b214eacb07e"
+    },
+    {
+      "email": "podatelna@bohunice-lv.sk",
+      "nazovObce": "Bohunice levice",
+      "sentAt": "2025-12-10T11:42:30.312Z",
+      "resendId": "66be9f93-9fde-45d7-885f-ab36dea5088e"
+    },
+    {
+      "email": "info@obecbohunice.sk",
+      "nazovObce": "Bohunice",
+      "sentAt": "2025-12-10T11:42:40.924Z",
+      "resendId": "4adad478-8299-4b4b-8133-e08f509c42a6"
+    },
+    {
+      "email": "obecbohunovo@gmail.com",
+      "nazovObce": "Bohunovo",
+      "sentAt": "2025-12-10T11:42:51.537Z",
+      "resendId": "8d0c9b21-091e-49bf-a8c1-f35e3047c963"
+    },
+    {
+      "email": "ocu@bojna.sk",
+      "nazovObce": "Bojna",
+      "sentAt": "2025-12-10T11:43:01.781Z",
+      "resendId": "6253c6f5-a800-499f-bdc9-0d1c59f9ccfa"
+    },
+    {
+      "email": "info@bojnice.sk",
+      "nazovObce": "Bojnice",
+      "sentAt": "2025-12-10T11:43:12.027Z",
+      "resendId": "35e06bd3-90bd-49eb-8b4d-7a4dbab5aea5"
+    },
+    {
+      "email": "starosta@bojnicky.sk",
+      "nazovObce": "Bojnicky",
+      "sentAt": "2025-12-10T11:43:22.600Z",
+      "resendId": "c94659cf-110e-45d9-9d2f-b7dd2e0767be"
+    },
+    {
+      "email": "ocu.bol@gmail.com",
+      "nazovObce": "Bol",
+      "sentAt": "2025-12-10T11:43:32.873Z",
+      "resendId": "9c9138c4-d54c-4a4d-8c88-f01c60768274"
+    },
+    {
+      "email": "ocu.boleraz@boleraz.eu.sk",
+      "nazovObce": "Boleraz",
+      "sentAt": "2025-12-10T11:43:43.418Z",
+      "resendId": "f6579ff3-9b76-4c99-a59d-1400866c7de0"
+    },
+    {
+      "email": "info@bolesov.eu",
+      "nazovObce": "Bolesov",
+      "sentAt": "2025-12-10T11:43:53.724Z",
+      "resendId": "d947a0f9-42ba-4bcb-a374-f244cc287d90"
+    },
+    {
+      "email": "obecboliarov@netkosice.sk",
+      "nazovObce": "Boliarov",
+      "sentAt": "2025-12-10T11:44:03.977Z",
+      "resendId": "b03dc8a2-933c-43c7-8c49-cbd1ac26eb2f"
+    },
+    {
+      "email": "bolkovce@slovanet.sk",
+      "nazovObce": "Bolkovce",
+      "sentAt": "2025-12-10T11:44:14.224Z",
+      "resendId": "2d33c556-a310-4eb4-aa7a-f9d2b2f217d4"
+    },
+    {
+      "email": "obec.borcova@gmail.com",
+      "nazovObce": "Borcova",
+      "sentAt": "2025-12-10T11:44:24.478Z",
+      "resendId": "6427b93d-9379-4182-8149-aeac58e3ddb4"
+    },
+    {
+      "email": "urad@obecborcice.sk",
+      "nazovObce": "Borcice",
+      "sentAt": "2025-12-10T11:44:35.057Z",
+      "resendId": "ce926650-5a68-49aa-b1b1-173fe2573227"
+    },
+    {
+      "email": "obecborka@gmail.com",
+      "nazovObce": "Borka",
+      "sentAt": "2025-12-10T11:44:45.324Z",
+      "resendId": "ce962afa-b62d-41fd-8775-40a0dbeb5ac2"
+    },
+    {
+      "email": "obec@borova.sk",
+      "nazovObce": "Borova",
+      "sentAt": "2025-12-10T11:44:55.581Z",
+      "resendId": "9dabf7e7-6793-406a-afe3-69dab4ce270e"
+    },
+    {
+      "email": "starosta@borskymikulas.sk",
+      "nazovObce": "Borskymikulas",
+      "sentAt": "2025-12-10T11:45:05.841Z",
+      "resendId": "f75df839-de17-457e-ac13-769d6bf02485"
+    },
+    {
+      "email": "obecbsj@centrum.sk",
+      "nazovObce": "Borskysvatyjur",
+      "sentAt": "2025-12-10T11:45:16.124Z",
+      "resendId": "419c6531-3375-4a82-96a9-01948704b25c"
+    },
+    {
+      "email": "obecborsa@dornet.sk",
+      "nazovObce": "Borsa",
+      "sentAt": "2025-12-10T11:45:26.358Z",
+      "resendId": "c93de972-adfc-4750-97d4-d40f97be92a9"
+    },
+    {
+      "email": "bory@bory.sk",
+      "nazovObce": "Bory",
+      "sentAt": "2025-12-10T11:45:36.951Z",
+      "resendId": "3fb484fa-00eb-4a52-9b29-0966ed3ec6a3"
+    },
+    {
+      "email": "bosaca@bosaca.sk",
+      "nazovObce": "Bosaca",
+      "sentAt": "2025-12-10T11:45:47.189Z",
+      "resendId": "fd20c7c7-f72d-4559-ab25-411ab6ff8cad"
+    },
+    {
+      "email": "bosany@bosany.sk",
+      "nazovObce": "Bosany",
+      "sentAt": "2025-12-10T11:45:57.535Z",
+      "resendId": "8ea0eec8-23d1-43c5-b699-b0111d5352dd"
+    },
+    {
+      "email": "obecbotany@gmail.com",
+      "nazovObce": "Botany",
+      "sentAt": "2025-12-10T11:46:07.773Z",
+      "resendId": "008b513a-773c-49ee-becc-62403686584a"
+    },
+    {
+      "email": "obecbottovo@gmail.com",
+      "nazovObce": "Bottovo",
+      "sentAt": "2025-12-10T11:46:18.044Z",
+      "resendId": "b78f49eb-eae7-4c48-a12e-9e221fceba1a"
+    },
+    {
+      "email": "obecbracovce@centrum.sk",
+      "nazovObce": "Bracovce",
+      "sentAt": "2025-12-10T11:46:28.335Z",
+      "resendId": "7b1710cf-a4b1-47db-af46-7475fba91f08"
+    },
+    {
+      "email": "starosta@obec-branc.sk",
+      "nazovObce": "Branc",
+      "sentAt": "2025-12-10T11:46:38.989Z",
+      "resendId": "9df4fdf3-5631-4e45-9b85-da4d8d9b7056"
+    },
+    {
+      "email": "miestnyurad@mc-cunovo.sk",
+      "nazovObce": "Bratislavacunovo",
+      "sentAt": "2025-12-10T11:46:49.248Z",
+      "resendId": "a96781fd-9119-468b-8e44-67f0a5163a3e"
+    },
+    {
+      "email": "podatelna@devin.sk",
+      "nazovObce": "Bratislavadevin",
+      "sentAt": "2025-12-10T11:46:59.528Z",
+      "resendId": "824bd83a-cadb-4b5b-84a3-722bae4ecf84"
+    },
+    {
+      "email": "mudnv@mudnv.sk",
+      "nazovObce": "Bratislavadevinskanovaves",
+      "sentAt": "2025-12-10T11:47:10.181Z",
+      "resendId": "e41f98ae-c12a-4ef7-8727-ea55176ecb61"
+    },
+    {
+      "email": "info@dubravka.sk",
+      "nazovObce": "Bratislavadubravka",
+      "sentAt": "2025-12-10T11:47:20.415Z",
+      "resendId": "93647da6-8cc6-4dd9-8647-41e845ea0eb0"
+    },
+    {
+      "email": "info@jarovce.sk",
+      "nazovObce": "Bratislavajarovce",
+      "sentAt": "2025-12-10T11:47:30.667Z",
+      "resendId": "1287b414-124b-4bfc-ba33-0e0a9c53fbe1"
+    },
+    {
+      "email": "starostka@karlovaves.sk",
+      "nazovObce": "Bratislavakarlovaves",
+      "sentAt": "2025-12-10T11:47:40.925Z",
+      "resendId": "50308362-dfb5-4c7f-b894-bcde3d933ae3"
+    },
+    {
+      "email": "info@lamac.sk",
+      "nazovObce": "Bratislavalamac",
+      "sentAt": "2025-12-10T11:47:51.182Z",
+      "resendId": "4c3fce1d-5d63-4b35-9de5-dadcd6dedbc2"
+    },
+    {
+      "email": "podatelna@banm.sk",
+      "nazovObce": "Bratislavanovemesto",
+      "sentAt": "2025-12-10T11:48:01.543Z",
+      "resendId": "c424f0d7-a59a-4db8-8f76-bb3b6b53999f"
+    },
+    {
+      "email": "podnety@petrzalka.sk",
+      "nazovObce": "Bratislavapetrzalka",
+      "sentAt": "2025-12-10T11:48:12.097Z",
+      "resendId": "a4692200-93cb-4c03-b40e-bbea6413e065"
+    },
+    {
+      "email": "starosta@mupb.sk",
+      "nazovObce": "Bratislavapodunajskebiskupice",
+      "sentAt": "2025-12-10T11:48:22.330Z",
+      "resendId": "ac63a42b-1151-4b19-898a-da7258da5686"
+    },
+    {
+      "email": "starosta@raca.sk",
+      "nazovObce": "Bratislavaraca",
+      "sentAt": "2025-12-10T11:48:32.574Z",
+      "resendId": "f0481a24-71f6-44ba-b328-eb3fd131075b"
+    },
+    {
+      "email": "ruzinov@ruzinov.sk",
+      "nazovObce": "Bratislavaruzinov",
+      "sentAt": "2025-12-10T11:48:42.827Z",
+      "resendId": "46444e44-7e95-4c6b-806a-6ddc87a89230"
+    },
+    {
+      "email": "podatelna@staremesto.sk",
+      "nazovObce": "Bratislavastaremesto",
+      "sentAt": "2025-12-10T11:48:53.064Z",
+      "resendId": "8932699e-f77b-4355-b8e3-e360266255e5"
+    },
+    {
+      "email": "vajnory@vajnory.sk",
+      "nazovObce": "Bratislavavajnory",
+      "sentAt": "2025-12-10T11:49:03.322Z",
+      "resendId": "90632f7b-8ca8-41bd-b393-40e9cb25bf3e"
+    },
+    {
+      "email": "vrakuna@vrakuna.sk",
+      "nazovObce": "Bratislavavrakuna",
+      "sentAt": "2025-12-10T11:49:13.590Z",
+      "resendId": "8a3e296a-adaf-466d-be2a-de18b2b63b55"
+    },
+    {
+      "email": "sekretariat@zahorskabystrica.sk",
+      "nazovObce": "Bratislavazahorskabystrica",
+      "sentAt": "2025-12-10T11:49:23.971Z",
+      "resendId": "466d59d8-4d01-4298-aa11-09a2367dcb2c"
+    },
+    {
+      "email": "obecbravacovo@bravacovo.sk",
+      "nazovObce": "Bravacovo",
+      "sentAt": "2025-12-10T11:49:34.509Z",
+      "resendId": "e999c28f-d083-4dab-9a6f-0b8d076f7eb5"
+    },
+    {
+      "email": "obec.brdarka@gmail.com",
+      "nazovObce": "Brdarka",
+      "sentAt": "2025-12-10T11:49:44.838Z",
+      "resendId": "d0e2fd20-600e-492a-80b1-f50a4ad3fbe9"
+    },
+    {
+      "email": "obecbrehov@trenet.sk",
+      "nazovObce": "Brehov",
+      "sentAt": "2025-12-10T11:49:55.060Z",
+      "resendId": "b95ed41d-758d-4f97-96e7-770c902fe94a"
+    },
+    {
+      "email": "brehy@brehy.sk",
+      "nazovObce": "Brehy",
+      "sentAt": "2025-12-10T11:50:05.320Z",
+      "resendId": "831c7ec3-4328-48ad-93b9-b87be0b8bb39"
+    },
+    {
+      "email": "obec@brekov.sk",
+      "nazovObce": "Brekov",
+      "sentAt": "2025-12-10T11:50:15.571Z",
+      "resendId": "66e19e7c-818b-46f0-8379-5328e758eff4"
+    },
+    {
+      "email": "obecbrestov@minet.sk",
+      "nazovObce": "Brestov",
+      "sentAt": "2025-12-10T11:50:25.815Z",
+      "resendId": "1169529e-f260-4305-9ba4-c6ee02a91549"
+    },
+    {
+      "email": "obec@brestov.sk",
+      "nazovObce": "Brestov presov",
+      "sentAt": "2025-12-10T11:50:36.078Z",
+      "resendId": "d1727804-5eb0-44be-9a41-974fb836c385"
+    },
+    {
+      "email": "ou.brestovnadlaborcom@zoznam.sk",
+      "nazovObce": "Brestovnadlaborcom",
+      "sentAt": "2025-12-10T11:50:46.384Z",
+      "resendId": "f74dd3aa-b2fb-4ca8-9478-f843861c8956"
+    },
+    {
+      "email": "obec@brestovec.eu",
+      "nazovObce": "Brestovec komarno",
+      "sentAt": "2025-12-10T11:50:56.635Z",
+      "resendId": "63364a64-2561-48c1-bc47-6e2c26ca1afe"
+    },
+    {
+      "email": "obec@brestovec.sk",
+      "nazovObce": "Brestovec",
+      "sentAt": "2025-12-10T11:51:06.893Z",
+      "resendId": "56f50b35-fb13-43ea-8ab0-6bf5d8d956e3"
+    },
+    {
+      "email": "info@bretejovce.sk",
+      "nazovObce": "Bretejovce",
+      "sentAt": "2025-12-10T11:51:17.200Z",
+      "resendId": "38f7c574-4f9d-418c-80e2-a015bcbb2265"
+    },
+    {
+      "email": "obecbretka@centrum.sk",
+      "nazovObce": "Bretka",
+      "sentAt": "2025-12-10T11:51:27.471Z",
+      "resendId": "1a0be25c-999f-485b-8d9c-0e89a14d34f4"
+    },
+    {
+      "email": "breza@orava.sk",
+      "nazovObce": "Breza",
+      "sentAt": "2025-12-10T11:51:37.775Z",
+      "resendId": "bfb3726a-46c3-4a62-9aaf-9153b216268f"
+    },
+    {
+      "email": "obecbrezany@obecbrezany.sk",
+      "nazovObce": "Brezany",
+      "sentAt": "2025-12-10T11:51:48.004Z",
+      "resendId": "c318f1db-d864-4b43-ad16-2caf4a9108de"
+    },
+    {
+      "email": "info@obecbrezina.sk",
+      "nazovObce": "Brezina",
+      "sentAt": "2025-12-10T11:51:58.616Z",
+      "resendId": "fa1e1ab8-ecbe-4959-841a-515c0922f1ce"
+    },
+    {
+      "email": "breznica.obec@gmail.com",
+      "nazovObce": "Breznica",
+      "sentAt": "2025-12-10T11:52:08.902Z",
+      "resendId": "44a8acff-dd0e-452e-ae2c-9d16882191d9"
+    },
+    {
+      "email": "starosta@obecbreznicka.sk",
+      "nazovObce": "Breznicka",
+      "sentAt": "2025-12-10T11:52:19.488Z",
+      "resendId": "c0fef6ac-848d-485e-9b3c-5191d2b123b3"
+    },
+    {
+      "email": "obecbreznicka@gmail.com",
+      "nazovObce": "Breznicka stropkov",
+      "sentAt": "2025-12-10T11:52:30.093Z",
+      "resendId": "300f15de-ae97-4cf3-994a-8bcd76c002ef"
+    },
+    {
+      "email": "primator@brezno.sk",
+      "nazovObce": "Brezno",
+      "sentAt": "2025-12-10T11:52:40.339Z",
+      "resendId": "b489c7cc-0a3e-4b87-b301-11c413481580"
+    },
+    {
+      "email": "brezolupyocu@gmail.com",
+      "nazovObce": "Brezolupy",
+      "sentAt": "2025-12-10T11:52:50.592Z",
+      "resendId": "cc92525c-da35-4bb7-926a-1f6aa9ff60ce"
+    },
+    {
+      "email": "brezovobec@gmail.com",
+      "nazovObce": "Brezov",
+      "sentAt": "2025-12-10T11:53:01.187Z",
+      "resendId": "ab5f3566-8e8b-4bb2-89f2-c4cc780244be"
+    },
+    {
+      "email": "mesto@brezova.sk",
+      "nazovObce": "Brezovapodbradlom",
+      "sentAt": "2025-12-10T11:53:11.507Z",
+      "resendId": "1b7f0fe7-d57c-401c-b1b2-07d704046ccb"
+    },
+    {
+      "email": "obecbrezovec1@gmail.com",
+      "nazovObce": "Brezovec",
+      "sentAt": "2025-12-10T11:53:21.849Z",
+      "resendId": "2e271b2d-f0ce-4a79-832a-3e57a6824a3e"
+    },
+    {
+      "email": "obec@brezovicanadtorysou.sk",
+      "nazovObce": "Brezovica sabinov",
+      "sentAt": "2025-12-10T11:53:32.259Z",
+      "resendId": "b69690af-1f9c-4eb5-a661-1c9ee67639b9"
+    },
+    {
+      "email": "oubrezovica@orava.sk",
+      "nazovObce": "Brezovica",
+      "sentAt": "2025-12-10T11:53:42.496Z",
+      "resendId": "61bf7e84-0795-4434-ba2d-a9052efe8a8c"
+    },
+    {
+      "email": "brezovicka@livenet.sk",
+      "nazovObce": "Brezovicka",
+      "sentAt": "2025-12-10T11:53:52.738Z",
+      "resendId": "46210e6e-c982-47e6-a0cb-c74dd9a67929"
+    },
+    {
+      "email": "obec.brezovka@centrum.sk",
+      "nazovObce": "Brezovka",
+      "sentAt": "2025-12-10T11:54:03.116Z",
+      "resendId": "5429de32-883f-430f-b2c9-c6f8088706e4"
+    },
+    {
+      "email": "obecbrezany.po@gmail.com",
+      "nazovObce": "Brezany presov",
+      "sentAt": "2025-12-10T11:54:13.374Z",
+      "resendId": "521b967d-9235-4e80-80c7-98fd84261dd7"
+    },
+    {
+      "email": "obec@brhlovce.sk",
+      "nazovObce": "Brhlovce",
+      "sentAt": "2025-12-10T11:54:23.908Z",
+      "resendId": "9cfe53cf-9e93-45cb-a0ca-8a1a9e662da0"
+    },
+    {
+      "email": "briestieobec@gmail.com",
+      "nazovObce": "Briestie",
+      "sentAt": "2025-12-10T11:54:34.138Z",
+      "resendId": "aff21c2e-f9ba-4ad3-8e50-c40cda5673da"
+    },
+    {
+      "email": "podatelna@brodske.sk",
+      "nazovObce": "Brodske",
+      "sentAt": "2025-12-10T11:54:44.431Z",
+      "resendId": "d869f060-d053-4ae1-bbb3-9e82ab47f413"
+    },
+    {
+      "email": "oubrodzany@brodzany.sk",
+      "nazovObce": "Brodzany",
+      "sentAt": "2025-12-10T11:54:54.745Z",
+      "resendId": "edffe700-306b-42db-ae5f-6ae920e11be8"
+    },
+    {
+      "email": "obecbrusnica@gmail.com",
+      "nazovObce": "Brusnica",
+      "sentAt": "2025-12-10T11:55:04.989Z",
+      "resendId": "bdc7d533-f7f1-49e2-8483-8b37e5ac9cc7"
+    },
+    {
+      "email": "obecbrusnik@gmail.com",
+      "nazovObce": "Brusnik",
+      "sentAt": "2025-12-10T11:55:15.252Z",
+      "resendId": "a89a7b14-9c66-4a81-912c-14aa446df6b6"
+    },
+    {
+      "email": "obec@brusno.sk",
+      "nazovObce": "Brusno",
+      "sentAt": "2025-12-10T11:55:25.515Z",
+      "resendId": "7ad10086-027a-49ff-8787-5a01ecb0d9ab"
+    },
+    {
+      "email": "obec@brutovce.sk",
+      "nazovObce": "Brutovce",
+      "sentAt": "2025-12-10T11:55:35.765Z",
+      "resendId": "78944aaf-68e6-46f1-af0f-4078b30984d6"
+    },
+    {
+      "email": "obec@bruty.sk",
+      "nazovObce": "Bruty",
+      "sentAt": "2025-12-10T11:55:46.017Z",
+      "resendId": "7456ccec-3606-4b92-bc25-7a778086db2d"
+    },
+    {
+      "email": "obecbuclovany@gmail.com",
+      "nazovObce": "Buclovany",
+      "sentAt": "2025-12-10T11:55:56.280Z",
+      "resendId": "885349b1-72e2-4b67-9825-92622991a9bd"
+    },
+    {
+      "email": "obec.bucany@gmail.com",
+      "nazovObce": "Bucany",
+      "sentAt": "2025-12-10T11:56:06.515Z",
+      "resendId": "dca1c7b3-eba3-4f62-90e9-9fecf390f635"
+    },
+    {
+      "email": "obec@budca.sk",
+      "nazovObce": "Budca",
+      "sentAt": "2025-12-10T11:56:17.156Z",
+      "resendId": "145e02ad-a8ac-48e3-9b23-221aea71708c"
+    },
+    {
+      "email": "ocubudikovany@gmail.com",
+      "nazovObce": "Budikovany",
+      "sentAt": "2025-12-10T11:56:27.488Z",
+      "resendId": "bba0c115-73d3-4c94-aeba-f6fa210e173e"
+    },
+    {
+      "email": "podatelna@obecbudimir.eu",
+      "nazovObce": "Budimir",
+      "sentAt": "2025-12-10T11:56:37.724Z",
+      "resendId": "4597cade-0d5f-48fc-8260-aaaca544775c"
+    },
+    {
+      "email": "obecbudina@tuhar.net",
+      "nazovObce": "Budina",
+      "sentAt": "2025-12-10T11:56:47.979Z",
+      "resendId": "315ad80a-6893-4c12-8b65-44f8c54c6312"
+    }
+  ],
+  "failed": [],
+  "lastRun": "2025-12-10T11:56:47.979Z"
+}

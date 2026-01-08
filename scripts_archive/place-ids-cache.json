@@ -1,0 +1,632 @@
+{
+  "gemer": {
+    "placeId": "ChIJ82QbNfOZP0cRICGXxtH3AAQ",
+    "name": "Gemer",
+    "formattedAddress": "982 01 Gemer, Slovensko"
+  },
+  "tornala": {
+    "placeId": "ChIJqVX84tWbP0cRECaXxtH3AAQ",
+    "name": "Tornaľa",
+    "formattedAddress": "982 01 Tornaľa, Slovensko"
+  },
+  "kovacova-zvolen": {
+    "placeId": "ChIJhcbiYZI5FUcRQDWXxtH3AAQ",
+    "name": "Kováčová",
+    "formattedAddress": "962 37 Kováčová, Slovensko"
+  },
+  "sliac": {
+    "placeId": "ChIJQX-6_wE5FUcRQJhv4L45sJw",
+    "name": "Sliač",
+    "formattedAddress": "962 31 Sliač, Slovensko"
+  },
+  "nizny-krucov": {
+    "placeId": "ChIJyc2MvjTGPkcRcHKXxtH3AAQ",
+    "name": "Nižný Kručov",
+    "formattedAddress": "093 01 Nižný Kručov, Slovensko"
+  },
+  "vranov-nad-toplou": {
+    "placeId": "ChIJFegvcb7IPkcRQHyXxtH3AAQ",
+    "name": "Vranov nad Topľou",
+    "formattedAddress": "Vranov nad Topľou, Slovensko"
+  },
+  "jasenov-humenne": {
+    "placeId": "ChIJUdTUCJ_KPkcRQIeXxtH3AAQ",
+    "name": "Jasenov",
+    "formattedAddress": "066 01 Jasenov, Slovensko"
+  },
+  "chlmec": {
+    "placeId": "ChIJUX2GUlo1OUcRkD-XxtH3AAQ",
+    "name": "Chlmec",
+    "formattedAddress": "067 41 Chlmec, Slovensko"
+  },
+  "dolne-oresany": {
+    "placeId": "ChIJB5cyR6SkbEcRspB2Aqi5Ioc",
+    "name": "Dolné Orešany",
+    "formattedAddress": "919 02 Dolné Orešany, Slovensko"
+  },
+  "horne-oresany": {
+    "placeId": "ChIJ4dj2ZemkbEcRmDKzPMfuRAA",
+    "name": "Horné Orešany",
+    "formattedAddress": "919 03 Horné Orešany, Slovensko"
+  },
+  "dobra-voda": {
+    "placeId": "ChIJj6aTiMatbEcRgPuWxtH3AAQ",
+    "name": "Dobrá Voda",
+    "formattedAddress": "919 54 Dobrá Voda, Slovensko"
+  },
+  "brezova-pod-bradlom": {
+    "placeId": "ChIJP4Mwcq5SE0cRkO6WxtH3AAQ",
+    "name": "Brezová pod Bradlom",
+    "formattedAddress": "906 13 Brezová pod Bradlom, Slovensko"
+  },
+  "velke-ulany": {
+    "placeId": "ChIJs7f44FZ7a0cRzuHgLenyPL4",
+    "name": "Veľké Úľany",
+    "formattedAddress": "925 22 Veľké Úľany, Slovensko"
+  },
+  "sladkovicovo": {
+    "placeId": "ChIJGV7cQ1Fka0cRwzMtCj_n_wg",
+    "name": "Sládkovičovo",
+    "formattedAddress": "925 21 Sládkovičovo, Slovensko"
+  },
+  "zvolen": {
+    "placeId": "ChIJvzFe2xg4FUcRA-AlMeBGBQg",
+    "name": "Zvolen",
+    "formattedAddress": "Zvolen, Slovensko"
+  },
+  "pavlany": {
+    "placeId": "ChIJh4ONZQtDPkcRoHiXxtH3AAQ",
+    "name": "Pavľany",
+    "formattedAddress": "053 71 Pavľany, Slovensko"
+  },
+  "spisske-podhradie": {
+    "placeId": "ChIJwYISrBhbPkcR4Z7cYTTEwyg",
+    "name": "Spišské Podhradie",
+    "formattedAddress": "053 04 Spišské Podhradie, Slovensko"
+  },
+  "potor": {
+    "placeId": "ChIJQaE3LmMCQEcRECqXxtH3AAQ",
+    "name": "Pôtor",
+    "formattedAddress": "991 03 Pôtor, Slovensko"
+  },
+  "modry-kamen": {
+    "placeId": "ChIJQymS7SipakcRkCmXxtH3AAQ",
+    "name": "Modrý Kameň",
+    "formattedAddress": "992 01 Modrý Kameň, Slovensko"
+  },
+  "velky-krtis": {
+    "placeId": "ChIJXyjF2HuoakcRcCeXxtH3AAQ",
+    "name": "Veľký Krtíš",
+    "formattedAddress": "990 01 Veľký Krtíš, Slovensko"
+  },
+  "uhliska": {
+    "placeId": "ChIJIRmZnirSakcR0OaWxtH3AAQ",
+    "name": "Uhliská",
+    "formattedAddress": "935 05 Uhliská, Slovensko"
+  },
+  "nova-bana": {
+    "placeId": "ChIJI4e9cpDVakcRIC6XxtH3AAQ",
+    "name": "Nová Baňa",
+    "formattedAddress": "968 01 Nová Baňa, Slovensko"
+  },
+  "pritulany": {
+    "placeId": "ChIJ2etLr_SkPkcRAHOXxtH3AAQ",
+    "name": "Prituľany",
+    "formattedAddress": "094 08 Prituľany, Slovensko"
+  },
+  "stropkov": {
+    "placeId": "ChIJP83IKgCiPkcR-1m00ZrUz7Y",
+    "name": "Stropkov",
+    "formattedAddress": "091 01 Stropkov, Slovensko"
+  },
+  "pukanec": {
+    "placeId": "ChIJM2QQeqjRakcRwOWWxtH3AAQ",
+    "name": "Pukanec",
+    "formattedAddress": "935 05 Pukanec, Slovensko"
+  },
+  "luborec": {
+    "placeId": "ChIJuUZZfD4AQEcREBOXxtH3AAQ",
+    "name": "Ľuboreč",
+    "formattedAddress": "985 11 Ľuboreč, Slovensko"
+  },
+  "banska-bela": {
+    "placeId": "ChIJbaUMSp8zFUcR4CuXxtH3AAQ",
+    "name": "Banská Belá",
+    "formattedAddress": "966 15 Banská Belá, Slovensko"
+  },
+  "bansky-studenec": {
+    "placeId": "ChIJhSYV3KM0FUcRACyXxtH3AAQ",
+    "name": "Banský Studenec",
+    "formattedAddress": "969 01 Banský Studenec, Slovensko"
+  },
+  "bohunice-levice": {
+    "placeId": "ChIJJ9IQjiPQakcRAgDUO-JnMlg",
+    "name": "Bohunice",
+    "formattedAddress": "935 05 Bohunice, Slovensko"
+  },
+  "dolna-poruba": {
+    "placeId": "ChIJXU5AbNiVFEcRjRWjCap7tcQ",
+    "name": "Dolná Poruba",
+    "formattedAddress": "914 43 Dolná Poruba, Slovensko"
+  },
+  "ilava": {
+    "placeId": "ChIJN4e3b5yQFEcRs0CWydPvJc4",
+    "name": "Ilava",
+    "formattedAddress": "019 01 Ilava, Slovensko"
+  },
+  "dolany-pezinok": {
+    "placeId": "ChIJyVtknTKjbEcRSLNmIrbMCa0",
+    "name": "Doľany",
+    "formattedAddress": "900 88 Doľany, Slovensko"
+  },
+  "babina": {
+    "placeId": "ChIJgXtgMUU1FUcRUDOXxtH3AAQ",
+    "name": "Babiná",
+    "formattedAddress": "962 61 Babiná, Slovensko"
+  },
+  "ratkovske-bystre": {
+    "placeId": "ChIJy7zy7-vDP0cR7kUume2pFOA",
+    "name": "Ratkovské Bystré",
+    "formattedAddress": "982 66 Ratkovské Bystré, Slovensko"
+  },
+  "tisovec": {
+    "placeId": "ChIJpQz0V2HbP0cRVomOQVhehM0",
+    "name": "Tisovec",
+    "formattedAddress": "980 61 Tisovec, Slovensko"
+  },
+  "dubove-turcianske-teplice": {
+    "placeId": "ChIJJyuWow_hFEcRQa6jwVnD_Fo",
+    "name": "Dubové",
+    "formattedAddress": "038 23 Dubové, Slovensko"
+  },
+  "handlova": {
+    "placeId": "ChIJMyQBhZHYFEcRUB2XxtH3AAQ",
+    "name": "Handlová",
+    "formattedAddress": "972 51 Handlová, Slovensko"
+  },
+  "zarnovica": {
+    "placeId": "ChIJwz8_S0ErFUcRkC-XxtH3AAQ",
+    "name": "Žarnovica",
+    "formattedAddress": "966 81 Žarnovica, Slovensko"
+  },
+  "dlha-nad-kysucou": {
+    "placeId": "ChIJlw6lUgJpFEcRoAaXxtH3AAQ",
+    "name": "Dlhá nad Kysucou",
+    "formattedAddress": "023 54 Dlhá nad Kysucou, Slovensko"
+  },
+  "kysucke-nove-mesto": {
+    "placeId": "ChIJ8Uo-bzVDFEcREe25bnR1T5s",
+    "name": "Kysucké Nové Mesto",
+    "formattedAddress": "Kysucké Nové Mesto, Slovensko"
+  },
+  "neslusa": {
+    "placeId": "ChIJ45lhhaJCFEcRcAeXxtH3AAQ",
+    "name": "Nesluša",
+    "formattedAddress": "023 41 Nesluša, Slovensko"
+  },
+  "turzovka": {
+    "placeId": "ChIJs5k2TKNuFEcRgAiXxtH3AAQ",
+    "name": "Turzovka",
+    "formattedAddress": "023 54 Turzovka, Slovensko"
+  },
+  "brehy": {
+    "placeId": "ChIJEUmGlpzWakcRugWXPZZvsoI",
+    "name": "Brehy",
+    "formattedAddress": "968 01 Brehy, Slovensko"
+  },
+  "batovce": {
+    "placeId": "ChIJRTiP8E3FakcRBu1IvJwxwo4",
+    "name": "Bátovce",
+    "formattedAddress": "935 03 Bátovce, Slovensko"
+  },
+  "mala-lehota": {
+    "placeId": "ChIJd7PAtCvVFEcRwqONzrxoDh8",
+    "name": "Malá Lehota",
+    "formattedAddress": "966 42 Malá Lehota, Slovensko"
+  },
+  "dekys": {
+    "placeId": "ChIJ00IQ4vHNakcRQCyXxtH3AAQ",
+    "name": "Dekýš",
+    "formattedAddress": "969 01 Dekýš, Slovensko"
+  },
+  "dobra-niva": {
+    "placeId": "ChIJ8fBSKIo1FUcREDSXxtH3AAQ",
+    "name": "Dobrá Niva",
+    "formattedAddress": "962 61 Dobrá Niva, Slovensko"
+  },
+  "dolna-krupa": {
+    "placeId": "ChIJNRGwqQumbEcRho9EmISxSHQ",
+    "name": "Dolná Krupá",
+    "formattedAddress": "919 65 Dolná Krupá, Slovensko"
+  },
+  "boleraz": {
+    "placeId": "ChIJx4JNGDykbEcRZzmZtVBXuTw",
+    "name": "Boleráz",
+    "formattedAddress": "919 08 Boleráz, Slovensko"
+  },
+  "osrblie": {
+    "placeId": "ChIJ21GAp75oFUcR4ASXxtH3AAQ",
+    "name": "Osrblie",
+    "formattedAddress": "976 45 Osrblie, Slovensko"
+  },
+  "podbrezova": {
+    "placeId": "ChIJg4YPBTRuFUcRVbByhGiqrEw",
+    "name": "Podbrezová",
+    "formattedAddress": "Podbrezová, Slovensko"
+  },
+  "hronec": {
+    "placeId": "ChIJOzfBL6FoFUcR0AOXxtH3AAQ",
+    "name": "Hronec",
+    "formattedAddress": "976 45 Hronec, Slovensko"
+  },
+  "lehotka": {
+    "placeId": "ChIJG-0AuHgAQEcR0BKXxtH3AAQ",
+    "name": "Lehôtka",
+    "formattedAddress": "985 11 Lehôtka, Slovensko"
+  },
+  "raksa": {
+    "placeId": "ChIJ68ZTMg_iFEcRvJklJy1Q_-o",
+    "name": "Rakša",
+    "formattedAddress": "039 01 Rakša, Slovensko"
+  },
+  "bzovska-lehotka": {
+    "placeId": "ChIJf5uCcC1LFUcRWVhzQqANSPU",
+    "name": "Bzovská Lehôtka",
+    "formattedAddress": "962 62 Bzovská Lehôtka, Slovensko"
+  },
+  "predmier": {
+    "placeId": "ChIJ2_gBvcBhFEcRwDGXxtH3AAQ",
+    "name": "Predmier",
+    "formattedAddress": "013 51 Predmier, Slovensko"
+  },
+  "rajec": {
+    "placeId": "ChIJ91MXjU_xFEcR0DGXxtH3AAQ",
+    "name": "Rajec",
+    "formattedAddress": "015 01 Rajec, Slovensko"
+  },
+  "pliesovce": {
+    "placeId": "ChIJg35H0WpLFUcRdDVNvqQ7ABE",
+    "name": "Pliešovce",
+    "formattedAddress": "962 63 Pliešovce, Slovensko"
+  },
+  "dolna-tizina": {
+    "placeId": "ChIJJ9g_lMJQFEcRFoEBYGG41HE",
+    "name": "Dolná Tižina",
+    "formattedAddress": "013 04 Dolná Tižina, Slovensko"
+  },
+  "vrutky": {
+    "placeId": "ChIJ0XEtzBlWFEcRYzuVQ1Yh8Nc",
+    "name": "Vrútky",
+    "formattedAddress": "038 61 Vrútky, Slovensko"
+  },
+  "povraznik": {
+    "placeId": "ChIJ7bOhQRNqFUcRPF7f3w1-1aI",
+    "name": "Povrazník",
+    "formattedAddress": "976 55 Povrazník, Slovensko"
+  },
+  "detva": {
+    "placeId": "ChIJEbFfIsVaFUcR4DOXxtH3AAQ",
+    "name": "Detva",
+    "formattedAddress": "962 12 Detva, Slovensko"
+  },
+  "podhradie-topolcany": {
+    "placeId": "ChIJl4qZ4_exFEcREPSWxtH3AAQ",
+    "name": "Podhradie",
+    "formattedAddress": "955 01 Podhradie, Slovensko"
+  },
+  "horna-streda": {
+    "placeId": "ChIJDawaPA6rFEcRcPeWxtH3AAQ",
+    "name": "Horná Streda",
+    "formattedAddress": "916 24 Horná Streda, Slovensko"
+  },
+  "olsavka-stropkov": {
+    "placeId": "ChIJOaFlTG8gPEcR8GqXxtH3AAQ",
+    "name": "Oľšavka",
+    "formattedAddress": "090 22 Oľšavka, Slovensko"
+  },
+  "svidnik": {
+    "placeId": "ChIJn9gI52MnPEcRMGeXxtH3AAQ",
+    "name": "Svidník",
+    "formattedAddress": "089 01 Svidník, Slovensko"
+  },
+  "remetske-hamre": {
+    "placeId": "ChIJ0X1VWHU4OUcRWwzXSnJHIiE",
+    "name": "Remetské Hámre",
+    "formattedAddress": "072 41 Remetské Hámre, Slovensko"
+  },
+  "snina": {
+    "placeId": "ChIJsaf2gmZOOUcRyPbDLfNqyhA",
+    "name": "Snina",
+    "formattedAddress": "069 01 Snina, Slovensko"
+  },
+  "olejnikov": {
+    "placeId": "ChIJQQ7ov1NiPkcROYGrjaGuKHE",
+    "name": "Olejníkov",
+    "formattedAddress": "082 57 Olejníkov, Slovensko"
+  },
+  "bardejov": {
+    "placeId": "ChIJi-tS5OKAPkcRIDiXxtH3AAQ",
+    "name": "Bardejov",
+    "formattedAddress": "Bardejov, Slovensko"
+  },
+  "maly-cepcin": {
+    "placeId": "ChIJO83zsbDjFEcRkBeXxtH3AAQ",
+    "name": "Malý Čepčín",
+    "formattedAddress": "038 45 Malý Čepčín, Slovensko"
+  },
+  "horna-poruba": {
+    "placeId": "ChIJT5jimLuWFEcRcBqXxtH3AAQ",
+    "name": "Horná Poruba",
+    "formattedAddress": "018 35 Horná Poruba, Slovensko"
+  },
+  "trencianske-teplice": {
+    "placeId": "ChIJQ7XkgQaYFEcRYPqWxtH3AAQ",
+    "name": "Trenčianske Teplice",
+    "formattedAddress": "914 51 Trenčianske Teplice, Slovensko"
+  },
+  "siba": {
+    "placeId": "ChIJU1bxP7eHPkcReUN37yHA-Ag",
+    "name": "Šiba",
+    "formattedAddress": "086 22 Šiba, Slovensko"
+  },
+  "drienovo": {
+    "placeId": "ChIJe_MqjiK6akcRBdXEsHTzHdA",
+    "name": "Drienovo",
+    "formattedAddress": "962 51 Drienovo, Slovensko"
+  },
+  "sahy": {
+    "placeId": "ChIJqTmhRN-VakcRQOaWxtH3AAQ",
+    "name": "Šahy",
+    "formattedAddress": "936 01 Šahy, Slovensko"
+  },
+  "myto-pod-dumbierom": {
+    "placeId": "ChIJv3Dbw4p6FUcRi3g1ebU5F28",
+    "name": "Mýto pod Ďumbierom",
+    "formattedAddress": "976 44 Mýto pod Ďumbierom, Slovensko"
+  },
+  "kremnica": {
+    "placeId": "ChIJMQGtbwojFUcRgC2XxtH3AAQ",
+    "name": "Kremnica",
+    "formattedAddress": "967 01 Kremnica, Slovensko"
+  },
+  "haj-turcianske-teplice": {
+    "placeId": "ChIJ08CyYQMeFUcRoBaXxtH3AAQ",
+    "name": "Háj",
+    "formattedAddress": "039 01 Háj, Slovensko"
+  },
+  "hlboke-nad-vahom": {
+    "placeId": "ChIJJ3BNiF9gFEcRY-DXrkjJV-M",
+    "name": "Hlboké nad Váhom",
+    "formattedAddress": "014 01 Hlboké nad Váhom, Slovensko"
+  },
+  "hacava": {
+    "placeId": "ChIJK6C9HcgGP0cR8EWXxtH3AAQ",
+    "name": "Hačava",
+    "formattedAddress": "044 02 Hačava, Slovensko"
+  },
+  "gelnica": {
+    "placeId": "ChIJMbP1VBj5PkcRrjokpmWxcZA",
+    "name": "Gelnica",
+    "formattedAddress": "056 01 Gelnica, Slovensko"
+  },
+  "blahova": {
+    "placeId": "ChIJB61ezFF5a0cRFA2eaTwaAfg",
+    "name": "Blahová",
+    "formattedAddress": "930 52 Blahová, Slovensko"
+  },
+  "lutina": {
+    "placeId": "ChIJxQX9GDViPkcRsFmXxtH3AAQ",
+    "name": "Ľutina",
+    "formattedAddress": "082 57 Ľutina, Slovensko"
+  },
+  "praha": {
+    "placeId": "ChIJAXbCtWhVFUcRMBSXxtH3AAQ",
+    "name": "Praha",
+    "formattedAddress": "985 11 Praha, Slovensko"
+  },
+  "jelsava": {
+    "placeId": "ChIJZ_S8dba4P0cR-DRd44KHl5c",
+    "name": "Jelšava",
+    "formattedAddress": "049 16 Jelšava, Slovensko"
+  },
+  "potocky": {
+    "placeId": "ChIJOTUMaZmhPkcR6bvPy_J4Ioc",
+    "name": "Potôčky",
+    "formattedAddress": "091 01 Potôčky, Slovensko"
+  },
+  "medzilaborce": {
+    "placeId": "ChIJ1-NHemAcPEcRwECXxtH3AAQ",
+    "name": "Medzilaborce",
+    "formattedAddress": "068 01 Medzilaborce, Slovensko"
+  },
+  "henclova": {
+    "placeId": "ChIJiUJ23nGtP0cRQ9-o_e48MYk",
+    "name": "Henclová",
+    "formattedAddress": "053 33 Henclová, Slovensko"
+  },
+  "roznava": {
+    "placeId": "ChIJS2elBwCvP0cRsF2XxtH3AAQ",
+    "name": "Rožňava",
+    "formattedAddress": "048 01 Rožňava, Slovensko"
+  },
+  "potonske-luky": {
+    "placeId": "ChIJMzTan0J5a0cR4JOXxtH3AAQ",
+    "name": "Potônske Lúky",
+    "formattedAddress": "930 52 Potônske Lúky, Slovensko"
+  },
+  "malatina": {
+    "placeId": "ChIJ1yOKQs-kFUcRrFkx657bWZs",
+    "name": "Malatiná",
+    "formattedAddress": "026 01 Malatiná, Slovensko"
+  },
+  "liptovsky-mikulas": {
+    "placeId": "ChIJ3Ul_QTKZFUcR40RH9HAU9Fg",
+    "name": "Liptovský Mikuláš",
+    "formattedAddress": "Liptovský Mikuláš, Slovensko"
+  },
+  "paca": {
+    "placeId": "ChIJ5fI4SrCuP0cR0GCXxtH3AAQ",
+    "name": "Pača",
+    "formattedAddress": "049 41 Pača, Slovensko"
+  },
+  "medzev": {
+    "placeId": "ChIJn6JHuX0BP0cRUEeXxtH3AAQ",
+    "name": "Medzev",
+    "formattedAddress": "044 25 Medzev, Slovensko"
+  },
+  "dolna-lehota": {
+    "placeId": "ChIJEVaZhRduFUcRY6_y7_xjrjc",
+    "name": "Dolná Lehota",
+    "formattedAddress": "976 98 Dolná Lehota, Slovensko"
+  },
+  "cierny-balog": {
+    "placeId": "ChIJPUhKs2dhFUcR8AKXxtH3AAQ",
+    "name": "Čierny Balog",
+    "formattedAddress": "976 52 Čierny Balog, Slovensko"
+  },
+  "dlhe-pole": {
+    "placeId": "ChIJdWi6MCxmFEcREDCXxtH3AAQ",
+    "name": "Dlhé Pole",
+    "formattedAddress": "013 32 Dlhé Pole, Slovensko"
+  },
+  "ostra-luka": {
+    "placeId": "ChIJp41U-902FUcRUDaXxtH3AAQ",
+    "name": "Ostrá Lúka",
+    "formattedAddress": "962 61 Ostrá Lúka, Slovensko"
+  },
+  "hrinova": {
+    "placeId": "ChIJrbDNsf9bFUcRInmxfNeBrbU",
+    "name": "Hriňová",
+    "formattedAddress": "962 05 Hriňová, Slovensko"
+  },
+  "bacurov": {
+    "placeId": "ChIJ_UOhuo42FUcRnpQrDed-NQs",
+    "name": "Bacúrov",
+    "formattedAddress": "962 61 Bacúrov, Slovensko"
+  },
+  "breziny": {
+    "placeId": "ChIJcyRhB2w2FUcRcDOXxtH3AAQ",
+    "name": "Breziny",
+    "formattedAddress": "962 61 Breziny, Slovensko"
+  },
+  "opatka": {
+    "placeId": "ChIJkSA6msz8PkcRHMRhvODzsW8",
+    "name": "Opátka",
+    "formattedAddress": "044 65 Opátka, Slovensko"
+  },
+  "lukavica-bardejov": {
+    "placeId": "ChIJYbCwmwGEPkcRUDuXxtH3AAQ",
+    "name": "Lukavica",
+    "formattedAddress": "086 21 Lukavica, Slovensko"
+  },
+  "pobedim": {
+    "placeId": "ChIJ11YG7emqFEcRS1Fs_JSlERM",
+    "name": "Pobedim",
+    "formattedAddress": "916 23 Pobedim, Slovensko"
+  },
+  "dedinky": {
+    "placeId": "ChIJiXOy9K9KPkcRMF6XxtH3AAQ",
+    "name": "Dedinky",
+    "formattedAddress": "049 73 Dedinky, Slovensko"
+  },
+  "betlanovce": {
+    "placeId": "ChIJGxAB8L82PkcR0GKXxtH3AAQ",
+    "name": "Betlanovce",
+    "formattedAddress": "053 15 Betlanovce, Slovensko"
+  },
+  "mlynky": {
+    "placeId": "ChIJ-W9w2iRLPkcRAHiXxtH3AAQ",
+    "name": "Mlynky",
+    "formattedAddress": "053 76 Mlynky, Slovensko"
+  },
+  "botany": {
+    "placeId": "ChIJG7xetKXgOEcR8G2XxtH3AAQ",
+    "name": "Boťany",
+    "formattedAddress": "076 43 Boťany, Slovensko"
+  },
+  "cierna-nad-tisou": {
+    "placeId": "ChIJ29_loBbnOEcRauvthXERhN0",
+    "name": "Čierna nad Tisou",
+    "formattedAddress": "076 43 Čierna nad Tisou, Slovensko"
+  },
+  "poproc-rimavska-sobota": {
+    "placeId": "ChIJJ5jXeAjCP0cRkCSXxtH3AAQ",
+    "name": "Poproč",
+    "formattedAddress": "982 67 Poproč, Slovensko"
+  },
+  "revuca": {
+    "placeId": "ChIJ5ZgcuILGP0cRgPWzxsgpPJQ",
+    "name": "Revúca",
+    "formattedAddress": "050 01 Revúca, Slovensko"
+  },
+  "hubovo": {
+    "placeId": "ChIJUSfNCoWbP0cRUCKXxtH3AAQ",
+    "name": "Hubovo",
+    "formattedAddress": "980 50 Hubovo, Slovensko"
+  },
+  "bratislava-ii": {
+    "placeId": "ChIJ_dkbqSGGbEcR5fAInmYlWoE",
+    "name": "Bratislava II",
+    "formattedAddress": "Bratislava II, Bratislava, Slovensko"
+  },
+  "ivanka-pri-dunaji": {
+    "placeId": "ChIJ3U060RuFbEcRvc70O-2fn7Q",
+    "name": "Ivanka pri Dunaji",
+    "formattedAddress": "900 28 Ivanka pri Dunaji, Slovensko"
+  },
+  "dobsina": {
+    "placeId": "ChIJu1weEXO1P0cRbXs9dXeqDRc",
+    "name": "Dobšiná",
+    "formattedAddress": "049 25 Dobšiná, Slovensko"
+  },
+  "podzamcok": {
+    "placeId": "ChIJJR1UpAA2FUcRmgoDEUQjznc",
+    "name": "Podzámčok",
+    "formattedAddress": "962 61 Podzámčok, Slovensko"
+  },
+  "bobrovcek": {
+    "placeId": "ChIJ1YgfqRWYFUcRwAyXxtH3AAQ",
+    "name": "Bobrovček",
+    "formattedAddress": "032 21 Bobrovček, Slovensko"
+  },
+  "tvrdosin": {
+    "placeId": "ChIJZzYE1JG4FUcR0AuXxtH3AAQ",
+    "name": "Tvrdošín",
+    "formattedAddress": "027 44 Tvrdošín, Slovensko"
+  },
+  "galanta": {
+    "placeId": "ChIJlfLBDW5va0cRIOuWxtH3AAQ",
+    "name": "Galanta",
+    "formattedAddress": "924 01 Galanta, Slovensko"
+  },
+  "michalkova": {
+    "placeId": "ChIJJwCEN75JFUcR6Qkb36stSYw",
+    "name": "Michalková",
+    "formattedAddress": "962 61 Michalková, Slovensko"
+  },
+  "sabinov": {
+    "placeId": "ChIJ1xyj9BSKPkcRgFuXxtH3AAQ",
+    "name": "Sabinov",
+    "formattedAddress": "083 01 Sabinov, Slovensko"
+  },
+  "drnava": {
+    "placeId": "ChIJ42gI0GaoP0cRYF6XxtH3AAQ",
+    "name": "Drnava",
+    "formattedAddress": "049 42 Drnava, Slovensko"
+  },
+  "hradiste-poltar": {
+    "placeId": "ChIJFVORcmTjP0cRTUqNYNgbqIE",
+    "name": "Hradište",
+    "formattedAddress": "985 25 Hradište, Slovensko"
+  },
+  "matiaska": {
+    "placeId": "ChIJ7VWGCZe9PkcRAHKXxtH3AAQ",
+    "name": "Matiaška",
+    "formattedAddress": "094 31 Matiaška, Slovensko"
+  },
+  "borka": {
+    "placeId": "ChIJgV1uVlAGP0cR8F2XxtH3AAQ",
+    "name": "Bôrka",
+    "formattedAddress": "049 42 Bôrka, Slovensko"
+  }
+}

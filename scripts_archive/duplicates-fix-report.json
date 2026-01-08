@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2025-12-12T19:43:35.875Z",
+  "fixedCount": 4,
+  "fixes": [
+    {
+      "municipality": "jasenov",
+      "city": "chlmec",
+      "oldAirDistance": 19.5,
+      "newAirDistance": 2.2,
+      "oldRoadDistance": 56.6,
+      "correctDistrict": "Humenné",
+      "allVariants": [
+        "Humenné",
+        "Sobrance"
+      ]
+    },
+    {
+      "municipality": "lipova",
+      "city": "surany",
+      "oldAirDistance": 2.8,
+      "newAirDistance": 51.3,
+      "oldRoadDistance": 3.3,
+      "correctDistrict": "Nové Zámky",
+      "allVariants": [
+        "Nové Zámky",
+        "Bardejov"
+      ]
+    },
+    {
+      "municipality": "lipova",
+      "city": "nove-zamky",
+      "oldAirDistance": 13.8,
+      "newAirDistance": 46.6,
+      "oldRoadDistance": 18.2,
+      "correctDistrict": "Nové Zámky",
+      "allVariants": [
+        "Nové Zámky",
+        "Bardejov"
+      ]
+    },
+    {
+      "municipality": "lipova",
+      "city": "dvory-nad-zitavou",
+      "oldAirDistance": 14.5,
+      "newAirDistance": 40.5,
+      "oldRoadDistance": 24.6,
+      "correctDistrict": "Nové Zámky",
+      "allVariants": [
+        "Nové Zámky",
+        "Bardejov"
+      ]
+    }
+  ]
+}

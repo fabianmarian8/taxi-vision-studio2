@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2025-12-12T20:48:36.520Z",
+  "fixedCount": 4,
+  "fixes": [
+    {
+      "municipality": "bratislava-ii",
+      "city": "bratislava",
+      "reason": "precomputed < vzdušná",
+      "oldValue": 1.7,
+      "newValue": 11,
+      "airDist": 4.9,
+      "precompRatio": 0.35,
+      "geoRatio": 2.25
+    },
+    {
+      "municipality": "velke-ulany",
+      "city": "sladkovicovo",
+      "reason": "Geoapify má rozumný pomer, precomputed nie",
+      "oldValue": 26.5,
+      "newValue": 8.5,
+      "airDist": 6.9,
+      "precompRatio": 3.84,
+      "geoRatio": 1.23
+    },
+    {
+      "municipality": "uhliska",
+      "city": "nova-bana",
+      "reason": "Geoapify má rozumný pomer, precomputed nie",
+      "oldValue": 47.9,
+      "newValue": 17.7,
+      "airDist": 8.5,
+      "precompRatio": 5.63,
+      "geoRatio": 2.08
+    },
+    {
+      "municipality": "kralovce-krnisov",
+      "city": "bansky-studenec",
+      "reason": "Geoapify má rozumný pomer, precomputed nie",
+      "oldValue": 39.3,
+      "newValue": 25.2,
+      "airDist": 10.7,
+      "precompRatio": 3.69,
+      "geoRatio": 2.37
+    }
+  ]
+}

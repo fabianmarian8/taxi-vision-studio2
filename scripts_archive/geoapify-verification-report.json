@@ -1,0 +1,677 @@
+{
+  "generatedAt": "2025-12-12T20:33:45.336Z",
+  "sampleSize": 3000,
+  "checked": 3000,
+  "matches": 2926,
+  "problemCount": 74,
+  "errors": 0,
+  "matchRate": 98,
+  "problems": [
+    {
+      "municipality": "bratislava-ii",
+      "district": "Bratislava",
+      "city": "bratislava",
+      "precomputed": 1.7,
+      "geoapify": 11,
+      "diffKm": 9.3,
+      "diffPct": 547
+    },
+    {
+      "municipality": "jasenov-humenne",
+      "district": "Humenné",
+      "city": "chlmec",
+      "precomputed": 2.9,
+      "geoapify": 10.9,
+      "diffKm": 8,
+      "diffPct": 276
+    },
+    {
+      "municipality": "dobra-voda",
+      "district": "Trnava",
+      "city": "brezova-pod-bradlom",
+      "precomputed": 12.6,
+      "geoapify": 41.8,
+      "diffKm": 29.2,
+      "diffPct": 232
+    },
+    {
+      "municipality": "pavlany",
+      "district": "Levoča",
+      "city": "spisske-podhradie",
+      "precomputed": 8.9,
+      "geoapify": 28.5,
+      "diffKm": 19.6,
+      "diffPct": 220
+    },
+    {
+      "municipality": "pritulany",
+      "district": "Humenné",
+      "city": "stropkov",
+      "precomputed": 16.6,
+      "geoapify": 44.9,
+      "diffKm": 28.3,
+      "diffPct": 170
+    },
+    {
+      "municipality": "ratkovske-bystre",
+      "district": "Revúca",
+      "city": "tisovec",
+      "precomputed": 19.3,
+      "geoapify": 39.2,
+      "diffKm": 19.9,
+      "diffPct": 103
+    },
+    {
+      "municipality": "dubove-turcianske-teplice",
+      "district": "Turčianske Teplice",
+      "city": "handlova",
+      "precomputed": 23.3,
+      "geoapify": 45.5,
+      "diffKm": 22.2,
+      "diffPct": 95
+    },
+    {
+      "municipality": "nizne-repase",
+      "district": "Levoča",
+      "city": "spisske-podhradie",
+      "precomputed": 14.4,
+      "geoapify": 28,
+      "diffKm": 13.6,
+      "diffPct": 94
+    },
+    {
+      "municipality": "neslusa",
+      "district": "Kysucké Nové Mesto",
+      "city": "turzovka",
+      "precomputed": 19.9,
+      "geoapify": 38.4,
+      "diffKm": 18.5,
+      "diffPct": 93
+    },
+    {
+      "municipality": "dlha-nad-kysucou",
+      "district": "Čadca",
+      "city": "kysucke-nove-mesto",
+      "precomputed": 20,
+      "geoapify": 38,
+      "diffKm": 18,
+      "diffPct": 90
+    },
+    {
+      "municipality": "prestavlky",
+      "district": "Žiar nad Hronom",
+      "city": "handlova",
+      "precomputed": 20.2,
+      "geoapify": 36.5,
+      "diffKm": 16.3,
+      "diffPct": 81
+    },
+    {
+      "municipality": "ocova",
+      "district": "Zvolen",
+      "city": "sliac",
+      "precomputed": 14.3,
+      "geoapify": 25.5,
+      "diffKm": 11.2,
+      "diffPct": 78
+    },
+    {
+      "municipality": "hlboke-nad-vahom",
+      "district": "Bytča",
+      "city": "rajec",
+      "precomputed": 23.4,
+      "geoapify": 40.8,
+      "diffKm": 17.4,
+      "diffPct": 74
+    },
+    {
+      "municipality": "komjatna",
+      "district": "Ružomberok",
+      "city": "turany",
+      "precomputed": 23.8,
+      "geoapify": 41.1,
+      "diffKm": 17.3,
+      "diffPct": 73
+    },
+    {
+      "municipality": "dolne-obdokovce",
+      "district": "Nitra",
+      "city": "vrable",
+      "precomputed": 11.7,
+      "geoapify": 20.1,
+      "diffKm": 8.4,
+      "diffPct": 72
+    },
+    {
+      "municipality": "bzovska-lehotka",
+      "district": "Zvolen",
+      "city": "bansky-studenec",
+      "precomputed": 22.6,
+      "geoapify": 38.9,
+      "diffKm": 16.3,
+      "diffPct": 72
+    },
+    {
+      "municipality": "zbrojniky",
+      "district": "Levice",
+      "city": "levice",
+      "precomputed": 16.8,
+      "geoapify": 28.2,
+      "diffKm": 11.4,
+      "diffPct": 68
+    },
+    {
+      "municipality": "velke-ulany",
+      "district": "Galanta",
+      "city": "sladkovicovo",
+      "precomputed": 26.5,
+      "geoapify": 8.5,
+      "diffKm": 18,
+      "diffPct": 68
+    },
+    {
+      "municipality": "kopernica",
+      "district": "Žiar nad Hronom",
+      "city": "ziar-nad-hronom",
+      "precomputed": 14.4,
+      "geoapify": 24.1,
+      "diffKm": 9.7,
+      "diffPct": 67
+    },
+    {
+      "municipality": "dulovce",
+      "district": "Komárno",
+      "city": "nesvady",
+      "precomputed": 16.1,
+      "geoapify": 26.8,
+      "diffKm": 10.7,
+      "diffPct": 66
+    },
+    {
+      "municipality": "uhliska",
+      "district": "Levice",
+      "city": "nova-bana",
+      "precomputed": 47.9,
+      "geoapify": 17.7,
+      "diffKm": 30.2,
+      "diffPct": 63
+    },
+    {
+      "municipality": "marsova-rasov",
+      "district": "Bytča",
+      "city": "rajec",
+      "precomputed": 21.7,
+      "geoapify": 34.2,
+      "diffKm": 12.5,
+      "diffPct": 58
+    },
+    {
+      "municipality": "velky-kyr",
+      "district": "Nové Zámky",
+      "city": "vrable",
+      "precomputed": 17.9,
+      "geoapify": 28.1,
+      "diffKm": 10.2,
+      "diffPct": 57
+    },
+    {
+      "municipality": "hradiste-poltar",
+      "district": "Poltár",
+      "city": "cinobana",
+      "precomputed": 10.5,
+      "geoapify": 16.5,
+      "diffKm": 6,
+      "diffPct": 57
+    },
+    {
+      "municipality": "kukucinov",
+      "district": "Levice",
+      "city": "levice",
+      "precomputed": 20.6,
+      "geoapify": 32,
+      "diffKm": 11.4,
+      "diffPct": 55
+    },
+    {
+      "municipality": "dobrohost",
+      "district": "Dunajská Streda",
+      "city": "dunajska-streda",
+      "precomputed": 21.9,
+      "geoapify": 33.9,
+      "diffKm": 12,
+      "diffPct": 55
+    },
+    {
+      "municipality": "janovce-galanta",
+      "district": "Galanta",
+      "city": "sladkovicovo",
+      "precomputed": 23.9,
+      "geoapify": 10.7,
+      "diffKm": 13.2,
+      "diffPct": 55
+    },
+    {
+      "municipality": "nizne-repase",
+      "district": "Levoča",
+      "city": "spisske-vlachy",
+      "precomputed": 22.7,
+      "geoapify": 34.6,
+      "diffKm": 11.9,
+      "diffPct": 52
+    },
+    {
+      "municipality": "podhorie-banska-stiavnica",
+      "district": "Banská Štiavnica",
+      "city": "ziar-nad-hronom",
+      "precomputed": 23.1,
+      "geoapify": 35.1,
+      "diffKm": 12,
+      "diffPct": 52
+    },
+    {
+      "municipality": "cierny-potok",
+      "district": "Rimavská Sobota",
+      "city": "poltar",
+      "precomputed": 32.9,
+      "geoapify": 50.1,
+      "diffKm": 17.2,
+      "diffPct": 52
+    },
+    {
+      "municipality": "opoj",
+      "district": "Trnava",
+      "city": "sladkovicovo",
+      "precomputed": 13,
+      "geoapify": 19.5,
+      "diffKm": 6.5,
+      "diffPct": 50
+    },
+    {
+      "municipality": "varin",
+      "district": "Žilina",
+      "city": "vrutky",
+      "precomputed": 32.2,
+      "geoapify": 16.6,
+      "diffKm": 15.6,
+      "diffPct": 48
+    },
+    {
+      "municipality": "nededza",
+      "district": "Žilina",
+      "city": "vrutky",
+      "precomputed": 20,
+      "geoapify": 29.5,
+      "diffKm": 9.5,
+      "diffPct": 48
+    },
+    {
+      "municipality": "devicany",
+      "district": "Levice",
+      "city": "nova-bana",
+      "precomputed": 35.6,
+      "geoapify": 18.8,
+      "diffKm": 16.8,
+      "diffPct": 47
+    },
+    {
+      "municipality": "bzovik",
+      "district": "Krupina",
+      "city": "bansky-studenec",
+      "precomputed": 26.2,
+      "geoapify": 38.5,
+      "diffKm": 12.3,
+      "diffPct": 47
+    },
+    {
+      "municipality": "dolny-vadicov",
+      "district": "Kysucké Nové Mesto",
+      "city": "vrutky",
+      "precomputed": 27.5,
+      "geoapify": 40.3,
+      "diffKm": 12.8,
+      "diffPct": 47
+    },
+    {
+      "municipality": "zakovce",
+      "district": "Kežmarok",
+      "city": "poprad",
+      "precomputed": 13.8,
+      "geoapify": 20.2,
+      "diffKm": 6.4,
+      "diffPct": 46
+    },
+    {
+      "municipality": "jastrabie-pri-michalovciach",
+      "district": "Michalovce",
+      "city": "sobrance",
+      "precomputed": 18.9,
+      "geoapify": 27.6,
+      "diffKm": 8.7,
+      "diffPct": 46
+    },
+    {
+      "municipality": "olka",
+      "district": "Medzilaborce",
+      "city": "medzilaborce",
+      "precomputed": 20.4,
+      "geoapify": 29.7,
+      "diffKm": 9.3,
+      "diffPct": 46
+    },
+    {
+      "municipality": "podhradie-topolcany",
+      "district": "Topoľčany",
+      "city": "banovce-nad-bebravou",
+      "precomputed": 26.5,
+      "geoapify": 38.7,
+      "diffKm": 12.2,
+      "diffPct": 46
+    },
+    {
+      "municipality": "nizna-hutka",
+      "district": "Košice-okolie",
+      "city": "hostovce",
+      "precomputed": 26.6,
+      "geoapify": 38.5,
+      "diffKm": 11.9,
+      "diffPct": 45
+    },
+    {
+      "municipality": "velka-lehota",
+      "district": "Žarnovica",
+      "city": "zlate-moravce",
+      "precomputed": 24.3,
+      "geoapify": 35.3,
+      "diffKm": 11,
+      "diffPct": 45
+    },
+    {
+      "municipality": "krasnany",
+      "district": "Žilina",
+      "city": "vrutky",
+      "precomputed": 33.4,
+      "geoapify": 18.8,
+      "diffKm": 14.6,
+      "diffPct": 44
+    },
+    {
+      "municipality": "henclova",
+      "district": "Gelnica",
+      "city": "roznava",
+      "precomputed": 40.7,
+      "geoapify": 58.2,
+      "diffKm": 17.5,
+      "diffPct": 43
+    },
+    {
+      "municipality": "prochot",
+      "district": "Žiar nad Hronom",
+      "city": "handlova",
+      "precomputed": 27.7,
+      "geoapify": 39.5,
+      "diffKm": 11.8,
+      "diffPct": 43
+    },
+    {
+      "municipality": "plesivec",
+      "district": "Rožňava",
+      "city": "jelsava",
+      "precomputed": 19.8,
+      "geoapify": 28.3,
+      "diffKm": 8.5,
+      "diffPct": 43
+    },
+    {
+      "municipality": "trebejov",
+      "district": "Košice-okolie",
+      "city": "kosice",
+      "precomputed": 15.6,
+      "geoapify": 22,
+      "diffKm": 6.4,
+      "diffPct": 41
+    },
+    {
+      "municipality": "bratislava-ii",
+      "district": "Bratislava",
+      "city": "ivanka-pri-dunaji",
+      "precomputed": 20.1,
+      "geoapify": 11.8,
+      "diffKm": 8.3,
+      "diffPct": 41
+    },
+    {
+      "municipality": "cekovce",
+      "district": "Krupina",
+      "city": "bansky-studenec",
+      "precomputed": 31.2,
+      "geoapify": 43.6,
+      "diffKm": 12.4,
+      "diffPct": 40
+    },
+    {
+      "municipality": "siba",
+      "district": "Bardejov",
+      "city": "velky-saris",
+      "precomputed": 37.3,
+      "geoapify": 52.2,
+      "diffKm": 14.9,
+      "diffPct": 40
+    },
+    {
+      "municipality": "hrnciarovce-nad-parnou",
+      "district": "Trnava",
+      "city": "boleraz",
+      "precomputed": 17.4,
+      "geoapify": 24.1,
+      "diffKm": 6.7,
+      "diffPct": 39
+    },
+    {
+      "municipality": "povraznik",
+      "district": "Banská Bystrica",
+      "city": "hrinova",
+      "precomputed": 55.6,
+      "geoapify": 77.1,
+      "diffKm": 21.5,
+      "diffPct": 39
+    },
+    {
+      "municipality": "horne-mladonice",
+      "district": "Krupina",
+      "city": "bansky-studenec",
+      "precomputed": 32.5,
+      "geoapify": 44.8,
+      "diffKm": 12.3,
+      "diffPct": 38
+    },
+    {
+      "municipality": "dacov",
+      "district": "Sabinov",
+      "city": "spisske-podhradie",
+      "precomputed": 35.6,
+      "geoapify": 48.6,
+      "diffKm": 13,
+      "diffPct": 37
+    },
+    {
+      "municipality": "papradno",
+      "district": "Považská Bystrica",
+      "city": "puchov",
+      "precomputed": 21.6,
+      "geoapify": 29.5,
+      "diffKm": 7.9,
+      "diffPct": 37
+    },
+    {
+      "municipality": "jastraba",
+      "district": "Žiar nad Hronom",
+      "city": "zvolen",
+      "precomputed": 22.9,
+      "geoapify": 31.3,
+      "diffKm": 8.4,
+      "diffPct": 37
+    },
+    {
+      "municipality": "podbranc",
+      "district": "Senica",
+      "city": "brezova-pod-bradlom",
+      "precomputed": 15.7,
+      "geoapify": 21.5,
+      "diffKm": 5.8,
+      "diffPct": 37
+    },
+    {
+      "municipality": "trencianska-turna",
+      "district": "Trenčín",
+      "city": "trencianske-teplice",
+      "precomputed": 19.5,
+      "geoapify": 26.8,
+      "diffKm": 7.3,
+      "diffPct": 37
+    },
+    {
+      "municipality": "predmier",
+      "district": "Bytča",
+      "city": "povazska-bystrica",
+      "precomputed": 20.3,
+      "geoapify": 12.9,
+      "diffKm": 7.4,
+      "diffPct": 36
+    },
+    {
+      "municipality": "plevnik-drienove",
+      "district": "Považská Bystrica",
+      "city": "rajec",
+      "precomputed": 23.7,
+      "geoapify": 32.3,
+      "diffKm": 8.6,
+      "diffPct": 36
+    },
+    {
+      "municipality": "kralovce-krnisov",
+      "district": "Krupina",
+      "city": "bansky-studenec",
+      "precomputed": 39.3,
+      "geoapify": 25.2,
+      "diffKm": 14.1,
+      "diffPct": 36
+    },
+    {
+      "municipality": "nemecky",
+      "district": "Topoľčany",
+      "city": "banovce-nad-bebravou",
+      "precomputed": 17.4,
+      "geoapify": 23.6,
+      "diffKm": 6.2,
+      "diffPct": 36
+    },
+    {
+      "municipality": "stupava",
+      "district": "Malacky",
+      "city": "svaty-jur",
+      "precomputed": 42.5,
+      "geoapify": 57.4,
+      "diffKm": 14.9,
+      "diffPct": 35
+    },
+    {
+      "municipality": "jelenec",
+      "district": "Nitra",
+      "city": "zlate-moravce",
+      "precomputed": 15,
+      "geoapify": 20.2,
+      "diffKm": 5.2,
+      "diffPct": 35
+    },
+    {
+      "municipality": "mojs",
+      "district": "Žilina",
+      "city": "vrutky",
+      "precomputed": 20.4,
+      "geoapify": 27.5,
+      "diffKm": 7.1,
+      "diffPct": 35
+    },
+    {
+      "municipality": "lipany",
+      "district": "Sabinov",
+      "city": "spisske-podhradie",
+      "precomputed": 35.3,
+      "geoapify": 46.8,
+      "diffKm": 11.5,
+      "diffPct": 33
+    },
+    {
+      "municipality": "gemer",
+      "district": "Revúca",
+      "city": "rimavska-sobota",
+      "precomputed": 29.4,
+      "geoapify": 39.1,
+      "diffKm": 9.7,
+      "diffPct": 33
+    },
+    {
+      "municipality": "ivanka-pri-nitre",
+      "district": "Nitra",
+      "city": "vrable",
+      "precomputed": 30.7,
+      "geoapify": 21,
+      "diffKm": 9.7,
+      "diffPct": 32
+    },
+    {
+      "municipality": "male-ludince",
+      "district": "Levice",
+      "city": "sahy",
+      "precomputed": 30.3,
+      "geoapify": 39.9,
+      "diffKm": 9.6,
+      "diffPct": 32
+    },
+    {
+      "municipality": "ostra-luka",
+      "district": "Zvolen",
+      "city": "bansky-studenec",
+      "precomputed": 24.2,
+      "geoapify": 31.7,
+      "diffKm": 7.5,
+      "diffPct": 31
+    },
+    {
+      "municipality": "trencianske-stankovce",
+      "district": "Trenčín",
+      "city": "trencianske-teplice",
+      "precomputed": 23.5,
+      "geoapify": 30.7,
+      "diffKm": 7.2,
+      "diffPct": 31
+    },
+    {
+      "municipality": "oldza",
+      "district": "Dunajská Streda",
+      "city": "bernolakovo",
+      "precomputed": 22,
+      "geoapify": 28.6,
+      "diffKm": 6.6,
+      "diffPct": 30
+    },
+    {
+      "municipality": "silicka-brezova",
+      "district": "Rožňava",
+      "city": "jelsava",
+      "precomputed": 27.6,
+      "geoapify": 36,
+      "diffKm": 8.4,
+      "diffPct": 30
+    },
+    {
+      "municipality": "kiarov",
+      "district": "Veľký Krtíš",
+      "city": "velky-krtis",
+      "precomputed": 25.5,
+      "geoapify": 17.8,
+      "diffKm": 7.7,
+      "diffPct": 30
+    }
+  ]
+}

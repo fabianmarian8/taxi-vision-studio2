@@ -1,0 +1,1697 @@
+{
+  "generatedAt": "2025-12-12T21:17:17.637Z",
+  "totalRecords": 8361,
+  "apiCalls": 909,
+  "updated": 3091,
+  "unchanged": 5257,
+  "errors": 0,
+  "significantChanges": [
+    {
+      "municipality": "gemer",
+      "city": "tornala",
+      "oldDistance": 4,
+      "newDistance": 33.3,
+      "diffPct": 732
+    },
+    {
+      "municipality": "bratislava-v",
+      "city": "bratislava",
+      "oldDistance": 1.7,
+      "newDistance": 9.4,
+      "diffPct": 453
+    },
+    {
+      "municipality": "kovacova-zvolen",
+      "city": "sliac",
+      "oldDistance": 3.9,
+      "newDistance": 19.9,
+      "diffPct": 410
+    },
+    {
+      "municipality": "kosice-iv",
+      "city": "kosice",
+      "oldDistance": 1,
+      "newDistance": 4.3,
+      "diffPct": 330
+    },
+    {
+      "municipality": "nizny-krucov",
+      "city": "vranov-nad-toplou",
+      "oldDistance": 3.6,
+      "newDistance": 14.5,
+      "diffPct": 303
+    },
+    {
+      "municipality": "bratislava-iv",
+      "city": "bratislava",
+      "oldDistance": 1.7,
+      "newDistance": 6.8,
+      "diffPct": 300
+    },
+    {
+      "municipality": "jasenov-humenne",
+      "city": "chlmec",
+      "oldDistance": 2.9,
+      "newDistance": 10.9,
+      "diffPct": 276
+    },
+    {
+      "municipality": "dolne-oresany",
+      "city": "horne-oresany",
+      "oldDistance": 3.9,
+      "newDistance": 14.6,
+      "diffPct": 274
+    },
+    {
+      "municipality": "dobra-voda",
+      "city": "brezova-pod-bradlom",
+      "oldDistance": 12.6,
+      "newDistance": 40.1,
+      "diffPct": 218
+    },
+    {
+      "municipality": "velke-ulany",
+      "city": "sladkovicovo",
+      "oldDistance": 8.5,
+      "newDistance": 26.5,
+      "diffPct": 212
+    },
+    {
+      "municipality": "kovacova-zvolen",
+      "city": "zvolen",
+      "oldDistance": 5,
+      "newDistance": 15.3,
+      "diffPct": 206
+    },
+    {
+      "municipality": "pavlany",
+      "city": "spisske-podhradie",
+      "oldDistance": 8.9,
+      "newDistance": 24.7,
+      "diffPct": 178
+    },
+    {
+      "municipality": "potor",
+      "city": "modry-kamen",
+      "oldDistance": 8.3,
+      "newDistance": 22.7,
+      "diffPct": 173
+    },
+    {
+      "municipality": "potor",
+      "city": "velky-krtis",
+      "oldDistance": 7.6,
+      "newDistance": 20.7,
+      "diffPct": 172
+    },
+    {
+      "municipality": "uhliska",
+      "city": "nova-bana",
+      "oldDistance": 17.7,
+      "newDistance": 47.9,
+      "diffPct": 171
+    },
+    {
+      "municipality": "pritulany",
+      "city": "stropkov",
+      "oldDistance": 16.6,
+      "newDistance": 44.6,
+      "diffPct": 169
+    },
+    {
+      "municipality": "pukanec",
+      "city": "nova-bana",
+      "oldDistance": 15.2,
+      "newDistance": 39.3,
+      "diffPct": 159
+    },
+    {
+      "municipality": "luborec",
+      "city": "modry-kamen",
+      "oldDistance": 21.4,
+      "newDistance": 54.5,
+      "diffPct": 155
+    },
+    {
+      "municipality": "luborec",
+      "city": "velky-krtis",
+      "oldDistance": 20.7,
+      "newDistance": 52.4,
+      "diffPct": 153
+    },
+    {
+      "municipality": "banska-bela",
+      "city": "bansky-studenec",
+      "oldDistance": 5.1,
+      "newDistance": 12.1,
+      "diffPct": 137
+    },
+    {
+      "municipality": "bohunice-levice",
+      "city": "nova-bana",
+      "oldDistance": 18.3,
+      "newDistance": 42.1,
+      "diffPct": 130
+    },
+    {
+      "municipality": "dolna-poruba",
+      "city": "ilava",
+      "oldDistance": 13.1,
+      "newDistance": 29,
+      "diffPct": 121
+    },
+    {
+      "municipality": "dolany-pezinok",
+      "city": "horne-oresany",
+      "oldDistance": 8.7,
+      "newDistance": 18.4,
+      "diffPct": 111
+    },
+    {
+      "municipality": "babina",
+      "city": "bansky-studenec",
+      "oldDistance": 15.2,
+      "newDistance": 31.6,
+      "diffPct": 108
+    },
+    {
+      "municipality": "bodiky",
+      "city": "samorin",
+      "oldDistance": 18.5,
+      "newDistance": 37.6,
+      "diffPct": 103
+    },
+    {
+      "municipality": "ratkovske-bystre",
+      "city": "tisovec",
+      "oldDistance": 19.3,
+      "newDistance": 39,
+      "diffPct": 102
+    },
+    {
+      "municipality": "detvianska-huta",
+      "city": "cinobana",
+      "oldDistance": 17.1,
+      "newDistance": 34.3,
+      "diffPct": 101
+    },
+    {
+      "municipality": "bratislava-v",
+      "city": "svaty-jur",
+      "oldDistance": 16.6,
+      "newDistance": 32.6,
+      "diffPct": 96
+    },
+    {
+      "municipality": "dubove-turcianske-teplice",
+      "city": "handlova",
+      "oldDistance": 23.3,
+      "newDistance": 45.6,
+      "diffPct": 96
+    },
+    {
+      "municipality": "pukanec",
+      "city": "zarnovica",
+      "oldDistance": 25.2,
+      "newDistance": 48.6,
+      "diffPct": 93
+    },
+    {
+      "municipality": "dlha-nad-kysucou",
+      "city": "kysucke-nove-mesto",
+      "oldDistance": 20,
+      "newDistance": 38.2,
+      "diffPct": 91
+    },
+    {
+      "municipality": "pavlany",
+      "city": "spisske-vlachy",
+      "oldDistance": 17.2,
+      "newDistance": 32.7,
+      "diffPct": 90
+    },
+    {
+      "municipality": "neslusa",
+      "city": "turzovka",
+      "oldDistance": 19.9,
+      "newDistance": 37.7,
+      "diffPct": 89
+    },
+    {
+      "municipality": "brehy",
+      "city": "batovce",
+      "oldDistance": 20.9,
+      "newDistance": 38.9,
+      "diffPct": 86
+    },
+    {
+      "municipality": "mala-lehota",
+      "city": "zarnovica",
+      "oldDistance": 15.8,
+      "newDistance": 29.3,
+      "diffPct": 85
+    },
+    {
+      "municipality": "casta",
+      "city": "horne-oresany",
+      "oldDistance": 11.5,
+      "newDistance": 21,
+      "diffPct": 83
+    },
+    {
+      "municipality": "dekys",
+      "city": "zarnovica",
+      "oldDistance": 19.6,
+      "newDistance": 35.8,
+      "diffPct": 83
+    },
+    {
+      "municipality": "dobra-niva",
+      "city": "bansky-studenec",
+      "oldDistance": 19.7,
+      "newDistance": 35.8,
+      "diffPct": 82
+    },
+    {
+      "municipality": "dolna-krupa",
+      "city": "boleraz",
+      "oldDistance": 10.3,
+      "newDistance": 18.7,
+      "diffPct": 82
+    },
+    {
+      "municipality": "dolne-obdokovce",
+      "city": "vrable",
+      "oldDistance": 11.7,
+      "newDistance": 21.2,
+      "diffPct": 81
+    },
+    {
+      "municipality": "lehotka",
+      "city": "modry-kamen",
+      "oldDistance": 27.7,
+      "newDistance": 49.8,
+      "diffPct": 80
+    },
+    {
+      "municipality": "bohunice-levice",
+      "city": "zarnovica",
+      "oldDistance": 28.8,
+      "newDistance": 51.4,
+      "diffPct": 78
+    },
+    {
+      "municipality": "maskova",
+      "city": "modry-kamen",
+      "oldDistance": 28,
+      "newDistance": 49.6,
+      "diffPct": 77
+    },
+    {
+      "municipality": "dlha",
+      "city": "horne-oresany",
+      "oldDistance": 8.5,
+      "newDistance": 14.8,
+      "diffPct": 74
+    },
+    {
+      "municipality": "bzovska-lehotka",
+      "city": "bansky-studenec",
+      "oldDistance": 22.6,
+      "newDistance": 38.8,
+      "diffPct": 72
+    },
+    {
+      "municipality": "predmier",
+      "city": "rajec",
+      "oldDistance": 21.2,
+      "newDistance": 36.4,
+      "diffPct": 72
+    },
+    {
+      "municipality": "raksa",
+      "city": "handlova",
+      "oldDistance": 30.2,
+      "newDistance": 52,
+      "diffPct": 72
+    },
+    {
+      "municipality": "pliesovce",
+      "city": "bansky-studenec",
+      "oldDistance": 22.5,
+      "newDistance": 38.3,
+      "diffPct": 70
+    },
+    {
+      "municipality": "kovacova-zvolen",
+      "city": "banska-bystrica",
+      "oldDistance": 18.1,
+      "newDistance": 30.8,
+      "diffPct": 70
+    },
+    {
+      "municipality": "bratislava-iv",
+      "city": "svaty-jur",
+      "oldDistance": 16.6,
+      "newDistance": 28.1,
+      "diffPct": 69
+    },
+    {
+      "municipality": "panovce",
+      "city": "medzev",
+      "oldDistance": 17.2,
+      "newDistance": 29.1,
+      "diffPct": 69
+    },
+    {
+      "municipality": "dolna-tizina",
+      "city": "vrutky",
+      "oldDistance": 21.4,
+      "newDistance": 36,
+      "diffPct": 68
+    },
+    {
+      "municipality": "pila-pezinok",
+      "city": "horne-oresany",
+      "oldDistance": 14.7,
+      "newDistance": 24.7,
+      "diffPct": 68
+    },
+    {
+      "municipality": "povraznik",
+      "city": "detva",
+      "oldDistance": 45.4,
+      "newDistance": 76.3,
+      "diffPct": 68
+    },
+    {
+      "municipality": "mala-frankova",
+      "city": "vysoke-tatry",
+      "oldDistance": 27.3,
+      "newDistance": 45.5,
+      "diffPct": 67
+    },
+    {
+      "municipality": "nizne-repase",
+      "city": "spisske-podhradie",
+      "oldDistance": 14.4,
+      "newDistance": 24.1,
+      "diffPct": 67
+    },
+    {
+      "municipality": "pravica",
+      "city": "lucenec",
+      "oldDistance": 21.9,
+      "newDistance": 36.5,
+      "diffPct": 67
+    },
+    {
+      "municipality": "podhradie-topolcany",
+      "city": "horna-streda",
+      "oldDistance": 29.6,
+      "newDistance": 49,
+      "diffPct": 66
+    },
+    {
+      "municipality": "pritulany",
+      "city": "giraltovce",
+      "oldDistance": 28.3,
+      "newDistance": 47,
+      "diffPct": 66
+    },
+    {
+      "municipality": "horne-plachtince",
+      "city": "krupina",
+      "oldDistance": 27.8,
+      "newDistance": 45.8,
+      "diffPct": 65
+    },
+    {
+      "municipality": "olsavka-stropkov",
+      "city": "svidnik",
+      "oldDistance": 14.4,
+      "newDistance": 23.8,
+      "diffPct": 65
+    },
+    {
+      "municipality": "budmerice",
+      "city": "horne-oresany",
+      "oldDistance": 15.1,
+      "newDistance": 24.8,
+      "diffPct": 64
+    },
+    {
+      "municipality": "gbelany",
+      "city": "vrutky",
+      "oldDistance": 18.7,
+      "newDistance": 30.7,
+      "diffPct": 64
+    },
+    {
+      "municipality": "rajec",
+      "city": "bytca",
+      "oldDistance": 23.1,
+      "newDistance": 37.9,
+      "diffPct": 64
+    },
+    {
+      "municipality": "remetske-hamre",
+      "city": "snina",
+      "oldDistance": 37.6,
+      "newDistance": 61.5,
+      "diffPct": 64
+    },
+    {
+      "municipality": "olejnikov",
+      "city": "bardejov",
+      "oldDistance": 36.9,
+      "newDistance": 60.1,
+      "diffPct": 63
+    },
+    {
+      "municipality": "maly-cepcin",
+      "city": "handlova",
+      "oldDistance": 31.7,
+      "newDistance": 51.3,
+      "diffPct": 62
+    },
+    {
+      "municipality": "nizny-krucov",
+      "city": "strazske",
+      "oldDistance": 17.8,
+      "newDistance": 28.8,
+      "diffPct": 62
+    },
+    {
+      "municipality": "petrova-lehota",
+      "city": "trencianske-teplice",
+      "oldDistance": 6.1,
+      "newDistance": 9.9,
+      "diffPct": 62
+    },
+    {
+      "municipality": "horna-poruba",
+      "city": "trencianske-teplice",
+      "oldDistance": 16.7,
+      "newDistance": 26.9,
+      "diffPct": 61
+    },
+    {
+      "municipality": "dechtice",
+      "city": "brezova-pod-bradlom",
+      "oldDistance": 20.3,
+      "newDistance": 32.2,
+      "diffPct": 59
+    },
+    {
+      "municipality": "dubova-pezinok",
+      "city": "horne-oresany",
+      "oldDistance": 16.1,
+      "newDistance": 25.6,
+      "diffPct": 59
+    },
+    {
+      "municipality": "drienovo",
+      "city": "sahy",
+      "oldDistance": 34.1,
+      "newDistance": 53.7,
+      "diffPct": 57
+    },
+    {
+      "municipality": "siba",
+      "city": "bardejov",
+      "oldDistance": 8.2,
+      "newDistance": 3.5,
+      "diffPct": 57
+    },
+    {
+      "municipality": "hradiste-poltar",
+      "city": "cinobana",
+      "oldDistance": 10.5,
+      "newDistance": 16.5,
+      "diffPct": 57
+    },
+    {
+      "municipality": "handlova",
+      "city": "kremnica",
+      "oldDistance": 26.2,
+      "newDistance": 40.8,
+      "diffPct": 56
+    },
+    {
+      "municipality": "harakovce",
+      "city": "spisske-vlachy",
+      "oldDistance": 8.4,
+      "newDistance": 13.1,
+      "diffPct": 56
+    },
+    {
+      "municipality": "vojka-nad-dunajom",
+      "city": "dunajska-streda",
+      "oldDistance": 21,
+      "newDistance": 32.8,
+      "diffPct": 56
+    },
+    {
+      "municipality": "dobrohost",
+      "city": "dunajska-streda",
+      "oldDistance": 21.9,
+      "newDistance": 33.9,
+      "diffPct": 55
+    },
+    {
+      "municipality": "marsova-rasov",
+      "city": "rajec",
+      "oldDistance": 21.7,
+      "newDistance": 33.7,
+      "diffPct": 55
+    },
+    {
+      "municipality": "borova",
+      "city": "horne-oresany",
+      "oldDistance": 11.7,
+      "newDistance": 18,
+      "diffPct": 54
+    },
+    {
+      "municipality": "haj-turcianske-teplice",
+      "city": "handlova",
+      "oldDistance": 27.8,
+      "newDistance": 42.9,
+      "diffPct": 54
+    },
+    {
+      "municipality": "horne-oresany",
+      "city": "boleraz",
+      "oldDistance": 12.9,
+      "newDistance": 5.9,
+      "diffPct": 54
+    },
+    {
+      "municipality": "boleraz",
+      "city": "horne-oresany",
+      "oldDistance": 12.9,
+      "newDistance": 6,
+      "diffPct": 53
+    },
+    {
+      "municipality": "hlboke-nad-vahom",
+      "city": "rajec",
+      "oldDistance": 23.4,
+      "newDistance": 35.8,
+      "diffPct": 53
+    },
+    {
+      "municipality": "michalkova",
+      "city": "zvolen",
+      "oldDistance": 11,
+      "newDistance": 16.8,
+      "diffPct": 53
+    },
+    {
+      "municipality": "lucky-ruzomberok",
+      "city": "dolny-kubin",
+      "oldDistance": 18.7,
+      "newDistance": 28.6,
+      "diffPct": 53
+    },
+    {
+      "municipality": "chrtany",
+      "city": "lucenec",
+      "oldDistance": 20.6,
+      "newDistance": 31.3,
+      "diffPct": 52
+    },
+    {
+      "municipality": "hacava",
+      "city": "gelnica",
+      "oldDistance": 54.2,
+      "newDistance": 81.6,
+      "diffPct": 51
+    },
+    {
+      "municipality": "nededza",
+      "city": "vrutky",
+      "oldDistance": 20,
+      "newDistance": 30.2,
+      "diffPct": 51
+    },
+    {
+      "municipality": "bellova-ves",
+      "city": "sladkovicovo",
+      "oldDistance": 25,
+      "newDistance": 37.5,
+      "diffPct": 50
+    },
+    {
+      "municipality": "rajecka-lesna",
+      "city": "bytca",
+      "oldDistance": 29.4,
+      "newDistance": 44.1,
+      "diffPct": 50
+    },
+    {
+      "municipality": "roskovce",
+      "city": "stropkov",
+      "oldDistance": 22.1,
+      "newDistance": 33.1,
+      "diffPct": 50
+    },
+    {
+      "municipality": "branc",
+      "city": "vrable",
+      "oldDistance": 15.6,
+      "newDistance": 23.3,
+      "diffPct": 49
+    },
+    {
+      "municipality": "blahova",
+      "city": "sladkovicovo",
+      "oldDistance": 26.8,
+      "newDistance": 39.6,
+      "diffPct": 48
+    },
+    {
+      "municipality": "gribov",
+      "city": "svidnik",
+      "oldDistance": 17.7,
+      "newDistance": 26.2,
+      "diffPct": 48
+    },
+    {
+      "municipality": "dolny-vadicov",
+      "city": "vrutky",
+      "oldDistance": 27.5,
+      "newDistance": 40.3,
+      "diffPct": 47
+    },
+    {
+      "municipality": "lutina",
+      "city": "bardejov",
+      "oldDistance": 39.3,
+      "newDistance": 57.8,
+      "diffPct": 47
+    },
+    {
+      "municipality": "nemecky",
+      "city": "chynorany",
+      "oldDistance": 17.2,
+      "newDistance": 25.3,
+      "diffPct": 47
+    },
+    {
+      "municipality": "osadka",
+      "city": "liptovsky-mikulas",
+      "oldDistance": 31.1,
+      "newDistance": 45.6,
+      "diffPct": 47
+    },
+    {
+      "municipality": "rovne-rimavska-sobota",
+      "city": "hnusta",
+      "oldDistance": 14.2,
+      "newDistance": 7.5,
+      "diffPct": 47
+    },
+    {
+      "municipality": "gemer",
+      "city": "jelsava",
+      "oldDistance": 29.8,
+      "newDistance": 16,
+      "diffPct": 46
+    },
+    {
+      "municipality": "gemercek",
+      "city": "rimavska-sobota",
+      "oldDistance": 19.3,
+      "newDistance": 10.5,
+      "diffPct": 46
+    },
+    {
+      "municipality": "olka",
+      "city": "medzilaborce",
+      "oldDistance": 20.4,
+      "newDistance": 29.7,
+      "diffPct": 46
+    },
+    {
+      "municipality": "praha",
+      "city": "modry-kamen",
+      "oldDistance": 35.6,
+      "newDistance": 52.1,
+      "diffPct": 46
+    },
+    {
+      "municipality": "lupoc",
+      "city": "modry-kamen",
+      "oldDistance": 32.9,
+      "newDistance": 48.1,
+      "diffPct": 46
+    },
+    {
+      "municipality": "podbranc",
+      "city": "brezova-pod-bradlom",
+      "oldDistance": 15.7,
+      "newDistance": 22.8,
+      "diffPct": 45
+    },
+    {
+      "municipality": "potocky",
+      "city": "medzilaborce",
+      "oldDistance": 28.8,
+      "newDistance": 41.6,
+      "diffPct": 44
+    },
+    {
+      "municipality": "henclova",
+      "city": "roznava",
+      "oldDistance": 40.7,
+      "newDistance": 58.2,
+      "diffPct": 43
+    },
+    {
+      "municipality": "bratislava-ii",
+      "city": "ivanka-pri-dunaji",
+      "oldDistance": 20.1,
+      "newDistance": 11.7,
+      "diffPct": 42
+    },
+    {
+      "municipality": "mala-frankova",
+      "city": "spisska-bela",
+      "oldDistance": 22.6,
+      "newDistance": 32,
+      "diffPct": 42
+    },
+    {
+      "municipality": "nizne-repase",
+      "city": "spisske-vlachy",
+      "oldDistance": 22.7,
+      "newDistance": 32.2,
+      "diffPct": 42
+    },
+    {
+      "municipality": "mojs",
+      "city": "vrutky",
+      "oldDistance": 20.4,
+      "newDistance": 28.8,
+      "diffPct": 41
+    },
+    {
+      "municipality": "podskalie",
+      "city": "povazska-bystrica",
+      "oldDistance": 10.8,
+      "newDistance": 15.2,
+      "diffPct": 41
+    },
+    {
+      "municipality": "potonske-luky",
+      "city": "sladkovicovo",
+      "oldDistance": 32.3,
+      "newDistance": 45.7,
+      "diffPct": 41
+    },
+    {
+      "municipality": "bratislava-iii",
+      "city": "ivanka-pri-dunaji",
+      "oldDistance": 20.1,
+      "newDistance": 12.1,
+      "diffPct": 40
+    },
+    {
+      "municipality": "nalepkovo",
+      "city": "spisske-vlachy",
+      "oldDistance": 30.6,
+      "newDistance": 42.7,
+      "diffPct": 40
+    },
+    {
+      "municipality": "paca",
+      "city": "medzev",
+      "oldDistance": 39.9,
+      "newDistance": 55.8,
+      "diffPct": 40
+    },
+    {
+      "municipality": "pokryvac",
+      "city": "ruzomberok",
+      "oldDistance": 23,
+      "newDistance": 32.3,
+      "diffPct": 40
+    },
+    {
+      "municipality": "kralovce-krnisov",
+      "city": "banska-stiavnica",
+      "oldDistance": 35.5,
+      "newDistance": 21.4,
+      "diffPct": 40
+    },
+    {
+      "municipality": "malatina",
+      "city": "liptovsky-mikulas",
+      "oldDistance": 35.5,
+      "newDistance": 49.8,
+      "diffPct": 40
+    },
+    {
+      "municipality": "blatnica",
+      "city": "turcianske-teplice",
+      "oldDistance": 11.4,
+      "newDistance": 15.9,
+      "diffPct": 39
+    },
+    {
+      "municipality": "blazice",
+      "city": "kosice",
+      "oldDistance": 32.7,
+      "newDistance": 20,
+      "diffPct": 39
+    },
+    {
+      "municipality": "dunajov",
+      "city": "cadca",
+      "oldDistance": 12.7,
+      "newDistance": 17.7,
+      "diffPct": 39
+    },
+    {
+      "municipality": "brestov-nad-laborcom",
+      "city": "snina",
+      "oldDistance": 30.3,
+      "newDistance": 41.7,
+      "diffPct": 38
+    },
+    {
+      "municipality": "cakany",
+      "city": "ivanka-pri-dunaji",
+      "oldDistance": 14.6,
+      "newDistance": 20.2,
+      "diffPct": 38
+    },
+    {
+      "municipality": "dubakovo",
+      "city": "poltar",
+      "oldDistance": 31.7,
+      "newDistance": 19.8,
+      "diffPct": 38
+    },
+    {
+      "municipality": "durkov",
+      "city": "kosice",
+      "oldDistance": 27.2,
+      "newDistance": 17,
+      "diffPct": 38
+    },
+    {
+      "municipality": "prencov",
+      "city": "bansky-studenec",
+      "oldDistance": 12.3,
+      "newDistance": 17,
+      "diffPct": 38
+    },
+    {
+      "municipality": "rokytov-pri-humennom",
+      "city": "snina",
+      "oldDistance": 27.3,
+      "newDistance": 37.6,
+      "diffPct": 38
+    },
+    {
+      "municipality": "budca",
+      "city": "bansky-studenec",
+      "oldDistance": 22.5,
+      "newDistance": 30.9,
+      "diffPct": 37
+    },
+    {
+      "municipality": "dlhe-pole",
+      "city": "turzovka",
+      "oldDistance": 24.5,
+      "newDistance": 33.5,
+      "diffPct": 37
+    },
+    {
+      "municipality": "kalameny",
+      "city": "dolny-kubin",
+      "oldDistance": 20.6,
+      "newDistance": 28.3,
+      "diffPct": 37
+    },
+    {
+      "municipality": "dacov",
+      "city": "spisske-podhradie",
+      "oldDistance": 35.6,
+      "newDistance": 48.5,
+      "diffPct": 36
+    },
+    {
+      "municipality": "nitra-nad-iplom",
+      "city": "filakovo",
+      "oldDistance": 12.1,
+      "newDistance": 7.8,
+      "diffPct": 36
+    },
+    {
+      "municipality": "donovaly",
+      "city": "ruzomberok",
+      "oldDistance": 29.1,
+      "newDistance": 39.2,
+      "diffPct": 35
+    },
+    {
+      "municipality": "jamnik-liptovsky-mikulas",
+      "city": "liptovsky-mikulas",
+      "oldDistance": 11.5,
+      "newDistance": 7.5,
+      "diffPct": 35
+    },
+    {
+      "municipality": "bidovce",
+      "city": "kosice",
+      "oldDistance": 26.8,
+      "newDistance": 17.7,
+      "diffPct": 34
+    },
+    {
+      "municipality": "mierovo",
+      "city": "bernolakovo",
+      "oldDistance": 20.4,
+      "newDistance": 27.4,
+      "diffPct": 34
+    },
+    {
+      "municipality": "nitrianske-rudno",
+      "city": "prievidza",
+      "oldDistance": 17.4,
+      "newDistance": 23.4,
+      "diffPct": 34
+    },
+    {
+      "municipality": "ostra-luka",
+      "city": "bansky-studenec",
+      "oldDistance": 24.2,
+      "newDistance": 32.5,
+      "diffPct": 34
+    },
+    {
+      "municipality": "plevnik-drienove",
+      "city": "rajec",
+      "oldDistance": 23.7,
+      "newDistance": 31.8,
+      "diffPct": 34
+    },
+    {
+      "municipality": "podzamcok",
+      "city": "sliac",
+      "oldDistance": 24.9,
+      "newDistance": 16.5,
+      "diffPct": 34
+    },
+    {
+      "municipality": "pritulany",
+      "city": "medzilaborce",
+      "oldDistance": 33.5,
+      "newDistance": 44.8,
+      "diffPct": 34
+    },
+    {
+      "municipality": "roskovce",
+      "city": "svidnik",
+      "oldDistance": 34.6,
+      "newDistance": 46.2,
+      "diffPct": 34
+    },
+    {
+      "municipality": "dolny-bar",
+      "city": "gabcikovo",
+      "oldDistance": 19.4,
+      "newDistance": 13,
+      "diffPct": 33
+    },
+    {
+      "municipality": "gemer",
+      "city": "rimavska-sobota",
+      "oldDistance": 29.4,
+      "newDistance": 39.2,
+      "diffPct": 33
+    },
+    {
+      "municipality": "piestany",
+      "city": "horna-streda",
+      "oldDistance": 12.2,
+      "newDistance": 8.2,
+      "diffPct": 33
+    },
+    {
+      "municipality": "podturen",
+      "city": "liptovsky-mikulas",
+      "oldDistance": 11.1,
+      "newDistance": 7.4,
+      "diffPct": 33
+    },
+    {
+      "municipality": "povraznik",
+      "city": "hrinova",
+      "oldDistance": 55.6,
+      "newDistance": 74.1,
+      "diffPct": 33
+    },
+    {
+      "municipality": "predmier",
+      "city": "povazska-bystrica",
+      "oldDistance": 20.3,
+      "newDistance": 13.6,
+      "diffPct": 33
+    },
+    {
+      "municipality": "vysoke-tatry",
+      "city": "svit",
+      "oldDistance": 12.6,
+      "newDistance": 16.7,
+      "diffPct": 33
+    },
+    {
+      "municipality": "bobrovnik",
+      "city": "liptovsky-mikulas",
+      "oldDistance": 24.2,
+      "newDistance": 16.5,
+      "diffPct": 32
+    },
+    {
+      "municipality": "maly-slavkov",
+      "city": "poprad",
+      "oldDistance": 16.4,
+      "newDistance": 21.6,
+      "diffPct": 32
+    },
+    {
+      "municipality": "stupne",
+      "city": "puchov",
+      "oldDistance": 24.7,
+      "newDistance": 16.8,
+      "diffPct": 32
+    },
+    {
+      "municipality": "bukovina",
+      "city": "liptovsky-mikulas",
+      "oldDistance": 24.9,
+      "newDistance": 17.3,
+      "diffPct": 31
+    },
+    {
+      "municipality": "nitra",
+      "city": "sala",
+      "oldDistance": 41.1,
+      "newDistance": 28.5,
+      "diffPct": 31
+    },
+    {
+      "municipality": "nove-mesto-nad-vahom",
+      "city": "horna-streda",
+      "oldDistance": 19,
+      "newDistance": 13.1,
+      "diffPct": 31
+    },
+    {
+      "municipality": "ocova",
+      "city": "sliac",
+      "oldDistance": 14.3,
+      "newDistance": 18.8,
+      "diffPct": 31
+    },
+    {
+      "municipality": "kiarov",
+      "city": "velky-krtis",
+      "oldDistance": 25.5,
+      "newDistance": 17.6,
+      "diffPct": 31
+    },
+    {
+      "municipality": "lieskovec-humenne",
+      "city": "strazske",
+      "oldDistance": 15.7,
+      "newDistance": 10.8,
+      "diffPct": 31
+    },
+    {
+      "municipality": "bacurov",
+      "city": "bansky-studenec",
+      "oldDistance": 28,
+      "newDistance": 36.3,
+      "diffPct": 30
+    },
+    {
+      "municipality": "dolny-chotar",
+      "city": "velky-meder",
+      "oldDistance": 36.9,
+      "newDistance": 25.9,
+      "diffPct": 30
+    },
+    {
+      "municipality": "ducove",
+      "city": "vrbove",
+      "oldDistance": 26.2,
+      "newDistance": 18.3,
+      "diffPct": 30
+    },
+    {
+      "municipality": "dulovce",
+      "city": "nesvady",
+      "oldDistance": 16.1,
+      "newDistance": 21,
+      "diffPct": 30
+    },
+    {
+      "municipality": "nizna-hutka",
+      "city": "kosice",
+      "oldDistance": 18.7,
+      "newDistance": 13.1,
+      "diffPct": 30
+    },
+    {
+      "municipality": "dubovica",
+      "city": "spisske-podhradie",
+      "oldDistance": 37.5,
+      "newDistance": 48.3,
+      "diffPct": 29
+    },
+    {
+      "municipality": "dubravy",
+      "city": "hrinova",
+      "oldDistance": 26.6,
+      "newDistance": 18.8,
+      "diffPct": 29
+    },
+    {
+      "municipality": "nizna-kamenica",
+      "city": "kosice",
+      "oldDistance": 31.8,
+      "newDistance": 22.7,
+      "diffPct": 29
+    },
+    {
+      "municipality": "kiarov",
+      "city": "modry-kamen",
+      "oldDistance": 29.3,
+      "newDistance": 20.8,
+      "diffPct": 29
+    },
+    {
+      "municipality": "backovik",
+      "city": "kosice",
+      "oldDistance": 32.4,
+      "newDistance": 23.2,
+      "diffPct": 28
+    },
+    {
+      "municipality": "beluj",
+      "city": "bansky-studenec",
+      "oldDistance": 17,
+      "newDistance": 21.7,
+      "diffPct": 28
+    },
+    {
+      "municipality": "breziny",
+      "city": "bansky-studenec",
+      "oldDistance": 29.5,
+      "newDistance": 37.8,
+      "diffPct": 28
+    },
+    {
+      "municipality": "hlinik-nad-hronom",
+      "city": "ziar-nad-hronom",
+      "oldDistance": 16.6,
+      "newDistance": 11.9,
+      "diffPct": 28
+    },
+    {
+      "municipality": "horna-strehova",
+      "city": "lucenec",
+      "oldDistance": 23.9,
+      "newDistance": 30.6,
+      "diffPct": 28
+    },
+    {
+      "municipality": "opatka",
+      "city": "medzev",
+      "oldDistance": 48.5,
+      "newDistance": 62,
+      "diffPct": 28
+    },
+    {
+      "municipality": "petrova-lehota",
+      "city": "dubnica-nad-vahom",
+      "oldDistance": 14.6,
+      "newDistance": 18.7,
+      "diffPct": 28
+    },
+    {
+      "municipality": "kosice-iv",
+      "city": "hostovce",
+      "oldDistance": 22,
+      "newDistance": 28.1,
+      "diffPct": 28
+    },
+    {
+      "municipality": "dubnicka",
+      "city": "partizanske",
+      "oldDistance": 23.8,
+      "newDistance": 30.3,
+      "diffPct": 27
+    },
+    {
+      "municipality": "hajna-nova-ves",
+      "city": "topolcany",
+      "oldDistance": 14.2,
+      "newDistance": 18,
+      "diffPct": 27
+    },
+    {
+      "municipality": "margecany",
+      "city": "hostovce",
+      "oldDistance": 45.8,
+      "newDistance": 33.4,
+      "diffPct": 27
+    },
+    {
+      "municipality": "most-pri-bratislave",
+      "city": "bratislava",
+      "oldDistance": 24.6,
+      "newDistance": 17.9,
+      "diffPct": 27
+    },
+    {
+      "municipality": "velke-ripnany",
+      "city": "topolcany",
+      "oldDistance": 18.1,
+      "newDistance": 23,
+      "diffPct": 27
+    },
+    {
+      "municipality": "belin",
+      "city": "tornala",
+      "oldDistance": 37.1,
+      "newDistance": 27.5,
+      "diffPct": 26
+    },
+    {
+      "municipality": "dlha",
+      "city": "boleraz",
+      "oldDistance": 21.2,
+      "newDistance": 15.6,
+      "diffPct": 26
+    },
+    {
+      "municipality": "herlany",
+      "city": "kosice",
+      "oldDistance": 35.7,
+      "newDistance": 26.5,
+      "diffPct": 26
+    },
+    {
+      "municipality": "medzibrodie-nad-oravou",
+      "city": "tvrdosin",
+      "oldDistance": 28.2,
+      "newDistance": 35.4,
+      "diffPct": 26
+    },
+    {
+      "municipality": "oravske-vesele",
+      "city": "namestovo",
+      "oldDistance": 15.4,
+      "newDistance": 19.4,
+      "diffPct": 26
+    },
+    {
+      "municipality": "petrova-lehota",
+      "city": "nova-dubnica",
+      "oldDistance": 12.9,
+      "newDistance": 16.3,
+      "diffPct": 26
+    },
+    {
+      "municipality": "slovenske-klacany",
+      "city": "lucenec",
+      "oldDistance": 22.9,
+      "newDistance": 28.9,
+      "diffPct": 26
+    },
+    {
+      "municipality": "vrbovka",
+      "city": "velky-krtis",
+      "oldDistance": 27.7,
+      "newDistance": 20.6,
+      "diffPct": 26
+    },
+    {
+      "municipality": "baldovce",
+      "city": "levoca",
+      "oldDistance": 12.5,
+      "newDistance": 15.6,
+      "diffPct": 25
+    },
+    {
+      "municipality": "bobrovec",
+      "city": "liptovsky-hradok",
+      "oldDistance": 21.6,
+      "newDistance": 16.3,
+      "diffPct": 25
+    },
+    {
+      "municipality": "buglovce",
+      "city": "levoca",
+      "oldDistance": 12.5,
+      "newDistance": 15.6,
+      "diffPct": 25
+    },
+    {
+      "municipality": "cebovce",
+      "city": "krupina",
+      "oldDistance": 31.5,
+      "newDistance": 39.4,
+      "diffPct": 25
+    },
+    {
+      "municipality": "celovce-presov",
+      "city": "kosice",
+      "oldDistance": 44.1,
+      "newDistance": 55.2,
+      "diffPct": 25
+    },
+    {
+      "municipality": "nemecky",
+      "city": "banovce-nad-bebravou",
+      "oldDistance": 17.4,
+      "newDistance": 21.8,
+      "diffPct": 25
+    },
+    {
+      "municipality": "nizna-mysla",
+      "city": "kosice",
+      "oldDistance": 22.5,
+      "newDistance": 16.9,
+      "diffPct": 25
+    },
+    {
+      "municipality": "opava",
+      "city": "krupina",
+      "oldDistance": 27.7,
+      "newDistance": 34.5,
+      "diffPct": 25
+    },
+    {
+      "municipality": "brusnik",
+      "city": "lucenec",
+      "oldDistance": 27.1,
+      "newDistance": 33.7,
+      "diffPct": 24
+    },
+    {
+      "municipality": "bzenov",
+      "city": "hostovce",
+      "oldDistance": 26.6,
+      "newDistance": 20.2,
+      "diffPct": 24
+    },
+    {
+      "municipality": "dedinky",
+      "city": "betlanovce",
+      "oldDistance": 33.4,
+      "newDistance": 41.3,
+      "diffPct": 24
+    },
+    {
+      "municipality": "velke-kozmalovce",
+      "city": "levice",
+      "oldDistance": 15,
+      "newDistance": 11.4,
+      "diffPct": 24
+    },
+    {
+      "municipality": "bratislava-iii",
+      "city": "svaty-jur",
+      "oldDistance": 16.6,
+      "newDistance": 12.7,
+      "diffPct": 23
+    },
+    {
+      "municipality": "cavoj",
+      "city": "prievidza",
+      "oldDistance": 29,
+      "newDistance": 35.7,
+      "diffPct": 23
+    },
+    {
+      "municipality": "luboriecka",
+      "city": "lucenec",
+      "oldDistance": 21.2,
+      "newDistance": 26.1,
+      "diffPct": 23
+    },
+    {
+      "municipality": "male-zlievce",
+      "city": "modry-kamen",
+      "oldDistance": 17.7,
+      "newDistance": 13.7,
+      "diffPct": 23
+    },
+    {
+      "municipality": "mlynky",
+      "city": "betlanovce",
+      "oldDistance": 35.3,
+      "newDistance": 43.4,
+      "diffPct": 23
+    },
+    {
+      "municipality": "olcnava",
+      "city": "spisska-nova-ves",
+      "oldDistance": 18.1,
+      "newDistance": 22.2,
+      "diffPct": 23
+    },
+    {
+      "municipality": "pavlova-ves",
+      "city": "liptovsky-hradok",
+      "oldDistance": 23.3,
+      "newDistance": 18,
+      "diffPct": 23
+    },
+    {
+      "municipality": "pribelce",
+      "city": "krupina",
+      "oldDistance": 33.8,
+      "newDistance": 41.7,
+      "diffPct": 23
+    },
+    {
+      "municipality": "pribis",
+      "city": "ruzomberok",
+      "oldDistance": 27.5,
+      "newDistance": 33.8,
+      "diffPct": 23
+    },
+    {
+      "municipality": "vrbovka",
+      "city": "modry-kamen",
+      "oldDistance": 30.9,
+      "newDistance": 23.8,
+      "diffPct": 23
+    },
+    {
+      "municipality": "brezany-zilina",
+      "city": "rajec",
+      "oldDistance": 20.1,
+      "newDistance": 24.5,
+      "diffPct": 22
+    },
+    {
+      "municipality": "breziny",
+      "city": "sliac",
+      "oldDistance": 19.6,
+      "newDistance": 15.3,
+      "diffPct": 22
+    },
+    {
+      "municipality": "bunetice",
+      "city": "presov",
+      "oldDistance": 25,
+      "newDistance": 30.4,
+      "diffPct": 22
+    },
+    {
+      "municipality": "devicie",
+      "city": "bansky-studenec",
+      "oldDistance": 27,
+      "newDistance": 33,
+      "diffPct": 22
+    },
+    {
+      "municipality": "gemercek",
+      "city": "poltar",
+      "oldDistance": 43.9,
+      "newDistance": 34.2,
+      "diffPct": 22
+    },
+    {
+      "municipality": "granc-petrovce",
+      "city": "levoca",
+      "oldDistance": 24.2,
+      "newDistance": 18.9,
+      "diffPct": 22
+    },
+    {
+      "municipality": "maluzina",
+      "city": "liptovsky-mikulas",
+      "oldDistance": 28.2,
+      "newDistance": 21.9,
+      "diffPct": 22
+    },
+    {
+      "municipality": "neded",
+      "city": "nove-zamky",
+      "oldDistance": 28.1,
+      "newDistance": 34.3,
+      "diffPct": 22
+    },
+    {
+      "municipality": "poproc-rimavska-sobota",
+      "city": "revuca",
+      "oldDistance": 35.5,
+      "newDistance": 43.4,
+      "diffPct": 22
+    },
+    {
+      "municipality": "porac",
+      "city": "spisske-podhradie",
+      "oldDistance": 23.8,
+      "newDistance": 29,
+      "diffPct": 22
+    },
+    {
+      "municipality": "repiste",
+      "city": "ziar-nad-hronom",
+      "oldDistance": 24.5,
+      "newDistance": 19,
+      "diffPct": 22
+    },
+    {
+      "municipality": "becherov",
+      "city": "svidnik",
+      "oldDistance": 26.8,
+      "newDistance": 32.4,
+      "diffPct": 21
+    },
+    {
+      "municipality": "bobrovcek",
+      "city": "liptovsky-hradok",
+      "oldDistance": 25.3,
+      "newDistance": 20,
+      "diffPct": 21
+    },
+    {
+      "municipality": "bratislava-i",
+      "city": "ivanka-pri-dunaji",
+      "oldDistance": 20.1,
+      "newDistance": 15.8,
+      "diffPct": 21
+    },
+    {
+      "municipality": "cicarovce",
+      "city": "kralovsky-chlmec",
+      "oldDistance": 18.3,
+      "newDistance": 22.1,
+      "diffPct": 21
+    },
+    {
+      "municipality": "dobsina",
+      "city": "betlanovce",
+      "oldDistance": 38.1,
+      "newDistance": 46,
+      "diffPct": 21
+    },
+    {
+      "municipality": "dubravy",
+      "city": "sliac",
+      "oldDistance": 21.4,
+      "newDistance": 25.8,
+      "diffPct": 21
+    },
+    {
+      "municipality": "hermanovce",
+      "city": "velky-saris",
+      "oldDistance": 20.5,
+      "newDistance": 24.9,
+      "diffPct": 21
+    },
+    {
+      "municipality": "ondavka",
+      "city": "bardejov",
+      "oldDistance": 20,
+      "newDistance": 24.1,
+      "diffPct": 21
+    },
+    {
+      "municipality": "oravska-polhora",
+      "city": "namestovo",
+      "oldDistance": 14.7,
+      "newDistance": 17.8,
+      "diffPct": 21
+    },
+    {
+      "municipality": "pribeta",
+      "city": "nesvady",
+      "oldDistance": 18.8,
+      "newDistance": 22.7,
+      "diffPct": 21
+    },
+    {
+      "municipality": "puchov",
+      "city": "povazska-bystrica",
+      "oldDistance": 21.3,
+      "newDistance": 16.9,
+      "diffPct": 21
+    },
+    {
+      "municipality": "beladice",
+      "city": "zlate-moravce",
+      "oldDistance": 15.8,
+      "newDistance": 12.6,
+      "diffPct": 20
+    },
+    {
+      "municipality": "cerovo",
+      "city": "velky-krtis",
+      "oldDistance": 28,
+      "newDistance": 33.7,
+      "diffPct": 20
+    },
+    {
+      "municipality": "cataj",
+      "city": "trnava",
+      "oldDistance": 22.6,
+      "newDistance": 18,
+      "diffPct": 20
+    },
+    {
+      "municipality": "nizna-boca",
+      "city": "liptovsky-mikulas",
+      "oldDistance": 31.9,
+      "newDistance": 25.5,
+      "diffPct": 20
+    },
+    {
+      "municipality": "podzamcok",
+      "city": "bansky-studenec",
+      "oldDistance": 33,
+      "newDistance": 39.6,
+      "diffPct": 20
+    },
+    {
+      "municipality": "chvojnica-myjava",
+      "city": "senica",
+      "oldDistance": 16.5,
+      "newDistance": 13.2,
+      "diffPct": 20
+    }
+  ]
+}

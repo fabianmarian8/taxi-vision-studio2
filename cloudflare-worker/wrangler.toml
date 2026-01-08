@@ -1,0 +1,20 @@
+name = "taxinearme-prerender"
+main = "prerender-worker.js"
+compatibility_date = "2025-11-14"
+
+# Routes that this worker should handle
+routes = [
+  { pattern = "www.taxinearme.sk/*", zone_name = "taxinearme.sk" },
+  { pattern = "taxinearme.sk/*", zone_name = "taxinearme.sk" }
+]
+
+# Worker settings
+[build]
+command = ""
+
+[env.production]
+name = "taxinearme-prerender"
+routes = [
+  { pattern = "www.taxinearme.sk/*", zone_name = "taxinearme.sk" },
+  { pattern = "taxinearme.sk/*", zone_name = "taxinearme.sk" }
+]

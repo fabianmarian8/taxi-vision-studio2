@@ -1,0 +1,6 @@
+Timestamp: 2025-11-12T15:06:00Z
+Purpose: Force rebuild without cache - batch saving MUST be deployed!
+Previous trigger failed to include batch saving changes.
+This deployment MUST include commits:
+- fe7eddf: ♻️ Implementácia batch ukladania
+- f6f1a46: 📚 Dokumentácia batch ukladania

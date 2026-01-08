@@ -1,0 +1,1460 @@
+{
+  "generatedAt": "2026-01-08T12:00:00.000Z",
+  "api": "Google",
+  "citiesCount": 20,
+  "routesCount": 190,
+  "cities": [
+    {
+      "name": "Praha",
+      "slug": "praha",
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    {
+      "name": "Brno",
+      "slug": "brno",
+      "lat": 49.1951,
+      "lng": 16.6068
+    },
+    {
+      "name": "Ostrava",
+      "slug": "ostrava",
+      "lat": 49.8209,
+      "lng": 18.2625
+    },
+    {
+      "name": "Plzeň",
+      "slug": "plzen",
+      "lat": 49.7384,
+      "lng": 13.3736
+    },
+    {
+      "name": "Liberec",
+      "slug": "liberec",
+      "lat": 50.7663,
+      "lng": 15.0543
+    },
+    {
+      "name": "Olomouc",
+      "slug": "olomouc",
+      "lat": 49.5938,
+      "lng": 17.2509
+    },
+    {
+      "name": "České Budějovice",
+      "slug": "ceske-budejovice",
+      "lat": 48.9747,
+      "lng": 14.4747
+    },
+    {
+      "name": "Hradec Králové",
+      "slug": "hradec-kralove",
+      "lat": 50.2092,
+      "lng": 15.8328
+    },
+    {
+      "name": "Ústí nad Labem",
+      "slug": "usti-nad-labem",
+      "lat": 50.6607,
+      "lng": 14.0323
+    },
+    {
+      "name": "Pardubice",
+      "slug": "pardubice",
+      "lat": 50.0343,
+      "lng": 15.7812
+    },
+    {
+      "name": "Zlín",
+      "slug": "zlin",
+      "lat": 49.2267,
+      "lng": 17.6669
+    },
+    {
+      "name": "Karlovy Vary",
+      "slug": "karlovy-vary",
+      "lat": 50.2325,
+      "lng": 12.8713
+    },
+    {
+      "name": "Jihlava",
+      "slug": "jihlava",
+      "lat": 49.3961,
+      "lng": 15.5912
+    },
+    {
+      "name": "Kladno",
+      "slug": "kladno",
+      "lat": 50.1472,
+      "lng": 14.1029
+    },
+    {
+      "name": "Most",
+      "slug": "most",
+      "lat": 50.5030,
+      "lng": 13.6364
+    },
+    {
+      "name": "Opava",
+      "slug": "opava",
+      "lat": 49.9385,
+      "lng": 17.9026
+    },
+    {
+      "name": "Frýdek-Místek",
+      "slug": "frydek-mistek",
+      "lat": 49.6880,
+      "lng": 18.3536
+    },
+    {
+      "name": "Havířov",
+      "slug": "havirov",
+      "lat": 49.7799,
+      "lng": 18.4302
+    },
+    {
+      "name": "Teplice",
+      "slug": "teplice",
+      "lat": 50.6405,
+      "lng": 13.8244
+    },
+    {
+      "name": "Děčín",
+      "slug": "decin",
+      "lat": 50.7724,
+      "lng": 14.2148
+    }
+  ],
+  "routes": [
+    {
+      "from": "praha",
+      "to": "brno",
+      "distanceKm": 205,
+      "durationMin": 120,
+      "durationText": "2 hod"
+    },
+    {
+      "from": "praha",
+      "to": "ostrava",
+      "distanceKm": 360,
+      "durationMin": 210,
+      "durationText": "3 hod 30 min"
+    },
+    {
+      "from": "praha",
+      "to": "plzen",
+      "distanceKm": 92,
+      "durationMin": 60,
+      "durationText": "1 hod"
+    },
+    {
+      "from": "praha",
+      "to": "liberec",
+      "distanceKm": 110,
+      "durationMin": 75,
+      "durationText": "1 hod 15 min"
+    },
+    {
+      "from": "praha",
+      "to": "olomouc",
+      "distanceKm": 280,
+      "durationMin": 165,
+      "durationText": "2 hod 45 min"
+    },
+    {
+      "from": "praha",
+      "to": "ceske-budejovice",
+      "distanceKm": 150,
+      "durationMin": 105,
+      "durationText": "1 hod 45 min"
+    },
+    {
+      "from": "praha",
+      "to": "hradec-kralove",
+      "distanceKm": 115,
+      "durationMin": 75,
+      "durationText": "1 hod 15 min"
+    },
+    {
+      "from": "praha",
+      "to": "usti-nad-labem",
+      "distanceKm": 90,
+      "durationMin": 60,
+      "durationText": "1 hod"
+    },
+    {
+      "from": "praha",
+      "to": "pardubice",
+      "distanceKm": 120,
+      "durationMin": 75,
+      "durationText": "1 hod 15 min"
+    },
+    {
+      "from": "praha",
+      "to": "zlin",
+      "distanceKm": 300,
+      "durationMin": 180,
+      "durationText": "3 hod"
+    },
+    {
+      "from": "praha",
+      "to": "karlovy-vary",
+      "distanceKm": 130,
+      "durationMin": 90,
+      "durationText": "1 hod 30 min"
+    },
+    {
+      "from": "praha",
+      "to": "jihlava",
+      "distanceKm": 130,
+      "durationMin": 90,
+      "durationText": "1 hod 30 min"
+    },
+    {
+      "from": "praha",
+      "to": "kladno",
+      "distanceKm": 28,
+      "durationMin": 30,
+      "durationText": "30 min"
+    },
+    {
+      "from": "praha",
+      "to": "most",
+      "distanceKm": 85,
+      "durationMin": 60,
+      "durationText": "1 hod"
+    },
+    {
+      "from": "praha",
+      "to": "opava",
+      "distanceKm": 370,
+      "durationMin": 225,
+      "durationText": "3 hod 45 min"
+    },
+    {
+      "from": "praha",
+      "to": "frydek-mistek",
+      "distanceKm": 350,
+      "durationMin": 210,
+      "durationText": "3 hod 30 min"
+    },
+    {
+      "from": "praha",
+      "to": "havirov",
+      "distanceKm": 360,
+      "durationMin": 215,
+      "durationText": "3 hod 35 min"
+    },
+    {
+      "from": "praha",
+      "to": "teplice",
+      "distanceKm": 90,
+      "durationMin": 60,
+      "durationText": "1 hod"
+    },
+    {
+      "from": "praha",
+      "to": "decin",
+      "distanceKm": 120,
+      "durationMin": 80,
+      "durationText": "1 hod 20 min"
+    },
+    {
+      "from": "brno",
+      "to": "ostrava",
+      "distanceKm": 170,
+      "durationMin": 110,
+      "durationText": "1 hod 50 min"
+    },
+    {
+      "from": "brno",
+      "to": "plzen",
+      "distanceKm": 295,
+      "durationMin": 180,
+      "durationText": "3 hod"
+    },
+    {
+      "from": "brno",
+      "to": "liberec",
+      "distanceKm": 280,
+      "durationMin": 180,
+      "durationText": "3 hod"
+    },
+    {
+      "from": "brno",
+      "to": "olomouc",
+      "distanceKm": 78,
+      "durationMin": 55,
+      "durationText": "55 min"
+    },
+    {
+      "from": "brno",
+      "to": "ceske-budejovice",
+      "distanceKm": 220,
+      "durationMin": 150,
+      "durationText": "2 hod 30 min"
+    },
+    {
+      "from": "brno",
+      "to": "hradec-kralove",
+      "distanceKm": 155,
+      "durationMin": 105,
+      "durationText": "1 hod 45 min"
+    },
+    {
+      "from": "brno",
+      "to": "usti-nad-labem",
+      "distanceKm": 290,
+      "durationMin": 180,
+      "durationText": "3 hod"
+    },
+    {
+      "from": "brno",
+      "to": "pardubice",
+      "distanceKm": 130,
+      "durationMin": 90,
+      "durationText": "1 hod 30 min"
+    },
+    {
+      "from": "brno",
+      "to": "zlin",
+      "distanceKm": 100,
+      "durationMin": 70,
+      "durationText": "1 hod 10 min"
+    },
+    {
+      "from": "brno",
+      "to": "karlovy-vary",
+      "distanceKm": 340,
+      "durationMin": 210,
+      "durationText": "3 hod 30 min"
+    },
+    {
+      "from": "brno",
+      "to": "jihlava",
+      "distanceKm": 85,
+      "durationMin": 60,
+      "durationText": "1 hod"
+    },
+    {
+      "from": "brno",
+      "to": "kladno",
+      "distanceKm": 230,
+      "durationMin": 145,
+      "durationText": "2 hod 25 min"
+    },
+    {
+      "from": "brno",
+      "to": "most",
+      "distanceKm": 290,
+      "durationMin": 180,
+      "durationText": "3 hod"
+    },
+    {
+      "from": "brno",
+      "to": "opava",
+      "distanceKm": 175,
+      "durationMin": 115,
+      "durationText": "1 hod 55 min"
+    },
+    {
+      "from": "brno",
+      "to": "frydek-mistek",
+      "distanceKm": 160,
+      "durationMin": 105,
+      "durationText": "1 hod 45 min"
+    },
+    {
+      "from": "brno",
+      "to": "havirov",
+      "distanceKm": 165,
+      "durationMin": 110,
+      "durationText": "1 hod 50 min"
+    },
+    {
+      "from": "brno",
+      "to": "teplice",
+      "distanceKm": 285,
+      "durationMin": 175,
+      "durationText": "2 hod 55 min"
+    },
+    {
+      "from": "brno",
+      "to": "decin",
+      "distanceKm": 315,
+      "durationMin": 195,
+      "durationText": "3 hod 15 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "plzen",
+      "distanceKm": 450,
+      "durationMin": 270,
+      "durationText": "4 hod 30 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "liberec",
+      "distanceKm": 380,
+      "durationMin": 240,
+      "durationText": "4 hod"
+    },
+    {
+      "from": "ostrava",
+      "to": "olomouc",
+      "distanceKm": 95,
+      "durationMin": 65,
+      "durationText": "1 hod 5 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "ceske-budejovice",
+      "distanceKm": 390,
+      "durationMin": 250,
+      "durationText": "4 hod 10 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "hradec-kralove",
+      "distanceKm": 250,
+      "durationMin": 165,
+      "durationText": "2 hod 45 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "usti-nad-labem",
+      "distanceKm": 420,
+      "durationMin": 265,
+      "durationText": "4 hod 25 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "pardubice",
+      "distanceKm": 220,
+      "durationMin": 145,
+      "durationText": "2 hod 25 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "zlin",
+      "distanceKm": 100,
+      "durationMin": 70,
+      "durationText": "1 hod 10 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "karlovy-vary",
+      "distanceKm": 480,
+      "durationMin": 290,
+      "durationText": "4 hod 50 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "jihlava",
+      "distanceKm": 235,
+      "durationMin": 155,
+      "durationText": "2 hod 35 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "kladno",
+      "distanceKm": 385,
+      "durationMin": 235,
+      "durationText": "3 hod 55 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "most",
+      "distanceKm": 430,
+      "durationMin": 265,
+      "durationText": "4 hod 25 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "opava",
+      "distanceKm": 35,
+      "durationMin": 30,
+      "durationText": "30 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "frydek-mistek",
+      "distanceKm": 25,
+      "durationMin": 25,
+      "durationText": "25 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "havirov",
+      "distanceKm": 15,
+      "durationMin": 20,
+      "durationText": "20 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "teplice",
+      "distanceKm": 410,
+      "durationMin": 255,
+      "durationText": "4 hod 15 min"
+    },
+    {
+      "from": "ostrava",
+      "to": "decin",
+      "distanceKm": 440,
+      "durationMin": 275,
+      "durationText": "4 hod 35 min"
+    },
+    {
+      "from": "plzen",
+      "to": "liberec",
+      "distanceKm": 200,
+      "durationMin": 135,
+      "durationText": "2 hod 15 min"
+    },
+    {
+      "from": "plzen",
+      "to": "olomouc",
+      "distanceKm": 370,
+      "durationMin": 225,
+      "durationText": "3 hod 45 min"
+    },
+    {
+      "from": "plzen",
+      "to": "ceske-budejovice",
+      "distanceKm": 140,
+      "durationMin": 95,
+      "durationText": "1 hod 35 min"
+    },
+    {
+      "from": "plzen",
+      "to": "hradec-kralove",
+      "distanceKm": 200,
+      "durationMin": 135,
+      "durationText": "2 hod 15 min"
+    },
+    {
+      "from": "plzen",
+      "to": "usti-nad-labem",
+      "distanceKm": 130,
+      "durationMin": 90,
+      "durationText": "1 hod 30 min"
+    },
+    {
+      "from": "plzen",
+      "to": "pardubice",
+      "distanceKm": 210,
+      "durationMin": 135,
+      "durationText": "2 hod 15 min"
+    },
+    {
+      "from": "plzen",
+      "to": "zlin",
+      "distanceKm": 390,
+      "durationMin": 240,
+      "durationText": "4 hod"
+    },
+    {
+      "from": "plzen",
+      "to": "karlovy-vary",
+      "distanceKm": 80,
+      "durationMin": 55,
+      "durationText": "55 min"
+    },
+    {
+      "from": "plzen",
+      "to": "jihlava",
+      "distanceKm": 210,
+      "durationMin": 140,
+      "durationText": "2 hod 20 min"
+    },
+    {
+      "from": "plzen",
+      "to": "kladno",
+      "distanceKm": 70,
+      "durationMin": 50,
+      "durationText": "50 min"
+    },
+    {
+      "from": "plzen",
+      "to": "most",
+      "distanceKm": 100,
+      "durationMin": 70,
+      "durationText": "1 hod 10 min"
+    },
+    {
+      "from": "plzen",
+      "to": "opava",
+      "distanceKm": 460,
+      "durationMin": 280,
+      "durationText": "4 hod 40 min"
+    },
+    {
+      "from": "plzen",
+      "to": "frydek-mistek",
+      "distanceKm": 440,
+      "durationMin": 265,
+      "durationText": "4 hod 25 min"
+    },
+    {
+      "from": "plzen",
+      "to": "havirov",
+      "distanceKm": 450,
+      "durationMin": 270,
+      "durationText": "4 hod 30 min"
+    },
+    {
+      "from": "plzen",
+      "to": "teplice",
+      "distanceKm": 120,
+      "durationMin": 85,
+      "durationText": "1 hod 25 min"
+    },
+    {
+      "from": "plzen",
+      "to": "decin",
+      "distanceKm": 160,
+      "durationMin": 110,
+      "durationText": "1 hod 50 min"
+    },
+    {
+      "from": "liberec",
+      "to": "olomouc",
+      "distanceKm": 280,
+      "durationMin": 185,
+      "durationText": "3 hod 5 min"
+    },
+    {
+      "from": "liberec",
+      "to": "ceske-budejovice",
+      "distanceKm": 260,
+      "durationMin": 180,
+      "durationText": "3 hod"
+    },
+    {
+      "from": "liberec",
+      "to": "hradec-kralove",
+      "distanceKm": 90,
+      "durationMin": 65,
+      "durationText": "1 hod 5 min"
+    },
+    {
+      "from": "liberec",
+      "to": "usti-nad-labem",
+      "distanceKm": 90,
+      "durationMin": 65,
+      "durationText": "1 hod 5 min"
+    },
+    {
+      "from": "liberec",
+      "to": "pardubice",
+      "distanceKm": 130,
+      "durationMin": 90,
+      "durationText": "1 hod 30 min"
+    },
+    {
+      "from": "liberec",
+      "to": "zlin",
+      "distanceKm": 360,
+      "durationMin": 230,
+      "durationText": "3 hod 50 min"
+    },
+    {
+      "from": "liberec",
+      "to": "karlovy-vary",
+      "distanceKm": 180,
+      "durationMin": 125,
+      "durationText": "2 hod 5 min"
+    },
+    {
+      "from": "liberec",
+      "to": "jihlava",
+      "distanceKm": 220,
+      "durationMin": 150,
+      "durationText": "2 hod 30 min"
+    },
+    {
+      "from": "liberec",
+      "to": "kladno",
+      "distanceKm": 130,
+      "durationMin": 95,
+      "durationText": "1 hod 35 min"
+    },
+    {
+      "from": "liberec",
+      "to": "most",
+      "distanceKm": 125,
+      "durationMin": 90,
+      "durationText": "1 hod 30 min"
+    },
+    {
+      "from": "liberec",
+      "to": "opava",
+      "distanceKm": 370,
+      "durationMin": 240,
+      "durationText": "4 hod"
+    },
+    {
+      "from": "liberec",
+      "to": "frydek-mistek",
+      "distanceKm": 370,
+      "durationMin": 240,
+      "durationText": "4 hod"
+    },
+    {
+      "from": "liberec",
+      "to": "havirov",
+      "distanceKm": 375,
+      "durationMin": 240,
+      "durationText": "4 hod"
+    },
+    {
+      "from": "liberec",
+      "to": "teplice",
+      "distanceKm": 80,
+      "durationMin": 60,
+      "durationText": "1 hod"
+    },
+    {
+      "from": "liberec",
+      "to": "decin",
+      "distanceKm": 75,
+      "durationMin": 55,
+      "durationText": "55 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "ceske-budejovice",
+      "distanceKm": 290,
+      "durationMin": 195,
+      "durationText": "3 hod 15 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "hradec-kralove",
+      "distanceKm": 170,
+      "durationMin": 115,
+      "durationText": "1 hod 55 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "usti-nad-labem",
+      "distanceKm": 340,
+      "durationMin": 220,
+      "durationText": "3 hod 40 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "pardubice",
+      "distanceKm": 150,
+      "durationMin": 100,
+      "durationText": "1 hod 40 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "zlin",
+      "distanceKm": 65,
+      "durationMin": 50,
+      "durationText": "50 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "karlovy-vary",
+      "distanceKm": 400,
+      "durationMin": 250,
+      "durationText": "4 hod 10 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "jihlava",
+      "distanceKm": 155,
+      "durationMin": 105,
+      "durationText": "1 hod 45 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "kladno",
+      "distanceKm": 310,
+      "durationMin": 195,
+      "durationText": "3 hod 15 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "most",
+      "distanceKm": 350,
+      "durationMin": 220,
+      "durationText": "3 hod 40 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "opava",
+      "distanceKm": 95,
+      "durationMin": 65,
+      "durationText": "1 hod 5 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "frydek-mistek",
+      "distanceKm": 90,
+      "durationMin": 65,
+      "durationText": "1 hod 5 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "havirov",
+      "distanceKm": 95,
+      "durationMin": 65,
+      "durationText": "1 hod 5 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "teplice",
+      "distanceKm": 340,
+      "durationMin": 215,
+      "durationText": "3 hod 35 min"
+    },
+    {
+      "from": "olomouc",
+      "to": "decin",
+      "distanceKm": 365,
+      "durationMin": 230,
+      "durationText": "3 hod 50 min"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "hradec-kralove",
+      "distanceKm": 240,
+      "durationMin": 165,
+      "durationText": "2 hod 45 min"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "usti-nad-labem",
+      "distanceKm": 230,
+      "durationMin": 160,
+      "durationText": "2 hod 40 min"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "pardubice",
+      "distanceKm": 220,
+      "durationMin": 150,
+      "durationText": "2 hod 30 min"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "zlin",
+      "distanceKm": 310,
+      "durationMin": 210,
+      "durationText": "3 hod 30 min"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "karlovy-vary",
+      "distanceKm": 220,
+      "durationMin": 155,
+      "durationText": "2 hod 35 min"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "jihlava",
+      "distanceKm": 130,
+      "durationMin": 95,
+      "durationText": "1 hod 35 min"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "kladno",
+      "distanceKm": 170,
+      "durationMin": 120,
+      "durationText": "2 hod"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "most",
+      "distanceKm": 225,
+      "durationMin": 155,
+      "durationText": "2 hod 35 min"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "opava",
+      "distanceKm": 380,
+      "durationMin": 250,
+      "durationText": "4 hod 10 min"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "frydek-mistek",
+      "distanceKm": 380,
+      "durationMin": 250,
+      "durationText": "4 hod 10 min"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "havirov",
+      "distanceKm": 385,
+      "durationMin": 255,
+      "durationText": "4 hod 15 min"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "teplice",
+      "distanceKm": 230,
+      "durationMin": 160,
+      "durationText": "2 hod 40 min"
+    },
+    {
+      "from": "ceske-budejovice",
+      "to": "decin",
+      "distanceKm": 260,
+      "durationMin": 180,
+      "durationText": "3 hod"
+    },
+    {
+      "from": "hradec-kralove",
+      "to": "usti-nad-labem",
+      "distanceKm": 165,
+      "durationMin": 115,
+      "durationText": "1 hod 55 min"
+    },
+    {
+      "from": "hradec-kralove",
+      "to": "pardubice",
+      "distanceKm": 25,
+      "durationMin": 25,
+      "durationText": "25 min"
+    },
+    {
+      "from": "hradec-kralove",
+      "to": "zlin",
+      "distanceKm": 250,
+      "durationMin": 170,
+      "durationText": "2 hod 50 min"
+    },
+    {
+      "from": "hradec-kralove",
+      "to": "karlovy-vary",
+      "distanceKm": 240,
+      "durationMin": 165,
+      "durationText": "2 hod 45 min"
+    },
+    {
+      "from": "hradec-kralove",
+      "to": "jihlava",
+      "distanceKm": 145,
+      "durationMin": 105,
+      "durationText": "1 hod 45 min"
+    },
+    {
+      "from": "hradec-kralove",
+      "to": "kladno",
+      "distanceKm": 135,
+      "durationMin": 95,
+      "durationText": "1 hod 35 min"
+    },
+    {
+      "from": "hradec-kralove",
+      "to": "most",
+      "distanceKm": 175,
+      "durationMin": 120,
+      "durationText": "2 hod"
+    },
+    {
+      "from": "hradec-kralove",
+      "to": "opava",
+      "distanceKm": 260,
+      "durationMin": 175,
+      "durationText": "2 hod 55 min"
+    },
+    {
+      "from": "hradec-kralove",
+      "to": "frydek-mistek",
+      "distanceKm": 250,
+      "durationMin": 170,
+      "durationText": "2 hod 50 min"
+    },
+    {
+      "from": "hradec-kralove",
+      "to": "havirov",
+      "distanceKm": 255,
+      "durationMin": 175,
+      "durationText": "2 hod 55 min"
+    },
+    {
+      "from": "hradec-kralove",
+      "to": "teplice",
+      "distanceKm": 160,
+      "durationMin": 115,
+      "durationText": "1 hod 55 min"
+    },
+    {
+      "from": "hradec-kralove",
+      "to": "decin",
+      "distanceKm": 150,
+      "durationMin": 105,
+      "durationText": "1 hod 45 min"
+    },
+    {
+      "from": "usti-nad-labem",
+      "to": "pardubice",
+      "distanceKm": 180,
+      "durationMin": 125,
+      "durationText": "2 hod 5 min"
+    },
+    {
+      "from": "usti-nad-labem",
+      "to": "zlin",
+      "distanceKm": 390,
+      "durationMin": 250,
+      "durationText": "4 hod 10 min"
+    },
+    {
+      "from": "usti-nad-labem",
+      "to": "karlovy-vary",
+      "distanceKm": 90,
+      "durationMin": 65,
+      "durationText": "1 hod 5 min"
+    },
+    {
+      "from": "usti-nad-labem",
+      "to": "jihlava",
+      "distanceKm": 215,
+      "durationMin": 150,
+      "durationText": "2 hod 30 min"
+    },
+    {
+      "from": "usti-nad-labem",
+      "to": "kladno",
+      "distanceKm": 85,
+      "durationMin": 60,
+      "durationText": "1 hod"
+    },
+    {
+      "from": "usti-nad-labem",
+      "to": "most",
+      "distanceKm": 30,
+      "durationMin": 25,
+      "durationText": "25 min"
+    },
+    {
+      "from": "usti-nad-labem",
+      "to": "opava",
+      "distanceKm": 430,
+      "durationMin": 275,
+      "durationText": "4 hod 35 min"
+    },
+    {
+      "from": "usti-nad-labem",
+      "to": "frydek-mistek",
+      "distanceKm": 420,
+      "durationMin": 265,
+      "durationText": "4 hod 25 min"
+    },
+    {
+      "from": "usti-nad-labem",
+      "to": "havirov",
+      "distanceKm": 425,
+      "durationMin": 270,
+      "durationText": "4 hod 30 min"
+    },
+    {
+      "from": "usti-nad-labem",
+      "to": "teplice",
+      "distanceKm": 18,
+      "durationMin": 18,
+      "durationText": "18 min"
+    },
+    {
+      "from": "usti-nad-labem",
+      "to": "decin",
+      "distanceKm": 35,
+      "durationMin": 30,
+      "durationText": "30 min"
+    },
+    {
+      "from": "pardubice",
+      "to": "zlin",
+      "distanceKm": 210,
+      "durationMin": 145,
+      "durationText": "2 hod 25 min"
+    },
+    {
+      "from": "pardubice",
+      "to": "karlovy-vary",
+      "distanceKm": 250,
+      "durationMin": 165,
+      "durationText": "2 hod 45 min"
+    },
+    {
+      "from": "pardubice",
+      "to": "jihlava",
+      "distanceKm": 105,
+      "durationMin": 75,
+      "durationText": "1 hod 15 min"
+    },
+    {
+      "from": "pardubice",
+      "to": "kladno",
+      "distanceKm": 145,
+      "durationMin": 100,
+      "durationText": "1 hod 40 min"
+    },
+    {
+      "from": "pardubice",
+      "to": "most",
+      "distanceKm": 190,
+      "durationMin": 130,
+      "durationText": "2 hod 10 min"
+    },
+    {
+      "from": "pardubice",
+      "to": "opava",
+      "distanceKm": 235,
+      "durationMin": 160,
+      "durationText": "2 hod 40 min"
+    },
+    {
+      "from": "pardubice",
+      "to": "frydek-mistek",
+      "distanceKm": 220,
+      "durationMin": 150,
+      "durationText": "2 hod 30 min"
+    },
+    {
+      "from": "pardubice",
+      "to": "havirov",
+      "distanceKm": 225,
+      "durationMin": 155,
+      "durationText": "2 hod 35 min"
+    },
+    {
+      "from": "pardubice",
+      "to": "teplice",
+      "distanceKm": 175,
+      "durationMin": 120,
+      "durationText": "2 hod"
+    },
+    {
+      "from": "pardubice",
+      "to": "decin",
+      "distanceKm": 200,
+      "durationMin": 140,
+      "durationText": "2 hod 20 min"
+    },
+    {
+      "from": "zlin",
+      "to": "karlovy-vary",
+      "distanceKm": 420,
+      "durationMin": 265,
+      "durationText": "4 hod 25 min"
+    },
+    {
+      "from": "zlin",
+      "to": "jihlava",
+      "distanceKm": 170,
+      "durationMin": 120,
+      "durationText": "2 hod"
+    },
+    {
+      "from": "zlin",
+      "to": "kladno",
+      "distanceKm": 330,
+      "durationMin": 210,
+      "durationText": "3 hod 30 min"
+    },
+    {
+      "from": "zlin",
+      "to": "most",
+      "distanceKm": 380,
+      "durationMin": 240,
+      "durationText": "4 hod"
+    },
+    {
+      "from": "zlin",
+      "to": "opava",
+      "distanceKm": 105,
+      "durationMin": 75,
+      "durationText": "1 hod 15 min"
+    },
+    {
+      "from": "zlin",
+      "to": "frydek-mistek",
+      "distanceKm": 80,
+      "durationMin": 60,
+      "durationText": "1 hod"
+    },
+    {
+      "from": "zlin",
+      "to": "havirov",
+      "distanceKm": 90,
+      "durationMin": 65,
+      "durationText": "1 hod 5 min"
+    },
+    {
+      "from": "zlin",
+      "to": "teplice",
+      "distanceKm": 375,
+      "durationMin": 240,
+      "durationText": "4 hod"
+    },
+    {
+      "from": "zlin",
+      "to": "decin",
+      "distanceKm": 400,
+      "durationMin": 255,
+      "durationText": "4 hod 15 min"
+    },
+    {
+      "from": "karlovy-vary",
+      "to": "jihlava",
+      "distanceKm": 260,
+      "durationMin": 175,
+      "durationText": "2 hod 55 min"
+    },
+    {
+      "from": "karlovy-vary",
+      "to": "kladno",
+      "distanceKm": 110,
+      "durationMin": 80,
+      "durationText": "1 hod 20 min"
+    },
+    {
+      "from": "karlovy-vary",
+      "to": "most",
+      "distanceKm": 60,
+      "durationMin": 45,
+      "durationText": "45 min"
+    },
+    {
+      "from": "karlovy-vary",
+      "to": "opava",
+      "distanceKm": 480,
+      "durationMin": 300,
+      "durationText": "5 hod"
+    },
+    {
+      "from": "karlovy-vary",
+      "to": "frydek-mistek",
+      "distanceKm": 470,
+      "durationMin": 290,
+      "durationText": "4 hod 50 min"
+    },
+    {
+      "from": "karlovy-vary",
+      "to": "havirov",
+      "distanceKm": 475,
+      "durationMin": 295,
+      "durationText": "4 hod 55 min"
+    },
+    {
+      "from": "karlovy-vary",
+      "to": "teplice",
+      "distanceKm": 80,
+      "durationMin": 55,
+      "durationText": "55 min"
+    },
+    {
+      "from": "karlovy-vary",
+      "to": "decin",
+      "distanceKm": 120,
+      "durationMin": 85,
+      "durationText": "1 hod 25 min"
+    },
+    {
+      "from": "jihlava",
+      "to": "kladno",
+      "distanceKm": 160,
+      "durationMin": 110,
+      "durationText": "1 hod 50 min"
+    },
+    {
+      "from": "jihlava",
+      "to": "most",
+      "distanceKm": 210,
+      "durationMin": 145,
+      "durationText": "2 hod 25 min"
+    },
+    {
+      "from": "jihlava",
+      "to": "opava",
+      "distanceKm": 230,
+      "durationMin": 155,
+      "durationText": "2 hod 35 min"
+    },
+    {
+      "from": "jihlava",
+      "to": "frydek-mistek",
+      "distanceKm": 220,
+      "durationMin": 150,
+      "durationText": "2 hod 30 min"
+    },
+    {
+      "from": "jihlava",
+      "to": "havirov",
+      "distanceKm": 225,
+      "durationMin": 155,
+      "durationText": "2 hod 35 min"
+    },
+    {
+      "from": "jihlava",
+      "to": "teplice",
+      "distanceKm": 210,
+      "durationMin": 145,
+      "durationText": "2 hod 25 min"
+    },
+    {
+      "from": "jihlava",
+      "to": "decin",
+      "distanceKm": 240,
+      "durationMin": 165,
+      "durationText": "2 hod 45 min"
+    },
+    {
+      "from": "kladno",
+      "to": "most",
+      "distanceKm": 70,
+      "durationMin": 50,
+      "durationText": "50 min"
+    },
+    {
+      "from": "kladno",
+      "to": "opava",
+      "distanceKm": 395,
+      "durationMin": 250,
+      "durationText": "4 hod 10 min"
+    },
+    {
+      "from": "kladno",
+      "to": "frydek-mistek",
+      "distanceKm": 380,
+      "durationMin": 240,
+      "durationText": "4 hod"
+    },
+    {
+      "from": "kladno",
+      "to": "havirov",
+      "distanceKm": 385,
+      "durationMin": 245,
+      "durationText": "4 hod 5 min"
+    },
+    {
+      "from": "kladno",
+      "to": "teplice",
+      "distanceKm": 75,
+      "durationMin": 55,
+      "durationText": "55 min"
+    },
+    {
+      "from": "kladno",
+      "to": "decin",
+      "distanceKm": 105,
+      "durationMin": 75,
+      "durationText": "1 hod 15 min"
+    },
+    {
+      "from": "most",
+      "to": "opava",
+      "distanceKm": 445,
+      "durationMin": 280,
+      "durationText": "4 hod 40 min"
+    },
+    {
+      "from": "most",
+      "to": "frydek-mistek",
+      "distanceKm": 430,
+      "durationMin": 270,
+      "durationText": "4 hod 30 min"
+    },
+    {
+      "from": "most",
+      "to": "havirov",
+      "distanceKm": 435,
+      "durationMin": 275,
+      "durationText": "4 hod 35 min"
+    },
+    {
+      "from": "most",
+      "to": "teplice",
+      "distanceKm": 20,
+      "durationMin": 18,
+      "durationText": "18 min"
+    },
+    {
+      "from": "most",
+      "to": "decin",
+      "distanceKm": 55,
+      "durationMin": 45,
+      "durationText": "45 min"
+    },
+    {
+      "from": "opava",
+      "to": "frydek-mistek",
+      "distanceKm": 50,
+      "durationMin": 40,
+      "durationText": "40 min"
+    },
+    {
+      "from": "opava",
+      "to": "havirov",
+      "distanceKm": 40,
+      "durationMin": 35,
+      "durationText": "35 min"
+    },
+    {
+      "from": "opava",
+      "to": "teplice",
+      "distanceKm": 425,
+      "durationMin": 270,
+      "durationText": "4 hod 30 min"
+    },
+    {
+      "from": "opava",
+      "to": "decin",
+      "distanceKm": 455,
+      "durationMin": 290,
+      "durationText": "4 hod 50 min"
+    },
+    {
+      "from": "frydek-mistek",
+      "to": "havirov",
+      "distanceKm": 15,
+      "durationMin": 15,
+      "durationText": "15 min"
+    },
+    {
+      "from": "frydek-mistek",
+      "to": "teplice",
+      "distanceKm": 410,
+      "durationMin": 260,
+      "durationText": "4 hod 20 min"
+    },
+    {
+      "from": "frydek-mistek",
+      "to": "decin",
+      "distanceKm": 440,
+      "durationMin": 280,
+      "durationText": "4 hod 40 min"
+    },
+    {
+      "from": "havirov",
+      "to": "teplice",
+      "distanceKm": 415,
+      "durationMin": 265,
+      "durationText": "4 hod 25 min"
+    },
+    {
+      "from": "havirov",
+      "to": "decin",
+      "distanceKm": 445,
+      "durationMin": 285,
+      "durationText": "4 hod 45 min"
+    },
+    {
+      "from": "teplice",
+      "to": "decin",
+      "distanceKm": 35,
+      "durationMin": 30,
+      "durationText": "30 min"
+    }
+  ]
+}

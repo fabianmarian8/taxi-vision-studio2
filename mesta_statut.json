@@ -1,0 +1,604 @@
+[
+  {
+    "kod": "535427",
+    "name": "Bakov nad Jizerou",
+    "statut": "město",
+    "okres": "Mladá Boleslav",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "535443",
+    "name": "Bělá pod Bezdězem",
+    "statut": "město",
+    "okres": "Mladá Boleslav",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "535451",
+    "name": "Benátky nad Jizerou",
+    "statut": "město",
+    "okres": "Mladá Boleslav",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "529303",
+    "name": "Benešov",
+    "statut": "město",
+    "okres": "Benešov",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "531057",
+    "name": "Beroun",
+    "statut": "město",
+    "okres": "Beroun",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "538094",
+    "name": "Brandýs nad Labem-Stará Boleslav",
+    "statut": "město",
+    "okres": "Praha-východ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "540013",
+    "name": "Březnice",
+    "statut": "město",
+    "okres": "Příbram",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "532169",
+    "name": "Buštěhrad",
+    "statut": "město",
+    "okres": "Kladno",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "529451",
+    "name": "Bystřice",
+    "statut": "město",
+    "okres": "Benešov",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "534005",
+    "name": "Čáslav",
+    "statut": "město",
+    "okres": "Kutná Hora",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "538132",
+    "name": "Čelákovice",
+    "statut": "město",
+    "okres": "Praha-východ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "539139",
+    "name": "Černošice",
+    "statut": "město",
+    "okres": "Praha-západ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "533271",
+    "name": "Český Brod",
+    "statut": "město",
+    "okres": "Kolín",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "535672",
+    "name": "Dobrovice",
+    "statut": "město",
+    "okres": "Mladá Boleslav",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "539198",
+    "name": "Dobřichovice",
+    "statut": "město",
+    "okres": "Praha-západ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "540111",
+    "name": "Dobříš",
+    "statut": "město",
+    "okres": "Příbram",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "535702",
+    "name": "Dolní Bousov",
+    "statut": "město",
+    "okres": "Mladá Boleslav",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "531189",
+    "name": "Hořovice",
+    "statut": "město",
+    "okres": "Beroun",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "539244",
+    "name": "Hostivice",
+    "statut": "město",
+    "okres": "Praha-západ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "531201",
+    "name": "Hostomice",
+    "statut": "město",
+    "okres": "Beroun",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "539309",
+    "name": "Chýně",
+    "statut": "město",
+    "okres": "Praha-západ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "539325",
+    "name": "Jesenice",
+    "statut": "město",
+    "okres": "Praha-západ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "541834",
+    "name": "Jesenice",
+    "statut": "město",
+    "okres": "Rakovník",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "539333",
+    "name": "Jílové u Prahy",
+    "statut": "město",
+    "okres": "Praha-západ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "532053",
+    "name": "Kladno",
+    "statut": "statutární město",
+    "okres": "Kladno",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "538311",
+    "name": "Klecany",
+    "statut": "město",
+    "okres": "Praha-východ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "533165",
+    "name": "Kolín",
+    "statut": "město",
+    "okres": "Kolín",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "570826",
+    "name": "Kosmonosy",
+    "statut": "město",
+    "okres": "Mladá Boleslav",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "533416",
+    "name": "Kostelec nad Černými lesy",
+    "statut": "město",
+    "okres": "Praha-východ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "534935",
+    "name": "Kostelec nad Labem",
+    "statut": "město",
+    "okres": "Mělník",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "533424",
+    "name": "Kouřim",
+    "statut": "město",
+    "okres": "Kolín",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "534951",
+    "name": "Kralupy nad Vltavou",
+    "statut": "město",
+    "okres": "Mělník",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "533203",
+    "name": "Králův Dvůr",
+    "statut": "město",
+    "okres": "Beroun",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "540552",
+    "name": "Krásná Hora nad Vltavou",
+    "statut": "město",
+    "okres": "Příbram",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "533955",
+    "name": "Kutná Hora",
+    "statut": "město",
+    "okres": "Kutná Hora",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "539414",
+    "name": "Libčice nad Vltavou",
+    "statut": "město",
+    "okres": "Praha-západ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "535001",
+    "name": "Liběchov",
+    "statut": "město",
+    "okres": "Mělník",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "532576",
+    "name": "Libušín",
+    "statut": "město",
+    "okres": "Kladno",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "537454",
+    "name": "Lysá nad Labem",
+    "statut": "město",
+    "okres": "Nymburk",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "534676",
+    "name": "Mělník",
+    "statut": "město",
+    "okres": "Mělník",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "537489",
+    "name": "Městec Králové",
+    "statut": "město",
+    "okres": "Nymburk",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "530166",
+    "name": "Miličín",
+    "statut": "město",
+    "okres": "Benešov",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "537501",
+    "name": "Milovice",
+    "statut": "město",
+    "okres": "Nymburk",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "535419",
+    "name": "Mladá Boleslav",
+    "statut": "statutární město",
+    "okres": "Mladá Boleslav",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "538493",
+    "name": "Mnichovice",
+    "statut": "město",
+    "okres": "Praha-východ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "536326",
+    "name": "Mnichovo Hradiště",
+    "statut": "město",
+    "okres": "Mladá Boleslav",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "540765",
+    "name": "Mníšek pod Brdy",
+    "statut": "město",
+    "okres": "Praha-západ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "535052",
+    "name": "Mšeno",
+    "statut": "město",
+    "okres": "Mělník",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "535087",
+    "name": "Neratovice",
+    "statut": "město",
+    "okres": "Mělník",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "530310",
+    "name": "Neveklov",
+    "statut": "město",
+    "okres": "Benešov",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "542164",
+    "name": "Nové Strašecí",
+    "statut": "město",
+    "okres": "Rakovník",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "540901",
+    "name": "Nový Knín",
+    "statut": "město",
+    "okres": "Příbram",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "537004",
+    "name": "Nymburk",
+    "statut": "město",
+    "okres": "Nymburk",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "538574",
+    "name": "Odolena Voda",
+    "statut": "město",
+    "okres": "Praha-východ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "537641",
+    "name": "Pečky",
+    "statut": "město",
+    "okres": "Kolín",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "537683",
+    "name": "Poděbrady",
+    "statut": "město",
+    "okres": "Nymburk",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "539911",
+    "name": "Příbram",
+    "statut": "město",
+    "okres": "Příbram",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "538680",
+    "name": "Pyšely",
+    "statut": "město",
+    "okres": "Benešov",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "541656",
+    "name": "Rakovník",
+    "statut": "město",
+    "okres": "Rakovník",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "539627",
+    "name": "Roztoky",
+    "statut": "město",
+    "okres": "Praha-západ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "537756",
+    "name": "Rožďalovice",
+    "statut": "město",
+    "okres": "Nymburk",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "541231",
+    "name": "Rožmitál pod Třemšínem",
+    "statut": "město",
+    "okres": "Příbram",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "531723",
+    "name": "Rudná",
+    "statut": "město",
+    "okres": "Praha-západ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "539643",
+    "name": "Řevnice",
+    "statut": "město",
+    "okres": "Praha-západ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "538728",
+    "name": "Říčany",
+    "statut": "město",
+    "okres": "Praha-východ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "537764",
+    "name": "Sadská",
+    "statut": "město",
+    "okres": "Nymburk",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "534382",
+    "name": "Sázava",
+    "statut": "město",
+    "okres": "Benešov",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "541281",
+    "name": "Sedlčany",
+    "statut": "město",
+    "okres": "Příbram",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "530573",
+    "name": "Sedlec-Prčice",
+    "statut": "město",
+    "okres": "Příbram",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "532819",
+    "name": "Slaný",
+    "statut": "město",
+    "okres": "Kladno",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "532835",
+    "name": "Smečno",
+    "statut": "město",
+    "okres": "Kladno",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "532860",
+    "name": "Stochov",
+    "statut": "město",
+    "okres": "Kladno",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "530816",
+    "name": "Trhový Štěpánov",
+    "statut": "město",
+    "okres": "Benešov",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "533807",
+    "name": "Týnec nad Labem",
+    "statut": "město",
+    "okres": "Kolín",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "530841",
+    "name": "Týnec nad Sázavou",
+    "statut": "město",
+    "okres": "Benešov",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "534498",
+    "name": "Uhlířské Janovice",
+    "statut": "město",
+    "okres": "Kutná Hora",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "533017",
+    "name": "Unhošť",
+    "statut": "město",
+    "okres": "Kladno",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "538957",
+    "name": "Úvaly",
+    "statut": "město",
+    "okres": "Praha-východ",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "535273",
+    "name": "Veltrusy",
+    "statut": "město",
+    "okres": "Mělník",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "533041",
+    "name": "Velvary",
+    "statut": "město",
+    "okres": "Kladno",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "530883",
+    "name": "Vlašim",
+    "statut": "město",
+    "okres": "Benešov",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "530905",
+    "name": "Votice",
+    "statut": "město",
+    "okres": "Benešov",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "533921",
+    "name": "Zásmuky",
+    "statut": "město",
+    "okres": "Kolín",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "532011",
+    "name": "Zdice",
+    "statut": "město",
+    "okres": "Beroun",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "534633",
+    "name": "Zruč nad Sázavou",
+    "statut": "město",
+    "okres": "Kutná Hora",
+    "kraj": "Číselník obcí"
+  },
+  {
+    "kod": "532029",
+    "name": "Žebrák",
+    "statut": "město",
+    "okres": "Beroun",
+    "kraj": "Číselník obcí"
+  }
+]

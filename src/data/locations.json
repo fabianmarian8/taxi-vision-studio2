@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Špindlerův Mlýn",
+    "slug": "spindleruv-mlyn",
+    "region": "Královéhradecký kraj",
+    "district": "Trutnov",
+    "latitude": 50.7252,
+    "longitude": 15.6094,
+    "nearestCitySlug": "trutnov",
+    "description": "Největší lyžařské středisko v Krkonoších s moderními sjezdovkami.",
+    "metaDescription": "Taxi Špindlerův Mlýn - Rychlá a spolehlivá doprava do lyžařského střediska. Transfer z Trutnova.",
+    "content": {
+      "intro": "Špindlerův Mlýn je nejvýznamnější horské středisko v Krkonoších a jedno z největších lyžařských center v České republice. Nachází se v nadmořské výšce 718 m a nabízí dvě hlavní lyžařské areály - Svatý Petr a Medvědín. V létě je oblíbeným východiskem pro turistiku, včetně výstupu na Sněžku.",
+      "transport": "Doprava do Špindlerova Mlýna je v zimní sezóně náročná kvůli plným parkovištím a zúženým silnicím. Taxislužby z Trutnova a Vrchlabí nabízejí komfortní transfer přímo k hotelu nebo lanovce. Taxi je ideální volba pro skupiny lyžařů s vybavením.",
+      "attractions": "Kromě lyžování nabízí Špindlerův Mlýn wellness centra, bobovou dráhu a trasy pro běžky. V létě jsou populární túry na Sněžku, k Mumlavskému vodopádu nebo do Labského dolu."
+    },
+    "faqs": [
+      {
+        "question": "Kolik stojí taxi z Trutnova do Špindlerova Mlýna?",
+        "answer": "Cena se obvykle pohybuje kolem 600 - 800 Kč v závislosti na konkrétní taxislužbě a denní době. Vzdálenost je přibližně 25 km."
+      },
+      {
+        "question": "Odveze mě taxi s lyžemi?",
+        "answer": "Ano, většina taxislužeb v regionu disponuje vozidly typu kombi nebo minibusy, které jsou přizpůsobeny na přepravu lyžařského vybavení. Při objednávce doporučujeme upozornit."
+      },
+      {
+        "question": "Jak dlouho trvá cesta taxíkem z Trutnova?",
+        "answer": "Cesta z Trutnova do Špindlerova Mlýna trvá přibližně 30-40 minut v závislosti na dopravní situaci a počasí."
+      },
+      {
+        "question": "Je možné objednat taxi v noci?",
+        "answer": "Ano, některé taxislužby v regionu fungují nonstop. Doporučujeme si odvoz v pozdních nočních hodinách dohodnout předem."
+      }
+    ]
+  },
+  {
+    "name": "Harrachov",
+    "slug": "harrachov",
+    "region": "Liberecký kraj",
+    "district": "Semily",
+    "latitude": 50.7722,
+    "longitude": 15.4294,
+    "nearestCitySlug": "tanvald",
+    "description": "Tradiční lyžařské středisko v Krkonoších se skokanskými můstky.",
+    "metaDescription": "Taxi Harrachov - Doprava do lyžařského střediska, ke skokánským můstkům a na Čertovu horu.",
+    "content": {
+      "intro": "Harrachov je tradiční horské středisko v západních Krkonoších, známé především svými skokanskými můstky, kde se konají závody světového poháru. Lyžařský areál Čertova hora nabízí sjezdovky pro všechny úrovně lyžařů. Město je také proslulé výrobou skla a Sklářským muzeem.",
+      "transport": "Do Harrachova vede silnice z Tanvaldu a Jilemnice. V zimě může být cesta náročnější, proto je taxi pohodlnou alternativou. Taxislužby nabízejí transfer přímo k hotelu nebo lanovce na Čertovu horu.",
+      "attractions": "Kromě lyžování a skoků stojí za návštěvu Mumlava a Mumlavský vodopád, Rýžoviště zlata nebo Sklářské muzeum s ukázkami výroby skla."
+    },
+    "faqs": [
+      {
+        "question": "Kolik stojí taxi z Tanvaldu do Harrachova?",
+        "answer": "Cena se pohybuje kolem 400 - 600 Kč. Vzdálenost je přibližně 18 km."
+      },
+      {
+        "question": "Existuje taxi přímo v Harrachově?",
+        "answer": "V Harrachově operují taxislužby z okolních měst. Pro odvoz z Harrachova doporučujeme si zavolat taxi z Tanvaldu nebo Jilemnice předem."
+      },
+      {
+        "question": "Můžu taxíkem na skokanské můstky?",
+        "answer": "Ano, taxi vás doveze přímo k areálu skokanských můstků a k dolní stanici lanovky na Čertovu horu."
+      }
+    ]
+  },
+  {
+    "name": "Pec pod Sněžkou",
+    "slug": "pec-pod-snezkou",
+    "region": "Královéhradecký kraj",
+    "district": "Trutnov",
+    "latitude": 50.6894,
+    "longitude": 15.7339,
+    "nearestCitySlug": "trutnov",
+    "description": "Výchozí bod pro výstup na Sněžku s moderním lyžařským střediskem.",
+    "metaDescription": "Taxi Pec pod Sněžkou - Transfer k lanovce na Sněžku a do lyžařského areálu.",
+    "content": {
+      "intro": "Pec pod Sněžkou je horské městečko ležící přímo pod nejvyšší horou České republiky - Sněžkou (1 603 m). Je oblíbeným výchozím bodem pro turisty mířící na vrchol. V zimě nabízí rozsáhlý lyžařský areál SkiResort ČERNÁ HORA - PEC propojený s Černou horou.",
+      "transport": "Cesta do Pece vede přes Trutnov nebo Svobodu nad Úpou. V zimní sezóně jsou parkoviště rychle plná, proto je taxi ideální volbou pro bezstarostný příjezd přímo k lanovce.",
+      "attractions": "Hlavní atrakcí je výstup na Sněžku - pěšky nebo lanovkou. Dále Úpské rašeliniště, soutěsky Obří důl a propojený skiareál s Černou horou."
+    },
+    "faqs": [
+      {
+        "question": "Kolik stojí taxi z Trutnova do Pece pod Sněžkou?",
+        "answer": "Cena se pohybuje kolem 700 - 900 Kč. Vzdálenost je přibližně 28 km."
+      },
+      {
+        "question": "Doveze mě taxi až k lanovce na Sněžku?",
+        "answer": "Ano, taxi vás doveze přímo k dolní stanici kabinkové lanovky, která vede na Růžovou horu a dále na Sněžku."
+      },
+      {
+        "question": "Je taxi dostupné brzy ráno pro ranní lyžování?",
+        "answer": "Ano, taxislužby z Trutnova jsou dostupné i v brzkých ranních hodinách. Doporučujeme si odvoz objednat den předem."
+      }
+    ]
+  },
+  {
+    "name": "Lipno nad Vltavou",
+    "slug": "lipno-nad-vltavou",
+    "region": "Jihočeský kraj",
+    "district": "Český Krumlov",
+    "latitude": 48.6333,
+    "longitude": 14.2167,
+    "nearestCitySlug": "cesky-krumlov",
+    "description": "Rodinné lyžařské středisko u Lipenské přehrady s Stezkou korunami stromů.",
+    "metaDescription": "Taxi Lipno - Doprava k Lipenskému jezeru, do skiareálu a na Stezku korunami stromů.",
+    "content": {
+      "intro": "Lipno nad Vltavou je oblíbené rodinné rekreační středisko na břehu Lipenské přehrady. V zimě nabízí lyžařský areál ideální pro rodiny s dětmi a začátečníky. Celoročně láká turisty Stezka korunami stromů s jedinečným výhledem na Šumavu a Alpy.",
+      "transport": "Lipno je dostupné autem z Českého Krumlova nebo Frymburku. Taxislužby nabízejí pohodlný transfer z Českého Krumlova přímo k hotelu nebo k atrakcím.",
+      "attractions": "Stezka korunami stromů, Bobová dráha, Aquaworld, v létě cyklotrasy a vodní sporty na přehradě."
+    },
+    "faqs": [
+      {
+        "question": "Kolik stojí taxi z Českého Krumlova na Lipno?",
+        "answer": "Cena se pohybuje kolem 500 - 700 Kč. Vzdálenost je přibližně 25 km."
+      },
+      {
+        "question": "Je taxi dostupné pro celý den - výlet na Lipno?",
+        "answer": "Ano, některé taxislužby nabízejí celodenní pronájem. Kontaktujte místní taxislužbu pro individuální nabídku."
+      },
+      {
+        "question": "Doveze mě taxi přímo ke Stezce korunami stromů?",
+        "answer": "Ano, taxi vás doveze přímo k parkovišti u Stezky korunami stromů."
+      }
+    ]
+  }
+]

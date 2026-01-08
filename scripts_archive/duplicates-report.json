@@ -1,0 +1,7814 @@
+{
+  "generatedAt": "2025-12-12T19:42:51.263Z",
+  "duplicateCount": 100,
+  "problematicCount": 273,
+  "duplicates": [
+    {
+      "slug": "abrahamovce",
+      "variants": [
+        {
+          "name": "Abrahámovce",
+          "district": "Kežmarok",
+          "lat": 49.0447171,
+          "lon": 20.4390838
+        },
+        {
+          "name": "Abrahámovce",
+          "district": "Bardejov",
+          "lat": 49.1616223,
+          "lon": 21.3426096
+        }
+      ]
+    },
+    {
+      "slug": "baskovce",
+      "variants": [
+        {
+          "name": "Baškovce",
+          "district": "Humenné",
+          "lat": 49.0337435,
+          "lon": 21.8383492
+        },
+        {
+          "name": "Baškovce",
+          "district": "Sobrance",
+          "lat": 48.7856518,
+          "lon": 22.2055961
+        }
+      ]
+    },
+    {
+      "slug": "bela",
+      "variants": [
+        {
+          "name": "Belá",
+          "district": "Nové Zámky",
+          "lat": 47.8336808,
+          "lon": 18.5973144
+        },
+        {
+          "name": "Belá",
+          "district": "Žilina",
+          "lat": 49.2301819,
+          "lon": 18.9478315
+        }
+      ]
+    },
+    {
+      "slug": "besa",
+      "variants": [
+        {
+          "name": "Beša",
+          "district": "Levice",
+          "lat": 48.1384004,
+          "lon": 18.4021605
+        },
+        {
+          "name": "Beša",
+          "district": "Michalovce",
+          "lat": 48.5337899,
+          "lon": 21.9513374
+        }
+      ]
+    },
+    {
+      "slug": "bohunice",
+      "variants": [
+        {
+          "name": "Bohunice",
+          "district": "Ilava",
+          "lat": 49.018263,
+          "lon": 18.199807
+        },
+        {
+          "name": "Bohunice",
+          "district": "Levice",
+          "lat": 48.333485,
+          "lon": 18.75148
+        }
+      ]
+    },
+    {
+      "slug": "brestov",
+      "variants": [
+        {
+          "name": "Brestov",
+          "district": "Humenné",
+          "lat": 48.9647474,
+          "lon": 21.8878061
+        },
+        {
+          "name": "Brestov",
+          "district": "Prešov",
+          "lat": 48.8697468,
+          "lon": 21.3497803
+        }
+      ]
+    },
+    {
+      "slug": "brestovec",
+      "variants": [
+        {
+          "name": "Brestovec",
+          "district": "Myjava",
+          "lat": 48.7904037,
+          "lon": 17.5537787
+        },
+        {
+          "name": "Brestovec",
+          "district": "Komárno",
+          "lat": 47.8640011,
+          "lon": 17.8218727
+        }
+      ]
+    },
+    {
+      "slug": "brezany",
+      "variants": [
+        {
+          "name": "Brezany",
+          "district": "Žilina",
+          "lat": 49.188921,
+          "lon": 18.673419
+        },
+        {
+          "name": "Brežany",
+          "district": "Prešov",
+          "lat": 48.978344,
+          "lon": 21.110657
+        }
+      ]
+    },
+    {
+      "slug": "breznicka",
+      "variants": [
+        {
+          "name": "Breznička",
+          "district": "Poltár",
+          "lat": 48.4229693,
+          "lon": 19.7396279
+        },
+        {
+          "name": "Breznička",
+          "district": "Stropkov",
+          "lat": 49.223373,
+          "lon": 21.7035632
+        }
+      ]
+    },
+    {
+      "slug": "brezovica",
+      "variants": [
+        {
+          "name": "Brezovica",
+          "district": "Sabinov",
+          "lat": 49.1447741,
+          "lon": 20.8524486
+        },
+        {
+          "name": "Brezovica",
+          "district": "Tvrdošín",
+          "lat": 49.3297543,
+          "lon": 19.6662722
+        }
+      ]
+    },
+    {
+      "slug": "bukovec",
+      "variants": [
+        {
+          "name": "Bukovec",
+          "district": "Košice-okolie",
+          "lat": 48.7106413,
+          "lon": 21.1493045
+        },
+        {
+          "name": "Bukovec",
+          "district": "Myjava",
+          "lat": 48.7012834,
+          "lon": 17.4938501
+        }
+      ]
+    },
+    {
+      "slug": "bystra",
+      "variants": [
+        {
+          "name": "Bystrá",
+          "district": "Brezno",
+          "lat": 48.8442865,
+          "lon": 19.6062742
+        },
+        {
+          "name": "Bystrá",
+          "district": "Stropkov",
+          "lat": 49.2513542,
+          "lon": 21.810633
+        }
+      ]
+    },
+    {
+      "slug": "cernina",
+      "variants": [
+        {
+          "name": "Cernina",
+          "district": "Svidník",
+          "lat": 49.296287,
+          "lon": 21.473052
+        },
+        {
+          "name": "Černina",
+          "district": "Humenné",
+          "lat": 49.052344,
+          "lon": 21.823596
+        }
+      ]
+    },
+    {
+      "slug": "cakanovce",
+      "variants": [
+        {
+          "name": "Čakanovce",
+          "district": "Lučenec",
+          "lat": 48.2123403,
+          "lon": 19.8139675
+        },
+        {
+          "name": "Čakanovce",
+          "district": "Košice-okolie",
+          "lat": 48.7660833,
+          "lon": 21.4424619
+        }
+      ]
+    },
+    {
+      "slug": "celovce",
+      "variants": [
+        {
+          "name": "Čelovce",
+          "district": "Veľký Krtíš",
+          "lat": 48.1835179,
+          "lon": 19.1450118
+        },
+        {
+          "name": "Čelovce",
+          "district": "Prešov",
+          "lat": 49.0787588,
+          "lon": 21.4001704
+        },
+        {
+          "name": "Čeľovce",
+          "district": "Trebišov",
+          "lat": 48.601263,
+          "lon": 21.62857
+        }
+      ]
+    },
+    {
+      "slug": "cierna-lehota",
+      "variants": [
+        {
+          "name": "Čierna Lehota",
+          "district": "Bánovce nad Bebravou",
+          "lat": 48.8666198,
+          "lon": 18.3338491
+        },
+        {
+          "name": "Čierna Lehota",
+          "district": "Rožňava",
+          "lat": 48.7227049,
+          "lon": 20.25159
+        }
+      ]
+    },
+    {
+      "slug": "dolany",
+      "variants": [
+        {
+          "name": "Doľany",
+          "district": "Pezinok",
+          "lat": 48.4158849,
+          "lon": 17.378688
+        },
+        {
+          "name": "Doľany",
+          "district": "Levoča",
+          "lat": 49.0121689,
+          "lon": 20.65493
+        }
+      ]
+    },
+    {
+      "slug": "dubova",
+      "variants": [
+        {
+          "name": "Dubová",
+          "district": "Pezinok",
+          "lat": 48.3645086,
+          "lon": 17.3384033
+        },
+        {
+          "name": "Dubová",
+          "district": "Svidník",
+          "lat": 49.3615699,
+          "lon": 21.4354492
+        }
+      ]
+    },
+    {
+      "slug": "dubove",
+      "variants": [
+        {
+          "name": "Dubové",
+          "district": "Turčianske Teplice",
+          "lat": 48.8600711,
+          "lon": 18.7948976
+        },
+        {
+          "name": "Dubové",
+          "district": "Zvolen",
+          "lat": 48.5045661,
+          "lon": 19.0457233
+        }
+      ]
+    },
+    {
+      "slug": "dubrava",
+      "variants": [
+        {
+          "name": "Dúbrava",
+          "district": "Levoča",
+          "lat": 48.9854281,
+          "lon": 20.8478313
+        },
+        {
+          "name": "Dúbrava",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.0388927,
+          "lon": 19.4994871
+        },
+        {
+          "name": "Dúbrava",
+          "district": "Snina",
+          "lat": 49.0034637,
+          "lon": 22.1685982
+        }
+      ]
+    },
+    {
+      "slug": "gerlachov",
+      "variants": [
+        {
+          "name": "Gerlachov",
+          "district": "Bardejov",
+          "lat": 49.3207509,
+          "lon": 21.1096089
+        },
+        {
+          "name": "Gerlachov",
+          "district": "Poprad",
+          "lat": 49.0979943,
+          "lon": 20.2067633
+        }
+      ]
+    },
+    {
+      "slug": "haj",
+      "variants": [
+        {
+          "name": "Háj",
+          "district": "Turčianske Teplice",
+          "lat": 48.88199,
+          "lon": 18.7561463
+        },
+        {
+          "name": "Háj",
+          "district": "Košice-okolie",
+          "lat": 48.6283881,
+          "lon": 20.8545111
+        }
+      ]
+    },
+    {
+      "slug": "haniska",
+      "variants": [
+        {
+          "name": "Haniska",
+          "district": "Prešov",
+          "lat": 48.9532076,
+          "lon": 21.2411483
+        },
+        {
+          "name": "Haniska",
+          "district": "Košice-okolie",
+          "lat": 48.6213627,
+          "lon": 21.2513489
+        }
+      ]
+    },
+    {
+      "slug": "hankovce",
+      "variants": [
+        {
+          "name": "Hankovce",
+          "district": "Bardejov",
+          "lat": 49.2039984,
+          "lon": 21.4054241
+        },
+        {
+          "name": "Hankovce",
+          "district": "Humenné",
+          "lat": 49.0261076,
+          "lon": 21.9478639
+        }
+      ]
+    },
+    {
+      "slug": "horna-lehota",
+      "variants": [
+        {
+          "name": "Horná Lehota",
+          "district": "Dolný Kubín",
+          "lat": 49.2517158,
+          "lon": 19.39946
+        },
+        {
+          "name": "Horná Lehota",
+          "district": "Brezno",
+          "lat": 48.8385416,
+          "lon": 19.5462216
+        }
+      ]
+    },
+    {
+      "slug": "horna-ves",
+      "variants": [
+        {
+          "name": "Horná Ves",
+          "district": "Prievidza",
+          "lat": 48.6079342,
+          "lon": 18.4890139
+        },
+        {
+          "name": "Horná Ves",
+          "district": "Žiar nad Hronom",
+          "lat": 48.67625,
+          "lon": 18.9102795
+        }
+      ]
+    },
+    {
+      "slug": "horovce",
+      "variants": [
+        {
+          "name": "Horovce",
+          "district": "Púchov",
+          "lat": 49.0462551,
+          "lon": 18.2578344
+        },
+        {
+          "name": "Horovce",
+          "district": "Michalovce",
+          "lat": 48.7042651,
+          "lon": 21.7685216
+        }
+      ]
+    },
+    {
+      "slug": "hostovce",
+      "variants": [
+        {
+          "name": "Hosťovce",
+          "district": "Zlaté Moravce",
+          "lat": 48.3703237,
+          "lon": 18.3748274
+        },
+        {
+          "name": "Hosťovce",
+          "district": "Košice-okolie",
+          "lat": 48.5714757,
+          "lon": 20.8551192
+        }
+      ]
+    },
+    {
+      "slug": "hradiste",
+      "variants": [
+        {
+          "name": "Hradište",
+          "district": "Partizánske",
+          "lat": 48.6861145,
+          "lon": 18.3787168
+        },
+        {
+          "name": "Hradište",
+          "district": "Poltár",
+          "lat": 48.4915955,
+          "lon": 19.7227931
+        }
+      ]
+    },
+    {
+      "slug": "hrusov",
+      "variants": [
+        {
+          "name": "Hrušov",
+          "district": "Veľký Krtíš",
+          "lat": 48.1529752,
+          "lon": 19.0906914
+        },
+        {
+          "name": "Hrušov",
+          "district": "Rožňava",
+          "lat": 48.5825126,
+          "lon": 20.6349474
+        }
+      ]
+    },
+    {
+      "slug": "chvojnica",
+      "variants": [
+        {
+          "name": "Chvojnica",
+          "district": "Myjava",
+          "lat": 48.7660781,
+          "lon": 17.285956
+        },
+        {
+          "name": "Chvojnica",
+          "district": "Prievidza",
+          "lat": 48.8850725,
+          "lon": 18.5545842
+        }
+      ]
+    },
+    {
+      "slug": "jablonove",
+      "variants": [
+        {
+          "name": "Jablonové",
+          "district": "Malacky",
+          "lat": 48.3482344,
+          "lon": 17.0976613
+        },
+        {
+          "name": "Jablonové",
+          "district": "Bytča",
+          "lat": 49.1831134,
+          "lon": 18.565387
+        }
+      ]
+    },
+    {
+      "slug": "jakubovany",
+      "variants": [
+        {
+          "name": "Jakubovany",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1041276,
+          "lon": 19.7186968
+        },
+        {
+          "name": "Jakubovany",
+          "district": "Sabinov",
+          "lat": 49.1078515,
+          "lon": 21.1427066
+        }
+      ]
+    },
+    {
+      "slug": "jalovec",
+      "variants": [
+        {
+          "name": "Jalovec",
+          "district": "Prievidza",
+          "lat": 48.772583,
+          "lon": 18.7461845
+        },
+        {
+          "name": "Jalovec",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1358253,
+          "lon": 19.6260459
+        }
+      ]
+    },
+    {
+      "slug": "jamnik",
+      "variants": [
+        {
+          "name": "Jamník",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.0715166,
+          "lon": 19.7097412
+        },
+        {
+          "name": "Jamník",
+          "district": "Spišská Nová Ves",
+          "lat": 48.9422259,
+          "lon": 20.6630966
+        }
+      ]
+    },
+    {
+      "slug": "janovce",
+      "variants": [
+        {
+          "name": "Janovce",
+          "district": "Bardejov",
+          "lat": 49.190508,
+          "lon": 21.305252
+        },
+        {
+          "name": "Jánovce",
+          "district": "Galanta",
+          "lat": 48.1775854,
+          "lon": 17.5327738
+        },
+        {
+          "name": "Jánovce",
+          "district": "Poprad",
+          "lat": 49.0171366,
+          "lon": 20.432175
+        }
+      ]
+    },
+    {
+      "slug": "jasenov",
+      "variants": [
+        {
+          "name": "Jasenov",
+          "district": "Humenné",
+          "lat": 48.8909469,
+          "lon": 21.9107612
+        },
+        {
+          "name": "Jasenov",
+          "district": "Sobrance",
+          "lat": 48.7925753,
+          "lon": 22.1796188
+        }
+      ]
+    },
+    {
+      "slug": "jesenske",
+      "variants": [
+        {
+          "name": "Jesenské",
+          "district": "Levice",
+          "lat": 48.1644695,
+          "lon": 18.4102461
+        },
+        {
+          "name": "Jesenské",
+          "district": "Rimavská Sobota",
+          "lat": 48.2995469,
+          "lon": 20.0620061
+        }
+      ]
+    },
+    {
+      "slug": "kamenna-poruba",
+      "variants": [
+        {
+          "name": "Kamenná Poruba",
+          "district": "Žilina",
+          "lat": 49.0889151,
+          "lon": 18.6873871
+        },
+        {
+          "name": "Kamenná Poruba",
+          "district": "Vranov nad Topľou",
+          "lat": 48.8477956,
+          "lon": 21.6554587
+        }
+      ]
+    },
+    {
+      "slug": "kamienka",
+      "variants": [
+        {
+          "name": "Kamienka",
+          "district": "Humenné",
+          "lat": 48.9057957,
+          "lon": 21.999438
+        },
+        {
+          "name": "Kamienka",
+          "district": "Stará Ľubovňa",
+          "lat": 49.3198811,
+          "lon": 20.6350326
+        }
+      ]
+    },
+    {
+      "slug": "klokocov",
+      "variants": [
+        {
+          "name": "Klokočov",
+          "district": "Čadca",
+          "lat": 49.4478165,
+          "lon": 18.5664277
+        },
+        {
+          "name": "Klokočov",
+          "district": "Michalovce",
+          "lat": 48.8111078,
+          "lon": 22.0187216
+        }
+      ]
+    },
+    {
+      "slug": "kochanovce",
+      "variants": [
+        {
+          "name": "Kochanovce",
+          "district": "Bardejov",
+          "lat": 49.1904029,
+          "lon": 21.3865974
+        },
+        {
+          "name": "Kochanovce",
+          "district": "Humenné",
+          "lat": 48.9535289,
+          "lon": 21.945342
+        }
+      ]
+    },
+    {
+      "slug": "konska",
+      "variants": [
+        {
+          "name": "Konská",
+          "district": "Liptovský Mikuláš",
+          "lat": 48.9673472,
+          "lon": 19.8878422
+        },
+        {
+          "name": "Konská",
+          "district": "Žilina",
+          "lat": 49.1166667,
+          "lon": 19.7166667
+        }
+      ]
+    },
+    {
+      "slug": "kovacova",
+      "variants": [
+        {
+          "name": "Kováčová",
+          "district": "Zvolen",
+          "lat": 48.59822,
+          "lon": 19.1079584
+        },
+        {
+          "name": "Kováčová",
+          "district": "Rožňava",
+          "lat": 48.7922779,
+          "lon": 20.4497271
+        }
+      ]
+    },
+    {
+      "slug": "kravany",
+      "variants": [
+        {
+          "name": "Kravany",
+          "district": "Poprad",
+          "lat": 48.9973185,
+          "lon": 20.2014058
+        },
+        {
+          "name": "Kravany",
+          "district": "Trebišov",
+          "lat": 48.759757,
+          "lon": 21.6406951
+        }
+      ]
+    },
+    {
+      "slug": "kucin",
+      "variants": [
+        {
+          "name": "Kučín",
+          "district": "Bardejov",
+          "lat": 49.2088033,
+          "lon": 21.4546994
+        },
+        {
+          "name": "Kučín",
+          "district": "Vranov nad Topľou",
+          "lat": 48.8686157,
+          "lon": 21.7467291
+        }
+      ]
+    },
+    {
+      "slug": "kuzmice",
+      "variants": [
+        {
+          "name": "Kuzmice",
+          "district": "Topoľčany",
+          "lat": 48.5818054,
+          "lon": 18.1060506
+        },
+        {
+          "name": "Kuzmice",
+          "district": "Trebišov",
+          "lat": 48.5816868,
+          "lon": 21.5794571
+        }
+      ]
+    },
+    {
+      "slug": "kvacany",
+      "variants": [
+        {
+          "name": "Kvačany",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1649824,
+          "lon": 19.5415322
+        },
+        {
+          "name": "Kvačany",
+          "district": "Prešov",
+          "lat": 48.9450302,
+          "lon": 21.0865117
+        }
+      ]
+    },
+    {
+      "slug": "lazany",
+      "variants": [
+        {
+          "name": "Lazany",
+          "district": "Prievidza",
+          "lat": 48.819215,
+          "lon": 18.622017
+        },
+        {
+          "name": "Lažany",
+          "district": "Prešov",
+          "lat": 49.037203,
+          "lon": 21.097899
+        }
+      ]
+    },
+    {
+      "slug": "lieskovec",
+      "variants": [
+        {
+          "name": "Lieskovec",
+          "district": "Zvolen",
+          "lat": 48.5789025,
+          "lon": 19.1913625
+        },
+        {
+          "name": "Lieskovec",
+          "district": "Humenné",
+          "lat": 48.9458875,
+          "lon": 21.8800211
+        }
+      ]
+    },
+    {
+      "slug": "lipova",
+      "variants": [
+        {
+          "name": "Lipová",
+          "district": "Nové Zámky",
+          "lat": 47.7912875,
+          "lon": 18.717014
+        },
+        {
+          "name": "Lipová",
+          "district": "Bardejov",
+          "lat": 49.3037544,
+          "lon": 21.3115146
+        }
+      ]
+    },
+    {
+      "slug": "lipovec",
+      "variants": [
+        {
+          "name": "Lipovec",
+          "district": "Martin",
+          "lat": 49.1258691,
+          "lon": 18.9298523
+        },
+        {
+          "name": "Lipovec",
+          "district": "Rimavská Sobota",
+          "lat": 48.5502543,
+          "lon": 20.064392
+        }
+      ]
+    },
+    {
+      "slug": "lipovnik",
+      "variants": [
+        {
+          "name": "Lipovník",
+          "district": "Topoľčany",
+          "lat": 48.5694575,
+          "lon": 18.0121988
+        },
+        {
+          "name": "Lipovník",
+          "district": "Rožňava",
+          "lat": 48.6322751,
+          "lon": 20.6028865
+        }
+      ]
+    },
+    {
+      "slug": "lucka",
+      "variants": [
+        {
+          "name": "Lúčka",
+          "district": "Levoča",
+          "lat": 49.0264398,
+          "lon": 20.7300674
+        },
+        {
+          "name": "Lúčka",
+          "district": "Sabinov",
+          "lat": 49.1833333,
+          "lon": 20.9833333
+        },
+        {
+          "name": "Lúčka",
+          "district": "Svidník",
+          "lat": 49.1040041,
+          "lon": 21.4773876
+        },
+        {
+          "name": "Lúčka",
+          "district": "Rožňava",
+          "lat": 48.6360438,
+          "lon": 20.7227476
+        }
+      ]
+    },
+    {
+      "slug": "lucky",
+      "variants": [
+        {
+          "name": "Lúčky",
+          "district": "Ružomberok",
+          "lat": 49.1280526,
+          "lon": 19.4036357
+        },
+        {
+          "name": "Lúčky",
+          "district": "Žiar nad Hronom",
+          "lat": 48.6927137,
+          "lon": 18.901649
+        },
+        {
+          "name": "Lúčky",
+          "district": "Michalovce",
+          "lat": 48.7685043,
+          "lon": 22.0420818
+        }
+      ]
+    },
+    {
+      "slug": "lukacovce",
+      "variants": [
+        {
+          "name": "Lukačovce",
+          "district": "Humenné",
+          "lat": 49.030656,
+          "lon": 21.783683
+        },
+        {
+          "name": "Lukáčovce",
+          "district": "Nitra",
+          "lat": 48.394986,
+          "lon": 17.93748
+        }
+      ]
+    },
+    {
+      "slug": "lukavica",
+      "variants": [
+        {
+          "name": "Lukavica",
+          "district": "Zvolen",
+          "lat": 48.6428902,
+          "lon": 19.2076752
+        },
+        {
+          "name": "Lukavica",
+          "district": "Bardejov",
+          "lat": 49.2670824,
+          "lon": 21.3053317
+        }
+      ]
+    },
+    {
+      "slug": "mikusovce",
+      "variants": [
+        {
+          "name": "Mikušovce",
+          "district": "Ilava",
+          "lat": 49.0637323,
+          "lon": 18.2066497
+        },
+        {
+          "name": "Mikušovce",
+          "district": "Lučenec",
+          "lat": 48.2998724,
+          "lon": 19.6855395
+        }
+      ]
+    },
+    {
+      "slug": "nemcovce",
+      "variants": [
+        {
+          "name": "Nemcovce",
+          "district": "Bardejov",
+          "lat": 49.2097374,
+          "lon": 21.4412165
+        },
+        {
+          "name": "Nemcovce",
+          "district": "Prešov",
+          "lat": 49.0507874,
+          "lon": 21.3816321
+        }
+      ]
+    },
+    {
+      "slug": "neporadza",
+      "variants": [
+        {
+          "name": "Neporadza",
+          "district": "Trenčín",
+          "lat": 48.8191854,
+          "lon": 18.1504649
+        },
+        {
+          "name": "Neporadza",
+          "district": "Rimavská Sobota",
+          "lat": 48.3627827,
+          "lon": 20.3885831
+        }
+      ]
+    },
+    {
+      "slug": "nevidzany",
+      "variants": [
+        {
+          "name": "Nevidzany",
+          "district": "Prievidza",
+          "lat": 48.843289,
+          "lon": 18.4879147
+        },
+        {
+          "name": "Nevidzany",
+          "district": "Zlaté Moravce",
+          "lat": 48.2886019,
+          "lon": 18.3739214
+        }
+      ]
+    },
+    {
+      "slug": "nizna",
+      "variants": [
+        {
+          "name": "Nižná",
+          "district": "Piešťany",
+          "lat": 48.5340465,
+          "lon": 17.6543968
+        },
+        {
+          "name": "Nižná",
+          "district": "Tvrdošín",
+          "lat": 49.3103183,
+          "lon": 19.5286869
+        }
+      ]
+    },
+    {
+      "slug": "olsavka",
+      "variants": [
+        {
+          "name": "Oľšavka",
+          "district": "Stropkov",
+          "lat": 49.2858491,
+          "lon": 21.6917367
+        },
+        {
+          "name": "Oľšavka",
+          "district": "Spišská Nová Ves",
+          "lat": 48.9643683,
+          "lon": 20.8212378
+        }
+      ]
+    },
+    {
+      "slug": "oreske",
+      "variants": [
+        {
+          "name": "Oreské",
+          "district": "Skalica",
+          "lat": 48.7446913,
+          "lon": 17.3054891
+        },
+        {
+          "name": "Oreské",
+          "district": "Michalovce",
+          "lat": 48.8498742,
+          "lon": 21.9055573
+        }
+      ]
+    },
+    {
+      "slug": "ostrov",
+      "variants": [
+        {
+          "name": "Ostrov",
+          "district": "Piešťany",
+          "lat": 48.6287752,
+          "lon": 17.7688194
+        },
+        {
+          "name": "Ostrov",
+          "district": "Sobrance",
+          "lat": 48.7189697,
+          "lon": 22.1643166
+        }
+      ]
+    },
+    {
+      "slug": "pavlovce",
+      "variants": [
+        {
+          "name": "Pavlovce",
+          "district": "Rimavská Sobota",
+          "lat": 48.3253627,
+          "lon": 20.0821254
+        },
+        {
+          "name": "Pavlovce",
+          "district": "Vranov nad Topľou",
+          "lat": 49.0335475,
+          "lon": 21.4594719
+        }
+      ]
+    },
+    {
+      "slug": "petrovce",
+      "variants": [
+        {
+          "name": "Petrovce",
+          "district": "Rimavská Sobota",
+          "lat": 48.1866142,
+          "lon": 20.0199526
+        },
+        {
+          "name": "Petrovce",
+          "district": "Vranov nad Topľou",
+          "lat": 48.996561,
+          "lon": 21.4765484
+        },
+        {
+          "name": "Petrovce",
+          "district": "Sobrance",
+          "lat": 48.7061838,
+          "lon": 22.322998
+        }
+      ]
+    },
+    {
+      "slug": "pila",
+      "variants": [
+        {
+          "name": "Píla",
+          "district": "Pezinok",
+          "lat": 48.3899206,
+          "lon": 17.3329363
+        },
+        {
+          "name": "Píla",
+          "district": "Lučenec",
+          "lat": 48.4823677,
+          "lon": 19.5149742
+        },
+        {
+          "name": "Píla",
+          "district": "Žarnovica",
+          "lat": 48.5250833,
+          "lon": 18.5755
+        }
+      ]
+    },
+    {
+      "slug": "ploske",
+      "variants": [
+        {
+          "name": "Ploské",
+          "district": "Revúca",
+          "lat": 48.6044483,
+          "lon": 20.0864567
+        },
+        {
+          "name": "Ploské",
+          "district": "Košice-okolie",
+          "lat": 48.8148632,
+          "lon": 21.3252886
+        }
+      ]
+    },
+    {
+      "slug": "podhorany",
+      "variants": [
+        {
+          "name": "Podhorany",
+          "district": "Nitra",
+          "lat": 48.3718098,
+          "lon": 18.1160442
+        },
+        {
+          "name": "Podhorany",
+          "district": "Kežmarok",
+          "lat": 49.2385788,
+          "lon": 20.4806341
+        },
+        {
+          "name": "Podhorany",
+          "district": "Prešov",
+          "lat": 49.0809569,
+          "lon": 21.3572645
+        }
+      ]
+    },
+    {
+      "slug": "podhorie",
+      "variants": [
+        {
+          "name": "Podhorie",
+          "district": "Žilina",
+          "lat": 49.250088,
+          "lon": 18.7352318
+        },
+        {
+          "name": "Podhorie",
+          "district": "Banská Štiavnica",
+          "lat": 48.4983545,
+          "lon": 18.9195225
+        }
+      ]
+    },
+    {
+      "slug": "podhradie",
+      "variants": [
+        {
+          "name": "Podhradie",
+          "district": "Prievidza",
+          "lat": 48.6850225,
+          "lon": 18.6344256
+        },
+        {
+          "name": "Podhradie",
+          "district": "Topoľčany",
+          "lat": 48.6595203,
+          "lon": 18.053949
+        },
+        {
+          "name": "Podhradie",
+          "district": "Martin",
+          "lat": 49.0850115,
+          "lon": 19.0561429
+        }
+      ]
+    },
+    {
+      "slug": "podluzany",
+      "variants": [
+        {
+          "name": "Podlužany",
+          "district": "Bánovce nad Bebravou",
+          "lat": 48.7710442,
+          "lon": 18.2390355
+        },
+        {
+          "name": "Podlužany",
+          "district": "Levice",
+          "lat": 48.2544637,
+          "lon": 18.6068925
+        }
+      ]
+    },
+    {
+      "slug": "poproc",
+      "variants": [
+        {
+          "name": "Poproč",
+          "district": "Rimavská Sobota",
+          "lat": 48.5819964,
+          "lon": 20.0335709
+        },
+        {
+          "name": "Poproč",
+          "district": "Košice-okolie",
+          "lat": 48.7112625,
+          "lon": 20.9754445
+        }
+      ]
+    },
+    {
+      "slug": "porubka",
+      "variants": [
+        {
+          "name": "Porúbka",
+          "district": "Žilina",
+          "lat": 49.1498787,
+          "lon": 18.7283105
+        },
+        {
+          "name": "Porúbka",
+          "district": "Bardejov",
+          "lat": 49.2138615,
+          "lon": 21.4209663
+        },
+        {
+          "name": "Porúbka",
+          "district": "Humenné",
+          "lat": 48.9131472,
+          "lon": 22.0933777
+        },
+        {
+          "name": "Porúbka",
+          "district": "Sobrance",
+          "lat": 48.730477,
+          "lon": 22.2601306
+        }
+      ]
+    },
+    {
+      "slug": "potok",
+      "variants": [
+        {
+          "name": "Potok",
+          "district": "Ružomberok",
+          "lat": 49.1125724,
+          "lon": 19.4473134
+        },
+        {
+          "name": "Potok",
+          "district": "Rimavská Sobota",
+          "lat": 48.266948,
+          "lon": 20.1153499
+        }
+      ]
+    },
+    {
+      "slug": "radosovce",
+      "variants": [
+        {
+          "name": "Radošovce",
+          "district": "Skalica",
+          "lat": 48.7725533,
+          "lon": 17.2803098
+        },
+        {
+          "name": "Radošovce",
+          "district": "Trnava",
+          "lat": 48.4961452,
+          "lon": 17.6351963
+        }
+      ]
+    },
+    {
+      "slug": "rakos",
+      "variants": [
+        {
+          "name": "Rákoš",
+          "district": "Revúca",
+          "lat": 48.6111627,
+          "lon": 20.1444009
+        },
+        {
+          "name": "Rákoš",
+          "district": "Košice-okolie",
+          "lat": 48.6448321,
+          "lon": 21.4276418
+        }
+      ]
+    },
+    {
+      "slug": "riecka",
+      "variants": [
+        {
+          "name": "Riečka",
+          "district": "Banská Bystrica",
+          "lat": 48.7453484,
+          "lon": 19.0912935
+        },
+        {
+          "name": "Riečka",
+          "district": "Rimavská Sobota",
+          "lat": 48.3369005,
+          "lon": 20.3345663
+        }
+      ]
+    },
+    {
+      "slug": "rohoznik",
+      "variants": [
+        {
+          "name": "Rohožník",
+          "district": "Malacky",
+          "lat": 48.4584087,
+          "lon": 17.1648743
+        },
+        {
+          "name": "Rohožník",
+          "district": "Humenné",
+          "lat": 49.1108132,
+          "lon": 21.7676653
+        }
+      ]
+    },
+    {
+      "slug": "rovne",
+      "variants": [
+        {
+          "name": "Rovné",
+          "district": "Rimavská Sobota",
+          "lat": 48.6046741,
+          "lon": 19.8684581
+        },
+        {
+          "name": "Rovné",
+          "district": "Humenné",
+          "lat": 48.9796458,
+          "lon": 22.0041334
+        },
+        {
+          "name": "Rovné",
+          "district": "Svidník",
+          "lat": 49.2827074,
+          "lon": 21.5152295
+        }
+      ]
+    },
+    {
+      "slug": "rudnik",
+      "variants": [
+        {
+          "name": "Rudník",
+          "district": "Myjava",
+          "lat": 48.7690101,
+          "lon": 17.6197319
+        },
+        {
+          "name": "Rudník",
+          "district": "Košice-okolie",
+          "lat": 48.6921841,
+          "lon": 21.0078226
+        }
+      ]
+    },
+    {
+      "slug": "ruskovce",
+      "variants": [
+        {
+          "name": "Ruskovce",
+          "district": "Bánovce nad Bebravou",
+          "lat": 48.7479607,
+          "lon": 18.1980331
+        },
+        {
+          "name": "Ruskovce",
+          "district": "Sobrance",
+          "lat": 48.7764445,
+          "lon": 22.1643817
+        }
+      ]
+    },
+    {
+      "slug": "rybnik",
+      "variants": [
+        {
+          "name": "Rybník",
+          "district": "Levice",
+          "lat": 48.2923777,
+          "lon": 18.5612332
+        },
+        {
+          "name": "Rybník",
+          "district": "Revúca",
+          "lat": 48.5750617,
+          "lon": 20.316904
+        }
+      ]
+    },
+    {
+      "slug": "sasa",
+      "variants": [
+        {
+          "name": "Sása",
+          "district": "Revúca",
+          "lat": 48.5637522,
+          "lon": 20.1084104
+        },
+        {
+          "name": "Sása",
+          "district": "Zvolen",
+          "lat": 48.4361097,
+          "lon": 19.1322681
+        }
+      ]
+    },
+    {
+      "slug": "selce",
+      "variants": [
+        {
+          "name": "Selce",
+          "district": "Banská Bystrica",
+          "lat": 48.7619017,
+          "lon": 19.2016789
+        },
+        {
+          "name": "Selce",
+          "district": "Krupina",
+          "lat": 48.2554139,
+          "lon": 19.0427852
+        },
+        {
+          "name": "Selce",
+          "district": "Poltár",
+          "lat": 48.455803,
+          "lon": 19.8779626
+        }
+      ]
+    },
+    {
+      "slug": "senne",
+      "variants": [
+        {
+          "name": "Senné",
+          "district": "Veľký Krtíš",
+          "lat": 48.3308127,
+          "lon": 19.4098853
+        },
+        {
+          "name": "Senné",
+          "district": "Michalovce",
+          "lat": 48.6596811,
+          "lon": 22.0141099
+        }
+      ]
+    },
+    {
+      "slug": "sklabina",
+      "variants": [
+        {
+          "name": "Sklabiná",
+          "district": "Veľký Krtíš",
+          "lat": 48.159229,
+          "lon": 19.356789
+        },
+        {
+          "name": "Sklabiňa",
+          "district": "Martin",
+          "lat": 49.045413,
+          "lon": 19.003347
+        }
+      ]
+    },
+    {
+      "slug": "stefanovce",
+      "variants": [
+        {
+          "name": "Štefanovce",
+          "district": "Prešov",
+          "lat": 49.0397377,
+          "lon": 20.9747047
+        },
+        {
+          "name": "Štefanovce",
+          "district": "Vranov nad Topľou",
+          "lat": 48.9601466,
+          "lon": 21.7734828
+        }
+      ]
+    },
+    {
+      "slug": "tomasovce",
+      "variants": [
+        {
+          "name": "Tomášovce",
+          "district": "Lučenec",
+          "lat": 48.3692267,
+          "lon": 19.6269133
+        },
+        {
+          "name": "Tomášovce",
+          "district": "Rimavská Sobota",
+          "lat": 48.3923456,
+          "lon": 20.1530602
+        }
+      ]
+    },
+    {
+      "slug": "trnavka",
+      "variants": [
+        {
+          "name": "Trnávka",
+          "district": "Dunajská Streda",
+          "lat": 48.0137714,
+          "lon": 17.4056347
+        },
+        {
+          "name": "Trnávka",
+          "district": "Trebišov",
+          "lat": 48.7062509,
+          "lon": 21.6170866
+        }
+      ]
+    },
+    {
+      "slug": "vieska",
+      "variants": [
+        {
+          "name": "Vieska",
+          "district": "Dunajská Streda",
+          "lat": 48.004241,
+          "lon": 17.5308973
+        },
+        {
+          "name": "Vieska",
+          "district": "Veľký Krtíš",
+          "lat": 48.2620987,
+          "lon": 19.4668301
+        }
+      ]
+    },
+    {
+      "slug": "visnove",
+      "variants": [
+        {
+          "name": "Višňové",
+          "district": "Nové Mesto nad Váhom",
+          "lat": 48.7249715,
+          "lon": 17.7521206
+        },
+        {
+          "name": "Višňové",
+          "district": "Revúca",
+          "lat": 48.5138926,
+          "lon": 20.1812867
+        },
+        {
+          "name": "Višňové",
+          "district": "Žilina",
+          "lat": 49.1682707,
+          "lon": 18.7784636
+        }
+      ]
+    },
+    {
+      "slug": "vozokany",
+      "variants": [
+        {
+          "name": "Vozokany",
+          "district": "Galanta",
+          "lat": 48.104941,
+          "lon": 17.6878179
+        },
+        {
+          "name": "Vozokany",
+          "district": "Topoľčany",
+          "lat": 48.5636702,
+          "lon": 17.9963262
+        }
+      ]
+    },
+    {
+      "slug": "vysoka",
+      "variants": [
+        {
+          "name": "Vysoká",
+          "district": "Banská Štiavnica",
+          "lat": 48.4116573,
+          "lon": 18.7949975
+        },
+        {
+          "name": "Vysoká",
+          "district": "Sabinov",
+          "lat": 49.1240883,
+          "lon": 20.881883
+        }
+      ]
+    },
+    {
+      "slug": "zalesie",
+      "variants": [
+        {
+          "name": "Zálesie",
+          "district": "Senec",
+          "lat": 48.1653492,
+          "lon": 17.2734893
+        },
+        {
+          "name": "Zálesie",
+          "district": "Kežmarok",
+          "lat": 49.3182739,
+          "lon": 20.3920528
+        }
+      ]
+    },
+    {
+      "slug": "zavada",
+      "variants": [
+        {
+          "name": "Závada",
+          "district": "Topoľčany",
+          "lat": 48.6393683,
+          "lon": 18.0789574
+        },
+        {
+          "name": "Závada",
+          "district": "Humenné",
+          "lat": 49.1725041,
+          "lon": 21.7847415
+        },
+        {
+          "name": "Závada",
+          "district": "Veľký Krtíš",
+          "lat": 48.2895952,
+          "lon": 19.4874106
+        }
+      ]
+    },
+    {
+      "slug": "zavadka",
+      "variants": [
+        {
+          "name": "Závadka",
+          "district": "Humenné",
+          "lat": 48.92722,
+          "lon": 21.8405349
+        },
+        {
+          "name": "Závadka",
+          "district": "Gelnica",
+          "lat": 48.8666212,
+          "lon": 20.6187703
+        },
+        {
+          "name": "Závadka",
+          "district": "Michalovce",
+          "lat": 48.7669947,
+          "lon": 22.0645044
+        }
+      ]
+    },
+    {
+      "slug": "zlatno",
+      "variants": [
+        {
+          "name": "Zlatno",
+          "district": "Poltár",
+          "lat": 48.513376,
+          "lon": 19.8166567
+        },
+        {
+          "name": "Zlatno",
+          "district": "Zlaté Moravce",
+          "lat": 48.4646341,
+          "lon": 18.3128522
+        }
+      ]
+    },
+    {
+      "slug": "ziar",
+      "variants": [
+        {
+          "name": "Žiar",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1338107,
+          "lon": 19.6820582
+        },
+        {
+          "name": "Žiar",
+          "district": "Revúca",
+          "lat": 48.4369476,
+          "lon": 20.2737035
+        }
+      ]
+    }
+  ],
+  "problematicRecords": [
+    {
+      "municipality": "abrahamovce",
+      "city": "giraltovce",
+      "systemDistrict": "Kežmarok",
+      "airDistance": 13.7,
+      "roadDistance": 17.8,
+      "variants": [
+        {
+          "name": "Abrahámovce",
+          "district": "Kežmarok",
+          "lat": 49.0447171,
+          "lon": 20.4390838
+        },
+        {
+          "name": "Abrahámovce",
+          "district": "Bardejov",
+          "lat": 49.1616223,
+          "lon": 21.3426096
+        }
+      ]
+    },
+    {
+      "municipality": "abrahamovce",
+      "city": "bardejov",
+      "systemDistrict": "Kežmarok",
+      "airDistance": 15.4,
+      "roadDistance": 23,
+      "variants": [
+        {
+          "name": "Abrahámovce",
+          "district": "Kežmarok",
+          "lat": 49.0447171,
+          "lon": 20.4390838
+        },
+        {
+          "name": "Abrahámovce",
+          "district": "Bardejov",
+          "lat": 49.1616223,
+          "lon": 21.3426096
+        }
+      ]
+    },
+    {
+      "municipality": "abrahamovce",
+      "city": "velky-saris",
+      "systemDistrict": "Kežmarok",
+      "airDistance": 16.2,
+      "roadDistance": 26.8,
+      "variants": [
+        {
+          "name": "Abrahámovce",
+          "district": "Kežmarok",
+          "lat": 49.0447171,
+          "lon": 20.4390838
+        },
+        {
+          "name": "Abrahámovce",
+          "district": "Bardejov",
+          "lat": 49.1616223,
+          "lon": 21.3426096
+        }
+      ]
+    },
+    {
+      "municipality": "baskovce",
+      "city": "humenne",
+      "systemDistrict": "Humenné",
+      "airDistance": 11.9,
+      "roadDistance": 14.7,
+      "variants": [
+        {
+          "name": "Baškovce",
+          "district": "Humenné",
+          "lat": 49.0337435,
+          "lon": 21.8383492
+        },
+        {
+          "name": "Baškovce",
+          "district": "Sobrance",
+          "lat": 48.7856518,
+          "lon": 22.2055961
+        }
+      ]
+    },
+    {
+      "municipality": "baskovce",
+      "city": "strazske",
+      "systemDistrict": "Humenné",
+      "airDistance": 17.7,
+      "roadDistance": 24,
+      "variants": [
+        {
+          "name": "Baškovce",
+          "district": "Humenné",
+          "lat": 49.0337435,
+          "lon": 21.8383492
+        },
+        {
+          "name": "Baškovce",
+          "district": "Sobrance",
+          "lat": 48.7856518,
+          "lon": 22.2055961
+        }
+      ]
+    },
+    {
+      "municipality": "bela",
+      "city": "sturovo",
+      "systemDistrict": "Nové Zámky",
+      "airDistance": 9.6,
+      "roadDistance": 11.8,
+      "variants": [
+        {
+          "name": "Belá",
+          "district": "Nové Zámky",
+          "lat": 47.8336808,
+          "lon": 18.5973144
+        },
+        {
+          "name": "Belá",
+          "district": "Žilina",
+          "lat": 49.2301819,
+          "lon": 18.9478315
+        }
+      ]
+    },
+    {
+      "municipality": "bela",
+      "city": "bielovce",
+      "systemDistrict": "Nové Zámky",
+      "airDistance": 22.5,
+      "roadDistance": 36.5,
+      "variants": [
+        {
+          "name": "Belá",
+          "district": "Nové Zámky",
+          "lat": 47.8336808,
+          "lon": 18.5973144
+        },
+        {
+          "name": "Belá",
+          "district": "Žilina",
+          "lat": 49.2301819,
+          "lon": 18.9478315
+        }
+      ]
+    },
+    {
+      "municipality": "bela",
+      "city": "zeliezovce",
+      "systemDistrict": "Nové Zámky",
+      "airDistance": 24.6,
+      "roadDistance": 28.4,
+      "variants": [
+        {
+          "name": "Belá",
+          "district": "Nové Zámky",
+          "lat": 47.8336808,
+          "lon": 18.5973144
+        },
+        {
+          "name": "Belá",
+          "district": "Žilina",
+          "lat": 49.2301819,
+          "lon": 18.9478315
+        }
+      ]
+    },
+    {
+      "municipality": "besa",
+      "city": "vrable",
+      "systemDistrict": "Levice",
+      "airDistance": 13.3,
+      "roadDistance": 15.5,
+      "variants": [
+        {
+          "name": "Beša",
+          "district": "Levice",
+          "lat": 48.1384004,
+          "lon": 18.4021605
+        },
+        {
+          "name": "Beša",
+          "district": "Michalovce",
+          "lat": 48.5337899,
+          "lon": 21.9513374
+        }
+      ]
+    },
+    {
+      "municipality": "besa",
+      "city": "levice",
+      "systemDistrict": "Levice",
+      "airDistance": 16.8,
+      "roadDistance": 20.2,
+      "variants": [
+        {
+          "name": "Beša",
+          "district": "Levice",
+          "lat": 48.1384004,
+          "lon": 18.4021605
+        },
+        {
+          "name": "Beša",
+          "district": "Michalovce",
+          "lat": 48.5337899,
+          "lon": 21.9513374
+        }
+      ]
+    },
+    {
+      "municipality": "besa",
+      "city": "surany",
+      "systemDistrict": "Levice",
+      "airDistance": 17.2,
+      "roadDistance": 19.4,
+      "variants": [
+        {
+          "name": "Beša",
+          "district": "Levice",
+          "lat": 48.1384004,
+          "lon": 18.4021605
+        },
+        {
+          "name": "Beša",
+          "district": "Michalovce",
+          "lat": 48.5337899,
+          "lon": 21.9513374
+        }
+      ]
+    },
+    {
+      "municipality": "bohunice",
+      "city": "batovce",
+      "systemDistrict": "Ilava",
+      "airDistance": 4.7,
+      "roadDistance": 4.9,
+      "variants": [
+        {
+          "name": "Bohunice",
+          "district": "Ilava",
+          "lat": 49.018263,
+          "lon": 18.199807
+        },
+        {
+          "name": "Bohunice",
+          "district": "Levice",
+          "lat": 48.333485,
+          "lon": 18.75148
+        }
+      ]
+    },
+    {
+      "municipality": "bohunice",
+      "city": "nova-bana",
+      "systemDistrict": "Ilava",
+      "airDistance": 13,
+      "roadDistance": 18.3,
+      "variants": [
+        {
+          "name": "Bohunice",
+          "district": "Ilava",
+          "lat": 49.018263,
+          "lon": 18.199807
+        },
+        {
+          "name": "Bohunice",
+          "district": "Levice",
+          "lat": 48.333485,
+          "lon": 18.75148
+        }
+      ]
+    },
+    {
+      "municipality": "bohunice",
+      "city": "zarnovica",
+      "systemDistrict": "Ilava",
+      "airDistance": 16.8,
+      "roadDistance": 28.8,
+      "variants": [
+        {
+          "name": "Bohunice",
+          "district": "Ilava",
+          "lat": 49.018263,
+          "lon": 18.199807
+        },
+        {
+          "name": "Bohunice",
+          "district": "Levice",
+          "lat": 48.333485,
+          "lon": 18.75148
+        }
+      ]
+    },
+    {
+      "municipality": "brestov",
+      "city": "humenne",
+      "systemDistrict": "Humenné",
+      "airDistance": 3.5,
+      "roadDistance": 4.4,
+      "variants": [
+        {
+          "name": "Brestov",
+          "district": "Humenné",
+          "lat": 48.9647474,
+          "lon": 21.8878061
+        },
+        {
+          "name": "Brestov",
+          "district": "Prešov",
+          "lat": 48.8697468,
+          "lon": 21.3497803
+        }
+      ]
+    },
+    {
+      "municipality": "brestov",
+      "city": "chlmec",
+      "systemDistrict": "Humenné",
+      "airDistance": 9.5,
+      "roadDistance": 10.8,
+      "variants": [
+        {
+          "name": "Brestov",
+          "district": "Humenné",
+          "lat": 48.9647474,
+          "lon": 21.8878061
+        },
+        {
+          "name": "Brestov",
+          "district": "Prešov",
+          "lat": 48.8697468,
+          "lon": 21.3497803
+        }
+      ]
+    },
+    {
+      "municipality": "brestov",
+      "city": "strazske",
+      "systemDistrict": "Humenné",
+      "airDistance": 10.8,
+      "roadDistance": 13.6,
+      "variants": [
+        {
+          "name": "Brestov",
+          "district": "Humenné",
+          "lat": 48.9647474,
+          "lon": 21.8878061
+        },
+        {
+          "name": "Brestov",
+          "district": "Prešov",
+          "lat": 48.8697468,
+          "lon": 21.3497803
+        }
+      ]
+    },
+    {
+      "municipality": "brestovec",
+      "city": "velky-meder",
+      "systemDistrict": "Myjava",
+      "airDistance": 4,
+      "roadDistance": 4.5,
+      "variants": [
+        {
+          "name": "Brestovec",
+          "district": "Myjava",
+          "lat": 48.7904037,
+          "lon": 17.5537787
+        },
+        {
+          "name": "Brestovec",
+          "district": "Komárno",
+          "lat": 47.8640011,
+          "lon": 17.8218727
+        }
+      ]
+    },
+    {
+      "municipality": "brestovec",
+      "city": "kolarovo",
+      "systemDistrict": "Myjava",
+      "airDistance": 14.4,
+      "roadDistance": 22.8,
+      "variants": [
+        {
+          "name": "Brestovec",
+          "district": "Myjava",
+          "lat": 48.7904037,
+          "lon": 17.5537787
+        },
+        {
+          "name": "Brestovec",
+          "district": "Komárno",
+          "lat": 47.8640011,
+          "lon": 17.8218727
+        }
+      ]
+    },
+    {
+      "municipality": "brestovec",
+      "city": "gabcikovo",
+      "systemDistrict": "Myjava",
+      "airDistance": 18.5,
+      "roadDistance": 24.8,
+      "variants": [
+        {
+          "name": "Brestovec",
+          "district": "Myjava",
+          "lat": 48.7904037,
+          "lon": 17.5537787
+        },
+        {
+          "name": "Brestovec",
+          "district": "Komárno",
+          "lat": 47.8640011,
+          "lon": 17.8218727
+        }
+      ]
+    },
+    {
+      "municipality": "breznicka",
+      "city": "poltar",
+      "systemDistrict": "Poltár",
+      "airDistance": 4.1,
+      "roadDistance": 4.7,
+      "variants": [
+        {
+          "name": "Breznička",
+          "district": "Poltár",
+          "lat": 48.4229693,
+          "lon": 19.7396279
+        },
+        {
+          "name": "Breznička",
+          "district": "Stropkov",
+          "lat": 49.223373,
+          "lon": 21.7035632
+        }
+      ]
+    },
+    {
+      "municipality": "breznicka",
+      "city": "cinobana",
+      "systemDistrict": "Poltár",
+      "airDistance": 7.1,
+      "roadDistance": 8.2,
+      "variants": [
+        {
+          "name": "Breznička",
+          "district": "Poltár",
+          "lat": 48.4229693,
+          "lon": 19.7396279
+        },
+        {
+          "name": "Breznička",
+          "district": "Stropkov",
+          "lat": 49.223373,
+          "lon": 21.7035632
+        }
+      ]
+    },
+    {
+      "municipality": "breznicka",
+      "city": "lucenec",
+      "systemDistrict": "Poltár",
+      "airDistance": 11.5,
+      "roadDistance": 13.5,
+      "variants": [
+        {
+          "name": "Breznička",
+          "district": "Poltár",
+          "lat": 48.4229693,
+          "lon": 19.7396279
+        },
+        {
+          "name": "Breznička",
+          "district": "Stropkov",
+          "lat": 49.223373,
+          "lon": 21.7035632
+        }
+      ]
+    },
+    {
+      "municipality": "brezovica",
+      "city": "trstena",
+      "systemDistrict": "Sabinov",
+      "airDistance": 3.8,
+      "roadDistance": 4.7,
+      "variants": [
+        {
+          "name": "Brezovica",
+          "district": "Sabinov",
+          "lat": 49.1447741,
+          "lon": 20.8524486
+        },
+        {
+          "name": "Brezovica",
+          "district": "Tvrdošín",
+          "lat": 49.3297543,
+          "lon": 19.6662722
+        }
+      ]
+    },
+    {
+      "municipality": "brezovica",
+      "city": "tvrdosin",
+      "systemDistrict": "Sabinov",
+      "airDistance": 7.2,
+      "roadDistance": 10.1,
+      "variants": [
+        {
+          "name": "Brezovica",
+          "district": "Sabinov",
+          "lat": 49.1447741,
+          "lon": 20.8524486
+        },
+        {
+          "name": "Brezovica",
+          "district": "Tvrdošín",
+          "lat": 49.3297543,
+          "lon": 19.6662722
+        }
+      ]
+    },
+    {
+      "municipality": "brezovica",
+      "city": "namestovo",
+      "systemDistrict": "Sabinov",
+      "airDistance": 14.5,
+      "roadDistance": 19.4,
+      "variants": [
+        {
+          "name": "Brezovica",
+          "district": "Sabinov",
+          "lat": 49.1447741,
+          "lon": 20.8524486
+        },
+        {
+          "name": "Brezovica",
+          "district": "Tvrdošín",
+          "lat": 49.3297543,
+          "lon": 19.6662722
+        }
+      ]
+    },
+    {
+      "municipality": "bukovec",
+      "city": "brezova-pod-bradlom",
+      "systemDistrict": "Košice-okolie",
+      "airDistance": 5.4,
+      "roadDistance": 6.6,
+      "variants": [
+        {
+          "name": "Bukovec",
+          "district": "Košice-okolie",
+          "lat": 48.7106413,
+          "lon": 21.1493045
+        },
+        {
+          "name": "Bukovec",
+          "district": "Myjava",
+          "lat": 48.7012834,
+          "lon": 17.4938501
+        }
+      ]
+    },
+    {
+      "municipality": "bukovec",
+      "city": "myjava",
+      "systemDistrict": "Košice-okolie",
+      "airDistance": 7.9,
+      "roadDistance": 10.8,
+      "variants": [
+        {
+          "name": "Bukovec",
+          "district": "Košice-okolie",
+          "lat": 48.7106413,
+          "lon": 21.1493045
+        },
+        {
+          "name": "Bukovec",
+          "district": "Myjava",
+          "lat": 48.7012834,
+          "lon": 17.4938501
+        }
+      ]
+    },
+    {
+      "municipality": "bukovec",
+      "city": "senica",
+      "systemDistrict": "Košice-okolie",
+      "airDistance": 9.7,
+      "roadDistance": 12.7,
+      "variants": [
+        {
+          "name": "Bukovec",
+          "district": "Košice-okolie",
+          "lat": 48.7106413,
+          "lon": 21.1493045
+        },
+        {
+          "name": "Bukovec",
+          "district": "Myjava",
+          "lat": 48.7012834,
+          "lon": 17.4938501
+        }
+      ]
+    },
+    {
+      "municipality": "bystra",
+      "city": "medzilaborce",
+      "systemDistrict": "Brezno",
+      "airDistance": 6.8,
+      "roadDistance": 19.4,
+      "variants": [
+        {
+          "name": "Bystrá",
+          "district": "Brezno",
+          "lat": 48.8442865,
+          "lon": 19.6062742
+        },
+        {
+          "name": "Bystrá",
+          "district": "Stropkov",
+          "lat": 49.2513542,
+          "lon": 21.810633
+        }
+      ]
+    },
+    {
+      "municipality": "bystra",
+      "city": "stropkov",
+      "systemDistrict": "Brezno",
+      "airDistance": 13.1,
+      "roadDistance": 18.3,
+      "variants": [
+        {
+          "name": "Bystrá",
+          "district": "Brezno",
+          "lat": 48.8442865,
+          "lon": 19.6062742
+        },
+        {
+          "name": "Bystrá",
+          "district": "Stropkov",
+          "lat": 49.2513542,
+          "lon": 21.810633
+        }
+      ]
+    },
+    {
+      "municipality": "bystra",
+      "city": "svidnik",
+      "systemDistrict": "Brezno",
+      "airDistance": 19.4,
+      "roadDistance": 30.8,
+      "variants": [
+        {
+          "name": "Bystrá",
+          "district": "Brezno",
+          "lat": 48.8442865,
+          "lon": 19.6062742
+        },
+        {
+          "name": "Bystrá",
+          "district": "Stropkov",
+          "lat": 49.2513542,
+          "lon": 21.810633
+        }
+      ]
+    },
+    {
+      "municipality": "cakanovce",
+      "city": "filakovo",
+      "systemDistrict": "Lučenec",
+      "airDistance": 6.3,
+      "roadDistance": 7.6,
+      "variants": [
+        {
+          "name": "Čakanovce",
+          "district": "Lučenec",
+          "lat": 48.2123403,
+          "lon": 19.8139675
+        },
+        {
+          "name": "Čakanovce",
+          "district": "Košice-okolie",
+          "lat": 48.7660833,
+          "lon": 21.4424619
+        }
+      ]
+    },
+    {
+      "municipality": "cakanovce",
+      "city": "lucenec",
+      "systemDistrict": "Lučenec",
+      "airDistance": 17,
+      "roadDistance": 22.4,
+      "variants": [
+        {
+          "name": "Čakanovce",
+          "district": "Lučenec",
+          "lat": 48.2123403,
+          "lon": 19.8139675
+        },
+        {
+          "name": "Čakanovce",
+          "district": "Košice-okolie",
+          "lat": 48.7660833,
+          "lon": 21.4424619
+        }
+      ]
+    },
+    {
+      "municipality": "cakanovce",
+      "city": "poltar",
+      "systemDistrict": "Lučenec",
+      "airDistance": 24.1,
+      "roadDistance": 37,
+      "variants": [
+        {
+          "name": "Čakanovce",
+          "district": "Lučenec",
+          "lat": 48.2123403,
+          "lon": 19.8139675
+        },
+        {
+          "name": "Čakanovce",
+          "district": "Košice-okolie",
+          "lat": 48.7660833,
+          "lon": 21.4424619
+        }
+      ]
+    },
+    {
+      "municipality": "cierna-lehota",
+      "city": "jelsava",
+      "systemDistrict": "Bánovce nad Bebravou",
+      "airDistance": 10.7,
+      "roadDistance": 28.3,
+      "variants": [
+        {
+          "name": "Čierna Lehota",
+          "district": "Bánovce nad Bebravou",
+          "lat": 48.8666198,
+          "lon": 18.3338491
+        },
+        {
+          "name": "Čierna Lehota",
+          "district": "Rožňava",
+          "lat": 48.7227049,
+          "lon": 20.25159
+        }
+      ]
+    },
+    {
+      "municipality": "cierna-lehota",
+      "city": "revuca",
+      "systemDistrict": "Bánovce nad Bebravou",
+      "airDistance": 11,
+      "roadDistance": 40.5,
+      "variants": [
+        {
+          "name": "Čierna Lehota",
+          "district": "Bánovce nad Bebravou",
+          "lat": 48.8666198,
+          "lon": 18.3338491
+        },
+        {
+          "name": "Čierna Lehota",
+          "district": "Rožňava",
+          "lat": 48.7227049,
+          "lon": 20.25159
+        }
+      ]
+    },
+    {
+      "municipality": "cierna-lehota",
+      "city": "dobsina",
+      "systemDistrict": "Bánovce nad Bebravou",
+      "airDistance": 13.6,
+      "roadDistance": 33.4,
+      "variants": [
+        {
+          "name": "Čierna Lehota",
+          "district": "Bánovce nad Bebravou",
+          "lat": 48.8666198,
+          "lon": 18.3338491
+        },
+        {
+          "name": "Čierna Lehota",
+          "district": "Rožňava",
+          "lat": 48.7227049,
+          "lon": 20.25159
+        }
+      ]
+    },
+    {
+      "municipality": "dolany",
+      "city": "horne-oresany",
+      "systemDistrict": "Pezinok",
+      "airDistance": 7.3,
+      "roadDistance": 8.7,
+      "variants": [
+        {
+          "name": "Doľany",
+          "district": "Pezinok",
+          "lat": 48.4158849,
+          "lon": 17.378688
+        },
+        {
+          "name": "Doľany",
+          "district": "Levoča",
+          "lat": 49.0121689,
+          "lon": 20.65493
+        }
+      ]
+    },
+    {
+      "municipality": "dolany",
+      "city": "boleraz",
+      "systemDistrict": "Pezinok",
+      "airDistance": 10.1,
+      "roadDistance": 21.4,
+      "variants": [
+        {
+          "name": "Doľany",
+          "district": "Pezinok",
+          "lat": 48.4158849,
+          "lon": 17.378688
+        },
+        {
+          "name": "Doľany",
+          "district": "Levoča",
+          "lat": 49.0121689,
+          "lon": 20.65493
+        }
+      ]
+    },
+    {
+      "municipality": "dolany",
+      "city": "modra",
+      "systemDistrict": "Pezinok",
+      "airDistance": 10.1,
+      "roadDistance": 11.8,
+      "variants": [
+        {
+          "name": "Doľany",
+          "district": "Pezinok",
+          "lat": 48.4158849,
+          "lon": 17.378688
+        },
+        {
+          "name": "Doľany",
+          "district": "Levoča",
+          "lat": 49.0121689,
+          "lon": 20.65493
+        }
+      ]
+    },
+    {
+      "municipality": "dubova",
+      "city": "modra",
+      "systemDistrict": "Pezinok",
+      "airDistance": 3.9,
+      "roadDistance": 4.2,
+      "variants": [
+        {
+          "name": "Dubová",
+          "district": "Pezinok",
+          "lat": 48.3645086,
+          "lon": 17.3384033
+        },
+        {
+          "name": "Dubová",
+          "district": "Svidník",
+          "lat": 49.3615699,
+          "lon": 21.4354492
+        }
+      ]
+    },
+    {
+      "municipality": "dubova",
+      "city": "pezinok",
+      "systemDistrict": "Pezinok",
+      "airDistance": 10.1,
+      "roadDistance": 11.3,
+      "variants": [
+        {
+          "name": "Dubová",
+          "district": "Pezinok",
+          "lat": 48.3645086,
+          "lon": 17.3384033
+        },
+        {
+          "name": "Dubová",
+          "district": "Svidník",
+          "lat": 49.3615699,
+          "lon": 21.4354492
+        }
+      ]
+    },
+    {
+      "municipality": "dubova",
+      "city": "horne-oresany",
+      "systemDistrict": "Pezinok",
+      "airDistance": 13.5,
+      "roadDistance": 16.1,
+      "variants": [
+        {
+          "name": "Dubová",
+          "district": "Pezinok",
+          "lat": 48.3645086,
+          "lon": 17.3384033
+        },
+        {
+          "name": "Dubová",
+          "district": "Svidník",
+          "lat": 49.3615699,
+          "lon": 21.4354492
+        }
+      ]
+    },
+    {
+      "municipality": "dubove",
+      "city": "turcianske-teplice",
+      "systemDistrict": "Turčianske Teplice",
+      "airDistance": 4.8,
+      "roadDistance": 9.1,
+      "variants": [
+        {
+          "name": "Dubové",
+          "district": "Turčianske Teplice",
+          "lat": 48.8600711,
+          "lon": 18.7948976
+        },
+        {
+          "name": "Dubové",
+          "district": "Zvolen",
+          "lat": 48.5045661,
+          "lon": 19.0457233
+        }
+      ]
+    },
+    {
+      "municipality": "dubove",
+      "city": "blatnica",
+      "systemDistrict": "Turčianske Teplice",
+      "airDistance": 13,
+      "roadDistance": 15.5,
+      "variants": [
+        {
+          "name": "Dubové",
+          "district": "Turčianske Teplice",
+          "lat": 48.8600711,
+          "lon": 18.7948976
+        },
+        {
+          "name": "Dubové",
+          "district": "Zvolen",
+          "lat": 48.5045661,
+          "lon": 19.0457233
+        }
+      ]
+    },
+    {
+      "municipality": "dubove",
+      "city": "handlova",
+      "systemDistrict": "Turčianske Teplice",
+      "airDistance": 14.4,
+      "roadDistance": 23.3,
+      "variants": [
+        {
+          "name": "Dubové",
+          "district": "Turčianske Teplice",
+          "lat": 48.8600711,
+          "lon": 18.7948976
+        },
+        {
+          "name": "Dubové",
+          "district": "Zvolen",
+          "lat": 48.5045661,
+          "lon": 19.0457233
+        }
+      ]
+    },
+    {
+      "municipality": "dubrava",
+      "city": "liptovsky-mikulas",
+      "systemDistrict": "Levoča",
+      "airDistance": 9.8,
+      "roadDistance": 13,
+      "variants": [
+        {
+          "name": "Dúbrava",
+          "district": "Levoča",
+          "lat": 48.9854281,
+          "lon": 20.8478313
+        },
+        {
+          "name": "Dúbrava",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.0388927,
+          "lon": 19.4994871
+        },
+        {
+          "name": "Dúbrava",
+          "district": "Snina",
+          "lat": 49.0034637,
+          "lon": 22.1685982
+        }
+      ]
+    },
+    {
+      "municipality": "dubrava",
+      "city": "ruzomberok",
+      "systemDistrict": "Levoča",
+      "airDistance": 15.1,
+      "roadDistance": 21.5,
+      "variants": [
+        {
+          "name": "Dúbrava",
+          "district": "Levoča",
+          "lat": 48.9854281,
+          "lon": 20.8478313
+        },
+        {
+          "name": "Dúbrava",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.0388927,
+          "lon": 19.4994871
+        },
+        {
+          "name": "Dúbrava",
+          "district": "Snina",
+          "lat": 49.0034637,
+          "lon": 22.1685982
+        }
+      ]
+    },
+    {
+      "municipality": "dubrava",
+      "city": "liptovsky-hradok",
+      "systemDistrict": "Levoča",
+      "airDistance": 16.1,
+      "roadDistance": 27.3,
+      "variants": [
+        {
+          "name": "Dúbrava",
+          "district": "Levoča",
+          "lat": 48.9854281,
+          "lon": 20.8478313
+        },
+        {
+          "name": "Dúbrava",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.0388927,
+          "lon": 19.4994871
+        },
+        {
+          "name": "Dúbrava",
+          "district": "Snina",
+          "lat": 49.0034637,
+          "lon": 22.1685982
+        }
+      ]
+    },
+    {
+      "municipality": "gerlachov",
+      "city": "bardejov",
+      "systemDistrict": "Bardejov",
+      "airDistance": 12.5,
+      "roadDistance": 13.7,
+      "variants": [
+        {
+          "name": "Gerlachov",
+          "district": "Bardejov",
+          "lat": 49.3207509,
+          "lon": 21.1096089
+        },
+        {
+          "name": "Gerlachov",
+          "district": "Poprad",
+          "lat": 49.0979943,
+          "lon": 20.2067633
+        }
+      ]
+    },
+    {
+      "municipality": "gerlachov",
+      "city": "sabinov",
+      "systemDistrict": "Bardejov",
+      "airDistance": 24.3,
+      "roadDistance": 49.7,
+      "variants": [
+        {
+          "name": "Gerlachov",
+          "district": "Bardejov",
+          "lat": 49.3207509,
+          "lon": 21.1096089
+        },
+        {
+          "name": "Gerlachov",
+          "district": "Poprad",
+          "lat": 49.0979943,
+          "lon": 20.2067633
+        }
+      ]
+    },
+    {
+      "municipality": "gerlachov",
+      "city": "stara-lubovna",
+      "systemDistrict": "Bardejov",
+      "airDistance": 30.5,
+      "roadDistance": 41.3,
+      "variants": [
+        {
+          "name": "Gerlachov",
+          "district": "Bardejov",
+          "lat": 49.3207509,
+          "lon": 21.1096089
+        },
+        {
+          "name": "Gerlachov",
+          "district": "Poprad",
+          "lat": 49.0979943,
+          "lon": 20.2067633
+        }
+      ]
+    },
+    {
+      "municipality": "haj",
+      "city": "turcianske-teplice",
+      "systemDistrict": "Turčianske Teplice",
+      "airDistance": 1.6,
+      "roadDistance": 2.2,
+      "variants": [
+        {
+          "name": "Háj",
+          "district": "Turčianske Teplice",
+          "lat": 48.88199,
+          "lon": 18.7561463
+        },
+        {
+          "name": "Háj",
+          "district": "Košice-okolie",
+          "lat": 48.6283881,
+          "lon": 20.8545111
+        }
+      ]
+    },
+    {
+      "municipality": "haj",
+      "city": "blatnica",
+      "systemDistrict": "Turčianske Teplice",
+      "airDistance": 9,
+      "roadDistance": 12.1,
+      "variants": [
+        {
+          "name": "Háj",
+          "district": "Turčianske Teplice",
+          "lat": 48.88199,
+          "lon": 18.7561463
+        },
+        {
+          "name": "Háj",
+          "district": "Košice-okolie",
+          "lat": 48.6283881,
+          "lon": 20.8545111
+        }
+      ]
+    },
+    {
+      "municipality": "haj",
+      "city": "handlova",
+      "systemDistrict": "Turčianske Teplice",
+      "airDistance": 17.1,
+      "roadDistance": 27.8,
+      "variants": [
+        {
+          "name": "Háj",
+          "district": "Turčianske Teplice",
+          "lat": 48.88199,
+          "lon": 18.7561463
+        },
+        {
+          "name": "Háj",
+          "district": "Košice-okolie",
+          "lat": 48.6283881,
+          "lon": 20.8545111
+        }
+      ]
+    },
+    {
+      "municipality": "haniska",
+      "city": "presov",
+      "systemDistrict": "Prešov",
+      "airDistance": 4.4,
+      "roadDistance": 5.9,
+      "variants": [
+        {
+          "name": "Haniska",
+          "district": "Prešov",
+          "lat": 48.9532076,
+          "lon": 21.2411483
+        },
+        {
+          "name": "Haniska",
+          "district": "Košice-okolie",
+          "lat": 48.6213627,
+          "lon": 21.2513489
+        }
+      ]
+    },
+    {
+      "municipality": "haniska",
+      "city": "hostovce",
+      "systemDistrict": "Prešov",
+      "airDistance": 10.4,
+      "roadDistance": 16,
+      "variants": [
+        {
+          "name": "Haniska",
+          "district": "Prešov",
+          "lat": 48.9532076,
+          "lon": 21.2411483
+        },
+        {
+          "name": "Haniska",
+          "district": "Košice-okolie",
+          "lat": 48.6213627,
+          "lon": 21.2513489
+        }
+      ]
+    },
+    {
+      "municipality": "haniska",
+      "city": "velky-saris",
+      "systemDistrict": "Prešov",
+      "airDistance": 10.6,
+      "roadDistance": 17.7,
+      "variants": [
+        {
+          "name": "Haniska",
+          "district": "Prešov",
+          "lat": 48.9532076,
+          "lon": 21.2411483
+        },
+        {
+          "name": "Haniska",
+          "district": "Košice-okolie",
+          "lat": 48.6213627,
+          "lon": 21.2513489
+        }
+      ]
+    },
+    {
+      "municipality": "hankovce",
+      "city": "giraltovce",
+      "systemDistrict": "Bardejov",
+      "airDistance": 12.9,
+      "roadDistance": 15.9,
+      "variants": [
+        {
+          "name": "Hankovce",
+          "district": "Bardejov",
+          "lat": 49.2039984,
+          "lon": 21.4054241
+        },
+        {
+          "name": "Hankovce",
+          "district": "Humenné",
+          "lat": 49.0261076,
+          "lon": 21.9478639
+        }
+      ]
+    },
+    {
+      "municipality": "hankovce",
+      "city": "bardejov",
+      "systemDistrict": "Bardejov",
+      "airDistance": 13.6,
+      "roadDistance": 20.3,
+      "variants": [
+        {
+          "name": "Hankovce",
+          "district": "Bardejov",
+          "lat": 49.2039984,
+          "lon": 21.4054241
+        },
+        {
+          "name": "Hankovce",
+          "district": "Humenné",
+          "lat": 49.0261076,
+          "lon": 21.9478639
+        }
+      ]
+    },
+    {
+      "municipality": "horna-lehota",
+      "city": "brezno",
+      "systemDistrict": "Dolný Kubín",
+      "airDistance": 7.8,
+      "roadDistance": 12.3,
+      "variants": [
+        {
+          "name": "Horná Lehota",
+          "district": "Dolný Kubín",
+          "lat": 49.2517158,
+          "lon": 19.39946
+        },
+        {
+          "name": "Horná Lehota",
+          "district": "Brezno",
+          "lat": 48.8385416,
+          "lon": 19.5462216
+        }
+      ]
+    },
+    {
+      "municipality": "horna-ves",
+      "city": "partizanske",
+      "systemDistrict": "Prievidza",
+      "airDistance": 8.9,
+      "roadDistance": 10.2,
+      "variants": [
+        {
+          "name": "Horná Ves",
+          "district": "Prievidza",
+          "lat": 48.6079342,
+          "lon": 18.4890139
+        },
+        {
+          "name": "Horná Ves",
+          "district": "Žiar nad Hronom",
+          "lat": 48.67625,
+          "lon": 18.9102795
+        }
+      ]
+    },
+    {
+      "municipality": "horna-ves",
+      "city": "novaky",
+      "systemDistrict": "Prievidza",
+      "airDistance": 12.7,
+      "roadDistance": 16,
+      "variants": [
+        {
+          "name": "Horná Ves",
+          "district": "Prievidza",
+          "lat": 48.6079342,
+          "lon": 18.4890139
+        },
+        {
+          "name": "Horná Ves",
+          "district": "Žiar nad Hronom",
+          "lat": 48.67625,
+          "lon": 18.9102795
+        }
+      ]
+    },
+    {
+      "municipality": "horna-ves",
+      "city": "chynorany",
+      "systemDistrict": "Prievidza",
+      "airDistance": 16,
+      "roadDistance": 19.9,
+      "variants": [
+        {
+          "name": "Horná Ves",
+          "district": "Prievidza",
+          "lat": 48.6079342,
+          "lon": 18.4890139
+        },
+        {
+          "name": "Horná Ves",
+          "district": "Žiar nad Hronom",
+          "lat": 48.67625,
+          "lon": 18.9102795
+        }
+      ]
+    },
+    {
+      "municipality": "mikusovce",
+      "city": "ilava",
+      "systemDistrict": "Ilava",
+      "airDistance": 7.4,
+      "roadDistance": 9.5,
+      "variants": [
+        {
+          "name": "Mikušovce",
+          "district": "Ilava",
+          "lat": 49.0637323,
+          "lon": 18.2066497
+        },
+        {
+          "name": "Mikušovce",
+          "district": "Lučenec",
+          "lat": 48.2998724,
+          "lon": 19.6855395
+        }
+      ]
+    },
+    {
+      "municipality": "mikusovce",
+      "city": "puchov",
+      "systemDistrict": "Ilava",
+      "airDistance": 10.9,
+      "roadDistance": 18.6,
+      "variants": [
+        {
+          "name": "Mikušovce",
+          "district": "Ilava",
+          "lat": 49.0637323,
+          "lon": 18.2066497
+        },
+        {
+          "name": "Mikušovce",
+          "district": "Lučenec",
+          "lat": 48.2998724,
+          "lon": 19.6855395
+        }
+      ]
+    },
+    {
+      "municipality": "mikusovce",
+      "city": "dubnica-nad-vahom",
+      "systemDistrict": "Ilava",
+      "airDistance": 12.2,
+      "roadDistance": 19.4,
+      "variants": [
+        {
+          "name": "Mikušovce",
+          "district": "Ilava",
+          "lat": 49.0637323,
+          "lon": 18.2066497
+        },
+        {
+          "name": "Mikušovce",
+          "district": "Lučenec",
+          "lat": 48.2998724,
+          "lon": 19.6855395
+        }
+      ]
+    },
+    {
+      "municipality": "nemcovce",
+      "city": "bardejov",
+      "systemDistrict": "Bardejov",
+      "airDistance": 15.2,
+      "roadDistance": 21.6,
+      "variants": [
+        {
+          "name": "Nemcovce",
+          "district": "Bardejov",
+          "lat": 49.2097374,
+          "lon": 21.4412165
+        },
+        {
+          "name": "Nemcovce",
+          "district": "Prešov",
+          "lat": 49.0507874,
+          "lon": 21.3816321
+        }
+      ]
+    },
+    {
+      "municipality": "neporadza",
+      "city": "trencianske-teplice",
+      "systemDistrict": "Trenčín",
+      "airDistance": 10,
+      "roadDistance": 13.2,
+      "variants": [
+        {
+          "name": "Neporadza",
+          "district": "Trenčín",
+          "lat": 48.8191854,
+          "lon": 18.1504649
+        },
+        {
+          "name": "Neporadza",
+          "district": "Rimavská Sobota",
+          "lat": 48.3627827,
+          "lon": 20.3885831
+        }
+      ]
+    },
+    {
+      "municipality": "neporadza",
+      "city": "trencin",
+      "systemDistrict": "Trenčín",
+      "airDistance": 11.5,
+      "roadDistance": 19.6,
+      "variants": [
+        {
+          "name": "Neporadza",
+          "district": "Trenčín",
+          "lat": 48.8191854,
+          "lon": 18.1504649
+        },
+        {
+          "name": "Neporadza",
+          "district": "Rimavská Sobota",
+          "lat": 48.3627827,
+          "lon": 20.3885831
+        }
+      ]
+    },
+    {
+      "municipality": "neporadza",
+      "city": "nova-dubnica",
+      "systemDistrict": "Trenčín",
+      "airDistance": 12.8,
+      "roadDistance": 20,
+      "variants": [
+        {
+          "name": "Neporadza",
+          "district": "Trenčín",
+          "lat": 48.8191854,
+          "lon": 18.1504649
+        },
+        {
+          "name": "Neporadza",
+          "district": "Rimavská Sobota",
+          "lat": 48.3627827,
+          "lon": 20.3885831
+        }
+      ]
+    },
+    {
+      "municipality": "nevidzany",
+      "city": "vrable",
+      "systemDistrict": "Prievidza",
+      "airDistance": 7,
+      "roadDistance": 8,
+      "variants": [
+        {
+          "name": "Nevidzany",
+          "district": "Prievidza",
+          "lat": 48.843289,
+          "lon": 18.4879147
+        },
+        {
+          "name": "Nevidzany",
+          "district": "Zlaté Moravce",
+          "lat": 48.2886019,
+          "lon": 18.3739214
+        }
+      ]
+    },
+    {
+      "municipality": "nevidzany",
+      "city": "zlate-moravce",
+      "systemDistrict": "Prievidza",
+      "airDistance": 10.9,
+      "roadDistance": 12.7,
+      "variants": [
+        {
+          "name": "Nevidzany",
+          "district": "Prievidza",
+          "lat": 48.843289,
+          "lon": 18.4879147
+        },
+        {
+          "name": "Nevidzany",
+          "district": "Zlaté Moravce",
+          "lat": 48.2886019,
+          "lon": 18.3739214
+        }
+      ]
+    },
+    {
+      "municipality": "nevidzany",
+      "city": "tlmace",
+      "systemDistrict": "Prievidza",
+      "airDistance": 11.5,
+      "roadDistance": 20.6,
+      "variants": [
+        {
+          "name": "Nevidzany",
+          "district": "Prievidza",
+          "lat": 48.843289,
+          "lon": 18.4879147
+        },
+        {
+          "name": "Nevidzany",
+          "district": "Zlaté Moravce",
+          "lat": 48.2886019,
+          "lon": 18.3739214
+        }
+      ]
+    },
+    {
+      "municipality": "nizna",
+      "city": "vrbove",
+      "systemDistrict": "Piešťany",
+      "airDistance": 10.8,
+      "roadDistance": 14.5,
+      "variants": [
+        {
+          "name": "Nižná",
+          "district": "Piešťany",
+          "lat": 48.5340465,
+          "lon": 17.6543968
+        },
+        {
+          "name": "Nižná",
+          "district": "Tvrdošín",
+          "lat": 49.3103183,
+          "lon": 19.5286869
+        }
+      ]
+    },
+    {
+      "municipality": "nizna",
+      "city": "leopoldov",
+      "systemDistrict": "Piešťany",
+      "airDistance": 12.9,
+      "roadDistance": 18.1,
+      "variants": [
+        {
+          "name": "Nižná",
+          "district": "Piešťany",
+          "lat": 48.5340465,
+          "lon": 17.6543968
+        },
+        {
+          "name": "Nižná",
+          "district": "Tvrdošín",
+          "lat": 49.3103183,
+          "lon": 19.5286869
+        }
+      ]
+    },
+    {
+      "municipality": "nizna",
+      "city": "piestany",
+      "systemDistrict": "Piešťany",
+      "airDistance": 13.7,
+      "roadDistance": 22,
+      "variants": [
+        {
+          "name": "Nižná",
+          "district": "Piešťany",
+          "lat": 48.5340465,
+          "lon": 17.6543968
+        },
+        {
+          "name": "Nižná",
+          "district": "Tvrdošín",
+          "lat": 49.3103183,
+          "lon": 19.5286869
+        }
+      ]
+    },
+    {
+      "municipality": "olsavka",
+      "city": "svidnik",
+      "systemDistrict": "Stropkov",
+      "airDistance": 8.6,
+      "roadDistance": 14.4,
+      "variants": [
+        {
+          "name": "Oľšavka",
+          "district": "Stropkov",
+          "lat": 49.2858491,
+          "lon": 21.6917367
+        },
+        {
+          "name": "Oľšavka",
+          "district": "Spišská Nová Ves",
+          "lat": 48.9643683,
+          "lon": 20.8212378
+        }
+      ]
+    },
+    {
+      "municipality": "olsavka",
+      "city": "stropkov",
+      "systemDistrict": "Stropkov",
+      "airDistance": 10.3,
+      "roadDistance": 11.5,
+      "variants": [
+        {
+          "name": "Oľšavka",
+          "district": "Stropkov",
+          "lat": 49.2858491,
+          "lon": 21.6917367
+        },
+        {
+          "name": "Oľšavka",
+          "district": "Spišská Nová Ves",
+          "lat": 48.9643683,
+          "lon": 20.8212378
+        }
+      ]
+    },
+    {
+      "municipality": "olsavka",
+      "city": "medzilaborce",
+      "systemDistrict": "Stropkov",
+      "airDistance": 15.8,
+      "roadDistance": 26.6,
+      "variants": [
+        {
+          "name": "Oľšavka",
+          "district": "Stropkov",
+          "lat": 49.2858491,
+          "lon": 21.6917367
+        },
+        {
+          "name": "Oľšavka",
+          "district": "Spišská Nová Ves",
+          "lat": 48.9643683,
+          "lon": 20.8212378
+        }
+      ]
+    },
+    {
+      "municipality": "oreske",
+      "city": "senica",
+      "systemDistrict": "Skalica",
+      "airDistance": 8.6,
+      "roadDistance": 9.7,
+      "variants": [
+        {
+          "name": "Oreské",
+          "district": "Skalica",
+          "lat": 48.7446913,
+          "lon": 17.3054891
+        },
+        {
+          "name": "Oreské",
+          "district": "Michalovce",
+          "lat": 48.8498742,
+          "lon": 21.9055573
+        }
+      ]
+    },
+    {
+      "municipality": "oreske",
+      "city": "holic",
+      "systemDistrict": "Skalica",
+      "airDistance": 12.6,
+      "roadDistance": 13.7,
+      "variants": [
+        {
+          "name": "Oreské",
+          "district": "Skalica",
+          "lat": 48.7446913,
+          "lon": 17.3054891
+        },
+        {
+          "name": "Oreské",
+          "district": "Michalovce",
+          "lat": 48.8498742,
+          "lon": 21.9055573
+        }
+      ]
+    },
+    {
+      "municipality": "oreske",
+      "city": "skalica",
+      "systemDistrict": "Skalica",
+      "airDistance": 12.6,
+      "roadDistance": 14.3,
+      "variants": [
+        {
+          "name": "Oreské",
+          "district": "Skalica",
+          "lat": 48.7446913,
+          "lon": 17.3054891
+        },
+        {
+          "name": "Oreské",
+          "district": "Michalovce",
+          "lat": 48.8498742,
+          "lon": 21.9055573
+        }
+      ]
+    },
+    {
+      "municipality": "ostrov",
+      "city": "vrbove",
+      "systemDistrict": "Piešťany",
+      "airDistance": 3.5,
+      "roadDistance": 5.6,
+      "variants": [
+        {
+          "name": "Ostrov",
+          "district": "Piešťany",
+          "lat": 48.6287752,
+          "lon": 17.7688194
+        },
+        {
+          "name": "Ostrov",
+          "district": "Sobrance",
+          "lat": 48.7189697,
+          "lon": 22.1643166
+        }
+      ]
+    },
+    {
+      "municipality": "ostrov",
+      "city": "piestany",
+      "systemDistrict": "Piešťany",
+      "airDistance": 5.8,
+      "roadDistance": 7.9,
+      "variants": [
+        {
+          "name": "Ostrov",
+          "district": "Piešťany",
+          "lat": 48.6287752,
+          "lon": 17.7688194
+        },
+        {
+          "name": "Ostrov",
+          "district": "Sobrance",
+          "lat": 48.7189697,
+          "lon": 22.1643166
+        }
+      ]
+    },
+    {
+      "municipality": "ostrov",
+      "city": "horna-streda",
+      "systemDistrict": "Piešťany",
+      "airDistance": 6.3,
+      "roadDistance": 9.3,
+      "variants": [
+        {
+          "name": "Ostrov",
+          "district": "Piešťany",
+          "lat": 48.6287752,
+          "lon": 17.7688194
+        },
+        {
+          "name": "Ostrov",
+          "district": "Sobrance",
+          "lat": 48.7189697,
+          "lon": 22.1643166
+        }
+      ]
+    },
+    {
+      "municipality": "pavlovce",
+      "city": "rimavska-sobota",
+      "systemDistrict": "Rimavská Sobota",
+      "airDistance": 7.9,
+      "roadDistance": 8.4,
+      "variants": [
+        {
+          "name": "Pavlovce",
+          "district": "Rimavská Sobota",
+          "lat": 48.3253627,
+          "lon": 20.0821254
+        },
+        {
+          "name": "Pavlovce",
+          "district": "Vranov nad Topľou",
+          "lat": 49.0335475,
+          "lon": 21.4594719
+        }
+      ]
+    },
+    {
+      "municipality": "pavlovce",
+      "city": "filakovo",
+      "systemDistrict": "Rimavská Sobota",
+      "airDistance": 20.2,
+      "roadDistance": 31.4,
+      "variants": [
+        {
+          "name": "Pavlovce",
+          "district": "Rimavská Sobota",
+          "lat": 48.3253627,
+          "lon": 20.0821254
+        },
+        {
+          "name": "Pavlovce",
+          "district": "Vranov nad Topľou",
+          "lat": 49.0335475,
+          "lon": 21.4594719
+        }
+      ]
+    },
+    {
+      "municipality": "pavlovce",
+      "city": "tornala",
+      "systemDistrict": "Rimavská Sobota",
+      "airDistance": 20.8,
+      "roadDistance": 34.1,
+      "variants": [
+        {
+          "name": "Pavlovce",
+          "district": "Rimavská Sobota",
+          "lat": 48.3253627,
+          "lon": 20.0821254
+        },
+        {
+          "name": "Pavlovce",
+          "district": "Vranov nad Topľou",
+          "lat": 49.0335475,
+          "lon": 21.4594719
+        }
+      ]
+    },
+    {
+      "municipality": "petrovce",
+      "city": "filakovo",
+      "systemDistrict": "Rimavská Sobota",
+      "airDistance": 17.3,
+      "roadDistance": 22.3,
+      "variants": [
+        {
+          "name": "Petrovce",
+          "district": "Rimavská Sobota",
+          "lat": 48.1866142,
+          "lon": 20.0199526
+        },
+        {
+          "name": "Petrovce",
+          "district": "Vranov nad Topľou",
+          "lat": 48.996561,
+          "lon": 21.4765484
+        },
+        {
+          "name": "Petrovce",
+          "district": "Sobrance",
+          "lat": 48.7061838,
+          "lon": 22.322998
+        }
+      ]
+    },
+    {
+      "municipality": "petrovce",
+      "city": "rimavska-sobota",
+      "systemDistrict": "Rimavská Sobota",
+      "airDistance": 21.8,
+      "roadDistance": 30,
+      "variants": [
+        {
+          "name": "Petrovce",
+          "district": "Rimavská Sobota",
+          "lat": 48.1866142,
+          "lon": 20.0199526
+        },
+        {
+          "name": "Petrovce",
+          "district": "Vranov nad Topľou",
+          "lat": 48.996561,
+          "lon": 21.4765484
+        },
+        {
+          "name": "Petrovce",
+          "district": "Sobrance",
+          "lat": 48.7061838,
+          "lon": 22.322998
+        }
+      ]
+    },
+    {
+      "municipality": "petrovce",
+      "city": "lucenec",
+      "systemDistrict": "Rimavská Sobota",
+      "airDistance": 30.8,
+      "roadDistance": 37.6,
+      "variants": [
+        {
+          "name": "Petrovce",
+          "district": "Rimavská Sobota",
+          "lat": 48.1866142,
+          "lon": 20.0199526
+        },
+        {
+          "name": "Petrovce",
+          "district": "Vranov nad Topľou",
+          "lat": 48.996561,
+          "lon": 21.4765484
+        },
+        {
+          "name": "Petrovce",
+          "district": "Sobrance",
+          "lat": 48.7061838,
+          "lon": 22.322998
+        }
+      ]
+    },
+    {
+      "municipality": "pila",
+      "city": "modra",
+      "systemDistrict": "Pezinok",
+      "airDistance": 6.3,
+      "roadDistance": 8.4,
+      "variants": [
+        {
+          "name": "Píla",
+          "district": "Pezinok",
+          "lat": 48.3899206,
+          "lon": 17.3329363
+        },
+        {
+          "name": "Píla",
+          "district": "Lučenec",
+          "lat": 48.4823677,
+          "lon": 19.5149742
+        },
+        {
+          "name": "Píla",
+          "district": "Žarnovica",
+          "lat": 48.5250833,
+          "lon": 18.5755
+        }
+      ]
+    },
+    {
+      "municipality": "pila",
+      "city": "horne-oresany",
+      "systemDistrict": "Pezinok",
+      "airDistance": 11.6,
+      "roadDistance": 14.7,
+      "variants": [
+        {
+          "name": "Píla",
+          "district": "Pezinok",
+          "lat": 48.3899206,
+          "lon": 17.3329363
+        },
+        {
+          "name": "Píla",
+          "district": "Lučenec",
+          "lat": 48.4823677,
+          "lon": 19.5149742
+        },
+        {
+          "name": "Píla",
+          "district": "Žarnovica",
+          "lat": 48.5250833,
+          "lon": 18.5755
+        }
+      ]
+    },
+    {
+      "municipality": "pila",
+      "city": "pezinok",
+      "systemDistrict": "Pezinok",
+      "airDistance": 12.5,
+      "roadDistance": 15.5,
+      "variants": [
+        {
+          "name": "Píla",
+          "district": "Pezinok",
+          "lat": 48.3899206,
+          "lon": 17.3329363
+        },
+        {
+          "name": "Píla",
+          "district": "Lučenec",
+          "lat": 48.4823677,
+          "lon": 19.5149742
+        },
+        {
+          "name": "Píla",
+          "district": "Žarnovica",
+          "lat": 48.5250833,
+          "lon": 18.5755
+        }
+      ]
+    },
+    {
+      "municipality": "ploske",
+      "city": "revuca",
+      "systemDistrict": "Revúca",
+      "airDistance": 9,
+      "roadDistance": 23.5,
+      "variants": [
+        {
+          "name": "Ploské",
+          "district": "Revúca",
+          "lat": 48.6044483,
+          "lon": 20.0864567
+        },
+        {
+          "name": "Ploské",
+          "district": "Košice-okolie",
+          "lat": 48.8148632,
+          "lon": 21.3252886
+        }
+      ]
+    },
+    {
+      "municipality": "ploske",
+      "city": "hnusta",
+      "systemDistrict": "Revúca",
+      "airDistance": 10.1,
+      "roadDistance": 21.6,
+      "variants": [
+        {
+          "name": "Ploské",
+          "district": "Revúca",
+          "lat": 48.6044483,
+          "lon": 20.0864567
+        },
+        {
+          "name": "Ploské",
+          "district": "Košice-okolie",
+          "lat": 48.8148632,
+          "lon": 21.3252886
+        }
+      ]
+    },
+    {
+      "municipality": "ploske",
+      "city": "jelsava",
+      "systemDistrict": "Revúca",
+      "airDistance": 11.7,
+      "roadDistance": 16.6,
+      "variants": [
+        {
+          "name": "Ploské",
+          "district": "Revúca",
+          "lat": 48.6044483,
+          "lon": 20.0864567
+        },
+        {
+          "name": "Ploské",
+          "district": "Košice-okolie",
+          "lat": 48.8148632,
+          "lon": 21.3252886
+        }
+      ]
+    },
+    {
+      "municipality": "podhorany",
+      "city": "nitra",
+      "systemDistrict": "Nitra",
+      "airDistance": 8.1,
+      "roadDistance": 13.9,
+      "variants": [
+        {
+          "name": "Podhorany",
+          "district": "Nitra",
+          "lat": 48.3718098,
+          "lon": 18.1160442
+        },
+        {
+          "name": "Podhorany",
+          "district": "Kežmarok",
+          "lat": 49.2385788,
+          "lon": 20.4806341
+        },
+        {
+          "name": "Podhorany",
+          "district": "Prešov",
+          "lat": 49.0809569,
+          "lon": 21.3572645
+        }
+      ]
+    },
+    {
+      "municipality": "podhorany",
+      "city": "topolcany",
+      "systemDistrict": "Nitra",
+      "airDistance": 20,
+      "roadDistance": 24.4,
+      "variants": [
+        {
+          "name": "Podhorany",
+          "district": "Nitra",
+          "lat": 48.3718098,
+          "lon": 18.1160442
+        },
+        {
+          "name": "Podhorany",
+          "district": "Kežmarok",
+          "lat": 49.2385788,
+          "lon": 20.4806341
+        },
+        {
+          "name": "Podhorany",
+          "district": "Prešov",
+          "lat": 49.0809569,
+          "lon": 21.3572645
+        }
+      ]
+    },
+    {
+      "municipality": "podhorany",
+      "city": "vrable",
+      "systemDistrict": "Nitra",
+      "airDistance": 21.4,
+      "roadDistance": 31.7,
+      "variants": [
+        {
+          "name": "Podhorany",
+          "district": "Nitra",
+          "lat": 48.3718098,
+          "lon": 18.1160442
+        },
+        {
+          "name": "Podhorany",
+          "district": "Kežmarok",
+          "lat": 49.2385788,
+          "lon": 20.4806341
+        },
+        {
+          "name": "Podhorany",
+          "district": "Prešov",
+          "lat": 49.0809569,
+          "lon": 21.3572645
+        }
+      ]
+    },
+    {
+      "municipality": "podhorie",
+      "city": "banska-stiavnica",
+      "systemDistrict": "Žilina",
+      "airDistance": 4.7,
+      "roadDistance": 5.6,
+      "variants": [
+        {
+          "name": "Podhorie",
+          "district": "Žilina",
+          "lat": 49.250088,
+          "lon": 18.7352318
+        },
+        {
+          "name": "Podhorie",
+          "district": "Banská Štiavnica",
+          "lat": 48.4983545,
+          "lon": 18.9195225
+        }
+      ]
+    },
+    {
+      "municipality": "podhorie",
+      "city": "bansky-studenec",
+      "systemDistrict": "Žilina",
+      "airDistance": 6.8,
+      "roadDistance": 12.8,
+      "variants": [
+        {
+          "name": "Podhorie",
+          "district": "Žilina",
+          "lat": 49.250088,
+          "lon": 18.7352318
+        },
+        {
+          "name": "Podhorie",
+          "district": "Banská Štiavnica",
+          "lat": 48.4983545,
+          "lon": 18.9195225
+        }
+      ]
+    },
+    {
+      "municipality": "podhradie",
+      "city": "topolcany",
+      "systemDistrict": "Prievidza",
+      "airDistance": 14.3,
+      "roadDistance": 17.1,
+      "variants": [
+        {
+          "name": "Podhradie",
+          "district": "Prievidza",
+          "lat": 48.6850225,
+          "lon": 18.6344256
+        },
+        {
+          "name": "Podhradie",
+          "district": "Topoľčany",
+          "lat": 48.6595203,
+          "lon": 18.053949
+        },
+        {
+          "name": "Podhradie",
+          "district": "Martin",
+          "lat": 49.0850115,
+          "lon": 19.0561429
+        }
+      ]
+    },
+    {
+      "municipality": "podhradie",
+      "city": "horna-streda",
+      "systemDistrict": "Prievidza",
+      "airDistance": 15.3,
+      "roadDistance": 29.6,
+      "variants": [
+        {
+          "name": "Podhradie",
+          "district": "Prievidza",
+          "lat": 48.6850225,
+          "lon": 18.6344256
+        },
+        {
+          "name": "Podhradie",
+          "district": "Topoľčany",
+          "lat": 48.6595203,
+          "lon": 18.053949
+        },
+        {
+          "name": "Podhradie",
+          "district": "Martin",
+          "lat": 49.0850115,
+          "lon": 19.0561429
+        }
+      ]
+    },
+    {
+      "municipality": "podhradie",
+      "city": "banovce-nad-bebravou",
+      "systemDistrict": "Prievidza",
+      "airDistance": 16.7,
+      "roadDistance": 26.5,
+      "variants": [
+        {
+          "name": "Podhradie",
+          "district": "Prievidza",
+          "lat": 48.6850225,
+          "lon": 18.6344256
+        },
+        {
+          "name": "Podhradie",
+          "district": "Topoľčany",
+          "lat": 48.6595203,
+          "lon": 18.053949
+        },
+        {
+          "name": "Podhradie",
+          "district": "Martin",
+          "lat": 49.0850115,
+          "lon": 19.0561429
+        }
+      ]
+    },
+    {
+      "municipality": "podluzany",
+      "city": "levice",
+      "systemDistrict": "Bánovce nad Bebravou",
+      "airDistance": 4.3,
+      "roadDistance": 4.9,
+      "variants": [
+        {
+          "name": "Podlužany",
+          "district": "Bánovce nad Bebravou",
+          "lat": 48.7710442,
+          "lon": 18.2390355
+        },
+        {
+          "name": "Podlužany",
+          "district": "Levice",
+          "lat": 48.2544637,
+          "lon": 18.6068925
+        }
+      ]
+    },
+    {
+      "municipality": "podluzany",
+      "city": "tlmace",
+      "systemDistrict": "Bánovce nad Bebravou",
+      "airDistance": 6.7,
+      "roadDistance": 10,
+      "variants": [
+        {
+          "name": "Podlužany",
+          "district": "Bánovce nad Bebravou",
+          "lat": 48.7710442,
+          "lon": 18.2390355
+        },
+        {
+          "name": "Podlužany",
+          "district": "Levice",
+          "lat": 48.2544637,
+          "lon": 18.6068925
+        }
+      ]
+    },
+    {
+      "municipality": "podluzany",
+      "city": "batovce",
+      "systemDistrict": "Bánovce nad Bebravou",
+      "airDistance": 11,
+      "roadDistance": 14.1,
+      "variants": [
+        {
+          "name": "Podlužany",
+          "district": "Bánovce nad Bebravou",
+          "lat": 48.7710442,
+          "lon": 18.2390355
+        },
+        {
+          "name": "Podlužany",
+          "district": "Levice",
+          "lat": 48.2544637,
+          "lon": 18.6068925
+        }
+      ]
+    },
+    {
+      "municipality": "poproc",
+      "city": "revuca",
+      "systemDistrict": "Rimavská Sobota",
+      "airDistance": 12.7,
+      "roadDistance": 35.5,
+      "variants": [
+        {
+          "name": "Poproč",
+          "district": "Rimavská Sobota",
+          "lat": 48.5819964,
+          "lon": 20.0335709
+        },
+        {
+          "name": "Poproč",
+          "district": "Košice-okolie",
+          "lat": 48.7112625,
+          "lon": 20.9754445
+        }
+      ]
+    },
+    {
+      "municipality": "poproc",
+      "city": "tisovec",
+      "systemDistrict": "Rimavská Sobota",
+      "airDistance": 12.8,
+      "roadDistance": 24,
+      "variants": [
+        {
+          "name": "Poproč",
+          "district": "Rimavská Sobota",
+          "lat": 48.5819964,
+          "lon": 20.0335709
+        },
+        {
+          "name": "Poproč",
+          "district": "Košice-okolie",
+          "lat": 48.7112625,
+          "lon": 20.9754445
+        }
+      ]
+    },
+    {
+      "municipality": "porubka",
+      "city": "giraltovce",
+      "systemDistrict": "Žilina",
+      "airDistance": 11.5,
+      "roadDistance": 13.8,
+      "variants": [
+        {
+          "name": "Porúbka",
+          "district": "Žilina",
+          "lat": 49.1498787,
+          "lon": 18.7283105
+        },
+        {
+          "name": "Porúbka",
+          "district": "Bardejov",
+          "lat": 49.2138615,
+          "lon": 21.4209663
+        },
+        {
+          "name": "Porúbka",
+          "district": "Humenné",
+          "lat": 48.9131472,
+          "lon": 22.0933777
+        },
+        {
+          "name": "Porúbka",
+          "district": "Sobrance",
+          "lat": 48.730477,
+          "lon": 22.2601306
+        }
+      ]
+    },
+    {
+      "municipality": "porubka",
+      "city": "bardejov",
+      "systemDistrict": "Žilina",
+      "airDistance": 15.1,
+      "roadDistance": 20.4,
+      "variants": [
+        {
+          "name": "Porúbka",
+          "district": "Žilina",
+          "lat": 49.1498787,
+          "lon": 18.7283105
+        },
+        {
+          "name": "Porúbka",
+          "district": "Bardejov",
+          "lat": 49.2138615,
+          "lon": 21.4209663
+        },
+        {
+          "name": "Porúbka",
+          "district": "Humenné",
+          "lat": 48.9131472,
+          "lon": 22.0933777
+        },
+        {
+          "name": "Porúbka",
+          "district": "Sobrance",
+          "lat": 48.730477,
+          "lon": 22.2601306
+        }
+      ]
+    },
+    {
+      "municipality": "porubka",
+      "city": "svidnik",
+      "systemDistrict": "Žilina",
+      "airDistance": 16.1,
+      "roadDistance": 30.7,
+      "variants": [
+        {
+          "name": "Porúbka",
+          "district": "Žilina",
+          "lat": 49.1498787,
+          "lon": 18.7283105
+        },
+        {
+          "name": "Porúbka",
+          "district": "Bardejov",
+          "lat": 49.2138615,
+          "lon": 21.4209663
+        },
+        {
+          "name": "Porúbka",
+          "district": "Humenné",
+          "lat": 48.9131472,
+          "lon": 22.0933777
+        },
+        {
+          "name": "Porúbka",
+          "district": "Sobrance",
+          "lat": 48.730477,
+          "lon": 22.2601306
+        }
+      ]
+    },
+    {
+      "municipality": "potok",
+      "city": "ruzomberok",
+      "systemDistrict": "Ružomberok",
+      "airDistance": 11,
+      "roadDistance": 13.6,
+      "variants": [
+        {
+          "name": "Potok",
+          "district": "Ružomberok",
+          "lat": 49.1125724,
+          "lon": 19.4473134
+        },
+        {
+          "name": "Potok",
+          "district": "Rimavská Sobota",
+          "lat": 48.266948,
+          "lon": 20.1153499
+        }
+      ]
+    },
+    {
+      "municipality": "potok",
+      "city": "liptovsky-mikulas",
+      "systemDistrict": "Ružomberok",
+      "airDistance": 12.7,
+      "roadDistance": 19.8,
+      "variants": [
+        {
+          "name": "Potok",
+          "district": "Ružomberok",
+          "lat": 49.1125724,
+          "lon": 19.4473134
+        },
+        {
+          "name": "Potok",
+          "district": "Rimavská Sobota",
+          "lat": 48.266948,
+          "lon": 20.1153499
+        }
+      ]
+    },
+    {
+      "municipality": "potok",
+      "city": "dolny-kubin",
+      "systemDistrict": "Ružomberok",
+      "airDistance": 15.8,
+      "roadDistance": 29.6,
+      "variants": [
+        {
+          "name": "Potok",
+          "district": "Ružomberok",
+          "lat": 49.1125724,
+          "lon": 19.4473134
+        },
+        {
+          "name": "Potok",
+          "district": "Rimavská Sobota",
+          "lat": 48.266948,
+          "lon": 20.1153499
+        }
+      ]
+    },
+    {
+      "municipality": "radosovce",
+      "city": "skalica",
+      "systemDistrict": "Skalica",
+      "airDistance": 9,
+      "roadDistance": 10.5,
+      "variants": [
+        {
+          "name": "Radošovce",
+          "district": "Skalica",
+          "lat": 48.7725533,
+          "lon": 17.2803098
+        },
+        {
+          "name": "Radošovce",
+          "district": "Trnava",
+          "lat": 48.4961452,
+          "lon": 17.6351963
+        }
+      ]
+    },
+    {
+      "municipality": "radosovce",
+      "city": "holic",
+      "systemDistrict": "Skalica",
+      "airDistance": 9.5,
+      "roadDistance": 10.3,
+      "variants": [
+        {
+          "name": "Radošovce",
+          "district": "Skalica",
+          "lat": 48.7725533,
+          "lon": 17.2803098
+        },
+        {
+          "name": "Radošovce",
+          "district": "Trnava",
+          "lat": 48.4961452,
+          "lon": 17.6351963
+        }
+      ]
+    },
+    {
+      "municipality": "radosovce",
+      "city": "senica",
+      "systemDistrict": "Skalica",
+      "airDistance": 12.1,
+      "roadDistance": 14.3,
+      "variants": [
+        {
+          "name": "Radošovce",
+          "district": "Skalica",
+          "lat": 48.7725533,
+          "lon": 17.2803098
+        },
+        {
+          "name": "Radošovce",
+          "district": "Trnava",
+          "lat": 48.4961452,
+          "lon": 17.6351963
+        }
+      ]
+    },
+    {
+      "municipality": "rakos",
+      "city": "kosice",
+      "systemDistrict": "Revúca",
+      "airDistance": 15.3,
+      "roadDistance": 23.6,
+      "variants": [
+        {
+          "name": "Rákoš",
+          "district": "Revúca",
+          "lat": 48.6111627,
+          "lon": 20.1444009
+        },
+        {
+          "name": "Rákoš",
+          "district": "Košice-okolie",
+          "lat": 48.6448321,
+          "lon": 21.4276418
+        }
+      ]
+    },
+    {
+      "municipality": "rakos",
+      "city": "trebisov",
+      "systemDistrict": "Revúca",
+      "airDistance": 21.6,
+      "roadDistance": 30.8,
+      "variants": [
+        {
+          "name": "Rákoš",
+          "district": "Revúca",
+          "lat": 48.6111627,
+          "lon": 20.1444009
+        },
+        {
+          "name": "Rákoš",
+          "district": "Košice-okolie",
+          "lat": 48.6448321,
+          "lon": 21.4276418
+        }
+      ]
+    },
+    {
+      "municipality": "rakos",
+      "city": "hostovce",
+      "systemDistrict": "Revúca",
+      "airDistance": 27.3,
+      "roadDistance": 34.6,
+      "variants": [
+        {
+          "name": "Rákoš",
+          "district": "Revúca",
+          "lat": 48.6111627,
+          "lon": 20.1444009
+        },
+        {
+          "name": "Rákoš",
+          "district": "Košice-okolie",
+          "lat": 48.6448321,
+          "lon": 21.4276418
+        }
+      ]
+    },
+    {
+      "municipality": "riecka",
+      "city": "banska-bystrica",
+      "systemDistrict": "Banská Bystrica",
+      "airDistance": 6.3,
+      "roadDistance": 9.1,
+      "variants": [
+        {
+          "name": "Riečka",
+          "district": "Banská Bystrica",
+          "lat": 48.7453484,
+          "lon": 19.0912935
+        },
+        {
+          "name": "Riečka",
+          "district": "Rimavská Sobota",
+          "lat": 48.3369005,
+          "lon": 20.3345663
+        }
+      ]
+    },
+    {
+      "municipality": "riecka",
+      "city": "kremnica",
+      "systemDistrict": "Banská Bystrica",
+      "airDistance": 13.1,
+      "roadDistance": 55.8,
+      "variants": [
+        {
+          "name": "Riečka",
+          "district": "Banská Bystrica",
+          "lat": 48.7453484,
+          "lon": 19.0912935
+        },
+        {
+          "name": "Riečka",
+          "district": "Rimavská Sobota",
+          "lat": 48.3369005,
+          "lon": 20.3345663
+        }
+      ]
+    },
+    {
+      "municipality": "riecka",
+      "city": "sliac",
+      "systemDistrict": "Banská Bystrica",
+      "airDistance": 16.9,
+      "roadDistance": 21.7,
+      "variants": [
+        {
+          "name": "Riečka",
+          "district": "Banská Bystrica",
+          "lat": 48.7453484,
+          "lon": 19.0912935
+        },
+        {
+          "name": "Riečka",
+          "district": "Rimavská Sobota",
+          "lat": 48.3369005,
+          "lon": 20.3345663
+        }
+      ]
+    },
+    {
+      "municipality": "rohoznik",
+      "city": "malacky",
+      "systemDistrict": "Malacky",
+      "airDistance": 11.1,
+      "roadDistance": 12.7,
+      "variants": [
+        {
+          "name": "Rohožník",
+          "district": "Malacky",
+          "lat": 48.4584087,
+          "lon": 17.1648743
+        },
+        {
+          "name": "Rohožník",
+          "district": "Humenné",
+          "lat": 49.1108132,
+          "lon": 21.7676653
+        }
+      ]
+    },
+    {
+      "municipality": "rohoznik",
+      "city": "modra",
+      "systemDistrict": "Malacky",
+      "airDistance": 17.2,
+      "roadDistance": 34.8,
+      "variants": [
+        {
+          "name": "Rohožník",
+          "district": "Malacky",
+          "lat": 48.4584087,
+          "lon": 17.1648743
+        },
+        {
+          "name": "Rohožník",
+          "district": "Humenné",
+          "lat": 49.1108132,
+          "lon": 21.7676653
+        }
+      ]
+    },
+    {
+      "municipality": "rohoznik",
+      "city": "sastin-straze",
+      "systemDistrict": "Malacky",
+      "airDistance": 19.9,
+      "roadDistance": 34.3,
+      "variants": [
+        {
+          "name": "Rohožník",
+          "district": "Malacky",
+          "lat": 48.4584087,
+          "lon": 17.1648743
+        },
+        {
+          "name": "Rohožník",
+          "district": "Humenné",
+          "lat": 49.1108132,
+          "lon": 21.7676653
+        }
+      ]
+    },
+    {
+      "municipality": "rovne",
+      "city": "hnusta",
+      "systemDistrict": "Rimavská Sobota",
+      "airDistance": 7.3,
+      "roadDistance": 14.2,
+      "variants": [
+        {
+          "name": "Rovné",
+          "district": "Rimavská Sobota",
+          "lat": 48.6046741,
+          "lon": 19.8684581
+        },
+        {
+          "name": "Rovné",
+          "district": "Humenné",
+          "lat": 48.9796458,
+          "lon": 22.0041334
+        },
+        {
+          "name": "Rovné",
+          "district": "Svidník",
+          "lat": 49.2827074,
+          "lon": 21.5152295
+        }
+      ]
+    },
+    {
+      "municipality": "rovne",
+      "city": "revuca",
+      "systemDistrict": "Rimavská Sobota",
+      "airDistance": 12.3,
+      "roadDistance": 32.4,
+      "variants": [
+        {
+          "name": "Rovné",
+          "district": "Rimavská Sobota",
+          "lat": 48.6046741,
+          "lon": 19.8684581
+        },
+        {
+          "name": "Rovné",
+          "district": "Humenné",
+          "lat": 48.9796458,
+          "lon": 22.0041334
+        },
+        {
+          "name": "Rovné",
+          "district": "Svidník",
+          "lat": 49.2827074,
+          "lon": 21.5152295
+        }
+      ]
+    },
+    {
+      "municipality": "rovne",
+      "city": "tisovec",
+      "systemDistrict": "Rimavská Sobota",
+      "airDistance": 13.7,
+      "roadDistance": 26.1,
+      "variants": [
+        {
+          "name": "Rovné",
+          "district": "Rimavská Sobota",
+          "lat": 48.6046741,
+          "lon": 19.8684581
+        },
+        {
+          "name": "Rovné",
+          "district": "Humenné",
+          "lat": 48.9796458,
+          "lon": 22.0041334
+        },
+        {
+          "name": "Rovné",
+          "district": "Svidník",
+          "lat": 49.2827074,
+          "lon": 21.5152295
+        }
+      ]
+    },
+    {
+      "municipality": "stefanovce",
+      "city": "sabinov",
+      "systemDistrict": "Prešov",
+      "airDistance": 11.4,
+      "roadDistance": 17.9,
+      "variants": [
+        {
+          "name": "Štefanovce",
+          "district": "Prešov",
+          "lat": 49.0397377,
+          "lon": 20.9747047
+        },
+        {
+          "name": "Štefanovce",
+          "district": "Vranov nad Topľou",
+          "lat": 48.9601466,
+          "lon": 21.7734828
+        }
+      ]
+    },
+    {
+      "municipality": "stefanovce",
+      "city": "spisske-vlachy",
+      "systemDistrict": "Prešov",
+      "airDistance": 16.5,
+      "roadDistance": 27.3,
+      "variants": [
+        {
+          "name": "Štefanovce",
+          "district": "Prešov",
+          "lat": 49.0397377,
+          "lon": 20.9747047
+        },
+        {
+          "name": "Štefanovce",
+          "district": "Vranov nad Topľou",
+          "lat": 48.9601466,
+          "lon": 21.7734828
+        }
+      ]
+    },
+    {
+      "municipality": "stefanovce",
+      "city": "velky-saris",
+      "systemDistrict": "Prešov",
+      "airDistance": 16.6,
+      "roadDistance": 26.7,
+      "variants": [
+        {
+          "name": "Štefanovce",
+          "district": "Prešov",
+          "lat": 49.0397377,
+          "lon": 20.9747047
+        },
+        {
+          "name": "Štefanovce",
+          "district": "Vranov nad Topľou",
+          "lat": 48.9601466,
+          "lon": 21.7734828
+        }
+      ]
+    },
+    {
+      "municipality": "tomasovce",
+      "city": "lucenec",
+      "systemDistrict": "Lučenec",
+      "airDistance": 5.5,
+      "roadDistance": 9.2,
+      "variants": [
+        {
+          "name": "Tomášovce",
+          "district": "Lučenec",
+          "lat": 48.3692267,
+          "lon": 19.6269133
+        },
+        {
+          "name": "Tomášovce",
+          "district": "Rimavská Sobota",
+          "lat": 48.3923456,
+          "lon": 20.1530602
+        }
+      ]
+    },
+    {
+      "municipality": "tomasovce",
+      "city": "cinobana",
+      "systemDistrict": "Lučenec",
+      "airDistance": 8.8,
+      "roadDistance": 11,
+      "variants": [
+        {
+          "name": "Tomášovce",
+          "district": "Lučenec",
+          "lat": 48.3692267,
+          "lon": 19.6269133
+        },
+        {
+          "name": "Tomášovce",
+          "district": "Rimavská Sobota",
+          "lat": 48.3923456,
+          "lon": 20.1530602
+        }
+      ]
+    },
+    {
+      "municipality": "tomasovce",
+      "city": "poltar",
+      "systemDistrict": "Lučenec",
+      "airDistance": 14.4,
+      "roadDistance": 15.9,
+      "variants": [
+        {
+          "name": "Tomášovce",
+          "district": "Lučenec",
+          "lat": 48.3692267,
+          "lon": 19.6269133
+        },
+        {
+          "name": "Tomášovce",
+          "district": "Rimavská Sobota",
+          "lat": 48.3923456,
+          "lon": 20.1530602
+        }
+      ]
+    },
+    {
+      "municipality": "trnavka",
+      "city": "samorin",
+      "systemDistrict": "Dunajská Streda",
+      "airDistance": 7.2,
+      "roadDistance": 8.5,
+      "variants": [
+        {
+          "name": "Trnávka",
+          "district": "Dunajská Streda",
+          "lat": 48.0137714,
+          "lon": 17.4056347
+        },
+        {
+          "name": "Trnávka",
+          "district": "Trebišov",
+          "lat": 48.7062509,
+          "lon": 21.6170866
+        }
+      ]
+    },
+    {
+      "municipality": "trnavka",
+      "city": "dunajska-streda",
+      "systemDistrict": "Dunajská Streda",
+      "airDistance": 16.2,
+      "roadDistance": 18.6,
+      "variants": [
+        {
+          "name": "Trnávka",
+          "district": "Dunajská Streda",
+          "lat": 48.0137714,
+          "lon": 17.4056347
+        },
+        {
+          "name": "Trnávka",
+          "district": "Trebišov",
+          "lat": 48.7062509,
+          "lon": 21.6170866
+        }
+      ]
+    },
+    {
+      "municipality": "trnavka",
+      "city": "gabcikovo",
+      "systemDistrict": "Dunajská Streda",
+      "airDistance": 18.4,
+      "roadDistance": 23.2,
+      "variants": [
+        {
+          "name": "Trnávka",
+          "district": "Dunajská Streda",
+          "lat": 48.0137714,
+          "lon": 17.4056347
+        },
+        {
+          "name": "Trnávka",
+          "district": "Trebišov",
+          "lat": 48.7062509,
+          "lon": 21.6170866
+        }
+      ]
+    },
+    {
+      "municipality": "vieska",
+      "city": "modry-kamen",
+      "systemDistrict": "Dunajská Streda",
+      "airDistance": 10.1,
+      "roadDistance": 16.6,
+      "variants": [
+        {
+          "name": "Vieska",
+          "district": "Dunajská Streda",
+          "lat": 48.004241,
+          "lon": 17.5308973
+        },
+        {
+          "name": "Vieska",
+          "district": "Veľký Krtíš",
+          "lat": 48.2620987,
+          "lon": 19.4668301
+        }
+      ]
+    },
+    {
+      "municipality": "vieska",
+      "city": "velky-krtis",
+      "systemDistrict": "Dunajská Streda",
+      "airDistance": 10.5,
+      "roadDistance": 14.6,
+      "variants": [
+        {
+          "name": "Vieska",
+          "district": "Dunajská Streda",
+          "lat": 48.004241,
+          "lon": 17.5308973
+        },
+        {
+          "name": "Vieska",
+          "district": "Veľký Krtíš",
+          "lat": 48.2620987,
+          "lon": 19.4668301
+        }
+      ]
+    },
+    {
+      "municipality": "vieska",
+      "city": "lucenec",
+      "systemDistrict": "Dunajská Streda",
+      "airDistance": 16.4,
+      "roadDistance": 23.5,
+      "variants": [
+        {
+          "name": "Vieska",
+          "district": "Dunajská Streda",
+          "lat": 48.004241,
+          "lon": 17.5308973
+        },
+        {
+          "name": "Vieska",
+          "district": "Veľký Krtíš",
+          "lat": 48.2620987,
+          "lon": 19.4668301
+        }
+      ]
+    },
+    {
+      "municipality": "visnove",
+      "city": "nove-mesto-nad-vahom",
+      "systemDistrict": "Nové Mesto nad Váhom",
+      "airDistance": 7.1,
+      "roadDistance": 12.5,
+      "variants": [
+        {
+          "name": "Višňové",
+          "district": "Nové Mesto nad Váhom",
+          "lat": 48.7249715,
+          "lon": 17.7521206
+        },
+        {
+          "name": "Višňové",
+          "district": "Revúca",
+          "lat": 48.5138926,
+          "lon": 20.1812867
+        },
+        {
+          "name": "Višňové",
+          "district": "Žilina",
+          "lat": 49.1682707,
+          "lon": 18.7784636
+        }
+      ]
+    },
+    {
+      "municipality": "visnove",
+      "city": "stara-tura",
+      "systemDistrict": "Nové Mesto nad Váhom",
+      "airDistance": 7.4,
+      "roadDistance": 10.9,
+      "variants": [
+        {
+          "name": "Višňové",
+          "district": "Nové Mesto nad Váhom",
+          "lat": 48.7249715,
+          "lon": 17.7521206
+        },
+        {
+          "name": "Višňové",
+          "district": "Revúca",
+          "lat": 48.5138926,
+          "lon": 20.1812867
+        },
+        {
+          "name": "Višňové",
+          "district": "Žilina",
+          "lat": 49.1682707,
+          "lon": 18.7784636
+        }
+      ]
+    },
+    {
+      "municipality": "visnove",
+      "city": "horna-streda",
+      "systemDistrict": "Nové Mesto nad Váhom",
+      "airDistance": 10.2,
+      "roadDistance": 19.7,
+      "variants": [
+        {
+          "name": "Višňové",
+          "district": "Nové Mesto nad Váhom",
+          "lat": 48.7249715,
+          "lon": 17.7521206
+        },
+        {
+          "name": "Višňové",
+          "district": "Revúca",
+          "lat": 48.5138926,
+          "lon": 20.1812867
+        },
+        {
+          "name": "Višňové",
+          "district": "Žilina",
+          "lat": 49.1682707,
+          "lon": 18.7784636
+        }
+      ]
+    },
+    {
+      "municipality": "vozokany",
+      "city": "galanta",
+      "systemDistrict": "Galanta",
+      "airDistance": 10,
+      "roadDistance": 13.1,
+      "variants": [
+        {
+          "name": "Vozokany",
+          "district": "Galanta",
+          "lat": 48.104941,
+          "lon": 17.6878179
+        },
+        {
+          "name": "Vozokany",
+          "district": "Topoľčany",
+          "lat": 48.5636702,
+          "lon": 17.9963262
+        }
+      ]
+    },
+    {
+      "municipality": "vozokany",
+      "city": "sladkovicovo",
+      "systemDistrict": "Galanta",
+      "airDistance": 11.6,
+      "roadDistance": 16,
+      "variants": [
+        {
+          "name": "Vozokany",
+          "district": "Galanta",
+          "lat": 48.104941,
+          "lon": 17.6878179
+        },
+        {
+          "name": "Vozokany",
+          "district": "Topoľčany",
+          "lat": 48.5636702,
+          "lon": 17.9963262
+        }
+      ]
+    },
+    {
+      "municipality": "vozokany",
+      "city": "dunajska-streda",
+      "systemDistrict": "Galanta",
+      "airDistance": 13.8,
+      "roadDistance": 17.8,
+      "variants": [
+        {
+          "name": "Vozokany",
+          "district": "Galanta",
+          "lat": 48.104941,
+          "lon": 17.6878179
+        },
+        {
+          "name": "Vozokany",
+          "district": "Topoľčany",
+          "lat": 48.5636702,
+          "lon": 17.9963262
+        }
+      ]
+    },
+    {
+      "municipality": "vysoka",
+      "city": "zarnovica",
+      "systemDistrict": "Banská Štiavnica",
+      "airDistance": 9.4,
+      "roadDistance": 34.9,
+      "variants": [
+        {
+          "name": "Vysoká",
+          "district": "Banská Štiavnica",
+          "lat": 48.4116573,
+          "lon": 18.7949975
+        },
+        {
+          "name": "Vysoká",
+          "district": "Sabinov",
+          "lat": 49.1240883,
+          "lon": 20.881883
+        }
+      ]
+    },
+    {
+      "municipality": "vysoka",
+      "city": "banska-stiavnica",
+      "systemDistrict": "Banská Štiavnica",
+      "airDistance": 9.5,
+      "roadDistance": 13.2,
+      "variants": [
+        {
+          "name": "Vysoká",
+          "district": "Banská Štiavnica",
+          "lat": 48.4116573,
+          "lon": 18.7949975
+        },
+        {
+          "name": "Vysoká",
+          "district": "Sabinov",
+          "lat": 49.1240883,
+          "lon": 20.881883
+        }
+      ]
+    },
+    {
+      "municipality": "vysoka",
+      "city": "nova-bana",
+      "systemDistrict": "Banská Štiavnica",
+      "airDistance": 11.1,
+      "roadDistance": 46.5,
+      "variants": [
+        {
+          "name": "Vysoká",
+          "district": "Banská Štiavnica",
+          "lat": 48.4116573,
+          "lon": 18.7949975
+        },
+        {
+          "name": "Vysoká",
+          "district": "Sabinov",
+          "lat": 49.1240883,
+          "lon": 20.881883
+        }
+      ]
+    },
+    {
+      "municipality": "zalesie",
+      "city": "spisska-stara-ves",
+      "systemDistrict": "Senec",
+      "airDistance": 7.4,
+      "roadDistance": 8.8,
+      "variants": [
+        {
+          "name": "Zálesie",
+          "district": "Senec",
+          "lat": 48.1653492,
+          "lon": 17.2734893
+        },
+        {
+          "name": "Zálesie",
+          "district": "Kežmarok",
+          "lat": 49.3182739,
+          "lon": 20.3920528
+        }
+      ]
+    },
+    {
+      "municipality": "zalesie",
+      "city": "spisska-bela",
+      "systemDistrict": "Senec",
+      "airDistance": 15.1,
+      "roadDistance": 30.8,
+      "variants": [
+        {
+          "name": "Zálesie",
+          "district": "Senec",
+          "lat": 48.1653492,
+          "lon": 17.2734893
+        },
+        {
+          "name": "Zálesie",
+          "district": "Kežmarok",
+          "lat": 49.3182739,
+          "lon": 20.3920528
+        }
+      ]
+    },
+    {
+      "municipality": "zalesie",
+      "city": "kezmarok",
+      "systemDistrict": "Senec",
+      "airDistance": 20.6,
+      "roadDistance": 37.2,
+      "variants": [
+        {
+          "name": "Zálesie",
+          "district": "Senec",
+          "lat": 48.1653492,
+          "lon": 17.2734893
+        },
+        {
+          "name": "Zálesie",
+          "district": "Kežmarok",
+          "lat": 49.3182739,
+          "lon": 20.3920528
+        }
+      ]
+    },
+    {
+      "municipality": "zavada",
+      "city": "topolcany",
+      "systemDistrict": "Topoľčany",
+      "airDistance": 11.3,
+      "roadDistance": 13.1,
+      "variants": [
+        {
+          "name": "Závada",
+          "district": "Topoľčany",
+          "lat": 48.6393683,
+          "lon": 18.0789574
+        },
+        {
+          "name": "Závada",
+          "district": "Humenné",
+          "lat": 49.1725041,
+          "lon": 21.7847415
+        },
+        {
+          "name": "Závada",
+          "district": "Veľký Krtíš",
+          "lat": 48.2895952,
+          "lon": 19.4874106
+        }
+      ]
+    },
+    {
+      "municipality": "zavada",
+      "city": "chynorany",
+      "systemDistrict": "Topoľčany",
+      "airDistance": 14.4,
+      "roadDistance": 23.5,
+      "variants": [
+        {
+          "name": "Závada",
+          "district": "Topoľčany",
+          "lat": 48.6393683,
+          "lon": 18.0789574
+        },
+        {
+          "name": "Závada",
+          "district": "Humenné",
+          "lat": 49.1725041,
+          "lon": 21.7847415
+        },
+        {
+          "name": "Závada",
+          "district": "Veľký Krtíš",
+          "lat": 48.2895952,
+          "lon": 19.4874106
+        }
+      ]
+    },
+    {
+      "municipality": "zavada",
+      "city": "banovce-nad-bebravou",
+      "systemDistrict": "Topoľčany",
+      "airDistance": 15.8,
+      "roadDistance": 35.5,
+      "variants": [
+        {
+          "name": "Závada",
+          "district": "Topoľčany",
+          "lat": 48.6393683,
+          "lon": 18.0789574
+        },
+        {
+          "name": "Závada",
+          "district": "Humenné",
+          "lat": 49.1725041,
+          "lon": 21.7847415
+        },
+        {
+          "name": "Závada",
+          "district": "Veľký Krtíš",
+          "lat": 48.2895952,
+          "lon": 19.4874106
+        }
+      ]
+    },
+    {
+      "municipality": "zavadka",
+      "city": "humenne",
+      "systemDistrict": "Humenné",
+      "airDistance": 4.6,
+      "roadDistance": 4.8,
+      "variants": [
+        {
+          "name": "Závadka",
+          "district": "Humenné",
+          "lat": 48.92722,
+          "lon": 21.8405349
+        },
+        {
+          "name": "Závadka",
+          "district": "Gelnica",
+          "lat": 48.8666212,
+          "lon": 20.6187703
+        },
+        {
+          "name": "Závadka",
+          "district": "Michalovce",
+          "lat": 48.7669947,
+          "lon": 22.0645044
+        }
+      ]
+    },
+    {
+      "municipality": "zavadka",
+      "city": "strazske",
+      "systemDistrict": "Humenné",
+      "airDistance": 5.9,
+      "roadDistance": 10,
+      "variants": [
+        {
+          "name": "Závadka",
+          "district": "Humenné",
+          "lat": 48.92722,
+          "lon": 21.8405349
+        },
+        {
+          "name": "Závadka",
+          "district": "Gelnica",
+          "lat": 48.8666212,
+          "lon": 20.6187703
+        },
+        {
+          "name": "Závadka",
+          "district": "Michalovce",
+          "lat": 48.7669947,
+          "lon": 22.0645044
+        }
+      ]
+    },
+    {
+      "municipality": "zavadka",
+      "city": "chlmec",
+      "systemDistrict": "Humenné",
+      "airDistance": 8.5,
+      "roadDistance": 12.4,
+      "variants": [
+        {
+          "name": "Závadka",
+          "district": "Humenné",
+          "lat": 48.92722,
+          "lon": 21.8405349
+        },
+        {
+          "name": "Závadka",
+          "district": "Gelnica",
+          "lat": 48.8666212,
+          "lon": 20.6187703
+        },
+        {
+          "name": "Závadka",
+          "district": "Michalovce",
+          "lat": 48.7669947,
+          "lon": 22.0645044
+        }
+      ]
+    },
+    {
+      "municipality": "zlatno",
+      "city": "zlate-moravce",
+      "systemDistrict": "Poltár",
+      "airDistance": 11,
+      "roadDistance": 13.3,
+      "variants": [
+        {
+          "name": "Zlatno",
+          "district": "Poltár",
+          "lat": 48.513376,
+          "lon": 19.8166567
+        },
+        {
+          "name": "Zlatno",
+          "district": "Zlaté Moravce",
+          "lat": 48.4646341,
+          "lon": 18.3128522
+        }
+      ]
+    },
+    {
+      "municipality": "zlatno",
+      "city": "topolcany",
+      "systemDistrict": "Poltár",
+      "airDistance": 14.7,
+      "roadDistance": 53,
+      "variants": [
+        {
+          "name": "Zlatno",
+          "district": "Poltár",
+          "lat": 48.513376,
+          "lon": 19.8166567
+        },
+        {
+          "name": "Zlatno",
+          "district": "Zlaté Moravce",
+          "lat": 48.4646341,
+          "lon": 18.3128522
+        }
+      ]
+    },
+    {
+      "municipality": "zlatno",
+      "city": "chynorany",
+      "systemDistrict": "Poltár",
+      "airDistance": 16.5,
+      "roadDistance": 47,
+      "variants": [
+        {
+          "name": "Zlatno",
+          "district": "Poltár",
+          "lat": 48.513376,
+          "lon": 19.8166567
+        },
+        {
+          "name": "Zlatno",
+          "district": "Zlaté Moravce",
+          "lat": 48.4646341,
+          "lon": 18.3128522
+        }
+      ]
+    },
+    {
+      "municipality": "ziar",
+      "city": "liptovsky-mikulas",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 5.9,
+      "roadDistance": 9.8,
+      "variants": [
+        {
+          "name": "Žiar",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1338107,
+          "lon": 19.6820582
+        },
+        {
+          "name": "Žiar",
+          "district": "Revúca",
+          "lat": 48.4369476,
+          "lon": 20.2737035
+        }
+      ]
+    },
+    {
+      "municipality": "ziar",
+      "city": "liptovsky-hradok",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 11.2,
+      "roadDistance": 13.5,
+      "variants": [
+        {
+          "name": "Žiar",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1338107,
+          "lon": 19.6820582
+        },
+        {
+          "name": "Žiar",
+          "district": "Revúca",
+          "lat": 48.4369476,
+          "lon": 20.2737035
+        }
+      ]
+    },
+    {
+      "municipality": "ziar",
+      "city": "tvrdosin",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 24.3,
+      "roadDistance": 64.3,
+      "variants": [
+        {
+          "name": "Žiar",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1338107,
+          "lon": 19.6820582
+        },
+        {
+          "name": "Žiar",
+          "district": "Revúca",
+          "lat": 48.4369476,
+          "lon": 20.2737035
+        }
+      ]
+    },
+    {
+      "municipality": "hankovce",
+      "city": "svidnik",
+      "systemDistrict": "Bardejov",
+      "airDistance": 16.8,
+      "roadDistance": 33.7,
+      "variants": [
+        {
+          "name": "Hankovce",
+          "district": "Bardejov",
+          "lat": 49.2039984,
+          "lon": 21.4054241
+        },
+        {
+          "name": "Hankovce",
+          "district": "Humenné",
+          "lat": 49.0261076,
+          "lon": 21.9478639
+        }
+      ]
+    },
+    {
+      "municipality": "horovce",
+      "city": "ilava",
+      "systemDistrict": "Púchov",
+      "airDistance": 5.7,
+      "roadDistance": 7.8,
+      "variants": [
+        {
+          "name": "Horovce",
+          "district": "Púchov",
+          "lat": 49.0462551,
+          "lon": 18.2578344
+        },
+        {
+          "name": "Horovce",
+          "district": "Michalovce",
+          "lat": 48.7042651,
+          "lon": 21.7685216
+        }
+      ]
+    },
+    {
+      "municipality": "horovce",
+      "city": "puchov",
+      "systemDistrict": "Púchov",
+      "airDistance": 9.9,
+      "roadDistance": 11.5,
+      "variants": [
+        {
+          "name": "Horovce",
+          "district": "Púchov",
+          "lat": 49.0462551,
+          "lon": 18.2578344
+        },
+        {
+          "name": "Horovce",
+          "district": "Michalovce",
+          "lat": 48.7042651,
+          "lon": 21.7685216
+        }
+      ]
+    },
+    {
+      "municipality": "horovce",
+      "city": "dubnica-nad-vahom",
+      "systemDistrict": "Púchov",
+      "airDistance": 11.9,
+      "roadDistance": 14.8,
+      "variants": [
+        {
+          "name": "Horovce",
+          "district": "Púchov",
+          "lat": 49.0462551,
+          "lon": 18.2578344
+        },
+        {
+          "name": "Horovce",
+          "district": "Michalovce",
+          "lat": 48.7042651,
+          "lon": 21.7685216
+        }
+      ]
+    },
+    {
+      "municipality": "hostovce",
+      "city": "zlate-moravce",
+      "systemDistrict": "Zlaté Moravce",
+      "airDistance": 4.8,
+      "roadDistance": 6.4,
+      "variants": [
+        {
+          "name": "Hosťovce",
+          "district": "Zlaté Moravce",
+          "lat": 48.3703237,
+          "lon": 18.3748274
+        },
+        {
+          "name": "Hosťovce",
+          "district": "Košice-okolie",
+          "lat": 48.5714757,
+          "lon": 20.8551192
+        }
+      ]
+    },
+    {
+      "municipality": "hostovce",
+      "city": "tlmace",
+      "systemDistrict": "Zlaté Moravce",
+      "airDistance": 19.2,
+      "roadDistance": 23.3,
+      "variants": [
+        {
+          "name": "Hosťovce",
+          "district": "Zlaté Moravce",
+          "lat": 48.3703237,
+          "lon": 18.3748274
+        },
+        {
+          "name": "Hosťovce",
+          "district": "Košice-okolie",
+          "lat": 48.5714757,
+          "lon": 20.8551192
+        }
+      ]
+    },
+    {
+      "municipality": "hostovce",
+      "city": "vrable",
+      "systemDistrict": "Zlaté Moravce",
+      "airDistance": 19.7,
+      "roadDistance": 25.3,
+      "variants": [
+        {
+          "name": "Hosťovce",
+          "district": "Zlaté Moravce",
+          "lat": 48.3703237,
+          "lon": 18.3748274
+        },
+        {
+          "name": "Hosťovce",
+          "district": "Košice-okolie",
+          "lat": 48.5714757,
+          "lon": 20.8551192
+        }
+      ]
+    },
+    {
+      "municipality": "hradiste",
+      "city": "cinobana",
+      "systemDistrict": "Partizánske",
+      "airDistance": 7.3,
+      "roadDistance": 10.5,
+      "variants": [
+        {
+          "name": "Hradište",
+          "district": "Partizánske",
+          "lat": 48.6861145,
+          "lon": 18.3787168
+        },
+        {
+          "name": "Hradište",
+          "district": "Poltár",
+          "lat": 48.4915955,
+          "lon": 19.7227931
+        }
+      ]
+    },
+    {
+      "municipality": "hradiste",
+      "city": "poltar",
+      "systemDistrict": "Partizánske",
+      "airDistance": 8.6,
+      "roadDistance": 11.4,
+      "variants": [
+        {
+          "name": "Hradište",
+          "district": "Partizánske",
+          "lat": 48.6861145,
+          "lon": 18.3787168
+        },
+        {
+          "name": "Hradište",
+          "district": "Poltár",
+          "lat": 48.4915955,
+          "lon": 19.7227931
+        }
+      ]
+    },
+    {
+      "municipality": "hradiste",
+      "city": "hrinova",
+      "systemDistrict": "Partizánske",
+      "airDistance": 17.2,
+      "roadDistance": 38.8,
+      "variants": [
+        {
+          "name": "Hradište",
+          "district": "Partizánske",
+          "lat": 48.6861145,
+          "lon": 18.3787168
+        },
+        {
+          "name": "Hradište",
+          "district": "Poltár",
+          "lat": 48.4915955,
+          "lon": 19.7227931
+        }
+      ]
+    },
+    {
+      "municipality": "hrusov",
+      "city": "sahy",
+      "systemDistrict": "Veľký Krtíš",
+      "airDistance": 14.2,
+      "roadDistance": 23.7,
+      "variants": [
+        {
+          "name": "Hrušov",
+          "district": "Veľký Krtíš",
+          "lat": 48.1529752,
+          "lon": 19.0906914
+        },
+        {
+          "name": "Hrušov",
+          "district": "Rožňava",
+          "lat": 48.5825126,
+          "lon": 20.6349474
+        }
+      ]
+    },
+    {
+      "municipality": "hrusov",
+      "city": "dudince",
+      "systemDistrict": "Veľký Krtíš",
+      "airDistance": 15.6,
+      "roadDistance": 32.6,
+      "variants": [
+        {
+          "name": "Hrušov",
+          "district": "Veľký Krtíš",
+          "lat": 48.1529752,
+          "lon": 19.0906914
+        },
+        {
+          "name": "Hrušov",
+          "district": "Rožňava",
+          "lat": 48.5825126,
+          "lon": 20.6349474
+        }
+      ]
+    },
+    {
+      "municipality": "hrusov",
+      "city": "velky-krtis",
+      "systemDistrict": "Veľký Krtíš",
+      "airDistance": 20.1,
+      "roadDistance": 32,
+      "variants": [
+        {
+          "name": "Hrušov",
+          "district": "Veľký Krtíš",
+          "lat": 48.1529752,
+          "lon": 19.0906914
+        },
+        {
+          "name": "Hrušov",
+          "district": "Rožňava",
+          "lat": 48.5825126,
+          "lon": 20.6349474
+        }
+      ]
+    },
+    {
+      "municipality": "chvojnica",
+      "city": "senica",
+      "systemDistrict": "Myjava",
+      "airDistance": 12.2,
+      "roadDistance": 16.5,
+      "variants": [
+        {
+          "name": "Chvojnica",
+          "district": "Myjava",
+          "lat": 48.7660781,
+          "lon": 17.285956
+        },
+        {
+          "name": "Chvojnica",
+          "district": "Prievidza",
+          "lat": 48.8850725,
+          "lon": 18.5545842
+        }
+      ]
+    },
+    {
+      "municipality": "chvojnica",
+      "city": "myjava",
+      "systemDistrict": "Myjava",
+      "airDistance": 12.6,
+      "roadDistance": 19.7,
+      "variants": [
+        {
+          "name": "Chvojnica",
+          "district": "Myjava",
+          "lat": 48.7660781,
+          "lon": 17.285956
+        },
+        {
+          "name": "Chvojnica",
+          "district": "Prievidza",
+          "lat": 48.8850725,
+          "lon": 18.5545842
+        }
+      ]
+    },
+    {
+      "municipality": "chvojnica",
+      "city": "skalica",
+      "systemDistrict": "Myjava",
+      "airDistance": 14.3,
+      "roadDistance": 30.4,
+      "variants": [
+        {
+          "name": "Chvojnica",
+          "district": "Myjava",
+          "lat": 48.7660781,
+          "lon": 17.285956
+        },
+        {
+          "name": "Chvojnica",
+          "district": "Prievidza",
+          "lat": 48.8850725,
+          "lon": 18.5545842
+        }
+      ]
+    },
+    {
+      "municipality": "jablonove",
+      "city": "stupava",
+      "systemDistrict": "Malacky",
+      "airDistance": 9.6,
+      "roadDistance": 12.4,
+      "variants": [
+        {
+          "name": "Jablonové",
+          "district": "Malacky",
+          "lat": 48.3482344,
+          "lon": 17.0976613
+        },
+        {
+          "name": "Jablonové",
+          "district": "Bytča",
+          "lat": 49.1831134,
+          "lon": 18.565387
+        }
+      ]
+    },
+    {
+      "municipality": "jablonove",
+      "city": "malacky",
+      "systemDistrict": "Malacky",
+      "airDistance": 11.2,
+      "roadDistance": 16.2,
+      "variants": [
+        {
+          "name": "Jablonové",
+          "district": "Malacky",
+          "lat": 48.3482344,
+          "lon": 17.0976613
+        },
+        {
+          "name": "Jablonové",
+          "district": "Bytča",
+          "lat": 49.1831134,
+          "lon": 18.565387
+        }
+      ]
+    },
+    {
+      "municipality": "jablonove",
+      "city": "svaty-jur",
+      "systemDistrict": "Malacky",
+      "airDistance": 13.4,
+      "roadDistance": 31.1,
+      "variants": [
+        {
+          "name": "Jablonové",
+          "district": "Malacky",
+          "lat": 48.3482344,
+          "lon": 17.0976613
+        },
+        {
+          "name": "Jablonové",
+          "district": "Bytča",
+          "lat": 49.1831134,
+          "lon": 18.565387
+        }
+      ]
+    },
+    {
+      "municipality": "jakubovany",
+      "city": "liptovsky-hradok",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 7.3,
+      "roadDistance": 9.5,
+      "variants": [
+        {
+          "name": "Jakubovany",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1041276,
+          "lon": 19.7186968
+        },
+        {
+          "name": "Jakubovany",
+          "district": "Sabinov",
+          "lat": 49.1078515,
+          "lon": 21.1427066
+        }
+      ]
+    },
+    {
+      "municipality": "jakubovany",
+      "city": "liptovsky-mikulas",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 8.1,
+      "roadDistance": 10,
+      "variants": [
+        {
+          "name": "Jakubovany",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1041276,
+          "lon": 19.7186968
+        },
+        {
+          "name": "Jakubovany",
+          "district": "Sabinov",
+          "lat": 49.1078515,
+          "lon": 21.1427066
+        }
+      ]
+    },
+    {
+      "municipality": "jakubovany",
+      "city": "tvrdosin",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 28.8,
+      "roadDistance": 64.4,
+      "variants": [
+        {
+          "name": "Jakubovany",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1041276,
+          "lon": 19.7186968
+        },
+        {
+          "name": "Jakubovany",
+          "district": "Sabinov",
+          "lat": 49.1078515,
+          "lon": 21.1427066
+        }
+      ]
+    },
+    {
+      "municipality": "jalovec",
+      "city": "liptovsky-mikulas",
+      "systemDistrict": "Prievidza",
+      "airDistance": 6.2,
+      "roadDistance": 9,
+      "variants": [
+        {
+          "name": "Jalovec",
+          "district": "Prievidza",
+          "lat": 48.772583,
+          "lon": 18.7461845
+        },
+        {
+          "name": "Jalovec",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1358253,
+          "lon": 19.6260459
+        }
+      ]
+    },
+    {
+      "municipality": "jalovec",
+      "city": "liptovsky-hradok",
+      "systemDistrict": "Prievidza",
+      "airDistance": 13.1,
+      "roadDistance": 18.6,
+      "variants": [
+        {
+          "name": "Jalovec",
+          "district": "Prievidza",
+          "lat": 48.772583,
+          "lon": 18.7461845
+        },
+        {
+          "name": "Jalovec",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1358253,
+          "lon": 19.6260459
+        }
+      ]
+    },
+    {
+      "municipality": "jalovec",
+      "city": "tvrdosin",
+      "systemDistrict": "Prievidza",
+      "airDistance": 22.7,
+      "roadDistance": 57.7,
+      "variants": [
+        {
+          "name": "Jalovec",
+          "district": "Prievidza",
+          "lat": 48.772583,
+          "lon": 18.7461845
+        },
+        {
+          "name": "Jalovec",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1358253,
+          "lon": 19.6260459
+        }
+      ]
+    },
+    {
+      "municipality": "jamnik",
+      "city": "liptovsky-hradok",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 3.9,
+      "roadDistance": 5.2,
+      "variants": [
+        {
+          "name": "Jamník",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.0715166,
+          "lon": 19.7097412
+        },
+        {
+          "name": "Jamník",
+          "district": "Spišská Nová Ves",
+          "lat": 48.9422259,
+          "lon": 20.6630966
+        }
+      ]
+    },
+    {
+      "municipality": "jamnik",
+      "city": "liptovsky-mikulas",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 6.9,
+      "roadDistance": 11.5,
+      "variants": [
+        {
+          "name": "Jamník",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.0715166,
+          "lon": 19.7097412
+        },
+        {
+          "name": "Jamník",
+          "district": "Spišská Nová Ves",
+          "lat": 48.9422259,
+          "lon": 20.6630966
+        }
+      ]
+    },
+    {
+      "municipality": "jamnik",
+      "city": "ruzomberok",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 29.6,
+      "roadDistance": 40.2,
+      "variants": [
+        {
+          "name": "Jamník",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.0715166,
+          "lon": 19.7097412
+        },
+        {
+          "name": "Jamník",
+          "district": "Spišská Nová Ves",
+          "lat": 48.9422259,
+          "lon": 20.6630966
+        }
+      ]
+    },
+    {
+      "municipality": "jasenov",
+      "city": "sobrance",
+      "systemDistrict": "Humenné",
+      "airDistance": 5.8,
+      "roadDistance": 6.5,
+      "variants": [
+        {
+          "name": "Jasenov",
+          "district": "Humenné",
+          "lat": 48.8909469,
+          "lon": 21.9107612
+        },
+        {
+          "name": "Jasenov",
+          "district": "Sobrance",
+          "lat": 48.7925753,
+          "lon": 22.1796188
+        }
+      ]
+    },
+    {
+      "municipality": "jasenov",
+      "city": "chlmec",
+      "systemDistrict": "Humenné",
+      "airDistance": 19.5,
+      "roadDistance": 56.6,
+      "variants": [
+        {
+          "name": "Jasenov",
+          "district": "Humenné",
+          "lat": 48.8909469,
+          "lon": 21.9107612
+        },
+        {
+          "name": "Jasenov",
+          "district": "Sobrance",
+          "lat": 48.7925753,
+          "lon": 22.1796188
+        }
+      ]
+    },
+    {
+      "municipality": "jesenske",
+      "city": "rimavska-sobota",
+      "systemDistrict": "Levice",
+      "airDistance": 9.7,
+      "roadDistance": 11.8,
+      "variants": [
+        {
+          "name": "Jesenské",
+          "district": "Levice",
+          "lat": 48.1644695,
+          "lon": 18.4102461
+        },
+        {
+          "name": "Jesenské",
+          "district": "Rimavská Sobota",
+          "lat": 48.2995469,
+          "lon": 20.0620061
+        }
+      ]
+    },
+    {
+      "municipality": "jesenske",
+      "city": "filakovo",
+      "systemDistrict": "Levice",
+      "airDistance": 19,
+      "roadDistance": 28,
+      "variants": [
+        {
+          "name": "Jesenské",
+          "district": "Levice",
+          "lat": 48.1644695,
+          "lon": 18.4102461
+        },
+        {
+          "name": "Jesenské",
+          "district": "Rimavská Sobota",
+          "lat": 48.2995469,
+          "lon": 20.0620061
+        }
+      ]
+    },
+    {
+      "municipality": "jesenske",
+      "city": "tornala",
+      "systemDistrict": "Levice",
+      "airDistance": 22.7,
+      "roadDistance": 35.8,
+      "variants": [
+        {
+          "name": "Jesenské",
+          "district": "Levice",
+          "lat": 48.1644695,
+          "lon": 18.4102461
+        },
+        {
+          "name": "Jesenské",
+          "district": "Rimavská Sobota",
+          "lat": 48.2995469,
+          "lon": 20.0620061
+        }
+      ]
+    },
+    {
+      "municipality": "kamenna-poruba",
+      "city": "rajec",
+      "systemDistrict": "Žilina",
+      "airDistance": 3.8,
+      "roadDistance": 10.3,
+      "variants": [
+        {
+          "name": "Kamenná Poruba",
+          "district": "Žilina",
+          "lat": 49.0889151,
+          "lon": 18.6873871
+        },
+        {
+          "name": "Kamenná Poruba",
+          "district": "Vranov nad Topľou",
+          "lat": 48.8477956,
+          "lon": 21.6554587
+        }
+      ]
+    },
+    {
+      "municipality": "kamenna-poruba",
+      "city": "zilina",
+      "systemDistrict": "Žilina",
+      "airDistance": 15.4,
+      "roadDistance": 20.5,
+      "variants": [
+        {
+          "name": "Kamenná Poruba",
+          "district": "Žilina",
+          "lat": 49.0889151,
+          "lon": 18.6873871
+        },
+        {
+          "name": "Kamenná Poruba",
+          "district": "Vranov nad Topľou",
+          "lat": 48.8477956,
+          "lon": 21.6554587
+        }
+      ]
+    },
+    {
+      "municipality": "kamenna-poruba",
+      "city": "vrutky",
+      "systemDistrict": "Žilina",
+      "airDistance": 17.4,
+      "roadDistance": 43.4,
+      "variants": [
+        {
+          "name": "Kamenná Poruba",
+          "district": "Žilina",
+          "lat": 49.0889151,
+          "lon": 18.6873871
+        },
+        {
+          "name": "Kamenná Poruba",
+          "district": "Vranov nad Topľou",
+          "lat": 48.8477956,
+          "lon": 21.6554587
+        }
+      ]
+    },
+    {
+      "municipality": "kamienka",
+      "city": "chlmec",
+      "systemDistrict": "Humenné",
+      "airDistance": 4.9,
+      "roadDistance": 14.3,
+      "variants": [
+        {
+          "name": "Kamienka",
+          "district": "Humenné",
+          "lat": 48.9057957,
+          "lon": 21.999438
+        },
+        {
+          "name": "Kamienka",
+          "district": "Stará Ľubovňa",
+          "lat": 49.3198811,
+          "lon": 20.6350326
+        }
+      ]
+    },
+    {
+      "municipality": "kamienka",
+      "city": "humenne",
+      "systemDistrict": "Humenné",
+      "airDistance": 7.8,
+      "roadDistance": 10.6,
+      "variants": [
+        {
+          "name": "Kamienka",
+          "district": "Humenné",
+          "lat": 48.9057957,
+          "lon": 21.999438
+        },
+        {
+          "name": "Kamienka",
+          "district": "Stará Ľubovňa",
+          "lat": 49.3198811,
+          "lon": 20.6350326
+        }
+      ]
+    },
+    {
+      "municipality": "kamienka",
+      "city": "strazske",
+      "systemDistrict": "Humenné",
+      "airDistance": 12.6,
+      "roadDistance": 20.3,
+      "variants": [
+        {
+          "name": "Kamienka",
+          "district": "Humenné",
+          "lat": 48.9057957,
+          "lon": 21.999438
+        },
+        {
+          "name": "Kamienka",
+          "district": "Stará Ľubovňa",
+          "lat": 49.3198811,
+          "lon": 20.6350326
+        }
+      ]
+    },
+    {
+      "municipality": "klokocov",
+      "city": "turzovka",
+      "systemDistrict": "Čadca",
+      "airDistance": 6.2,
+      "roadDistance": 8.3,
+      "variants": [
+        {
+          "name": "Klokočov",
+          "district": "Čadca",
+          "lat": 49.4478165,
+          "lon": 18.5664277
+        },
+        {
+          "name": "Klokočov",
+          "district": "Michalovce",
+          "lat": 48.8111078,
+          "lon": 22.0187216
+        }
+      ]
+    },
+    {
+      "municipality": "klokocov",
+      "city": "cadca",
+      "systemDistrict": "Čadca",
+      "airDistance": 16.1,
+      "roadDistance": 22.1,
+      "variants": [
+        {
+          "name": "Klokočov",
+          "district": "Čadca",
+          "lat": 49.4478165,
+          "lon": 18.5664277
+        },
+        {
+          "name": "Klokočov",
+          "district": "Michalovce",
+          "lat": 48.8111078,
+          "lon": 22.0187216
+        }
+      ]
+    },
+    {
+      "municipality": "klokocov",
+      "city": "kysucke-nove-mesto",
+      "systemDistrict": "Čadca",
+      "airDistance": 22.7,
+      "roadDistance": 42.9,
+      "variants": [
+        {
+          "name": "Klokočov",
+          "district": "Čadca",
+          "lat": 49.4478165,
+          "lon": 18.5664277
+        },
+        {
+          "name": "Klokočov",
+          "district": "Michalovce",
+          "lat": 48.8111078,
+          "lon": 22.0187216
+        }
+      ]
+    },
+    {
+      "municipality": "kochanovce",
+      "city": "giraltovce",
+      "systemDistrict": "Bardejov",
+      "airDistance": 12.7,
+      "roadDistance": 16.4,
+      "variants": [
+        {
+          "name": "Kochanovce",
+          "district": "Bardejov",
+          "lat": 49.1904029,
+          "lon": 21.3865974
+        },
+        {
+          "name": "Kochanovce",
+          "district": "Humenné",
+          "lat": 48.9535289,
+          "lon": 21.945342
+        }
+      ]
+    },
+    {
+      "municipality": "kochanovce",
+      "city": "bardejov",
+      "systemDistrict": "Bardejov",
+      "airDistance": 13.9,
+      "roadDistance": 18.1,
+      "variants": [
+        {
+          "name": "Kochanovce",
+          "district": "Bardejov",
+          "lat": 49.1904029,
+          "lon": 21.3865974
+        },
+        {
+          "name": "Kochanovce",
+          "district": "Humenné",
+          "lat": 48.9535289,
+          "lon": 21.945342
+        }
+      ]
+    },
+    {
+      "municipality": "kochanovce",
+      "city": "svidnik",
+      "systemDistrict": "Bardejov",
+      "airDistance": 18.9,
+      "roadDistance": 34.2,
+      "variants": [
+        {
+          "name": "Kochanovce",
+          "district": "Bardejov",
+          "lat": 49.1904029,
+          "lon": 21.3865974
+        },
+        {
+          "name": "Kochanovce",
+          "district": "Humenné",
+          "lat": 48.9535289,
+          "lon": 21.945342
+        }
+      ]
+    },
+    {
+      "municipality": "konska",
+      "city": "liptovsky-mikulas",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 8.2,
+      "roadDistance": 11.8,
+      "variants": [
+        {
+          "name": "Konská",
+          "district": "Liptovský Mikuláš",
+          "lat": 48.9673472,
+          "lon": 19.8878422
+        },
+        {
+          "name": "Konská",
+          "district": "Žilina",
+          "lat": 49.1166667,
+          "lon": 19.7166667
+        }
+      ]
+    },
+    {
+      "municipality": "konska",
+      "city": "tvrdosin",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 27.2,
+      "roadDistance": 66.2,
+      "variants": [
+        {
+          "name": "Konská",
+          "district": "Liptovský Mikuláš",
+          "lat": 48.9673472,
+          "lon": 19.8878422
+        },
+        {
+          "name": "Konská",
+          "district": "Žilina",
+          "lat": 49.1166667,
+          "lon": 19.7166667
+        }
+      ]
+    },
+    {
+      "municipality": "kovacova",
+      "city": "zvolen",
+      "systemDistrict": "Zvolen",
+      "airDistance": 3,
+      "roadDistance": 5,
+      "variants": [
+        {
+          "name": "Kováčová",
+          "district": "Zvolen",
+          "lat": 48.59822,
+          "lon": 19.1079584
+        },
+        {
+          "name": "Kováčová",
+          "district": "Rožňava",
+          "lat": 48.7922779,
+          "lon": 20.4497271
+        }
+      ]
+    },
+    {
+      "municipality": "kovacova",
+      "city": "sliac",
+      "systemDistrict": "Zvolen",
+      "airDistance": 3.1,
+      "roadDistance": 3.9,
+      "variants": [
+        {
+          "name": "Kováčová",
+          "district": "Zvolen",
+          "lat": 48.59822,
+          "lon": 19.1079584
+        },
+        {
+          "name": "Kováčová",
+          "district": "Rožňava",
+          "lat": 48.7922779,
+          "lon": 20.4497271
+        }
+      ]
+    },
+    {
+      "municipality": "kovacova",
+      "city": "banska-bystrica",
+      "systemDistrict": "Zvolen",
+      "airDistance": 15.7,
+      "roadDistance": 18.1,
+      "variants": [
+        {
+          "name": "Kováčová",
+          "district": "Zvolen",
+          "lat": 48.59822,
+          "lon": 19.1079584
+        },
+        {
+          "name": "Kováčová",
+          "district": "Rožňava",
+          "lat": 48.7922779,
+          "lon": 20.4497271
+        }
+      ]
+    },
+    {
+      "municipality": "kravany",
+      "city": "svit",
+      "systemDistrict": "Poprad",
+      "airDistance": 6.8,
+      "roadDistance": 19.6,
+      "variants": [
+        {
+          "name": "Kravany",
+          "district": "Poprad",
+          "lat": 48.9973185,
+          "lon": 20.2014058
+        },
+        {
+          "name": "Kravany",
+          "district": "Trebišov",
+          "lat": 48.759757,
+          "lon": 21.6406951
+        }
+      ]
+    },
+    {
+      "municipality": "kravany",
+      "city": "poprad",
+      "systemDistrict": "Poprad",
+      "airDistance": 9.3,
+      "roadDistance": 12.2,
+      "variants": [
+        {
+          "name": "Kravany",
+          "district": "Poprad",
+          "lat": 48.9973185,
+          "lon": 20.2014058
+        },
+        {
+          "name": "Kravany",
+          "district": "Trebišov",
+          "lat": 48.759757,
+          "lon": 21.6406951
+        }
+      ]
+    },
+    {
+      "municipality": "kravany",
+      "city": "betlanovce",
+      "systemDistrict": "Poprad",
+      "airDistance": 14,
+      "roadDistance": 16.3,
+      "variants": [
+        {
+          "name": "Kravany",
+          "district": "Poprad",
+          "lat": 48.9973185,
+          "lon": 20.2014058
+        },
+        {
+          "name": "Kravany",
+          "district": "Trebišov",
+          "lat": 48.759757,
+          "lon": 21.6406951
+        }
+      ]
+    },
+    {
+      "municipality": "kucin",
+      "city": "giraltovce",
+      "systemDistrict": "Bardejov",
+      "airDistance": 11.5,
+      "roadDistance": 16.6,
+      "variants": [
+        {
+          "name": "Kučín",
+          "district": "Bardejov",
+          "lat": 49.2088033,
+          "lon": 21.4546994
+        },
+        {
+          "name": "Kučín",
+          "district": "Vranov nad Topľou",
+          "lat": 48.8686157,
+          "lon": 21.7467291
+        }
+      ]
+    },
+    {
+      "municipality": "kucin",
+      "city": "svidnik",
+      "systemDistrict": "Bardejov",
+      "airDistance": 14,
+      "roadDistance": 28.3,
+      "variants": [
+        {
+          "name": "Kučín",
+          "district": "Bardejov",
+          "lat": 49.2088033,
+          "lon": 21.4546994
+        },
+        {
+          "name": "Kučín",
+          "district": "Vranov nad Topľou",
+          "lat": 48.8686157,
+          "lon": 21.7467291
+        }
+      ]
+    },
+    {
+      "municipality": "kucin",
+      "city": "stropkov",
+      "systemDistrict": "Bardejov",
+      "airDistance": 14.4,
+      "roadDistance": 21.4,
+      "variants": [
+        {
+          "name": "Kučín",
+          "district": "Bardejov",
+          "lat": 49.2088033,
+          "lon": 21.4546994
+        },
+        {
+          "name": "Kučín",
+          "district": "Vranov nad Topľou",
+          "lat": 48.8686157,
+          "lon": 21.7467291
+        }
+      ]
+    },
+    {
+      "municipality": "kuzmice",
+      "city": "trebisov",
+      "systemDistrict": "Topoľčany",
+      "airDistance": 12.4,
+      "roadDistance": 16.6,
+      "variants": [
+        {
+          "name": "Kuzmice",
+          "district": "Topoľčany",
+          "lat": 48.5818054,
+          "lon": 18.1060506
+        },
+        {
+          "name": "Kuzmice",
+          "district": "Trebišov",
+          "lat": 48.5816868,
+          "lon": 21.5794571
+        }
+      ]
+    },
+    {
+      "municipality": "kuzmice",
+      "city": "kosice",
+      "systemDistrict": "Topoľčany",
+      "airDistance": 28,
+      "roadDistance": 37.2,
+      "variants": [
+        {
+          "name": "Kuzmice",
+          "district": "Topoľčany",
+          "lat": 48.5818054,
+          "lon": 18.1060506
+        },
+        {
+          "name": "Kuzmice",
+          "district": "Trebišov",
+          "lat": 48.5816868,
+          "lon": 21.5794571
+        }
+      ]
+    },
+    {
+      "municipality": "kuzmice",
+      "city": "michalovce",
+      "systemDistrict": "Topoľčany",
+      "airDistance": 32.2,
+      "roadDistance": 40.4,
+      "variants": [
+        {
+          "name": "Kuzmice",
+          "district": "Topoľčany",
+          "lat": 48.5818054,
+          "lon": 18.1060506
+        },
+        {
+          "name": "Kuzmice",
+          "district": "Trebišov",
+          "lat": 48.5816868,
+          "lon": 21.5794571
+        }
+      ]
+    },
+    {
+      "municipality": "kvacany",
+      "city": "liptovsky-mikulas",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 10.7,
+      "roadDistance": 15.1,
+      "variants": [
+        {
+          "name": "Kvačany",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1649824,
+          "lon": 19.5415322
+        },
+        {
+          "name": "Kvačany",
+          "district": "Prešov",
+          "lat": 48.9450302,
+          "lon": 21.0865117
+        }
+      ]
+    },
+    {
+      "municipality": "kvacany",
+      "city": "dolny-kubin",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 18.7,
+      "roadDistance": 42.4,
+      "variants": [
+        {
+          "name": "Kvačany",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1649824,
+          "lon": 19.5415322
+        },
+        {
+          "name": "Kvačany",
+          "district": "Prešov",
+          "lat": 48.9450302,
+          "lon": 21.0865117
+        }
+      ]
+    },
+    {
+      "municipality": "kvacany",
+      "city": "tvrdosin",
+      "systemDistrict": "Liptovský Mikuláš",
+      "airDistance": 19,
+      "roadDistance": 43.6,
+      "variants": [
+        {
+          "name": "Kvačany",
+          "district": "Liptovský Mikuláš",
+          "lat": 49.1649824,
+          "lon": 19.5415322
+        },
+        {
+          "name": "Kvačany",
+          "district": "Prešov",
+          "lat": 48.9450302,
+          "lon": 21.0865117
+        }
+      ]
+    },
+    {
+      "municipality": "lieskovec",
+      "city": "humenne",
+      "systemDistrict": "Zvolen",
+      "airDistance": 6.5,
+      "roadDistance": 10.6,
+      "variants": [
+        {
+          "name": "Lieskovec",
+          "district": "Zvolen",
+          "lat": 48.5789025,
+          "lon": 19.1913625
+        },
+        {
+          "name": "Lieskovec",
+          "district": "Humenné",
+          "lat": 48.9458875,
+          "lon": 21.8800211
+        }
+      ]
+    },
+    {
+      "municipality": "lieskovec",
+      "city": "strazske",
+      "systemDistrict": "Zvolen",
+      "airDistance": 8.5,
+      "roadDistance": 15.7,
+      "variants": [
+        {
+          "name": "Lieskovec",
+          "district": "Zvolen",
+          "lat": 48.5789025,
+          "lon": 19.1913625
+        },
+        {
+          "name": "Lieskovec",
+          "district": "Humenné",
+          "lat": 48.9458875,
+          "lon": 21.8800211
+        }
+      ]
+    },
+    {
+      "municipality": "lieskovec",
+      "city": "chlmec",
+      "systemDistrict": "Zvolen",
+      "airDistance": 11.4,
+      "roadDistance": 18.2,
+      "variants": [
+        {
+          "name": "Lieskovec",
+          "district": "Zvolen",
+          "lat": 48.5789025,
+          "lon": 19.1913625
+        },
+        {
+          "name": "Lieskovec",
+          "district": "Humenné",
+          "lat": 48.9458875,
+          "lon": 21.8800211
+        }
+      ]
+    },
+    {
+      "municipality": "lipova",
+      "city": "surany",
+      "systemDistrict": "Nové Zámky",
+      "airDistance": 2.8,
+      "roadDistance": 3.3,
+      "variants": [
+        {
+          "name": "Lipová",
+          "district": "Nové Zámky",
+          "lat": 47.7912875,
+          "lon": 18.717014
+        },
+        {
+          "name": "Lipová",
+          "district": "Bardejov",
+          "lat": 49.3037544,
+          "lon": 21.3115146
+        }
+      ]
+    },
+    {
+      "municipality": "lipova",
+      "city": "nove-zamky",
+      "systemDistrict": "Nové Zámky",
+      "airDistance": 13.8,
+      "roadDistance": 18.2,
+      "variants": [
+        {
+          "name": "Lipová",
+          "district": "Nové Zámky",
+          "lat": 47.7912875,
+          "lon": 18.717014
+        },
+        {
+          "name": "Lipová",
+          "district": "Bardejov",
+          "lat": 49.3037544,
+          "lon": 21.3115146
+        }
+      ]
+    },
+    {
+      "municipality": "lipova",
+      "city": "dvory-nad-zitavou",
+      "systemDistrict": "Nové Zámky",
+      "airDistance": 14.5,
+      "roadDistance": 24.6,
+      "variants": [
+        {
+          "name": "Lipová",
+          "district": "Nové Zámky",
+          "lat": 47.7912875,
+          "lon": 18.717014
+        },
+        {
+          "name": "Lipová",
+          "district": "Bardejov",
+          "lat": 49.3037544,
+          "lon": 21.3115146
+        }
+      ]
+    },
+    {
+      "municipality": "lipovec",
+      "city": "vrutky",
+      "systemDistrict": "Martin",
+      "airDistance": 1.9,
+      "roadDistance": 4.4,
+      "variants": [
+        {
+          "name": "Lipovec",
+          "district": "Martin",
+          "lat": 49.1258691,
+          "lon": 18.9298523
+        },
+        {
+          "name": "Lipovec",
+          "district": "Rimavská Sobota",
+          "lat": 48.5502543,
+          "lon": 20.064392
+        }
+      ]
+    },
+    {
+      "municipality": "lipovec",
+      "city": "martin",
+      "systemDistrict": "Martin",
+      "airDistance": 5.9,
+      "roadDistance": 11.5,
+      "variants": [
+        {
+          "name": "Lipovec",
+          "district": "Martin",
+          "lat": 49.1258691,
+          "lon": 18.9298523
+        },
+        {
+          "name": "Lipovec",
+          "district": "Rimavská Sobota",
+          "lat": 48.5502543,
+          "lon": 20.064392
+        }
+      ]
+    },
+    {
+      "municipality": "lipovec",
+      "city": "turany",
+      "systemDistrict": "Martin",
+      "airDistance": 8,
+      "roadDistance": 10.3,
+      "variants": [
+        {
+          "name": "Lipovec",
+          "district": "Martin",
+          "lat": 49.1258691,
+          "lon": 18.9298523
+        },
+        {
+          "name": "Lipovec",
+          "district": "Rimavská Sobota",
+          "lat": 48.5502543,
+          "lon": 20.064392
+        }
+      ]
+    },
+    {
+      "municipality": "lipovnik",
+      "city": "topolcany",
+      "systemDistrict": "Topoľčany",
+      "airDistance": 12.1,
+      "roadDistance": 15,
+      "variants": [
+        {
+          "name": "Lipovník",
+          "district": "Topoľčany",
+          "lat": 48.5694575,
+          "lon": 18.0121988
+        },
+        {
+          "name": "Lipovník",
+          "district": "Rožňava",
+          "lat": 48.6322751,
+          "lon": 20.6028865
+        }
+      ]
+    },
+    {
+      "municipality": "lipovnik",
+      "city": "piestany",
+      "systemDistrict": "Topoľčany",
+      "airDistance": 14.2,
+      "roadDistance": 18.7,
+      "variants": [
+        {
+          "name": "Lipovník",
+          "district": "Topoľčany",
+          "lat": 48.5694575,
+          "lon": 18.0121988
+        },
+        {
+          "name": "Lipovník",
+          "district": "Rožňava",
+          "lat": 48.6322751,
+          "lon": 20.6028865
+        }
+      ]
+    },
+    {
+      "municipality": "lipovnik",
+      "city": "horna-streda",
+      "systemDistrict": "Topoľčany",
+      "airDistance": 15.7,
+      "roadDistance": 26.8,
+      "variants": [
+        {
+          "name": "Lipovník",
+          "district": "Topoľčany",
+          "lat": 48.5694575,
+          "lon": 18.0121988
+        },
+        {
+          "name": "Lipovník",
+          "district": "Rožňava",
+          "lat": 48.6322751,
+          "lon": 20.6028865
+        }
+      ]
+    },
+    {
+      "municipality": "lucka",
+      "city": "giraltovce",
+      "systemDistrict": "Levoča",
+      "airDistance": 3,
+      "roadDistance": 4.5,
+      "variants": [
+        {
+          "name": "Lúčka",
+          "district": "Levoča",
+          "lat": 49.0264398,
+          "lon": 20.7300674
+        },
+        {
+          "name": "Lúčka",
+          "district": "Sabinov",
+          "lat": 49.1833333,
+          "lon": 20.9833333
+        },
+        {
+          "name": "Lúčka",
+          "district": "Svidník",
+          "lat": 49.1040041,
+          "lon": 21.4773876
+        },
+        {
+          "name": "Lúčka",
+          "district": "Rožňava",
+          "lat": 48.6360438,
+          "lon": 20.7227476
+        }
+      ]
+    },
+    {
+      "municipality": "lucka",
+      "city": "hanusovce-nad-toplou",
+      "systemDistrict": "Levoča",
+      "airDistance": 8.8,
+      "roadDistance": 16.8,
+      "variants": [
+        {
+          "name": "Lúčka",
+          "district": "Levoča",
+          "lat": 49.0264398,
+          "lon": 20.7300674
+        },
+        {
+          "name": "Lúčka",
+          "district": "Sabinov",
+          "lat": 49.1833333,
+          "lon": 20.9833333
+        },
+        {
+          "name": "Lúčka",
+          "district": "Svidník",
+          "lat": 49.1040041,
+          "lon": 21.4773876
+        },
+        {
+          "name": "Lúčka",
+          "district": "Rožňava",
+          "lat": 48.6360438,
+          "lon": 20.7227476
+        }
+      ]
+    },
+    {
+      "municipality": "lucka",
+      "city": "stropkov",
+      "systemDistrict": "Levoča",
+      "airDistance": 16.7,
+      "roadDistance": 28.1,
+      "variants": [
+        {
+          "name": "Lúčka",
+          "district": "Levoča",
+          "lat": 49.0264398,
+          "lon": 20.7300674
+        },
+        {
+          "name": "Lúčka",
+          "district": "Sabinov",
+          "lat": 49.1833333,
+          "lon": 20.9833333
+        },
+        {
+          "name": "Lúčka",
+          "district": "Svidník",
+          "lat": 49.1040041,
+          "lon": 21.4773876
+        },
+        {
+          "name": "Lúčka",
+          "district": "Rožňava",
+          "lat": 48.6360438,
+          "lon": 20.7227476
+        }
+      ]
+    },
+    {
+      "municipality": "lucky",
+      "city": "ruzomberok",
+      "systemDistrict": "Ružomberok",
+      "airDistance": 8.9,
+      "roadDistance": 14,
+      "variants": [
+        {
+          "name": "Lúčky",
+          "district": "Ružomberok",
+          "lat": 49.1280526,
+          "lon": 19.4036357
+        },
+        {
+          "name": "Lúčky",
+          "district": "Žiar nad Hronom",
+          "lat": 48.6927137,
+          "lon": 18.901649
+        },
+        {
+          "name": "Lúčky",
+          "district": "Michalovce",
+          "lat": 48.7685043,
+          "lon": 22.0420818
+        }
+      ]
+    },
+    {
+      "municipality": "lucky",
+      "city": "dolny-kubin",
+      "systemDistrict": "Ružomberok",
+      "airDistance": 12.4,
+      "roadDistance": 18.7,
+      "variants": [
+        {
+          "name": "Lúčky",
+          "district": "Ružomberok",
+          "lat": 49.1280526,
+          "lon": 19.4036357
+        },
+        {
+          "name": "Lúčky",
+          "district": "Žiar nad Hronom",
+          "lat": 48.6927137,
+          "lon": 18.901649
+        },
+        {
+          "name": "Lúčky",
+          "district": "Michalovce",
+          "lat": 48.7685043,
+          "lon": 22.0420818
+        }
+      ]
+    },
+    {
+      "municipality": "lucky",
+      "city": "liptovsky-mikulas",
+      "systemDistrict": "Ružomberok",
+      "airDistance": 16.3,
+      "roadDistance": 22.6,
+      "variants": [
+        {
+          "name": "Lúčky",
+          "district": "Ružomberok",
+          "lat": 49.1280526,
+          "lon": 19.4036357
+        },
+        {
+          "name": "Lúčky",
+          "district": "Žiar nad Hronom",
+          "lat": 48.6927137,
+          "lon": 18.901649
+        },
+        {
+          "name": "Lúčky",
+          "district": "Michalovce",
+          "lat": 48.7685043,
+          "lon": 22.0420818
+        }
+      ]
+    },
+    {
+      "municipality": "lukavica",
+      "city": "bardejov",
+      "systemDistrict": "Zvolen",
+      "airDistance": 5.1,
+      "roadDistance": 6.7,
+      "variants": [
+        {
+          "name": "Lukavica",
+          "district": "Zvolen",
+          "lat": 48.6428902,
+          "lon": 19.2076752
+        },
+        {
+          "name": "Lukavica",
+          "district": "Bardejov",
+          "lat": 49.2670824,
+          "lon": 21.3053317
+        }
+      ]
+    },
+    {
+      "municipality": "lukavica",
+      "city": "svidnik",
+      "systemDistrict": "Zvolen",
+      "airDistance": 18.7,
+      "roadDistance": 41.7,
+      "variants": [
+        {
+          "name": "Lukavica",
+          "district": "Zvolen",
+          "lat": 48.6428902,
+          "lon": 19.2076752
+        },
+        {
+          "name": "Lukavica",
+          "district": "Bardejov",
+          "lat": 49.2670824,
+          "lon": 21.3053317
+        }
+      ]
+    },
+    {
+      "municipality": "lukavica",
+      "city": "giraltovce",
+      "systemDistrict": "Zvolen",
+      "airDistance": 21.5,
+      "roadDistance": 26.6,
+      "variants": [
+        {
+          "name": "Lukavica",
+          "district": "Zvolen",
+          "lat": 48.6428902,
+          "lon": 19.2076752
+        },
+        {
+          "name": "Lukavica",
+          "district": "Bardejov",
+          "lat": 49.2670824,
+          "lon": 21.3053317
+        }
+      ]
+    },
+    {
+      "municipality": "nemcovce",
+      "city": "svidnik",
+      "systemDistrict": "Bardejov",
+      "airDistance": 14.6,
+      "roadDistance": 29.1,
+      "variants": [
+        {
+          "name": "Nemcovce",
+          "district": "Bardejov",
+          "lat": 49.2097374,
+          "lon": 21.4412165
+        },
+        {
+          "name": "Nemcovce",
+          "district": "Prešov",
+          "lat": 49.0507874,
+          "lon": 21.3816321
+        }
+      ]
+    },
+    {
+      "municipality": "podhorie",
+      "city": "ziar-nad-hronom",
+      "systemDistrict": "Žilina",
+      "airDistance": 11.5,
+      "roadDistance": 23.1,
+      "variants": [
+        {
+          "name": "Podhorie",
+          "district": "Žilina",
+          "lat": 49.250088,
+          "lon": 18.7352318
+        },
+        {
+          "name": "Podhorie",
+          "district": "Banská Štiavnica",
+          "lat": 48.4983545,
+          "lon": 18.9195225
+        }
+      ]
+    },
+    {
+      "municipality": "poproc",
+      "city": "hnusta",
+      "systemDistrict": "Rimavská Sobota",
+      "airDistance": 5.9,
+      "roadDistance": 12.1,
+      "variants": [
+        {
+          "name": "Poproč",
+          "district": "Rimavská Sobota",
+          "lat": 48.5819964,
+          "lon": 20.0335709
+        },
+        {
+          "name": "Poproč",
+          "district": "Košice-okolie",
+          "lat": 48.7112625,
+          "lon": 20.9754445
+        }
+      ]
+    },
+    {
+      "municipality": "rudnik",
+      "city": "myjava",
+      "systemDistrict": "Myjava",
+      "airDistance": 4.3,
+      "roadDistance": 6.2,
+      "variants": [
+        {
+          "name": "Rudník",
+          "district": "Myjava",
+          "lat": 48.7690101,
+          "lon": 17.6197319
+        },
+        {
+          "name": "Rudník",
+          "district": "Košice-okolie",
+          "lat": 48.6921841,
+          "lon": 21.0078226
+        }
+      ]
+    },
+    {
+      "municipality": "rudnik",
+      "city": "stara-tura",
+      "systemDistrict": "Myjava",
+      "airDistance": 5.6,
+      "roadDistance": 7.9,
+      "variants": [
+        {
+          "name": "Rudník",
+          "district": "Myjava",
+          "lat": 48.7690101,
+          "lon": 17.6197319
+        },
+        {
+          "name": "Rudník",
+          "district": "Košice-okolie",
+          "lat": 48.6921841,
+          "lon": 21.0078226
+        }
+      ]
+    },
+    {
+      "municipality": "rudnik",
+      "city": "brezova-pod-bradlom",
+      "systemDistrict": "Myjava",
+      "airDistance": 13.5,
+      "roadDistance": 17.2,
+      "variants": [
+        {
+          "name": "Rudník",
+          "district": "Myjava",
+          "lat": 48.7690101,
+          "lon": 17.6197319
+        },
+        {
+          "name": "Rudník",
+          "district": "Košice-okolie",
+          "lat": 48.6921841,
+          "lon": 21.0078226
+        }
+      ]
+    },
+    {
+      "municipality": "ruskovce",
+      "city": "banovce-nad-bebravou",
+      "systemDistrict": "Bánovce nad Bebravou",
+      "airDistance": 5.7,
+      "roadDistance": 7.8,
+      "variants": [
+        {
+          "name": "Ruskovce",
+          "district": "Bánovce nad Bebravou",
+          "lat": 48.7479607,
+          "lon": 18.1980331
+        },
+        {
+          "name": "Ruskovce",
+          "district": "Sobrance",
+          "lat": 48.7764445,
+          "lon": 22.1643817
+        }
+      ]
+    },
+    {
+      "municipality": "ruskovce",
+      "city": "chynorany",
+      "systemDistrict": "Bánovce nad Bebravou",
+      "airDistance": 16.1,
+      "roadDistance": 22.6,
+      "variants": [
+        {
+          "name": "Ruskovce",
+          "district": "Bánovce nad Bebravou",
+          "lat": 48.7479607,
+          "lon": 18.1980331
+        },
+        {
+          "name": "Ruskovce",
+          "district": "Sobrance",
+          "lat": 48.7764445,
+          "lon": 22.1643817
+        }
+      ]
+    },
+    {
+      "municipality": "ruskovce",
+      "city": "trencianske-teplice",
+      "systemDistrict": "Bánovce nad Bebravou",
+      "airDistance": 18.5,
+      "roadDistance": 22,
+      "variants": [
+        {
+          "name": "Ruskovce",
+          "district": "Bánovce nad Bebravou",
+          "lat": 48.7479607,
+          "lon": 18.1980331
+        },
+        {
+          "name": "Ruskovce",
+          "district": "Sobrance",
+          "lat": 48.7764445,
+          "lon": 22.1643817
+        }
+      ]
+    },
+    {
+      "municipality": "rybnik",
+      "city": "tlmace",
+      "systemDistrict": "Levice",
+      "airDistance": 2.2,
+      "roadDistance": 3.6,
+      "variants": [
+        {
+          "name": "Rybník",
+          "district": "Levice",
+          "lat": 48.2923777,
+          "lon": 18.5612332
+        },
+        {
+          "name": "Rybník",
+          "district": "Revúca",
+          "lat": 48.5750617,
+          "lon": 20.316904
+        }
+      ]
+    },
+    {
+      "municipality": "rybnik",
+      "city": "levice",
+      "systemDistrict": "Levice",
+      "airDistance": 8.9,
+      "roadDistance": 12.4,
+      "variants": [
+        {
+          "name": "Rybník",
+          "district": "Levice",
+          "lat": 48.2923777,
+          "lon": 18.5612332
+        },
+        {
+          "name": "Rybník",
+          "district": "Revúca",
+          "lat": 48.5750617,
+          "lon": 20.316904
+        }
+      ]
+    },
+    {
+      "municipality": "rybnik",
+      "city": "batovce",
+      "systemDistrict": "Levice",
+      "airDistance": 13.6,
+      "roadDistance": 17.3,
+      "variants": [
+        {
+          "name": "Rybník",
+          "district": "Levice",
+          "lat": 48.2923777,
+          "lon": 18.5612332
+        },
+        {
+          "name": "Rybník",
+          "district": "Revúca",
+          "lat": 48.5750617,
+          "lon": 20.316904
+        }
+      ]
+    },
+    {
+      "municipality": "sasa",
+      "city": "krupina",
+      "systemDistrict": "Revúca",
+      "airDistance": 10.3,
+      "roadDistance": 15.2,
+      "variants": [
+        {
+          "name": "Sása",
+          "district": "Revúca",
+          "lat": 48.5637522,
+          "lon": 20.1084104
+        },
+        {
+          "name": "Sása",
+          "district": "Zvolen",
+          "lat": 48.4361097,
+          "lon": 19.1322681
+        }
+      ]
+    },
+    {
+      "municipality": "sasa",
+      "city": "bansky-studenec",
+      "systemDistrict": "Revúca",
+      "airDistance": 12,
+      "roadDistance": 36.2,
+      "variants": [
+        {
+          "name": "Sása",
+          "district": "Revúca",
+          "lat": 48.5637522,
+          "lon": 20.1084104
+        },
+        {
+          "name": "Sása",
+          "district": "Zvolen",
+          "lat": 48.4361097,
+          "lon": 19.1322681
+        }
+      ]
+    },
+    {
+      "municipality": "sasa",
+      "city": "zvolen",
+      "systemDistrict": "Revúca",
+      "airDistance": 15.9,
+      "roadDistance": 21.2,
+      "variants": [
+        {
+          "name": "Sása",
+          "district": "Revúca",
+          "lat": 48.5637522,
+          "lon": 20.1084104
+        },
+        {
+          "name": "Sása",
+          "district": "Zvolen",
+          "lat": 48.4361097,
+          "lon": 19.1322681
+        }
+      ]
+    },
+    {
+      "municipality": "selce",
+      "city": "banska-bystrica",
+      "systemDistrict": "Banská Bystrica",
+      "airDistance": 4.5,
+      "roadDistance": 6.2,
+      "variants": [
+        {
+          "name": "Selce",
+          "district": "Banská Bystrica",
+          "lat": 48.7619017,
+          "lon": 19.2016789
+        },
+        {
+          "name": "Selce",
+          "district": "Krupina",
+          "lat": 48.2554139,
+          "lon": 19.0427852
+        },
+        {
+          "name": "Selce",
+          "district": "Poltár",
+          "lat": 48.455803,
+          "lon": 19.8779626
+        }
+      ]
+    },
+    {
+      "municipality": "selce",
+      "city": "sliac",
+      "systemDistrict": "Banská Bystrica",
+      "airDistance": 17.5,
+      "roadDistance": 24.4,
+      "variants": [
+        {
+          "name": "Selce",
+          "district": "Banská Bystrica",
+          "lat": 48.7619017,
+          "lon": 19.2016789
+        },
+        {
+          "name": "Selce",
+          "district": "Krupina",
+          "lat": 48.2554139,
+          "lon": 19.0427852
+        },
+        {
+          "name": "Selce",
+          "district": "Poltár",
+          "lat": 48.455803,
+          "lon": 19.8779626
+        }
+      ]
+    },
+    {
+      "municipality": "selce",
+      "city": "zvolen",
+      "systemDistrict": "Banská Bystrica",
+      "airDistance": 21.6,
+      "roadDistance": 27.5,
+      "variants": [
+        {
+          "name": "Selce",
+          "district": "Banská Bystrica",
+          "lat": 48.7619017,
+          "lon": 19.2016789
+        },
+        {
+          "name": "Selce",
+          "district": "Krupina",
+          "lat": 48.2554139,
+          "lon": 19.0427852
+        },
+        {
+          "name": "Selce",
+          "district": "Poltár",
+          "lat": 48.455803,
+          "lon": 19.8779626
+        }
+      ]
+    },
+    {
+      "municipality": "senne",
+      "city": "modry-kamen",
+      "systemDistrict": "Veľký Krtíš",
+      "airDistance": 8.8,
+      "roadDistance": 21.5,
+      "variants": [
+        {
+          "name": "Senné",
+          "district": "Veľký Krtíš",
+          "lat": 48.3308127,
+          "lon": 19.4098853
+        },
+        {
+          "name": "Senné",
+          "district": "Michalovce",
+          "lat": 48.6596811,
+          "lon": 22.0141099
+        }
+      ]
+    },
+    {
+      "municipality": "senne",
+      "city": "velky-krtis",
+      "systemDistrict": "Veľký Krtíš",
+      "airDistance": 11.6,
+      "roadDistance": 19.4,
+      "variants": [
+        {
+          "name": "Senné",
+          "district": "Veľký Krtíš",
+          "lat": 48.3308127,
+          "lon": 19.4098853
+        },
+        {
+          "name": "Senné",
+          "district": "Michalovce",
+          "lat": 48.6596811,
+          "lon": 22.0141099
+        }
+      ]
+    },
+    {
+      "municipality": "senne",
+      "city": "lucenec",
+      "systemDistrict": "Veľký Krtíš",
+      "airDistance": 20,
+      "roadDistance": 28.3,
+      "variants": [
+        {
+          "name": "Senné",
+          "district": "Veľký Krtíš",
+          "lat": 48.3308127,
+          "lon": 19.4098853
+        },
+        {
+          "name": "Senné",
+          "district": "Michalovce",
+          "lat": 48.6596811,
+          "lon": 22.0141099
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "total": 90,
+  "critical": [
+    {
+      "name": "Ardovo",
+      "district": "Rožňava",
+      "x": 48.533333,
+      "y": 20.416667
+    },
+    {
+      "name": "Ďačov",
+      "district": "Sabinov",
+      "x": 49.15,
+      "y": 20.933333
+    },
+    {
+      "name": "Giglovce",
+      "district": "Vranov nad Topľou",
+      "x": 49,
+      "y": 21.733333
+    },
+    {
+      "name": "Hnilec",
+      "district": "Spišská Nová Ves",
+      "x": 48.833333,
+      "y": 20.5
+    },
+    {
+      "name": "Horný Kalník",
+      "district": "Martin",
+      "x": 49.033333,
+      "y": 18.966667
+    },
+    {
+      "name": "Chanava",
+      "district": "Rimavská Sobota",
+      "x": 48.333333,
+      "y": 20.3
+    },
+    {
+      "name": "Jablonec",
+      "district": "Pezinok",
+      "x": 48.333333,
+      "y": 17.45
+    },
+    {
+      "name": "Jakubova Voľa",
+      "district": "Sabinov",
+      "x": 49.133333,
+      "y": 21.016667
+    },
+    {
+      "name": "Jastrabá",
+      "district": "Žiar nad Hronom",
+      "x": 48.633333,
+      "y": 18.933333
+    },
+    {
+      "name": "Kolačkov",
+      "district": "Stará Ľubovňa",
+      "x": 49.266667,
+      "y": 20.633333
+    },
+    {
+      "name": "Kunešov",
+      "district": "Žiar nad Hronom",
+      "x": 48.733333,
+      "y": 18.866667
+    },
+    {
+      "name": "Livinské Opatovce",
+      "district": "Partizánske",
+      "x": 48.65,
+      "y": 18.233333
+    },
+    {
+      "name": "Lúčka",
+      "district": "Sabinov",
+      "x": 49.1833333,
+      "y": 20.9833333
+    },
+    {
+      "name": "Matúškovo",
+      "district": "Galanta",
+      "x": 48.166667,
+      "y": 17.733333
+    },
+    {
+      "name": "Meliata",
+      "district": "Rožňava",
+      "x": 48.516667,
+      "y": 20.333333
+    },
+    {
+      "name": "Miňovce",
+      "district": "Stropkov",
+      "x": 49.133333,
+      "y": 21.65
+    },
+    {
+      "name": "Miroľa",
+      "district": "Svidník",
+      "x": 49.329959,
+      "y": 21.733333
+    },
+    {
+      "name": "Naháč",
+      "district": "Trnava",
+      "x": 48.533333,
+      "y": 17.533333
+    },
+    {
+      "name": "Nižná Olšava",
+      "district": "Stropkov",
+      "x": 49.15,
+      "y": 21.633333
+    },
+    {
+      "name": "Nižný Čaj",
+      "district": "Košice-okolie",
+      "x": 48.666667,
+      "y": 21.4
+    },
+    {
+      "name": "Osturňa",
+      "district": "Kežmarok",
+      "x": 49.333333,
+      "y": 20.233333
+    },
+    {
+      "name": "Poloma",
+      "district": "Sabinov",
+      "x": 49.166667,
+      "y": 20.833333
+    },
+    {
+      "name": "Priechod",
+      "district": "Banská Bystrica",
+      "x": 48.783333,
+      "y": 19.233333
+    },
+    {
+      "name": "Radošina",
+      "district": "Topoľčany",
+      "x": 48.55,
+      "y": 17.933333
+    },
+    {
+      "name": "Sihelné",
+      "district": "Námestovo",
+      "x": 49.5,
+      "y": 19.433333
+    },
+    {
+      "name": "Starina",
+      "district": "Stará Ľubovňa",
+      "x": 49.333333,
+      "y": 20.833333
+    },
+    {
+      "name": "Svätuš",
+      "district": "Sobrance",
+      "x": 48.683333,
+      "y": 22.133333
+    },
+    {
+      "name": "Šiba",
+      "district": "Bardejov",
+      "x": 49.233333,
+      "y": 21.233333
+    },
+    {
+      "name": "Veľké Lovce",
+      "district": "Nové Zámky",
+      "x": 48.066661,
+      "y": 18.333335
+    },
+    {
+      "name": "Veselé",
+      "district": "Piešťany",
+      "x": 48.55,
+      "y": 17.733333
+    }
+  ],
+  "moderate": [
+    {
+      "name": "Blatná Polianka",
+      "district": "Sobrance",
+      "x": 48.683333,
+      "y": 22.1
+    },
+    {
+      "name": "Bystrička",
+      "district": "Martin",
+      "x": 49.05,
+      "y": 18.883333
+    },
+    {
+      "name": "Bzenov",
+      "district": "Prešov",
+      "x": 48.95,
+      "y": 21.166667
+    },
+    {
+      "name": "Dolná Streda",
+      "district": "Galanta",
+      "x": 48.266667,
+      "y": 17.75
+    },
+    {
+      "name": "Dolný Vadičov",
+      "district": "Kysucké Nové Mesto",
+      "x": 49.266667,
+      "y": 18.85
+    },
+    {
+      "name": "Družstevná pri Hornáde",
+      "district": "Košice-okolie",
+      "x": 48.8,
+      "y": 21.25
+    },
+    {
+      "name": "Ďapalovce",
+      "district": "Vranov nad Topľou",
+      "x": 49.066667,
+      "y": 21.75
+    },
+    {
+      "name": "Fričovce",
+      "district": "Prešov",
+      "x": 49.016667,
+      "y": 20.966667
+    },
+    {
+      "name": "Gemer",
+      "district": "Revúca",
+      "x": 48.45,
+      "y": 20.316667
+    },
+    {
+      "name": "Hanková",
+      "district": "Rožňava",
+      "x": 48.75,
+      "y": 20.316667
+    },
+    {
+      "name": "Horná Súča",
+      "district": "Trenčín",
+      "x": 48.966667,
+      "y": 17.983333
+    },
+    {
+      "name": "Horný Vadičov",
+      "district": "Kysucké Nové Mesto",
+      "x": 49.266667,
+      "y": 18.883333
+    },
+    {
+      "name": "Hubovo",
+      "district": "Rimavská Sobota",
+      "x": 48.4,
+      "y": 20.366667
+    },
+    {
+      "name": "Hul",
+      "district": "Nové Zámky",
+      "x": 48.1,
+      "y": 18.266667
+    },
+    {
+      "name": "Chmeľová",
+      "district": "Bardejov",
+      "x": 49.4,
+      "y": 21.3
+    },
+    {
+      "name": "Chmeľovec",
+      "district": "Prešov",
+      "x": 49.083333,
+      "y": 21.366667
+    },
+    {
+      "name": "Keť",
+      "district": "Levice",
+      "x": 47.966667,
+      "y": 18.566667
+    },
+    {
+      "name": "Konská",
+      "district": "Žilina",
+      "x": 49.1166667,
+      "y": 19.7166667
+    },
+    {
+      "name": "Kostoľany nad Hornádom",
+      "district": "Košice-okolie",
+      "x": 48.797,
+      "y": 21.24
+    },
+    {
+      "name": "Košice I",
+      "district": "Košice",
+      "x": 48.72,
+      "y": 21.258
+    },
+    {
+      "name": "Košice III",
+      "district": "Košice",
+      "x": 48.74,
+      "y": 21.243
+    },
+    {
+      "name": "Koválovec",
+      "district": "Skalica",
+      "x": 48.783333,
+      "y": 17.3
+    },
+    {
+      "name": "Kožany",
+      "district": "Bardejov",
+      "x": 49.216667,
+      "y": 21.5
+    },
+    {
+      "name": "Kožuchov",
+      "district": "Trebišov",
+      "x": 48.566667,
+      "y": 21.72459
+    },
+    {
+      "name": "Krásnohorské Podhradie",
+      "district": "Rožňava",
+      "x": 48.65,
+      "y": 20.6
+    },
+    {
+      "name": "Krížovany",
+      "district": "Prešov",
+      "x": 48.983333,
+      "y": 21.05
+    },
+    {
+      "name": "Laškovce",
+      "district": "Michalovce",
+      "x": 48.7,
+      "y": 21.85
+    },
+    {
+      "name": "Lesné",
+      "district": "Michalovce",
+      "x": 48.8,
+      "y": 21.816667
+    },
+    {
+      "name": "Lomnička",
+      "district": "Stará Ľubovňa",
+      "x": 49.25,
+      "y": 20.569041
+    },
+    {
+      "name": "Lošonec",
+      "district": "Trnava",
+      "x": 48.483333,
+      "y": 17.4
+    },
+    {
+      "name": "Ľutina",
+      "district": "Sabinov",
+      "x": 49.166667,
+      "y": 21.05
+    },
+    {
+      "name": "Mokrý Háj",
+      "district": "Skalica",
+      "x": 48.816667,
+      "y": 17.25
+    },
+    {
+      "name": "Nižný Slavkov",
+      "district": "Sabinov",
+      "x": 49.1,
+      "y": 20.85
+    },
+    {
+      "name": "Olejníkov",
+      "district": "Sabinov",
+      "x": 49.183333,
+      "y": 21.066667
+    },
+    {
+      "name": "Oravská Polhora",
+      "district": "Námestovo",
+      "x": 49.516667,
+      "y": 19.45
+    },
+    {
+      "name": "Oravské Veselé",
+      "district": "Námestovo",
+      "x": 49.466667,
+      "y": 19.383333
+    },
+    {
+      "name": "Orlov",
+      "district": "Stará Ľubovňa",
+      "x": 49.283333,
+      "y": 20.866667
+    },
+    {
+      "name": "Parchovany",
+      "district": "Trebišov",
+      "x": 48.75,
+      "y": 21.716667
+    },
+    {
+      "name": "Pobedim",
+      "district": "Nové Mesto nad Váhom",
+      "x": 48.65,
+      "y": 17.8
+    },
+    {
+      "name": "Polomka",
+      "district": "Brezno",
+      "x": 48.85,
+      "y": 19.85
+    },
+    {
+      "name": "Radimov",
+      "district": "Skalica",
+      "x": 48.75,
+      "y": 17.2
+    },
+    {
+      "name": "Remetské Hámre",
+      "district": "Sobrance",
+      "x": 48.85,
+      "y": 22.183333
+    },
+    {
+      "name": "Rozložná",
+      "district": "Rožňava",
+      "x": 48.616667,
+      "y": 20.35
+    },
+    {
+      "name": "Sirk",
+      "district": "Revúca",
+      "x": 48.616667,
+      "y": 20.1
+    },
+    {
+      "name": "Slovenská Kajňa",
+      "district": "Vranov nad Topľou",
+      "x": 48.966667,
+      "y": 21.7
+    },
+    {
+      "name": "Smilno",
+      "district": "Bardejov",
+      "x": 49.383333,
+      "y": 21.35
+    },
+    {
+      "name": "Socovce",
+      "district": "Martin",
+      "x": 48.95,
+      "y": 18.866667
+    },
+    {
+      "name": "Šašová",
+      "district": "Bardejov",
+      "x": 49.25,
+      "y": 21.45
+    },
+    {
+      "name": "Šútovo",
+      "district": "Martin",
+      "x": 49.15,
+      "y": 19.083333
+    },
+    {
+      "name": "Trenčianska Turná",
+      "district": "Trenčín",
+      "x": 48.85,
+      "y": 18.016667
+    },
+    {
+      "name": "Váhovce",
+      "district": "Galanta",
+      "x": 48.25,
+      "y": 17.783333
+    },
+    {
+      "name": "Valča",
+      "district": "Martin",
+      "x": 49,
+      "y": 18.85
+    },
+    {
+      "name": "Vavrinec",
+      "district": "Vranov nad Topľou",
+      "x": 49.05,
+      "y": 21.6
+    },
+    {
+      "name": "Veľká Tŕňa",
+      "district": "Trebišov",
+      "x": 48.466667,
+      "y": 21.683333
+    },
+    {
+      "name": "Veľké Kosihy",
+      "district": "Komárno",
+      "x": 47.766667,
+      "y": 17.883333
+    },
+    {
+      "name": "Veľké Ripňany",
+      "district": "Topoľčany",
+      "x": 48.5,
+      "y": 17.983628
+    },
+    {
+      "name": "Voľa",
+      "district": "Michalovce",
+      "x": 48.85,
+      "y": 21.85
+    },
+    {
+      "name": "Vyšný Čaj",
+      "district": "Košice-okolie",
+      "x": 48.683333,
+      "y": 21.4
+    },
+    {
+      "name": "Zubák",
+      "district": "Púchov",
+      "x": 49.15,
+      "y": 18.216667
+    },
+    {
+      "name": "Žitavce",
+      "district": "Nitra",
+      "x": 48.2,
+      "y": 18.3
+    }
+  ]
+}

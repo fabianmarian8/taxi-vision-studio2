@@ -1,0 +1,4162 @@
+[
+  {
+    "name": "Adamov",
+    "lat": 49.300901,
+    "lon": 16.6544811,
+    "type": "town",
+    "population": "4970",
+    "osm_id": 1601563358
+  },
+  {
+    "name": "Aš",
+    "lat": 50.2216257,
+    "lon": 12.1895886,
+    "type": "town",
+    "population": "11632",
+    "osm_id": 1599034594
+  },
+  {
+    "name": "Bakov nad Jizerou",
+    "lat": 50.4801187,
+    "lon": 14.9388306,
+    "type": "town",
+    "population": "3517",
+    "osm_id": 1601122828
+  },
+  {
+    "name": "Bavorov",
+    "lat": 49.1215197,
+    "lon": 14.0786042,
+    "type": "town",
+    "population": "1597",
+    "osm_id": 1599237284
+  },
+  {
+    "name": "Bechyně",
+    "lat": 49.2953802,
+    "lon": 14.46884,
+    "type": "town",
+    "population": "5125",
+    "osm_id": 1599258637
+  },
+  {
+    "name": "Benešov",
+    "lat": 49.7828898,
+    "lon": 14.6875926,
+    "type": "town",
+    "population": "16522",
+    "osm_id": 1600657508
+  },
+  {
+    "name": "Benešov nad Ploučnicí",
+    "lat": 50.7413413,
+    "lon": 14.3112047,
+    "type": "town",
+    "population": "3991",
+    "osm_id": 1598883702
+  },
+  {
+    "name": "Benátky nad Jizerou",
+    "lat": 50.291767,
+    "lon": 14.8260014,
+    "type": "town",
+    "population": "5914",
+    "osm_id": 1601122806
+  },
+  {
+    "name": "Beroun",
+    "lat": 49.9640292,
+    "lon": 14.0733907,
+    "type": "town",
+    "population": "19439",
+    "osm_id": 1600666022
+  },
+  {
+    "name": "Bezdružice",
+    "lat": 49.907242,
+    "lon": 12.9711049,
+    "type": "town",
+    "population": "938",
+    "osm_id": 420344130
+  },
+  {
+    "name": "Blansko",
+    "lat": 49.3636494,
+    "lon": 16.6442394,
+    "type": "town",
+    "population": "17920",
+    "osm_id": 1601563389
+  },
+  {
+    "name": "Blatná",
+    "lat": 49.4239848,
+    "lon": 13.8840972,
+    "type": "town",
+    "population": "6634",
+    "osm_id": 1599237285
+  },
+  {
+    "name": "Blovice",
+    "lat": 49.5821789,
+    "lon": 13.5403535,
+    "type": "town",
+    "population": "4170",
+    "osm_id": 1599462484
+  },
+  {
+    "name": "Bohumín",
+    "lat": 49.9041537,
+    "lon": 18.3574288,
+    "type": "town",
+    "population": "18914",
+    "osm_id": 1601423016
+  },
+  {
+    "name": "Bojkovice",
+    "lat": 49.0389132,
+    "lon": 17.8148347,
+    "type": "town",
+    "population": "3949",
+    "osm_id": 1598945157
+  },
+  {
+    "name": "Bor",
+    "lat": 49.7117435,
+    "lon": 12.7752132,
+    "type": "town",
+    "population": "4304",
+    "osm_id": 1599474359
+  },
+  {
+    "name": "Borohrádek",
+    "lat": 50.0978039,
+    "lon": 16.0932512,
+    "type": "town",
+    "population": "2081",
+    "osm_id": 1587268060
+  },
+  {
+    "name": "Borovany",
+    "lat": 48.8998724,
+    "lon": 14.6419628,
+    "type": "town",
+    "population": "4147",
+    "osm_id": 1599120952
+  },
+  {
+    "name": "Boskovice",
+    "lat": 49.4877983,
+    "lon": 16.66016,
+    "type": "town",
+    "population": "10679",
+    "osm_id": 1601563355
+  },
+  {
+    "name": "Brandýs nad Labem-Stará Boleslav",
+    "lat": 50.1912412,
+    "lon": 14.6649786,
+    "type": "town",
+    "population": "20313",
+    "osm_id": 1601196683
+  },
+  {
+    "name": "Brandýs nad Orlicí",
+    "lat": 50.0019438,
+    "lon": 16.285279,
+    "type": "town",
+    "population": "1438",
+    "osm_id": 1586646715
+  },
+  {
+    "name": "Brno",
+    "lat": 49.1922443,
+    "lon": 16.6113382,
+    "type": "city",
+    "population": "379466",
+    "osm_id": 1601566699
+  },
+  {
+    "name": "Broumov",
+    "lat": 50.5854557,
+    "lon": 16.3322957,
+    "type": "town",
+    "population": "6824",
+    "osm_id": 1586673913
+  },
+  {
+    "name": "Brtnice",
+    "lat": 49.3068037,
+    "lon": 15.6766872,
+    "type": "town",
+    "population": "3745",
+    "osm_id": 1586423239
+  },
+  {
+    "name": "Brumov-Bylnice",
+    "lat": 49.0914652,
+    "lon": 18.0226805,
+    "type": "town",
+    "population": "3429",
+    "osm_id": 310540253
+  },
+  {
+    "name": "Bruntál",
+    "lat": 49.9885113,
+    "lon": 17.4652901,
+    "type": "town",
+    "population": "17453",
+    "osm_id": 1601394326
+  },
+  {
+    "name": "Brušperk",
+    "lat": 49.7003751,
+    "lon": 18.2216061,
+    "type": "town",
+    "population": "3587",
+    "osm_id": 1601416195
+  },
+  {
+    "name": "Budišov nad Budišovkou",
+    "lat": 49.7949749,
+    "lon": 17.6289202,
+    "type": "town",
+    "population": "2778",
+    "osm_id": 1601511656
+  },
+  {
+    "name": "Budyně nad Ohří",
+    "lat": 50.4042725,
+    "lon": 14.1259073,
+    "type": "town",
+    "population": "2159",
+    "osm_id": 1598884364
+  },
+  {
+    "name": "Bučovice",
+    "lat": 49.1492236,
+    "lon": 17.001864,
+    "type": "town",
+    "population": "4453",
+    "osm_id": 1601724860
+  },
+  {
+    "name": "Buštěhrad",
+    "lat": 50.1558258,
+    "lon": 14.188817,
+    "type": "town",
+    "population": "3407",
+    "osm_id": 1600669523
+  },
+  {
+    "name": "Bystřice",
+    "lat": 49.7321319,
+    "lon": 14.667401,
+    "type": "town",
+    "population": "4370",
+    "osm_id": 1600657413
+  },
+  {
+    "name": "Bystřice nad Pernštejnem",
+    "lat": 49.5229885,
+    "lon": 16.2610589,
+    "type": "town",
+    "population": "7793",
+    "osm_id": 1586413144
+  },
+  {
+    "name": "Bystřice pod Hostýnem",
+    "lat": 49.399451,
+    "lon": 17.6737912,
+    "type": "town",
+    "population": "6971",
+    "osm_id": 1598911140
+  },
+  {
+    "name": "Bzenec",
+    "lat": 48.9736321,
+    "lon": 17.2668112,
+    "type": "town",
+    "population": "4200",
+    "osm_id": 1601694912
+  },
+  {
+    "name": "Bílina",
+    "lat": 50.5486059,
+    "lon": 13.7746622,
+    "type": "town",
+    "population": "15886",
+    "osm_id": 1598413771
+  },
+  {
+    "name": "Bílovec",
+    "lat": 49.7567664,
+    "lon": 18.01623,
+    "type": "town",
+    "population": "5857",
+    "osm_id": 1601461501
+  },
+  {
+    "name": "Bělá nad Radbuzou",
+    "lat": 49.5913115,
+    "lon": 12.7175309,
+    "type": "town",
+    "population": "1392",
+    "osm_id": 1599437775
+  },
+  {
+    "name": "Bělá pod Bezdězem",
+    "lat": 50.5014795,
+    "lon": 14.8041263,
+    "type": "town",
+    "population": "4416",
+    "osm_id": 1601122716
+  },
+  {
+    "name": "Břeclav",
+    "lat": 48.7594008,
+    "lon": 16.8813137,
+    "type": "town",
+    "population": "19502",
+    "osm_id": 1601662907
+  },
+  {
+    "name": "Březnice",
+    "lat": 49.5573532,
+    "lon": 13.950849,
+    "type": "town",
+    "population": "3539",
+    "osm_id": 1601289309
+  },
+  {
+    "name": "Březová",
+    "lat": 50.1472648,
+    "lon": 12.6467805,
+    "type": "town",
+    "population": "2638",
+    "osm_id": 1599059257
+  },
+  {
+    "name": "Březová nad Svitavou",
+    "lat": 49.6447658,
+    "lon": 16.5174116,
+    "type": "town",
+    "population": "1379",
+    "osm_id": 1586597660
+  },
+  {
+    "name": "Břidličná",
+    "lat": 49.9116692,
+    "lon": 17.3710729,
+    "type": "town",
+    "population": "3517",
+    "osm_id": 1601394322
+  },
+  {
+    "name": "Cheb",
+    "lat": 50.0793511,
+    "lon": 12.3703526,
+    "type": "town",
+    "population": "30420",
+    "osm_id": 1599034593
+  },
+  {
+    "name": "Chlumec",
+    "lat": 50.699992,
+    "lon": 13.9397526,
+    "type": "town",
+    "population": "3899",
+    "osm_id": 1598391629
+  },
+  {
+    "name": "Chlumec nad Cidlinou",
+    "lat": 50.154395,
+    "lon": 15.4603384,
+    "type": "town",
+    "population": "4779",
+    "osm_id": 1586377557
+  },
+  {
+    "name": "Choceň",
+    "lat": 50.0010925,
+    "lon": 16.2240034,
+    "type": "town",
+    "population": "8584",
+    "osm_id": 1586646699
+  },
+  {
+    "name": "Chodov",
+    "lat": 50.2390665,
+    "lon": 12.7489079,
+    "type": "town",
+    "population": "14485",
+    "osm_id": 1599059251
+  },
+  {
+    "name": "Chomutov",
+    "lat": 50.4606456,
+    "lon": 13.4178324,
+    "type": "town",
+    "population": "46263",
+    "osm_id": 1598422439
+  },
+  {
+    "name": "Chotěboř",
+    "lat": 49.7202055,
+    "lon": 15.6704437,
+    "type": "town",
+    "population": "9290",
+    "osm_id": 1586392697
+  },
+  {
+    "name": "Chrast",
+    "lat": 49.9018929,
+    "lon": 15.9340257,
+    "type": "town",
+    "population": "2618",
+    "osm_id": 1584553008
+  },
+  {
+    "name": "Chrastava",
+    "lat": 50.8172919,
+    "lon": 14.968859,
+    "type": "town",
+    "population": "4894",
+    "osm_id": 1587363568
+  },
+  {
+    "name": "Chropyně",
+    "lat": 49.3567094,
+    "lon": 17.3644698,
+    "type": "town",
+    "population": "5020",
+    "osm_id": 1598911135
+  },
+  {
+    "name": "Chrudim",
+    "lat": 49.9511458,
+    "lon": 15.7947559,
+    "type": "town",
+    "population": "23002",
+    "osm_id": 1584552987
+  },
+  {
+    "name": "Chvaletice",
+    "lat": 50.0348654,
+    "lon": 15.4184231,
+    "type": "town",
+    "population": "3190",
+    "osm_id": 1585114123
+  },
+  {
+    "name": "Chýnov",
+    "lat": 49.4067686,
+    "lon": 14.8112157,
+    "type": "town",
+    "population": "2471",
+    "osm_id": 1599258504
+  },
+  {
+    "name": "Chýně",
+    "lat": 50.0606462,
+    "lon": 14.2272998,
+    "type": "town",
+    "population": "4309",
+    "osm_id": 1601232534
+  },
+  {
+    "name": "Cvikov",
+    "lat": 50.7766765,
+    "lon": 14.6329751,
+    "type": "town",
+    "population": "3867",
+    "osm_id": 1587521931
+  },
+  {
+    "name": "Dačice",
+    "lat": 49.0818108,
+    "lon": 15.437216,
+    "type": "town",
+    "population": "7351",
+    "osm_id": 1599164818
+  },
+  {
+    "name": "Desná",
+    "lat": 50.760138,
+    "lon": 15.3027864,
+    "type": "town",
+    "population": "1146",
+    "osm_id": 349328493
+  },
+  {
+    "name": "Deštná",
+    "lat": 49.2651773,
+    "lon": 14.9238356,
+    "type": "town",
+    "population": "758",
+    "osm_id": 1599164798
+  },
+  {
+    "name": "Dobruška",
+    "lat": 50.2921062,
+    "lon": 16.1605457,
+    "type": "town",
+    "population": "6675",
+    "osm_id": 1587267989
+  },
+  {
+    "name": "Dobřany",
+    "lat": 49.6554407,
+    "lon": 13.2908386,
+    "type": "town",
+    "population": "6175",
+    "osm_id": 1599462462
+  },
+  {
+    "name": "Dobřichovice",
+    "lat": 49.9275312,
+    "lon": 14.2743416,
+    "type": "town",
+    "population": "3651",
+    "osm_id": 1601232488
+  },
+  {
+    "name": "Dobříš",
+    "lat": 49.7813749,
+    "lon": 14.1704372,
+    "type": "town",
+    "population": "7794",
+    "osm_id": 1601289111
+  },
+  {
+    "name": "Doksy",
+    "lat": 50.5642825,
+    "lon": 14.6553399,
+    "type": "town",
+    "population": "4076",
+    "osm_id": 1587521893
+  },
+  {
+    "name": "Dolní Benešov",
+    "lat": 49.9210128,
+    "lon": 18.1083515,
+    "type": "town",
+    "population": "3675",
+    "osm_id": 1601511523
+  },
+  {
+    "name": "Dolní Bousov",
+    "lat": 50.4384383,
+    "lon": 15.1276531,
+    "type": "town",
+    "population": "2814",
+    "osm_id": 1601122562
+  },
+  {
+    "name": "Dolní Kounice",
+    "lat": 49.0702561,
+    "lon": 16.4649901,
+    "type": "town",
+    "population": "2560",
+    "osm_id": 1601617514
+  },
+  {
+    "name": "Domažlice",
+    "lat": 49.4403546,
+    "lon": 12.929748,
+    "type": "town",
+    "population": "10897",
+    "osm_id": 1599437736
+  },
+  {
+    "name": "Dubí",
+    "lat": 50.6812997,
+    "lon": 13.788771,
+    "type": "town",
+    "population": "3675",
+    "osm_id": 1598413764
+  },
+  {
+    "name": "Dubňany",
+    "lat": 48.9175078,
+    "lon": 17.0955296,
+    "type": "town",
+    "population": "6661",
+    "osm_id": 1601694862
+  },
+  {
+    "name": "Duchcov",
+    "lat": 50.6040315,
+    "lon": 13.7461464,
+    "type": "town",
+    "population": "8780",
+    "osm_id": 1598413763
+  },
+  {
+    "name": "Dvůr Králové nad Labem",
+    "lat": 50.4319053,
+    "lon": 15.8139947,
+    "type": "town",
+    "population": "14938",
+    "osm_id": 1587266362
+  },
+  {
+    "name": "Děčín",
+    "lat": 50.7824196,
+    "lon": 14.2147221,
+    "type": "town",
+    "population": "47029",
+    "osm_id": 1598883617
+  },
+  {
+    "name": "Františkovy Lázně",
+    "lat": 50.1223741,
+    "lon": 12.3488519,
+    "type": "town",
+    "population": "4155",
+    "osm_id": 1599034553
+  },
+  {
+    "name": "Frenštát pod Radhoštěm",
+    "lat": 49.5474224,
+    "lon": 18.2117067,
+    "type": "town",
+    "population": "10850",
+    "osm_id": 1601461460
+  },
+  {
+    "name": "Fryšták",
+    "lat": 49.2852044,
+    "lon": 17.6834631,
+    "type": "town",
+    "population": "3140",
+    "osm_id": 1598988226
+  },
+  {
+    "name": "Frýdek-Místek",
+    "lat": 49.685635,
+    "lon": 18.3483416,
+    "type": "town",
+    "population": "53899",
+    "osm_id": 1601416166
+  },
+  {
+    "name": "Frýdlant",
+    "lat": 50.9216775,
+    "lon": 15.0794594,
+    "type": "town",
+    "population": "6789",
+    "osm_id": 86969515
+  },
+  {
+    "name": "Frýdlant nad Ostravicí",
+    "lat": 49.5930718,
+    "lon": 18.3596301,
+    "type": "town",
+    "population": "8781",
+    "osm_id": 1601416132
+  },
+  {
+    "name": "Fulnek",
+    "lat": 49.7126449,
+    "lon": 17.9031553,
+    "type": "town",
+    "population": "3982",
+    "osm_id": 1601461448
+  },
+  {
+    "name": "Golčův Jeníkov",
+    "lat": 49.8160108,
+    "lon": 15.4772768,
+    "type": "town",
+    "population": "2640",
+    "osm_id": 1586392616
+  },
+  {
+    "name": "Habartov",
+    "lat": 50.1825705,
+    "lon": 12.5501639,
+    "type": "town",
+    "population": "4619",
+    "osm_id": 670959706
+  },
+  {
+    "name": "Hanušovice",
+    "lat": 50.0784174,
+    "lon": 16.9347166,
+    "type": "town",
+    "population": "3347",
+    "osm_id": 1599401744
+  },
+  {
+    "name": "Harrachov",
+    "lat": 50.7720087,
+    "lon": 15.4315431,
+    "type": "town",
+    "population": "1301",
+    "osm_id": 1587333378
+  },
+  {
+    "name": "Hartmanice",
+    "lat": 49.1703098,
+    "lon": 13.4548124,
+    "type": "town",
+    "population": "929",
+    "osm_id": 1599446339
+  },
+  {
+    "name": "Havlíčkův Brod",
+    "lat": 49.606942,
+    "lon": 15.5795748,
+    "type": "town",
+    "population": "23101",
+    "osm_id": 1586392563
+  },
+  {
+    "name": "Havířov",
+    "lat": 49.7801136,
+    "lon": 18.4368451,
+    "type": "town",
+    "population": "69084",
+    "osm_id": 1601422954
+  },
+  {
+    "name": "Hejnice",
+    "lat": 50.8780657,
+    "lon": 15.182001,
+    "type": "town",
+    "population": "2751",
+    "osm_id": 2380333902
+  },
+  {
+    "name": "Heřmanův Městec",
+    "lat": 49.9470444,
+    "lon": 15.6646587,
+    "type": "town",
+    "population": "4463",
+    "osm_id": 1584552908
+  },
+  {
+    "name": "Hlinsko",
+    "lat": 49.7625672,
+    "lon": 15.907339,
+    "type": "town",
+    "population": "9955",
+    "osm_id": 1584552891
+  },
+  {
+    "name": "Hluboká nad Vltavou",
+    "lat": 49.0522493,
+    "lon": 14.4342702,
+    "type": "town",
+    "population": "5305",
+    "osm_id": 1599120883
+  },
+  {
+    "name": "Hluk",
+    "lat": 48.988328,
+    "lon": 17.5268918,
+    "type": "town",
+    "population": "4360",
+    "osm_id": 1598945107
+  },
+  {
+    "name": "Hlučín",
+    "lat": 49.896755,
+    "lon": 18.1870424,
+    "type": "town",
+    "population": "13988",
+    "osm_id": 1601511476
+  },
+  {
+    "name": "Hodkovice nad Mohelkou",
+    "lat": 50.6656427,
+    "lon": 15.0901298,
+    "type": "town",
+    "population": "2346",
+    "osm_id": 1587363502
+  },
+  {
+    "name": "Hodonín",
+    "lat": 48.8563914,
+    "lon": 17.1234655,
+    "type": "town",
+    "population": "27361",
+    "osm_id": 8929081105
+  },
+  {
+    "name": "Holešov",
+    "lat": 49.333718,
+    "lon": 17.5786751,
+    "type": "town",
+    "population": "10669",
+    "osm_id": 1598911131
+  },
+  {
+    "name": "Holice",
+    "lat": 50.0662793,
+    "lon": 15.9858513,
+    "type": "town",
+    "population": "4550",
+    "osm_id": 1585113925
+  },
+  {
+    "name": "Holýšov",
+    "lat": 49.5936108,
+    "lon": 13.1012935,
+    "type": "town",
+    "population": "5036",
+    "osm_id": 1599437698
+  },
+  {
+    "name": "Horažďovice",
+    "lat": 49.3210308,
+    "lon": 13.7003604,
+    "type": "town",
+    "population": "5344",
+    "osm_id": 1599446293
+  },
+  {
+    "name": "Horní Bříza",
+    "lat": 49.8411529,
+    "lon": 13.3573652,
+    "type": "town",
+    "population": "4237",
+    "osm_id": 1281838400
+  },
+  {
+    "name": "Horní Cerekev",
+    "lat": 49.3192961,
+    "lon": 15.3291878,
+    "type": "town",
+    "population": "1837",
+    "osm_id": 7507257772
+  },
+  {
+    "name": "Horní Planá",
+    "lat": 48.7673396,
+    "lon": 14.0321919,
+    "type": "town",
+    "population": "2098",
+    "osm_id": 1599136859
+  },
+  {
+    "name": "Horní Slavkov",
+    "lat": 50.139072,
+    "lon": 12.8077875,
+    "type": "town",
+    "population": "5972",
+    "osm_id": 1599059238
+  },
+  {
+    "name": "Horšovský Týn",
+    "lat": 49.5298566,
+    "lon": 12.9436692,
+    "type": "town",
+    "population": "5046",
+    "osm_id": 1599437693
+  },
+  {
+    "name": "Hostinné",
+    "lat": 50.5409308,
+    "lon": 15.723285,
+    "type": "town",
+    "population": "4886",
+    "osm_id": 1587266274
+  },
+  {
+    "name": "Hostivice",
+    "lat": 50.0815167,
+    "lon": 14.2585743,
+    "type": "town",
+    "population": "4458",
+    "osm_id": 1601232391
+  },
+  {
+    "name": "Hostomice",
+    "lat": 49.8252575,
+    "lon": 14.0456045,
+    "type": "town",
+    "population": "1250",
+    "osm_id": 1600665994
+  },
+  {
+    "name": "Hořice",
+    "lat": 50.3665337,
+    "lon": 15.6321735,
+    "type": "town",
+    "population": "8753",
+    "osm_id": 1586676555
+  },
+  {
+    "name": "Hořovice",
+    "lat": 49.8363239,
+    "lon": 13.902867,
+    "type": "town",
+    "population": "7842",
+    "osm_id": 1600665990
+  },
+  {
+    "name": "Hradec Králové",
+    "lat": 50.2092113,
+    "lon": 15.8327512,
+    "type": "city",
+    "population": "90596",
+    "osm_id": 1586377542
+  },
+  {
+    "name": "Hradec nad Moravicí",
+    "lat": 49.8709009,
+    "lon": 17.8754742,
+    "type": "town",
+    "population": "2672",
+    "osm_id": 1601511448
+  },
+  {
+    "name": "Hranice",
+    "lat": 49.5481764,
+    "lon": 17.7347407,
+    "type": "town",
+    "population": "17125",
+    "osm_id": 1599377381
+  },
+  {
+    "name": "Hrob",
+    "lat": 50.6590894,
+    "lon": 13.7255293,
+    "type": "town",
+    "population": "1869",
+    "osm_id": 1598413761
+  },
+  {
+    "name": "Hronov",
+    "lat": 50.4799692,
+    "lon": 16.1820196,
+    "type": "town",
+    "population": "5147",
+    "osm_id": 1586673895
+  },
+  {
+    "name": "Hrotovice",
+    "lat": 49.1076992,
+    "lon": 16.0606741,
+    "type": "town",
+    "population": "1796",
+    "osm_id": 1586663229
+  },
+  {
+    "name": "Hrušovany nad Jevišovkou",
+    "lat": 48.8299011,
+    "lon": 16.4022403,
+    "type": "town",
+    "population": "3314",
+    "osm_id": 1601754940
+  },
+  {
+    "name": "Hrádek",
+    "lat": 49.7099197,
+    "lon": 13.6541018,
+    "type": "town",
+    "population": "2850",
+    "osm_id": 1599471592
+  },
+  {
+    "name": "Hrádek nad Nisou",
+    "lat": 50.8522229,
+    "lon": 14.8436667,
+    "type": "town",
+    "population": "6146",
+    "osm_id": 86968675
+  },
+  {
+    "name": "Hulín",
+    "lat": 49.3170041,
+    "lon": 17.4634978,
+    "type": "town",
+    "population": "7151",
+    "osm_id": 1598911126
+  },
+  {
+    "name": "Humpolec",
+    "lat": 49.5418861,
+    "lon": 15.3586709,
+    "type": "town",
+    "population": "11522",
+    "osm_id": 1586656598
+  },
+  {
+    "name": "Husinec",
+    "lat": 49.0549583,
+    "lon": 13.9869724,
+    "type": "town",
+    "population": "1436",
+    "osm_id": 1599209814
+  },
+  {
+    "name": "Hustopeče",
+    "lat": 48.9399831,
+    "lon": 16.7369738,
+    "type": "town",
+    "population": "5881",
+    "osm_id": 1601662830
+  },
+  {
+    "name": "Ivančice",
+    "lat": 49.1015881,
+    "lon": 16.3776051,
+    "type": "town",
+    "population": "9697",
+    "osm_id": 1601617414
+  },
+  {
+    "name": "Jablonec nad Nisou",
+    "lat": 50.7240899,
+    "lon": 15.1710958,
+    "type": "town",
+    "population": "44588",
+    "osm_id": 1587389785
+  },
+  {
+    "name": "Jablonné nad Orlicí",
+    "lat": 50.0296516,
+    "lon": 16.6001654,
+    "type": "town",
+    "population": "3119",
+    "osm_id": 1586646521
+  },
+  {
+    "name": "Jablonné v Podještědí",
+    "lat": 50.7657554,
+    "lon": 14.7614324,
+    "type": "town",
+    "population": "2857",
+    "osm_id": 1587363466
+  },
+  {
+    "name": "Jablunkov",
+    "lat": 49.5767408,
+    "lon": 18.7645761,
+    "type": "town",
+    "population": "5934",
+    "osm_id": 1601416088
+  },
+  {
+    "name": "Janovice nad Úhlavou",
+    "lat": 49.3452626,
+    "lon": 13.2175818,
+    "type": "town",
+    "population": "2227",
+    "osm_id": 1599446280
+  },
+  {
+    "name": "Janské Lázně",
+    "lat": 50.6305685,
+    "lon": 15.7806938,
+    "type": "town",
+    "population": "675",
+    "osm_id": 1587266257
+  },
+  {
+    "name": "Jaroměř",
+    "lat": 50.3555139,
+    "lon": 15.9189129,
+    "type": "town",
+    "population": "9546",
+    "osm_id": 1586673892
+  },
+  {
+    "name": "Jaroměřice nad Rokytnou",
+    "lat": 49.0943503,
+    "lon": 15.8932579,
+    "type": "town",
+    "population": "4175",
+    "osm_id": 1586663210
+  },
+  {
+    "name": "Jemnice",
+    "lat": 49.0192524,
+    "lon": 15.5698865,
+    "type": "town",
+    "population": "4034",
+    "osm_id": 1586663168
+  },
+  {
+    "name": "Jesenice",
+    "lat": 49.9687565,
+    "lon": 14.5158132,
+    "type": "town",
+    "population": "1469",
+    "osm_id": 1601232310
+  },
+  {
+    "name": "Jeseník",
+    "lat": 50.2296385,
+    "lon": 17.2046012,
+    "type": "town",
+    "population": "10838",
+    "osm_id": 1599276425
+  },
+  {
+    "name": "Jevišovice",
+    "lat": 48.9874765,
+    "lon": 15.9896915,
+    "type": "town",
+    "population": "1172",
+    "osm_id": 669333227
+  },
+  {
+    "name": "Jevíčko",
+    "lat": 49.6324875,
+    "lon": 16.7118442,
+    "type": "town",
+    "population": "2797",
+    "osm_id": 450305018
+  },
+  {
+    "name": "Jihlava",
+    "lat": 49.396064,
+    "lon": 15.5903065,
+    "type": "city",
+    "population": "50108",
+    "osm_id": 21562694
+  },
+  {
+    "name": "Jilemnice",
+    "lat": 50.6091761,
+    "lon": 15.5064747,
+    "type": "town",
+    "population": "5616",
+    "osm_id": 1587333219
+  },
+  {
+    "name": "Jindřichův Hradec",
+    "lat": 49.1443265,
+    "lon": 15.003354,
+    "type": "town",
+    "population": "21460",
+    "osm_id": 1599164680
+  },
+  {
+    "name": "Jirkov",
+    "lat": 50.5000597,
+    "lon": 13.4476266,
+    "type": "town",
+    "population": "20239",
+    "osm_id": 1598422393
+  },
+  {
+    "name": "Jistebnice",
+    "lat": 49.4855868,
+    "lon": 14.5277008,
+    "type": "town",
+    "population": "2010",
+    "osm_id": 1599258376
+  },
+  {
+    "name": "Jičín",
+    "lat": 50.4370452,
+    "lon": 15.3516528,
+    "type": "town",
+    "population": "15485",
+    "osm_id": 1586676512
+  },
+  {
+    "name": "Jiříkov",
+    "lat": 50.9951393,
+    "lon": 14.5690963,
+    "type": "town",
+    "population": "3473",
+    "osm_id": 1598883352
+  },
+  {
+    "name": "Jílové",
+    "lat": 50.7610971,
+    "lon": 14.1041986,
+    "type": "town",
+    "population": "3705",
+    "osm_id": 1598883326
+  },
+  {
+    "name": "Jílové u Prahy",
+    "lat": 49.8952972,
+    "lon": 14.4933502,
+    "type": "town",
+    "population": "2370",
+    "osm_id": 1601232252
+  },
+  {
+    "name": "Kadaň",
+    "lat": 50.3761991,
+    "lon": 13.2710364,
+    "type": "town",
+    "population": "16975",
+    "osm_id": 1598422369
+  },
+  {
+    "name": "Kamenice nad Lipou",
+    "lat": 49.303118,
+    "lon": 15.0754914,
+    "type": "town",
+    "population": "3735",
+    "osm_id": 1586656489
+  },
+  {
+    "name": "Kamenický Šenov",
+    "lat": 50.7735891,
+    "lon": 14.4728675,
+    "type": "town",
+    "population": "3649",
+    "osm_id": 1587521748
+  },
+  {
+    "name": "Kaplice",
+    "lat": 48.7389045,
+    "lon": 14.493718,
+    "type": "town",
+    "population": "7078",
+    "osm_id": 1599136803
+  },
+  {
+    "name": "Kardašova Řečice",
+    "lat": 49.1847779,
+    "lon": 14.8531546,
+    "type": "town",
+    "population": "2242",
+    "osm_id": 1599164676
+  },
+  {
+    "name": "Karlovy Vary",
+    "lat": 50.2306216,
+    "lon": 12.8701437,
+    "type": "city",
+    "population": "49353",
+    "osm_id": 1599050315
+  },
+  {
+    "name": "Karviná",
+    "lat": 49.8542719,
+    "lon": 18.5416556,
+    "type": "town",
+    "population": "49881",
+    "osm_id": 1601422907
+  },
+  {
+    "name": "Kasejovice",
+    "lat": 49.4625179,
+    "lon": 13.740664,
+    "type": "town",
+    "population": "1282",
+    "osm_id": 1599462446
+  },
+  {
+    "name": "Kaznějov",
+    "lat": 49.8931303,
+    "lon": 13.3829479,
+    "type": "town",
+    "population": "3075",
+    "osm_id": 1599467988
+  },
+  {
+    "name": "Kašperské Hory",
+    "lat": 49.1434723,
+    "lon": 13.5560577,
+    "type": "town",
+    "population": "1462",
+    "osm_id": 52742528
+  },
+  {
+    "name": "Kdyně",
+    "lat": 49.3910021,
+    "lon": 13.0392655,
+    "type": "town",
+    "population": "4227",
+    "osm_id": 1599437666
+  },
+  {
+    "name": "Kladno",
+    "lat": 50.1466053,
+    "lon": 14.1026398,
+    "type": "town",
+    "population": "66903",
+    "osm_id": 1600669349
+  },
+  {
+    "name": "Kladruby",
+    "lat": 49.715342,
+    "lon": 12.9800032,
+    "type": "town",
+    "population": "1587",
+    "osm_id": 1599474311
+  },
+  {
+    "name": "Klatovy",
+    "lat": 49.3951183,
+    "lon": 13.2935954,
+    "type": "town",
+    "population": "22288",
+    "osm_id": 1599446262
+  },
+  {
+    "name": "Klecany",
+    "lat": 50.1756713,
+    "lon": 14.4117052,
+    "type": "town",
+    "population": "3608",
+    "osm_id": 1601196272
+  },
+  {
+    "name": "Klimkovice",
+    "lat": 49.7884424,
+    "lon": 18.1254099,
+    "type": "town",
+    "population": "3131",
+    "osm_id": 1601523268
+  },
+  {
+    "name": "Klobouky u Brna",
+    "lat": 48.9951795,
+    "lon": 16.8597347,
+    "type": "town",
+    "population": "2447",
+    "osm_id": 1601662796
+  },
+  {
+    "name": "Klášterec nad Ohří",
+    "lat": 50.3843054,
+    "lon": 13.1710191,
+    "type": "town",
+    "population": "15398",
+    "osm_id": 623726010
+  },
+  {
+    "name": "Kojetín",
+    "lat": 49.3523028,
+    "lon": 17.3026301,
+    "type": "town",
+    "population": "6078",
+    "osm_id": 1599377309
+  },
+  {
+    "name": "Kolín",
+    "lat": 50.0288894,
+    "lon": 15.2011571,
+    "type": "town",
+    "population": "32046",
+    "osm_id": 1600675617
+  },
+  {
+    "name": "Konice",
+    "lat": 49.5905186,
+    "lon": 16.8894268,
+    "type": "town",
+    "population": "2277",
+    "osm_id": 1599348143
+  },
+  {
+    "name": "Kopřivnice",
+    "lat": 49.598913,
+    "lon": 18.1452134,
+    "type": "town",
+    "population": "21160",
+    "osm_id": 1601461325
+  },
+  {
+    "name": "Kosmonosy",
+    "lat": 50.4389828,
+    "lon": 14.9305091,
+    "type": "town",
+    "population": "3620",
+    "osm_id": 1601122375
+  },
+  {
+    "name": "Kostelec na Hané",
+    "lat": 49.5139792,
+    "lon": 17.0582398,
+    "type": "town",
+    "population": "2724",
+    "osm_id": 1599348063
+  },
+  {
+    "name": "Kostelec nad Labem",
+    "lat": 50.226532,
+    "lon": 14.5855201,
+    "type": "town",
+    "population": "4189",
+    "osm_id": 1600879867
+  },
+  {
+    "name": "Kostelec nad Orlicí",
+    "lat": 50.1228126,
+    "lon": 16.2121972,
+    "type": "town",
+    "population": "5836",
+    "osm_id": 1587267869
+  },
+  {
+    "name": "Kostelec nad Černými lesy",
+    "lat": 49.9918984,
+    "lon": 14.8557555,
+    "type": "town",
+    "population": "3087",
+    "osm_id": 1601196137
+  },
+  {
+    "name": "Kouřim",
+    "lat": 50.0034291,
+    "lon": 14.976954,
+    "type": "town",
+    "population": "1909",
+    "osm_id": 1600675608
+  },
+  {
+    "name": "Košťany",
+    "lat": 50.6550196,
+    "lon": 13.7546017,
+    "type": "town",
+    "population": "3000",
+    "osm_id": 1598413745
+  },
+  {
+    "name": "Kožlany",
+    "lat": 49.9938908,
+    "lon": 13.5410653,
+    "type": "town",
+    "population": "1432",
+    "osm_id": 1599467980
+  },
+  {
+    "name": "Kralovice",
+    "lat": 49.9821441,
+    "lon": 13.4867337,
+    "type": "town",
+    "population": "3497",
+    "osm_id": 1599467975
+  },
+  {
+    "name": "Kralupy nad Vltavou",
+    "lat": 50.2415548,
+    "lon": 14.3106491,
+    "type": "town",
+    "population": "18100",
+    "osm_id": 1600879849
+  },
+  {
+    "name": "Kraslice",
+    "lat": 50.3239885,
+    "lon": 12.5174004,
+    "type": "town",
+    "population": "6869",
+    "osm_id": 1599059222
+  },
+  {
+    "name": "Kravaře",
+    "lat": 49.9321321,
+    "lon": 18.0044266,
+    "type": "town",
+    "population": "5124",
+    "osm_id": 1601511399
+  },
+  {
+    "name": "Krnov",
+    "lat": 50.089894,
+    "lon": 17.7040842,
+    "type": "town",
+    "population": "25211",
+    "osm_id": 1601394207
+  },
+  {
+    "name": "Kroměříž",
+    "lat": 49.2984191,
+    "lon": 17.3929804,
+    "type": "town",
+    "population": "26954",
+    "osm_id": 1598911116
+  },
+  {
+    "name": "Krupka",
+    "lat": 50.6847005,
+    "lon": 13.8577518,
+    "type": "town",
+    "population": "3288",
+    "osm_id": 1598413743
+  },
+  {
+    "name": "Králíky",
+    "lat": 50.0843155,
+    "lon": 16.7603731,
+    "type": "town",
+    "population": "3837",
+    "osm_id": 1586646469
+  },
+  {
+    "name": "Králův Dvůr",
+    "lat": 49.9475208,
+    "lon": 14.0395357,
+    "type": "town",
+    "population": "9995",
+    "osm_id": 429604151
+  },
+  {
+    "name": "Krásná Hora nad Vltavou",
+    "lat": 49.6046057,
+    "lon": 14.2774188,
+    "type": "town",
+    "population": "1116",
+    "osm_id": 1601288728
+  },
+  {
+    "name": "Krásná Lípa",
+    "lat": 50.9145647,
+    "lon": 14.5062621,
+    "type": "town",
+    "population": "3288",
+    "osm_id": 1598883301
+  },
+  {
+    "name": "Kunovice",
+    "lat": 49.0419231,
+    "lon": 17.466194,
+    "type": "town",
+    "population": "5152",
+    "osm_id": 1598945047
+  },
+  {
+    "name": "Kunštát",
+    "lat": 49.5072078,
+    "lon": 16.5184624,
+    "type": "town",
+    "population": "2854",
+    "osm_id": 1601563177
+  },
+  {
+    "name": "Kutná Hora",
+    "lat": 49.9486561,
+    "lon": 15.2681123,
+    "type": "town",
+    "population": "20536",
+    "osm_id": 1600680841
+  },
+  {
+    "name": "Kuřim",
+    "lat": 49.2987857,
+    "lon": 16.531396,
+    "type": "town",
+    "population": "10981",
+    "osm_id": 1601617325
+  },
+  {
+    "name": "Kyjov",
+    "lat": 49.0104456,
+    "lon": 17.1224867,
+    "type": "town",
+    "population": "11774",
+    "osm_id": 1601694787
+  },
+  {
+    "name": "Kynšperk nad Ohří",
+    "lat": 50.1182943,
+    "lon": 12.531107,
+    "type": "town",
+    "population": "4936",
+    "osm_id": 1599059173
+  },
+  {
+    "name": "Lanškroun",
+    "lat": 49.9124356,
+    "lon": 16.6118541,
+    "type": "town",
+    "population": "9990",
+    "osm_id": 1586646428
+  },
+  {
+    "name": "Lanžhot",
+    "lat": 48.7245476,
+    "lon": 16.9667035,
+    "type": "town",
+    "population": "3627",
+    "osm_id": 1601662729
+  },
+  {
+    "name": "Ledeč nad Sázavou",
+    "lat": 49.6950166,
+    "lon": 15.2777763,
+    "type": "town",
+    "population": "5741",
+    "osm_id": 1586392119
+  },
+  {
+    "name": "Letohrad",
+    "lat": 50.0360932,
+    "lon": 16.4986002,
+    "type": "town",
+    "population": "3934",
+    "osm_id": 1586646393
+  },
+  {
+    "name": "Letovice",
+    "lat": 49.5467115,
+    "lon": 16.5738843,
+    "type": "town",
+    "population": "4359",
+    "osm_id": 1601563103
+  },
+  {
+    "name": "Liberec",
+    "lat": 50.7702648,
+    "lon": 15.0583947,
+    "type": "city",
+    "population": "102951",
+    "osm_id": 1587363366
+  },
+  {
+    "name": "Libochovice",
+    "lat": 50.4060716,
+    "lon": 14.0422063,
+    "type": "town",
+    "population": "3506",
+    "osm_id": 5036328791
+  },
+  {
+    "name": "Libušín",
+    "lat": 50.1681884,
+    "lon": 14.054581,
+    "type": "town",
+    "population": "3255",
+    "osm_id": 1600669319
+  },
+  {
+    "name": "Libčice nad Vltavou",
+    "lat": 50.1988879,
+    "lon": 14.3624086,
+    "type": "town",
+    "population": "3302",
+    "osm_id": 1601232078
+  },
+  {
+    "name": "Liběchov",
+    "lat": 50.4078364,
+    "lon": 14.4467459,
+    "type": "town",
+    "population": "1073",
+    "osm_id": 5052830681
+  },
+  {
+    "name": "Lipník nad Bečvou",
+    "lat": 49.5273114,
+    "lon": 17.5861035,
+    "type": "town",
+    "population": "7323",
+    "osm_id": 1599377255
+  },
+  {
+    "name": "Litomyšl",
+    "lat": 49.8725491,
+    "lon": 16.3101243,
+    "type": "town",
+    "population": "9317",
+    "osm_id": 1586597247
+  },
+  {
+    "name": "Litoměřice",
+    "lat": 50.5340795,
+    "lon": 14.1317985,
+    "type": "town",
+    "population": "24879",
+    "osm_id": 1598884274
+  },
+  {
+    "name": "Litovel",
+    "lat": 49.7013305,
+    "lon": 17.0758784,
+    "type": "town",
+    "population": "7516",
+    "osm_id": 25470425
+  },
+  {
+    "name": "Litvínov",
+    "lat": 50.6009532,
+    "lon": 13.6110485,
+    "type": "town",
+    "population": "18224",
+    "osm_id": 1598415233
+  },
+  {
+    "name": "Lišov",
+    "lat": 49.0158765,
+    "lon": 14.6083357,
+    "type": "town",
+    "population": "2894",
+    "osm_id": 1599120812
+  },
+  {
+    "name": "Loket",
+    "lat": 50.1860008,
+    "lon": 12.7540466,
+    "type": "town",
+    "population": "3026",
+    "osm_id": 1599059140
+  },
+  {
+    "name": "Lom",
+    "lat": 50.5932769,
+    "lon": 13.6572887,
+    "type": "town",
+    "population": "2641",
+    "osm_id": 430488296
+  },
+  {
+    "name": "Lomnice nad Lužnicí",
+    "lat": 49.0815285,
+    "lon": 14.7181416,
+    "type": "town",
+    "population": "1802",
+    "osm_id": 1599164616
+  },
+  {
+    "name": "Lomnice nad Popelkou",
+    "lat": 50.5310646,
+    "lon": 15.3728809,
+    "type": "town",
+    "population": "5711",
+    "osm_id": 430405005
+  },
+  {
+    "name": "Louny",
+    "lat": 50.3572914,
+    "lon": 13.7969195,
+    "type": "town",
+    "population": "19453",
+    "osm_id": 1598419498
+  },
+  {
+    "name": "Lovosice",
+    "lat": 50.5150033,
+    "lon": 14.0517563,
+    "type": "town",
+    "population": "9312",
+    "osm_id": 1598884234
+  },
+  {
+    "name": "Loštice",
+    "lat": 49.7449432,
+    "lon": 16.9281353,
+    "type": "town",
+    "population": "3025",
+    "osm_id": 1599401582
+  },
+  {
+    "name": "Luhačovice",
+    "lat": 49.0997324,
+    "lon": 17.7577004,
+    "type": "town",
+    "population": "4877",
+    "osm_id": 1598988203
+  },
+  {
+    "name": "Luže",
+    "lat": 49.8934114,
+    "lon": 16.0284252,
+    "type": "town",
+    "population": "1517",
+    "osm_id": 1584552480
+  },
+  {
+    "name": "Lysá nad Labem",
+    "lat": 50.2016983,
+    "lon": 14.832757,
+    "type": "town",
+    "population": "6581",
+    "osm_id": 1601148575
+  },
+  {
+    "name": "Lázně Bohdaneč",
+    "lat": 50.0764166,
+    "lon": 15.6798078,
+    "type": "town",
+    "population": "3096",
+    "osm_id": 1585113543
+  },
+  {
+    "name": "Lázně Bělohrad",
+    "lat": 50.4290274,
+    "lon": 15.5827632,
+    "type": "town",
+    "population": "2744",
+    "osm_id": 310133063
+  },
+  {
+    "name": "Manětín",
+    "lat": 49.991739,
+    "lon": 13.2322454,
+    "type": "town",
+    "population": "1125",
+    "osm_id": 1599467954
+  },
+  {
+    "name": "Mariánské Lázně",
+    "lat": 49.9739518,
+    "lon": 12.703319,
+    "type": "town",
+    "population": "14527",
+    "osm_id": 1599034437
+  },
+  {
+    "name": "Meziboří",
+    "lat": 50.6203084,
+    "lon": 13.6071384,
+    "type": "town",
+    "population": "4969",
+    "osm_id": 430484541
+  },
+  {
+    "name": "Mikulov",
+    "lat": 48.8068577,
+    "lon": 16.6383914,
+    "type": "town",
+    "population": "7387",
+    "osm_id": 1601662702
+  },
+  {
+    "name": "Milevsko",
+    "lat": 49.4503023,
+    "lon": 14.3595152,
+    "type": "town",
+    "population": "8380",
+    "osm_id": 1599176492
+  },
+  {
+    "name": "Milovice",
+    "lat": 50.2259601,
+    "lon": 14.8886322,
+    "type": "town",
+    "population": "3981",
+    "osm_id": 1601148563
+  },
+  {
+    "name": "Mimoň",
+    "lat": 50.6589287,
+    "lon": 14.7244345,
+    "type": "town",
+    "population": "6647",
+    "osm_id": 1587521634
+  },
+  {
+    "name": "Miroslav",
+    "lat": 48.9473112,
+    "lon": 16.3134526,
+    "type": "town",
+    "population": "2930",
+    "osm_id": 1601754915
+  },
+  {
+    "name": "Mirotice",
+    "lat": 49.4290263,
+    "lon": 14.0368614,
+    "type": "town",
+    "population": "1231",
+    "osm_id": 1599176449
+  },
+  {
+    "name": "Mirovice",
+    "lat": 49.515805,
+    "lon": 14.0365862,
+    "type": "town",
+    "population": "1595",
+    "osm_id": 1599176412
+  },
+  {
+    "name": "Mirošov",
+    "lat": 49.6879276,
+    "lon": 13.6580571,
+    "type": "town",
+    "population": "2234",
+    "osm_id": 1599471486
+  },
+  {
+    "name": "Mladá Boleslav",
+    "lat": 50.4116187,
+    "lon": 14.9031301,
+    "type": "town",
+    "population": "41868",
+    "osm_id": 1601122321
+  },
+  {
+    "name": "Mladá Vožice",
+    "lat": 49.5332102,
+    "lon": 14.8088688,
+    "type": "town",
+    "population": "2690",
+    "osm_id": 1599258277
+  },
+  {
+    "name": "Mnichovo Hradiště",
+    "lat": 50.5229864,
+    "lon": 14.9741022,
+    "type": "town",
+    "population": "7011",
+    "osm_id": 1601122292
+  },
+  {
+    "name": "Mníšek pod Brdy",
+    "lat": 49.8664138,
+    "lon": 14.2609488,
+    "type": "town",
+    "population": "4082",
+    "osm_id": 1601232046
+  },
+  {
+    "name": "Modřice",
+    "lat": 49.1288791,
+    "lon": 16.6137074,
+    "type": "town",
+    "population": "5246",
+    "osm_id": 1601617240
+  },
+  {
+    "name": "Mohelnice",
+    "lat": 49.7769472,
+    "lon": 16.9196183,
+    "type": "town",
+    "population": "8513",
+    "osm_id": 1599401520
+  },
+  {
+    "name": "Moravská Třebová",
+    "lat": 49.7581546,
+    "lon": 16.6641472,
+    "type": "town",
+    "population": "10196",
+    "osm_id": 1586597205
+  },
+  {
+    "name": "Moravské Budějovice",
+    "lat": 49.0525768,
+    "lon": 15.8092797,
+    "type": "town",
+    "population": "7397",
+    "osm_id": 1586662898
+  },
+  {
+    "name": "Moravský Beroun",
+    "lat": 49.7939027,
+    "lon": 17.4427357,
+    "type": "town",
+    "population": "2804",
+    "osm_id": 1599305794
+  },
+  {
+    "name": "Moravský Krumlov",
+    "lat": 49.0492698,
+    "lon": 16.3115273,
+    "type": "town",
+    "population": "5758",
+    "osm_id": 1601754906
+  },
+  {
+    "name": "Most",
+    "lat": 50.5032737,
+    "lon": 13.636112,
+    "type": "town",
+    "population": "62866",
+    "osm_id": 1598415164
+  },
+  {
+    "name": "Mýto",
+    "lat": 49.7889973,
+    "lon": 13.7346533,
+    "type": "town",
+    "population": "1565",
+    "osm_id": 1599471407
+  },
+  {
+    "name": "Mělník",
+    "lat": 50.3520785,
+    "lon": 14.4748281,
+    "type": "town",
+    "population": "20350",
+    "osm_id": 1600879737
+  },
+  {
+    "name": "Město Albrechtice",
+    "lat": 50.1631183,
+    "lon": 17.5750385,
+    "type": "town",
+    "population": "2700",
+    "osm_id": 1601394113
+  },
+  {
+    "name": "Měčín",
+    "lat": 49.4795472,
+    "lon": 13.4049175,
+    "type": "town",
+    "population": "1153",
+    "osm_id": 1599446168
+  },
+  {
+    "name": "Mšeno",
+    "lat": 50.4381922,
+    "lon": 14.6326066,
+    "type": "town",
+    "population": "1430",
+    "osm_id": 1600879732
+  },
+  {
+    "name": "Nalžovské Hory",
+    "lat": 49.3335778,
+    "lon": 13.5496097,
+    "type": "town",
+    "population": "1163",
+    "osm_id": 316658297
+  },
+  {
+    "name": "Napajedla",
+    "lat": 49.1715891,
+    "lon": 17.5113718,
+    "type": "town",
+    "population": "7607",
+    "osm_id": 1598988196
+  },
+  {
+    "name": "Nechanice",
+    "lat": 50.2373686,
+    "lon": 15.6327598,
+    "type": "town",
+    "population": "1535",
+    "osm_id": 1586377501
+  },
+  {
+    "name": "Nejdek",
+    "lat": 50.3247878,
+    "lon": 12.7332967,
+    "type": "town",
+    "population": "7550",
+    "osm_id": 1599050112
+  },
+  {
+    "name": "Nepomuk",
+    "lat": 49.4859096,
+    "lon": 13.5820519,
+    "type": "town",
+    "population": "3696",
+    "osm_id": 366020411
+  },
+  {
+    "name": "Neratovice",
+    "lat": 50.2598479,
+    "lon": 14.5175086,
+    "type": "town",
+    "population": "15865",
+    "osm_id": 4000441657
+  },
+  {
+    "name": "Netolice",
+    "lat": 49.0494308,
+    "lon": 14.1960193,
+    "type": "town",
+    "population": "2527",
+    "osm_id": 1599209741
+  },
+  {
+    "name": "Neveklov",
+    "lat": 49.7535324,
+    "lon": 14.5334154,
+    "type": "town",
+    "population": "2622",
+    "osm_id": 1600656576
+  },
+  {
+    "name": "Novosedly",
+    "lat": 48.8369264,
+    "lon": 16.4934479,
+    "type": "town",
+    "population": "1145",
+    "osm_id": 1601662652
+  },
+  {
+    "name": "Nová Bystřice",
+    "lat": 49.0193392,
+    "lon": 15.1029382,
+    "type": "town",
+    "population": "3309",
+    "osm_id": 1599164600
+  },
+  {
+    "name": "Nová Paka",
+    "lat": 50.4947616,
+    "lon": 15.5149801,
+    "type": "town",
+    "population": "7969",
+    "osm_id": 1586676241
+  },
+  {
+    "name": "Nová Role",
+    "lat": 50.2709162,
+    "lon": 12.7842174,
+    "type": "town",
+    "population": "3651",
+    "osm_id": 1599050072
+  },
+  {
+    "name": "Nová Včelnice",
+    "lat": 49.2393496,
+    "lon": 15.0726025,
+    "type": "town",
+    "population": "2272",
+    "osm_id": 1599164583
+  },
+  {
+    "name": "Nové Hrady",
+    "lat": 48.7896693,
+    "lon": 14.7783906,
+    "type": "town",
+    "population": "2524",
+    "osm_id": 1599120799
+  },
+  {
+    "name": "Nové Město na Moravě",
+    "lat": 49.5616916,
+    "lon": 16.0744185,
+    "type": "town",
+    "population": "10063",
+    "osm_id": 1586412751
+  },
+  {
+    "name": "Nové Město nad Metují",
+    "lat": 50.3442064,
+    "lon": 16.1512997,
+    "type": "town",
+    "population": "9378",
+    "osm_id": 1586673875
+  },
+  {
+    "name": "Nové Město pod Smrkem",
+    "lat": 50.9254734,
+    "lon": 15.2299746,
+    "type": "town",
+    "population": "3624",
+    "osm_id": 1587363203
+  },
+  {
+    "name": "Nové Strašecí",
+    "lat": 50.1532883,
+    "lon": 13.8998192,
+    "type": "town",
+    "population": "5054",
+    "osm_id": 1601331035
+  },
+  {
+    "name": "Nový Bor",
+    "lat": 50.757878,
+    "lon": 14.5554953,
+    "type": "town",
+    "population": "11693",
+    "osm_id": 1587521624
+  },
+  {
+    "name": "Nový Bydžov",
+    "lat": 50.2417701,
+    "lon": 15.4907692,
+    "type": "town",
+    "population": "6380",
+    "osm_id": 1586377495
+  },
+  {
+    "name": "Nový Jičín",
+    "lat": 49.594881,
+    "lon": 18.0102584,
+    "type": "town",
+    "population": "20644",
+    "osm_id": 1601461194
+  },
+  {
+    "name": "Nový Knín",
+    "lat": 49.7871435,
+    "lon": 14.2907781,
+    "type": "town",
+    "population": "2011",
+    "osm_id": 1601288206
+  },
+  {
+    "name": "Nymburk",
+    "lat": 50.1852696,
+    "lon": 15.0414543,
+    "type": "town",
+    "population": "13965",
+    "osm_id": 1601148540
+  },
+  {
+    "name": "Náchod",
+    "lat": 50.4167025,
+    "lon": 16.1622871,
+    "type": "town",
+    "population": "20011",
+    "osm_id": 1586673871
+  },
+  {
+    "name": "Náměšť nad Oslavou",
+    "lat": 49.2073771,
+    "lon": 16.1577984,
+    "type": "town",
+    "population": "4887",
+    "osm_id": 1586662852
+  },
+  {
+    "name": "Nýrsko",
+    "lat": 49.2938686,
+    "lon": 13.1435324,
+    "type": "town",
+    "population": "4930",
+    "osm_id": 1599446158
+  },
+  {
+    "name": "Nýřany",
+    "lat": 49.7131491,
+    "lon": 13.2074889,
+    "type": "town",
+    "population": "7002",
+    "osm_id": 1599467925
+  },
+  {
+    "name": "Odolena Voda",
+    "lat": 50.2334117,
+    "lon": 14.4107808,
+    "type": "town",
+    "population": "6163",
+    "osm_id": 1601195580
+  },
+  {
+    "name": "Odry",
+    "lat": 49.6622193,
+    "lon": 17.8303013,
+    "type": "town",
+    "population": "5720",
+    "osm_id": 1601461160
+  },
+  {
+    "name": "Olešnice",
+    "lat": 49.5577012,
+    "lon": 16.4223306,
+    "type": "town",
+    "population": "1768",
+    "osm_id": 457934405
+  },
+  {
+    "name": "Olomouc",
+    "lat": 49.5940567,
+    "lon": 17.251143,
+    "type": "city",
+    "population": "99496",
+    "osm_id": 1599305717
+  },
+  {
+    "name": "Opava",
+    "lat": 49.9389004,
+    "lon": 17.9024174,
+    "type": "town",
+    "population": "54840",
+    "osm_id": 1601511326
+  },
+  {
+    "name": "Opočno",
+    "lat": 50.2676907,
+    "lon": 16.1145157,
+    "type": "town",
+    "population": "2836",
+    "osm_id": 1587267713
+  },
+  {
+    "name": "Orlová",
+    "lat": 49.8459427,
+    "lon": 18.4309274,
+    "type": "town",
+    "population": "28206",
+    "osm_id": 1601422844
+  },
+  {
+    "name": "Osek",
+    "lat": 50.6230807,
+    "lon": 13.6861489,
+    "type": "town",
+    "population": "5022",
+    "osm_id": 1598413729
+  },
+  {
+    "name": "Oslavany",
+    "lat": 49.1236142,
+    "lon": 16.3364832,
+    "type": "town",
+    "population": "4701",
+    "osm_id": 1601617092
+  },
+  {
+    "name": "Ostrava",
+    "lat": 49.8349139,
+    "lon": 18.2820084,
+    "type": "city",
+    "population": "279791",
+    "osm_id": 1601523251
+  },
+  {
+    "name": "Ostrov",
+    "lat": 50.3061911,
+    "lon": 12.9390017,
+    "type": "town",
+    "population": "16885",
+    "osm_id": 1599050063
+  },
+  {
+    "name": "Otrokovice",
+    "lat": 49.2088284,
+    "lon": 17.5353865,
+    "type": "town",
+    "population": "19261",
+    "osm_id": 314657716
+  },
+  {
+    "name": "Pacov",
+    "lat": 49.4707194,
+    "lon": 15.0036121,
+    "type": "town",
+    "population": "4823",
+    "osm_id": 1586655832
+  },
+  {
+    "name": "Pardubice",
+    "lat": 50.0385812,
+    "lon": 15.7791356,
+    "type": "city",
+    "population": "88520",
+    "osm_id": 1585113445
+  },
+  {
+    "name": "Paskov",
+    "lat": 49.7317867,
+    "lon": 18.2903689,
+    "type": "town",
+    "population": "3506",
+    "osm_id": 1601416028
+  },
+  {
+    "name": "Pelhřimov",
+    "lat": 49.4308737,
+    "lon": 15.2232341,
+    "type": "town",
+    "population": "16105",
+    "osm_id": 672030783
+  },
+  {
+    "name": "Petřvald",
+    "lat": 49.8310682,
+    "lon": 18.3898338,
+    "type": "town",
+    "population": "6811",
+    "osm_id": 1601422803
+  },
+  {
+    "name": "Pečky",
+    "lat": 50.0898509,
+    "lon": 15.0291945,
+    "type": "town",
+    "population": "4751",
+    "osm_id": 1600675584
+  },
+  {
+    "name": "Planá",
+    "lat": 49.8683954,
+    "lon": 12.7382081,
+    "type": "town",
+    "population": "5410",
+    "osm_id": 1599474268
+  },
+  {
+    "name": "Planá nad Lužnicí",
+    "lat": 49.3510522,
+    "lon": 14.7047195,
+    "type": "town",
+    "population": "4041",
+    "osm_id": 1599258211
+  },
+  {
+    "name": "Plasy",
+    "lat": 49.9341107,
+    "lon": 13.3889549,
+    "type": "town",
+    "population": "2671",
+    "osm_id": 1599467912
+  },
+  {
+    "name": "Plesná",
+    "lat": 50.2208012,
+    "lon": 12.3466609,
+    "type": "town",
+    "population": "1969",
+    "osm_id": 1599034351
+  },
+  {
+    "name": "Plumlov",
+    "lat": 49.4661434,
+    "lon": 17.0148581,
+    "type": "town",
+    "population": "1659",
+    "osm_id": 1599347575
+  },
+  {
+    "name": "Plzeň",
+    "lat": 49.7477415,
+    "lon": 13.3775249,
+    "type": "city",
+    "population": "185599",
+    "osm_id": 32666229
+  },
+  {
+    "name": "Plánice",
+    "lat": 49.3899269,
+    "lon": 13.4710601,
+    "type": "town",
+    "population": "1651",
+    "osm_id": 316950713
+  },
+  {
+    "name": "Poběžovice",
+    "lat": 49.5106977,
+    "lon": 12.8028363,
+    "type": "town",
+    "population": "1562",
+    "osm_id": 1599437573
+  },
+  {
+    "name": "Podbořany",
+    "lat": 50.2292216,
+    "lon": 13.411359,
+    "type": "town",
+    "population": "6317",
+    "osm_id": 1598419370
+  },
+  {
+    "name": "Poděbrady",
+    "lat": 50.1430072,
+    "lon": 15.1191453,
+    "type": "town",
+    "population": "14142",
+    "osm_id": 1601148511
+  },
+  {
+    "name": "Pohořelice",
+    "lat": 48.9816868,
+    "lon": 16.5242181,
+    "type": "town",
+    "population": "4961",
+    "osm_id": 1601617012
+  },
+  {
+    "name": "Police nad Metují",
+    "lat": 50.5368703,
+    "lon": 16.2335044,
+    "type": "town",
+    "population": "3875",
+    "osm_id": 1586673867
+  },
+  {
+    "name": "Polička",
+    "lat": 49.7149137,
+    "lon": 16.2653869,
+    "type": "town",
+    "population": "8669",
+    "osm_id": 1586597103
+  },
+  {
+    "name": "Polná",
+    "lat": 49.4873383,
+    "lon": 15.7188513,
+    "type": "town",
+    "population": "5149",
+    "osm_id": 1586423139
+  },
+  {
+    "name": "Postoloprty",
+    "lat": 50.3600554,
+    "lon": 13.7028467,
+    "type": "town",
+    "population": "3835",
+    "osm_id": 1598419361
+  },
+  {
+    "name": "Počátky",
+    "lat": 49.2602542,
+    "lon": 15.2404051,
+    "type": "town",
+    "population": "2563",
+    "osm_id": 1586655802
+  },
+  {
+    "name": "Prachatice",
+    "lat": 49.0129091,
+    "lon": 13.997772,
+    "type": "town",
+    "population": "10917",
+    "osm_id": 1599209722
+  },
+  {
+    "name": "Praha",
+    "lat": 50.0874654,
+    "lon": 14.4212535,
+    "type": "city",
+    "population": "1275406",
+    "osm_id": 1601837931
+  },
+  {
+    "name": "Proseč",
+    "lat": 49.8059194,
+    "lon": 16.1164891,
+    "type": "town",
+    "population": "1628",
+    "osm_id": 1584552266
+  },
+  {
+    "name": "Prostějov",
+    "lat": 49.4721467,
+    "lon": 17.1117979,
+    "type": "town",
+    "population": "43055",
+    "osm_id": 1599347527
+  },
+  {
+    "name": "Protivín",
+    "lat": 49.2000186,
+    "lon": 14.2159645,
+    "type": "town",
+    "population": "4870",
+    "osm_id": 1599176369
+  },
+  {
+    "name": "Pyšely",
+    "lat": 49.8767807,
+    "lon": 14.6770252,
+    "type": "town",
+    "population": "2108",
+    "osm_id": 1600656278
+  },
+  {
+    "name": "Písek",
+    "lat": 49.3089887,
+    "lon": 14.147769,
+    "type": "town",
+    "population": "29814",
+    "osm_id": 1599176364
+  },
+  {
+    "name": "Přelouč",
+    "lat": 50.039436,
+    "lon": 15.5606989,
+    "type": "town",
+    "population": "8199",
+    "osm_id": 1585113390
+  },
+  {
+    "name": "Přerov",
+    "lat": 49.4553775,
+    "lon": 17.4508621,
+    "type": "town",
+    "population": "41404",
+    "osm_id": 1599377065
+  },
+  {
+    "name": "Přeštice",
+    "lat": 49.5726096,
+    "lon": 13.3295697,
+    "type": "town",
+    "population": "7113",
+    "osm_id": 1599462382
+  },
+  {
+    "name": "Přibyslav",
+    "lat": 49.5768385,
+    "lon": 15.7385463,
+    "type": "town",
+    "population": "4015",
+    "osm_id": 1586391846
+  },
+  {
+    "name": "Přimda",
+    "lat": 49.6745658,
+    "lon": 12.6763239,
+    "type": "town",
+    "population": "1582",
+    "osm_id": 1599474260
+  },
+  {
+    "name": "Příbor",
+    "lat": 49.6401091,
+    "lon": 18.1438062,
+    "type": "town",
+    "population": "8142",
+    "osm_id": 1601461009
+  },
+  {
+    "name": "Příbram",
+    "lat": 49.6901444,
+    "lon": 14.0103663,
+    "type": "town",
+    "population": "31651",
+    "osm_id": 1601287903
+  },
+  {
+    "name": "Rabí",
+    "lat": 49.2809304,
+    "lon": 13.6188949,
+    "type": "town",
+    "population": "497",
+    "osm_id": 1599446116
+  },
+  {
+    "name": "Radnice",
+    "lat": 49.8571241,
+    "lon": 13.606275,
+    "type": "town",
+    "population": "1798",
+    "osm_id": 1599471424
+  },
+  {
+    "name": "Rajhrad",
+    "lat": 49.0890629,
+    "lon": 16.6030548,
+    "type": "town",
+    "population": "3833",
+    "osm_id": 1601616946
+  },
+  {
+    "name": "Rakovník",
+    "lat": 50.1041136,
+    "lon": 13.7310462,
+    "type": "town",
+    "population": "16695",
+    "osm_id": 1601330967
+  },
+  {
+    "name": "Ralsko",
+    "lat": 50.5857728,
+    "lon": 14.8040625,
+    "type": "town",
+    "population": "2137",
+    "osm_id": 667289083
+  },
+  {
+    "name": "Rejštejn",
+    "lat": 49.140531,
+    "lon": 13.5151685,
+    "type": "town",
+    "population": "254",
+    "osm_id": 52765563
+  },
+  {
+    "name": "Rokycany",
+    "lat": 49.7428813,
+    "lon": 13.594778,
+    "type": "town",
+    "population": "14074",
+    "osm_id": 1599471414
+  },
+  {
+    "name": "Rokytnice nad Jizerou",
+    "lat": 50.7272292,
+    "lon": 15.4638743,
+    "type": "town",
+    "population": "2537",
+    "osm_id": 1587332752
+  },
+  {
+    "name": "Ronov nad Doubravou",
+    "lat": 49.8881855,
+    "lon": 15.531532,
+    "type": "town",
+    "population": "1686",
+    "osm_id": 1584552216
+  },
+  {
+    "name": "Rosice",
+    "lat": 49.1825874,
+    "lon": 16.3878251,
+    "type": "town",
+    "population": "6144",
+    "osm_id": 1601616918
+  },
+  {
+    "name": "Rotava",
+    "lat": 50.3058704,
+    "lon": 12.5610769,
+    "type": "town",
+    "population": "3381",
+    "osm_id": 1599059069
+  },
+  {
+    "name": "Roudnice nad Labem",
+    "lat": 50.4244462,
+    "lon": 14.2603824,
+    "type": "town",
+    "population": "12253",
+    "osm_id": 1598884196
+  },
+  {
+    "name": "Rousínov",
+    "lat": 49.2015498,
+    "lon": 16.8821032,
+    "type": "town",
+    "population": "3673",
+    "osm_id": 1601724420
+  },
+  {
+    "name": "Roztoky",
+    "lat": 50.1608299,
+    "lon": 14.3824148,
+    "type": "town",
+    "population": "9034",
+    "osm_id": 1601231902
+  },
+  {
+    "name": "Rožmberk nad Vltavou",
+    "lat": 48.6547364,
+    "lon": 14.3666491,
+    "type": "town",
+    "population": "353",
+    "osm_id": 1599136635
+  },
+  {
+    "name": "Rožmitál pod Třemšínem",
+    "lat": 49.602176,
+    "lon": 13.863958,
+    "type": "town",
+    "population": "4381",
+    "osm_id": 1601287815
+  },
+  {
+    "name": "Rožnov pod Radhoštěm",
+    "lat": 49.4587958,
+    "lon": 18.1429843,
+    "type": "town",
+    "population": "17845",
+    "osm_id": 1598960952
+  },
+  {
+    "name": "Rtyně v Podkrkonoší",
+    "lat": 50.505532,
+    "lon": 16.0711662,
+    "type": "town",
+    "population": "3053",
+    "osm_id": 1587266105
+  },
+  {
+    "name": "Rudná",
+    "lat": 50.0337771,
+    "lon": 14.2312404,
+    "type": "town",
+    "population": "3075",
+    "osm_id": 1601231894
+  },
+  {
+    "name": "Rudolfov",
+    "lat": 48.9936055,
+    "lon": 14.5411628,
+    "type": "town",
+    "population": "2575",
+    "osm_id": 1599120750
+  },
+  {
+    "name": "Rumburk",
+    "lat": 50.9517739,
+    "lon": 14.5569317,
+    "type": "town",
+    "population": "10193",
+    "osm_id": 1598883061
+  },
+  {
+    "name": "Rychnov nad Kněžnou",
+    "lat": 50.1632537,
+    "lon": 16.2748393,
+    "type": "town",
+    "population": "10393",
+    "osm_id": 1587267592
+  },
+  {
+    "name": "Rychvald",
+    "lat": 49.8663296,
+    "lon": 18.376392,
+    "type": "town",
+    "population": "6769",
+    "osm_id": 1601422801
+  },
+  {
+    "name": "Rájec-Jestřebí",
+    "lat": 49.409145,
+    "lon": 16.6270226,
+    "type": "town",
+    "population": "2396",
+    "osm_id": 1601562800
+  },
+  {
+    "name": "Rýmařov",
+    "lat": 49.9320352,
+    "lon": 17.2714574,
+    "type": "town",
+    "population": "8064",
+    "osm_id": 1601393931
+  },
+  {
+    "name": "Sadská",
+    "lat": 50.1361194,
+    "lon": 14.9859741,
+    "type": "town",
+    "population": "3059",
+    "osm_id": 358328269
+  },
+  {
+    "name": "Sedlec-Prčice",
+    "lat": 49.5726082,
+    "lon": 14.5326911,
+    "type": "town",
+    "population": "2837",
+    "osm_id": 1601287782
+  },
+  {
+    "name": "Sedlice",
+    "lat": 49.3771938,
+    "lon": 13.9394969,
+    "type": "town",
+    "population": "1254",
+    "osm_id": 1599235707
+  },
+  {
+    "name": "Sedlčany",
+    "lat": 49.6582258,
+    "lon": 14.4254935,
+    "type": "town",
+    "population": "7147",
+    "osm_id": 1601287639
+  },
+  {
+    "name": "Semily",
+    "lat": 50.602249,
+    "lon": 15.33526,
+    "type": "town",
+    "population": "8826",
+    "osm_id": 1587332660
+  },
+  {
+    "name": "Sezemice",
+    "lat": 50.0663195,
+    "lon": 15.8526363,
+    "type": "town",
+    "population": "2317",
+    "osm_id": 1585113270
+  },
+  {
+    "name": "Sezimovo Ústí",
+    "lat": 49.3854272,
+    "lon": 14.6843674,
+    "type": "town",
+    "population": "7233",
+    "osm_id": 1599258180
+  },
+  {
+    "name": "Seč",
+    "lat": 49.8473534,
+    "lon": 15.6571108,
+    "type": "town",
+    "population": "977",
+    "osm_id": 1584552202
+  },
+  {
+    "name": "Skuteč",
+    "lat": 49.8434267,
+    "lon": 15.9961932,
+    "type": "town",
+    "population": "3911",
+    "osm_id": 1584552179
+  },
+  {
+    "name": "Slaný",
+    "lat": 50.2306933,
+    "lon": 14.0868501,
+    "type": "town",
+    "population": "15613",
+    "osm_id": 1600669255
+  },
+  {
+    "name": "Slatiňany",
+    "lat": 49.9212452,
+    "lon": 15.8132542,
+    "type": "town",
+    "population": "3342",
+    "osm_id": 1584552154
+  },
+  {
+    "name": "Slavičín",
+    "lat": 49.0889594,
+    "lon": 17.874808,
+    "type": "town",
+    "population": "5473",
+    "osm_id": 1598988177
+  },
+  {
+    "name": "Slavkov u Brna",
+    "lat": 49.1535759,
+    "lon": 16.8763606,
+    "type": "town",
+    "population": "5881",
+    "osm_id": 1601724316
+  },
+  {
+    "name": "Slavonice",
+    "lat": 48.9975333,
+    "lon": 15.3515379,
+    "type": "town",
+    "population": "2268",
+    "osm_id": 1599164555
+  },
+  {
+    "name": "Smečno",
+    "lat": 50.1884375,
+    "lon": 14.0403651,
+    "type": "town",
+    "population": "1965",
+    "osm_id": 1600669242
+  },
+  {
+    "name": "Smiřice",
+    "lat": 50.2995707,
+    "lon": 15.8645911,
+    "type": "town",
+    "population": "2957",
+    "osm_id": 1586377472
+  },
+  {
+    "name": "Smržovka",
+    "lat": 50.7384678,
+    "lon": 15.2463402,
+    "type": "town",
+    "population": "3430",
+    "osm_id": 304751271
+  },
+  {
+    "name": "Soběslav",
+    "lat": 49.259407,
+    "lon": 14.7193304,
+    "type": "town",
+    "population": "6990",
+    "osm_id": 1599258096
+  },
+  {
+    "name": "Sokolov",
+    "lat": 50.1809097,
+    "lon": 12.6394986,
+    "type": "town",
+    "population": "24916",
+    "osm_id": 1599059049
+  },
+  {
+    "name": "Solnice",
+    "lat": 50.2030082,
+    "lon": 16.2383273,
+    "type": "town",
+    "population": "1801",
+    "osm_id": 1587268087
+  },
+  {
+    "name": "Spálené Poříčí",
+    "lat": 49.6144658,
+    "lon": 13.6043136,
+    "type": "town",
+    "population": "2760",
+    "osm_id": 1599462371
+  },
+  {
+    "name": "Staré Město",
+    "lat": 49.0756787,
+    "lon": 17.4391956,
+    "type": "town",
+    "population": "6691",
+    "osm_id": 411736725
+  },
+  {
+    "name": "Starý Plzenec",
+    "lat": 49.6978507,
+    "lon": 13.4735561,
+    "type": "town",
+    "population": "3660",
+    "osm_id": 1599447670
+  },
+  {
+    "name": "Staňkov",
+    "lat": 49.5537448,
+    "lon": 13.0696938,
+    "type": "town",
+    "population": "3338",
+    "osm_id": 1599437552
+  },
+  {
+    "name": "Stochov",
+    "lat": 50.1481264,
+    "lon": 13.9629115,
+    "type": "town",
+    "population": "5468",
+    "osm_id": 1600669240
+  },
+  {
+    "name": "Stod",
+    "lat": 49.6390886,
+    "lon": 13.1647362,
+    "type": "town",
+    "population": "3613",
+    "osm_id": 1599462362
+  },
+  {
+    "name": "Strakonice",
+    "lat": 49.261277,
+    "lon": 13.9025043,
+    "type": "town",
+    "population": "22888",
+    "osm_id": 1599235656
+  },
+  {
+    "name": "Strmilov",
+    "lat": 49.159151,
+    "lon": 15.2014514,
+    "type": "town",
+    "population": "1417",
+    "osm_id": 1599164445
+  },
+  {
+    "name": "Stráž nad Nežárkou",
+    "lat": 49.0697105,
+    "lon": 14.9055137,
+    "type": "town",
+    "population": "842",
+    "osm_id": 1599164440
+  },
+  {
+    "name": "Stráž pod Ralskem",
+    "lat": 50.7029923,
+    "lon": 14.8009646,
+    "type": "town",
+    "population": "4028",
+    "osm_id": 1587521587
+  },
+  {
+    "name": "Strážnice",
+    "lat": 48.9018932,
+    "lon": 17.314434,
+    "type": "town",
+    "population": "5983",
+    "osm_id": 1601694654
+  },
+  {
+    "name": "Strážov",
+    "lat": 49.3034789,
+    "lon": 13.2483379,
+    "type": "town",
+    "population": "836",
+    "osm_id": 1599446055
+  },
+  {
+    "name": "Studénka",
+    "lat": 49.7137494,
+    "lon": 18.0610845,
+    "type": "town",
+    "population": "3091",
+    "osm_id": 2357128688
+  },
+  {
+    "name": "Stříbro",
+    "lat": 49.7530168,
+    "lon": 13.0049136,
+    "type": "town",
+    "population": "7410",
+    "osm_id": 1599474230
+  },
+  {
+    "name": "Suchdol nad Lužnicí",
+    "lat": 48.8880893,
+    "lon": 14.8746872,
+    "type": "town",
+    "population": "3559",
+    "osm_id": 1599164429
+  },
+  {
+    "name": "Sušice",
+    "lat": 49.2313907,
+    "lon": 13.5204076,
+    "type": "town",
+    "population": "11146",
+    "osm_id": 1599445975
+  },
+  {
+    "name": "Svitavy",
+    "lat": 49.7562053,
+    "lon": 16.4688995,
+    "type": "town",
+    "population": "16610",
+    "osm_id": 1586596855
+  },
+  {
+    "name": "Svratka",
+    "lat": 49.7111798,
+    "lon": 16.0315815,
+    "type": "town",
+    "population": "1385",
+    "osm_id": 1586412364
+  },
+  {
+    "name": "Světlá nad Sázavou",
+    "lat": 49.6680082,
+    "lon": 15.403934,
+    "type": "town",
+    "population": "6138",
+    "osm_id": 1586391690
+  },
+  {
+    "name": "Sázava",
+    "lat": 49.8717573,
+    "lon": 14.896712,
+    "type": "town",
+    "population": "3568",
+    "osm_id": 1600656081
+  },
+  {
+    "name": "Tachov",
+    "lat": 49.7955449,
+    "lon": 12.6329861,
+    "type": "town",
+    "population": "12156",
+    "osm_id": 1599474217
+  },
+  {
+    "name": "Tanvald",
+    "lat": 50.7379882,
+    "lon": 15.3038421,
+    "type": "town",
+    "population": "6768",
+    "osm_id": 1587389356
+  },
+  {
+    "name": "Telč",
+    "lat": 49.1847652,
+    "lon": 15.4524773,
+    "type": "town",
+    "population": "5337",
+    "osm_id": 1586423118
+  },
+  {
+    "name": "Teplice",
+    "lat": 50.6406644,
+    "lon": 13.8244461,
+    "type": "town",
+    "population": "48766",
+    "osm_id": 1598413721
+  },
+  {
+    "name": "Teplice nad Metují",
+    "lat": 50.5939134,
+    "lon": 16.1707745,
+    "type": "town",
+    "population": "1580",
+    "osm_id": 1586673826
+  },
+  {
+    "name": "Teplá",
+    "lat": 49.9820739,
+    "lon": 12.863296,
+    "type": "town",
+    "population": "2255",
+    "osm_id": 1599034289
+  },
+  {
+    "name": "Terezín",
+    "lat": 50.510716,
+    "lon": 14.149717,
+    "type": "town",
+    "population": "2812",
+    "osm_id": 1598884165
+  },
+  {
+    "name": "Tišnov",
+    "lat": 49.348838,
+    "lon": 16.4244906,
+    "type": "town",
+    "population": "9214",
+    "osm_id": 1601616804
+  },
+  {
+    "name": "Toužim",
+    "lat": 50.0607602,
+    "lon": 12.9849922,
+    "type": "town",
+    "population": "3090",
+    "osm_id": 1599049887
+  },
+  {
+    "name": "Tovačov",
+    "lat": 49.4305415,
+    "lon": 17.2880579,
+    "type": "town",
+    "population": "2530",
+    "osm_id": 1599376881
+  },
+  {
+    "name": "Trhové Sviny",
+    "lat": 48.8425812,
+    "lon": 14.6391858,
+    "type": "town",
+    "population": "5132",
+    "osm_id": 325024484
+  },
+  {
+    "name": "Trhový Štěpánov",
+    "lat": 49.7116864,
+    "lon": 15.0135299,
+    "type": "town",
+    "population": "1345",
+    "osm_id": 1600656046
+  },
+  {
+    "name": "Trutnov",
+    "lat": 50.5608165,
+    "lon": 15.912897,
+    "type": "town",
+    "population": "18588",
+    "osm_id": 1587266044
+  },
+  {
+    "name": "Turnov",
+    "lat": 50.5874068,
+    "lon": 15.1574182,
+    "type": "town",
+    "population": "14334",
+    "osm_id": 1587332582
+  },
+  {
+    "name": "Tábor",
+    "lat": 49.4141533,
+    "lon": 14.6587234,
+    "type": "town",
+    "population": "33410",
+    "osm_id": 1599258006
+  },
+  {
+    "name": "Týn nad Vltavou",
+    "lat": 49.2234214,
+    "lon": 14.421124,
+    "type": "town",
+    "population": "8006",
+    "osm_id": 1599120658
+  },
+  {
+    "name": "Týnec nad Labem",
+    "lat": 50.0418987,
+    "lon": 15.3580835,
+    "type": "town",
+    "population": "2127",
+    "osm_id": 1600675551
+  },
+  {
+    "name": "Týnec nad Sázavou",
+    "lat": 49.8334756,
+    "lon": 14.5899539,
+    "type": "town",
+    "population": "5681",
+    "osm_id": 1600656041
+  },
+  {
+    "name": "Týniště nad Orlicí",
+    "lat": 50.1513634,
+    "lon": 16.0776973,
+    "type": "town",
+    "population": "5456",
+    "osm_id": 1587267988
+  },
+  {
+    "name": "Třebechovice pod Orebem",
+    "lat": 50.2007842,
+    "lon": 15.993087,
+    "type": "town",
+    "population": "4667",
+    "osm_id": 1586377460
+  },
+  {
+    "name": "Třebenice",
+    "lat": 50.4763245,
+    "lon": 13.9900472,
+    "type": "town",
+    "population": "1333",
+    "osm_id": 1598884160
+  },
+  {
+    "name": "Třeboň",
+    "lat": 49.0040317,
+    "lon": 14.7714476,
+    "type": "town",
+    "population": "7317",
+    "osm_id": 1599164422
+  },
+  {
+    "name": "Třebíč",
+    "lat": 49.2151907,
+    "lon": 15.8816091,
+    "type": "town",
+    "population": "34415",
+    "osm_id": 1586662518
+  },
+  {
+    "name": "Třemošnice",
+    "lat": 49.8693093,
+    "lon": 15.5803962,
+    "type": "town",
+    "population": "2957",
+    "osm_id": 1584551914
+  },
+  {
+    "name": "Třemošná",
+    "lat": 49.8167442,
+    "lon": 13.3951971,
+    "type": "town",
+    "population": "4977",
+    "osm_id": 1599467821
+  },
+  {
+    "name": "Třešť",
+    "lat": 49.2911919,
+    "lon": 15.4830063,
+    "type": "town",
+    "population": "5770",
+    "osm_id": 1586423111
+  },
+  {
+    "name": "Třinec",
+    "lat": 49.6779212,
+    "lon": 18.6711993,
+    "type": "town",
+    "population": "34222",
+    "osm_id": 430817440
+  },
+  {
+    "name": "Uherské Hradiště",
+    "lat": 49.0681018,
+    "lon": 17.4663899,
+    "type": "town",
+    "population": "21737",
+    "osm_id": 2343424942
+  },
+  {
+    "name": "Uherský Brod",
+    "lat": 49.0253139,
+    "lon": 17.6464437,
+    "type": "town",
+    "population": "14597",
+    "osm_id": 1598944808
+  },
+  {
+    "name": "Uherský Ostroh",
+    "lat": 48.985558,
+    "lon": 17.3898443,
+    "type": "town",
+    "population": "3959",
+    "osm_id": 1598944766
+  },
+  {
+    "name": "Uhlířské Janovice",
+    "lat": 49.8807582,
+    "lon": 15.064492,
+    "type": "town",
+    "population": "3118",
+    "osm_id": 1600680647
+  },
+  {
+    "name": "Unhošť",
+    "lat": 50.08499,
+    "lon": 14.1318613,
+    "type": "town",
+    "population": "5292",
+    "osm_id": 1600669227
+  },
+  {
+    "name": "Uničov",
+    "lat": 49.7711837,
+    "lon": 17.1213944,
+    "type": "town",
+    "population": "11077",
+    "osm_id": 1599305492
+  },
+  {
+    "name": "Valašské Klobouky",
+    "lat": 49.1409048,
+    "lon": 18.0075634,
+    "type": "town",
+    "population": "4576",
+    "osm_id": 1598988165
+  },
+  {
+    "name": "Valašské Meziříčí",
+    "lat": 49.4716056,
+    "lon": 17.971593,
+    "type": "town",
+    "population": "25413",
+    "osm_id": 1598960928
+  },
+  {
+    "name": "Valtice",
+    "lat": 48.7412949,
+    "lon": 16.755758,
+    "type": "town",
+    "population": "3538",
+    "osm_id": 1601662497
+  },
+  {
+    "name": "Vamberk",
+    "lat": 50.1179339,
+    "lon": 16.2903737,
+    "type": "town",
+    "population": "4123",
+    "osm_id": 359685893
+  },
+  {
+    "name": "Varnsdorf",
+    "lat": 50.9124244,
+    "lon": 14.6194058,
+    "type": "town",
+    "population": "15808",
+    "osm_id": 1598882966
+  },
+  {
+    "name": "Vejprty",
+    "lat": 50.4923155,
+    "lon": 13.0321201,
+    "type": "town",
+    "population": "3268",
+    "osm_id": 78477854
+  },
+  {
+    "name": "Velešín",
+    "lat": 48.8292557,
+    "lon": 14.4635063,
+    "type": "town",
+    "population": "3869",
+    "osm_id": 1599136586
+  },
+  {
+    "name": "Velká Bystřice",
+    "lat": 49.5947568,
+    "lon": 17.3654414,
+    "type": "town",
+    "population": "3099",
+    "osm_id": 1599305459
+  },
+  {
+    "name": "Velká Bíteš",
+    "lat": 49.2883646,
+    "lon": 16.2271255,
+    "type": "town",
+    "population": "5171",
+    "osm_id": 1586412304
+  },
+  {
+    "name": "Velká nad Veličkou",
+    "lat": 48.8827446,
+    "lon": 17.5202893,
+    "type": "town",
+    "population": "3228",
+    "osm_id": 1601694598
+  },
+  {
+    "name": "Velké Bílovice",
+    "lat": 48.8493878,
+    "lon": 16.892052,
+    "type": "town",
+    "population": "3854",
+    "osm_id": 1601662472
+  },
+  {
+    "name": "Velké Meziříčí",
+    "lat": 49.3554996,
+    "lon": 16.0121507,
+    "type": "town",
+    "population": "11536",
+    "osm_id": 1586412254
+  },
+  {
+    "name": "Velké Opatovice",
+    "lat": 49.6126397,
+    "lon": 16.6794242,
+    "type": "town",
+    "population": "3837",
+    "osm_id": 1601562477
+  },
+  {
+    "name": "Velké Pavlovice",
+    "lat": 48.9044074,
+    "lon": 16.8164581,
+    "type": "town",
+    "population": "3117",
+    "osm_id": 1601662386
+  },
+  {
+    "name": "Veltrusy",
+    "lat": 50.2710734,
+    "lon": 14.3277379,
+    "type": "town",
+    "population": "2111",
+    "osm_id": 670243295
+  },
+  {
+    "name": "Velvary",
+    "lat": 50.2819312,
+    "lon": 14.2361619,
+    "type": "town",
+    "population": "3031",
+    "osm_id": 1600669224
+  },
+  {
+    "name": "Veselí nad Lužnicí",
+    "lat": 49.1866657,
+    "lon": 14.6989455,
+    "type": "town",
+    "population": "6397",
+    "osm_id": 1599257955
+  },
+  {
+    "name": "Veselí nad Moravou",
+    "lat": 48.9540796,
+    "lon": 17.379034,
+    "type": "town",
+    "population": "10410",
+    "osm_id": 1601694597
+  },
+  {
+    "name": "Veverská Bítýška",
+    "lat": 49.2756422,
+    "lon": 16.4370099,
+    "type": "town",
+    "population": "3198",
+    "osm_id": 1601616720
+  },
+  {
+    "name": "Vidnava",
+    "lat": 50.372434,
+    "lon": 17.1861229,
+    "type": "town",
+    "population": "1424",
+    "osm_id": 1599276294
+  },
+  {
+    "name": "Vimperk",
+    "lat": 49.0526997,
+    "lon": 13.774198,
+    "type": "town",
+    "population": "7383",
+    "osm_id": 1599209662
+  },
+  {
+    "name": "Vizovice",
+    "lat": 49.2231391,
+    "lon": 17.8545076,
+    "type": "town",
+    "population": "4352",
+    "osm_id": 1598988160
+  },
+  {
+    "name": "Vlachovo Březí",
+    "lat": 49.0817729,
+    "lon": 13.9588404,
+    "type": "town",
+    "population": "1710",
+    "osm_id": 1599209604
+  },
+  {
+    "name": "Vlašim",
+    "lat": 49.7065924,
+    "lon": 14.8987513,
+    "type": "town",
+    "population": "11594",
+    "osm_id": 1600656034
+  },
+  {
+    "name": "Vodňany",
+    "lat": 49.1478708,
+    "lon": 14.1754647,
+    "type": "town",
+    "population": "6876",
+    "osm_id": 1599235549
+  },
+  {
+    "name": "Volary",
+    "lat": 48.9095977,
+    "lon": 13.8883971,
+    "type": "town",
+    "population": "3792",
+    "osm_id": 1599209595
+  },
+  {
+    "name": "Volyně",
+    "lat": 49.1664511,
+    "lon": 13.8867227,
+    "type": "town",
+    "population": "3044",
+    "osm_id": 1599235447
+  },
+  {
+    "name": "Votice",
+    "lat": 49.6403939,
+    "lon": 14.6380296,
+    "type": "town",
+    "population": "4638",
+    "osm_id": 1600656021
+  },
+  {
+    "name": "Vracov",
+    "lat": 48.9738808,
+    "lon": 17.2120968,
+    "type": "town",
+    "population": "4531",
+    "osm_id": 1601694566
+  },
+  {
+    "name": "Vratimov",
+    "lat": 49.7697532,
+    "lon": 18.3102044,
+    "type": "town",
+    "population": "5407",
+    "osm_id": 1601523148
+  },
+  {
+    "name": "Vrbno pod Pradědem",
+    "lat": 50.1209513,
+    "lon": 17.3831569,
+    "type": "town",
+    "population": "4856",
+    "osm_id": 430374429
+  },
+  {
+    "name": "Vrchlabí",
+    "lat": 50.6271452,
+    "lon": 15.6095779,
+    "type": "town",
+    "population": "12599",
+    "osm_id": 1587265875
+  },
+  {
+    "name": "Vsetín",
+    "lat": 49.3389775,
+    "lon": 17.9961534,
+    "type": "town",
+    "population": "28785",
+    "osm_id": 1598960900
+  },
+  {
+    "name": "Vysoké Mýto",
+    "lat": 49.9534727,
+    "lon": 16.1616455,
+    "type": "town",
+    "population": "11711",
+    "osm_id": 1586645785
+  },
+  {
+    "name": "Vysoké nad Jizerou",
+    "lat": 50.6857713,
+    "lon": 15.4014639,
+    "type": "town",
+    "population": "927",
+    "osm_id": 1587332499
+  },
+  {
+    "name": "Vyškov",
+    "lat": 49.2778194,
+    "lon": 16.9994446,
+    "type": "town",
+    "population": "13758",
+    "osm_id": 1601724221
+  },
+  {
+    "name": "Vyšší Brod",
+    "lat": 48.6154234,
+    "lon": 14.3120378,
+    "type": "town",
+    "population": "2569",
+    "osm_id": 1599136582
+  },
+  {
+    "name": "Vítkov",
+    "lat": 49.7758144,
+    "lon": 17.7517864,
+    "type": "town",
+    "population": "5391",
+    "osm_id": 1601511195
+  },
+  {
+    "name": "Větřní",
+    "lat": 48.7742466,
+    "lon": 14.2861607,
+    "type": "town",
+    "population": "3619",
+    "osm_id": 1599136577
+  },
+  {
+    "name": "Všeruby",
+    "lat": 49.8417849,
+    "lon": 13.229176,
+    "type": "town",
+    "population": "1454",
+    "osm_id": 1599467758
+  },
+  {
+    "name": "Zbiroh",
+    "lat": 49.8592406,
+    "lon": 13.7711465,
+    "type": "town",
+    "population": "2526",
+    "osm_id": 1599471294
+  },
+  {
+    "name": "Zbýšov",
+    "lat": 49.1552431,
+    "lon": 16.3495114,
+    "type": "town",
+    "population": "3786",
+    "osm_id": 1601616656
+  },
+  {
+    "name": "Zdice",
+    "lat": 49.9119542,
+    "lon": 13.9779864,
+    "type": "town",
+    "population": "4162",
+    "osm_id": 1600665506
+  },
+  {
+    "name": "Zlaté Hory",
+    "lat": 50.2637622,
+    "lon": 17.3953643,
+    "type": "town",
+    "population": "4070",
+    "osm_id": 1599276267
+  },
+  {
+    "name": "Zliv",
+    "lat": 49.0663495,
+    "lon": 14.3660772,
+    "type": "town",
+    "population": "3517",
+    "osm_id": 1599120640
+  },
+  {
+    "name": "Zlín",
+    "lat": 49.226766,
+    "lon": 17.6667415,
+    "type": "city",
+    "population": "72973",
+    "osm_id": 1598988152
+  },
+  {
+    "name": "Znojmo",
+    "lat": 48.8554341,
+    "lon": 16.0489457,
+    "type": "town",
+    "population": "33370",
+    "osm_id": 1601754750
+  },
+  {
+    "name": "Zruč nad Sázavou",
+    "lat": 49.740296,
+    "lon": 15.106074,
+    "type": "town",
+    "population": "4758",
+    "osm_id": 302010172
+  },
+  {
+    "name": "Zubří",
+    "lat": 49.4661007,
+    "lon": 18.092283,
+    "type": "town",
+    "population": "5365",
+    "osm_id": 1598960873
+  },
+  {
+    "name": "Zábřeh",
+    "lat": 49.8829089,
+    "lon": 16.8725044,
+    "type": "town",
+    "population": "14043",
+    "osm_id": 1599401227
+  },
+  {
+    "name": "Zásmuky",
+    "lat": 49.9544644,
+    "lon": 15.0302421,
+    "type": "town",
+    "population": "1947",
+    "osm_id": 1600675532
+  },
+  {
+    "name": "Újezd u Brna",
+    "lat": 49.1043477,
+    "lon": 16.7573682,
+    "type": "town",
+    "population": "3302",
+    "osm_id": 1601616643
+  },
+  {
+    "name": "Úpice",
+    "lat": 50.5125314,
+    "lon": 16.0154279,
+    "type": "town",
+    "population": "5556",
+    "osm_id": 1587265854
+  },
+  {
+    "name": "Úsov",
+    "lat": 49.7983079,
+    "lon": 17.0105488,
+    "type": "town",
+    "population": "1122",
+    "osm_id": 1599401222
+  },
+  {
+    "name": "Ústí nad Labem",
+    "lat": 50.6603327,
+    "lon": 14.0381357,
+    "type": "city",
+    "population": "90378",
+    "osm_id": 1598391587
+  },
+  {
+    "name": "Ústí nad Orlicí",
+    "lat": 49.9737603,
+    "lon": 16.3941695,
+    "type": "town",
+    "population": "11081",
+    "osm_id": 1586645646
+  },
+  {
+    "name": "Úterý",
+    "lat": 49.9399942,
+    "lon": 13.0038338,
+    "type": "town",
+    "population": "463",
+    "osm_id": 1599467613
+  },
+  {
+    "name": "Úvaly",
+    "lat": 50.0740135,
+    "lon": 14.7305192,
+    "type": "town",
+    "population": "6884",
+    "osm_id": 1601194900
+  },
+  {
+    "name": "Úštěk",
+    "lat": 50.5847441,
+    "lon": 14.3433242,
+    "type": "town",
+    "population": "1558",
+    "osm_id": 1598884127
+  },
+  {
+    "name": "Čelákovice",
+    "lat": 50.1607829,
+    "lon": 14.7500022,
+    "type": "town",
+    "population": "12273",
+    "osm_id": 1601194895
+  },
+  {
+    "name": "Černovice",
+    "lat": 49.3725903,
+    "lon": 14.9599829,
+    "type": "town",
+    "population": "1731",
+    "osm_id": 1586655544
+  },
+  {
+    "name": "Černošice",
+    "lat": 49.9569988,
+    "lon": 14.3193081,
+    "type": "town",
+    "population": "4631",
+    "osm_id": 422684655
+  },
+  {
+    "name": "Černošín",
+    "lat": 49.8162537,
+    "lon": 12.8838251,
+    "type": "town",
+    "population": "1161",
+    "osm_id": 1599474192
+  },
+  {
+    "name": "Červená Voda",
+    "lat": 50.0402721,
+    "lon": 16.7428976,
+    "type": "town",
+    "population": "2542",
+    "osm_id": 1586645618
+  },
+  {
+    "name": "Červená Řečice",
+    "lat": 49.5116159,
+    "lon": 15.1792161,
+    "type": "town",
+    "population": "1008",
+    "osm_id": 1586655515
+  },
+  {
+    "name": "Červený Kostelec",
+    "lat": 50.476505,
+    "lon": 16.0926214,
+    "type": "town",
+    "population": "6817",
+    "osm_id": 1586673726
+  },
+  {
+    "name": "Česká Kamenice",
+    "lat": 50.7994117,
+    "lon": 14.4165592,
+    "type": "town",
+    "population": "4315",
+    "osm_id": 1598882908
+  },
+  {
+    "name": "Česká Lípa",
+    "lat": 50.6865452,
+    "lon": 14.5372974,
+    "type": "town",
+    "population": "36740",
+    "osm_id": 1587521408
+  },
+  {
+    "name": "Česká Skalice",
+    "lat": 50.3945544,
+    "lon": 16.0436385,
+    "type": "town",
+    "population": "5008",
+    "osm_id": 1586673702
+  },
+  {
+    "name": "Česká Třebová",
+    "lat": 49.9021593,
+    "lon": 16.4472039,
+    "type": "town",
+    "population": "14464",
+    "osm_id": 1586645572
+  },
+  {
+    "name": "České Budějovice",
+    "lat": 48.9747357,
+    "lon": 14.474285,
+    "type": "city",
+    "population": "93426",
+    "osm_id": 1599120629
+  },
+  {
+    "name": "Český Brod",
+    "lat": 50.0740536,
+    "lon": 14.8606115,
+    "type": "town",
+    "population": "6992",
+    "osm_id": 1600675522
+  },
+  {
+    "name": "Český Dub",
+    "lat": 50.6607076,
+    "lon": 14.9957954,
+    "type": "town",
+    "population": "2037",
+    "osm_id": 1587362930
+  },
+  {
+    "name": "Český Krumlov",
+    "lat": 48.8106526,
+    "lon": 14.3150586,
+    "type": "town",
+    "population": "13028",
+    "osm_id": 1599136536
+  },
+  {
+    "name": "Český Těšín",
+    "lat": 49.7464018,
+    "lon": 18.6260976,
+    "type": "town",
+    "population": "22347",
+    "osm_id": 1601422775
+  },
+  {
+    "name": "Čáslav",
+    "lat": 49.9109171,
+    "lon": 15.3913205,
+    "type": "town",
+    "population": "10397",
+    "osm_id": 1600680539
+  },
+  {
+    "name": "Řevnice",
+    "lat": 49.914333,
+    "lon": 14.2361169,
+    "type": "town",
+    "population": "2956",
+    "osm_id": 1601231598
+  },
+  {
+    "name": "Říčany",
+    "lat": 49.9919444,
+    "lon": 14.6542365,
+    "type": "town",
+    "population": "9655",
+    "osm_id": 1601194853
+  },
+  {
+    "name": "Šenov",
+    "lat": 49.7931698,
+    "lon": 18.3756285,
+    "type": "town",
+    "population": "5406",
+    "osm_id": 1601523098
+  },
+  {
+    "name": "Šlapanice",
+    "lat": 49.1688974,
+    "lon": 16.7272687,
+    "type": "town",
+    "population": "7486",
+    "osm_id": 1601616585
+  },
+  {
+    "name": "Šluknov",
+    "lat": 51.003217,
+    "lon": 14.4530321,
+    "type": "town",
+    "population": "4442",
+    "osm_id": 1598882886
+  },
+  {
+    "name": "Šternberk",
+    "lat": 49.730712,
+    "lon": 17.2988474,
+    "type": "town",
+    "population": "13579",
+    "osm_id": 1599305387
+  },
+  {
+    "name": "Štramberk",
+    "lat": 49.591233,
+    "lon": 18.1170378,
+    "type": "town",
+    "population": "3408",
+    "osm_id": 1601460636
+  },
+  {
+    "name": "Štěpánov",
+    "lat": 49.6849637,
+    "lon": 17.216893,
+    "type": "town",
+    "population": "2559",
+    "osm_id": 1599305367
+  },
+  {
+    "name": "Štětí",
+    "lat": 50.4529016,
+    "lon": 14.3747194,
+    "type": "town",
+    "population": "8194",
+    "osm_id": 1598884116
+  },
+  {
+    "name": "Šumperk",
+    "lat": 49.9655521,
+    "lon": 16.9705651,
+    "type": "town",
+    "population": "29490",
+    "osm_id": 1599401190
+  },
+  {
+    "name": "Švihov",
+    "lat": 49.4814204,
+    "lon": 13.2838077,
+    "type": "town",
+    "population": "1689",
+    "osm_id": 359157438
+  },
+  {
+    "name": "Žacléř",
+    "lat": 50.6586423,
+    "lon": 15.9078109,
+    "type": "town",
+    "population": "3400",
+    "osm_id": 1587265813
+  },
+  {
+    "name": "Žamberk",
+    "lat": 50.0871434,
+    "lon": 16.4650893,
+    "type": "town",
+    "population": "6153",
+    "osm_id": 1586645472
+  },
+  {
+    "name": "Žatec",
+    "lat": 50.3274423,
+    "lon": 13.545952,
+    "type": "town",
+    "population": "19266",
+    "osm_id": 1598419317
+  },
+  {
+    "name": "Ždánice",
+    "lat": 49.0672875,
+    "lon": 17.0275122,
+    "type": "town",
+    "population": "2742",
+    "osm_id": 1601694529
+  },
+  {
+    "name": "Ždírec nad Doubravou",
+    "lat": 49.6959567,
+    "lon": 15.8136021,
+    "type": "town",
+    "population": "3126",
+    "osm_id": 262592833
+  },
+  {
+    "name": "Železná Ruda",
+    "lat": 49.1374249,
+    "lon": 13.2350287,
+    "type": "town",
+    "population": "1630",
+    "osm_id": 1599445910
+  },
+  {
+    "name": "Železný Brod",
+    "lat": 50.6430652,
+    "lon": 15.2539851,
+    "type": "town",
+    "population": "5331",
+    "osm_id": 1587389265
+  },
+  {
+    "name": "Židlochovice",
+    "lat": 49.0379775,
+    "lon": 16.6171639,
+    "type": "town",
+    "population": "3796",
+    "osm_id": 1601616530
+  },
+  {
+    "name": "Žirovnice",
+    "lat": 49.2531813,
+    "lon": 15.188238,
+    "type": "town",
+    "population": "2937",
+    "osm_id": 1586655447
+  },
+  {
+    "name": "Žďár nad Sázavou",
+    "lat": 49.5629014,
+    "lon": 15.9391924,
+    "type": "town",
+    "population": "20994",
+    "osm_id": 1586412044
+  }
+]

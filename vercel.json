@@ -1,0 +1,36 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  },
+  "ignoreCommand": "bash ignored-build-step.sh",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "taxinearme.sk"
+        }
+      ],
+      "destination": "https://www.taxinearme.sk/api/:path*"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/:path((?!api).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "taxinearme.sk"
+        }
+      ],
+      "destination": "https://www.taxinearme.sk/:path*",
+      "permanent": true
+    }
+  ]
+}

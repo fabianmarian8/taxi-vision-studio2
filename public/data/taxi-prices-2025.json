@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "title": "Index cien taxislužieb na Slovensku 2025",
+    "description": "Kompletný prieskum cien taxi služieb v slovenských mestách za rok 2024/2025",
+    "lastUpdated": "2025-01-15",
+    "source": "Oficiálne cenníky taxislužieb",
+    "citiesCount": 10,
+    "averagePricePerKm": 0.91,
+    "priceRange": {
+      "nastupne": {
+        "min": 0.50,
+        "max": 3.50
+      },
+      "cenaZaKm": {
+        "min": 0.70,
+        "max": 1.50
+      }
+    }
+  },
+  "cities": [
+    {
+      "id": "bratislava",
+      "name": "Bratislava",
+      "slug": "bratislava",
+      "region": "Bratislavský kraj",
+      "latitude": 48.1486,
+      "longitude": 17.1077,
+      "prices": {
+        "nastupne": 3.00,
+        "cenaZaKm": 1.50,
+        "cakanie": 0.50,
+        "odhad5km": 11.70
+      },
+      "notes": "Najdrahšie mesto na Slovensku. Mnohé služby účtujú až 3.50€ nástupné.",
+      "specialPrices": {
+        "letisko": {
+          "destination": "Centrum",
+          "price": 20.00,
+          "note": "Fixná cena u niektorých služieb"
+        }
+      },
+      "ranking": {
+        "nastupne": 10,
+        "cenaZaKm": 10,
+        "celkovo": 10
+      }
+    },
+    {
+      "id": "kosice",
+      "name": "Košice",
+      "slug": "kosice",
+      "region": "Košický kraj",
+      "latitude": 48.7164,
+      "longitude": 21.2611,
+      "prices": {
+        "nastupne": 1.20,
+        "cenaZaKm": 1.20,
+        "cakanie": 0.17,
+        "odhad5km": 8.00
+      },
+      "notes": "Druhé najväčšie mesto, konkurenčné ceny. Niektoré služby účtujú 1.00-1.50€/km.",
+      "specialPrices": {
+        "letisko": {
+          "destination": "Centrum",
+          "price": 10.00,
+          "note": "Príplatok 2-3€ u niektorých služieb"
+        }
+      },
+      "ranking": {
+        "nastupne": 3,
+        "cenaZaKm": 7,
+        "celkovo": 6
+      }
+    },
+    {
+      "id": "presov",
+      "name": "Prešov",
+      "slug": "presov",
+      "region": "Prešovský kraj",
+      "latitude": 49.0018,
+      "longitude": 21.2393,
+      "prices": {
+        "nastupne": 2.00,
+        "cenaZaKm": 1.00,
+        "cakanie": 0.15,
+        "odhad5km": 7.30
+      },
+      "notes": "Priemerná základná cena 2€. Čakanie 10€/hodinu u AB Taxi.",
+      "ranking": {
+        "nastupne": 6,
+        "cenaZaKm": 5,
+        "celkovo": 5
+      }
+    },
+    {
+      "id": "zilina",
+      "name": "Žilina",
+      "slug": "zilina",
+      "region": "Žilinský kraj",
+      "latitude": 49.2231,
+      "longitude": 18.7397,
+      "prices": {
+        "nastupne": 3.50,
+        "cenaZaKm": 0.80,
+        "cakanie": 0.25,
+        "odhad5km": 8.00
+      },
+      "notes": "Vysoké nástupné, ale nízka cena za kilometer. Niektoré služby až 1.00€/km.",
+      "ranking": {
+        "nastupne": 9,
+        "cenaZaKm": 2,
+        "celkovo": 7
+      }
+    },
+    {
+      "id": "nitra",
+      "name": "Nitra",
+      "slug": "nitra",
+      "region": "Nitriansky kraj",
+      "latitude": 48.3069,
+      "longitude": 18.0872,
+      "prices": {
+        "nastupne": 2.50,
+        "cenaZaKm": 1.00,
+        "cakanie": 0.20,
+        "odhad5km": 8.00
+      },
+      "notes": "Stredné ceny v regióne. Čakanie 0.20-0.33€/min.",
+      "ranking": {
+        "nastupne": 7,
+        "cenaZaKm": 5,
+        "celkovo": 8
+      }
+    },
+    {
+      "id": "banska-bystrica",
+      "name": "Banská Bystrica",
+      "slug": "banska-bystrica",
+      "region": "Banskobystrický kraj",
+      "latitude": 48.7394,
+      "longitude": 19.1534,
+      "prices": {
+        "nastupne": 1.50,
+        "cenaZaKm": 1.00,
+        "cakanie": 0.25,
+        "odhad5km": 7.00
+      },
+      "notes": "Lacnejšie nástupné oproti väčším mestám.",
+      "ranking": {
+        "nastupne": 4,
+        "cenaZaKm": 5,
+        "celkovo": 4
+      }
+    },
+    {
+      "id": "trnava",
+      "name": "Trnava",
+      "slug": "trnava",
+      "region": "Trnavský kraj",
+      "latitude": 48.3774,
+      "longitude": 17.5878,
+      "prices": {
+        "nastupne": 1.00,
+        "cenaZaKm": 0.90,
+        "cakanie": 0.13,
+        "odhad5km": 5.80
+      },
+      "notes": "Jedna služba ponúka fixnú cenu 3.50€ na ľubovoľnú jazdu v meste.",
+      "specialPrices": {
+        "fixedInCity": {
+          "price": 3.50,
+          "note": "Fixná cena v meste (Euro Taxi)"
+        }
+      },
+      "ranking": {
+        "nastupne": 2,
+        "cenaZaKm": 3,
+        "celkovo": 2
+      }
+    },
+    {
+      "id": "trencin",
+      "name": "Trenčín",
+      "slug": "trencin",
+      "region": "Trenčiansky kraj",
+      "latitude": 48.8946,
+      "longitude": 18.0444,
+      "prices": {
+        "nastupne": 1.00,
+        "cenaZaKm": 1.20,
+        "cakanie": 0.20,
+        "odhad5km": 7.60
+      },
+      "notes": "Nízke nástupné, ale vyššia cena za kilometer.",
+      "ranking": {
+        "nastupne": 2,
+        "cenaZaKm": 7,
+        "celkovo": 9
+      }
+    },
+    {
+      "id": "martin",
+      "name": "Martin",
+      "slug": "martin",
+      "region": "Žilinský kraj",
+      "latitude": 49.0664,
+      "longitude": 18.9211,
+      "prices": {
+        "nastupne": 0.50,
+        "cenaZaKm": 1.00,
+        "cakanie": 0.15,
+        "odhad5km": 6.00
+      },
+      "notes": "Najlacnejšie nástupné na Slovensku.",
+      "ranking": {
+        "nastupne": 1,
+        "cenaZaKm": 5,
+        "celkovo": 3
+      }
+    },
+    {
+      "id": "poprad",
+      "name": "Poprad",
+      "slug": "poprad",
+      "region": "Prešovský kraj",
+      "latitude": 49.0614,
+      "longitude": 20.2974,
+      "prices": {
+        "nastupne": 0.60,
+        "cenaZaKm": 0.80,
+        "cakanie": 0.15,
+        "odhad5km": 5.00
+      },
+      "notes": "Najlacnejšie mesto celkovo. Nočná tarifa 0.83€/km.",
+      "specialPrices": {
+        "nocna": {
+          "cenaZaKm": 0.83,
+          "note": "Nočná tarifa"
+        },
+        "letisko": {
+          "destination": "Mesto",
+          "price": 12.50,
+          "note": "Odhad ceny"
+        }
+      },
+      "ranking": {
+        "nastupne": 2,
+        "cenaZaKm": 1,
+        "celkovo": 1
+      }
+    }
+  ],
+  "rankings": {
+    "najlacnejsieNastupne": [
+      { "mesto": "Martin", "cena": 0.50 },
+      { "mesto": "Poprad", "cena": 0.60 },
+      { "mesto": "Trnava", "cena": 1.00 },
+      { "mesto": "Trenčín", "cena": 1.00 },
+      { "mesto": "Košice", "cena": 1.20 }
+    ],
+    "najdrahsieNastupne": [
+      { "mesto": "Žilina", "cena": 3.50 },
+      { "mesto": "Bratislava", "cena": 3.00 },
+      { "mesto": "Nitra", "cena": 2.50 },
+      { "mesto": "Prešov", "cena": 2.00 },
+      { "mesto": "Banská Bystrica", "cena": 1.50 }
+    ],
+    "najlacnejsieZaKm": [
+      { "mesto": "Poprad", "cena": 0.80 },
+      { "mesto": "Žilina", "cena": 0.80 },
+      { "mesto": "Trnava", "cena": 0.90 },
+      { "mesto": "Prešov", "cena": 1.00 },
+      { "mesto": "Nitra", "cena": 1.00 }
+    ],
+    "najdrahsieZaKm": [
+      { "mesto": "Bratislava", "cena": 1.50 },
+      { "mesto": "Košice", "cena": 1.20 },
+      { "mesto": "Trenčín", "cena": 1.20 },
+      { "mesto": "Prešov", "cena": 1.00 },
+      { "mesto": "Nitra", "cena": 1.00 }
+    ],
+    "najlacnejsie5km": [
+      { "mesto": "Poprad", "cena": 5.00 },
+      { "mesto": "Trnava", "cena": 5.80 },
+      { "mesto": "Martin", "cena": 6.00 },
+      { "mesto": "Banská Bystrica", "cena": 7.00 },
+      { "mesto": "Prešov", "cena": 7.30 }
+    ],
+    "najdrahsie5km": [
+      { "mesto": "Bratislava", "cena": 11.70 },
+      { "mesto": "Košice", "cena": 8.00 },
+      { "mesto": "Žilina", "cena": 8.00 },
+      { "mesto": "Nitra", "cena": 8.00 },
+      { "mesto": "Trenčín", "cena": 7.60 }
+    ]
+  },
+  "insights": [
+    {
+      "title": "Najdrahšie mesto",
+      "description": "Bratislava je najdrahšie mesto na Slovensku s nástupným 3€ a cenou 1.50€/km.",
+      "icon": "TrendingUp"
+    },
+    {
+      "title": "Najlacnejšie mesto",
+      "description": "Poprad ponúka najlacnejšie ceny s nástupným 0.60€ a cenou 0.80€/km.",
+      "icon": "TrendingDown"
+    },
+    {
+      "title": "Fixné ceny",
+      "description": "40% taxíkov na Slovensku používa fixné ceny v mestách namiesto kilometrovej tarify.",
+      "icon": "DollarSign"
+    },
+    {
+      "title": "Priemerná cena",
+      "description": "Priemerná kilometrová sadzba na Slovensku je 0.91€/km v roku 2024.",
+      "icon": "BarChart3"
+    }
+  ],
+  "methodology": {
+    "description": "Dáta boli získané z oficiálnych cenníkov taxislužieb v rokoch 2024-2025. Porovnávali sme klasické taxislužby, nie platformy ako Bolt či Uber.",
+    "sources": [
+      "Oficiálne cenníky taxislužieb",
+      "Štatistický prehľad odvetvia taxislužieb 2024",
+      "Prieskum v 10 najväčších slovenských mestách"
+    ],
+    "note": "Ceny sa môžu líšiť podľa konkrétnej taxislužby a typu jazdy. Odporúčame overiť aktuálne ceny priamo u vybranej služby."
+  }
+}

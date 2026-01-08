@@ -1,0 +1,1981 @@
+{
+  "generatedAt": "2025-12-12T21:30:38.852Z",
+  "anomaliesCount": 329,
+  "fixedCount": 329,
+  "fixes": [
+    {
+      "municipality": "babina",
+      "city": "bansky-studenec",
+      "googleValue": 31.6,
+      "originalValue": 15.2
+    },
+    {
+      "municipality": "bacuch",
+      "city": "liptovsky-hradok",
+      "googleValue": 55.4,
+      "originalValue": 55.3
+    },
+    {
+      "municipality": "bacurov",
+      "city": "bansky-studenec",
+      "googleValue": 36.3,
+      "originalValue": 28
+    },
+    {
+      "municipality": "backa",
+      "city": "cierna-nad-tisou",
+      "googleValue": 10.7,
+      "originalValue": 10.7
+    },
+    {
+      "municipality": "balaze",
+      "city": "kremnica",
+      "googleValue": 65.8,
+      "originalValue": 64.1
+    },
+    {
+      "municipality": "banska-bela",
+      "city": "bansky-studenec",
+      "googleValue": 12.1,
+      "originalValue": 5.1
+    },
+    {
+      "municipality": "banska-bystrica",
+      "city": "kremnica",
+      "googleValue": 50.8,
+      "originalValue": 51
+    },
+    {
+      "municipality": "blahova",
+      "city": "sladkovicovo",
+      "googleValue": 39.6,
+      "originalValue": 26.8
+    },
+    {
+      "municipality": "blatne-revistia",
+      "city": "chlmec",
+      "googleValue": 50.1,
+      "originalValue": 50
+    },
+    {
+      "municipality": "bobrovcek",
+      "city": "tvrdosin",
+      "googleValue": 59.1,
+      "originalValue": 49.3
+    },
+    {
+      "municipality": "bodina",
+      "city": "rajec",
+      "googleValue": 20.7,
+      "originalValue": 20.7
+    },
+    {
+      "municipality": "bogliarka",
+      "city": "sabinov",
+      "googleValue": 56.2,
+      "originalValue": 56
+    },
+    {
+      "municipality": "bohunice-levice",
+      "city": "nova-bana",
+      "googleValue": 42.1,
+      "originalValue": 18.3
+    },
+    {
+      "municipality": "bohunice-levice",
+      "city": "zarnovica",
+      "googleValue": 51.4,
+      "originalValue": 28.8
+    },
+    {
+      "municipality": "borinka",
+      "city": "svaty-jur",
+      "googleValue": 47.9,
+      "originalValue": 51.2
+    },
+    {
+      "municipality": "botany",
+      "city": "cierna-nad-tisou",
+      "googleValue": 9.8,
+      "originalValue": 8
+    },
+    {
+      "municipality": "borka",
+      "city": "medzev",
+      "googleValue": 62.4,
+      "originalValue": 55.2
+    },
+    {
+      "municipality": "borka",
+      "city": "moldava-nad-bodvou",
+      "googleValue": 46.8,
+      "originalValue": 47.1
+    },
+    {
+      "municipality": "bracovce",
+      "city": "trebisov",
+      "googleValue": 22.2,
+      "originalValue": 20.5
+    },
+    {
+      "municipality": "brdarka",
+      "city": "dobsina",
+      "googleValue": 31.1,
+      "originalValue": 31.1
+    },
+    {
+      "municipality": "brehov",
+      "city": "kralovsky-chlmec",
+      "googleValue": 36.4,
+      "originalValue": 36.6
+    },
+    {
+      "municipality": "brehy",
+      "city": "batovce",
+      "googleValue": 38.9,
+      "originalValue": 20.9
+    },
+    {
+      "municipality": "breziny",
+      "city": "bansky-studenec",
+      "googleValue": 37.8,
+      "originalValue": 29.5
+    },
+    {
+      "municipality": "bystra-stropkov",
+      "city": "medzilaborce",
+      "googleValue": 18.1,
+      "originalValue": 19.4
+    },
+    {
+      "municipality": "bzovska-lehotka",
+      "city": "bansky-studenec",
+      "googleValue": 38.8,
+      "originalValue": 22.6
+    },
+    {
+      "municipality": "cekovce",
+      "city": "krupina",
+      "googleValue": 11.4,
+      "originalValue": 11.3
+    },
+    {
+      "municipality": "certizne",
+      "city": "svidnik",
+      "googleValue": 56,
+      "originalValue": 55.4
+    },
+    {
+      "municipality": "cervenica",
+      "city": "hanusovce-nad-toplou",
+      "googleValue": 46.6,
+      "originalValue": 46.7
+    },
+    {
+      "municipality": "cierna",
+      "city": "cierna-nad-tisou",
+      "googleValue": 6.1,
+      "originalValue": 6.1
+    },
+    {
+      "municipality": "cierna-lehota-roznava",
+      "city": "jelsava",
+      "googleValue": 28.6,
+      "originalValue": 28.3
+    },
+    {
+      "municipality": "cierna-lehota-roznava",
+      "city": "revuca",
+      "googleValue": 40.4,
+      "originalValue": 40.5
+    },
+    {
+      "municipality": "dedinky",
+      "city": "betlanovce",
+      "googleValue": 41.3,
+      "originalValue": 33.4
+    },
+    {
+      "municipality": "dekys",
+      "city": "zarnovica",
+      "googleValue": 35.8,
+      "originalValue": 19.6
+    },
+    {
+      "municipality": "demanovska-dolina",
+      "city": "brezno",
+      "googleValue": 71.8,
+      "originalValue": 71.7
+    },
+    {
+      "municipality": "devicany",
+      "city": "nova-bana",
+      "googleValue": 35.6,
+      "originalValue": 35.6
+    },
+    {
+      "municipality": "diviaky-nad-nitricou",
+      "city": "bojnice",
+      "googleValue": 17.7,
+      "originalValue": 17.3
+    },
+    {
+      "municipality": "dlha-nad-kysucou",
+      "city": "kysucke-nove-mesto",
+      "googleValue": 38.2,
+      "originalValue": 20
+    },
+    {
+      "municipality": "dlhe-pole",
+      "city": "turzovka",
+      "googleValue": 33.5,
+      "originalValue": 24.5
+    },
+    {
+      "municipality": "dobra-niva",
+      "city": "bansky-studenec",
+      "googleValue": 35.8,
+      "originalValue": 19.7
+    },
+    {
+      "municipality": "dobra-voda",
+      "city": "brezova-pod-bradlom",
+      "googleValue": 40.1,
+      "originalValue": 12.6
+    },
+    {
+      "municipality": "dobsina",
+      "city": "betlanovce",
+      "googleValue": 46,
+      "originalValue": 38.1
+    },
+    {
+      "municipality": "dolna-krupa",
+      "city": "boleraz",
+      "googleValue": 18.7,
+      "originalValue": 10.3
+    },
+    {
+      "municipality": "dolna-krupa",
+      "city": "horne-oresany",
+      "googleValue": 21.1,
+      "originalValue": 19.8
+    },
+    {
+      "municipality": "dolna-poruba",
+      "city": "ilava",
+      "googleValue": 29,
+      "originalValue": 13.1
+    },
+    {
+      "municipality": "dolna-tizina",
+      "city": "vrutky",
+      "googleValue": 36,
+      "originalValue": 21.4
+    },
+    {
+      "municipality": "dolna-ves",
+      "city": "handlova",
+      "googleValue": 35.3,
+      "originalValue": 35.2
+    },
+    {
+      "municipality": "dolne-oresany",
+      "city": "horne-oresany",
+      "googleValue": 14.6,
+      "originalValue": 3.9
+    },
+    {
+      "municipality": "dolne-oresany",
+      "city": "boleraz",
+      "googleValue": 15.4,
+      "originalValue": 16.6
+    },
+    {
+      "municipality": "dolany-pezinok",
+      "city": "horne-oresany",
+      "googleValue": 18.4,
+      "originalValue": 8.7
+    },
+    {
+      "municipality": "drienovo",
+      "city": "dudince",
+      "googleValue": 38.7,
+      "originalValue": 37.9
+    },
+    {
+      "municipality": "drienovo",
+      "city": "sahy",
+      "googleValue": 53.7,
+      "originalValue": 34.1
+    },
+    {
+      "municipality": "drnava",
+      "city": "medzev",
+      "googleValue": 52.8,
+      "originalValue": 45.3
+    },
+    {
+      "municipality": "dubove-turcianske-teplice",
+      "city": "handlova",
+      "googleValue": 45.6,
+      "originalValue": 23.3
+    },
+    {
+      "municipality": "ducove",
+      "city": "horna-streda",
+      "googleValue": 11.6,
+      "originalValue": 11.6
+    },
+    {
+      "municipality": "falkusovce",
+      "city": "trebisov",
+      "googleValue": 24.2,
+      "originalValue": 22.5
+    },
+    {
+      "municipality": "fekisovce",
+      "city": "chlmec",
+      "googleValue": 47.5,
+      "originalValue": 47.3
+    },
+    {
+      "municipality": "frickovce",
+      "city": "sabinov",
+      "googleValue": 37,
+      "originalValue": 37.4
+    },
+    {
+      "municipality": "gelnica",
+      "city": "medzev",
+      "googleValue": 47.9,
+      "originalValue": 47
+    },
+    {
+      "municipality": "gemer",
+      "city": "tornala",
+      "googleValue": 33.3,
+      "originalValue": 4
+    },
+    {
+      "municipality": "hacava",
+      "city": "medzev",
+      "googleValue": 33.9,
+      "originalValue": 33.8
+    },
+    {
+      "municipality": "hacava",
+      "city": "gelnica",
+      "googleValue": 81.6,
+      "originalValue": 54.2
+    },
+    {
+      "municipality": "haj-turcianske-teplice",
+      "city": "handlova",
+      "googleValue": 42.9,
+      "originalValue": 27.8
+    },
+    {
+      "municipality": "handlova",
+      "city": "kremnica",
+      "googleValue": 40.8,
+      "originalValue": 26.2
+    },
+    {
+      "municipality": "hanigovce",
+      "city": "bardejov",
+      "googleValue": 61.4,
+      "originalValue": 61.4
+    },
+    {
+      "municipality": "hankova",
+      "city": "dobsina",
+      "googleValue": 29.1,
+      "originalValue": 29.2
+    },
+    {
+      "municipality": "harmanec",
+      "city": "kremnica",
+      "googleValue": 39.8,
+      "originalValue": 39.9
+    },
+    {
+      "municipality": "hazin",
+      "city": "chlmec",
+      "googleValue": 42.9,
+      "originalValue": 42.8
+    },
+    {
+      "municipality": "helcmanovce",
+      "city": "spisske-vlachy",
+      "googleValue": 36.9,
+      "originalValue": 37.1
+    },
+    {
+      "municipality": "helcmanovce",
+      "city": "medzev",
+      "googleValue": 38.1,
+      "originalValue": 37.3
+    },
+    {
+      "municipality": "henclova",
+      "city": "roznava",
+      "googleValue": 58.2,
+      "originalValue": 40.7
+    },
+    {
+      "municipality": "henclova",
+      "city": "dobsina",
+      "googleValue": 46.2,
+      "originalValue": 42.8
+    },
+    {
+      "municipality": "hertnik",
+      "city": "sabinov",
+      "googleValue": 40.2,
+      "originalValue": 40.6
+    },
+    {
+      "municipality": "hervartov",
+      "city": "sabinov",
+      "googleValue": 47.1,
+      "originalValue": 47.4
+    },
+    {
+      "municipality": "hlboke-nad-vahom",
+      "city": "rajec",
+      "googleValue": 35.8,
+      "originalValue": 23.4
+    },
+    {
+      "municipality": "hlivistia",
+      "city": "chlmec",
+      "googleValue": 61.6,
+      "originalValue": 61.4
+    },
+    {
+      "municipality": "hnojne",
+      "city": "chlmec",
+      "googleValue": 47,
+      "originalValue": 46.8
+    },
+    {
+      "municipality": "horna-poruba",
+      "city": "trencianske-teplice",
+      "googleValue": 26.9,
+      "originalValue": 16.7
+    },
+    {
+      "municipality": "horne-plachtince",
+      "city": "modry-kamen",
+      "googleValue": 10.3,
+      "originalValue": 10.3
+    },
+    {
+      "municipality": "horne-prsany",
+      "city": "kremnica",
+      "googleValue": 51.9,
+      "originalValue": 52.7
+    },
+    {
+      "municipality": "luborec",
+      "city": "modry-kamen",
+      "googleValue": 54.5,
+      "originalValue": 21.4
+    },
+    {
+      "municipality": "luborec",
+      "city": "velky-krtis",
+      "googleValue": 52.4,
+      "originalValue": 20.7
+    },
+    {
+      "municipality": "lutina",
+      "city": "bardejov",
+      "googleValue": 57.8,
+      "originalValue": 39.3
+    },
+    {
+      "municipality": "majerovce",
+      "city": "vranov-nad-toplou",
+      "googleValue": 7.8,
+      "originalValue": 7.8
+    },
+    {
+      "municipality": "mala-cierna",
+      "city": "bytca",
+      "googleValue": 39,
+      "originalValue": 39.6
+    },
+    {
+      "municipality": "mala-lehota",
+      "city": "zarnovica",
+      "googleValue": 29.3,
+      "originalValue": 15.8
+    },
+    {
+      "municipality": "malachov",
+      "city": "kremnica",
+      "googleValue": 51.8,
+      "originalValue": 52.7
+    },
+    {
+      "municipality": "malcice",
+      "city": "trebisov",
+      "googleValue": 30.4,
+      "originalValue": 30.4
+    },
+    {
+      "municipality": "male-borove",
+      "city": "tvrdosin",
+      "googleValue": 31.5,
+      "originalValue": 31.5
+    },
+    {
+      "municipality": "maly-cepcin",
+      "city": "handlova",
+      "googleValue": 51.3,
+      "originalValue": 31.7
+    },
+    {
+      "municipality": "mankovce",
+      "city": "topolcany",
+      "googleValue": 48.4,
+      "originalValue": 48.1
+    },
+    {
+      "municipality": "marianka",
+      "city": "svaty-jur",
+      "googleValue": 42.9,
+      "originalValue": 46.3
+    },
+    {
+      "municipality": "markovce",
+      "city": "trebisov",
+      "googleValue": 32.3,
+      "originalValue": 32.8
+    },
+    {
+      "municipality": "markuska",
+      "city": "dobsina",
+      "googleValue": 26.5,
+      "originalValue": 26.6
+    },
+    {
+      "municipality": "matiaska",
+      "city": "stropkov",
+      "googleValue": 45.9,
+      "originalValue": 40.3
+    },
+    {
+      "municipality": "matysova",
+      "city": "stara-lubovna",
+      "googleValue": 17.5,
+      "originalValue": 18.2
+    },
+    {
+      "municipality": "medzev",
+      "city": "gelnica",
+      "googleValue": 48.2,
+      "originalValue": 47.4
+    },
+    {
+      "municipality": "michalkova",
+      "city": "bansky-studenec",
+      "googleValue": 43.6,
+      "originalValue": 37
+    },
+    {
+      "municipality": "michalok",
+      "city": "hanusovce-nad-toplou",
+      "googleValue": 32.9,
+      "originalValue": 32.9
+    },
+    {
+      "municipality": "michalok",
+      "city": "giraltovce",
+      "googleValue": 43.6,
+      "originalValue": 43.6
+    },
+    {
+      "municipality": "milpos",
+      "city": "bardejov",
+      "googleValue": 60.4,
+      "originalValue": 62.3
+    },
+    {
+      "municipality": "mlynky",
+      "city": "betlanovce",
+      "googleValue": 43.4,
+      "originalValue": 35.3
+    },
+    {
+      "municipality": "mnisek-nad-hnilcom",
+      "city": "spisske-vlachy",
+      "googleValue": 42.5,
+      "originalValue": 42.8
+    },
+    {
+      "municipality": "modrovka",
+      "city": "horna-streda",
+      "googleValue": 8.5,
+      "originalValue": 8.4
+    },
+    {
+      "municipality": "most-pri-bratislave",
+      "city": "bernolakovo",
+      "googleValue": 17.4,
+      "originalValue": 18
+    },
+    {
+      "municipality": "motycky",
+      "city": "blatnica",
+      "googleValue": 51.3,
+      "originalValue": 50.4
+    },
+    {
+      "municipality": "nemce",
+      "city": "kremnica",
+      "googleValue": 57,
+      "originalValue": 55.3
+    },
+    {
+      "municipality": "neslusa",
+      "city": "turzovka",
+      "googleValue": 37.7,
+      "originalValue": 19.9
+    },
+    {
+      "municipality": "nevolne",
+      "city": "handlova",
+      "googleValue": 43.3,
+      "originalValue": 43.3
+    },
+    {
+      "municipality": "nizny-krucov",
+      "city": "vranov-nad-toplou",
+      "googleValue": 14.5,
+      "originalValue": 3.6
+    },
+    {
+      "municipality": "nolcovo",
+      "city": "turany",
+      "googleValue": 8.8,
+      "originalValue": 8.8
+    },
+    {
+      "municipality": "nova-kelca",
+      "city": "hanusovce-nad-toplou",
+      "googleValue": 36.7,
+      "originalValue": 33.6
+    },
+    {
+      "municipality": "olejnikov",
+      "city": "bardejov",
+      "googleValue": 60.1,
+      "originalValue": 36.9
+    },
+    {
+      "municipality": "olsavica",
+      "city": "spisske-podhradie",
+      "googleValue": 24.7,
+      "originalValue": 24.7
+    },
+    {
+      "municipality": "olsavka-stropkov",
+      "city": "svidnik",
+      "googleValue": 23.8,
+      "originalValue": 14.4
+    },
+    {
+      "municipality": "omastina",
+      "city": "bojnice",
+      "googleValue": 38,
+      "originalValue": 38
+    },
+    {
+      "municipality": "opatka",
+      "city": "medzev",
+      "googleValue": 62,
+      "originalValue": 48.5
+    },
+    {
+      "municipality": "osrblie",
+      "city": "hrinova",
+      "googleValue": 51.7,
+      "originalValue": 52.2
+    },
+    {
+      "municipality": "osrblie",
+      "city": "detva",
+      "googleValue": 64.9,
+      "originalValue": 65
+    },
+    {
+      "municipality": "ostra-luka",
+      "city": "bansky-studenec",
+      "googleValue": 32.5,
+      "originalValue": 24.2
+    },
+    {
+      "municipality": "paca",
+      "city": "medzev",
+      "googleValue": 55.8,
+      "originalValue": 39.9
+    },
+    {
+      "municipality": "pavlany",
+      "city": "spisske-podhradie",
+      "googleValue": 24.7,
+      "originalValue": 8.9
+    },
+    {
+      "municipality": "plavecke-podhradie",
+      "city": "modra",
+      "googleValue": 42.1,
+      "originalValue": 42.5
+    },
+    {
+      "municipality": "plavecky-stvrtok",
+      "city": "svaty-jur",
+      "googleValue": 53.7,
+      "originalValue": 57
+    },
+    {
+      "municipality": "ples",
+      "city": "filakovo",
+      "googleValue": 20.9,
+      "originalValue": 20.9
+    },
+    {
+      "municipality": "pliesovce",
+      "city": "bansky-studenec",
+      "googleValue": 38.3,
+      "originalValue": 22.5
+    },
+    {
+      "municipality": "ploske-revuca",
+      "city": "revuca",
+      "googleValue": 23.1,
+      "originalValue": 23.5
+    },
+    {
+      "municipality": "podhradie-topolcany",
+      "city": "horna-streda",
+      "googleValue": 49,
+      "originalValue": 29.6
+    },
+    {
+      "municipality": "podzamcok",
+      "city": "bansky-studenec",
+      "googleValue": 39.6,
+      "originalValue": 33
+    },
+    {
+      "municipality": "pohronsky-bukovec",
+      "city": "ruzomberok",
+      "googleValue": 77,
+      "originalValue": 77.3
+    },
+    {
+      "municipality": "polomka",
+      "city": "liptovsky-hradok",
+      "googleValue": 57.8,
+      "originalValue": 56.9
+    },
+    {
+      "municipality": "poproc-rimavska-sobota",
+      "city": "revuca",
+      "googleValue": 43.4,
+      "originalValue": 35.5
+    },
+    {
+      "municipality": "poruba-pod-vihorlatom",
+      "city": "chlmec",
+      "googleValue": 52.8,
+      "originalValue": 52.4
+    },
+    {
+      "municipality": "potocky",
+      "city": "medzilaborce",
+      "googleValue": 41.6,
+      "originalValue": 28.8
+    },
+    {
+      "municipality": "potonske-luky",
+      "city": "sladkovicovo",
+      "googleValue": 45.7,
+      "originalValue": 32.3
+    },
+    {
+      "municipality": "potonske-luky",
+      "city": "galanta",
+      "googleValue": 47.8,
+      "originalValue": 40.3
+    },
+    {
+      "municipality": "povraznik",
+      "city": "detva",
+      "googleValue": 76.3,
+      "originalValue": 45.4
+    },
+    {
+      "municipality": "povraznik",
+      "city": "hrinova",
+      "googleValue": 74.1,
+      "originalValue": 55.6
+    },
+    {
+      "municipality": "potor",
+      "city": "velky-krtis",
+      "googleValue": 20.7,
+      "originalValue": 7.6
+    },
+    {
+      "municipality": "potor",
+      "city": "modry-kamen",
+      "googleValue": 22.7,
+      "originalValue": 8.3
+    },
+    {
+      "municipality": "praha",
+      "city": "modry-kamen",
+      "googleValue": 52.1,
+      "originalValue": 35.6
+    },
+    {
+      "municipality": "prakovce",
+      "city": "medzev",
+      "googleValue": 41.5,
+      "originalValue": 40.7
+    },
+    {
+      "municipality": "predmier",
+      "city": "rajec",
+      "googleValue": 36.4,
+      "originalValue": 21.2
+    },
+    {
+      "municipality": "pribenik",
+      "city": "biel",
+      "googleValue": 13.6,
+      "originalValue": 12
+    },
+    {
+      "municipality": "pritulany",
+      "city": "stropkov",
+      "googleValue": 44.6,
+      "originalValue": 16.6
+    },
+    {
+      "municipality": "ptruksa",
+      "city": "cierna-nad-tisou",
+      "googleValue": 39.8,
+      "originalValue": 39.1
+    },
+    {
+      "municipality": "ptruksa",
+      "city": "biel",
+      "googleValue": 37.1,
+      "originalValue": 36.3
+    },
+    {
+      "municipality": "pukanec",
+      "city": "nova-bana",
+      "googleValue": 39.3,
+      "originalValue": 15.2
+    },
+    {
+      "municipality": "pukanec",
+      "city": "zarnovica",
+      "googleValue": 48.6,
+      "originalValue": 25.2
+    },
+    {
+      "municipality": "raksa",
+      "city": "handlova",
+      "googleValue": 52,
+      "originalValue": 30.2
+    },
+    {
+      "municipality": "ratkovske-bystre",
+      "city": "revuca",
+      "googleValue": 28.6,
+      "originalValue": 28.9
+    },
+    {
+      "municipality": "ratkovske-bystre",
+      "city": "tisovec",
+      "googleValue": 39,
+      "originalValue": 19.3
+    },
+    {
+      "municipality": "rejdova",
+      "city": "revuca",
+      "googleValue": 58.9,
+      "originalValue": 59.2
+    },
+    {
+      "municipality": "rejdova",
+      "city": "jelsava",
+      "googleValue": 47,
+      "originalValue": 46.9
+    },
+    {
+      "municipality": "remetske-hamre",
+      "city": "snina",
+      "googleValue": 61.5,
+      "originalValue": 37.6
+    },
+    {
+      "municipality": "remetske-hamre",
+      "city": "chlmec",
+      "googleValue": 58.9,
+      "originalValue": 59.9
+    },
+    {
+      "municipality": "riecka-banska-bystrica",
+      "city": "kremnica",
+      "googleValue": 52.9,
+      "originalValue": 55.8
+    },
+    {
+      "municipality": "rochovce",
+      "city": "jelsava",
+      "googleValue": 23.8,
+      "originalValue": 23.8
+    },
+    {
+      "municipality": "rochovce",
+      "city": "revuca",
+      "googleValue": 35.7,
+      "originalValue": 36
+    },
+    {
+      "municipality": "rokytovce",
+      "city": "medzilaborce",
+      "googleValue": 7.6,
+      "originalValue": 7.1
+    },
+    {
+      "municipality": "rovne",
+      "city": "revuca",
+      "googleValue": 32.4,
+      "originalValue": 32.4
+    },
+    {
+      "municipality": "sklene",
+      "city": "handlova",
+      "googleValue": 54.2,
+      "originalValue": 54.2
+    },
+    {
+      "municipality": "slavoska",
+      "city": "dobsina",
+      "googleValue": 26.6,
+      "originalValue": 26.6
+    },
+    {
+      "municipality": "slavosovce",
+      "city": "jelsava",
+      "googleValue": 25.4,
+      "originalValue": 25.4
+    },
+    {
+      "municipality": "slavosovce",
+      "city": "revuca",
+      "googleValue": 37.2,
+      "originalValue": 37.2
+    },
+    {
+      "municipality": "slizke",
+      "city": "hnusta",
+      "googleValue": 31.2,
+      "originalValue": 31.2
+    },
+    {
+      "municipality": "slovenske-krive",
+      "city": "snina",
+      "googleValue": 39.4,
+      "originalValue": 39.4
+    },
+    {
+      "municipality": "slovinky",
+      "city": "gelnica",
+      "googleValue": 24.5,
+      "originalValue": 24.5
+    },
+    {
+      "municipality": "solnik",
+      "city": "stropkov",
+      "googleValue": 17.8,
+      "originalValue": 17.8
+    },
+    {
+      "municipality": "solnik",
+      "city": "medzilaborce",
+      "googleValue": 49.5,
+      "originalValue": 49.5
+    },
+    {
+      "municipality": "stara-voda",
+      "city": "roznava",
+      "googleValue": 48.2,
+      "originalValue": 48.2
+    },
+    {
+      "municipality": "stara-voda",
+      "city": "spisske-vlachy",
+      "googleValue": 49.7,
+      "originalValue": 49.7
+    },
+    {
+      "municipality": "stare",
+      "city": "chlmec",
+      "googleValue": 20.9,
+      "originalValue": 20.9
+    },
+    {
+      "municipality": "stare-hory",
+      "city": "blatnica",
+      "googleValue": 45.5,
+      "originalValue": 45.5
+    },
+    {
+      "municipality": "stratena",
+      "city": "betlanovce",
+      "googleValue": 33.5,
+      "originalValue": 33.5
+    },
+    {
+      "municipality": "straza",
+      "city": "vrutky",
+      "googleValue": 35.7,
+      "originalValue": 35.7
+    },
+    {
+      "municipality": "strelniky",
+      "city": "hrinova",
+      "googleValue": 73.3,
+      "originalValue": 73.3
+    },
+    {
+      "municipality": "strelniky",
+      "city": "detva",
+      "googleValue": 75.6,
+      "originalValue": 75.6
+    },
+    {
+      "municipality": "strihovce",
+      "city": "snina",
+      "googleValue": 35.8,
+      "originalValue": 35.8
+    },
+    {
+      "municipality": "stupava",
+      "city": "svaty-jur",
+      "googleValue": 42.5,
+      "originalValue": 42.5
+    },
+    {
+      "municipality": "sulin",
+      "city": "stara-lubovna",
+      "googleValue": 24.9,
+      "originalValue": 24.9
+    },
+    {
+      "municipality": "sulov-hradna",
+      "city": "rajec",
+      "googleValue": 42.1,
+      "originalValue": 42.1
+    },
+    {
+      "municipality": "svaty-anton",
+      "city": "bansky-studenec",
+      "googleValue": 10.2,
+      "originalValue": 10.2
+    },
+    {
+      "municipality": "siba",
+      "city": "sabinov",
+      "googleValue": 51.2,
+      "originalValue": 43.8
+    },
+    {
+      "municipality": "spania-dolina",
+      "city": "kremnica",
+      "googleValue": 58.7,
+      "originalValue": 58.7
+    },
+    {
+      "municipality": "svedlar",
+      "city": "spisske-vlachy",
+      "googleValue": 51.4,
+      "originalValue": 51.4
+    },
+    {
+      "municipality": "tajov",
+      "city": "kremnica",
+      "googleValue": 54.8,
+      "originalValue": 54.8
+    },
+    {
+      "municipality": "tovarnianska-polianka",
+      "city": "strazske",
+      "googleValue": 16.1,
+      "originalValue": 16.1
+    },
+    {
+      "municipality": "trnava-pri-laborci",
+      "city": "chlmec",
+      "googleValue": 40,
+      "originalValue": 40
+    },
+    {
+      "municipality": "tuhrina",
+      "city": "hanusovce-nad-toplou",
+      "googleValue": 41.5,
+      "originalValue": 41.5
+    },
+    {
+      "municipality": "turcek",
+      "city": "handlova",
+      "googleValue": 49,
+      "originalValue": 49
+    },
+    {
+      "municipality": "turcianske-klacany",
+      "city": "vrutky",
+      "googleValue": 6.6,
+      "originalValue": 6.6
+    },
+    {
+      "municipality": "turcianske-klacany",
+      "city": "martin",
+      "googleValue": 13.7,
+      "originalValue": 13.7
+    },
+    {
+      "municipality": "turcianske-teplice",
+      "city": "handlova",
+      "googleValue": 53.7,
+      "originalValue": 53.7
+    },
+    {
+      "municipality": "turecka",
+      "city": "blatnica",
+      "googleValue": 47.9,
+      "originalValue": 47.9
+    },
+    {
+      "municipality": "tvarozna",
+      "city": "levoca",
+      "googleValue": 28.9,
+      "originalValue": 28.9
+    },
+    {
+      "municipality": "ubrez",
+      "city": "chlmec",
+      "googleValue": 52.5,
+      "originalValue": 52.5
+    },
+    {
+      "municipality": "uhliska",
+      "city": "nova-bana",
+      "googleValue": 47.9,
+      "originalValue": 17.7
+    },
+    {
+      "municipality": "uhliska",
+      "city": "zarnovica",
+      "googleValue": 57.2,
+      "originalValue": 57.2
+    },
+    {
+      "municipality": "varin",
+      "city": "vrutky",
+      "googleValue": 32.2,
+      "originalValue": 32.2
+    },
+    {
+      "municipality": "vavrinec",
+      "city": "stropkov",
+      "googleValue": 45.1,
+      "originalValue": 45
+    },
+    {
+      "municipality": "velcice",
+      "city": "topolcany",
+      "googleValue": 49.6,
+      "originalValue": 49.6
+    },
+    {
+      "municipality": "velka-cierna",
+      "city": "bytca",
+      "googleValue": 37.4,
+      "originalValue": 37.4
+    },
+    {
+      "municipality": "velke-borove",
+      "city": "dolny-kubin",
+      "googleValue": 48.9,
+      "originalValue": 48.9
+    },
+    {
+      "municipality": "velke-revistia",
+      "city": "chlmec",
+      "googleValue": 48.7,
+      "originalValue": 48.7
+    },
+    {
+      "municipality": "velke-slemence",
+      "city": "cierna-nad-tisou",
+      "googleValue": 36.5,
+      "originalValue": 36.5
+    },
+    {
+      "municipality": "velke-slemence",
+      "city": "biel",
+      "googleValue": 33.9,
+      "originalValue": 33.9
+    },
+    {
+      "municipality": "velke-ulany",
+      "city": "sladkovicovo",
+      "googleValue": 26.5,
+      "originalValue": 8.5
+    },
+    {
+      "municipality": "velkrop",
+      "city": "medzilaborce",
+      "googleValue": 46.2,
+      "originalValue": 46.2
+    },
+    {
+      "municipality": "velky-cepcin",
+      "city": "handlova",
+      "googleValue": 50.1,
+      "originalValue": 50.1
+    },
+    {
+      "municipality": "vikartovce",
+      "city": "svit",
+      "googleValue": 23.5,
+      "originalValue": 23.5
+    },
+    {
+      "municipality": "vinne",
+      "city": "chlmec",
+      "googleValue": 39.6,
+      "originalValue": 39.6
+    },
+    {
+      "municipality": "vlkovce",
+      "city": "levoca",
+      "googleValue": 36,
+      "originalValue": 36
+    },
+    {
+      "municipality": "vlkovce",
+      "city": "betlanovce",
+      "googleValue": 32.4,
+      "originalValue": 32.4
+    },
+    {
+      "municipality": "vola",
+      "city": "chlmec",
+      "googleValue": 20.8,
+      "originalValue": 20.1
+    },
+    {
+      "municipality": "vrchtepla",
+      "city": "rajec",
+      "googleValue": 35.9,
+      "originalValue": 35.9
+    },
+    {
+      "municipality": "vricko",
+      "city": "rajec",
+      "googleValue": 37,
+      "originalValue": 37
+    },
+    {
+      "municipality": "vysoka-banska-stiavnica",
+      "city": "zarnovica",
+      "googleValue": 34.6,
+      "originalValue": 34.9
+    },
+    {
+      "municipality": "vysoka-banska-stiavnica",
+      "city": "nova-bana",
+      "googleValue": 46.1,
+      "originalValue": 46.5
+    },
+    {
+      "municipality": "vysna-olsava",
+      "city": "giraltovce",
+      "googleValue": 21.1,
+      "originalValue": 21.1
+    },
+    {
+      "municipality": "vysna-rybnica",
+      "city": "chlmec",
+      "googleValue": 57.7,
+      "originalValue": 57.7
+    },
+    {
+      "municipality": "vysna-rybnica",
+      "city": "snina",
+      "googleValue": 60.2,
+      "originalValue": 60.2
+    },
+    {
+      "municipality": "vysna-sitnica",
+      "city": "stropkov",
+      "googleValue": 40.2,
+      "originalValue": 40.2
+    },
+    {
+      "municipality": "vysna-slana",
+      "city": "revuca",
+      "googleValue": 56.3,
+      "originalValue": 56.3
+    },
+    {
+      "municipality": "vysne-remety",
+      "city": "chlmec",
+      "googleValue": 58.3,
+      "originalValue": 58.3
+    },
+    {
+      "municipality": "vysne-remety",
+      "city": "snina",
+      "googleValue": 60.9,
+      "originalValue": 60.9
+    },
+    {
+      "municipality": "vysny-kazimir",
+      "city": "vranov-nad-toplou",
+      "googleValue": 14.7,
+      "originalValue": 14.7
+    },
+    {
+      "municipality": "vysny-medzev",
+      "city": "gelnica",
+      "googleValue": 49.3,
+      "originalValue": 49.3
+    },
+    {
+      "municipality": "zadiel",
+      "city": "medzev",
+      "googleValue": 29.4,
+      "originalValue": 29.4
+    },
+    {
+      "municipality": "zaluzice",
+      "city": "chlmec",
+      "googleValue": 39.5,
+      "originalValue": 39.5
+    },
+    {
+      "municipality": "zaskalie",
+      "city": "rajec",
+      "googleValue": 31.5,
+      "originalValue": 31.5
+    },
+    {
+      "municipality": "zbudza",
+      "city": "chlmec",
+      "googleValue": 26.3,
+      "originalValue": 26.3
+    },
+    {
+      "municipality": "zbynov",
+      "city": "bytca",
+      "googleValue": 37.7,
+      "originalValue": 37.7
+    },
+    {
+      "municipality": "zlata-bana",
+      "city": "hanusovce-nad-toplou",
+      "googleValue": 37.3,
+      "originalValue": 37.4
+    },
+    {
+      "municipality": "zlata-idka",
+      "city": "gelnica",
+      "googleValue": 62.1,
+      "originalValue": 62.1
+    },
+    {
+      "municipality": "zlatno-zlate-moravce",
+      "city": "topolcany",
+      "googleValue": 53.2,
+      "originalValue": 53
+    },
+    {
+      "municipality": "zlatno-zlate-moravce",
+      "city": "chynorany",
+      "googleValue": 47.2,
+      "originalValue": 47
+    },
+    {
+      "municipality": "zohor",
+      "city": "svaty-jur",
+      "googleValue": 50.2,
+      "originalValue": 50.1
+    },
+    {
+      "municipality": "zubak",
+      "city": "puchov",
+      "googleValue": 20.8,
+      "originalValue": 20
+    },
+    {
+      "municipality": "zaskov",
+      "city": "ruzomberok",
+      "googleValue": 29.8,
+      "originalValue": 29.8
+    },
+    {
+      "municipality": "ziar-liptovsky-mikulas",
+      "city": "tvrdosin",
+      "googleValue": 66.6,
+      "originalValue": 64.3
+    },
+    {
+      "municipality": "horne-turovce",
+      "city": "dudince",
+      "googleValue": 17.1,
+      "originalValue": 17.1
+    },
+    {
+      "municipality": "hoste",
+      "city": "sered",
+      "googleValue": 21.3,
+      "originalValue": 21.3
+    },
+    {
+      "municipality": "hradisko",
+      "city": "levoca",
+      "googleValue": 34.1,
+      "originalValue": 34.1
+    },
+    {
+      "municipality": "hradiste-poltar",
+      "city": "hrinova",
+      "googleValue": 44.8,
+      "originalValue": 38.8
+    },
+    {
+      "municipality": "hrlica",
+      "city": "revuca",
+      "googleValue": 27.5,
+      "originalValue": 27.5
+    },
+    {
+      "municipality": "hrlica",
+      "city": "hnusta",
+      "googleValue": 26,
+      "originalValue": 26
+    },
+    {
+      "municipality": "hrlica",
+      "city": "tisovec",
+      "googleValue": 38,
+      "originalValue": 38
+    },
+    {
+      "municipality": "hrochot",
+      "city": "detva",
+      "googleValue": 36.8,
+      "originalValue": 36.8
+    },
+    {
+      "municipality": "hrubov",
+      "city": "stropkov",
+      "googleValue": 53.7,
+      "originalValue": 53.7
+    },
+    {
+      "municipality": "hrubov",
+      "city": "medzilaborce",
+      "googleValue": 59,
+      "originalValue": 59
+    },
+    {
+      "municipality": "hubina",
+      "city": "horna-streda",
+      "googleValue": 14,
+      "originalValue": 14
+    },
+    {
+      "municipality": "hubovo",
+      "city": "tornala",
+      "googleValue": 10.5,
+      "originalValue": 8.6
+    },
+    {
+      "municipality": "hudcovce",
+      "city": "strazske",
+      "googleValue": 15.8,
+      "originalValue": 15.5
+    },
+    {
+      "municipality": "ihlany",
+      "city": "spisska-bela",
+      "googleValue": 15.5,
+      "originalValue": 15.5
+    },
+    {
+      "municipality": "jablonovce",
+      "city": "nova-bana",
+      "googleValue": 46,
+      "originalValue": 46
+    },
+    {
+      "municipality": "jakusovce",
+      "city": "medzilaborce",
+      "googleValue": 45.1,
+      "originalValue": 45.1
+    },
+    {
+      "municipality": "jalovec-liptovsky-mikulas",
+      "city": "tvrdosin",
+      "googleValue": 57.2,
+      "originalValue": 57.7
+    },
+    {
+      "municipality": "janova-lehota",
+      "city": "kremnica",
+      "googleValue": 32.2,
+      "originalValue": 32.2
+    },
+    {
+      "municipality": "janovce-galanta",
+      "city": "sladkovicovo",
+      "googleValue": 23.9,
+      "originalValue": 23.9
+    },
+    {
+      "municipality": "jasenov-humenne",
+      "city": "chlmec",
+      "googleValue": 10.9,
+      "originalValue": 2.9
+    },
+    {
+      "municipality": "jasenove",
+      "city": "bytca",
+      "googleValue": 36.1,
+      "originalValue": 36.1
+    },
+    {
+      "municipality": "jasov",
+      "city": "gelnica",
+      "googleValue": 54.5,
+      "originalValue": 54.5
+    },
+    {
+      "municipality": "jovsa",
+      "city": "chlmec",
+      "googleValue": 49.3,
+      "originalValue": 49.3
+    },
+    {
+      "municipality": "jurske",
+      "city": "spisska-bela",
+      "googleValue": 13.7,
+      "originalValue": 13.7
+    },
+    {
+      "municipality": "kacanov",
+      "city": "trebisov",
+      "googleValue": 25.8,
+      "originalValue": 25.8
+    },
+    {
+      "municipality": "kaluza",
+      "city": "chlmec",
+      "googleValue": 42.3,
+      "originalValue": 42.3
+    },
+    {
+      "municipality": "kamenna-poruba-zilina",
+      "city": "rajec",
+      "googleValue": 10.3,
+      "originalValue": 10.3
+    },
+    {
+      "municipality": "kamienka-humenne",
+      "city": "chlmec",
+      "googleValue": 14.3,
+      "originalValue": 14.3
+    },
+    {
+      "municipality": "karlova",
+      "city": "blatnica",
+      "googleValue": 8.7,
+      "originalValue": 8.7
+    },
+    {
+      "municipality": "klak",
+      "city": "novaky",
+      "googleValue": 49.3,
+      "originalValue": 49.3
+    },
+    {
+      "municipality": "kojsov",
+      "city": "gelnica",
+      "googleValue": 12.9,
+      "originalValue": 12.9
+    },
+    {
+      "municipality": "kojsov",
+      "city": "medzev",
+      "googleValue": 60.6,
+      "originalValue": 60.6
+    },
+    {
+      "municipality": "konradovce",
+      "city": "filakovo",
+      "googleValue": 22,
+      "originalValue": 22
+    },
+    {
+      "municipality": "kopernica",
+      "city": "handlova",
+      "googleValue": 30.1,
+      "originalValue": 30.1
+    },
+    {
+      "municipality": "kordiky",
+      "city": "kremnica",
+      "googleValue": 59.7,
+      "originalValue": 59.7
+    },
+    {
+      "municipality": "kordiky",
+      "city": "turcianske-teplice",
+      "googleValue": 46.2,
+      "originalValue": 46.2
+    },
+    {
+      "municipality": "korunkova",
+      "city": "medzilaborce",
+      "googleValue": 47.8,
+      "originalValue": 47.8
+    },
+    {
+      "municipality": "kostolec",
+      "city": "rajec",
+      "googleValue": 24.1,
+      "originalValue": 24.1
+    },
+    {
+      "municipality": "kostolany-pod-tribecom",
+      "city": "topolcany",
+      "googleValue": 58.8,
+      "originalValue": 58.8
+    },
+    {
+      "municipality": "kosolna",
+      "city": "boleraz",
+      "googleValue": 12.4,
+      "originalValue": 12.4
+    },
+    {
+      "municipality": "kovacova-zvolen",
+      "city": "zvolen",
+      "googleValue": 15.3,
+      "originalValue": 5
+    },
+    {
+      "municipality": "kovacova-zvolen",
+      "city": "sliac",
+      "googleValue": 19.9,
+      "originalValue": 3.9
+    },
+    {
+      "municipality": "kozelnik",
+      "city": "bansky-studenec",
+      "googleValue": 19.7,
+      "originalValue": 19.7
+    },
+    {
+      "municipality": "kozuchovce",
+      "city": "svidnik",
+      "googleValue": 29.1,
+      "originalValue": 29.1
+    },
+    {
+      "municipality": "krahule",
+      "city": "kremnica",
+      "googleValue": 6.7,
+      "originalValue": 6.7
+    },
+    {
+      "municipality": "krahule",
+      "city": "handlova",
+      "googleValue": 46.6,
+      "originalValue": 46.6
+    },
+    {
+      "municipality": "krahule",
+      "city": "banska-bystrica",
+      "googleValue": 56.9,
+      "originalValue": 56.9
+    },
+    {
+      "municipality": "kraliky",
+      "city": "kremnica",
+      "googleValue": 58.2,
+      "originalValue": 58.2
+    },
+    {
+      "municipality": "krasnany",
+      "city": "vrutky",
+      "googleValue": 33.4,
+      "originalValue": 33.4
+    },
+    {
+      "municipality": "kravany-poprad",
+      "city": "svit",
+      "googleValue": 19.7,
+      "originalValue": 19.6
+    },
+    {
+      "municipality": "kremnica",
+      "city": "handlova",
+      "googleValue": 40.5,
+      "originalValue": 40.5
+    },
+    {
+      "municipality": "kremnicke-bane",
+      "city": "handlova",
+      "googleValue": 43.4,
+      "originalValue": 43.4
+    },
+    {
+      "municipality": "krive",
+      "city": "sabinov",
+      "googleValue": 54.6,
+      "originalValue": 54.6
+    },
+    {
+      "municipality": "krize",
+      "city": "sabinov",
+      "googleValue": 61.2,
+      "originalValue": 61.2
+    },
+    {
+      "municipality": "krize",
+      "city": "velky-saris",
+      "googleValue": 55.5,
+      "originalValue": 55.5
+    },
+    {
+      "municipality": "krokava",
+      "city": "hnusta",
+      "googleValue": 21.3,
+      "originalValue": 21.3
+    },
+    {
+      "municipality": "krokava",
+      "city": "tisovec",
+      "googleValue": 33.2,
+      "originalValue": 33.2
+    },
+    {
+      "municipality": "krokava",
+      "city": "revuca",
+      "googleValue": 39.2,
+      "originalValue": 39.2
+    },
+    {
+      "municipality": "kunerad",
+      "city": "vrutky",
+      "googleValue": 41.3,
+      "originalValue": 41.3
+    },
+    {
+      "municipality": "kunesov",
+      "city": "handlova",
+      "googleValue": 47.5,
+      "originalValue": 47.6
+    },
+    {
+      "municipality": "kusin",
+      "city": "chlmec",
+      "googleValue": 46.9,
+      "originalValue": 46.9
+    },
+    {
+      "municipality": "lab",
+      "city": "svaty-jur",
+      "googleValue": 56.6,
+      "originalValue": 56.6
+    },
+    {
+      "municipality": "lehotka",
+      "city": "modry-kamen",
+      "googleValue": 49.8,
+      "originalValue": 27.7
+    },
+    {
+      "municipality": "lesicek",
+      "city": "hanusovce-nad-toplou",
+      "googleValue": 40.2,
+      "originalValue": 40.2
+    },
+    {
+      "municipality": "lesnica",
+      "city": "spisska-stara-ves",
+      "googleValue": 21.8,
+      "originalValue": 21.8
+    },
+    {
+      "municipality": "licartovce",
+      "city": "hostovce",
+      "googleValue": 5.5,
+      "originalValue": 5.5
+    },
+    {
+      "municipality": "lietava",
+      "city": "bytca",
+      "googleValue": 27.6,
+      "originalValue": 27.6
+    },
+    {
+      "municipality": "likavka",
+      "city": "ruzomberok",
+      "googleValue": 3.5,
+      "originalValue": 3.5
+    },
+    {
+      "municipality": "liptovska-anna",
+      "city": "dolny-kubin",
+      "googleValue": 36.7,
+      "originalValue": 36.7
+    },
+    {
+      "municipality": "liptovska-osada",
+      "city": "blatnica",
+      "googleValue": 69.1,
+      "originalValue": 69.3
+    },
+    {
+      "municipality": "liptovske-revuce",
+      "city": "blatnica",
+      "googleValue": 76.2,
+      "originalValue": 76.2
+    },
+    {
+      "municipality": "livovska-huta",
+      "city": "sabinov",
+      "googleValue": 58.1,
+      "originalValue": 58.1
+    },
+    {
+      "municipality": "livovska-huta",
+      "city": "velky-saris",
+      "googleValue": 65.9,
+      "originalValue": 65.9
+    },
+    {
+      "municipality": "lozorno",
+      "city": "svaty-jur",
+      "googleValue": 49.5,
+      "originalValue": 49.5
+    },
+    {
+      "municipality": "lucina",
+      "city": "hanusovce-nad-toplou",
+      "googleValue": 45.6,
+      "originalValue": 45.6
+    },
+    {
+      "municipality": "luka",
+      "city": "horna-streda",
+      "googleValue": 7.5,
+      "originalValue": 7.5
+    },
+    {
+      "municipality": "lutise",
+      "city": "kysucke-nove-mesto",
+      "googleValue": 31.6,
+      "originalValue": 31.6
+    },
+    {
+      "municipality": "lysica",
+      "city": "vrutky",
+      "googleValue": 39,
+      "originalValue": 39
+    },
+    {
+      "municipality": "malatina",
+      "city": "liptovsky-mikulas",
+      "googleValue": 49.8,
+      "originalValue": 35.5
+    },
+    {
+      "municipality": "porac",
+      "city": "spisske-vlachy",
+      "googleValue": 26.9,
+      "originalValue": 26.9
+    },
+    {
+      "municipality": "rudinska",
+      "city": "turzovka",
+      "googleValue": 44.2,
+      "originalValue": 44.2
+    },
+    {
+      "municipality": "ruska",
+      "city": "cierna-nad-tisou",
+      "googleValue": 33.9,
+      "originalValue": 33.9
+    },
+    {
+      "municipality": "ruska-poruba",
+      "city": "stropkov",
+      "googleValue": 45.3,
+      "originalValue": 45.3
+    },
+    {
+      "municipality": "ruska-poruba",
+      "city": "medzilaborce",
+      "googleValue": 45.5,
+      "originalValue": 45.4
+    },
+    {
+      "municipality": "ruska-vola",
+      "city": "giraltovce",
+      "googleValue": 22.7,
+      "originalValue": 22.7
+    },
+    {
+      "municipality": "ruska-vola",
+      "city": "stropkov",
+      "googleValue": 50.4,
+      "originalValue": 50.4
+    },
+    {
+      "municipality": "rykyncice",
+      "city": "dudince",
+      "googleValue": 19.9,
+      "originalValue": 19.9
+    },
+    {
+      "municipality": "sasa-zvolen",
+      "city": "bansky-studenec",
+      "googleValue": 36.2,
+      "originalValue": 36.2
+    },
+    {
+      "municipality": "sirnik",
+      "city": "kralovsky-chlmec",
+      "googleValue": 43.1,
+      "originalValue": 43.1
+    }
+  ]
+}
