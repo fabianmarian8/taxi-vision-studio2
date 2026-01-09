@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "name": "TaxiKlub",
+    "website": "http://www.taxiklub.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Brno", "Plzeň", "Karlovy Vary", "Ústí nad Labem", "Liberec", "Hradec Králové", "Pardubice", "Jihlava", "Olomouc", "Ostrava", "Zlín", "Letiště Praha-Ruzyně", "Frankfurt", "Mníchov", "Drážďany"],
+    "cenik": {"Praha-Brno": "3330 Kč", "Praha-Karlovy Vary": "2190 Kč", "Praha-Drážďany": "2760 Kč"},
+    "popis": "Prepravy osôb medzi Prahou a ostatnými mestami za pevné ceny s garanciou príchodnosti a optimálnej trasy.",
+    "sluzby": ["taxislužba z/do Prahy", "letištný transfer", "online rezervácia"]
+  },
+  {
+    "id": 2,
+    "name": "Letiště Praha.taxi",
+    "website": "https://letiste-praha.taxi/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Letiště Václava Havla"],
+    "cenik": {"zakladni": "690 Kč"},
+    "popis": "24/7 taxislužba s bezplatnou autosedačkou pre dopravu na letiště a z neho.",
+    "sluzby": ["letištný transfer", "24/7 dostupnosť", "autosedačka zdarma"]
+  },
+  {
+    "id": 3,
+    "name": "TABU TAXI",
+    "website": "https://tabutaxipraha.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka obsahuje len technický kód, nie obsah.",
+    "sluzby": []
+  },
+  {
+    "id": 4,
+    "name": "MaXiTaXi",
+    "website": "https://maxitaxi-praha.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Středočeský kraj", "celá ČR", "EU"],
+    "cenik": {"Praha": "8 Kč/km", "Středočeský kraj": "14 Kč/km"},
+    "popis": "Autodopravná spoločnosť poskytujúca prepravné služby vrátane taxi, nákladnej dopravy a osobnej prepravy.",
+    "sluzby": ["dodávkové taxi", "osobná doprava", "nákladné taxi", "letištná preprava", "kuriérske služby"]
+  },
+  {
+    "id": 5,
+    "name": "Helpdriver",
+    "website": "https://www.helpdriver.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Praha-Východ", "Kyjov", "Ostrava", "Pardubice"],
+    "cenik": {"prenájom vozíka": "25 Kč/deň"},
+    "popis": "Bezbariérová preprava osôb, pomáha prekonávať vzdialenosti osobám s obmedzenou pohyblivosťou a seniorom.",
+    "sluzby": ["bezbariérová preprava", "senior taxi", "letištný transfer", "skupinové cestovanie", "prenájom invalidného vozíka"]
+  },
+  {
+    "id": 6,
+    "name": "AAA Taxi",
+    "website": "http://www.aaataxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Letiště Václava Havla"],
+    "cenik": {},
+    "popis": "Taxi služba s možnosťou doručovania nákupov, bezhotovostných jázd a GPS sledovaním trás.",
+    "sluzby": ["doručovanie nákupov", "taxi na letisko", "taxi pre firmy", "Hummer taxi", "mobilná aplikácia"]
+  },
+  {
+    "id": 7,
+    "name": "Letiště Express",
+    "website": "https://letisteexpress.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka je v údržbe.",
+    "sluzby": []
+  },
+  {
+    "id": 8,
+    "name": "Prague Airport Transport",
+    "website": "https://www.doprava-na-letiste-praha.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Berlín", "Budapešť", "Frankfurt", "Curych", "celá ČR", "EU"],
+    "cenik": {"sedan 1-4": "790 CZK", "minibus 1-8": "990 CZK", "čakanie": "300 CZK/hod"},
+    "popis": "Profesionálna taxislužba poskytujúca pevné ceny bez skrytých poplatkov za spozdenie letu alebo parkovanie.",
+    "sluzby": ["letištný transfer", "taxi po Prahe", "medzimiestne transfery", "limuzíny", "svadobné transfery", "lyžiarske transfery"]
+  },
+  {
+    "id": 9,
+    "name": "Taxi Karlovy vary",
+    "website": "https://www.cztransfer.com/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Karlovy Vary", "Český Krumlov", "Mariánské Lázně", "Viedeň", "Berlín", "Drážďany", "Lipsko", "Mníchov"],
+    "cenik": {"letištný transfer Praha": "od 30 €", "Český Krumlov": "60 €", "Viedeň": "80 €"},
+    "popis": "Turizmus za rozumné ceny - transfery, taxislužby, skupinové a individuálne exkurzie po Česku a Európe.",
+    "sluzby": ["letištný transfer", "taxislužby v Prahe", "skupinové exkurzie", "individuálne exkurzie", "prenájom áut"]
+  },
+  {
+    "id": 10,
+    "name": "Sky Taxi",
+    "website": "https://www.sky-taxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Středočeský kraj", "celá ČR", "EU"],
+    "cenik": {},
+    "popis": "Moderná taxislužba kladúca dôraz na kvalitu služieb a spokojnosť zákazníkov. Rýchla, bezpečná a komfortná preprava.",
+    "sluzby": ["letištný transfer", "taxi po Prahe", "svadby", "detské autosedačky", "online rezervácia"]
+  },
+  {
+    "id": 11,
+    "name": "Taxi Jan Vodička",
+    "website": "https://luxury-drive-taxi.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Česká republika"],
+    "cenik": {"základná sadzba": "800 Kč/hod", "Praha": "25 Kč/km", "mimo Prahy": "30 Kč/km", "prenájom vodiča": "od 250 Kč/hod"},
+    "popis": "Profesionáli v osobnej preprave ponúkajúci luxusný komfort s certifikovanými šoférmi.",
+    "sluzby": ["prenájom vozidla so šoférom", "letištné transfery", "exkurzie", "svadby", "kuriérna služba"]
+  },
+  {
+    "id": 12,
+    "name": "vmtaxi",
+    "website": "https://taxivm.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Vysoké Mýto a okolie"],
+    "cenik": {},
+    "popis": "Pohodlné a bezpečné služby osobnej dopravy pre Vysoké Mýto a široké okolie.",
+    "sluzby": ["osobné taxi", "drinkservis", "osobný vodič", "expresná preprava balíčkov", "preprava zamestnancov"]
+  },
+  {
+    "id": 13,
+    "name": "Prague International Transfers",
+    "website": "https://prague-international-transfers.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "celá ČR", "EU"],
+    "cenik": {"základná sadzba": "1600 Kč min", "km": "27 Kč/km"},
+    "popis": "Súkromné diaľkové transfery po Česku a Európe s vozmi Business Class, wifi a vodou zdarma.",
+    "sluzby": ["letištný transfer", "medzimiestne transfery", "detské sedačky", "Wi-Fi v autách"]
+  },
+  {
+    "id": 14,
+    "name": "Taxi Aussig",
+    "website": "https://www.taxiaussig.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ústí nad Labem", "celá EU"],
+    "cenik": {"študenti min": "100 Kč", "zvieratá": "+100 Kč", "drink taxi": "2x normálna cena"},
+    "popis": "Moderná taxislužba nonstop v Ústí nad Labem so zjednotenou farbou vozového parku.",
+    "sluzby": ["woman taxi", "drink taxi", "student taxi", "letištný program", "kurýr služba", "odťahovka"]
+  },
+  {
+    "id": 15,
+    "name": "Velox-CT",
+    "website": "https://velox-ct.com",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha"],
+    "cenik": {},
+    "popis": "Konzultačná spoločnosť zameraná na budúcnosť dopravy, AI a elektrizáciu, nie klasický taxi servis.",
+    "sluzby": ["konzultácie AI", "analýza dát v doprave"]
+  },
+  {
+    "id": 16,
+    "name": "Vlčáci99",
+    "website": "https://vlcaci99.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "celá ČR", "EU"],
+    "cenik": {},
+    "popis": "Poskytovanie vysoko kvalitných služieb vrátane odvozu vozidiel s osobným riešením situácií.",
+    "sluzby": ["odvoz vozidiel", "preprava osôb a zvierat", "letištné transfery", "osobný vodič"]
+  },
+  {
+    "id": 17,
+    "name": "Taxiterminal",
+    "website": "https://taxiterminalpraha.cekuj.net",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Letiště Praha"],
+    "cenik": {"základná sadzba": "od 460 Kč", "nástupná taxa": "50 Kč"},
+    "popis": "Taxi na/z letiště Praha za pevnú konečnú cenu so zľavami pre stálych klientov.",
+    "sluzby": ["letištný transfer", "detské sedačky"]
+  },
+  {
+    "id": 18,
+    "name": "Autopůjčovna Krejcárek",
+    "website": "https://autokrejcarek.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha 9"],
+    "cenik": {"Škoda Fabia": "370 Kč/deň", "Škoda Octavia TAXI": "od 657 Kč/deň", "Škoda Superb": "od 929 Kč/deň"},
+    "popis": "Špecializácia na prenájom vozov taxi na alternatívny pohon CNG s vozidlami Škoda.",
+    "sluzby": ["prenájom vozidiel taxi", "24/7 asistenčné služby"]
+  },
+  {
+    "id": 19,
+    "name": "E-DOT CZECH",
+    "website": "https://www.e-dot.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka neobsahuje relevantný obsah.",
+    "sluzby": []
+  },
+  {
+    "id": 20,
+    "name": "NĚŽIN spol.s.r.o.",
+    "website": "http://nezin.estranky.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha a okolie"],
+    "cenik": {},
+    "popis": "Nepravidelná osobná doprava pre 9 osôb vrátane vodiča, taxislužba, správa budov a stavebné práce.",
+    "sluzby": ["taxislužba", "preprava 9 osôb", "správa budov", "stavebné práce", "úklidové služby"]
+  },
+  {
+    "id": 21,
+    "name": "Firm Transport",
+    "website": "https://firm-transport.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 22,
+    "name": "AASO s.r.o. - autodoprava",
+    "website": "https://aaso.cz/autodoprava/",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 23,
+    "name": "Dominika Trans",
+    "website": "https://www.dominikatrans.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 24,
+    "name": "RODINNÉ TAXI, ROZVOZ DĚTÍ A SENIORŮ",
+    "website": "https://www.rodinnetaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha 10"],
+    "cenik": {},
+    "popis": "Rodinná firma ponúkajúca profesionálny a priateľský prístup pri preprave detí a seniorov.",
+    "sluzby": ["dovoz detí do školy", "transport na oslavy", "letný transfer na tábory", "služby pre seniorov", "autobusová preprava"]
+  },
+  {
+    "id": 25,
+    "name": "PROWINTRANS, s.r.o.",
+    "website": "https://www.prowintrans.eu",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 26,
+    "name": "Taxi2taxi.cz",
+    "website": "https://taxi2taxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Brno", "Jihlava", "Drážďany", "Mníchov", "Berlín", "Viedeň"],
+    "cenik": {},
+    "popis": "Bezpečná a cenovo prijateľná taxi preprava s luxusnými vozidlami vybavené WiFi.",
+    "sluzby": ["taxi transfer na letiská", "preprava medzi mestami", "express doprava zásielok", "WiFi v autách"]
+  },
+  {
+    "id": 27,
+    "name": "Modrý anděl",
+    "website": "https://www.modryandel.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Letiště Václava Havla"],
+    "cenik": {},
+    "popis": "Česká spoločnosť s 25 rokmi skúseností, sprostredkuje služby prepravy osôb, odvozu vozu a kurýra.",
+    "sluzby": ["Fix Standard Taxi", "Fix Business Taxi", "XL Business", "odvoz vozu", "letištný transfer", "Kids Taxi", "kurýr", "svadby"]
+  },
+  {
+    "id": 28,
+    "name": "Taxi na letiště",
+    "website": "http://jinaknaletiste.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 29,
+    "name": "Pražská taxislužba, s.r.o.",
+    "website": "http://www.prazskataxisluzba.webnode.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 30,
+    "name": "Czech Drivers",
+    "website": "https://www.czechdrivers.com",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka obsahuje len presmerovanie.",
+    "sluzby": []
+  },
+  {
+    "id": 31,
+    "name": "Antonín Jelínek",
+    "website": "http://odvezemevaseauto.jecool.net",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Server error 500.",
+    "sluzby": []
+  },
+  {
+    "id": 32,
+    "name": "Retro Taxi",
+    "website": "https://www.retro-taxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha a okolie"],
+    "cenik": {},
+    "popis": "Špecializovaná taxislužba s historickým vozidlom ŠKODA 125L s profesionálnym vodičom.",
+    "sluzby": ["retro jazda po meste", "výlety do okolia", "letištná preprava"]
+  },
+  {
+    "id": 33,
+    "name": "BIG TAXI",
+    "website": "https://www.bigtaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Plzeň"],
+    "cenik": {},
+    "popis": "Špecializovaný dispečink na vícemiestnu prepravu pre skupiny 5-8+ osôb.",
+    "sluzby": ["taxi transfer pre 5-8+ osôb", "letištná doprava", "VIP služby", "BIG TAXI CARGO"]
+  },
+  {
+    "id": 34,
+    "name": "PM Taxi",
+    "website": "https://www.pmtaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Blansko a okolie", "celá ČR", "Viedeň", "Praha", "Bratislava", "Mníchov"],
+    "cenik": {},
+    "popis": "PM Expres ponúka všetky obľúbené prepravné služby s individuálnym prístupom a flotilou Škoda.",
+    "sluzby": ["taxislužba", "drink & drive", "airport taxi", "firemné jazdy", "taxi pre deti a seniorov", "dovoz nákupu"]
+  },
+  {
+    "id": 35,
+    "name": "Jiří Blažek - taxislužba",
+    "website": "http://dopravablazek.webmium.com",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Connection reset.",
+    "sluzby": []
+  },
+  {
+    "id": 36,
+    "name": "FALCO TAXI BLANSKO",
+    "website": "https://falcotaxi.cz/taxi-blansko/",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Error 404.",
+    "sluzby": []
+  },
+  {
+    "id": 37,
+    "name": "Autodoprava Brno Roman Krejčí",
+    "website": "https://www.autodopravabrno.eu",
+    "status": "success",
+    "oblasti_pusobnosti": ["celá ČR", "EU", "Praha", "Viedeň", "Bratislava"],
+    "cenik": {"osobné autá": "od 8,90 Kč/km", "mikrobusy": "od 11,90 Kč/km", "Viedeň/Bratislava": "od 2700 Kč", "Praha": "od 3800 Kč"},
+    "popis": "Preprava osôb, zásiliek a tovaru od roku 1992 s profesionálnymi vodičmi v luxusných vozidlách.",
+    "sluzby": ["letištné transfery", "medzinárodné trasy", "preprava zásiliek", "svadby", "firemné podujatia"]
+  },
+  {
+    "id": 38,
+    "name": "Riderstaxi",
+    "website": "http://riderstaxi.cz/",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Connection timeout.",
+    "sluzby": []
+  },
+  {
+    "id": 39,
+    "name": "Taxislužba Jana Válková",
+    "website": "https://taxosluzbyjanavalkova.webnode.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Tišnov", "Brno", "Kuřim a okolie"],
+    "cenik": {"nástupná sadzba": "60 Kč", "Tišnov": "25 Kč/km", "Brno": "36 Kč/km", "mimo Brno": "30 Kč/km", "čakanie": "7 Kč/min"},
+    "popis": "Profesionálna taxislužba v Tišnove a okolí. Moderné, pohodlné vozidlá s klimatizáciou 24/7.",
+    "sluzby": ["preprava osôb", "firemné akcie", "výlety", "letištný transfer"]
+  },
+  {
+    "id": 40,
+    "name": "EURO DRIVE",
+    "website": "http://www.euro-drive.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "SSL certifikát problém.",
+    "sluzby": []
+  },
+  {
+    "id": 41,
+    "name": "Doprava pro seniory - Mgr. Pavel Zouhar",
+    "website": "https://www.dopravaproseniory.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Brno a okolie"],
+    "cenik": {"zľava Senior pas": "5%"},
+    "popis": "Preprava seniorov, mamičiek s deťmi a nemocných osôb k lekárovi, na nákupy a úrady.",
+    "sluzby": ["preprava k lekárovi", "nákupy", "úrady", "invalidné vozíky", "doprovod sprievodiča"]
+  },
+  {
+    "id": 42,
+    "name": "Transfer Brno Jiří Matoušek",
+    "website": "https://transfer-brno.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Brno", "celá ČR", "EU"],
+    "cenik": {},
+    "popis": "Osobná preprava - bezpečná, komfortná doprava osôb po ČR a EU s rozsiahly vozovým parkom.",
+    "sluzby": ["letištné transfery", "osobná preprava", "svadobný servis", "daytrips", "preprava zásiliek"]
+  },
+  {
+    "id": 43,
+    "name": "Taxi Moravský Krumlov",
+    "website": "http://taxinastup.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Moravský Krumlov"],
+    "cenik": {},
+    "popis": "Taxi služby v regióne Moravského Krumlova s nákladnou dopravou a prenájmom šoféra.",
+    "sluzby": ["taxi doprava", "nákladná doprava", "prenájom vodiča"]
+  },
+  {
+    "id": 44,
+    "name": "ESOTAXI",
+    "website": "http://www.esotaxi.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Connection reset.",
+    "sluzby": []
+  },
+  {
+    "id": 45,
+    "name": "Lubomír Vítkovič",
+    "website": "https://taxi.sluzby.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Tišnov a okolie"],
+    "cenik": {},
+    "popis": "Taxislužba s profesionálnymi vodičmi ponúkajúca osobnú a VIP prepravu, kuriérske služby.",
+    "sluzby": ["preprava osôb", "VIP preprava", "kuriérske služby", "prenájom vodičov", "odvoz auta"]
+  },
+  {
+    "id": 46,
+    "name": "Taxi Tišnov",
+    "website": "https://taxi-tisnov.webnode.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Tišnov a okolie"],
+    "cenik": {},
+    "popis": "Spoľahlivé a rýchle taxi služby v oblasti Tišnova s prívetivými cenami a bezpečnou prepravou.",
+    "sluzby": ["preprava osôb"]
+  },
+  {
+    "id": 47,
+    "name": "FALCO TAXI",
+    "website": "https://falcotaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Blansko", "Boskovice", "Tišnov", "Vyškov"],
+    "cenik": {},
+    "popis": "Moderná taxislužba - rýchle vyzvednutie a dovoz kam si budete priať s fixnou cenou vopred.",
+    "sluzby": ["rýchle objednávky", "fixná cena", "detské autosedačky", "preprava zvierat"]
+  },
+  {
+    "id": 48,
+    "name": "TAXIslužba - Milan Prokeš",
+    "website": "https://taxibrno-kuryr.webnode.cz/kontakt/",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Error 404.",
+    "sluzby": []
+  },
+  {
+    "id": 49,
+    "name": "Fibich Václav přeprava osob s.r.o.",
+    "website": "https://www.osobnitaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Brno a okolie", "celá Európa"],
+    "cenik": {"Brno-Praha": "3800 Kč bez DPH"},
+    "popis": "Osobná preprava profesionálnymi vodičmi, non-stop po celej Európe s vozmi strednej a vyššej triedy.",
+    "sluzby": ["letištná preprava", "svadby", "firemné akcie", "školské výlety", "športové kluby"]
+  },
+  {
+    "id": 50,
+    "name": "Taxiprovas CZ",
+    "website": "https://taxiprovas.cz",
+    "status": "success",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Diskrétnosť, bezpečnosť a ochrana súkromia s vozmi Mercedes-Benz S class long. Služby 24/7.",
+    "sluzby": ["súkromné taxi", "medzinárodné taxi", "svadobné taxi"]
+  },
+  {
+    "id": 51,
+    "name": "AVE TAXI BRNO  s.r.o.",
+    "website": "http://www.avetaxibrno.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 52,
+    "name": "Ella Taxi Brno",
+    "website": "https://www.ellataxi.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 53,
+    "name": "Maxík Taxi",
+    "website": "https://www.maxik-taxi.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 54,
+    "name": "Taxi Michael",
+    "website": "https://www.taximichael.cz/",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 55,
+    "name": "Fun Taxi",
+    "website": "https://www.funtaxi.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 56,
+    "name": "Taxislužba David Koukal",
+    "website": "https://fitsportem.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 57,
+    "name": "Taxi Petr Demel",
+    "website": "https://taxi-zidlochovice-1.webnode.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 58,
+    "name": "Víc než taxi",
+    "website": "https://www.vicneztaxi.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 59,
+    "name": "DMTAXI - Pohořelice",
+    "website": "https://www.dmtaxi.cz/",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 60,
+    "name": "Taxi Michal",
+    "website": "https://www.taximichalbrno.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka nedostupná.",
+    "sluzby": []
+  },
+  {
+    "id": 61,
+    "name": "Hello Taxi",
+    "website": "https://hellotaxi-cz.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Moravský Krumlov"],
+    "cenik": {},
+    "popis": "Hello Taxi Moravský Krumlov vás odvezie rýchlo a bezpečne.",
+    "sluzby": ["taxislužba", "čistenie interiéru vozidiel"]
+  },
+  {
+    "id": 62,
+    "name": "RIKI TAXI",
+    "website": "https://riki-taxi1.webnode.cz/o-nas/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Moravský Krumlov", "Praha", "Brno", "Viedeň"],
+    "cenik": {"preprava zvierat": "80 Kč"},
+    "popis": "Spoľahlivá, rýchla a bezpečná osobná preprava so špecializáciou na letiskové transfery.",
+    "sluzby": ["letiskový transfer", "preprava zvierat", "24/7 nonstop"]
+  },
+  {
+    "id": 63,
+    "name": "Zdeněk Fila - Taxi",
+    "website": "https://cars-taxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Velká Bíteš", "celá ČR", "EU"],
+    "cenik": {"osobná preprava": "20 Kč nástup + 30 Kč/km", "drink taxi": "20 Kč + 50 Kč/km", "kurýr": "20 Kč + 15 Kč/km"},
+    "popis": "Osobná preprava, transfery na letisko, kurýrske služby a odťah vozidiel. Vozy čisté a klimatizované.",
+    "sluzby": ["taxislužba 24/7", "drink taxi", "letištné transfery", "preprava zboží", "kurýrna preprava", "odťah vozidiel"]
+  },
+  {
+    "id": 64,
+    "name": "Taxi Mája - Jizda.eu",
+    "website": "https://jizda.eu/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Brno", "Kohoutovice", "Lískovec", "Bohunice", "Bystrc", "Královo Pole", "Žabovřesky", "Letiště Brno Tuřany", "Kuřim", "Modřice"],
+    "cenik": {"nástupná sadzba": "30 Kč", "km": "15 Kč", "čakanie": "5 Kč/min"},
+    "popis": "Taxislužba v Brne s online kalkulačkou cien a flexibilným časom rezervácie.",
+    "sluzby": ["taxislužba", "letištný transfer", "senior taxi", "ranné taxi"]
+  },
+  {
+    "id": 65,
+    "name": "Brno transport Vávra",
+    "website": "http://www.brno-transport.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Brno a okolie", "EU"],
+    "cenik": {},
+    "popis": "20-ročné skúsenosti - váš stabilný partner so stálou cenovou politikou. Luxusná osobná preprava.",
+    "sluzby": ["letištné transfery", "minibus a limuzína", "VIP limousine", "svadby", "kuriérske služby"]
+  },
+  {
+    "id": 66,
+    "name": "Karel Vrána - Taxi",
+    "website": "http://mujweb.cz/tommy.vrana",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "SSL certifikát problém.",
+    "sluzby": []
+  },
+  {
+    "id": 67,
+    "name": "Taxi Pollak",
+    "website": "https://www.taxi-pollak.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Brno"],
+    "cenik": {},
+    "popis": "Nočná taxislužba v Brne - odvoz domov alebo na oslavu vrátane víkendov a sviatkov.",
+    "sluzby": ["nočné taxislužby", "predobjednávky"]
+  },
+  {
+    "id": 68,
+    "name": "Doprava osob 7plus1",
+    "website": "https://www.dopravaosob7plus1.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Brno", "Jihomoravský kraj"],
+    "cenik": {},
+    "popis": "Minibus doprava osôb v Brne.",
+    "sluzby": ["minibus doprava osôb"]
+  },
+  {
+    "id": 69,
+    "name": "TAXI VENUŠE OSTRAVA",
+    "website": "https://www.taxi-venuse.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava", "Moravskoslezský región", "Centrum", "Hrušov", "Přívoz", "Poruba", "Svinov", "30+ oblastí"],
+    "cenik": {"nástupná taxa": "30-100 Kč", "km": "25-50 Kč", "čakanie": "8 Kč/min"},
+    "popis": "Ostravská taxislužba s tradíciou viac ako 30 rokov. Bezpečná a rýchla preprava v rámci Ostravy a celej ČR.",
+    "sluzby": ["letištná preprava", "nonstop taxislužba", "online objednávka", "platba kartou"]
+  },
+  {
+    "id": 70,
+    "name": "CB TAXI OSTRAVA",
+    "website": "https://www.cbtaxi-ostrava.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava a okolie", "celá ČR"],
+    "cenik": {"drink servis": "od 60 Kč/km"},
+    "popis": "Profesionálna taxislužba v Ostrave 24/7 so špecializáciou na dopravu osôb a drink servis.",
+    "sluzby": ["doprava osôb 24/7", "drink servis", "nonstop autodoprava"]
+  },
+  {
+    "id": 71,
+    "name": "Ivo Kurečka",
+    "website": "https://www.taxiklimkovice.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava", "Poruba", "Centrum", "Výškovice", "Zábřeh", "Katowice", "Kraków", "Brno", "Viedeň", "Praha"],
+    "cenik": {"Poruba": "150-200 Kč", "Centrum": "500 Kč", "odvoz auta": "30 Kč/km", "Katowice": "2000 Kč", "Praha": "8000 Kč"},
+    "popis": "Kvalitné taxi služby v Ostrave a diaľkové jazdy s odvozom automobilov.",
+    "sluzby": ["taxi preprava", "diaľkové jazdy", "odvoz auta"]
+  },
+  {
+    "id": 72,
+    "name": "Kato Taxi",
+    "website": "http://www.taxiostrava-kato.eu",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Connection reset.",
+    "sluzby": []
+  },
+  {
+    "id": 73,
+    "name": "Taxi Silvie",
+    "website": "https://www.taxisilvia.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava"],
+    "cenik": {},
+    "popis": "Luxusné TAXI v Ostrave.",
+    "sluzby": []
+  },
+  {
+    "id": 74,
+    "name": "Taxi Hlavní třída Poruba",
+    "website": "https://www.taxihlavnitrida.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka obsahuje len CSS kód.",
+    "sluzby": []
+  },
+  {
+    "id": 75,
+    "name": "Taxi Ostrava Jih",
+    "website": "https://www.taxiostravajih.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava Jih", "Katowice", "Kraków", "Mošnov"],
+    "cenik": {"výlet Auschwitz": "3800 Kč"},
+    "popis": "Špecialisti na transfery z/na letiště s pevnými cenami, dostupní 24 hodín denne.",
+    "sluzby": ["letištné transfery", "transfery zo staníc", "výlety", "WhatsApp objednávky"]
+  },
+  {
+    "id": 76,
+    "name": "TAXI Radek Březina",
+    "website": "https://www.taxiostrava.com",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava a okolie", "letisko Mošnov", "celá ČR"],
+    "cenik": {"nástupná sadzba": "30 Kč", "mestské": "25 Kč/km", "diaľkové": "od 22 Kč/km", "čakanie": "5 Kč/min"},
+    "popis": "Taxi služba s najnižšími cenami v Ostrave. Spojenie v meste, okolí aj na diaľky 24/7.",
+    "sluzby": ["mestské taxi", "letištný transfer", "diaľkové jazdy", "expresná preprava zásielok"]
+  },
+  {
+    "id": 77,
+    "name": "Rbs taxi Ostrava",
+    "website": "https://www.rbstaxi.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava"],
+    "cenik": {},
+    "popis": "Rýchle bezpečné spoľahlivé taxi v Ostrave 24/7, 365 dní v roku.",
+    "sluzby": ["dispečerské služby"]
+  },
+  {
+    "id": 78,
+    "name": "Taxi Vítkovice, s.r.o.",
+    "website": "https://taxivitkovice.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava a okolie", "EU"],
+    "cenik": {},
+    "popis": "Taxi, medzinárodná preprava osôb, letištné transfery, prenájom vodiča, autobusová doprava.",
+    "sluzby": ["taxi služby", "autobusová doprava", "letištné transfery", "prenájom vodiča", "skartácia"]
+  },
+  {
+    "id": 79,
+    "name": "Taxi Stacho",
+    "website": "https://www.taxistacho.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava", "Centrum", "Stodolní", "Hlavní nádraží", "Fórum Nová Karolína", "ČEZ Aréna"],
+    "cenik": {},
+    "popis": "Neustále rastúca taxi služba s veľkým počtom stálych zákazníkov. Bezpečná preprava s čistotou a pohodlím.",
+    "sluzby": ["NON-STOP dispečink", "kuriérske služby", "drink servis", "svadby", "klimatizované vozidlá"]
+  },
+  {
+    "id": 80,
+    "name": "Taxi Ostrava - Pískové doly",
+    "website": "https://taxivostrave.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava a okolie"],
+    "cenik": {},
+    "popis": "Taxislužba ponúkajúca rýchlu, lacnú a spoľahlivú prepravu v Ostrave a na dlhších trasách s vozidlami Tesla.",
+    "sluzby": ["taxislužba"]
+  },
+  {
+    "id": 81,
+    "name": "Taxi služba Přeček",
+    "website": "https://ubytovaniukrtecka.cz/taxi-sluzba",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Error 404.",
+    "sluzby": []
+  },
+  {
+    "id": 82,
+    "name": "Eltaxi",
+    "website": "https://eltaxi.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostravsko", "Opavsko"],
+    "cenik": {},
+    "popis": "Zmluvná preprava osôb moderným elektrickým vozom MG4 EV na svadby, oslavy, firemné akcie.",
+    "sluzby": ["letištný transfer", "svadby a oslavy", "firemné akcie", "preprava detí"]
+  },
+  {
+    "id": 83,
+    "name": "TAXI SPRINT",
+    "website": "http://www.taxisprint.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "SSL certifikát problém.",
+    "sluzby": []
+  },
+  {
+    "id": 84,
+    "name": "Jiří Rotter - taxi",
+    "website": "http://www.taxi-poruba.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Connection refused.",
+    "sluzby": []
+  },
+  {
+    "id": 85,
+    "name": "Taxi King, s.r.o.",
+    "website": "http://taxiking.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "DNS error.",
+    "sluzby": []
+  },
+  {
+    "id": 86,
+    "name": "Taxi Tip ostrava",
+    "website": "http://www.taxitip-ostrava.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "SSL certifikát problém.",
+    "sluzby": []
+  },
+  {
+    "id": 87,
+    "name": "ABC Taxi - Miloslava Marečková",
+    "website": "http://www.abctaxi.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Certifikát expiroval.",
+    "sluzby": []
+  },
+  {
+    "id": 88,
+    "name": "Taxi Olala",
+    "website": "https://taxiolala.cz/domains/taxiolala.cz/",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "DNS error.",
+    "sluzby": []
+  },
+  {
+    "id": 89,
+    "name": "EURO TAXI OSTRAVA",
+    "website": "https://eurotaxiostrava.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Connection timeout.",
+    "sluzby": []
+  },
+  {
+    "id": 90,
+    "name": "Osobní přeprava - David Šutera",
+    "website": "https://www.jezdisDavidem.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava a okolie"],
+    "cenik": {"min jednorazová": "250 Kč", "pravidelné": "od 120 Kč"},
+    "popis": "Spoľahlivá osobná preprava s asistenciou, kde zákazník vždy pozná konkrétneho vodiča.",
+    "sluzby": ["osobná preprava", "asistencia", "tichá jazda", "voda a žvýkačky zdarma"]
+  },
+  {
+    "id": 91,
+    "name": "LUX TAXI Ostrava",
+    "website": "https://www.luxtaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava"],
+    "cenik": {},
+    "popis": "Taxi v Ostrave špecializujúce sa na letištné transfery s nadštandardnými vozidlami za cenu bežného taxi.",
+    "sluzby": ["letištný transfer", "business transfer", "svadby", "WiFi vo vozidlách"]
+  },
+  {
+    "id": 92,
+    "name": "Autodoprava Ostravsko",
+    "website": "https://www.autodoprava-ostravsko.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava", "Praha Ruzyně", "Brno Tuřany", "Pardubice", "Viedeň", "Katowice", "Kraków", "Bratislava"],
+    "cenik": {"od": "13 Kč/km", "Praha": "1500 Kč/os", "zľava krypto": "5%"},
+    "popis": "Moderný autoprenájom s vodičom pre 1-7 osôb. Bezpečná preprava s pravidelne dezinfikovanými vozmi.",
+    "sluzby": ["letištné transfery", "osobná preprava", "pravidelný svoz", "kurýrske služby", "krypto platby"]
+  },
+  {
+    "id": 93,
+    "name": "Senior Taxi Ostrava",
+    "website": "https://seniortaxiostrava.com",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava"],
+    "cenik": {},
+    "popis": "Komfortné cestovanie pre seniorov v bezpečnom, pohodlnom a príjemnom prostredí.",
+    "sluzby": ["taxislužba pre seniorov"]
+  },
+  {
+    "id": 94,
+    "name": "PP TAXI",
+    "website": "https://pptaxi.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Connection refused.",
+    "sluzby": []
+  },
+  {
+    "id": 95,
+    "name": "Poctivá flotila",
+    "website": "https://poctiva-flotila.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava"],
+    "cenik": {"do 10000 Kč": "500 Kč/týždeň", "nad 10000 Kč": "1000 Kč/týždeň"},
+    "popis": "Od vodiča pre vodiča. Bez keců, bez skrytých poplatkov. Transparentná flotila pre Bolt vodičov.",
+    "sluzby": ["prenájom vozidiel pre Bolt", "zamestnanie HPP", "spolupráca IČO", "zázemie s WiFi"]
+  },
+  {
+    "id": 96,
+    "name": "Taxi Fredy",
+    "website": "https://www.taxifredy.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava"],
+    "cenik": {},
+    "popis": "Taxi služby dostupné 24 hodín denne 7 dní v týždni s dôrazom na dochvilnosť, bezpečie a profesionálny prístup.",
+    "sluzby": ["7+1 Mercedes Benz Vito", "6+1 Volkswagen Touran", "4+1 Škoda Superb"]
+  },
+  {
+    "id": 97,
+    "name": "Taxi Komfort Logistik",
+    "website": "https://www.taxikomfort.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Bohumín", "Orlová", "Karviná", "Havířov", "Ostrava", "celá ČR"],
+    "cenik": {},
+    "popis": "Preprava jednotlivcov, skupín aj pre firmy na faktúry s modernou GPRS technológiou.",
+    "sluzby": ["preprava jednotlivcov", "preprava skupín", "firemná preprava", "senior taxi", "platba kartou"]
+  },
+  {
+    "id": 98,
+    "name": "TAXI SVINOV",
+    "website": "https://www.taxinaletiste.com",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ostrava", "celá ČR", "Katowice", "Krakow", "Viedeň", "Bratislava", "Brno", "Pardubice"],
+    "cenik": {},
+    "popis": "Špecialisti na letištné transfery s prepravou osôb nielen na letiško a pohodlnou prepravou v Európe.",
+    "sluzby": ["letištné transfery", "taxislužby v Ostrave", "minibus", "faktúry pre firmy", "platba kartou"]
+  },
+  {
+    "id": 99,
+    "name": "Fast Taxi",
+    "website": "https://www.fasttaxi.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "DNS error.",
+    "sluzby": []
+  },
+  {
+    "id": 100,
+    "name": "COBRA TAXI",
+    "website": "https://cobra-taxi-5.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Taxislužba Cobra Taxi.",
+    "sluzby": []
+  },
+  {
+    "id": 101,
+    "name": "RW Taxi",
+    "website": "https://www.rwtaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ústí nad Labem", "Praha", "Drážďany", "Frankfurt", "Lipsko", "Mníchov", "Vroclav", "Kraków"],
+    "cenik": {},
+    "popis": "Levne, rychle, spolehlivě - taxi služby s bezplatným prevozom po meste a letištnými transfermi.",
+    "sluzby": ["taxislužba non-stop", "letištné transfery", "drink servis", "kurýr", "preprava so zľavami pre seniorov"]
+  },
+  {
+    "id": 102,
+    "name": "Josef Uxa - Taxisportbar",
+    "website": "https://taxisportbar.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ústí nad Labem"],
+    "cenik": {"akcia": "100 Kč"},
+    "popis": "Kvalitný prepravný servis so spoľahlivosťou, presnosťou a skúsenými vodičmi.",
+    "sluzby": ["taxislužba", "drink taxi", "online objednávka"]
+  },
+  {
+    "id": 103,
+    "name": "TAXI UL",
+    "website": "https://www.taxiul.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ústí nad Labem a okolie"],
+    "cenik": {"nástup": "40 Kč", "telefonicky": "35 Kč/km", "z ulice": "40 Kč/km", "sviatok": "50 Kč/km", "nad 50km": "25 Kč/km", "čakanie": "5-10 Kč/min", "min jazda": "120 Kč"},
+    "popis": "Rýchla a pohodlná preprava osôb po meste a okolí s možnosťou prevozu automobilov.",
+    "sluzby": ["taxi transfer", "drink taxi", "transport vozidiel"]
+  },
+  {
+    "id": 104,
+    "name": "Taxi Stochov - Jiří Bílek",
+    "website": "https://taxistochov.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Prepravná služba vrátane prepravy bicyklov s držiakom na 3 kolá a detským podsedákom v cene.",
+    "sluzby": ["preprava s bicyklami", "výlety", "detský podsedák", "nonstop"]
+  },
+  {
+    "id": 105,
+    "name": "Taxi Bróďa Most",
+    "website": "https://brodataximost.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Most"],
+    "cenik": {"nástup": "35 Kč", "jazda": "35 Kč/km", "čakanie": "8 Kč/min", "seniori": "99-150 Kč", "min jazda": "70 Kč"},
+    "popis": "Taxislužba s originálnym a empatickým prístupom. Rýchle pristavenie, zdvorilý prístup a férová cena.",
+    "sluzby": ["preprava osôb", "preprava detí", "seniori", "preprava zvierat", "rozvoz nákupov", "doručovanie zásielok"]
+  },
+  {
+    "id": 106,
+    "name": "Profi Taxi Most - Litvínov - 14014",
+    "website": "http://www.taximost.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Most", "Litvínov", "Brno", "České Budějovice", "Cheb", "Chomutov", "Hradec Králové", "Karlovy Vary", "Tábor", "Teplice", "Plzeň", "Ústí nad Labem", "Zlín"],
+    "cenik": {"nástup": "35 Kč", "jazda": "35 Kč/km", "čakanie": "7 Kč/min", "firemní zákazníci": "28 Kč/km", "min Most": "70 Kč", "min mimo": "100 Kč"},
+    "popis": "Najväčšie NON-STOP TAXI v Moste a Litvínove s prepravou osôb po celej ČR a Európe.",
+    "sluzby": ["non-stop prevádzka", "preprava osôb", "kurýrna služba", "drink servis", "zmluvná preprava", "SMS objednávky"]
+  },
+  {
+    "id": 107,
+    "name": "TAXI NELLY MOST-NONSTOP",
+    "website": "https://taxi-nelly-most-nonstop.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Most"],
+    "cenik": {},
+    "popis": "Spoločnosť založená na kvalitnom prepravnom servise so skúsenosťami viac ako 35 rokov.",
+    "sluzby": ["osobná preprava", "kurýrske služby", "preprava nadmerného nákladu"]
+  },
+  {
+    "id": 108,
+    "name": "Taxi Luka",
+    "website": "https://www.taxi-luka.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Most", "Litvínov"],
+    "cenik": {},
+    "popis": "Rýchlo, spoľahlivo, lacno - NON-STOP taxislužba.",
+    "sluzby": ["taxislužba non-stop"]
+  },
+  {
+    "id": 109,
+    "name": "MY Taxi",
+    "website": "http://www.my-taxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Pardubice", "Chrudim", "Kolín", "Poděbrady"],
+    "cenik": {},
+    "popis": "Moderná taxislužba s nonstop prevádzkou. Profesionálni vodiči, čisté ekologické vozidlá Škoda Octavia CNG.",
+    "sluzby": ["osobná taxislužba", "diaľková preprava", "taxi na faktúru", "drink & drive", "mobilná aplikácia Taxiport"]
+  },
+  {
+    "id": 110,
+    "name": "GT Taxiport",
+    "website": "https://www.taxigt.cz/pardubice",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "DNS error.",
+    "sluzby": []
+  },
+  {
+    "id": 111,
+    "name": "Cool Taxi",
+    "website": "https://cooltaxi.eu",
+    "status": "success",
+    "oblasti_pusobnosti": ["Pardubice", "Chrudim", "Přelouč", "Heřmanův Městec", "Hradec Králové"],
+    "cenik": {"mestský nástup": "90 Kč", "km": "32 Kč", "čakanie": "7-20 Kč/min"},
+    "popis": "Najlacnejšia taxislužba v Pardubiciach a širokom okolí s celodennou 24/7 prevádzkou.",
+    "sluzby": ["drink & drive", "nákup na čerpacej stanici", "kurýrna preprava", "fakturačná preprava", "svadobný vodič"]
+  },
+  {
+    "id": 112,
+    "name": "TAXI Štika & Cupánek",
+    "website": "http://www.taxi-pce.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Certifikát expiroval.",
+    "sluzby": []
+  },
+  {
+    "id": 113,
+    "name": "Martin Götz GN-transport",
+    "website": "http://www.gntransport.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "SSL error.",
+    "sluzby": []
+  },
+  {
+    "id": 114,
+    "name": "Taxi Storm Přelouč / Taxi Konečný",
+    "website": "http://www.taxistorm.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Přelouč", "Choltice", "Lázně Bohdaneč"],
+    "cenik": {},
+    "popis": "Taxislužba s vodičom s 20-ročnou praxou a vozidlom Škoda Octavia III.",
+    "sluzby": ["taxislužba", "Storm Transport nákladná doprava"]
+  },
+  {
+    "id": 115,
+    "name": "Taxi Easy Přelouč",
+    "website": "https://www.taxi-easy.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Přelouč", "Nový Bydžov", "Chlumec nad Cidlinou", "Kutná Hora", "Čáslav", "Pardubice", "celá ČR"],
+    "cenik": {},
+    "popis": "Progresívna taxislužba orientovaná na zákazníka. Motiváciou je spokojný zákazník.",
+    "sluzby": ["letištná preprava", "diaľkové taxi", "odvoz do nočných klubov", "mikrobus 8+1"]
+  },
+  {
+    "id": 116,
+    "name": "Taxi L&S Přelouč",
+    "website": "https://taxilas.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Přelouč a okolie"],
+    "cenik": {"km": "24-30 Kč", "nástup": "20 Kč", "po meste": "50-70 Kč", "senior 65+": "30 Kč", "čakanie": "6 Kč/min"},
+    "popis": "Taxislužba pre Přelouč a okolie. Váš vôz, váš vodič, vaše žlté taxi.",
+    "sluzby": ["taxi transfer", "senior taxi", "čakacia služba", "nonstop víkend"]
+  },
+  {
+    "id": 117,
+    "name": "Michal Štursa",
+    "website": "https://taxisluzbakh.sluzby.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Čáslav", "Kolín", "celá ČR", "zahraničie"],
+    "cenik": {},
+    "popis": "Taxislužba ponúkajúca odvoz na letisko, do práce, na večierky s 7 a 9-miestnymi vozidlami.",
+    "sluzby": ["taxislužba", "preprava zásielok GPS", "drink servis", "asistencia seniorom", "bezplatný transfer do kasína"]
+  },
+  {
+    "id": 118,
+    "name": "František Kuřina - taxi služby",
+    "website": "https://taxi-kurina-uherske-hradiste.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Uherské Hradiště"],
+    "cenik": {},
+    "popis": "Taxi z Uherského Hradiště ponúkajúce prepravu do práce, škôl, podujatí, na letisko.",
+    "sluzby": ["preprava do práce", "preprava do škôl", "preprava na schôdzky", "letištná preprava"]
+  },
+  {
+    "id": 119,
+    "name": "ADS Taxi Uherské Hradiště",
+    "website": "https://www.taxiuherskehradiste.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Uherské Hradiště", "Zlín", "Uherský Brod", "Luhačovice", "Kroměříž", "Kyjov", "Strážnice"],
+    "cenik": {"UH-Viedeň": "od 3499 Kč", "Zlín-Viedeň": "od 3999 Kč"},
+    "popis": "Taxi služby s moderným vozovým parkom a profesionálnym prístupom na letištné transfery.",
+    "sluzby": ["letištná taxi", "taxi pre 8 osôb", "firemné taxi", "senior taxi", "ZTP taxi", "drink and drive", "kurýr"]
+  },
+  {
+    "id": 120,
+    "name": "Taxi Montana",
+    "website": "https://www.taxiuh.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Uherské Hradiště"],
+    "cenik": {},
+    "popis": "Taxi služba v Uherskom Hradišti.",
+    "sluzby": ["taxislužba", "letištná služba"]
+  },
+  {
+    "id": 121,
+    "name": "City Taxi Zlín",
+    "website": "https://www.citytaxizlin.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Zlín a okolie", "celá ČR", "EU"],
+    "cenik": {},
+    "popis": "Rýchly a spoľahlivý prevoz v Zlíne a okolí. Profesionálni vodiči a moderný vozový park.",
+    "sluzby": ["taxi airport", "firemné taxi", "taxi drink servis", "taxi pre nemocných", "letištný transfer", "detské autosedačky"]
+  },
+  {
+    "id": 122,
+    "name": "PROFITAXI - Zdeněk Fryč",
+    "website": "https://www.taxi-prerov.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Přerov"],
+    "cenik": {},
+    "popis": "Najlacnejšie taxi Přerov.",
+    "sluzby": ["taxislužba"]
+  },
+  {
+    "id": 123,
+    "name": "Lama Taxi S.R.O.",
+    "website": "https://lamataxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Litoměřice", "Lovosice"],
+    "cenik": {},
+    "popis": "Taxislužba v severozápadných Čechách.",
+    "sluzby": ["taxislužba"]
+  },
+  {
+    "id": 124,
+    "name": "EMA TAXI",
+    "website": "http://www.emataxi.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Certifikát expiroval.",
+    "sluzby": []
+  },
+  {
+    "id": 125,
+    "name": "Taxi Zdeněk Hora",
+    "website": "https://www.taxilitomerice.cz",
+    "status": "success",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Taxi Litoměřice zamerané na čistotu, ochotu vodičov a spokojnosť zákazníkov so zľavami na dlhšie trasy.",
+    "sluzby": ["taxislužby", "rozvoz jedál"]
+  },
+  {
+    "id": 126,
+    "name": "UL TAXI - Jindřich Oliverius",
+    "website": "http://www.ul-taxi.firemni-web.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "SSL certifikát problém.",
+    "sluzby": []
+  },
+  {
+    "id": 127,
+    "name": "Taxi Ústí nad Labem | Fox Taxi",
+    "website": "https://foxtaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ústí nad Labem", "Praha", "Děčín", "Most", "Teplice", "Chomutov", "Litvínov", "Litoměřice", "České Švýcarsko"],
+    "cenik": {},
+    "popis": "Rýchle, bezpečné a slušné taxi v Ústí nad Labem s platbou kartou a čistými vozmi.",
+    "sluzby": ["letištný transfer", "firemné taxi", "kuriérske taxi", "drink taxi", "emergency assistance"]
+  },
+  {
+    "id": 128,
+    "name": "GREAT Taxi",
+    "website": "https://greattaxi.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka obsahuje len CSS kód.",
+    "sluzby": []
+  },
+  {
+    "id": 129,
+    "name": "Vt3 - Taxislužba nové generace",
+    "website": "https://vt3.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ústí nad Labem"],
+    "cenik": {},
+    "popis": "Najlacnejšie taxi v Ústí nad Labem.",
+    "sluzby": []
+  },
+  {
+    "id": 130,
+    "name": "Taxi Bohemia",
+    "website": "https://www.bohemia-taxi.eu/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ústí nad Labem a okolie"],
+    "cenik": {"nástup": "50 Kč", "jazda v meste": "35 Kč/km"},
+    "popis": "Tradičná a spoľahlivá taxi služba od roku 1990 s rýchlym pristavením a modernými vozidlami nonstop.",
+    "sluzby": ["rýchle pristavenie", "moderný vozový park", "nonstop dostupnosť"]
+  },
+  {
+    "id": 131,
+    "name": "Taxi 46",
+    "website": "https://taxi46.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ústí nad Labem"],
+    "cenik": {},
+    "popis": "Odvezieme vás rýchlo, komfortne a bezpečne. Vôz pristavíme do 15 minút kdekoľvek v Ústí nad Labem.",
+    "sluzby": ["taxi servis"]
+  },
+  {
+    "id": 132,
+    "name": "M Taxi",
+    "website": "https://mtaxiul.wixsite.com/mtaxi",
+    "status": "success",
+    "oblasti_pusobnosti": ["Ústí nad Labem"],
+    "cenik": {},
+    "popis": "Lacné taxi v Ústí nad Labem.",
+    "sluzby": ["taxislužba"]
+  },
+  {
+    "id": 133,
+    "name": "Taxi TAK SI Z TEPLIC",
+    "website": "https://www.taxi-tak-si.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Teplice"],
+    "cenik": {},
+    "popis": "Najlacnejšia taxislužba na území Teplic s bezpečnejšou prepravou 24/7 a WiFi v taxíkoch.",
+    "sluzby": ["nonstop taxi dispečink", "jazdy do 10 minút", "WiFi", "hudba na želanie"]
+  },
+  {
+    "id": 134,
+    "name": "Taxi Hofmann",
+    "website": "https://www.taxi-hofmann.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Teplice a okolie"],
+    "cenik": {},
+    "popis": "Taxi Hofmann (HOFFI) pôsobí v Teplicích niekoľko rokov s férovým a spoľahlivým jednaním.",
+    "sluzby": ["taxi preprava", "odvoz na letisko", "svadby"]
+  },
+  {
+    "id": 135,
+    "name": "DAROS taxi s.r.o.",
+    "website": "https://darostaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Teplice"],
+    "cenik": {},
+    "popis": "Nonstop taxislužba v Teplicích s bezpečným odvozom a profesionálnymi službami.",
+    "sluzby": []
+  },
+  {
+    "id": 136,
+    "name": "TAXI Týn nad Vltavou",
+    "website": "https://taxitynnadvltavou.webnode.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Týn nad Vltavou", "celá ČR", "zahraničie"],
+    "cenik": {},
+    "popis": "Nonstop taxi služba - odvoz na vlak, do práce, na úrady, za zábavou, k lekárovi.",
+    "sluzby": ["presun na vlak", "transfer k lekárovi", "odvoz detí do školy", "odvoz vozidla", "letištný transfer", "kuriérske služby"]
+  },
+  {
+    "id": 137,
+    "name": "Taxi-Děčín",
+    "website": "https://www.taxi-decin.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Děčín a 40+ okolných obcí"],
+    "cenik": {},
+    "popis": "Rodinná taxislužba s tradíciou od roku 1996 - bezpečne, rýchlo a kvalitne vás prepravíme.",
+    "sluzby": ["letištné transfery", "woman taxi", "kurýr taxi", "svadby", "preprava bicyklov"]
+  },
+  {
+    "id": 138,
+    "name": "JK TAXI",
+    "website": "https://www.taxikladno.com",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "Stránka obsahuje len CSS kód.",
+    "sluzby": []
+  },
+  {
+    "id": 139,
+    "name": "Rychlé Taxi 24/7",
+    "website": "https://rychle-taxi-kladno.cz",
+    "status": "error",
+    "oblasti_pusobnosti": [],
+    "cenik": {},
+    "popis": "DNS error.",
+    "sluzby": []
+  },
+  {
+    "id": 140,
+    "name": "Aloha Taxi",
+    "website": "https://aloha-taxi2.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Kladno", "Středočeský kraj"],
+    "cenik": {},
+    "popis": "Služba dočasne zrušená. Informácie na Facebooku Aloha Taxi Kladno.",
+    "sluzby": []
+  }
+]

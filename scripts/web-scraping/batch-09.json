@@ -1,0 +1,1542 @@
+[
+  {
+    "id": 1121,
+    "name": "TAXI MILOVICE - LYSÁ NAD LABEM",
+    "phone": "+420 720 129 351",
+    "website": "http://www.taxi-milovice.cz/",
+    "city_count": 1,
+    "cities": [
+      "Milovice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1122,
+    "name": "Taxi Milovice MiJa",
+    "phone": "+420 702 080 098",
+    "website": "http://taxi-mija.webnode.cz/",
+    "city_count": 1,
+    "cities": [
+      "Milovice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1123,
+    "name": "CHILLI TAXI CHEB",
+    "phone": "+420 606 050 050",
+    "website": "https://chillitaxi.wixsite.com/website",
+    "city_count": 1,
+    "cities": [
+      "Milíkov"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1124,
+    "name": "Taxi MB",
+    "phone": "+420 737533911",
+    "website": "https://nejtaximb.cz",
+    "city_count": 1,
+    "cities": [
+      "Mladá Boleslav"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1125,
+    "name": "Taxi Mnichovo Hradiště",
+    "phone": "+420 605 445 338",
+    "website": "http://www.mhtaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Mnichovo Hradiště"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1126,
+    "name": "Taxi Hradiště",
+    "phone": "+420 704 787 766",
+    "website": "https://taxihradiste.cz/",
+    "city_count": 1,
+    "cities": [
+      "Mnichovo Hradiště"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1127,
+    "name": "LuxuryTaxi (Euro Taxi MB)",
+    "phone": "+420 775 999 099",
+    "website": "https://www.eurotaximb.cz/",
+    "city_count": 1,
+    "cities": [
+      "Mnichovo Hradiště"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1128,
+    "name": "TAXI Mníšek pod Brdy - Jiří Větrovský",
+    "phone": "+420 604 999 982",
+    "website": "https://taxi-mnisek-pod-brdy5.webnode.cz/",
+    "city_count": 1,
+    "cities": [
+      "Mníšek pod Brdy"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1129,
+    "name": "Taxi Krupka",
+    "phone": "+420 777 066 306",
+    "website": "https://taxi-krupka.cz/",
+    "city_count": 1,
+    "cities": [
+      "Modlany"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1130,
+    "name": "TAXI 24/7 Mohelnice",
+    "phone": "+420 775 420 401",
+    "website": "https://taxi247-cz.webnode.cz/",
+    "city_count": 1,
+    "cities": [
+      "Mohelnice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1131,
+    "name": "Taxi Moravský Krumlov TAXINASTUP",
+    "phone": "+420 775 111 232",
+    "website": "http://www.taxinastup.cz/",
+    "city_count": 1,
+    "cities": [
+      "Moravský Krumlov"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1132,
+    "name": "NONSTOP TAXI KARLOS",
+    "phone": "+420 737 063 800",
+    "website": "https://taxikarlos.cz/",
+    "city_count": 1,
+    "cities": [
+      "Moravský Písek"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1133,
+    "name": "Tempo Taxi Teplice",
+    "phone": "+420 606250251",
+    "website": "http://www.tempotaxi.cz/cs/",
+    "city_count": 1,
+    "cities": [
+      "Most"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1134,
+    "name": "Gold Taxi Zlín",
+    "phone": "+420 799 532 572",
+    "website": "https://www.goldtaxizlin.cz/",
+    "city_count": 1,
+    "cities": [
+      "Mysločovice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1135,
+    "name": "Moje Taxi Praha-východ",
+    "phone": "+420 608 024 709",
+    "website": "https://moje-taxi.cz/taxi-praha-vychod/",
+    "city_count": 1,
+    "cities": [
+      "Máslovice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1136,
+    "name": "Taxi Plzeň-jih",
+    "phone": "+420 773 979 797",
+    "website": "https://plzen-jih.page.tl/",
+    "city_count": 1,
+    "cities": [
+      "Míšov"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1137,
+    "name": "MIKYTRANSPORT",
+    "phone": "+420 775628679",
+    "website": "https://www.mikytransport.eu",
+    "city_count": 1,
+    "cities": [
+      "Mělník"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1138,
+    "name": "Modr�� anděl",
+    "phone": "+420 737222333",
+    "website": "https://www.modryandel.cz/",
+    "city_count": 1,
+    "cities": [
+      "Mělník"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1139,
+    "name": "NONSTOP TAXI - Jiří Bušos",
+    "phone": "+420 603 908 041",
+    "website": "http://www.busos-taxi.com",
+    "city_count": 1,
+    "cities": [
+      "Město Albrechtice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1140,
+    "name": "My Taxi Kolín",
+    "phone": "601 069 069",
+    "website": "https://www.my-taxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nebovidy"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1141,
+    "name": "Taxi GT Kolín",
+    "phone": "+420 777 457 457",
+    "website": "https://www.taxigt.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nebovidy"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1142,
+    "name": "Taxi Nepomuk - Petr Kotlan",
+    "phone": "606 920 333",
+    "website": "https://www.taxinepomuk.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nebílovy"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1143,
+    "name": "Taxi Plzeň CITY LINE",
+    "phone": "733 222 317",
+    "website": "https://www.taxi-plzen.eu/",
+    "city_count": 1,
+    "cities": [
+      "Nebílovy"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1144,
+    "name": "City Taxi Hodonín",
+    "phone": "518 355 455",
+    "website": "http://www.citytaxihodonin.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nechvalín"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1145,
+    "name": "Taxi Kroupa",
+    "phone": "+420 724 708 090",
+    "website": "https://www.nonstop-taxi.com/cs/taxi-kroupa-ceske-budejovice/",
+    "city_count": 1,
+    "cities": [
+      "Nedabyle"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1146,
+    "name": "Express Taxi UH",
+    "phone": "730 460 001",
+    "website": "https://www.expresstaxiuh.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nedachlebice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1147,
+    "name": "EXPRESS TAXI - Zlín",
+    "phone": "777 825 202",
+    "website": "http://www.expresstaxi-zlin.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nedašov"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1148,
+    "name": "City Taxi Zlín",
+    "phone": "731 187 892",
+    "website": "https://citytaxizlin.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nedašova Lhota"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1149,
+    "name": "Taxi Blaha",
+    "phone": "602 416 536",
+    "website": "http://www.taxi-radiotaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nedvězí"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1150,
+    "name": "Taxi Maxi Hradec Králové",
+    "phone": "603 450 030",
+    "website": "https://www.taximaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Neděliště"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1151,
+    "name": "Miky Transport",
+    "phone": "722 712 377",
+    "website": "https://mikytransport.eu/",
+    "city_count": 1,
+    "cities": [
+      "Nehvizdy"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1152,
+    "name": "TAXI QUICK",
+    "phone": "722 44 88 44",
+    "website": "https://www.taxi-quick.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nekoř"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1153,
+    "name": "PROFITAXI Přerov",
+    "phone": "581 222 333",
+    "website": "https://taxi-prerov.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nelešovice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1154,
+    "name": "TOP TAXI Přerov",
+    "phone": "732 503 343",
+    "website": "https://toptaxiprerov.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nelešovice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1155,
+    "name": "FLEXI-TAXI ŠUMPERK",
+    "phone": "800-14-15-15",
+    "website": "https://www.flexitaxispk.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nemile"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1156,
+    "name": "Taxi Nepomuk - Petr Kotlan",
+    "phone": "+420 606 920 333",
+    "website": "http://www.taxinepomuk.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nepomuk"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1157,
+    "name": "Taxi Nová Paka Hátle",
+    "phone": "+420 776 009 393",
+    "website": "http://taxinp.cz/",
+    "city_count": 1,
+    "cities": [
+      "Nová Paka"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1158,
+    "name": "Taxislužba Roman Majer",
+    "phone": "+420 737533911",
+    "website": "https://nejtaximb.cz",
+    "city_count": 1,
+    "cities": [
+      "Nymburk"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1159,
+    "name": "TAXI LOJZA",
+    "phone": "+420 777009323",
+    "website": "https://www.taxi-nachod.cz",
+    "city_count": 1,
+    "cities": [
+      "Náchod"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1160,
+    "name": "Taxi Víkend",
+    "phone": "+420 777937225",
+    "website": "http://www.taxivikend.cz",
+    "city_count": 1,
+    "cities": [
+      "Náchod"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1161,
+    "name": "Nejlepší Taxi Kroměříž",
+    "phone": "800 700 007",
+    "website": "https://www.nejlepsi-taxi.cz/taxi-kromeriz/",
+    "city_count": 1,
+    "cities": [
+      "Němčice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1162,
+    "name": "TaxiPv s.r.o.",
+    "phone": "724 331 205",
+    "website": "http://www.taxipv.cz/",
+    "city_count": 1,
+    "cities": [
+      "Němčice nad Hanou"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1163,
+    "name": "Mé TAXI Prostějov",
+    "phone": "775 638 294",
+    "website": "https://www.me-taxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Němčice nad Hanou"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1164,
+    "name": "TAXI Kaskin Břeclav",
+    "phone": "602 752 552",
+    "website": "http://taxibreclav.cz/",
+    "city_count": 1,
+    "cities": [
+      "Němčičky"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1165,
+    "name": "Taxi Znojmo CZ",
+    "phone": "724 357 293",
+    "website": "https://taxiznojmo-cz.cz/",
+    "city_count": 1,
+    "cities": [
+      "Němčičky"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1166,
+    "name": "Taxi Znojmo - Mašek",
+    "phone": "606 499 777",
+    "website": "https://taxi-znojmo.cz/",
+    "city_count": 1,
+    "cities": [
+      "Němčičky"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1167,
+    "name": "Taxi Nádraží Znojmo",
+    "phone": "515 221 010",
+    "website": "http://www.taxi-nadraziznojmo.cz/",
+    "city_count": 1,
+    "cities": [
+      "Němčičky"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1168,
+    "name": "TAXI Rokycany",
+    "phone": "731 800 507",
+    "website": "https://taxi-rokycany.cz/cs/",
+    "city_count": 1,
+    "cities": [
+      "Němčovice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1169,
+    "name": "TAXI 1 Rokycany",
+    "phone": "800 10 10 16",
+    "website": "https://taxi1rokycany.cz/",
+    "city_count": 1,
+    "cities": [
+      "Němčovice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1170,
+    "name": "PM Taxi Blansko",
+    "phone": "724 634 400",
+    "website": "https://www.pmtaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Obora"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1171,
+    "name": "TAXIKOLA.CZ",
+    "phone": "608 777 697",
+    "website": "https://www.taxikola.cz/",
+    "city_count": 1,
+    "cities": [
+      "Odolena Voda"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1172,
+    "name": "Taxi Keisi",
+    "phone": "605 019 009",
+    "website": "http://www.taxikeisi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Odry"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1173,
+    "name": "In Taxi Semily",
+    "phone": "737 86 26 46",
+    "website": "http://taxisemily.cz/",
+    "city_count": 1,
+    "cities": [
+      "Ohrazenice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1174,
+    "name": "Taxi Pája",
+    "phone": "739 047 466",
+    "website": "https://taxihavlickuvbrod.webnode.cz/",
+    "city_count": 1,
+    "cities": [
+      "Okrouhlice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1175,
+    "name": "IFTaxi Šternberk",
+    "phone": "+420 776272774",
+    "website": "https://iftaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Olomouc"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1176,
+    "name": "PRIMA TAXI",
+    "phone": "+420 602795533",
+    "website": "https://www.taxiprima-opava.cz",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1177,
+    "name": "AmigoTaxi",
+    "phone": "+420 724200152",
+    "website": "https://www.amigotaxi.cz",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1178,
+    "name": "BM půjčovna karavanů - obytných vozů a TAXI služba",
+    "phone": "+420 774843344",
+    "website": "https://pujcovna-karavanu-taxi.cz",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1179,
+    "name": "Taxi Blonďák",
+    "phone": "+420 773204204",
+    "website": "https://sluzbyblondak.cz",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1180,
+    "name": "ALTTAXI",
+    "phone": "+420 602705305",
+    "website": "http://www.opavataxi.cz",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1181,
+    "name": "Wifi-Taxi",
+    "phone": "+420 606024262",
+    "website": "https://wifitaxiopava.webnode.cz",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1182,
+    "name": "Taxi Mojža",
+    "phone": "+420 773464095",
+    "website": "https://taxi-mojza-opava.webnode.cz/",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1183,
+    "name": "taxi taxi",
+    "phone": "+420 730998225",
+    "website": "https://taxitaxi.info",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1184,
+    "name": "TAXI MICHAL",
+    "phone": "+420 732633671",
+    "website": "http://taximichal.cz",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1185,
+    "name": "Taxi Proud",
+    "phone": "+420 733115640",
+    "website": "https://proud.taxi/",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1186,
+    "name": "Crazy Taxi",
+    "phone": "+420 734343536",
+    "website": "https://crazytaxi.webnode.cz/",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1187,
+    "name": "eCAB.cz",
+    "phone": "+420 731441589",
+    "website": "http://www.ecab.cz",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1188,
+    "name": "Jan Ivan",
+    "phone": "+420 603548800",
+    "website": "https://taxi-opava.cz",
+    "city_count": 1,
+    "cities": [
+      "Opava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1189,
+    "name": "Taxi David Škop - Rychnov nad Kněžnou",
+    "phone": "777 737 737",
+    "website": "https://www.taxirychnov.cz/",
+    "city_count": 1,
+    "cities": [
+      "Opočno"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1190,
+    "name": "KOMFORT TAXI Orlová",
+    "phone": "800 112 113",
+    "website": "https://www.taxikomfort.cz/",
+    "city_count": 1,
+    "cities": [
+      "Orlová"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1191,
+    "name": "Taxi Plzeň-jih",
+    "phone": "773 97 97 97",
+    "website": "https://plzen-jih.page.tl/",
+    "city_count": 1,
+    "cities": [
+      "Oselce"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1192,
+    "name": "Bubenik Taxi Liberec",
+    "phone": "608 161 010",
+    "website": "https://www.bubeniktaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Osečná"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1193,
+    "name": "Taxi Hradec Králové",
+    "phone": "777 440 050",
+    "website": "https://taxivhk.cz/",
+    "city_count": 1,
+    "cities": [
+      "Osice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1194,
+    "name": "Duo Taxi Šumperk",
+    "phone": "704 112 211",
+    "website": "https://duotaxisumperk.cz/",
+    "city_count": 1,
+    "cities": [
+      "Oskava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1195,
+    "name": "Black & White Taxi",
+    "phone": "602 22 32 64",
+    "website": "https://www.bw-taxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Osoblaha"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1196,
+    "name": "Taxi Frýdek-Místek",
+    "phone": "722 906 006",
+    "website": "https://www.taxifrydekmistek.cz/",
+    "city_count": 1,
+    "cities": [
+      "Ostravice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1197,
+    "name": "HIPÍ TAXI Frýdek-Místek",
+    "phone": "775 21 21 68",
+    "website": "http://www.taxifrydek.cz/",
+    "city_count": 1,
+    "cities": [
+      "Ostravice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1198,
+    "name": "Scorpio Taxi",
+    "phone": "777 888 854",
+    "website": "https://scorpiotaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Ostrožská Lhota"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1199,
+    "name": "Jonage Taxi Prostějov",
+    "phone": "793 900 800",
+    "website": "https://www.jonagetaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Otaslavice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1200,
+    "name": "AmigoTaxi Opava",
+    "phone": "724 200 152",
+    "website": "https://www.amigotaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Otice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1201,
+    "name": "TAXI ZLÍN",
+    "phone": "722 362 889",
+    "website": "https://www.taxizlin.com/",
+    "city_count": 1,
+    "cities": [
+      "Otrokovice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1202,
+    "name": "Taxi Eso Kolín",
+    "phone": "776 140 140",
+    "website": "https://www.taxi-eso.cz/",
+    "city_count": 1,
+    "cities": [
+      "Ovčáry"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1203,
+    "name": "GO4U - Taxi Kolín",
+    "phone": "607 733 633",
+    "website": "https://www.go4u.cz/",
+    "city_count": 1,
+    "cities": [
+      "Ovčáry"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1204,
+    "name": "Taxi Praha Západ",
+    "phone": "731 70 70 88",
+    "website": "http://taxiprahazapad.eu/",
+    "city_count": 1,
+    "cities": [
+      "Ořech"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1205,
+    "name": "Express Taxi UH",
+    "phone": "+420 730 460 001",
+    "website": "https://www.expresstaxiuh.cz",
+    "city_count": 1,
+    "cities": [
+      "Ořechov"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1206,
+    "name": "Mé TAXI Prostějov",
+    "phone": "+420 775 638 294",
+    "website": "https://www.me-taxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "PROSTĚJOV"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1207,
+    "name": "Taxi2GO Prostějov",
+    "phone": "+420 793 900 800",
+    "website": "http://www.taxi2go-pv.cz/",
+    "city_count": 1,
+    "cities": [
+      "PROSTĚJOV"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1208,
+    "name": "TAXI Prostějov - Josef Pírek",
+    "phone": "+420 602 734 873",
+    "website": "http://www.prostejov-taxi.cz",
+    "city_count": 1,
+    "cities": [
+      "PROSTĚJOV"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1209,
+    "name": "Taxi Pacov",
+    "phone": "+420 607 277 847",
+    "website": "https://taxi-pacov.sluzby.cz",
+    "city_count": 1,
+    "cities": [
+      "Pacov"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1210,
+    "name": "TAXI-PEC.cz",
+    "phone": "+420 608 103 039",
+    "website": "https://www.taxi-pec.cz",
+    "city_count": 1,
+    "cities": [
+      "Pec pod Sněžkou"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1211,
+    "name": "Taxi skútr Pec pod Sněžkou",
+    "phone": "+420 603 214 158",
+    "website": "https://www.taxiskutr.cz",
+    "city_count": 1,
+    "cities": [
+      "Pec pod Sněžkou"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1212,
+    "name": "Taxi Prachatice Antonín Šiška",
+    "phone": "+420 720 502 501",
+    "website": "http://taxiprachatice.cz/",
+    "city_count": 1,
+    "cities": [
+      "Prachatice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1213,
+    "name": "Taxi Hofmann Teplice",
+    "phone": "+420 725 668 886",
+    "website": "https://www.taxi-hofmann.cz/",
+    "city_count": 1,
+    "cities": [
+      "Proboštov"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1214,
+    "name": "RED TAXI Písek - Dalibor Šťastný",
+    "phone": "+420 774 199 300",
+    "website": "http://redtaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Písek"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1215,
+    "name": "Taxi Písek Tel.: 604 82 83 84",
+    "phone": "+420 604 828 384",
+    "website": "https://www.taxipisek.cz/",
+    "city_count": 1,
+    "cities": [
+      "Písek"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1216,
+    "name": "DreamTaxi-Písek",
+    "phone": "+420 720 600 631",
+    "website": "https://www.dreamtaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Písek"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1217,
+    "name": "Taxi Přerov - Zdeněk Klusák",
+    "phone": "+420 732 503 343",
+    "website": "https://www.info-prerov.cz/taxi-sluzba-zdenek-klusak",
+    "city_count": 1,
+    "cities": [
+      "PŘEROV"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1218,
+    "name": "PR Taxi Přerov",
+    "phone": "+420 736 730 020",
+    "website": "http://www.prtaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "PŘEROV"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1219,
+    "name": "PROFITAXI Přerov",
+    "phone": "+420 581 222 333",
+    "website": "https://taxi-prerov.cz",
+    "city_count": 1,
+    "cities": [
+      "PŘEROV"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1220,
+    "name": "Taxi.GO",
+    "phone": "+420 720373384",
+    "website": "https://www.taxigosedlcany.cz",
+    "city_count": 1,
+    "cities": [
+      "Příbram"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1221,
+    "name": "TAXI Vávra",
+    "phone": "+420 737 129 501",
+    "website": "https://taxivavra.cz/",
+    "city_count": 1,
+    "cities": [
+      "Rabí"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1222,
+    "name": "Mayday TAXI Klatovy",
+    "phone": "+420 800 668 668",
+    "website": "https://www.mts-taxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Rabí"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1223,
+    "name": "Taxi 14014",
+    "phone": "+420 776 791 701",
+    "website": "https://taxi14014zlin.cz/",
+    "city_count": 1,
+    "cities": [
+      "Racková"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1224,
+    "name": "TAXI ŽĎÁR",
+    "phone": "+420 601 169 028",
+    "website": "https://taxi-zdar.sluzby.cz/",
+    "city_count": 1,
+    "cities": [
+      "Radenice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1225,
+    "name": "Taxi Rajhrad - Taxi Pavel",
+    "phone": "+420 736 422 522",
+    "website": "https://www.taxipavel.cz/",
+    "city_count": 1,
+    "cities": [
+      "Rajhrad"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1226,
+    "name": "EXPRES TAXI RAKOVNÍK",
+    "phone": "+420 777400512",
+    "website": "http://www.exprestaxirakovnik.cz",
+    "city_count": 1,
+    "cities": [
+      "Rakovník"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1227,
+    "name": "Taxi v kapse - Rokycany a okolí",
+    "phone": "+420 731 800 507",
+    "website": "http://taxi-rokycany.cz/cs",
+    "city_count": 1,
+    "cities": [
+      "Rokycany"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1228,
+    "name": "Top Taxi rokycany (Taxi Roman - Zdeňka)",
+    "phone": "+420 605 888 955",
+    "website": "http://www.taxirokycany.cz/",
+    "city_count": 1,
+    "cities": [
+      "Rokycany"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1229,
+    "name": "Taxi 1 Rokycany",
+    "phone": "+420 800 101 016",
+    "website": "http://taxi1rokycany.cz/",
+    "city_count": 1,
+    "cities": [
+      "Rokycany"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1230,
+    "name": "TAXI Račák",
+    "phone": "+420481522522",
+    "website": "https://www.rokytnice.com",
+    "city_count": 1,
+    "cities": [
+      "Rokytnice nad Jizerou"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1231,
+    "name": "Alice Habalová Taxislužba",
+    "phone": "+420737383763",
+    "website": "https://www.zlatestranky.cz/profil/H1016792",
+    "city_count": 1,
+    "cities": [
+      "Rotava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1232,
+    "name": "Taxi Mares, Roudnice nad Labem",
+    "phone": "+420 606 420 002",
+    "website": "http://www.606420002.com/",
+    "city_count": 1,
+    "cities": [
+      "Roudnice nad Labem"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1233,
+    "name": "Richard Polanecký - NONSTOP Taxi",
+    "phone": "+420 777 803 941",
+    "website": "http://polanecky.rete.cz/",
+    "city_count": 1,
+    "cities": [
+      "Roudnice nad Labem"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1234,
+    "name": "Profitaxi Přerov",
+    "phone": "+420702175703",
+    "website": "https://taxi-prerov.cz/",
+    "city_count": 1,
+    "cities": [
+      "Rouské"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1235,
+    "name": "Taxi Žďár nad Sázavou",
+    "phone": "+420602561369",
+    "website": "https://www.info-vysocina.cz/taxi-zdar-nad-sazavou/",
+    "city_count": 1,
+    "cities": [
+      "Rousměrov"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1236,
+    "name": "Flexi-Taxi Šumperk",
+    "phone": "+420702141515",
+    "website": "https://www.sumperk.cz/dr-cs/4246-flexi-taxi-sumperk.html",
+    "city_count": 1,
+    "cities": [
+      "Rovensko"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1237,
+    "name": "Taxi Český ráj",
+    "phone": "+420605285254",
+    "website": "https://www.taxi-ceskyraj.cz/",
+    "city_count": 1,
+    "cities": [
+      "Rovensko pod Troskami"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1238,
+    "name": "Taxi Pavel Vojík",
+    "phone": "+420777099507",
+    "website": "https://www.taxivojik.cz/",
+    "city_count": 1,
+    "cities": [
+      "Rovná"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1239,
+    "name": "Taxislužba Radek Příhoda",
+    "phone": "+420774997999",
+    "website": "https://www.najditaxi.cz/taxi-pelhrimov/taxisluzba-radek-prihoda",
+    "city_count": 1,
+    "cities": [
+      "Rovná"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1240,
+    "name": "City Taxi Jihlava",
+    "phone": "+420800737343",
+    "website": "https://www.firmy.cz/company/12909526-city-taxi-jihlava.html",
+    "city_count": 1,
+    "cities": [
+      "Rozseč"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1241,
+    "name": "Taxi Lojza Náchod",
+    "phone": "+420774678899",
+    "website": "https://www.zlatestranky.cz/profil/H1773088",
+    "city_count": 1,
+    "cities": [
+      "Rožnov"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1242,
+    "name": "TAXI Koruna s.r.o.",
+    "phone": "+420 607 714 714",
+    "website": "https://www.taxikoruna.cz/",
+    "city_count": 1,
+    "cities": [
+      "Rožnov pod Radhoštěm"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1243,
+    "name": "Taxi Auto Henzl",
+    "phone": "+420603216209",
+    "website": "https://www.auto-henzl.cz/",
+    "city_count": 1,
+    "cities": [
+      "Rudoltice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1244,
+    "name": "Pavel Taxi Rumburk",
+    "phone": "+420 602 102 545",
+    "website": "http://www.paveltaxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Rumburk"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1245,
+    "name": "Taxi Krkonoše - Semily - In Taxi",
+    "phone": "+420 737 862 646",
+    "website": "http://www.taxisemily.cz/",
+    "city_count": 1,
+    "cities": [
+      "Semily"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1246,
+    "name": "Taxi Slaný",
+    "phone": "+420722601601",
+    "website": "http://taxislany.cz",
+    "city_count": 1,
+    "cities": [
+      "Slaný"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1247,
+    "name": "Taxi Venca & Dana",
+    "phone": "+420775332813",
+    "website": "https://taxivenca.webnode.cz",
+    "city_count": 1,
+    "cities": [
+      "Soběslav"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1248,
+    "name": "2T Tomi Taxi",
+    "phone": "+420 775 772 031",
+    "website": "https://tomi-taxi.cz/",
+    "city_count": 1,
+    "cities": [
+      "Spomyšl"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1249,
+    "name": "CB TAXI Ostrava",
+    "phone": "+420 602 730 000",
+    "website": "https://www.cbtaxi-ostrava.cz",
+    "city_count": 1,
+    "cities": [
+      "Stará Ves nad Ondřejnicí"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1250,
+    "name": "City Taxi Ostrava",
+    "phone": "+420 800 290 000",
+    "website": "https://www.taxiostrava.cz",
+    "city_count": 1,
+    "cities": [
+      "Stará Ves nad Ondřejnicí"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1251,
+    "name": "Taxi Tip Ostrava",
+    "phone": "+420 734 379 620",
+    "website": "http://www.taxitip-ostrava.cz",
+    "city_count": 1,
+    "cities": [
+      "Stará Ves nad Ondřejnicí"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1252,
+    "name": "TAXI Jeseník JanPal",
+    "phone": "+420 739 705 250",
+    "website": "http://taxijesenik.unas.cz",
+    "city_count": 1,
+    "cities": [
+      "Stará Červená Voda"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1253,
+    "name": "Absolut Taxi",
+    "phone": "+420 800 300 305",
+    "website": "http://www.absolut-taxi.cz",
+    "city_count": 1,
+    "cities": [
+      "Staré Město"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1254,
+    "name": "Taxi Stochov - Jiří Bílek",
+    "phone": "+420 770 155 434",
+    "website": "https://taxistochov.webnode.cz/",
+    "city_count": 1,
+    "cities": [
+      "Stochov"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1255,
+    "name": "TAXI Komfort",
+    "phone": "+420 800 114 115",
+    "website": "http://www.taxikomfort.cz",
+    "city_count": 1,
+    "cities": [
+      "Stonava"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1256,
+    "name": "STAR TAXI - Zdeněk Zdeněk",
+    "phone": "+420 776786000",
+    "website": "https://taxi-star.cz",
+    "city_count": 1,
+    "cities": [
+      "Strakonice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1257,
+    "name": "Nonstop taxi",
+    "phone": "+420 607994636",
+    "website": "http://www.nonstoptaxi.eu",
+    "city_count": 1,
+    "cities": [
+      "Strakonice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1258,
+    "name": "Taxi Prachatice - Antonín Šiška",
+    "phone": "+420 720502501",
+    "website": "https://taxiprachatice.cz",
+    "city_count": 1,
+    "cities": [
+      "Strakonice"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1259,
+    "name": "TAXI Vávra",
+    "phone": "+420 800 770 300",
+    "website": "https://taxivavra.cz/",
+    "city_count": 1,
+    "cities": [
+      "Strážov"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 1260,
+    "name": "Marco Taxi Stříbro",
+    "phone": "+420 725 059 489",
+    "website": "http://marcotaxi.cz",
+    "city_count": 1,
+    "cities": [
+      "Stříbro"
+    ],
+    "status": "pending"
+  }
+]

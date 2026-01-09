@@ -1,0 +1,1828 @@
+[
+  {
+    "id": 421,
+    "name": "TAXI SPEEDY",
+    "phone": "+420 608711230",
+    "website": "http://taxispeedy.cz",
+    "status": "error",
+    "error": "connect ETIMEDOUT",
+    "scraped_data": null
+  },
+  {
+    "id": 422,
+    "name": "Taxi Sylvie",
+    "phone": "+420 724368385",
+    "website": "https://www.taxi-luhacovice.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Luhacovice", "okoli"],
+      "cenik": null,
+      "popis": "Taxi Sylvie - spolehliva a seriozni taxisluzba v Luhacovicich s viceletou pritomnosti na trhu a vysokou spokojenosti zakazniku.",
+      "sluzby": ["preprava osob", "letistni transfery", "svatebni obsluha", "drink taxi", "preprava aut", "kuryni sluzby"]
+    }
+  },
+  {
+    "id": 423,
+    "name": "TAXI LUHACOVICE",
+    "phone": "+420 777403341",
+    "website": "https://taxiaaluhacovice.wordpress.com/",
+    "status": "error",
+    "error": "Request failed with status code 410",
+    "scraped_data": null
+  },
+  {
+    "id": 424,
+    "name": "AutoTaxi Jiri Kostka City Taxi Vsetin",
+    "phone": "+420 605535759",
+    "website": "https://www.taxi-vsetin-605-535-759.cz",
+    "status": "error",
+    "error": "getaddrinfo ENOTFOUND",
+    "scraped_data": null
+  },
+  {
+    "id": 425,
+    "name": "Taxi David",
+    "phone": "+420 606206207",
+    "website": "https://taxidavid.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Valasske Mezirici", "okoli"],
+      "cenik": null,
+      "popis": "Taxi spolecnost ponuka kvalitne dopravne sluzby s durazom na spokojenost zakazniku. Profesionalita, spolehlivost a diskretnost za priznivou cenu.",
+      "sluzby": ["taxi sluzba", "smluvni preprava", "help drink", "drink servis", "flower servis", "kuryrni servis"]
+    }
+  },
+  {
+    "id": 426,
+    "name": "TAXI HURTA - smluvni preprava osob",
+    "phone": "+420 704771162",
+    "website": "https://taxihurta.eu",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Vsetin"],
+      "cenik": null,
+      "popis": "TAXI HURTA - smluvni preprava osob ve Vsetine.",
+      "sluzby": ["smluvni preprava osob"]
+    }
+  },
+  {
+    "id": 427,
+    "name": "Taxi Bert",
+    "phone": "+420 605745332",
+    "website": "https://taxibert.webnode.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Vsetin", "Roznov pod Radhostem", "Janova", "Hovezi", "Jablunka", "Katerinice", "Huslenky", "Halenkov", "Zubri", "Horni Becva", "Prostredni Becva", "Dolni Becva", "Hutisko-Solanec", "Zasova", "Krhova", "Mala Bystrice", "Valasska Bystrice"],
+      "cenik": null,
+      "popis": "Taxi sluzba provozovana Alberto Bertem Riccim v regionu Vsetin a Roznov pod Radhostem s moznosti prepravy kamkoliv v CR.",
+      "sluzby": ["taxisluzba"]
+    }
+  },
+  {
+    "id": 428,
+    "name": "Marek Hyza, DiS.",
+    "phone": "+420 720212799",
+    "website": "http://www.taxicek.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Vsetin", "Vsetinsko", "Zlinsky kraj", "Valasske Mezirici", "Zlin", "Ostrava", "Olomouc", "Brno", "Viden", "Bratislava"],
+      "cenik": {
+        "nastupni_sazba": "20 Kc",
+        "zakladni_sazba_mesto": "32 Kc/km",
+        "nad_40km": "30 Kc/km",
+        "vip_cena": "24 Kc/km",
+        "minimalni_cena_8_20": "100 Kc",
+        "minimalni_cena_20_22": "150 Kc",
+        "cekani": "6 Kc/min",
+        "svatky": "+100% k bezne cene"
+      },
+      "popis": "Osobni preprava osob a kuryrni sluzby modernim klimatizovanym vozem Skoda Fabia III s ridicem, dostupne po Vsetinsku a cele CR.",
+      "sluzby": ["osobni preprava", "letistni doprava", "kuryrni sluzby", "zajazdy a vylety", "rozvoz svatebcanu", "preprava z/na nadrazi"]
+    }
+  },
+  {
+    "id": 429,
+    "name": "Taxi Vyskov Nonstop",
+    "phone": "+420 800100611",
+    "website": "https://www.taxivyskov.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Vyskov", "Ceska republika", "Evropa"],
+      "cenik": {
+        "mestske_jazdy": "od 48 Kc"
+      },
+      "popis": "Taxi Bednar je jednou z nejdele pusobicich sluzeb ve Vyskove od roku 1995. Operuje 24 hodin denne s vice nez 20 let zkusenosti.",
+      "sluzby": ["svatebni taxi", "zahranicni cesty", "prevoz na letiste", "nakladni doprava do 1.5t", "6-mistny vuz"]
+    }
+  },
+  {
+    "id": 430,
+    "name": "FALCO TAXI Vyskov",
+    "phone": "+420 777999959",
+    "website": "https://falcotaxi.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Blansko", "Boskovice", "Tisnov", "Vyskov"],
+      "cenik": null,
+      "popis": "Zadne obycejne taxi, ale moderni sluzba. Rychle objednavky do 10 minut s novymi vozidly Skoda a Volkswagen.",
+      "sluzby": ["osobni preprava", "preprava deti", "preprava domacich zvirat", "platba kartou", "platba QR kodem"]
+    }
+  },
+  {
+    "id": 431,
+    "name": "Me Taxi s.r.o.",
+    "phone": "+420 775638294",
+    "website": "https://www.me-taxi.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Prostejov", "Olomoucky kraj", "tuzemsko", "zahranici"],
+      "cenik": null,
+      "popis": "Taxisluzba podnikajici rada let s peti vozidly Ford Mondeo combi. Osobni preprava s platebnimi terminaly.",
+      "sluzby": ["preprava osob", "preprava zasilek", "domaci preprava", "mezinarodni preprava"]
+    }
+  },
+  {
+    "id": 432,
+    "name": "Taxi Usti nad Labem",
+    "phone": "+420 777036926",
+    "website": "https://taxi-ustinadlabem.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Usti nad Labem"],
+      "cenik": {
+        "zakladni_sazba": "od 25 Kc/km"
+      },
+      "popis": "Nonstop taxisluzba s komfortnimi taxiky 1. tridy Skoda Superb.",
+      "sluzby": ["komfortni preprava", "nonstop dostupnost"]
+    }
+  },
+  {
+    "id": 433,
+    "name": "TAXI WEBER",
+    "phone": "+420 608769415",
+    "website": "https://www.taxiweber.cz",
+    "status": "error",
+    "error": "unable to get local issuer certificate",
+    "scraped_data": null
+  },
+  {
+    "id": 434,
+    "name": "R-TAXI",
+    "phone": "+420 736167627",
+    "website": "https://taxicb2.webnode.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Cesky Krumlov", "Ceske Budejovice", "Praha", "Brno", "Plzen", "Viden"],
+      "cenik": {
+        "zakladni_sazba": "od 40 Kc/km",
+        "letiste_praha": "2500 Kc",
+        "letiste_brno": "3300 Kc",
+        "letiste_plzen": "4000 Kc",
+        "letiste_viden": "4500 Kc"
+      },
+      "popis": "Spolehliva taxisluzba s profesionalnimi vodici poskytujici rychlou a jednoduchou prepravu v regionu Ceskych Budejovic a Krumlov.",
+      "sluzby": ["taxisluzba", "shuttle sluzba", "transfery na letiste", "doprava na dlouhe vzdalenosti"]
+    }
+  },
+  {
+    "id": 435,
+    "name": "taxibudejovice.eu",
+    "phone": "+420 721817332",
+    "website": "https://taxibudejovice.eu",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Ceske Budejovice", "Praha", "Mnichov", "Viden"],
+      "cenik": {
+        "nastupni_taxa": "20 Kc",
+        "ceske_budejovice": "23 Kc/km",
+        "do_30km_mimo_mesto": "30 Kc/km",
+        "nad_30km_mimo_mesto": "25 Kc/km",
+        "vip_program": "23 Kc/km",
+        "cekani_hodina": "360 Kc",
+        "help_drink": "50 Kc",
+        "jazda_do_1km": "100 Kc",
+        "letiste_praha": "3300 Kc",
+        "letiste_mnichov": "5500 Kc",
+        "letiste_viden": "4200 Kc"
+      },
+      "popis": "Soukroma taxisluzba v Ceskych Budejovicich provozovana Bohuslavem Serym. Soustredi se na kvalitu sluzeb s cenami dostupnymi pro kazdeho.",
+      "sluzby": ["taxisluzba", "preprava mimo mesto", "transfer na letiste", "help drink sluzba"]
+    }
+  },
+  {
+    "id": 436,
+    "name": "Let's Go",
+    "phone": "+420 737065770",
+    "website": "https://www.taxi-ceskebudejovice.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Ceske Budejovice", "okoli"],
+      "cenik": null,
+      "popis": "Taxi sluzba pro Ceske Budejovice a okoli.",
+      "sluzby": null
+    }
+  },
+  {
+    "id": 437,
+    "name": "Leo Taxi Ceske Budejovice",
+    "phone": "+420 739662199",
+    "website": "https://www.leotaxicb.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Ceske Budejovice"],
+      "cenik": null,
+      "popis": "Taxi sluzba v Ceskych Budejovicich.",
+      "sluzby": null
+    }
+  },
+  {
+    "id": 438,
+    "name": "TaGo",
+    "phone": "+420 601250260",
+    "website": "https://www.tagocb.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": null,
+      "cenik": null,
+      "popis": null,
+      "sluzby": null
+    }
+  },
+  {
+    "id": 439,
+    "name": "Taxi P.P",
+    "phone": "+420 776729015",
+    "website": "https://taxi-p-p.webnode.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Ceske Budejovice"],
+      "cenik": null,
+      "popis": "Rychle a spolehlive transfery na letiste, firemni prevozy a komfortni preprava. Spolehliva doprava, pohodlny prevoz.",
+      "sluzby": ["letistni preprava", "firemni transfer", "svatebni prevoz"]
+    }
+  },
+  {
+    "id": 440,
+    "name": "Taxi Hluboka",
+    "phone": "+420 606120240",
+    "website": "https://taxi-hluboka.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Hluboka nad Vltavou", "okoli"],
+      "cenik": null,
+      "popis": "Komfortni jizda s garantii rychlosti a bezpecnosti. Non-stop dostupnost.",
+      "sluzby": ["taxisluzba"]
+    }
+  },
+  {
+    "id": 441,
+    "name": "OK TAXI - Ceske Budejovice",
+    "phone": "+420 774504505",
+    "website": "http://www.cb-taxi.cz",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 442,
+    "name": "Taxi CB",
+    "phone": "+420 603451759",
+    "website": "https://taxicb.cz",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 443,
+    "name": "Luki Taxi",
+    "phone": "+420 770616077",
+    "website": "https://lukitaxi.cz",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 444,
+    "name": "SOFER Taxi Ceske Budejovice",
+    "phone": "+420 607230607",
+    "website": "http://www.sofercb.cz",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 445,
+    "name": "Fenix Taxi",
+    "phone": "+420 732211333",
+    "website": "https://fenixtaxi.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 446,
+    "name": "Jaxi Taxi CB",
+    "phone": "+420 732622801",
+    "website": "https://jaxitaxicb.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 447,
+    "name": "TAXI - Budejovice, s.r.o.",
+    "phone": "+420 800141516",
+    "website": "http://www.taxi-budejovice.cz",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 448,
+    "name": "Roman Jinsik",
+    "phone": "+420 607459504",
+    "website": "https://jr-taxi-ceske-budejovice.webnode.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 449,
+    "name": "Taxi Korta",
+    "phone": "+420 723120404",
+    "website": "https://taxikorta-ceskebudejovice.cz",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 450,
+    "name": "Taxi CB",
+    "phone": "+420 607774595",
+    "website": "http://taxiceskebudejovicevitsanda.webmium.com",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 451,
+    "name": "CIVAKO Auto",
+    "phone": "+420 724144396",
+    "website": "http://www.civako-auto.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Hluboka nad Vltavou", "Ceske Budejovice"],
+      "cenik": {
+        "mistni_preprava_hluboka": "135 Kc",
+        "mistni_preprava_okoli": "170 Kc",
+        "do_100km": "24 Kc/km",
+        "nad_100km": "20 Kc/km",
+        "cekani": "6 Kc/min",
+        "s_odvozem_vozidla": "36 Kc/km",
+        "pronajem_5_hodin": "4000 Kc + 100 km zdarma",
+        "nocni_akce": "7000 Kc + 150 km zdarma"
+      },
+      "popis": "Ne jsou to bezne taxi, jsou to vase splnene tuzby na bezpecne a pohodlne cestovani. Mercedes-Benz Vito pro 7 osob.",
+      "sluzby": ["mistni preprava osob", "letiste transfer", "vylety", "vodacke cile", "cyklo taxi", "ski preprava", "pronajem vozidla s ridicem", "odtah vozidla"]
+    }
+  },
+  {
+    "id": 452,
+    "name": "Personal-taxi",
+    "phone": "+420 723811630",
+    "website": "http://www.personal-taxi.cz",
+    "status": "error",
+    "error": "Request failed with status code 404",
+    "scraped_data": null
+  },
+  {
+    "id": 453,
+    "name": "Svezeme.se",
+    "phone": "+420 775047009",
+    "website": "https://www.svezeme.se",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Jizni Cechy", "Rakousko"],
+      "cenik": {
+        "jednodenni_vylety": "1200-1400 Kc"
+      },
+      "popis": "Cestovni agentura specializujici se na jednodenni vylety do Rakouska a po Cesku. Komfortni minibus pro 8 osob.",
+      "sluzby": ["poznavaci vylety", "turisticke prochazky", "zajezdy"]
+    }
+  },
+  {
+    "id": 454,
+    "name": "Halotaxi",
+    "phone": "+420 723389040",
+    "website": "https://halotaxi---taxisluzba-cesky-krumlov.webnode.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Cesky Krumlov", "okoli"],
+      "cenik": null,
+      "popis": "Profesionalni taxisluzba v Ceskem Krumlove nabizejici spolehlivy a pohodlny prepravni servis s rychlym a bezpecnym prevozem.",
+      "sluzby": ["preprava na letiste", "vylety po okoli", "rychly prevoz"]
+    }
+  },
+  {
+    "id": 455,
+    "name": "Pavel Reindl - taxi",
+    "phone": "+420 604296700",
+    "website": "https://penzionnahoranku.webnode.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Netolice", "okres Prachatice"],
+      "cenik": null,
+      "popis": "Taxi sluzba jako soucast penzionu a restaurace v Netolicich.",
+      "sluzby": ["taxi"]
+    }
+  },
+  {
+    "id": 456,
+    "name": "Taxi Express",
+    "phone": "+420 775535278",
+    "website": "https://www.taxisluzbaceskykrumlov.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Cesky Krumlov", "Lipno", "letiste"],
+      "cenik": null,
+      "popis": "Spolehliva a profesionalni taxi sluzba pro rychlou, bezpecnou a komfortni prepravu v Ceskem Krumlove. Dostupni 24/7.",
+      "sluzby": ["taxi transfer", "transfer na letiste", "transfer do Lipna", "vernostni program"]
+    }
+  },
+  {
+    "id": 457,
+    "name": "Green Taxi",
+    "phone": "+420 380712712",
+    "website": "https://www.green-taxi.cz/index.php",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Cesky Krumlov", "Ceska republika", "blizke zahranici"],
+      "cenik": null,
+      "popis": "NONSTOP provoz v Ceskem Krumlove i transfery po cele CR s ekologickym hybridnim pohonem. Komfort, bezpecnost a profesionalita.",
+      "sluzby": ["preprava osob a skupin", "transfery na letiste", "S.O.S. sluzba", "detske autosedacky", "preprava zavazadiel", "transport k lekari"]
+    }
+  },
+  {
+    "id": 458,
+    "name": "Taxi Vladimir Blahna",
+    "phone": "+420 603228264",
+    "website": "https://www.autoskolablahna.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Cesky Krumlov", "Kaplice"],
+      "cenik": null,
+      "popis": "Rodinna autoskola se 40 lety praxe - vzdelavaci instituce zamerena na vyuku jazdy. POZOR: Jedna se o autoskolu, ne taxisluzbu.",
+      "sluzby": null
+    }
+  },
+  {
+    "id": 459,
+    "name": "TAXI TRANS AM",
+    "phone": "+420 739672276",
+    "website": "https://www.taxi-transam.eu/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Kaplicko", "Ceskokrumlovsko", "Lipensko", "Praha", "Rakousko"],
+      "cenik": null,
+      "popis": "Kvalitni a bezpecna taxisluzba s profesionalnim tymem. Doprava v regionu s moznosti cest do Prahy a Rakouska.",
+      "sluzby": ["preprava osob na Kaplicku", "preprava do Prahy", "preprava do Rakouska", "WhatsApp komunikace"]
+    }
+  },
+  {
+    "id": 460,
+    "name": "CIP taxi",
+    "phone": "+420 606187269",
+    "website": "http://ciptaxi.webmium.com",
+    "status": "error",
+    "error": "read ECONNRESET",
+    "scraped_data": null
+  },
+  {
+    "id": 461,
+    "name": "Cool Taxi",
+    "phone": "+420 734415050",
+    "website": "https://www.cool-taxi.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": null,
+      "cenik": null,
+      "popis": "Website under construction - stranka je momentalne v procese pripravy.",
+      "sluzby": null
+    }
+  },
+  {
+    "id": 462,
+    "name": "ADB TAXI Ceska Lipa",
+    "phone": "+420 604878889",
+    "website": "https://adbgroup.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": null,
+      "cenik": null,
+      "popis": "Rychle objednani taxi pres mobilni aplikaci. Bez nutnosti volani. Lacnejsi az o 30% nez bezne taxi.",
+      "sluzby": ["ADB Taxi", "Senior Taxi", "mobilni aplikace", "vernostni program"]
+    }
+  },
+  {
+    "id": 463,
+    "name": "Old Fox - taxisluzba a stehovani",
+    "phone": "+420 800123333",
+    "website": "https://www.oldfox.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Ceska Lipa", "okoli"],
+      "cenik": null,
+      "popis": "Profesionalni taxisluzba a stehovani Ceska Lipa s vozidly s moznosti platby kartou.",
+      "sluzby": ["taxi", "stehovani", "drink servis", "vyzvednutie vozidla"]
+    }
+  },
+  {
+    "id": 464,
+    "name": "TAXI MARIANSKA",
+    "phone": "+420 800101080",
+    "website": "https://taxi-marianska9.webnode.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Ceska Lipa", "CR", "zahranici"],
+      "cenik": null,
+      "popis": "Nase spolecnost je zalozena na kvalitnim prepravnim servisu. Jsme spolehlivi, presni, nasi ridici jsou zkuseni a vozidla komfortni.",
+      "sluzby": ["taxisluzba", "kuryrni sluzby", "drink servis", "mikrobus", "cyklotaxi"]
+    }
+  },
+  {
+    "id": 465,
+    "name": "Selma taxi Litomerice",
+    "phone": "+420 725726960",
+    "website": "https://www.selma-taxi.cz",
+    "status": "error",
+    "error": "getaddrinfo ENOTFOUND",
+    "scraped_data": null
+  },
+  {
+    "id": 466,
+    "name": "JK Taxi",
+    "phone": "+420 606833616",
+    "website": "https://www.jk-taxi.cz/cs/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Varnsdorf", "CR", "zahranici", "Evropa"],
+      "cenik": {
+        "zakladni_sazba": "25 Kc/km do 150 km",
+        "150_200km": "20 Kc/km",
+        "nad_200km": "18 Kc/km",
+        "cekaci_doba": "4.50 Kc/min",
+        "minimalni_cena_mesto": "od 70 Kc",
+        "drink_taxi": "22 Kc/km, nastup 20 Kc",
+        "kuryrni_sluzby": "11-13 Kc/km"
+      },
+      "popis": "Nejlevnejsi NON STOP taxi sluzba ve Varnsdorfu s prioritou na spokojenost zakazniku. Profesionalni, diskretni vodici, 24 roku na trhu.",
+      "sluzby": ["preprava osob", "preprava zasilek do 500 kg", "kuryrni sluzby", "senior taxi", "drink taxi", "airport taxi", "okruzni a turisticke jizdy", "rozvoz kvetin", "platba na fakturu"]
+    }
+  },
+  {
+    "id": 467,
+    "name": "Taxi Urban Havirov",
+    "phone": "+420 732718919",
+    "website": "https://taxiurbanhavirov.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Havirov", "okoli"],
+      "cenik": null,
+      "popis": "Taxi Urban Havirov poskytuje rychle odvozy, letistni transfery a firemni prepravu. Jazdi 24/7 s ferovou cenou.",
+      "sluzby": ["rychle odvozy", "predobjednane jazdy", "letistni transfery", "firemna preprava"]
+    }
+  },
+  {
+    "id": 468,
+    "name": "TAXI Elefant",
+    "phone": "+420 800135136",
+    "website": "https://www.taxielefant.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Havirov", "Cesky Tesin", "Karvina", "Ceska republika", "zahranici"],
+      "cenik": null,
+      "popis": "Taxi elefant se jiz vice nez 20 let zabyva osobni dopravou na severni morave. 24/7 s klimatizovanymi vozidly Skoda.",
+      "sluzby": ["taxisluzba", "odvoz deti do skol", "sluzby pro seniory", "preprava zasilek", "skupinove transfery", "VIP transfer", "drink servis", "GPS lokalizace"]
+    }
+  },
+  {
+    "id": 469,
+    "name": "Dzambaro taxi",
+    "phone": "+420 602704958",
+    "website": "http://dzambaro-taxi.kvalitne.cz",
+    "status": "error",
+    "error": "Request failed with status code 403",
+    "scraped_data": null
+  },
+  {
+    "id": 470,
+    "name": "Taxi elefant",
+    "phone": "+420 800105106",
+    "website": "https://www.taxielefant.cz",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Havirov", "Cesky Tesin", "Karvina", "Ceska republika", "zahranici"],
+      "cenik": null,
+      "popis": "Taxi elefant se jiz vice nez 20 let zabyva osobni dopravou na severni morave. 24/7 s klimatizovanymi vozidly Skoda.",
+      "sluzby": ["taxisluzba", "odvoz deti do skol", "sluzby pro seniory", "preprava zasilek", "skupinove transfery", "VIP transfer", "drink servis", "GPS lokalizace"]
+    }
+  },
+  {
+    "id": 471,
+    "name": "SPO GREEN TAXI Karlovy Vary",
+    "phone": "+420 730 899 889",
+    "website": "http://www.spotaxi.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 472,
+    "name": "KV TAXI Karlovy Vary",
+    "phone": "+420 777 141 413",
+    "website": "http://kv-taxi.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 473,
+    "name": "GEORGIA TAXI s.r.o.",
+    "phone": "+420 606 605 605",
+    "website": "http://www.georgiataxi.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 474,
+    "name": "Taxi Oberwiesenthal Rauscher",
+    "phone": "+420 603 231 363",
+    "website": "http://taxi-oberwiesenthal.de/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 475,
+    "name": "Taxi Karlovy Vary",
+    "phone": "+420 607 491 221",
+    "website": "https://www.taxikarlovyvary.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 476,
+    "name": "Taxi Korta CB - NONSTOP",
+    "phone": "+420 723 120 404",
+    "website": "http://taxikorta-ceskebudejovice.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 477,
+    "name": "Fenix Taxi Ceske budejovice",
+    "phone": "+420 732 211 333",
+    "website": "https://fenixtaxi.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 478,
+    "name": "Risa Taxi Ceske Budejovice - NONSTOP",
+    "phone": "+420 735 508 090",
+    "website": "http://risataxi.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 479,
+    "name": "Jaxi Taxi CB",
+    "phone": "+420 732 622 801",
+    "website": "https://jaxitaxicb.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 480,
+    "name": "Jan Sanda - NONSTOP - Taxisluzba vozidla vice druhu i 8+1",
+    "phone": "+420 608 030 399",
+    "website": "https://www.taxiexpres.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 481,
+    "name": "Luki Taxi & Kuryr",
+    "phone": "+420 770 616 077",
+    "website": "http://www.lukitaxi.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 482,
+    "name": "Bk - taxi",
+    "phone": "+420 774 243 739",
+    "website": "http://www.bk-taxi.cz/",
+    "status": "error",
+    "error": "Unable to verify domain",
+    "scraped_data": null
+  },
+  {
+    "id": 483,
+    "name": "NowaTaxi",
+    "phone": "+420 774 567 277",
+    "website": "http://www.nowataxi.cz/",
+    "status": "error",
+    "error": "getaddrinfo ENOTFOUND",
+    "scraped_data": null
+  },
+  {
+    "id": 484,
+    "name": "Taxi Easy Kutna Hora",
+    "phone": "+420 602 503 059",
+    "website": "https://www.taxi-easy.cz/kutna-hora/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Kutna Hora", "Nove Dvory", "Rohozec", "Svaty Mikulas", "Svata Katerina", "Stary Kolin", "Kolin", "Cervene Pecky", "Miskovice", "Caslav", "Praha letiste"],
+      "cenik": {
+        "nastup": "30 Kc",
+        "km": "30 Kc/km",
+        "minimum": "100 Kc",
+        "cekani": "6 Kc/min",
+        "vianoce_silvestr_nastup": "50 Kc",
+        "vianoce_silvestr_km": "50 Kc/km"
+      },
+      "popis": "Taxi Easy operuje od 2015, ponuka standardne taxi sluzby s rozsirenimi provoznimi hodinami v Kutne Hore.",
+      "sluzby": ["mestske taxi", "dlouhe vzdalenosti", "letiste Praha", "minibus 8+1"]
+    }
+  },
+  {
+    "id": 485,
+    "name": "Taxi Novak - Kutna Hora",
+    "phone": "+420 777 347 347",
+    "website": "https://www.taxikh.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Kutna Hora", "okoli"],
+      "cenik": null,
+      "popis": "Vice nez 25 let na cestach Kutne Hory. Duvera, ktera se lety neopousti. Zkuseni a pratelsti ridici, moderni vozovy park.",
+      "sluzby": ["taxisluzby"]
+    }
+  },
+  {
+    "id": 486,
+    "name": "Taxi Simona",
+    "phone": "+420 800 100 512",
+    "website": "http://www.taxi-kutnahora.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Kutna Hora", "CR", "EU", "Letiste Vaclava Havla Praha"],
+      "cenik": null,
+      "popis": "Kvalitni a spolehlive taxi za nejnizsi ceny. Preprava osob vnitrostatne i mezinarodne, klimatizovanymi vozidly s Wi-Fi 24/7.",
+      "sluzby": ["standard taxi", "SUV taxi", "business class", "minivan taxi", "airport transfer", "svatebni taxi", "drink servis", "autobusova preprava", "kuryrni sluzby", "odtahova sluzba"]
+    }
+  },
+  {
+    "id": 487,
+    "name": "TAXI Elefant, Karvina, Havirov, Czech Cieszyn",
+    "phone": "+420 736 135 215",
+    "website": "http://www.taxielefant.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Havirov", "Cesky Tesin", "Karvina", "Ceska republika", "zahranici"],
+      "cenik": null,
+      "popis": "Taxi elefant se jiz vice nez 20 let zabyva osobni dopravou na severni morave. 24/7 s klimatizovanymi vozidly Skoda.",
+      "sluzby": ["taxisluzba", "odvoz deti do skol", "sluzby pro seniory", "preprava zasilek", "skupinove transfery", "VIP transfer", "drink servis", "GPS lokalizace"]
+    }
+  },
+  {
+    "id": 488,
+    "name": "Letistni taxi Black Pearl",
+    "phone": "+420 774 659 639",
+    "website": "https://letistnitaxiblackpearl.webnode.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Trinec", "Krakow", "Ostrava"],
+      "cenik": null,
+      "popis": "Spolecnost ponuka bezstarostny odvoz na letiste s vyuzitim modernich 9-mistnych dodavek. Spolehlivy a pohodlny odvoz.",
+      "sluzby": ["letistni transfery", "odvoz na letiste"]
+    }
+  },
+  {
+    "id": 489,
+    "name": "TAXI Usti nad Orlici",
+    "phone": "+420 774 333 111",
+    "website": "http://www.taxi-ustinadorlici.cz/",
+    "status": "error",
+    "error": "read ECONNRESET",
+    "scraped_data": null
+  },
+  {
+    "id": 490,
+    "name": "FoxTaxi Jablonne nad Orlici Letohrad",
+    "phone": "+420 732 761 402",
+    "website": "https://taxifox.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Jablonne nad Orlici", "Letohrad", "EU"],
+      "cenik": null,
+      "popis": "Nonstop taxisluzba s moznosti drink taxi a transferu na/z letiska, prepravy po EU s fakturaciou firmam.",
+      "sluzby": ["nonstop taxisluzba", "drink taxi", "transfery na/z letiste", "preprava osob po EU", "preprava zasilek po EU", "fakturace firmam"]
+    }
+  },
+  {
+    "id": 491,
+    "name": "Taxisluzba Beran",
+    "phone": "+420 603 312 891",
+    "website": "http://www.taxiberan.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Kraliky", "okres Usti nad Orlici", "Pardubicky kraj"],
+      "cenik": null,
+      "popis": "Taxi Beran je profesionalni dopravni sluzba fungujici od roku 1992. Kvalitni taxi sluzby v regionu Kraliky 24/7.",
+      "sluzby": ["taxisluzby 24/7", "transfer na letiste", "drink service", "autobusova doprava 20-59 osob"]
+    }
+  },
+  {
+    "id": 492,
+    "name": "Taxi Orlicko - Zahalka/Zahalkova",
+    "phone": "+420 605 309 530",
+    "website": "http://taxiorlicko.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Chocen", "Vysoke Myto", "Usti nad Orlici", "Litomysl", "Brandys nad Orlici", "Bestovice", "Skorenice", "Oucmanice", "Svaty Jiri", "Ceske Hermanice", "Tisova", "Hrusova", "Cerekvice nad Loucnou", "Sruby", "Dobrikov", "cela republika"],
+      "cenik": null,
+      "popis": "Spolehliva a rychla taxi sluzba k dispozici NON STOP sedm dni v tydnu s moznosti osobni prepravy po cele republice.",
+      "sluzby": ["taxisluzba", "odvoz na letiste", "odvoz z firemnych akci", "odvoz ze svadieb", "odvoz z vecierkov", "odvoz k lekari", "preprava na fakturu", "kuryerska sluzba", "WiFi"]
+    }
+  },
+  {
+    "id": 493,
+    "name": "Jiri Blaha - Radio-taxi",
+    "phone": "+420 601 248 008",
+    "website": "http://www.taxi-radiotaxi.cz/",
+    "status": "error",
+    "error": "certificate has expired",
+    "scraped_data": null
+  },
+  {
+    "id": 494,
+    "name": "JBC TAXI Jablonec nad Nisou - NONSTOP",
+    "phone": "+420 735 536 373",
+    "website": "https://www.jbctaxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Jablonec nad Nisou"],
+      "cenik": {
+        "zakladni_sazba": "od 15 Kc/km",
+        "pristaveni_dvou_vodicu": "bezplatne"
+      },
+      "popis": "Nonstop dostupna taxisluzba v Jablonci nad Nisou s moznosti bezpecneho prepravy osob. Operuje 24/7.",
+      "sluzby": ["preprava az 6 cestujucich", "detske autosedacky", "bezpecny odvoz vozidiel", "donaska stravy", "mezinarodna preprava", "kuryrne sluzby"]
+    }
+  },
+  {
+    "id": 495,
+    "name": "Profitaxi Jablonec nad Nisou",
+    "phone": "+420 606 399 363",
+    "website": "http://www.profitaxijbc.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Jablonec nad Nisou", "Liberec", "Smrzovka", "Tanvald", "Turnov"],
+      "cenik": null,
+      "popis": "Moderni taxisluzba s GPS dispecingem v Jablonci nad Nisou. Rychle pristaveni vozidiel, transparentne kalkulacie cen.",
+      "sluzby": ["preprava osob", "invalidni taxi", "slevy pro ZTP a seniory", "express preprava zasilek", "firemni taxi", "bezhotovostna platba"]
+    }
+  },
+  {
+    "id": 496,
+    "name": "H&V taxi Jablonec nad Nisou",
+    "phone": "+420 606 888 788",
+    "website": "http://www.hvtaxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Jablonec nad Nisou"],
+      "cenik": null,
+      "popis": "Renomovana prepravna spolecnost s dlouhou tradici orientovana na bezpecnost, efektivnost a zakaznicku spokojenost.",
+      "sluzby": ["taxi sluzby"]
+    }
+  },
+  {
+    "id": 497,
+    "name": "Bobys Tour - Taxi Bobys Tanvald",
+    "phone": "+420 602 286 280",
+    "website": "https://www.penzion-iva.eu/nonstop-taxisluzba-bobys",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Jizerske hory", "Krkonose", "Praha", "letiste", "Tanvald", "Albrechtice v Jizerskych horach"],
+      "cenik": null,
+      "popis": "Preprava osob, zavazadel, mensiho nakladu osobnim dodavkovym automobilem s obsaditelnosti do 8 osob. Nonstop provoz.",
+      "sluzby": ["preprava osob a batoziny", "transfer na letiste", "celodenni vylety", "doprava s bicyklami", "doprava s lyzami", "sluzby pre firmy", "transfer na diskoteky"]
+    }
+  },
+  {
+    "id": 498,
+    "name": "Eurotaxi Jablonec",
+    "phone": "+420 777 557 733",
+    "website": "http://www.taxi-jablonec.cz/",
+    "status": "error",
+    "error": "Certificate altnames mismatch",
+    "scraped_data": null
+  },
+  {
+    "id": 499,
+    "name": "Taxi bus station Richter",
+    "phone": "+420 602 704 977",
+    "website": "http://www.taxinovyjicin.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Novy Jicin"],
+      "cenik": null,
+      "popis": "Poskytujeme nonstop taxisluzbu. Stanovistem je autobusove nadrazi v Novem Jicine.",
+      "sluzby": ["nonstop taxisluzba"]
+    }
+  },
+  {
+    "id": 500,
+    "name": "Taxi Leona Balcarova Novy Jicin",
+    "phone": "+420 736 775 978",
+    "website": "http://taxibalcarova.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Novy Jicin", "okoli"],
+      "cenik": null,
+      "popis": "Spolehlive TAXI v Novem Jicine a okoli s dostupnosti 24/7, vice nez 10 let.",
+      "sluzby": ["preprava na letiste", "taxisluzby na svadby", "sluzby na vecierky", "drink servis", "nonstop dostupnost"]
+    }
+  },
+  {
+    "id": 501,
+    "name": "M&D Taxi Novy Jicin Non-stop",
+    "phone": "+420 776 300 136",
+    "website": "https://www.novyjicintaxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Novy Jicin", "Koprivnice", "Pribor", "Mosnov", "Rybi", "Suchdol nad Odrou", "Libhost", "Praha", "Viden", "Krakow", "Katovice", "Bratislava", "EU"],
+      "cenik": {
+        "zakladni_sazba_mesto": "od 70 Kc",
+        "cena_za_km": "30 Kc",
+        "cekaci_sazba": "8 Kc/min",
+        "novy_jicin_rybi": "od 180 Kc",
+        "novy_jicin_ostrava": "od 900 Kc",
+        "novy_jicin_praha": "od 7500 Kc"
+      },
+      "popis": "Spolehliva taxisluzba zajistujici bezpecne, rychle a komfortni prepravy v Novem Jicine a okoli. 24/7 provoz vice nez 5 let.",
+      "sluzby": ["standardni taxi preprava", "drink taxi", "dovoz nakupu", "letiste transfer", "non-stop sluzba", "preprava skupin"]
+    }
+  },
+  {
+    "id": 502,
+    "name": "MS TAXI Marcel Schiller",
+    "phone": "+420 730 136 130",
+    "website": "http://mstaxi.cz/",
+    "status": "error",
+    "error": "Certificate altnames mismatch",
+    "scraped_data": null
+  },
+  {
+    "id": 503,
+    "name": "HALO TAXI",
+    "phone": "+420 605 959 858",
+    "website": "http://www.njtaxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Novy Jicin", "Ceska republika", "Viden", "Bratislava", "Krakow"],
+      "cenik": {
+        "zakladni_sazba_centrum": "od 50 Kc",
+        "mosnov": "od 350 Kc",
+        "brno": "od 1900 Kc",
+        "katovice": "od 2400 Kc",
+        "krakow": "od 3000 Kc",
+        "viden": "od 3500 Kc",
+        "bratislava": "od 3500 Kc",
+        "praha_ruzyne": "od 5500 Kc"
+      },
+      "popis": "Taxi sluzba s 15+ rokmi skusenosti ponukajuca prepravu osob, napojovy servis a transfer na letiska.",
+      "sluzby": ["preprava osob", "drink servis", "rozvozy na letiska", "transfer na rodinne podujatia", "preprava bicyklov", "dialkova preprava"]
+    }
+  },
+  {
+    "id": 504,
+    "name": "Taxi Prostejov - Vratislav Hromek",
+    "phone": "+420 602 718 042",
+    "website": "http://www.taxipv.cz/",
+    "status": "error",
+    "error": "Certificate altnames mismatch",
+    "scraped_data": null
+  },
+  {
+    "id": 505,
+    "name": "taxi Prostejov",
+    "phone": "+420 603 278 792",
+    "website": "http://pvtaxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Prostejov", "okoli"],
+      "cenik": {
+        "nastupni_sazba": "40 Kc",
+        "1_sazba": "32 Kc/km",
+        "2_sazba": "42 Kc/km",
+        "3_sazba": "52 Kc/km",
+        "4_sazba": "5 Kc/km",
+        "cekani": "7 Kc/min"
+      },
+      "popis": "Provozovat taxi neni pouze o znalosti ulic. Je to hlavne o spokojenosti zakaznika. Rychle, bezpecne a kvalitne 24/7.",
+      "sluzby": ["prepreva 24/7", "transfer na letiste", "taxi pro 6 pasazeru", "drink car service", "sluzby pre firmy", "bezkontaktna platba"]
+    }
+  },
+  {
+    "id": 506,
+    "name": "Taxi Prostejov Ondrej Mechura",
+    "phone": "+420 733 686 856",
+    "website": "http://taxi-prostejovsko.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Prostejovsko", "Ceska republika", "Evropa"],
+      "cenik": null,
+      "popis": "Preprava az 7 osob klimatizovanym prostornym vozidlem s dlouholetymi zkusenostmi a profesionalnim pristupem.",
+      "sluzby": ["vicemistne taxi", "klimatizovane vozidlo", "rozsirena dostupnost"]
+    }
+  },
+  {
+    "id": 507,
+    "name": "Travel TAXI Prostejov",
+    "phone": "+420 774 717 299",
+    "website": "https://www.traveltaxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Prostejov"],
+      "cenik": null,
+      "popis": "Moderni vicemistna taxi sluzba kladouci duraz na pohodli, bezpecnost a spolehlivost. Doprava pro skupiny, firemni akce a svadby.",
+      "sluzby": ["dalkove taxi", "svatebni taxi", "skupinova preprava", "taxi pro firmy"]
+    }
+  },
+  {
+    "id": 508,
+    "name": "Taxi Karlovy Vary - Pavel Prantl",
+    "phone": "+420 608 907 834",
+    "website": "https://www.anotaxi.cz/kontakt/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Karlovy Vary"],
+      "cenik": null,
+      "popis": "Taxisluzba v Karlovych Varoch od Pavla Prantla.",
+      "sluzby": ["taxisluzba"]
+    }
+  },
+  {
+    "id": 509,
+    "name": "Black & White Taxi Vrbno pod Pradedem",
+    "phone": "+420 792 252 424",
+    "website": "http://bw-taxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Bruntal", "Rymarov", "Jesenik", "Vrbno pod Pradedem", "Krnov", "Opava", "Olomouc", "Prerov", "Hranice", "Kromeriz", "Sternberk"],
+      "cenik": {
+        "mesta": "60-99 Kc",
+        "mimo_mesta": "22-26 Kc/km",
+        "bruntal_mesto": "70 Kc",
+        "bruntal_mimo_mesto": "24 Kc/km"
+      },
+      "popis": "Taxisluzba Black & White Taxi funguje 24/7 s vozidly Skoda Fabia III a Octavia. K dispozici po celych 24 hodin denne.",
+      "sluzby": ["expresni preprava", "fakturacni jizdy", "predobjednavka", "letistni transfer", "limuzina", "senior taxi od 15 Kc"]
+    }
+  },
+  {
+    "id": 510,
+    "name": "Black & white taxi Jesenik",
+    "phone": "+420 792 252 625",
+    "website": "http://bw-taxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Bruntal", "Rymarov", "Jesenik", "Vrbno pod Pradedem", "Krnov", "Opava", "Olomouc", "Prerov", "Hranice", "Kromeriz", "Sternberk"],
+      "cenik": {
+        "mesta": "60-99 Kc",
+        "mimo_mesta": "22-26 Kc/km"
+      },
+      "popis": "Taxisluzba Black & White Taxi funguje 24/7 s vozidly Skoda Fabia III a Octavia.",
+      "sluzby": ["expresni preprava", "fakturacni jizdy", "predobjednavka", "letistni transfer", "limuzina", "senior taxi"]
+    }
+  },
+  {
+    "id": 511,
+    "name": "Crazy Taxi Opava",
+    "phone": "+420 734 343 536",
+    "website": "https://crazytaxi.webnode.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Opava", "Bruntal"],
+      "cenik": null,
+      "popis": "Moderni taxisluzba zamerena na rychlou a pohodlnou dopravu s durazem na pohodli a bezpeci. Taxameter a platebni terminal.",
+      "sluzby": ["zakladni taxisluzba", "aplikacia Taxikey"]
+    }
+  },
+  {
+    "id": 512,
+    "name": "taxi Kondrat",
+    "phone": "+420 603 279 033",
+    "website": "https://taxikondrat.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Jihlava", "Praha", "Brno", "Viden", "Pardubice"],
+      "cenik": {
+        "letiste_praha": "od 4000 Kc",
+        "letiste_brno": "od 2800 Kc",
+        "letiste_viden": "od 4800 Kc",
+        "letiste_pardubice": "od 2800 Kc"
+      },
+      "popis": "Taxi sluzba v Jihlave s komfortnimi vozy poskytujici prepravu osob vcetne transferu na letiste. Prijimaji platebni karty.",
+      "sluzby": ["dalkove trasy", "transfery na letiste", "taxisluzba", "preprava zasilek do 1t", "Wi-Fi vo voze", "napoj zdarma", "autosedacky", "startovacie kable"]
+    }
+  },
+  {
+    "id": 513,
+    "name": "Taxi Hlavka s.r.o",
+    "phone": "+420 702 550 200",
+    "website": "http://hlavkabus.cz/",
+    "status": "error",
+    "error": "connect ECONNREFUSED",
+    "scraped_data": null
+  },
+  {
+    "id": 514,
+    "name": "Team Charlie TAXI",
+    "phone": "+420 800 023 043",
+    "website": "http://www.charlietaxi.cz/",
+    "status": "error",
+    "error": "Certificate altnames mismatch",
+    "scraped_data": null
+  },
+  {
+    "id": 515,
+    "name": "Taxi",
+    "phone": "+420 776 116 626",
+    "website": "http://moje_taxi.bussines.site/",
+    "status": "error",
+    "error": "Invalid URL",
+    "scraped_data": null
+  },
+  {
+    "id": 516,
+    "name": "AAC Taxi Trebic Nonstop",
+    "phone": "+420 602 466 466",
+    "website": "http://www.taxi-trebic.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Trebic", "okoli", "celorepublikove trasy"],
+      "cenik": {
+        "mesto_mimo_mesto": "40 Kc/km",
+        "cekani": "7 Kc/min",
+        "nastup": "30 Kc",
+        "do_2km_nastup": "50 Kc",
+        "silvestr_novy_rok": "50 Kc/km, 15 Kc/min, 50 Kc nastup",
+        "nad_300km": "35 Kc/km",
+        "nad_500km": "30 Kc/km"
+      },
+      "popis": "NONSTOP taxi sluzba v Trebici, ktera vas vyzvedne do 15 minut. Funguje od roku 1995 s moznosti bezhotovostni platby.",
+      "sluzby": ["preprava v Trebici", "preprava zasilek", "doprava na letiste", "fakturace pro firmy", "platba kartou"]
+    }
+  },
+  {
+    "id": 517,
+    "name": "TAXI Sprint HK Ltd.",
+    "phone": "+420 605 123 456",
+    "website": "http://www.taxi-hk.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Hradec Kralove"],
+      "cenik": null,
+      "popis": "Taxisluzba s dlouholetou tradici pres 20 let. Nonstop dispecink s GPS technologii.",
+      "sluzby": ["letistni transfery", "senior taxi", "doprava k lekari", "odvoz vozidla", "pracovni cesty", "preprava vetsich skupin"]
+    }
+  },
+  {
+    "id": 518,
+    "name": "Metro taxi",
+    "phone": "+420 720 444 000",
+    "website": "http://www.metrotaxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Hradec Kralove", "cela Evropa"],
+      "cenik": null,
+      "popis": "Metro taxi je levne non stop taxi v Hradci Kralove se zarukou garance a jistoty. Nekuracky vozy, vice nez 20 let tradice.",
+      "sluzby": ["non-stop taxi", "doprava na letiste", "taxi do skoly", "senior taxi", "svatebni taxi", "drink service", "obchodni doprava", "bezhotovostna platba"]
+    }
+  },
+  {
+    "id": 519,
+    "name": "Taxi Easy Chlumec nad Cidlinou",
+    "phone": "+420 704 019 080",
+    "website": "https://www.taxi-easy.cz/chlumec-nad-cidlinou-a-okoli/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Chlumec nad Cidlinou", "Hradec Kralove", "Zachrastany", "Humburky", "Menik", "Prasek", "Kobylice", "Nechanice", "Stary Bydzov", "Mestec Kralove"],
+      "cenik": {
+        "nastup": "30 Kc",
+        "km": "30 Kc/km",
+        "cekani": "6 Kc/min",
+        "vianoce_silvestr_nastup": "50 Kc",
+        "vianoce_silvestr_km": "50 Kc/km",
+        "znecistenie_vozidla": "5000 Kc"
+      },
+      "popis": "Taxi sluzba poskytujici mistni prepravu od roku 2015. Prevadzkuje sa v piatkoch a sobotach 19:00-4:00.",
+      "sluzby": ["lokalna taxisluzba", "dialkove trasy", "Ford Transit", "transfer na/z letiska", "rozvoz z akci"]
+    }
+  },
+  {
+    "id": 520,
+    "name": "Black&White taxi Sternberk",
+    "phone": "+420 792 252 626",
+    "website": "https://bw-taxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Bruntal", "Rymarov", "Jesenik", "Vrbno pod Pradedem", "Krnov", "Opava", "Olomouc", "Prerov", "Hranice", "Kromeriz", "Sternberk"],
+      "cenik": {
+        "mesta": "60-99 Kc",
+        "mimo_mesta": "22-26 Kc/km"
+      },
+      "popis": "Taxisluzba Black & White Taxi funguje 24/7 s vozidly Skoda Fabia III a Octavia.",
+      "sluzby": ["expresni preprava", "fakturacni jizdy", "predobjednavka", "letistni transfer", "limuzina", "senior taxi"]
+    }
+  },
+  {
+    "id": 521,
+    "name": "Black & White taxi Olomouc",
+    "phone": "+420 792 222 111",
+    "website": "http://www.bw-taxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Bruntal", "Rymarov", "Jesenik", "Vrbno pod Pradedem", "Krnov", "Opava", "Olomouc", "Prerov", "Hranice", "Kromeriz", "Sternberk"],
+      "cenik": {
+        "mesta": "60-99 Kc",
+        "mimo_mesta": "22-26 Kc/km"
+      },
+      "popis": "Taxisluzba Black & White Taxi funguje 24/7 s vozidly Skoda Fabia III a Octavia.",
+      "sluzby": ["expresni preprava", "fakturacni jizdy", "predobjednavka", "letistni transfer", "limuzina", "senior taxi"]
+    }
+  },
+  {
+    "id": 522,
+    "name": "Lea Taxi Olomouc",
+    "phone": "+420 739 665 808",
+    "website": "https://www.leataxiolomouc.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Olomouc", "Brno", "Ostrava", "Praha", "Viden", "Bratislava"],
+      "cenik": {
+        "nastup": "49 Kc",
+        "zakladni_sazba": "33 Kc/km",
+        "cekani": "6 Kc/min",
+        "olomouc_maly_okruh": "99 Kc",
+        "olomouc_velky_okruh": "149 Kc",
+        "olomouc_brno_ostrava": "1800 Kc",
+        "olomouc_praha": "5900 Kc",
+        "olomouc_viden": "5300 Kc",
+        "olomouc_bratislava": "5500 Kc"
+      },
+      "popis": "Pohodlna, levna a bezpecna taxisluzba nabizejici rychle, bezpecne a komfortni jizdy po Olomouci a cele CR.",
+      "sluzby": ["preprava osob", "letistny transfer", "firemne taxi", "preprava na akce", "fakturace pro firmy", "platby kartou", "senior taxi", "kuryrne sluzby"]
+    }
+  },
+  {
+    "id": 523,
+    "name": "Atlant taxi Olomouc",
+    "phone": "+420 800 113 030",
+    "website": "https://www.atlanttaxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Olomouc"],
+      "cenik": null,
+      "popis": "Taxi, na ktere se muzete spolehnout. Taxi, kde myslime na vasi bezpecnost i pohodli.",
+      "sluzby": null
+    }
+  },
+  {
+    "id": 524,
+    "name": "Taxi Up Olomouc | od 115 Kc po Olomouci",
+    "phone": "+420 731 319 788",
+    "website": "http://www.taxiup.cz/",
+    "status": "error",
+    "error": "Request failed with status code 404",
+    "scraped_data": null
+  },
+  {
+    "id": 525,
+    "name": "Scorpio Taxi Uherske Hradiste & Kunovice",
+    "phone": "+420 777 888 854",
+    "website": "http://www.scorpiotaxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Uherske Hradiste", "Kunovice", "Stare Mesto", "Hluk", "Ostrozska Nova Ves"],
+      "cenik": null,
+      "popis": "Rodinna firma se skvelymi sluzbami a cenami nabizejici pohodlny a prostorny 6mistny vuz.",
+      "sluzby": ["zakladni taxisluzba", "doprava na letiste", "taxi pro 6 osob", "drink and drive", "firemni taxi"]
+    }
+  },
+  {
+    "id": 526,
+    "name": "Taxi Duff",
+    "phone": "+420 773 065 065",
+    "website": "https://www.taxiduff.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Uherske Hradiste", "Stare Mesto u Uherskeho Hradiste"],
+      "cenik": null,
+      "popis": "Spolehlive a dostupne taxi pro vase cesty po Uherskem Hradisti a okoli.",
+      "sluzby": ["letistni taxi transfer", "senior taxi", "preprava deti do skol", "24/7 dostupnost"]
+    }
+  },
+  {
+    "id": 527,
+    "name": "Drink & Drive Brno",
+    "phone": "+420 608 717 141",
+    "website": "http://www.drink-drive.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Brno", "okoli"],
+      "cenik": {
+        "nastupni_taxa": "180 Kc",
+        "cena_za_km": "33 Kc",
+        "zakladni_jizdne": "300 Kc",
+        "cekani": "7 Kc/min, prvnich 5 minut zdarma",
+        "5km": "345 Kc",
+        "10km": "510 Kc",
+        "15km": "675 Kc",
+        "20km": "840 Kc"
+      },
+      "popis": "Bezpecny odvoz auta po Brne a okoli - profesionalni ridic vas i vase vozidlo dopravi domu spolehlive a bez rizika.",
+      "sluzby": ["odvoz s omamenim", "osobni ridic", "pickup servis", "svatebni taxi", "odvoz z letiste"]
+    }
+  },
+  {
+    "id": 528,
+    "name": "DRINK AND DRIVE TAXI Brno, Praha a Bratislava - Nonstop",
+    "phone": "+420 608 037 465",
+    "website": "http://www.drinkanddrivetaxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Brno", "Praha", "Bratislava"],
+      "cenik": null,
+      "popis": "Taxi sluzba NONSTOP so zameranim na odvoz zakazniku v opitom stave bezpecne domu.",
+      "sluzby": ["drink and drive"]
+    }
+  },
+  {
+    "id": 529,
+    "name": "Taxisluzba",
+    "phone": "+420 774 828 706",
+    "website": "http://www.taxirosice.webnode.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Rosice", "Brno", "Viden", "Praha"],
+      "cenik": null,
+      "popis": "Taxi Rosice poskytuje osobnu dopravu s vozmi vyssej strednej triedy. Profesionalni vodici so vzdelanim.",
+      "sluzby": ["transfer na letiska", "doprava podnikatelskych partneru", "preprava skupin", "osobna doprava na svadby", "doprava na spolocenske akce", "sluzby v ramci Europy"]
+    }
+  },
+  {
+    "id": 530,
+    "name": "MB TAXI MB - Mlada Boleslav a Okoli",
+    "phone": "+420 608 435 626",
+    "website": "https://www.taximb.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Mlada Boleslav", "Bakova nad Jizerou", "Mnichovo Hradiste", "Benatky nad Jizerou", "Bela pod Bezdezem", "Praha", "cela CR"],
+      "cenik": {
+        "mistni_jizdy": "40 Kc/km",
+        "jizdy_mimo_mesto": "40 Kc/km",
+        "vip_cimice_most": "1350 Kc",
+        "vip_praha_centrum": "1900 Kc",
+        "vip_letiste": "2350 Kc"
+      },
+      "popis": "Taxi MB poskytuje bezpecnou a snadnou prepravu osob s dostupnosti 24/7.",
+      "sluzby": ["mistni preprava", "dalkove taxisluzby", "VIP taxi jizdy", "preprava na letiste", "SMS objednavka"]
+    }
+  },
+  {
+    "id": 531,
+    "name": "TAXI O.K Trans Mlada Boleslav",
+    "phone": "+420 773 777 440",
+    "website": "https://www.taxioktransmb.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Mlada Boleslav", "okoli"],
+      "cenik": {
+        "nastupni_sazba": "40 Kc",
+        "jizdne": "35 Kc/km",
+        "cekani": "6 Kc/min"
+      },
+      "popis": "Taxi sluzba nabizi spoje v rezimu nonstop s pravidelne servisovanymi vozidly. Vozy dostupne do 15 minut.",
+      "sluzby": ["zakladni taxisluzba", "drink servis", "zlavy pro stale zakazniky"]
+    }
+  },
+  {
+    "id": 532,
+    "name": "LiketaxiMB - Taxisluzba Mlada Boleslav",
+    "phone": "+420 605 014 404",
+    "website": "https://liketaximb.webnode.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": null,
+      "cenik": null,
+      "popis": "Non-stop taxi sluzba s 24/7 dostupnosti.",
+      "sluzby": null
+    }
+  },
+  {
+    "id": 533,
+    "name": "Taxi MH - taxi Mnichovo Hradiste",
+    "phone": "+420 722 944 499",
+    "website": "http://www.eurotaximb.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Mlada Boleslav", "Mnichovo Hradiste", "Praha", "Liberec", "Ceska Lipa", "Pardubice", "Hradec Kralove", "Plzen", "cela CR"],
+      "cenik": null,
+      "popis": "Spolecnost nabizi taxisluzby, platformy Bolt a Uber. Prevadzkuji vlastni flotilu.",
+      "sluzby": ["taxisluzby", "Bolt", "Uber", "transfer na letiste", "svatby", "preprava dokumentu a zasilek", "dlhodoby pronajem vozidiel"]
+    }
+  },
+  {
+    "id": 534,
+    "name": "TAXI Paola",
+    "phone": "+420 605 988 874",
+    "website": "https://www.firmy.cz/detail/13318133-taxi-paola-velke-mezirici.html",
+    "status": "error",
+    "error": "External directory page",
+    "scraped_data": null
+  },
+  {
+    "id": 535,
+    "name": "TaxiMali Zdar nad Sazavou",
+    "phone": "+420 605 713 061",
+    "website": "http://taximali.8u.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Zdar nad Sazavou"],
+      "cenik": null,
+      "popis": "Taxi Mali Zdar nad Sazavou.",
+      "sluzby": null
+    }
+  },
+  {
+    "id": 536,
+    "name": "Taxi Pepino",
+    "phone": "+420 604 463 412",
+    "website": "https://www.pepinotaxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Zdar nad Sazavou", "letiste Vaclava Havla"],
+      "cenik": null,
+      "popis": "Diky dlouholetym zkusenostem jsme si vybudovali dobrou povest jako poskytovatele taxisluzeb s prioritou na vase pohodli.",
+      "sluzby": ["letistni transfer", "taxi po meste", "firemni preprava", "kuryr sluzba"]
+    }
+  },
+  {
+    "id": 537,
+    "name": "Taxi Tabor Barta",
+    "phone": "+420 777 262 530",
+    "website": "https://taxitabor.eu/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Tabor"],
+      "cenik": null,
+      "popis": "Taxi Tabor nejlepsi partner pro vas. Firemni i osobni preprava, bussines transfery na letiste, drink servis a vylety.",
+      "sluzby": ["firemni preprava", "osobni preprava", "transfery na letiste", "drink servis", "vylety"]
+    }
+  },
+  {
+    "id": 538,
+    "name": "Taxi Tabor levne",
+    "phone": "+420 777 252 595",
+    "website": "http://www.levne-taxi-tabor.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Tabor", "Sezimovo Usti"],
+      "cenik": null,
+      "popis": "Jsme luxusni a levna taxisluzba Tabor s dlouhodobou historii. Klimatizovane luxusni vozy s nabidkou napoju.",
+      "sluzby": ["drink servis", "luxusni taxi", "letistni transfery", "expresni doprava zasilek", "business taxi", "nadrazni transfer"]
+    }
+  },
+  {
+    "id": 539,
+    "name": "Taxi Mara Tabor",
+    "phone": "+420 607 875 828",
+    "website": "http://www.taximara.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Tabor", "okoli", "cela CR", "zahranici"],
+      "cenik": {
+        "nastupni_sazba": "30 Kc",
+        "v_meste": "35 Kc/km",
+        "mimo_mesto": "30 Kc/km",
+        "nad_50km": "27 Kc/km",
+        "svatky_silvestr": "50 Kc/km",
+        "cekani": "5 Kc/min",
+        "minimalni_sazba": "150 Kc"
+      },
+      "popis": "Moderni taxisluzba nabizejici prepravu osob po Tabore a okoli s digitalni platbami, drink servisem a transfery na letiste.",
+      "sluzby": ["preprava osob", "airport taxi", "drink servis", "QR platba", "platba kartou", "preprava po CR a zahranici"]
+    }
+  },
+  {
+    "id": 540,
+    "name": "Taxi Michal & Josef Maskovi",
+    "phone": "+420 602 403 440",
+    "website": "https://www.taxi-tabor-masek.cz/index.htm",
+    "status": "error",
+    "error": "certificate has expired",
+    "scraped_data": null
+  },
+  {
+    "id": 541,
+    "name": "TAXI66",
+    "phone": "+420 777 676 100",
+    "website": "http://www.znojmo-taxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Znojmo", "Mor. Krumlov", "Hrusovany"],
+      "cenik": null,
+      "popis": "Taxi spolecnost TAXI 66 nabizi nejlevnejsi taxi v regione. Luxusni nekuracke vozy Mazda 6, Mercedes E 200, Mercedes E 220 D.",
+      "sluzby": ["bezpecna preprava", "luxusni nekuracke vozidla", "klimatizace", "objednavka pres SMS"]
+    }
+  },
+  {
+    "id": 542,
+    "name": "TAXI FRANTISEK ZNOJMO",
+    "phone": "+420 607 902 901",
+    "website": "https://taxi-frantisek-znojmo.webnode.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Znojmo", "okoli", "Ceska republika", "EU"],
+      "cenik": null,
+      "popis": "Zavezeme vas bezpecne, pohodlne a vcas kamkoliv potrebujete. Taxisluzba 24/7 s pristupnym pristupem.",
+      "sluzby": ["preprava osob", "preprava domacich zvirat", "SOS drink sluzba", "kuryrna preprava", "pomoc seniorum", "transfer na letiste", "preprava zavazadiel"]
+    }
+  },
+  {
+    "id": 543,
+    "name": "Taxi Milan Blaha",
+    "phone": "+420 602 416 536",
+    "website": "http://www.taxi-radiotaxi.cz/",
+    "status": "error",
+    "error": "certificate has expired",
+    "scraped_data": null
+  },
+  {
+    "id": 544,
+    "name": "Cool Driver Taxi",
+    "phone": "+420 775 007 003",
+    "website": "http://www.cooltaxi.eu/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Pardubice", "Chrudim", "Prelouc", "Hermanuv Mestec", "Hradec Kralove"],
+      "cenik": {
+        "mesto_nastupna_taxa": "90 Kc",
+        "mesto_km": "32 Kc/km",
+        "mesto_cekani": "10 Kc/min",
+        "z_ulice_nastup": "60 Kc",
+        "z_ulice_km": "36 Kc/km",
+        "svatek_km": "64 Kc/km",
+        "fixna_cena_chrudim": "399 Kc",
+        "fixna_cena_hradec_kralove": "749 Kc"
+      },
+      "popis": "Nejlevnejsi taxisluzba v Pardubicich. Nas tym ridicu je pripraven se o vas postarat a dopravit vas kamkoliv budete potrebovat.",
+      "sluzby": ["kuryrni preprava", "fakturacni preprava pro firmy", "svatebni ridic", "drink and drive", "nakup na cerpaci stanici"]
+    }
+  },
+  {
+    "id": 545,
+    "name": "Courier & TAXI Pardubice",
+    "phone": "+420 605 706 701",
+    "website": "https://couriertaxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Pardubice", "okoli"],
+      "cenik": {
+        "mesto_nastupni_taxa": "100 Kc",
+        "mesto_km": "32 Kc (prvnich 3 km v cene)",
+        "mesto_cekani": "10 Kc/min",
+        "mimo_mesto_1_nastup": "149 Kc",
+        "mimo_mesto_2_nastup": "249 Kc",
+        "rozvoz_nastup": "90 Kc",
+        "svatek_km": "50 Kc/km"
+      },
+      "popis": "Patrime mezi nejlevnejsi taxisluzby v Pardubicich a prilehlom okoli. Nasi ridici jsou kdykoliv pripraveni. NONSTOP provoz.",
+      "sluzby": ["kuryrni preprava", "svatebni ridic", "fakturacni preprava pro firmy"]
+    }
+  },
+  {
+    "id": 546,
+    "name": "TAXI Stika & Cupanek",
+    "phone": "+420 771 201 092",
+    "website": "http://www.taxi-pce.cz/",
+    "status": "error",
+    "error": "certificate has expired",
+    "scraped_data": null
+  },
+  {
+    "id": 547,
+    "name": "Senior Taxi",
+    "phone": "+420 604 848 848",
+    "website": "https://www.taxi-pardubice.cz/seniortaxi.html",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Pardubice", "okoli"],
+      "cenik": {
+        "zakladni_sazba": "99 Kc do 3 km",
+        "cena_za_dalsi_km": "25 Kc/km"
+      },
+      "popis": "Specializovana taxi sluzba s vozidly prisposobenymi pro vozickare. Preprava i pro vozickare se specialne upravenym vozidlem.",
+      "sluzby": ["taxi preprava pro seniory", "transfer osob na vozickoch", "preprava na medicinske ucely"]
+    }
+  },
+  {
+    "id": 548,
+    "name": "GT Taxi port Pardubice",
+    "phone": "+420 777 456 456",
+    "website": "https://taxiport.cz/qr?city=pardubice",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Pardubice", "Chrudim", "Kolin", "Podebrady"],
+      "cenik": null,
+      "popis": "MY Taxi je moderni taxisluzba s nonstop provozem zalozena na profesionalite vodicu, cistote vozidel a bezpecnosti.",
+      "sluzby": ["osobni taxi doprava", "dalkova preprava", "taxi na fakturu", "drink and drive", "predobjednavka vozidla"]
+    }
+  },
+  {
+    "id": 549,
+    "name": "Taxi Eso",
+    "phone": "+420 776 140 140",
+    "website": "http://taxi-eso.cz/",
+    "status": "error",
+    "error": "Certificate altnames mismatch",
+    "scraped_data": null
+  },
+  {
+    "id": 550,
+    "name": "Taxi Volny",
+    "phone": "+420 608 820 836",
+    "website": "http://www.taxivolny.cz/",
+    "status": "error",
+    "error": "connect ECONNREFUSED",
+    "scraped_data": null
+  },
+  {
+    "id": 551,
+    "name": "Taxi Trest",
+    "phone": "+420 604 355 424",
+    "website": "http://www.taxitrest.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Trest", "okoli", "cela CR", "Landstejn", "Slavonice", "Dacice"],
+      "cenik": {
+        "nastupni_sazba": "20 Kc",
+        "jizdne_v_meste": "30 Kc/km",
+        "mimo_mesto_nad_50km": "25 Kc/km",
+        "cekani": "6 Kc/min",
+        "jizda_v_tresti": "od 100 Kc"
+      },
+      "popis": "Spolehliva dopravni volba pro prepravu po cele Ceske republice. S nami se dostanete kamkoliv potrebujete za dostupne ceny.",
+      "sluzby": ["odvoz na letiste", "detska sedacka", "startovacie kable", "QR platba", "drink taxi", "odvoz ze svateb", "free WiFi"]
+    }
+  },
+  {
+    "id": 552,
+    "name": "Taxi Mikulov Pavel Bundalek",
+    "phone": "+420 774 088 089",
+    "website": "http://www.osobniprepravagt.cz/",
+    "status": "error",
+    "error": "Certificate altnames mismatch",
+    "scraped_data": null
+  },
+  {
+    "id": 553,
+    "name": "WOLF TAXI",
+    "phone": "+420 723 447 003",
+    "website": "http://wolftaxijicin-cz.webnode.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Jicin"],
+      "cenik": null,
+      "popis": "Taxisluzba a smluvni preprava osob s nonstop dostupnosti. Letistni transfery, odvozy vozidel a sluzby pro firmy.",
+      "sluzby": ["letistni transfery", "odvoz vozidla", "smluvni prepravy pro firmy", "svatby a oslavy", "kuryrni sluzby", "vice vozidel soucasne"]
+    }
+  },
+  {
+    "id": 554,
+    "name": "Taxi - David Skop",
+    "phone": "+420 602 442 626",
+    "website": "https://www.taxirychnov.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Rychnov nad Kneznou", "Kostelec nad Orlici", "Doudleby nad Orlici", "Castolovice", "Vamberk", "Solnice", "Kvasiny", "Opocno", "Dobruska", "Ricky v Orlickych horach", "Destne v Orlickych horach", "Orlicke hory"],
+      "cenik": null,
+      "popis": "Etablovana taxi firma s vice nez 30 let zkusenosti v osobni doprave. Nonstop taxisluzby s moznosti pronajmu vozidel a minibusu.",
+      "sluzby": ["nonstop taxi sluzby", "preprava na letiste", "firemna doprava", "preprava na kulturni akce", "minibus pronajem", "preprava kol", "preprava malych nakladu do 3t", "expresna doprava po Europe"]
+    }
+  },
+  {
+    "id": 555,
+    "name": "Taxi Kromeriz - Vicha s.r.o.",
+    "phone": "+420 606 551 671",
+    "website": "https://taxivicha.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Kromeriz", "Chropyne", "Kojetin", "Hulin", "Nemcice na Hane", "Morice", "Lobodice", "Tovacov", "Troubky", "Zdounky"],
+      "cenik": null,
+      "popis": "Nonstop taxi sluzba fungujici vice nez 25 let poskytujici bezpecnou dopravu osob. Koordinuje sluzby aplikace Liftago.",
+      "sluzby": ["standardna taxi doprava", "drink taxi", "nakladne taxi", "preprava na letiska", "preprava na vecierky a svadby", "24 hodinna dostupnost"]
+    }
+  },
+  {
+    "id": 556,
+    "name": "Black & White Taxi Kromeriz",
+    "phone": "+420 792 262 727",
+    "website": "http://bw-taxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Bruntal", "Rymarov", "Jesenik", "Vrbno pod Pradedem", "Krnov", "Opava", "Olomouc", "Prerov", "Hranice", "Kromeriz", "Sternberk"],
+      "cenik": {
+        "mesta": "60-99 Kc",
+        "mimo_mesta": "22-26 Kc/km"
+      },
+      "popis": "Taxisluzba Black & White Taxi funguje 24/7 s vozidly Skoda Fabia III a Octavia.",
+      "sluzby": ["expresni preprava", "fakturacni jizdy", "predobjednavka", "letistni transfer", "limuzina", "senior taxi"]
+    }
+  },
+  {
+    "id": 557,
+    "name": "Veterny mlyn",
+    "phone": "+420 732 175 553",
+    "website": "https://www.muzeum-km.cz/",
+    "status": "error",
+    "error": "Not a taxi service - museum website",
+    "scraped_data": null
+  },
+  {
+    "id": 558,
+    "name": "eco TAXI Kromeriz",
+    "phone": "+420 705 607 705",
+    "website": "https://ecotaxikromeriz.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Kromeriz", "okoli"],
+      "cenik": null,
+      "popis": "Vase spolehlive taxi v Kromerizi a okoli. Preprava cestujicich vozidlem Tesla Model 3 s durazem na bezpecnost a pohodli.",
+      "sluzby": ["klasicka preprava osob", "svatby a oslavy", "drink service", "expresni preprava zasilek", "doprava na letiste", "fakturace pro firmy"]
+    }
+  },
+  {
+    "id": 559,
+    "name": "Frank Taxi Kromeriz | NON-STOP TAXI",
+    "phone": "+420 602 066 077",
+    "website": "https://www.frank-taxi.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Kromeriz", "okoli"],
+      "cenik": {
+        "nastup": "30 Kc",
+        "jizda_do_100km": "40 Kc/km",
+        "jizda_nad_100km": "30 Kc/km",
+        "svatek_silvestr": "50 Kc/km",
+        "cekani": "6 Kc/min",
+        "minimalni_cena": "100 Kc"
+      },
+      "popis": "Frank Taxi je nonstop taxisluzba dostupna 24 hodin denne, 365 dni v roce s cistym a pohodlnym autem.",
+      "sluzby": ["NON-STOP taxi"]
+    }
+  },
+  {
+    "id": 560,
+    "name": "Taxi Hipi",
+    "phone": "+420 775 212 168",
+    "website": "http://taxifrydek.cz/",
+    "status": "success",
+    "scraped_data": {
+      "oblasti_pusobnosti": ["Frydek-Mistek", "okoli", "Palava"],
+      "cenik": {
+        "nastupna_sazba": "30 Kc",
+        "jazda_v_meste": "35 Kc/km",
+        "jazda_mimo_mesto": "30 Kc/km",
+        "cekani_hodina": "360 Kc",
+        "minimalni_jazda": "100 Kc",
+        "telefonicka_objednavka": "26 Kc",
+        "drink_servis": "60 Kc/km"
+      },
+      "popis": "Dostupni 24 hodin denne s cistymi vozmi a profesionalnimi vodici. Vozidla zvycajne pristavene do 10 minut.",
+      "sluzby": ["taxidoprava", "cekaci rezim", "drink servis", "preprava malych zasilek", "zmluvne ceny", "firemna faktura", "bezkontaktne platby"]
+    }
+  }
+]

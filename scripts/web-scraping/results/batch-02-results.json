@@ -1,0 +1,1584 @@
+[
+  {
+    "id": 141,
+    "name": "TANGO TAXI",
+    "website": "https://tangotaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Kladno", "Česká republika", "zahraničí"],
+    "cenik": {
+      "nastupni_sazba": "39 Kč",
+      "cena_za_km": "30 Kč/km",
+      "cekani": "5 Kč/min",
+      "minimalni_jizdne": "90 Kč",
+      "svatecni_sazba": "50 Kč/km"
+    },
+    "popis": "Společnost s 30 letou tradicí. Kladenská klasická taxislužba poskytující přepravu osob v rámci města, republiky i zahraničí s nonstop provozem.",
+    "sluzby": ["Taxislužba", "Kurýrní služby", "Odvoz vozu na stanoviště", "Přeprava zvířat"]
+  },
+  {
+    "id": 142,
+    "name": "Sluníčko Taxi",
+    "website": "http://www.slunickotaxi.cz",
+    "status": "error",
+    "error": "ECONNRESET",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 143,
+    "name": "Amerika TAXI - MSP",
+    "website": "http://www.amerikataxi.cz",
+    "status": "error",
+    "error": "ECONNRESET",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 144,
+    "name": "Pavel Prantl",
+    "website": "https://www.anotaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Karlovy Vary"],
+    "cenik": null,
+    "popis": "Naše společnost je založena na kvalitním přepravním servisu na Vámi určená místa. Jsme spolehliví a přesní.",
+    "sluzby": ["Taxislužba"]
+  },
+  {
+    "id": 145,
+    "name": "SPO GREEN TAXI Karlovy Vary",
+    "website": "https://spotaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Karlovy Vary", "Loket", "Sokolov", "Praha", "Praha Václav Havel Airport", "Dresden", "Nürnberg", "München", "Berlin", "Wien"],
+    "cenik": {
+      "do_centra": "150 Kč",
+      "letiste_kv": "255-510 Kč",
+      "praha_centrum": "2490-3500 Kč",
+      "dresden": "4500-9000 Kč"
+    },
+    "popis": "Smluvní přeprava osob a taxi Karlovy Vary. Do centra za 150 Kč.",
+    "sluzby": ["Letištní transfery", "Dálkové transfery", "Mezinárodní přeprava", "Online rezervace"]
+  },
+  {
+    "id": 146,
+    "name": "TAXI SLUŽBA CHOMUTOV",
+    "website": "https://www.chomutov-taxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Chomutov", "Jirkov", "okolí"],
+    "cenik": null,
+    "popis": "Levná, spolehlivá, profesionální taxislužba s nekuřáckými vozy a bezhotovostní platbou.",
+    "sluzby": ["Doprava k lékaři", "Nákupy", "Večírky", "Letištní transfery", "Nekuřácké vozy", "Bezhotovostní platba"]
+  },
+  {
+    "id": 147,
+    "name": "VIKI TAXI",
+    "website": "https://www.viki-taxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Chomutov", "Jirkov", "okolí"],
+    "cenik": null,
+    "popis": "Místní taxislužba operující v regionu Chomutov-Jirkov, dostupná od 7:00 do 17:00 denně.",
+    "sluzby": ["Taxislužba"]
+  },
+  {
+    "id": 148,
+    "name": "TAXI BOUŠA & LADIES TAXI",
+    "website": "https://www.esimona.cz",
+    "status": "error",
+    "error": "ENOTFOUND",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 149,
+    "name": "Pavel Driver",
+    "website": "https://www.pavel-driver.com",
+    "status": "success",
+    "oblasti_pusobnosti": ["Chomutov"],
+    "cenik": null,
+    "popis": "Profesionální řidiči s 5+ lety zkušeností, moderní flotila od roku 1991. Luxusní vozidla s AC, airbagy a mobilními platebními terminály.",
+    "sluzby": ["Osobní luxusní přeprava", "Taxi služby", "Nákladní přeprava", "Letištní přístup", "Bezpečnostní tým", "VIP služby"]
+  },
+  {
+    "id": 150,
+    "name": "Taxi Kadaň",
+    "website": "https://taxikadan.wbs.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Kadaň", "okolí", "celá ČR"],
+    "cenik": null,
+    "popis": "Spolehlivá taxislužba poskytující bezpečnou přepravu z oblasti Kadaně. Dostupná 24/7 se zkušenými řidiči.",
+    "sluzby": ["Místní taxi", "Dálková přeprava po ČR", "Doručování zásilek", "Jízdy na fakturu"]
+  },
+  {
+    "id": 151,
+    "name": "TAXI HO",
+    "website": "https://martin-hodan.simdif.com",
+    "status": "error",
+    "error": "404",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 152,
+    "name": "BOUBIN personal transfer",
+    "website": "https://boubinvladimir.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Žatec", "Louny", "Chomutov", "Most", "Kadaň", "Praha", "celá Evropa"],
+    "cenik": null,
+    "popis": "Zajišťujeme pohodlnou a bezpečnou přepravu firemní klientely, letištní transfery a expresní doručování zásilek po celé Evropě.",
+    "sluzby": ["Přeprava osob", "Firemní přeprava", "Smluvní přeprava", "Expresní přeprava zásilek", "Letištní taxi", "Mezinárodní přeprava"]
+  },
+  {
+    "id": 153,
+    "name": "Antonín Hegr",
+    "website": "https://taxitonyzatec.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Žatec", "Podbořany", "Žíželice", "Libočany", "Holedeč", "Čeradice", "celá ČR"],
+    "cenik": null,
+    "popis": "Taxislužba Žatec a okolí. Nekuřácké vozidlo s koženým interiérem, dezinfikované ozonem.",
+    "sluzby": ["Místní přeprava", "Vyzvedávání dětí ze školy", "Přeprava na akce", "Celostátní transfery", "Letištní přeprava"]
+  },
+  {
+    "id": 154,
+    "name": "Taxi MV Žatec NONSTOP",
+    "website": "https://www.taxizatec.com",
+    "status": "success",
+    "oblasti_pusobnosti": ["Žatec"],
+    "cenik": {
+      "cena_za_km": "36 Kč/km"
+    },
+    "popis": "Taxislužba operující 24/7 v oblasti Žatec s flotilou zahrnující Škoda Octavia 3.",
+    "sluzby": ["Senior Taxi", "Standardní taxi přeprava"]
+  },
+  {
+    "id": 155,
+    "name": "Taxi Služba Miroslav",
+    "website": "https://taxi-sluzba-miroslav-podborany.webnode.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Podbořany", "Plzeň", "Chomutov", "okolí"],
+    "cenik": {
+      "jizda_ve_meste": "80 Kč",
+      "letiste_praha": "450 Kč",
+      "pronajem_vozu": "350 Kč/den",
+      "do_plzne_chomutova": "350 Kč",
+      "nocni_jizdy": "200 Kč"
+    },
+    "popis": "Spolehlivá taxislužba v Podbořanech a okolí zaměřená na kvalitní a bezpečné přepravní služby.",
+    "sluzby": ["Přeprava osob", "Letištní transfery", "Firemní akce", "Svatební přeprava", "Transport k lékaři", "Nemocniční přeprava", "Turistické výlety", "Nákupy", "Mezinárodní přeprava"]
+  },
+  {
+    "id": 156,
+    "name": "taxijachymov.cz",
+    "website": "https://taxijachymov.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Jáchymov", "celá Evropa"],
+    "cenik": null,
+    "popis": "Transferová služba po celé Evropě s luxusními vozy a profesionálními řidiči. Vícejazyčná podpora.",
+    "sluzby": ["Transfery po Evropě", "Rezervace hotelů/klinik/lázní", "Profesionální řidiči", "Vícejazyčná asistence"]
+  },
+  {
+    "id": 157,
+    "name": "TAXI MAXI Hradec Králové",
+    "website": "https://www.taximaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Hradec Králové", "celá ČR", "zahraničí"],
+    "cenik": null,
+    "popis": "Rozvoz taxi v Hradci Králové, přeprava kusových zásilek, výletní jízdy po ČR i zahraničí. Služby poskytovány od roku 1995.",
+    "sluzby": ["Přeprava osob", "Letištní transfer", "Kurýrní služby", "Kusové zásilky", "Výletní jízdy", "Platba kartou a mobilem", "WiFi zdarma"]
+  },
+  {
+    "id": 158,
+    "name": "Taxi Démon",
+    "website": "https://www.demontaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Hradec Králové", "okolí"],
+    "cenik": null,
+    "popis": "Vaše spolehlivá taxislužba v Hradci Králové a jeho okolí.",
+    "sluzby": ["Taxislužba"]
+  },
+  {
+    "id": 159,
+    "name": "Filip Šimera",
+    "website": "https://www.taxi-hk.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Hradec Králové"],
+    "cenik": null,
+    "popis": "Taxislužba s dlouholetou tradicí nabízející taxi služby přes více než 20 let. Jediný radiodispečink taxi v Hradci Králové s nonstop provozem.",
+    "sluzby": ["Radiodispečink nonstop", "Městská a dálková přeprava", "Letištní transfery", "Senior taxi", "Transport k lékaři", "Firemní přeprava", "Kurýrní služby", "Drink service", "Mobilní aplikace"]
+  },
+  {
+    "id": 160,
+    "name": "Taxivhradci.cz",
+    "website": "https://www.taxivhradci.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Hradec Králové", "celá ČR", "EU"],
+    "cenik": null,
+    "popis": "Profesionální osobní přeprava v Hradci Králové nabízející spolehlivé a bezpečné transfery po celé ČR a EU.",
+    "sluzby": ["Letištní a hotelové transfery", "Firemní přeprava", "Soukromé jízdy", "Expresní doručování zásilek", "VIP taxi"]
+  },
+  {
+    "id": 161,
+    "name": "Metrotaxi",
+    "website": "https://www.metrotaxi.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 162,
+    "name": "Taxi Kotek",
+    "website": "https://www.taxikotek.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 163,
+    "name": "Taxi Sprint",
+    "website": "https://www.taxi-hk.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Hradec Králové"],
+    "cenik": null,
+    "popis": "Taxislužba s dlouholetou tradicí nabízející taxi služby přes více než 20 let. Jediný radiodispečink taxi v Hradci Králové s nonstop provozem.",
+    "sluzby": ["Radiodispečink nonstop", "Městská a dálková přeprava", "Letištní transfery", "Senior taxi", "Transport k lékaři", "Firemní přeprava", "Kurýrní služby", "Drink service", "Mobilní aplikace"]
+  },
+  {
+    "id": 164,
+    "name": "Taxi Koblížek",
+    "website": "https://taxikoblizek.webnode.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 165,
+    "name": "RZ-taxi",
+    "website": "https://www.rz-taxi.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 166,
+    "name": "BeeMaty.com",
+    "website": "http://autokpronajmu.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 167,
+    "name": "Taxi Hořice Hátle",
+    "website": "https://www.taxihoricehatle.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 168,
+    "name": "Taxi Vogel",
+    "website": "https://www.taxi-vogel.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Hořice", "Ostroměř", "Královehradecký kraj"],
+    "cenik": {
+      "nastupni_sazba": "30 Kč",
+      "cena_za_km": "35 Kč/km",
+      "cena_za_km_nad_100km": "30 Kč/km",
+      "cekani": "5 Kč/min"
+    },
+    "popis": "Společnost TAXI VOGEL se specializuje na poskytování kvalitních a spolehlivých taxi služeb. Jezdíme nonstop 24/7.",
+    "sluzby": ["Taxi služby nonstop", "Transfer na celý den", "Firemní přepravy", "Domácí přepravy"]
+  },
+  {
+    "id": 169,
+    "name": "COURIER & TAXI Michal Bělka",
+    "website": "https://couriertaxi.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 170,
+    "name": "ATTACK TAXI",
+    "website": "https://www.attacktaxipce.eu/",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 171,
+    "name": "Taxi Lázně Bělohrad Hátle",
+    "website": "https://www.taxilaznebelohrad.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 172,
+    "name": "TAXI Kondrát",
+    "website": "https://www.taxikondrat.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Jihlava", "okolí", "celá ČR", "zahraničí"],
+    "cenik": {
+      "letiste_praha": "od 4000 Kč",
+      "letiste_brno": "od 2800 Kč",
+      "letiste_viden": "od 4800 Kč",
+      "letiste_pardubice": "od 2800 Kč"
+    },
+    "popis": "Taxi služba v Jihlavě nabízející osobní přepravu, letištní transfery a doručování zásilek do 1 tuny s komfortními vozidly.",
+    "sluzby": ["Dálkové trasy po ČR a zahraničí", "Letištní transfery", "Expresní doručování zásilek", "Dětské sedačky", "WiFi zdarma", "Půjčovna přívěsů", "Startování vozidel", "Platba kartou"]
+  },
+  {
+    "id": 173,
+    "name": "TAXI Tomáš Chalupa",
+    "website": "https://www.taxichalupa.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Čáslav", "okolí"],
+    "cenik": null,
+    "popis": "Taxislužba operující v oblasti Čáslav nabízející přepravu do místních i okolních obcí.",
+    "sluzby": ["Letištní transfery", "Přeprava vozidel", "Kurýrní služby", "Přeprava na akce", "Rozvoz alkoholu", "Rozvoz květin", "Standardní taxi"]
+  },
+  {
+    "id": 174,
+    "name": "Taxi Šimčík",
+    "website": "https://www.sedmataxi.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Humpolec", "okolí", "letiště Praha", "Brno-Tuřany", "Pardubice", "Ostrava-Mošnov", "Vídeň", "Bratislava"],
+    "cenik": {
+      "tarif_1": "25 Kč/km",
+      "tarif_2": "30 Kč/km",
+      "tarif_3": "35 Kč/km",
+      "tarif_4": "100 Kč/km",
+      "tarif_5": "50 Kč/km",
+      "cekani": "250 Kč/hod"
+    },
+    "popis": "Nejlevnější doprava po městě i do okolí moderními a komfortními vozy. Naši řidiči jsou zkušení a přátelští.",
+    "sluzby": ["Standardní taxi", "SOS Drink service", "Letištní transfery", "24/7 dostupnost"]
+  },
+  {
+    "id": 175,
+    "name": "Dalibor Michalík",
+    "website": "https://www.taximichalik.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Uherské Hradiště", "Staré Město", "dálkové destinace"],
+    "cenik": null,
+    "popis": "Rychlá, efektivní a spolehlivá přeprava v Uherském Hradišti a Starém Městě dostupná 24/7. Prostorná vozidla Audi A6.",
+    "sluzby": ["Taxislužba", "Letištní transfery", "Dálková firemní a soukromá přeprava", "Přeprava na akce", "Přeprava lyží/snowboardů", "Přeprava kol"]
+  },
+  {
+    "id": 176,
+    "name": "TAXIVUH SAHÁNEK BRONISLAV",
+    "website": "http://www.taxivuh.cz",
+    "status": "error",
+    "error": "SSL certificate mismatch",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 177,
+    "name": "Transport & Liberec-taxi.cz",
+    "website": "https://liberec-taxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 178,
+    "name": "Taxi Helena",
+    "website": "https://www.taxihelena.cz",
+    "status": "error",
+    "error": "Socket hang up",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 179,
+    "name": "Martin Polák - MP TAXI",
+    "website": "https://www.mptaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Turnov", "Liberec", "Mladá Boleslav"],
+    "cenik": null,
+    "popis": "Poskytujeme profesionální taxi služby a přepravu osob 24 hodin denně.",
+    "sluzby": ["Taxi služby", "Přeprava osob"]
+  },
+  {
+    "id": 180,
+    "name": "TAXI BERYL",
+    "website": "http://www.taxiberyl.cz",
+    "status": "error",
+    "error": "Certificate expired",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 181,
+    "name": "Vem si TAXI",
+    "website": "https://www.vemsitaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Pelhřimovsko", "Táborsko", "Jindřichohradecko", "Černovice u Tábora", "Kamenice nad Lipou", "zahraničí"],
+    "cenik": null,
+    "popis": "Bezpečnost, spolehlivost, profesionalita za příznivé ceny. Vozidlo Hyundai Tucson 2018 (4x4), klimatizované, dezinfikované.",
+    "sluzby": ["Přeprava osob 24/7", "Expresní přeprava zásilek po ČR a EU", "Bezkontaktní platby", "WiFi zdarma"]
+  },
+  {
+    "id": 182,
+    "name": "Senior Taxi",
+    "website": "http://seniortaxislany.cz",
+    "status": "error",
+    "error": "Certificate expired",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 183,
+    "name": "Senior Taxi",
+    "website": "https://seniortaxistraseci.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Nové Strašecí", "Rynholec", "Ruda", "Mšecké Žehrovice"],
+    "cenik": {
+      "dovoz_potravin_leku": "20 Kč"
+    },
+    "popis": "Pomoc seniorům (65+) - přepravní služba s úsměvem, ochotou a minimální cenou.",
+    "sluzby": ["Senior taxi (65+)", "Dovoz potravin a léků"]
+  },
+  {
+    "id": 184,
+    "name": "Bedřich Holub",
+    "website": "http://tagotaxi.firemni-stranka.cz",
+    "status": "error",
+    "error": "SSL certificate mismatch",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 185,
+    "name": "Taxi Struneček",
+    "website": "https://www.taxi-strunecek.eu",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Kralupy nad Vltavou", "okolí"],
+    "cenik": null,
+    "popis": "Profesionální přepravní služby nabízející přepravu cestujících, kurýrní služby a dovoz léků s důrazem na včasnost a bezpečnost.",
+    "sluzby": ["Přeprava osob", "Kurýrní služby", "Dovoz léků", "Lyoness program (5% cashback)"]
+  },
+  {
+    "id": 186,
+    "name": "Taxi Bukky",
+    "website": "https://taxi-bukky.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Louny", "Dobroměřice", "Postoloprty", "Žatec", "Most", "Lenešice", "Černčice", "Cítoliby"],
+    "cenik": {
+      "mesto": "80 Kč",
+      "dobomerrice": "130 Kč",
+      "postoloprty": "250 Kč",
+      "zatec_most": "600 Kč",
+      "cena_za_km": "30 Kč/km"
+    },
+    "popis": "Místní taxislužba v regionu Louny nabízející přepravu do různých okolních měst s fixními cenami nebo kilometrovou sazbou.",
+    "sluzby": ["Standardní taxi přeprava", "Platba kartou"]
+  },
+  {
+    "id": 187,
+    "name": "GO4U, s.r.o.",
+    "website": "https://www.go4u.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Kolín", "okolí", "letiště Praha"],
+    "cenik": {
+      "minimalni_jizdne": "89 Kč",
+      "zakladni_sazba": "30 Kč",
+      "cena_za_km_mesto": "25 Kč/km",
+      "cena_za_km_mimo_mesto": "27 Kč/km",
+      "cekani": "6 Kč/min",
+      "drink_drive": "250 Kč + 40 Kč/km"
+    },
+    "popis": "Poskytujeme pohodlnou a spolehlivou dopravu vozidly Škoda Octavia od roku 2017 v oblasti Kolín a na letiště Praha.",
+    "sluzby": ["Letištní transfery", "Firemní přeprava zaměstnanců", "Drink & Drive", "Online rezervace", "Platba kartou", "Dispečink 24/7"]
+  },
+  {
+    "id": 188,
+    "name": "MY Taxi",
+    "website": "http://www.my-taxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Pardubice", "Chrudim", "Kolín", "Poděbrady"],
+    "cenik": null,
+    "popis": "Moderní taxislužba s nonstop provozem. Zakládáme si na profesionalitě řidičů, čistotě a bezpečnosti vozidel.",
+    "sluzby": ["Osobní taxi přeprava", "Dálková přeprava", "Taxi na fakturu", "Drink & Drive", "Předobjednávka vozu"]
+  },
+  {
+    "id": 189,
+    "name": "Taxi Líbal",
+    "website": "https://www.taxilibal.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Kolín", "okolí"],
+    "cenik": null,
+    "popis": "Spolehlivá taxislužba působící v Kolíně a okolí s 30+ lety zkušeností. Rychlá, pohodlná a diskrétní přeprava 24/7.",
+    "sluzby": ["Taxislužba"]
+  },
+  {
+    "id": 190,
+    "name": "R.u.B. taxi, s.r.o.",
+    "website": "https://www.rubtaxi.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Kolín", "okolí"],
+    "cenik": null,
+    "popis": "Spolehlivá rodinná taxislužba s osobním přístupem a místní znalostí. Komfortní, bezpečná přeprava za přijatelné ceny.",
+    "sluzby": ["Mobilní objednávky", "Letištní přeprava", "Dispečink 24/7"]
+  },
+  {
+    "id": 191,
+    "name": "Taxi Kutná Hora - Taxi John",
+    "website": "https://www.taxi-kutna-hora-taxi-john-703558597.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Kutná Hora", "Čáslav", "Kolín", "Praha"],
+    "cenik": {
+      "ve_meste_do_2km": "70 Kč",
+      "telefonicka_objednavka": "29 Kč/km",
+      "z_ulice": "30 Kč/km",
+      "mimo_mesto": "32-36 Kč/km"
+    },
+    "popis": "Exkluzivní přeprava v prémiovém šestimístném Citroën C4 Grand Picasso s koženým interiérem, WiFi zdarma a USB nabíjením.",
+    "sluzby": ["Letištní transfery", "Nákupy", "Nemocniční přeprava", "Bar/klub service", "Kurýrní služby", "Pronájem limuzíny", "Senior taxi", "Vícejazyčný řidič"]
+  },
+  {
+    "id": 192,
+    "name": "Taxi Volný",
+    "website": "https://www.taxivolny.cz",
+    "status": "error",
+    "error": "ECONNREFUSED",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 193,
+    "name": "TAXI - Michal Martinec",
+    "website": "http://www.taxinymburk.cz",
+    "status": "error",
+    "error": "Invalid size calculation",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 194,
+    "name": "Taxislužba Nymburk - Jiří Jelínek",
+    "website": "https://jiritaxi.netstranky.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Nymburk"],
+    "cenik": null,
+    "popis": "Vítejte na našich stránkách - Taxislužba Nymburk.",
+    "sluzby": ["Taxislužba"]
+  },
+  {
+    "id": 195,
+    "name": "Taxi Milovice MiJa",
+    "website": "https://taxi-mija.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Milovice", "Lysá nad Labem", "okolí"],
+    "cenik": {
+      "zakladni_poplatek": "60 Kč",
+      "cena_za_km": "36 Kč/km",
+      "sleva_nad_100km": "30 Kč/km",
+      "nedele_svatky": "40 Kč/km",
+      "zavazadla": "100 Kč"
+    },
+    "popis": "Společnost Taxi MiJa se specializuje na poskytování taxislužeb v Milovicích a okolí s pravidelně servisovanými, čistými a nekuřáckými vozy.",
+    "sluzby": ["Přeprava osob", "Letištní přeprava", "Kurýrní služba", "Svatby a oslavy", "Dlouhodobý pronájem", "Sport a kultura", "Přeprava zboží", "Senior taxi", "Převoz vozidel", "Firemní akce", "Léčebné pobyty"]
+  },
+  {
+    "id": 196,
+    "name": "TAXI Dispečink Milovice - Lysá",
+    "website": "https://taxi.lysamilovice.cz",
+    "status": "error",
+    "error": "ENOTFOUND",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 197,
+    "name": "Profi - taxi Milovice - Lysá nad Labem",
+    "website": "http://www.taxi-milovice.cz",
+    "status": "error",
+    "error": "Certificate expired",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 198,
+    "name": "TAXI Jiří Juříček",
+    "website": "https://taxi22.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Kroměříž", "okolí", "letiště Praha", "Vídeň", "Brno", "Bratislava"],
+    "cenik": {
+      "cena_za_km": "22 Kč/km",
+      "letiste_praha": "5000 Kč",
+      "letiste_viden": "4500 Kč",
+      "letiste_brno": "1300 Kč",
+      "letiste_bratislava": "3500 Kč"
+    },
+    "popis": "Spolehlivá taxislužba v Kroměříži. Vozidlo VW Touran s kapacitou až 7 osob, prostor pro zavazadla.",
+    "sluzby": ["Místní taxislužba", "Letištní přeprava", "Přeprava skupin (7 míst)", "Přeprava zavazadel"]
+  },
+  {
+    "id": 199,
+    "name": "Taxi Vicha S.r.o",
+    "website": "http://www.taxivicha.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Kroměříž", "Chropyně", "Kojetín", "Hulín", "Němčice na Hané", "Tovačov", "Zdounky"],
+    "cenik": null,
+    "popis": "Vaše spolehlivá taxislužba operující více než 25 let. Bezpečná přeprava v Kroměříži a okolí. Nonstop dostupnost.",
+    "sluzby": ["Osobní přeprava", "Drink taxi", "Letištní transfery", "Nákladní přeprava", "Svatby a večírky", "Firemní akce", "24/7 služba", "Dětské sedačky", "Liftago"]
+  },
+  {
+    "id": 200,
+    "name": "TAXI Hulín - 7 míst - Pavel Spružina",
+    "website": "https://www.taxi24hulin.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Hulín", "Záhlinice", "Břest", "Skaštice", "Chropyně", "Kroměříž", "Bezměrov", "Otrokovice", "Kvasice", "Holešov", "Zlínský kraj"],
+    "cenik": null,
+    "popis": "Bezpečnou jízdu provozujeme prostorným a pohodlným vozem s možností připojení k Wi-Fi zdarma. Služba funguje téměř 20 let.",
+    "sluzby": ["WiFi zdarma", "Taxi na 7 míst", "Dětské sedačky", "Přeprava domácích mazlíčků", "Letištní transfery", "Klimatizované vozidlo"]
+  },
+  {
+    "id": 201,
+    "name": "Bezva Taxi Holešov - Marek Vykoukal",
+    "website": "https://www.bezvataxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Holešov", "Praha", "Brno", "Ostrava", "Vídeň"],
+    "cenik": null,
+    "popis": "Soukromá taxi služba Bezva TAXI zajistí bezva odvoz za bezva ceny právě tam, kam potřebujete.",
+    "sluzby": ["Přeprava na oslavy a svatby", "Transport k lékaři", "Letištní a nádražní transfery", "Administrativní jednání", "Škola a práce", "Kurýrní služby", "Nákupy", "Převoz vozidel", "Rozvoz nápojů a jídla"]
+  },
+  {
+    "id": 202,
+    "name": "Taxi Věra Merxbauerová",
+    "website": "https://taxi-kromeriz.mozello.cz/kontakt/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Chropyně", "Kroměříž"],
+    "cenik": null,
+    "popis": "Taxi služba v oblasti Chropyně a Kroměříže.",
+    "sluzby": ["Taxislužba"]
+  },
+  {
+    "id": 203,
+    "name": "Studio TAXI Kroměřížsko",
+    "website": "http://www.studiotaxi.cz",
+    "status": "error",
+    "error": "SSL certificate mismatch",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 204,
+    "name": "Přeprava osob - Milan Danaček",
+    "website": "http://mdanacek.cz/portfolio/doprava/",
+    "status": "success",
+    "oblasti_pusobnosti": ["celá ČR", "zahraničí"],
+    "cenik": {
+      "cena_za_km": "10,90 Kč + DPH",
+      "cekani": "164,90 Kč/hod + DPH"
+    },
+    "popis": "Dopravní služba s kapacitou až 8 cestujících. Zaměření na pohodovou cestu s důrazem na pohodlí a příjemné cestování.",
+    "sluzby": ["Přeprava skupin a výletů", "Individuální zájezdy", "Svatby a firemní akce", "Přeprava dětí", "Střešní nosič na lyže", "Pronájem vozíku"]
+  },
+  {
+    "id": 205,
+    "name": "WOSABBA group, s.r.o.",
+    "website": "https://www.wosabba.cz",
+    "status": "error",
+    "error": "ENOTFOUND",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 206,
+    "name": "Express Taxi - Zlín",
+    "website": "http://www.expresstaxi-zlin.cz/",
+    "status": "error",
+    "error": "ETIMEDOUT",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 207,
+    "name": "Taxi Zlín Roman",
+    "website": "https://taxizlinroman.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Zlín"],
+    "cenik": null,
+    "popis": "Taxi služba se sídlem ve Zlíně.",
+    "sluzby": ["Taxislužba"]
+  },
+  {
+    "id": 208,
+    "name": "Taxi Adam",
+    "website": "http://zlin-taxi.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Zlín", "okolí"],
+    "cenik": null,
+    "popis": "Taxi Zlín – rychlé a spolehlivé odvozy ve Zlíně a okolí. Férové ceny, profesionální přístup a rychlé přistavení.",
+    "sluzby": ["Taxislužba"]
+  },
+  {
+    "id": 209,
+    "name": "TAXI ZLÍN",
+    "website": "http://www.taxizlin.com",
+    "status": "success",
+    "oblasti_pusobnosti": ["Zlín", "okolí"],
+    "cenik": {
+      "tarif_centrum": "150 Kč (do 4 km)",
+      "tarif_mimo_centrum": "35 Kč/km",
+      "nastupni_sazba": "20 Kč",
+      "cekani": "4 Kč/min"
+    },
+    "popis": "Základním pilířem naší nabídky je taxislužba. Vlastníme moderní vozový park a dovezeme Vás bezpečně a pohodlně.",
+    "sluzby": ["Standardní taxi služba", "Dálkové trasy se slevou", "Doručování zásilek"]
+  },
+  {
+    "id": 210,
+    "name": "Opel Taxi Zlín - Schoolbus Taxi",
+    "website": "https://www.opeltaxizlin.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Zlín"],
+    "cenik": null,
+    "popis": "Jsme zlínská rodinná taxislužba působící na trhu od roku 2013. Individuální přístup, včasné příjezdy, bezpečná jízda.",
+    "sluzby": ["School Bus-Taxi", "Letištní transfery", "Kurýrní služby", "Pravidelné trasy", "Pronájem vozidel"]
+  },
+  {
+    "id": 211,
+    "name": "PR Taxi Přerov",
+    "website": "https://www.prtaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Přerov", "okolí"],
+    "cenik": null,
+    "popis": "Levná taxislužba v Přerově a v širokém okolí s krátkými časy dojezdu, spolehlivými vozidly a příjemnou atmosférou.",
+    "sluzby": ["Klasická taxislužba", "Letištní transfery", "Odvozy aut", "Nákupy", "Zásilky"]
+  },
+  {
+    "id": 212,
+    "name": "Taxi Cvikov",
+    "website": "https://www.taxicvikov.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 213,
+    "name": "Taxi MB",
+    "website": "https://www.taximb.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 214,
+    "name": "Taxi Grill",
+    "website": "https://www.taxifrenstat.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 215,
+    "name": "Bezva Taxi",
+    "website": "https://bezvataxi-prepravaosob.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 216,
+    "name": "Osobní přeprava na letiště - Lukáš Hilšer",
+    "website": "https://www.osobniprepravanaletiste.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 217,
+    "name": "ESO TAXI KOPŘIVNICE",
+    "website": "https://www.eso-taxi.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 218,
+    "name": "Taxi Fren",
+    "website": "https://taxi-fren.webnode.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 219,
+    "name": "Kája Taxi",
+    "website": "https://www.kajataxi.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 220,
+    "name": "X -Taxi",
+    "website": "https://x-taxi.webnode.cz/",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 221,
+    "name": "City Taxi Olomouc",
+    "website": "http://www.citytaxiol.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 222,
+    "name": "Atlant taxi Olomouc",
+    "website": "http://www.atlanttaxi.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 223,
+    "name": "Lea Taxi",
+    "website": "https://www.leataxiolomouc.cz/",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 224,
+    "name": "Student taxi Olomouc",
+    "website": "http://www.studenttaxi85.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 225,
+    "name": "Oltaxi",
+    "website": "https://oltaxi.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 226,
+    "name": "Džancek taxi, s.r.o.",
+    "website": "https://dzancektaxi.webnode.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 227,
+    "name": "MY POUR group s.r.o.",
+    "website": "https://www.mypour.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 228,
+    "name": "TAXI TAXI",
+    "website": "https://taxitaxi.info",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 229,
+    "name": "A8 Taxi",
+    "website": "https://a8taxi.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 230,
+    "name": "Student taxi Olomouc",
+    "website": "http://www.studenttaxi85.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 231,
+    "name": "Taxi Jonage Prostějov",
+    "website": "https://www.jonagetaxi.cz/",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 232,
+    "name": "Taxi Prostějov - Taxík - Jakub Kunert",
+    "website": "https://www.pvtaxi.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 233,
+    "name": "Taxi Prostějov Hromek",
+    "website": "http://www.taxipv.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 234,
+    "name": "ATW service - Marek Procházka",
+    "website": "https://www.atw-service.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 235,
+    "name": "Zdeněk Jurašík",
+    "website": "http://www.taxi-teplice.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 236,
+    "name": "RADIO TAXI",
+    "website": "https://www.taxi-decin.eu",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 237,
+    "name": "Taxi Marcel Tuček",
+    "website": "https://taxi-economy.estranky.cz/",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 238,
+    "name": "Acrislines - Autobusová doprava",
+    "website": "https://acrislines.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 239,
+    "name": "LYNX RIDE",
+    "website": "https://lynxride.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 240,
+    "name": "Vlastimil Kubát Taxislužba",
+    "website": "https://taxi-horovice-7.webnode.cz/kontakt/",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 241,
+    "name": "Taxi Žemla",
+    "website": "https://www.taxizemla.eu",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 242,
+    "name": "KevinTaxi",
+    "website": "http://www.kevintaxi.cz",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 243,
+    "name": "TAXI24",
+    "website": "https://www.24taxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Beroun"],
+    "cenik": {
+      "nastupni_cena": "50 Kč",
+      "cena_za_km": "35 Kč/km",
+      "minimalni_cena": "150 Kč",
+      "cekani": "10 Kč/min"
+    },
+    "popis": "Profesionální služby a dlouholeté zkušenosti v přepravě osob - vozidlová doprava fungující nepřetržitě bez omezení.",
+    "sluzby": ["Přeprava osob", "Kurýrní služby"]
+  },
+  {
+    "id": 244,
+    "name": "Taxi Dobříš - Dvořák Josef",
+    "website": "https://taxi-dobris-nonstop.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Dobříš", "Stará Huť", "Voznice", "Nový Knín", "Slapy", "Malá Hraštice", "Lečice", "Mníšek pod Brdy", "Rosovice", "okolí"],
+    "cenik": null,
+    "popis": "Nonstop Taxislužba Dobříš a okolí, osobní a dodávková doprava.",
+    "sluzby": ["Osobní doprava", "Dodávková doprava"]
+  },
+  {
+    "id": 245,
+    "name": "P.E.T.R. Taxi",
+    "website": "https://p-e-t-r-7.webnode.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Rakovník", "okolí"],
+    "cenik": null,
+    "popis": "První Expressní Taxi Rakovník - taxi služba s expresním zaměřením.",
+    "sluzby": ["Taxislužba"]
+  },
+  {
+    "id": 246,
+    "name": "UNGER TAXI Dobříš",
+    "website": "https://transporty.cz/taxi-dobris",
+    "status": "success",
+    "oblasti_pusobnosti": ["Dobříš", "Stará Huť", "Rybníky", "Mokrovraty", "Svaté Pole", "okres Příbram"],
+    "cenik": {
+      "nastupni_sazba": "20 Kč",
+      "cena_za_km": "24 Kč/km",
+      "cekani": "5 Kč/min"
+    },
+    "popis": "Bezpečně převezeme řidiče včetně jeho vozu prostřednictvím neustále dostupné služby s novými vozidly Škoda Octavia.",
+    "sluzby": ["Taxi non-stop", "Senior Taxi (65+)", "Drink SOS", "Přeprava skupin (až 30 osob)", "Doručování nákupů a zásilek"]
+  },
+  {
+    "id": 247,
+    "name": "MICHAL ERNST, s.r.o.",
+    "website": "https://www.mysaktransport.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Příbram", "okolí"],
+    "cenik": null,
+    "popis": "Vnitrostátní a mezinárodní doprava mikrobusy, návoz a odvoz zaměstnanců na směnný provoz, doprava sportovních klubů.",
+    "sluzby": ["Vnitrostátní přeprava", "Mezinárodní přeprava", "Mikrobusy", "Shuttle služby", "Doprava sportovních klubů"]
+  },
+  {
+    "id": 248,
+    "name": "Rychlá Želva",
+    "website": "https://www.rychlazelva.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "okolí"],
+    "cenik": null,
+    "popis": "Vaše jednička v přepravě vozidel po 30 let - zavedený poskytovatel přepravních služeb v pražském regionu.",
+    "sluzby": ["Přeprava vozidel", "Dispečink 24/7", "Online rezervace", "VIP program", "Pojištění vozidel", "Firemní přeprava"]
+  },
+  {
+    "id": 249,
+    "name": "Taxi-Letiště.cz",
+    "website": "https://taxi-letiste.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Praha", "Brno", "Drážďany", "Vídeň", "Mnichov", "Berlín"],
+    "cenik": {
+      "pevna_cena": "ano",
+      "bez_nastupni_sazby": "ano",
+      "bez_poplatku_za_cekani": "ano"
+    },
+    "popis": "Levná taxi přeprava na a z letiště Praha za pevné ceny. Profesionální řidiči, vyzvednutí s cedulkou na letišti.",
+    "sluzby": ["Letištní transfery", "Přeprava dětí", "Nonstop provoz", "Vyzvednutí s cedulkou", "Zrušení zdarma", "Taxi přeprava ve městech"]
+  },
+  {
+    "id": 250,
+    "name": "Taxi Letovice",
+    "website": "https://taxiletovice.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Letovice", "okolí"],
+    "cenik": {
+      "ve_meste": "89 Kč"
+    },
+    "popis": "Rychlá a pohodlná taxislužba jako rodinný podnik s 10 lety zkušeností v oblasti Letovice.",
+    "sluzby": ["Osobní přeprava", "Rodinná a skupinová přeprava", "Kurýrní služby", "Drink & Drive", "Přeprava zavazadel"]
+  },
+  {
+    "id": 251,
+    "name": "FALCO TAXI Boskovice",
+    "website": "https://www.boskovicetaxi.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Boskovice", "okolní vesnice", "celá ČR", "zahraničí"],
+    "cenik": {
+      "cena_za_km": "25 Kč/km",
+      "cekani": "8 Kč/min",
+      "minimalni_jizdne": "59 Kč"
+    },
+    "popis": "Vyzvedneme vás kdekoliv v Boskovicích či okolí a odvezeme kam budete chtít. Čistým a moderním autem s příjemným řidičem.",
+    "sluzby": ["Dispečink", "Letištní transfery", "Dětské sedačky", "Přeprava mazlíčků", "Platba kartou"]
+  },
+  {
+    "id": 252,
+    "name": "Taxi 4 you",
+    "website": "https://taxiletovice.webnode.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Letovice", "Blanenský okres", "celá ČR"],
+    "cenik": null,
+    "popis": "Osobní přeprava po městě Letovice, Blanenském okrese i celé ČR pohodlnými nekuřáckými vozy se zkušeným řidičem.",
+    "sluzby": ["Osobní přeprava", "Nekuřácké vozy"]
+  },
+  {
+    "id": 253,
+    "name": "Jiří Kučera",
+    "website": "http://taxisluzbaboskovice.cz",
+    "status": "error",
+    "error": "Certificate expired",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 254,
+    "name": "Taxi Břeclav",
+    "website": "https://taxi-breclav3.webnode.cz",
+    "status": "error",
+    "error": "404",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 255,
+    "name": "HEJ! TAXI",
+    "website": "https://www.hej-taxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Velké Pavlovice", "Velké Bílovice", "Hustopeče", "Zaječí", "Bořetice", "Vrbice", "Kobylí", "Čejkovice", "Podivín", "Lednice", "Rakvice", "ČR", "EU"],
+    "cenik": {
+      "nastupni_sazba_osobni": "40 Kč",
+      "cena_za_km_do_50km": "35 Kč/km",
+      "cena_za_km_od_50km": "30 Kč/km",
+      "cekani": "5 Kč/min",
+      "pristaveni": "15 Kč/km",
+      "nastupni_sazba_vicemist": "50 Kč",
+      "vicemist_do_30km": "45 Kč/km",
+      "vicemist_od_30km": "40 Kč/km"
+    },
+    "popis": "Flexibilita a spolehlivost s dlouholetou zkušeností. Profesionální přístup a osobní péče zaměřená na bezpečný a pohodlný transport.",
+    "sluzby": ["Letištní doprava", "Senior taxi", "Odvoz auta při oslavě", "Přeprava zásilek", "Celorepubliková přeprava", "24/7 služby"]
+  },
+  {
+    "id": 256,
+    "name": "MilanTaxi",
+    "website": "https://www.milantaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Morava", "okolí"],
+    "cenik": null,
+    "popis": "Vaše spolehlivá taxi služba nabízející promptní přepravu po moravském regionu a okolí.",
+    "sluzby": ["Taxislužba"]
+  },
+  {
+    "id": 257,
+    "name": "R Taxi Dubňany",
+    "website": "https://www.taxal.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Dubňany", "Hodonín"],
+    "cenik": null,
+    "popis": "Místní taxislužba v regionu Dubňany a Hodonín s 24hodinovou dostupností o víkendech.",
+    "sluzby": ["Taxislužba", "Přeprava psů v přepravkách"]
+  },
+  {
+    "id": 258,
+    "name": "RB TAXI Hodonín",
+    "website": "https://rbtaxihodonin.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Hodonín", "okolí"],
+    "cenik": null,
+    "popis": "Spolehlivé taxi Hodonín s online aplikací nabízející rychlé, pohodlné a cenově dostupné jízdy 24/7.",
+    "sluzby": ["Online rezervace", "Sledování jízdy", "24/7 služba"]
+  },
+  {
+    "id": 259,
+    "name": "Euro Taxi",
+    "website": "http://www.eurotaxi-hodonin.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Hodonín", "jižní Morava", "celá ČR", "Slovensko", "Rakousko"],
+    "cenik": null,
+    "popis": "EURO TAXI HODONÍN působí ke spokojenosti zákazníků na jihu Moravy v lázeňském městě Hodonín od roku 2003.",
+    "sluzby": ["Letištní transfery", "Dálková přeprava", "Nekuřácké vozy", "24/7 Nonstop", "Přeprava 1-8 osob", "Drink Service", "Fakturační platby", "Platba kartou"]
+  },
+  {
+    "id": 260,
+    "name": "Josef Vacenovský - City taxi",
+    "website": "http://www.citytaxihodonin.cz",
+    "status": "error",
+    "error": "ECONNREFUSED",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 261,
+    "name": "Fertaxi s.r.o.",
+    "website": "https://ferdinandvasek1.wixsite.com/fertaxisro",
+    "status": "success",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 262,
+    "name": "Andy taxi",
+    "website": "https://andytaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Hodonín"],
+    "cenik": null,
+    "popis": "Andy Taxi Hodonín.",
+    "sluzby": ["Taxislužba"]
+  },
+  {
+    "id": 263,
+    "name": "JV TAXI",
+    "website": "https://www.jvtaxi.cz",
+    "status": "error",
+    "error": "404",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 264,
+    "name": "Taxi Blaha",
+    "website": "https://taxi-hodonin.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Hodonín", "okolí", "celá ČR", "zahraničí"],
+    "cenik": null,
+    "popis": "Bezpečná a rychlá taxi služba. Spolehliví řidiči dopraví vás na místo určení s garancí dodržení ceny a dokonalé čistoty vozidel.",
+    "sluzby": ["Bezpečná jízda", "Čistá auta", "Slušné vystupování"]
+  },
+  {
+    "id": 265,
+    "name": "TAXI Mariánské Lázně",
+    "website": "https://www.taximarianskelazne.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Mariánské Lázně"],
+    "cenik": null,
+    "popis": "24H - NONSTOP taxi služba v Mariánských Lázních s nepřetržitou dostupností.",
+    "sluzby": ["Taxislužba 24/7"]
+  },
+  {
+    "id": 266,
+    "name": "Hallo taxi",
+    "website": "http://www.hallotaxi.cz",
+    "status": "error",
+    "error": "SSL certificate mismatch",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 267,
+    "name": "Taxi Royal",
+    "website": "https://www.taxiroyal.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Cheb", "okolí"],
+    "cenik": {
+      "fixni_ceny": "ano",
+      "bez_skrytych_poplatku": "ano"
+    },
+    "popis": "Profesionální taxi služba od roku 2014, operující 24/7 v Chebu. Transparentní fixní ceny bez skrytých poplatků.",
+    "sluzby": ["Letištní transfery", "Platba kartou", "Přeprava zavazadel", "Přeprava mazlíčků", "Tichá jízda", "Disco vozidla", "Mobilní aplikace", "VIP program"]
+  },
+  {
+    "id": 268,
+    "name": "Profi-Taxi",
+    "website": "https://www.profi-taxi.net",
+    "status": "success",
+    "oblasti_pusobnosti": ["Příbram", "okolí", "celá ČR", "zahraničí"],
+    "cenik": null,
+    "popis": "Společnost Profi Taxi Příbram disponuje 5 novými vozy a nabízí taxislužby s bohatými zkušenostmi s cestami po celé republice.",
+    "sluzby": ["Přeprava osob", "Cesty po celé republice", "Zahraniční transfery", "Letištní transfery", "NONSTOP služba", "SOS DRINK", "Smluvní přeprava", "Průvodce Prahou (anglicky)"]
+  },
+  {
+    "id": 269,
+    "name": "Team Charlie TAXI",
+    "website": "https://chebtaxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Cheb", "okolí", "Karlovarský kraj", "celá ČR", "Německo"],
+    "cenik": null,
+    "popis": "Taxislužba s řidiči dostupnými 24/7, kterým se můžete spolehnout - přátelské jednání, flexibilní přístup. Příjezd do 10-20 minut.",
+    "sluzby": ["Transfer", "Drink Service", "Pronájem vozidel", "Předobjednávky"]
+  },
+  {
+    "id": 270,
+    "name": "Taxislužba Jakub Chroust Taxíkno",
+    "website": "https://www.taxikno.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Klášterec nad Ohří", "okolí"],
+    "cenik": null,
+    "popis": "Profesionální, rychlé a spolehlivé taxi operující v oblasti Klášterec nad Ohří s klimatizovanými vozidly.",
+    "sluzby": ["Osobní přeprava", "Letištní transfery", "Expresní kurýrní služby", "Platba kartou"]
+  },
+  {
+    "id": 271,
+    "name": "Taxi Chrudim - OK & Profi",
+    "website": "https://www.taxi-chrudim.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Chrudim", "Slatiňany", "Chrudimský okres"],
+    "cenik": null,
+    "popis": "Zajišťujeme spolehlivé svezení do zaměstnání, domů, za zábavou či na letiště. Působíme od roku 1992.",
+    "sluzby": ["Standardní taxi", "Letištní transfery", "Autodoprava", "Odtahové služby", "Stěhovací služby"]
+  },
+  {
+    "id": 272,
+    "name": "ATTACK TAXI Pardubice",
+    "website": "https://www.attacktaxipce.eu/",
+    "status": "error",
+    "error": "Domain verification failed",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 273,
+    "name": "Taxi Pospíšil",
+    "website": "https://www.taxi-pardubice.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Pardubice", "okolí", "celá EU"],
+    "cenik": {
+      "letiste_praha": "3000 Kč z Pardubic"
+    },
+    "popis": "Spolehlivá taxislužba s nonstop provozem, novými vozidly a profesionálními řidiči. Specialisté na dálkové cesty s bezpečnou přepravou po celé EU.",
+    "sluzby": ["Airport transfer VIP", "Vícemístná přeprava (až 9 osob)", "Senior Taxi", "Autopůjčovna", "Svatební rozvoz", "Firemní přeprava", "Převoz dokumentů", "Bezkontaktní platby"]
+  },
+  {
+    "id": 274,
+    "name": "Taxi Quick",
+    "website": "http://www.taxi-quick.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Litomyšl", "Vysoké Mýto", "Česká Třebová", "Ústí nad Orlicí", "celá ČR", "zahraničí"],
+    "cenik": {
+      "nastupni_sazba": "30 Kč",
+      "cena_za_km": "35 Kč/km",
+      "cekani": "260 Kč/hod"
+    },
+    "popis": "Taxi quick je Vám plně k dispozici. Dopravíme Vás rychle, pohodlně, bezpečně s profesionálním přístupem.",
+    "sluzby": ["Přeprava osob (1-12)", "Kurýrní služby (do 600kg)", "Smluvní dojíždění", "Přeprava na akce", "Drink service", "24/7 Pá-Ne"]
+  },
+  {
+    "id": 275,
+    "name": "Taxi Pardubice - DP Taxi",
+    "website": "https://www.taxi-pardubice.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Pardubice", "okolí", "celá EU"],
+    "cenik": {
+      "letiste_praha": "3000 Kč z Pardubic"
+    },
+    "popis": "Spolehlivá taxislužba s nonstop provozem, novými vozidly a profesionálními řidiči. Specialisté na dálkové cesty.",
+    "sluzby": ["Airport transfer VIP", "Vícemístná přeprava", "Senior Taxi", "Autopůjčovna", "Svatební rozvoz", "Firemní přeprava", "Bezkontaktní platby"]
+  },
+  {
+    "id": 276,
+    "name": "TAXI Josef Uhlíř",
+    "website": "https://taxi-svetla.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 277,
+    "name": "Senior přeprava",
+    "website": "https://seniorclubcar.webnode.cz/",
+    "status": "success",
+    "oblasti_pusobnosti": ["Jihlava", "příměstské části Jihlavy"],
+    "cenik": {
+      "zakladni_sazba": "80 Kč/jízda",
+      "cena_za_km": "16 Kč/km"
+    },
+    "popis": "Přepravní služba pomáhající seniorům udržovat aktivní životní styl prostřednictvím spolehlivé mobility k lékařům, úřadům a kulturním akcím.",
+    "sluzby": ["Transport k lékaři", "Návštěvy úřadů", "Návštěvy kostela", "Kulturní akce", "Lázeňské pobyty", "Nákupy a doručování", "Vyzvednutí léků", "Pedikúra", "Asistence při stěhování"]
+  },
+  {
+    "id": 278,
+    "name": "XANADU-Taxi",
+    "website": "https://www.xanadu-taxi.cz",
+    "status": "success",
+    "oblasti_pusobnosti": null,
+    "cenik": null,
+    "popis": null,
+    "sluzby": null
+  },
+  {
+    "id": 279,
+    "name": "Vlastimil Kašna TAXI - AUTOPŮJČOVNA - SPEDICE",
+    "website": "https://www.taxi-autopujcovna.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Jihlava", "okolí"],
+    "cenik": {
+      "autopujcovna": "od 500 Kč/den"
+    },
+    "popis": "Jihlavská taxislužba dopravující cestující do jakéhokoliv místa denně i v nočních hodinách. Provozuje také autopůjčovnu a spedici.",
+    "sluzby": ["Taxislužba 24/7", "Autopůjčovna", "Spedice"]
+  },
+  {
+    "id": 280,
+    "name": "Taxi nonstop Jihlava",
+    "website": "https://www.taxinonji.cz",
+    "status": "success",
+    "oblasti_pusobnosti": ["Vysočina", "Jihlava", "celá ČR", "Evropa"],
+    "cenik": null,
+    "popis": "Na trhu s autodopravou jsme více jak 15 let. Nabízíme vnitrostátní a mezinárodní nákladní i osobní dopravu.",
+    "sluzby": ["Nákladní doprava", "Osobní doprava"]
+  }
+]
